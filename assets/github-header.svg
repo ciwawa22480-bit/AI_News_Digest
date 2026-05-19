@@ -1,0 +1,74 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI News Digest GitHub Header</title>
+  <desc id="desc">A dashboard-inspired header showing scattered AI signals turning into a verified daily brief.</desc>
+  <rect width="1280" height="640" fill="#0E1116"/>
+  <rect x="48" y="48" width="1184" height="544" rx="28" fill="#F7F3EA"/>
+  <rect x="48" y="48" width="1184" height="544" rx="28" stroke="#24292F" stroke-width="3"/>
+
+  <path d="M86 146H1194" stroke="#24292F" stroke-width="2"/>
+  <circle cx="100" cy="96" r="11" fill="#FF6B57" stroke="#24292F" stroke-width="2"/>
+  <circle cx="132" cy="96" r="11" fill="#FFC857" stroke="#24292F" stroke-width="2"/>
+  <circle cx="164" cy="96" r="11" fill="#2EC27E" stroke="#24292F" stroke-width="2"/>
+  <rect x="212" y="78" width="360" height="36" rx="18" fill="#FFFFFF" stroke="#24292F" stroke-width="2"/>
+  <text x="236" y="102" fill="#24292F" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">github.com/chengjialu8888/AI_News_Digest</text>
+
+  <text x="96" y="210" fill="#24292F" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="900">AI News Digest</text>
+  <text x="100" y="260" fill="#394150" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">From scattered AI signals to a trusted daily brief</text>
+  <text x="100" y="302" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">60+ sources · 5 QA gates · Markdown + CSV · source links for every item</text>
+
+  <g>
+    <rect x="96" y="352" width="184" height="70" rx="12" fill="#FFFFFF" stroke="#24292F" stroke-width="2"/>
+    <text x="118" y="382" fill="#24292F" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Chinese media</text>
+    <text x="118" y="406" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">新智元 · 量子位 · 36Kr</text>
+  </g>
+  <g>
+    <rect x="304" y="352" width="184" height="70" rx="12" fill="#FFFFFF" stroke="#24292F" stroke-width="2"/>
+    <text x="326" y="382" fill="#24292F" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Global sources</text>
+    <text x="326" y="406" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">HN · GitHub · HF · PH</text>
+  </g>
+  <g>
+    <rect x="512" y="352" width="184" height="70" rx="12" fill="#FFFFFF" stroke="#24292F" stroke-width="2"/>
+    <text x="534" y="382" fill="#24292F" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Builder feeds</text>
+    <text x="534" y="406" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">X · blogs · podcasts</text>
+  </g>
+
+  <path d="M280 387H304" stroke="#24292F" stroke-width="3"/>
+  <path d="M488 387H512" stroke="#24292F" stroke-width="3"/>
+  <path d="M696 387C746 387 746 324 796 324" stroke="#24292F" stroke-width="3"/>
+
+  <g>
+    <rect x="792" y="214" width="342" height="306" rx="18" fill="#FFFFFF" stroke="#24292F" stroke-width="3"/>
+    <rect x="820" y="244" width="146" height="22" rx="11" fill="#FF6B57"/>
+    <rect x="982" y="244" width="94" height="22" rx="11" fill="#FFC857"/>
+    <text x="820" y="300" fill="#24292F" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900">Daily Brief</text>
+    <text x="820" y="335" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Verified AI industry intelligence</text>
+
+    <rect x="820" y="366" width="286" height="38" rx="9" fill="#EEF6FF" stroke="#7AA7FF" stroke-width="2"/>
+    <text x="838" y="391" fill="#24292F" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Heavy signal · source checked</text>
+
+    <rect x="820" y="420" width="286" height="38" rx="9" fill="#F7F3EA" stroke="#D0B36A" stroke-width="2"/>
+    <text x="838" y="445" fill="#24292F" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Worth watching · trend validated</text>
+
+    <rect x="820" y="474" width="132" height="24" rx="12" fill="#24292F"/>
+    <rect x="968" y="474" width="82" height="24" rx="12" fill="#2EC27E"/>
+    <text x="842" y="491" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">Markdown</text>
+    <text x="992" y="491" fill="#0E1116" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900">CSV</text>
+  </g>
+
+  <g>
+    <rect x="98" y="462" width="188" height="38" rx="19" fill="#24292F"/>
+    <text x="120" y="487" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Read in 3 minutes</text>
+  </g>
+  <g>
+    <rect x="304" y="462" width="204" height="38" rx="19" fill="#2EC27E" stroke="#24292F" stroke-width="2"/>
+    <text x="326" y="487" fill="#0E1116" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">Every item linked</text>
+  </g>
+  <g>
+    <rect x="526" y="462" width="166" height="38" rx="19" fill="#FFC857" stroke="#24292F" stroke-width="2"/>
+    <text x="550" y="487" fill="#0E1116" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">Team-ready</text>
+  </g>
+
+  <path d="M1056 124C1124 130 1162 168 1167 228" stroke="#FF6B57" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1138 124C1166 152 1182 180 1188 214" stroke="#FFC857" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1188" cy="244" r="10" fill="#2EC27E" stroke="#24292F" stroke-width="3"/>
+</svg>
