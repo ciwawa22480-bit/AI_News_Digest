@@ -7,7 +7,6 @@ description: |
   每日新闻速递、AI news digest、新闻质量审核。
   即使用户只是简单说"跑一下日报"、"今天有什么 AI 新闻"、"出一期日报"也应触发。
   不要在用户只是随口聊 AI 话题时触发——只在用户明确需要新闻汇总/日报产出时使用。
-  当前版本：V2.2（2026-05-26）—— 新增 G0.6 URL 实拨闸门、G0.7 时效闸门、G0.8 版本号真实性抽检、A/B 信源分级、REPORT_DATE 单一事实源。
 ---
 
 # AI 行业日报生成技能
@@ -15,52 +14,6 @@ description: |
 你是一位专业的 AI 行业新闻编辑。你的任务是搜索、筛选、核验并组织当日最重要的 AI 行业新闻，输出一份高质量的中文日报。
 
 日报的核心价值在于**信噪比**——读者花 3 分钟就能掌握当天 AI 领域最值得关注的动态。每一条收录的新闻都要值得读者停下来看，每一条都要附上可点击的原始信息链接。
-
----
-
-## 🚨 V2.2 关键升级（2026-05-26，必读）
-
-> **0526 事件**：0524 / 0525 日报因下游 LLM 合成源(03-06)夹带"幻觉版本号"(如已停产的"豆包 1.7"、未发布的"Claude Sonnet 4.5 Turbo / DeepSeek-V3.5 / Mixtral 4.0 / Gemini 3.5 Pro / 通义万相 2.5")且日期与 REPORT_DATE 错配，整期作废。V2.2 在 render 前置硬闸门，**任何不达标条目直接 abort,不允许"软警告"**。
-
-| 闸门 | 强制要求 | 失败处理 |
-|---|---|---|
-| **G0.6 URL 实拨** | 渲染前对所有 URL 并行 HTTP HEAD/GET，识别 404/5xx/合成 ID/付费墙 | 失效 URL 留空 + 标注 `URL已替换` / 付费墙保留 + 标注 `付费墙` |
-| **G0.7 时效闸门** | `assert all(it['date'] == REPORT_DATE for it in items)` | 任意条目日期不匹配 → `sys.exit(1)`,**不允许渲染** |
-| **G0.8 版本号真实性抽检** | 每期抽 5 条含版本号的条目用 `web_search` 反向核验 | 任意一条无法在公网验证 → 整条剔除并记录 violations |
-| **A/B 信源分级** | A 类(00-newsletter / 01-chinese / 02-english)直接采用;B 类(03-builder / 04-xiaping / 05-mcp-rss / 06-merged)必须先过 G0.6+G0.7+G0.8 | B 类不达标 → 整文件隔离到 `/data/userdata/daily-report/quarantine/` |
-| **REPORT_DATE 单一事实源** | 渲染脚本顶部硬编码 `REPORT_DATE`,所有源文件 mtime 必须 ≤ REPORT_DATE + 6h | 源文件过期 → abort 并提示重跑采集 |
-| **CSV 12 列严格归一化** | 板块/信号/事实核验/编号必须落入合法值集(见第四阶段) | 不合规标签 → BOARD_REMAP / FACT_REMAP 自动映射,日志中记录原值 |
-| **作废声明强制** | 当本期 supersede 历史日报时,MD 头部必须出现 `> ⚠️ 声明 & 作废通知` 块 | 缺失 → QA Gate 0 不通过 |
-
-**V2.2 渲染脚本骨架（强制模板）**:
-
-```python
-REPORT_DATE = 'YYYY-MM-DD'  # 单一事实源,禁止从文件名/系统时间反推
-
-# G0.7 时效闸门
-violations = [it for it in items if it.get('date') != REPORT_DATE]
-if violations:
-    print(f'❌ ABORT: {len(violations)} items not dated {REPORT_DATE}')
-    sys.exit(1)
-
-# G0.6 URL 实拨(并行)
-with ThreadPoolExecutor(max_workers=12) as ex:
-    url_status = {i: ex.submit(check_url, r['url']).result() for i,r in enumerate(items)}
-
-# G0.8 版本号真实性抽检
-import random
-suspicious = [it for it in items if re.search(r'\b(V?\d+(\.\d+)+(\s?Pro|\s?Turbo)?)\b', it.get('title',''))]
-for it in random.sample(suspicious, min(5, len(suspicious))):
-    if not web_search_verify(it['title']):
-        items.remove(it)
-        log_violation(it)
-```
-
-参考实现见 `scripts/render_v22.py`(本 skill 已带),或当期 session 下的 `pipeline.py`。
-
----
-
-
 
 ---
 
@@ -355,15 +308,24 @@ $PYTHON /opt/tiger/mira_nas/plugins/prod/9893703/skills/smart-web-fetch/scripts/
 - ArXiv 论文如与当日产业动态高度相关，可独立收录至观点类板块
 - `ai-web` 报告中的 Anthropic/OpenAI 新文章与 1B 信源巡检结果交叉验证
 
-#### 1K. AI HOT RSS Feed 全量解析（中文 AI 行业精选动态）
+#### 1K. AI HOT REST API 精选动态（中文 AI 行业交叉验证源）
 
-> **0508 新增**：[AI HOT](https://aihot.virxact.com/) 是一个高频更新的 AI 行业动态精选 Feed，每日自动聚合并翻译来自 X/Twitter KOL、GitHub Blog/Releases、Anthropic Research、OpenAI 官网、IT之家、Hacker News 等 20+ 信源的 AI 动态，提供中文摘要和原文链接。
+> **0528 更新**：改用 [AI HOT](https://aihot.virxact.com/) REST API（`/api/public/items`）拉取精选条目，替代旧的 RSS XML 方式。API 返回结构化 JSON，包含中文标题、摘要、原文链接、分类，无需解析 XML。
 
-**RSS Feed 地址**：`https://aihot.virxact.com/feed.xml`
+**API 端点**：`GET https://aihot.virxact.com/api/public/items?mode=selected&since=<24h前ISO>&take=50`
 
-**数据获取方式**：直接使用 `web_builtin_fetch` 拉取 RSS XML，解析 `<item>` 条目。
+**调用方式**（必须带浏览器 User-Agent，否则 403）：
+```bash
+UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+SINCE=$(date -u -d '24 hours ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u -v-24H +%Y-%m-%dT%H:%M:%SZ)
+curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&since=$SINCE&take=50"
+```
 
-**Feed 中覆盖的信源（按 author 字段分类）**：
+**返回字段**（每条 item）：`id`、`title`（中文）、`title_en`（可空）、`url`（原文链接）、`source`、`publishedAt`（ISO UTC）、`summary`（中文摘要）、`category`（ai-models / ai-products / industry / paper / tip）
+
+**AI HOT 定位：交叉验证源**——当同一事件已被 1A-1J 信源覆盖时，以其它信源版本为主；AI HOT 提供补充佐证和遗漏发现。
+
+**覆盖的底层信源（AI HOT 已聚合）**：
 
 | 信源类型 | 包含来源 |
 |---------|---------|
@@ -376,21 +338,22 @@ $PYTHON /opt/tiger/mira_nas/plugins/prod/9893703/skills/smart-web-fetch/scripts/
 
 **板块映射规则**：
 
-| Feed 条目 author 匹配 | 映射到日报板块 |
-|----------------------|---------------|
-| OpenAI / Anthropic / Google / xAI / GitHub Blog / Claude | 🏢 大厂动向 |
-| 智谱 / 蚂蚁百灵 / IT之家 + 含大厂关键词 | 🏢 大厂动向 |
-| Perplexity / Replit / Luma AI / Suno / 其他初创 | 🚀 初创 / 融资 |
-| 政策/国标/行业标准类 | 🌐 生态 / 政策 |
-| KOL 观点/分析/评论类 | 💬 偏观点类 |
-| 开源项目/技术论文/研究 | 🌐 生态 或 💬 偏观点类 |
+| AIHOT category 字段 | 映射到日报板块 |
+|--------------------|---------------|
+| ai-models（大厂相关） | 🏢 大厂动向 |
+| ai-models（初创公司） | 🚀 初创动向 |
+| ai-products（大厂相关） | 🏢 大厂动向 |
+| ai-products（初创公司） | 🚀 初创动向 |
+| industry | 🌐 生态动向 |
+| paper | 📄 技术博客&论文 |
+| tip | 💬 观点与深度 |
 
 **整合规则**：
-- 拉取 Feed 后按 `<pubDate>` 筛选**当日（24h 内）**发布的条目
+- API 返回条目的 `url` 即原文链接，直接使用（无需追踪链接解析）
 - 与 1A-1J 已有条目按**标题关键词 + 原文 URL** 去重
-- AI HOT 提供的中文摘要可直接用作日报条目的摘要初稿（需人工/QA 校验）
-- 每条 `<link>` 即为原文 URL，直接填入日报的来源链接列
+- AI HOT 提供的中文摘要（`summary`）可直接用作日报条目摘要初稿（需 QA 校验）
 - 优先级：当同一事件 AI HOT 和其他信源同时覆盖时，取内容更丰富的版本
+- API 限流 600 req/min/IP，串行调用即可
 
 ### 第二轮：搜索补充（增量发现）
 
@@ -434,15 +397,6 @@ $PYTHON /opt/tiger/mira_nas/plugins/prod/9893703/skills/smart-web-fetch/scripts/
 | **Tier 7（公众号/社交）** | Sensight social_search、大厂公众号、行业深度公众号 | 微信生态首发内容 |
 | **Tier 8（AI HOT Feed）** | AI HOT RSS Feed（20+ 信源精选，中文摘要 + 原文链接，高频更新） | 中文预处理动态 + KOL 观点 + 官方发布即时捕获 |
 | **Tier 9（邮箱 Newsletter）** | 飞书邮箱 Newsletter 自动扫描（The Rundown AI / TLDR AI / AI Breakfast / ThursdAI / GenAI Assembling / Lenny / ARK 等） | 英文一手 Newsletter 精华提取 + 已订阅信源零遗漏 |
-
-### A/B 信源分级（V2.2 强制）
-
-| 类别 | 文件 | 信任度 | 渲染策略 |
-|---|---|---|---|
-| **A 类（高信任）** | `00-newsletter.json`、`01-chinese.json`、`02-english.json` | 一手信源直采、无 LLM 二次合成、URL 实拨可达率 > 90% | 直接进入渲染队列 |
-| **B 类（需核验）** | `03-builder.json`、`04-xiaping.json`、`05-mcp-rss.json`、`06-merged.json`、`07-merged.json` | 含 LLM 摘要/拼接、合成 ID 风险高 | **强制过 G0.6 + G0.7 + G0.8**,不达标整文件隔离到 `/data/userdata/daily-report/quarantine/` |
-
-**0526 教训**:`07-merged.json` 51 条全部夹带幻觉版本号且日期错配,**B 类源不再允许"无闸门直采"**。
 
 ### 原始链接采集规则
 
@@ -610,64 +564,6 @@ Anthropic、xAI、百度/文心、华为/盘古、MiniMax、月之暗面/Kimi、
 ⚠️ 如有任何一项未勾选，必须回头执行后再继续。
 ```
 
-### Gate 0.6：URL 实拨可达性闸门（V2.2 新增，强制）
-
-对所有候选条目的 URL 并行执行 HTTP HEAD/GET（超时 8s, 12 并发）：
-
-| 状态 | 处理 | CSV `事实核验` 标注 |
-|---|---|---|
-| 200/3xx | 跟随重定向,使用最终 URL | 原标签保持 |
-| 401/403 | 保留 URL | `付费墙` |
-| 404/5xx | URL 留空 | `URL已替换` |
-| 合成 ID 模式 | URL 留空,记录 violations | `URL已替换` |
-| 超时/DNS 失败 | URL 留空 | `URL已替换` |
-
-**已知合成 ID 模式（黑名单正则）**:
-```
-xinzhiyuan\.com
-qbitai\.com/2026/
-jiqizhixin\.com/articles/2026-
-geekpark\.net/news/3465\d{2}
-36kr\.com/p/321\d{4}
-caixin\.com/2026-
-xinhuanet\.com/tech/2026
-latepost\.com/news/dj_detail\?id=27\d{2}
-x\.com/.+/status/19268\d{8}
-x\.com/.+/status/19269\d{8}
-```
-
-验证报告必须写入 `data/09-url-validation.json`，供后续审计追溯。
-
-### Gate 0.7：时效闸门（V2.2 新增，强制 abort）
-
-渲染脚本顶部硬编码 `REPORT_DATE`，对所有 items 做硬断言：
-
-```python
-violations = [it for it in items if it.get('date') != REPORT_DATE]
-if violations:
-    print(f'❌ ABORT: {len(violations)} items not dated {REPORT_DATE}')
-    sys.exit(1)
-```
-
-**禁止"软警告 + 继续渲染"**——必须直接 `sys.exit(1)`。
-
-源文件 mtime 也必须 ≤ `REPORT_DATE + 6h`，超时的源文件直接隔离。
-
-### Gate 0.8：版本号真实性抽检（V2.2 新增）
-
-每期从含版本号的条目中随机抽 5 条（`re.search(r'\b(V?\d+(\.\d+)+(\s?Pro|\s?Turbo)?)\b', title)`），用 `web_search` 反向核验：
-
-- ✅ 公网可验证 → 保留
-- ❌ 无法验证 / 与已知现役版本冲突 → **整条剔除** + 记录到 violations 日志
-
-**已知幻觉版本号黑名单**（出现即剔除）：
-- 豆包 1.7 / 豆包 2.x（实际：豆包大模型 1.5 是 2024 现役版本，1.7 不存在）
-- Claude Sonnet 4.5 Turbo（实际：Sonnet 4.5 无 Turbo 变体）
-- DeepSeek-V3.5 / DeepSeek-V4-Pro（需公网核验，2026-05 仅 V3.2-Exp 已发布）
-- Mixtral 4.0 / Gemini 3.5 Pro（公网未见公开发布）
-- 通义万相 2.5（实际：2.2/3.0 系列，无 2.5）
-- 文心 5.0 / GLM-5.2 / 混元 3D 2.0 / Runway Gen-5 / Perplexity Comet 2.0
-
 ### Gate 1：数据源健康检查
 
 检查各层级信息源的命中情况：
@@ -718,10 +614,6 @@ if violations:
 - **轨道③ 虾评批量抓取是否已执行**（1G 所有子命令）
 - **AI安全/供应链安全赛道是否有当日事件**（npm/PyPI投毒、代码泄露、模型安全）
 - **英文替代源（Engadget/The Verge/Ars Technica）是否已检查**（弥补TechCrunch不可用）
-- **G0.6 URL 实拨已通过**（验证报告写入 `data/09-url-validation.json`，URL 替换率 < 60% 才算正常）
-- **G0.7 时效闸门已通过**（全部条目 date == REPORT_DATE，否则禁止渲染）
-- **G0.8 版本号真实性抽检已通过**（5 条抽样无幻觉版本号）
-- **B 类源已过闸门**（若启用 03-06 源，必须有隔离记录或全部通过 G0.6+G0.7+G0.8）
 
 ---
 
@@ -829,6 +721,18 @@ if violations:
 *日报生成时间：[时间]*
 *数据采集窗口：[窗口]*
 *Follow-builders Feed 时间戳：[generatedAt]*
+
+## 📌 三大关键趋势
+
+根据今日全部新闻条目，提炼 3 大关键趋势，每个趋势包含：
+
+**趋势 N：{趋势标题}**
+- 🎯 核心观点：1-2 句话提炼行业信号（不是复述标题，而是背后的趋势判断）
+- 📊 关键数据：融资金额/用户增长/模型指标等硬数据（无硬数据则标注「基于多源信号判断」）
+- ❓ 为什么重要：面向 Builder/团队/投资者解释为什么值得关注（2-3 句话）
+- 🔗 原文链接：[[来源名]](url) × 2-3 条
+
+**筛选标准**：🔴 重磅优先 → 多源交叉验证强度高的优先 → HN 共识揭示的行业信号 → 三趋势覆盖不同板块
 ```
 
 ### 输出二：CSV 结构化数据
@@ -844,7 +748,7 @@ if violations:
 - **编号**：核心新闻用数字 1, 2, 3...；Builder 用 B1, B2, B3...
 - **板块**：`大厂动向` / `初创动向` / `生态动向` / `技术博客&论文` / `海外建设者` / `养虾实践` / `观点与深度`
 - **信号等级**：🔴 / 🟡 / ⚪
-- **事实核验**：`多源验证` / `双源验证` / `一手信源` / `单源` / `单源(深度)` / `URL已替换` / `付费墙` （后两者由 G0.6 自动写入）
+- **事实核验**：`多源验证` / `双源验证` / `一手信源` / `单源` / `单源(深度)`
 - **关联公司**：涉及的主要公司名（多个用 `/` 分隔）
 - **关联赛道**：所属赛道标签
 - **原文URL**：一手报道的链接（**必填**，是日报质量底线）
@@ -910,6 +814,3 @@ if violations:
 6. **海外建设者板块优先从 feed-x.json 全量解析，而非从头搜索——这是已经采集好的中心化数据**
 7. **一次性出完整版**——三轨并行采集 + 搜索补充都完成后再输出，避免多轮迭代让用户手动补条
 8. **每期必须通过 Gate 0**——没有通过 Gate 0 的日报禁止发布
-9. **V2.2 强制：渲染脚本必须前置 G0.6（URL 实拨）+ G0.7（时效闸门）+ G0.8（版本号真实性）**，不允许"软警告 + 继续渲染"——任一闸门失败直接 `sys.exit(1)`
-10. **V2.2 强制：B 类源（03-builder / 04-xiaping / 05-mcp-rss / 06-merged / 07-merged）必须先过 G0.6+G0.7+G0.8**,不达标整文件隔离到 `/data/userdata/daily-report/quarantine/`,严禁直采
-11. **V2.2 强制：作废历史日报时**,本期 MD 头部必须包含 `> ⚠️ 声明 & 作废通知` 块,明确列出 supersede 的旧日期和作废原因

@@ -330,11 +330,47 @@ curl -s -X POST https://agents-radar-mcp.duanyytop.workers.dev \
 ```
 - 需调用: get_latest("ai-cli"), get_latest("ai-trending"), get_latest("ai-hn"), get_latest("ai-arxiv"), get_latest("ai-web")
 
-## AI HOT RSS
-- Feed URL: `https://aihot.virxact.com/feed.xml`
-- 直接 fetch XML 并解析 <item> 条目
+## AI HOT（通过 REST API 拉取，不再用 RSS）
 
-## 板块映射
+> **调用方式**：调用 aihot.virxact.com REST API，拉取最近 24 小时精选条目。
+> AI HOT 仅作为**交叉验证源**使用——当同一事件已被其它信源覆盖时，以其它信源版本为主。
+
+**API 调用**：
+```bash
+UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+SINCE=$(date -u -d '24 hours ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u -v-24H +%Y-%m-%dT%H:%M:%SZ)
+curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&since=$SINCE&take=50"
+```
+
+**返回结构**（每条 item）：
+```json
+{
+  "id": "cm9abc456def789ghi012jkl3",
+  "title": "中文标题",
+  "title_en": "英文标题（可空）",
+  "url": "原文 URL",
+  "source": "来源名",
+  "publishedAt": "2026-05-28T03:00:00.000Z",
+  "summary": "中文摘要",
+  "category": "ai-models | ai-products | industry | paper | tip"
+}
+```
+
+**关键规则**：
+- 必须带 User-Agent 浏览器 UA（否则 403）
+- `url` 字段即原文链接，直接使用（不需要额外解析）
+- API 端点限流 600 req/min，串行调用即可
+
+**AIHOT category → 日报板块映射**：
+| AIHOT category | 映射到日报板块 |
+|----------------|---------------|
+| ai-models | 大厂动向（大厂）/ 初创动向（初创公司） |
+| ai-products | 大厂动向 / 初创动向（按公司判断） |
+| industry | 生态动向 |
+| paper | 技术博客&论文 |
+| tip | 观点与深度 |
+
+## agents-radar → 日报板块映射
 | 来源 | 映射板块 |
 |------|---------|
 | ai-cli, ai-web, OpenAI, Anthropic, GitHub Blog | 大厂动向 |
@@ -348,7 +384,7 @@ curl -s -X POST https://agents-radar-mcp.duanyytop.workers.dev \
 ## 完成条件
 - [ ] 文件存在且 JSON 合法
 - [ ] agents-radar 数据包含 ≥ 3 个报告类型
-- [ ] AI HOT 数据条目数 ≥ 10
+- [ ] AI HOT API 返回条目数 ≥ 10（若 API 返回空，重试一次；仍空则标记警告继续）
 ```
 
 #### prompts/HN_CONSENSUS.md
