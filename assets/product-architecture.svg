@@ -24,7 +24,7 @@
 
   <rect width="1500" height="980" rx="28" fill="#fbfcff"/>
   <text x="750" y="48" text-anchor="middle" class="title">AI News Digest 产品架构</text>
-  <text x="750" y="78" text-anchor="middle" class="subtitle">多源采集 → Goal 文件记忆 → LLM 归类打标 → 质量控制 → 聚合交付</text>
+  <text x="750" y="78" text-anchor="middle" class="subtitle">多源采集 → Goal 分段 → Ralph 断点 → Kleisli 证据 → 聚合交付</text>
 
   <!-- Layer backgrounds -->
   <g filter="url(#shadow)">
@@ -44,7 +44,7 @@
     <text x="54" y="500" text-anchor="middle" class="layer-index">③</text>
     <text x="54" y="527" text-anchor="middle" class="layer-title" transform="rotate(-90 54 527)">LLM 分析层</text>
     <text x="54" y="665" text-anchor="middle" class="layer-index">④</text>
-    <text x="54" y="692" text-anchor="middle" class="layer-title" transform="rotate(-90 54 692)">质量控制层</text>
+    <text x="54" y="692" text-anchor="middle" class="layer-title" transform="rotate(-90 54 692)">Kleisli 质控层</text>
     <text x="54" y="830" text-anchor="middle" class="layer-index">⑤</text>
     <text x="54" y="857" text-anchor="middle" class="layer-title" transform="rotate(-90 54 857)">聚合输出层</text>
   </g>
@@ -87,7 +87,7 @@
     <text x="1122" y="362" text-anchor="middle" class="card-copy">05 MCP-RSS / 06 HN 共识</text>
 
     <rect x="1272" y="317" width="98" height="56" rx="28" fill="#fff" stroke="#8b6add" stroke-width="1.2"/>
-    <text x="1321" y="340" text-anchor="middle" class="pill">并行 Goal</text>
+    <text x="1321" y="340" text-anchor="middle" class="pill">Ralph Loop</text>
     <text x="1321" y="358" text-anchor="middle" class="card-copy">断点续跑</text>
   </g>
 
@@ -109,8 +109,8 @@
   <!-- Quality cards -->
   <g>
     <rect x="210" y="635" width="300" height="80" rx="10" fill="#ffffff" stroke="#d6a12d" stroke-width="1.4"/>
-    <text x="360" y="667" text-anchor="middle" class="card-title">不重不漏</text>
-    <text x="360" y="692" text-anchor="middle" class="card-copy">去重 / 板块覆盖 / 关键源覆盖</text>
+    <text x="360" y="667" text-anchor="middle" class="card-title">Kleisli Gate</text>
+    <text x="360" y="692" text-anchor="middle" class="card-copy">跨日去重 / 状态传递 / 证据 trace</text>
 
     <rect x="600" y="635" width="300" height="80" rx="10" fill="#ffffff" stroke="#d6a12d" stroke-width="1.4"/>
     <text x="750" y="667" text-anchor="middle" class="card-title">Fact Check</text>
@@ -164,5 +164,5 @@
     <path class="flow" marker-end="url(#arrow)" d="M1140 715V755H1230V798"/>
   </g>
 
-  <text x="750" y="936" text-anchor="middle" class="subtitle">设计原则：并行采集、文件记忆、分阶段分析、交叉质控，最后聚合成可读与可复用的日报资产。</text>
+  <text x="750" y="936" text-anchor="middle" class="subtitle">设计原则：Goal 切分上下文，Ralph Loop 保持连续性，Kleisli Gate 传递证据，最后聚合成日报资产。</text>
 </svg>
