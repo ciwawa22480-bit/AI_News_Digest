@@ -60,8 +60,8 @@
     <text x="590" y="197" text-anchor="middle" class="card-copy">OpenAI / Anthropic / HF / HN</text>
 
     <rect x="770" y="140" width="280" height="80" rx="10" fill="#ffffff" stroke="#5b84dc" stroke-width="1.4"/>
-    <text x="910" y="172" text-anchor="middle" class="card-title">社区与结构化源</text>
-    <text x="910" y="197" text-anchor="middle" class="card-copy">Builder / agents-radar / AI HOT / PH</text>
+    <text x="910" y="172" text-anchor="middle" class="card-title">微信与社区源</text>
+    <text x="910" y="197" text-anchor="middle" class="card-copy">公众号全文 / Builder / Radar / AI HOT</text>
 
     <rect x="1090" y="140" width="280" height="80" rx="10" fill="#ffffff" stroke="#5b84dc" stroke-width="1.4"/>
     <text x="1230" y="172" text-anchor="middle" class="card-title">抓取与降级</text>
