@@ -88,7 +88,11 @@ if not top_titles:
         if len(top_titles) >= 3:
             break
 
-one_liner = f"今日共汇总 {total} 条 AI 行业资讯（🔴重磅 {red_count} / 🟡值得关注 {yellow_count}）,核心看点: " + " | ".join(t[:30] for t in top_titles[:3])
+focus_titles = " | ".join(t[:26] for t in top_titles[:3])
+one_liner = (
+    f"今日共汇总 {total} 条 AI 行业资讯（🔴重磅 {red_count} / 🟡值得关注 {yellow_count}）。"
+    f"读法：先判断这些信号是否改变能力、成本、分发或组织采用，再看新闻本身：{focus_titles}"
+)
 
 # Build Markdown
 md = []
@@ -186,6 +190,7 @@ md.append("")
 
 # Section 5: 📌 三大关键趋势
 md.append("## 📌 三大关键趋势\n")
+md.append("> 本节按第一性原理重写本周趋势：先判断能力、成本、分发、供给、监管、组织采用这六个底层变量哪一个真的变化，再提炼标题、概括语和洞见。标题必须是判断句，不做新闻标题拼接。\n")
 
 # Auto-derive 3 trends from highest-priority items
 trends = []
@@ -216,7 +221,9 @@ if trend3_signals:
 
 for i, t in enumerate(trends, 1):
     md.append(f"### 趋势 {i}: {t['title']}\n")
-    md.append(f"{t['desc']}\n")
+    md.append(f"- 🎯 **核心观点**：{t['desc']}")
+    md.append("- 🧭 **批判性判断**：这条趋势必须回到能力、成本、分发、供给、监管、组织采用中的真实变量变化；如果只有发布热闹、口径未核验或缺少采用证据，只能作为判断线索，不能写成确定结论。")
+    md.append("- 🔎 **下周观察**：看支撑事件是否转化为可验证的产品采用、价格变化、开发者迁移、监管反馈或客户续费/流失信号。\n")
     md.append("**关键佐证:**")
     for e in t["evidence"]:
         md.append(f"- {e}")
