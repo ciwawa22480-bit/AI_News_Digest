@@ -1,0 +1,38 @@
+{
+  "sources": {
+    "github_trending": {
+      "enabled": true,
+      "url": "https://github.com/trending",
+      "languages": ["python", "typescript", "rust"],
+      "description": "GitHub 热门项目"
+    },
+    "hacker_news": {
+      "enabled": true,
+      "api_url": "https://hacker-news.firebaseio.com/v0",
+      "max_items": 15,
+      "keywords": ["AI", "LLM", "GPT", "Claude", "Agent", "machine learning", "neural", "transformer", "diffusion", "openai", "anthropic", "model"],
+      "description": "Hacker News AI 相关热帖"
+    },
+    "ai_hot_feed": {
+      "enabled": true,
+      "feed_url": "https://aihot.virxact.com/feed.xml",
+      "max_items": 20,
+      "description": "AI HOT Feed 中文热点"
+    },
+    "huggingface_papers": {
+      "enabled": true,
+      "api_url": "https://huggingface.co/api/daily_papers",
+      "max_items": 10,
+      "description": "Hugging Face 每日论文"
+    }
+  },
+  "ai": {
+    "model": "gpt-4o-mini",
+    "language": "zh-CN",
+    "fallback_enabled": true
+  },
+  "output": {
+    "schedule": "daily",
+    "timezone": "Asia/Shanghai"
+  }
+}
