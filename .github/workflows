@@ -1,1 +1,55 @@
 
+name: AI 资讯自动生成
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 抓取多源 AI 资讯
+        run: python scripts/fetch_multi_source.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: AI 生成中文摘要
+        run: python scripts/generate_ai_summary.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: 生成网页
+        run: python scripts/build_html.py
+
+      - name: 提交数据更新
+        run: |
+          git config user.name "AI News Bot"
+          git config user.email "bot@github.com"
+          git add data/ || true
+          git diff --cached --quiet || git commit -m "更新数据 $(date +%Y-%m-%d)"
+          git push || true
+
+      - name: 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          force_orphan: true
