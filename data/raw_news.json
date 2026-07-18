@@ -1,22 +1,948 @@
 {
-  "fetch_time": "2026-07-18T12:52:07.777933+00:00",
-  "total_items": 45,
+  "fetch_time": "2026-07-18T13:26:12.344453+00:00",
+  "total_items": 112,
   "sources_summary": {
-    "hacker_news": 5,
-    "ai_hot_feed": 20,
-    "36kr_ai": 20
+    "36kr_ai": 25,
+    "ai_hot_feed": 25,
+    "venturebeat": 3,
+    "theverge": 6,
+    "techcrunch_ai": 18,
+    "latent_space": 10,
+    "one_useful_thing": 8,
+    "product_hunt": 10,
+    "hacker_news": 7
   },
   "items": [
+    {
+      "source": "36kr_ai",
+      "title": "WAIC2026的三个关键信号：算力重组、Agent交付与AI硬件闭环",
+      "description": "",
+      "url": "https://36kr.com/p/3900957398960006",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989181+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "刚刚，Fable 5官宣永久可用",
+      "description": "",
+      "url": "https://36kr.com/p/3900918550546308",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989207+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "十年服务世界，正在成为普渡迈向具身智能的底牌",
+      "description": "",
+      "url": "https://36kr.com/p/3900610713175938",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989216+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "门票炒到 3000 元的 WAIC，我们找到了 AI 真正的创新",
+      "description": "",
+      "url": "https://36kr.com/p/3899772123694979",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989224+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "打败Fable 5！Kimi K3冲上第一，杨植麟导师很骄傲",
+      "description": "",
+      "url": "https://36kr.com/p/3899876606985864",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989230+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "算法代理不对称：当AI替你决策时，你连反对的权利都没有",
+      "description": "",
+      "url": "https://36kr.com/p/3899527497335943",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989236+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "全球首个“变形金刚”，中国企业造出来了",
+      "description": "",
+      "url": "https://36kr.com/p/3899505422796161",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989242+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "真人短剧，被AI逼上大银幕",
+      "description": "",
+      "url": "https://36kr.com/p/3899537124165256",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989253+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "第一个被AI做空的国家，出现了",
+      "description": "",
+      "url": "https://36kr.com/p/3899650585806469",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989260+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "什么国产模型，都能跟Fable 5掰手腕了？全方位实测Kimi K3",
+      "description": "",
+      "url": "https://36kr.com/p/3899650690188936",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989266+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "终于用上 AI 的公司，发现业务被大模型公司抢了",
+      "description": "",
+      "url": "https://36kr.com/p/3899582770611845",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989271+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "做出来容易上线难：搞定企业级Agent要先学会“评估”？",
+      "description": "",
+      "url": "https://36kr.com/p/3899570321901449",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989276+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "全体起立：面向AI智能体的Internet Court现已开庭",
+      "description": "",
+      "url": "https://36kr.com/p/3899512269538945",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989282+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "Kimi K3：马斯克 Impressed",
+      "description": "",
+      "url": "https://36kr.com/p/3899601903322244",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989286+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "给人形机器人当老师，撑起一个百亿市场",
+      "description": "",
+      "url": "https://36kr.com/p/3899549255288711",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989291+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "字节两员离职大将，单挑老东家？",
+      "description": "",
+      "url": "https://36kr.com/p/3899540157236869",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989296+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环",
+      "description": "",
+      "url": "https://36kr.com/p/3899556701128578",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989300+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
+      "description": "",
+      "url": "https://36kr.com/p/3899597215745664",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989304+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "星地协同，问答无界 ——复旦大学空间互联网研究院联合天空智算亮相WAIC",
+      "description": "",
+      "url": "https://36kr.com/p/3899524856694409",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989310+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "梁文锋“狙击”闫俊杰",
+      "description": "",
+      "url": "https://36kr.com/p/3899475392906880",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989314+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "高价的Kimi K3，缺钱的月之暗面",
+      "description": "",
+      "url": "https://36kr.com/p/3899419861976457",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989318+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "WAIC观察：具身智能的竞赛，开始从身体转向大脑",
+      "description": "",
+      "url": "https://36kr.com/p/3899248113158023",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989322+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "Anthropic其实并不AI原生？",
+      "description": "",
+      "url": "https://36kr.com/p/3899266713847176",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989327+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "Agent跌跌撞撞进入世界",
+      "description": "",
+      "url": "https://36kr.com/p/3899383692691078",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989331+00:00"
+    },
+    {
+      "source": "36kr_ai",
+      "title": "“OpenAI必将崩溃，全球股市恐遭清算”，大空头1.5万字长文引争论",
+      "description": "",
+      "url": "https://36kr.com/p/3899383821305476",
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:46.989336+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\"",
+      "description": "Index Ventures 联合创始人 Neil Rimer 表示，围绕 AI 积累的巨额财富将面临\"某种形式的再分配\"，无论是自愿还是强制。他呼吁科技领袖在推动自愿再分配中发挥主导作用。与此同时，美国慈善捐赠总额虽创新高，但捐赠人数持续下降，而加州正考虑对亿万富翁征收 5% 的一次性财富税。  阅读原文：https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out via AI HOT · https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro",
+      "author": "noreply@aihot.virxact.com (TechCrunch：AI（RSS）)",
+      "published": "Sat, 18 Jul 2026 04:47:25 GMT",
+      "url": "https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro",
+      "fetch_time": "2026-07-18T13:25:47.437442+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
+      "description": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri AI 为核心）之际，外界猜测 Apple 究竟是担忧 OpenAI 成为潜在竞争对手，还是想利用 OpenAI 的弱势期获利。  阅读原文：https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast via AI HOT · https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro",
+      "author": "noreply@aihot.virxact.com (The Verge：AI（RSS）)",
+      "published": "Fri, 17 Jul 2026 17:41:32 GMT",
+      "url": "https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro",
+      "fetch_time": "2026-07-18T13:25:47.437494+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
+      "description": "月之暗面CEO杨植麟在GTC 2026演讲中提出用MuonClip优化器替代Adam，可将数据利用效率提升近一倍。同时推出Kimi Linear线性注意力，在百万Token上下文下全面超越全注意力；Agent Swarm已支持300个Agent并行工作。  阅读原文：https://x.com/dotey/status/2078172517085085951 via AI HOT · https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq",
+      "author": "noreply@aihot.virxact.com (X：宝玉 (@dotey))",
+      "published": "Fri, 17 Jul 2026 17:38:33 GMT",
+      "url": "https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq",
+      "fetch_time": "2026-07-18T13:25:47.437514+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "八天四款前沿模型发布，Kimi K3 跻身第三",
+      "description": "过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2 家增至 6 家。  阅读原文：https://x.com/ArtificialAnlys/status/2078165665278730490 via AI HOT · https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k",
+      "author": "noreply@aihot.virxact.com (X：Artificial Analysis (@ArtificialAnlys))",
+      "published": "Fri, 17 Jul 2026 17:11:19 GMT",
+      "url": "https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k",
+      "fetch_time": "2026-07-18T13:25:47.437536+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "Sora 2 视频克隆效果惊人，真假难辨",
+      "description": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。 如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。  阅读原文：https://x.com/gabriel1/status/2078156277247881438 via AI HOT · https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp",
+      "author": "noreply@aihot.virxact.com (X：Gabriel (@gabriel1))",
+      "published": "Fri, 17 Jul 2026 16:34:01 GMT",
+      "url": "https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp",
+      "fetch_time": "2026-07-18T13:25:47.437553+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
+      "description": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。  阅读原文：https://claude.com/blog/working-at-the-frontier-cursor via AI HOT · https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk",
+      "author": "noreply@aihot.virxact.com (Claude：Blog（网页）)",
+      "published": "Fri, 17 Jul 2026 16:32:51 GMT",
+      "url": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk",
+      "fetch_time": "2026-07-18T13:25:47.437572+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
+      "description": "美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问题。在11个前沿模型测试中，最佳得分仅34.74%，远低于当前模型在BrowseComp上约90%的成绩；上下文策略仅带来+6.8个百分点的提升。该基准包含544道问题、11个领域，采用树与图结构，已开源。  阅读原文：https://x.com/Meituan_LongCat/status/2078119654632124547 via AI HOT · https://aihot.virxact.com/items/cmrp0qw3s090ybitorwj6diwi",
+      "author": "noreply@aihot.virxact.com (X：美团 LongCat (@Meituan_LongCat))",
+      "published": "Fri, 17 Jul 2026 14:08:29 GMT",
+      "url": "https://aihot.virxact.com/items/cmrp0qw3s090ybitorwj6diwi",
+      "fetch_time": "2026-07-18T13:25:47.437589+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "LLM cliché highlighter：一款识别AI写作套话的检测工具",
+      "description": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式，例如\"no fluff， no filler， no jargon\"这类陈词滥调。该工具旨在帮助读者快速识别并过滤掉充斥在文章中的 AI 写作风格化表达。  阅读原文：https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter via AI HOT · https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6",
+      "author": "noreply@aihot.virxact.com (Simon Willison 博客)",
+      "published": "Fri, 17 Jul 2026 12:11:11 GMT",
+      "url": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6",
+      "fetch_time": "2026-07-18T13:25:47.437614+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+      "description": "苹果已向约40名就职于OpenAI的前员工发出律师函，要求保存相关文件。此前苹果起诉OpenAI及两名前员工，指控其通过挖角获取商业机密以加速AI硬件研发。苹果称已有超400名前员工在OpenAI工作，正寻求法院禁令阻止OpenAI使用苹果信息并要求归还机密。  阅读原文：https://www.ithome.com/0/978/277.htm via AI HOT · https://aihot.virxact.com/items/cmrove64p07imbitof1v9rzwz",
+      "author": "noreply@aihot.virxact.com (IT之家（RSS）)",
+      "published": "Fri, 17 Jul 2026 11:10:01 GMT",
+      "url": "https://aihot.virxact.com/items/cmrove64p07imbitof1v9rzwz",
+      "fetch_time": "2026-07-18T13:25:47.437630+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "OpenAI 提出 AI 时代记分卡：\"有用智能每美元\"衡量实际工作价值",
+      "description": "OpenAI 提出\"Useful Intelligence per Dollar\"（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功任务的实际成本、结果可靠性三个维度评估。  阅读原文：https://openai.com/index/a-scorecard-for-the-ai-age via AI HOT · https://aihot.virxact.com/items/cmrozfoiv08mhbitofbllzxl4",
+      "author": "noreply@aihot.virxact.com (OpenAI：官网动态（RSS · 排除企业/客户案例）)",
+      "published": "Fri, 17 Jul 2026 10:00:00 GMT",
+      "url": "https://aihot.virxact.com/items/cmrozfoiv08mhbitofbllzxl4",
+      "fetch_time": "2026-07-18T13:25:47.437646+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"技术拆解",
+      "description": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。系统包含规划、草稿、实现、审查、合成五个阶段，渲染失败时可自动提取日志并修复，该工程范式可迁移至其他赛道。  阅读原文：https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ via AI HOT · https://aihot.virxact.com/items/cmrorbywu06cebitoixzgpb5l",
+      "author": "noreply@aihot.virxact.com (公众号：通义实验室（千问）)",
+      "published": "Fri, 17 Jul 2026 09:41:25 GMT",
+      "url": "https://aihot.virxact.com/items/cmrorbywu06cebitoixzgpb5l",
+      "fetch_time": "2026-07-18T13:25:47.437663+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
+      "description": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。此前最强模型 GPT-5.6 Sol 在半私有集上仅得 7.78%。  阅读原文：https://schema-harness.github.io/ via AI HOT · https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u",
+      "author": "noreply@aihot.virxact.com (Hacker News 热门（buzzing.cc 中文翻译）)",
+      "published": "Fri, 17 Jul 2026 08:41:53 GMT",
+      "url": "https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u",
+      "fetch_time": "2026-07-18T13:25:47.437683+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
+      "description": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一。1B-NVFP4 版本在 Blackwell 上吞吐量比 BF16 高 2 倍，精度保留 99.5%，所有模型最大序列长度 32，768 tokens。  阅读原文：https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb via AI HOT · https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un",
+      "author": "noreply@aihot.virxact.com (MarkTechPost（RSS）)",
+      "published": "Fri, 17 Jul 2026 07:53:02 GMT",
+      "url": "https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un",
+      "fetch_time": "2026-07-18T13:25:47.437704+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms",
+      "description": "通义实验室发布 Wan-Streamer v0.2，这是一款将\"听、看、说、演\"统一进单个 Transformer 的端到端全模态模型。其端到端响应延迟仅 550ms，输出分辨率从 v0.1 的 192×336 提升至 640×368 @ 25FPS，并采用 Thinker-Performer 双通路架构在提升画质的同时维持了极低延迟。  阅读原文：https://mp.weixin.qq.com/s/_eaO0wmsiQFGsrE2_zW_Dg via AI HOT · https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz",
+      "author": "noreply@aihot.virxact.com (公众号：通义实验室（千问）)",
+      "published": "Fri, 17 Jul 2026 07:14:00 GMT",
+      "url": "https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz",
+      "fetch_time": "2026-07-18T13:25:47.437722+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
+      "description": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，力压 Claude Fable 5 与 GPT-5.6 Sol，7 个前端细分赛道拿下 6 个第一。该模型为 2.8 万亿参数 MoE 架构，百万上下文窗口，7 月 27 日开放权重。K3 的 API 定价为输入每百万 tokens 15 美元，对标前沿闭源模型，放弃低价路线，转向长上下文智能体编码场景的定价策略。  阅读原文：https://x.com/AYi_AInotes/status/2077981025905316253 via AI HOT · https://aihot.virxact.com/items/cmroipdr803rvbito8t018vr1",
+      "author": "noreply@aihot.virxact.com (X：阿易 AI Notes (@AYi_AInotes))",
+      "published": "Fri, 17 Jul 2026 04:57:38 GMT",
+      "url": "https://aihot.virxact.com/items/cmroipdr803rvbito8t018vr1",
+      "fetch_time": "2026-07-18T13:25:47.437743+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
+      "description": "AI公司为维持大语言模型（如ChatGPT、Claude）运行，可能已购买全球70%的高端计算机内存，导致内存与存储价格飙升：两年前350美元的硬盘现已涨至800美元且缺货，部分笔记本电脑涨价50%。科技公司计划未来几年将美国数据中心容量扩大8倍，部分站点甚至用喷气发动机供电。预测称，平价入门级电脑可能在2028年前消失，内存短缺预计持续数年。  阅读原文：https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901 via AI HOT · https://aihot.virxact.com/items/cmro8l78w00j5bitou01qowy4",
+      "author": "noreply@aihot.virxact.com (Hacker News 热门（buzzing.cc 中文翻译）)",
+      "published": "Fri, 17 Jul 2026 00:40:20 GMT",
+      "url": "https://aihot.virxact.com/items/cmro8l78w00j5bitou01qowy4",
+      "fetch_time": "2026-07-18T13:25:47.437758+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
+      "description": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立场转变。案件聚焦用户滥用行为，而非模型本身的技术缺陷。  阅读原文：https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users via AI HOT · https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59",
+      "author": "noreply@aihot.virxact.com (Ars Technica：AI（RSS）)",
+      "published": "Thu, 16 Jul 2026 20:26:23 GMT",
+      "url": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59",
+      "fetch_time": "2026-07-18T13:25:47.437775+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
+      "description": "VentureBeat调查107家企业发现，54%已遭遇AI智能体安全事件（18%确认事故，36%险些酿祸）。仅32%为每个智能体分配独立身份凭证，30%将高风险智能体隔离在沙箱中。安全工具主要依赖模型提供商原生方案，专用智能体安全产品渗透率极低。  阅读原文：https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials via AI HOT · https://aihot.virxact.com/items/cmrnvme99015abixymkemy6lj",
+      "author": "noreply@aihot.virxact.com (VentureBeat：AI（RSS）)",
+      "published": "Thu, 16 Jul 2026 19:02:38 GMT",
+      "url": "https://aihot.virxact.com/items/cmrnvme99015abixymkemy6lj",
+      "fetch_time": "2026-07-18T13:25:47.437790+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "ChatGPT 工作区支持文档表格幻灯片编辑",
+      "description": "在 ChatGPT 工作区中创建和编辑精美的文档、电子表格和幻灯片。 @nickbaumann_ 为你演示操作。  阅读原文：https://x.com/ChatGPTapp/status/2077826846373380535 via AI HOT · https://aihot.virxact.com/items/cmrnvlijq012lbixy2xhlk8k8",
+      "author": "noreply@aihot.virxact.com (X：ChatGPT (@ChatGPTapp))",
+      "published": "Thu, 16 Jul 2026 18:44:58 GMT",
+      "url": "https://aihot.virxact.com/items/cmrnvlijq012lbixy2xhlk8k8",
+      "fetch_time": "2026-07-18T13:25:47.437804+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
+      "description": "Decoy Font 是一款 TTF 字体，通过在同一字符中叠加不同空间频率的图形（前景细轮廓与背景低频模糊块），使近距离观看时 AI 读到\"诱饵\"字母，而人眼远距离或眯眼时才能看到真实隐藏信息。  阅读原文：https://www.mixfont.com/experiments/decoy-font via AI HOT · https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z",
+      "author": "noreply@aihot.virxact.com (Hacker News 热门（buzzing.cc 中文翻译）)",
+      "published": "Thu, 16 Jul 2026 18:32:23 GMT",
+      "url": "https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z",
+      "fetch_time": "2026-07-18T13:25:47.437819+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
+      "description": "对157家企业的调查显示，50%的组织在过去一年曾部署通过内部评估但导致客户故障的AI智能体或大语言模型功能，5%的企业完全信任自动化评估，29%认为评估与现实结果对齐不佳是最大局限。尽管信任度低，66%的企业已允许或正计划在12个月内实现低风险智能体的全自动、无人工干预部署。  阅读原文：https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway via AI HOT · https://aihot.virxact.com/items/cmrnrc11901tnbizz2dlcio3z",
+      "author": "noreply@aihot.virxact.com (VentureBeat：AI（RSS）)",
+      "published": "Thu, 16 Jul 2026 16:40:48 GMT",
+      "url": "https://aihot.virxact.com/items/cmrnrc11901tnbizz2dlcio3z",
+      "fetch_time": "2026-07-18T13:25:47.437834+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "Google Vids 上线 Gemini Omni 与个人数字分身功能",
+      "description": "Google Vids 推出两项更新：Gemini Omni 支持用户通过自然语言提示词和图片参考生成、逐步编辑高质量视频片段；个人数字分身功能允许用户上传自拍和语音录制后，输入文字即可让数字分身出镜。两项功能面向 Google AI Pro 和 Ultra 订阅者及 Google Workspace 商业客户开放，所有生成内容均含不可见的 SynthID 数字水印。  阅读原文：https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars via AI HOT · https://aihot.virxact.com/items/cmrnq8ryq01d5bizzarqvm3y1",
+      "author": "noreply@aihot.virxact.com (Google Blog：AI（RSS）)",
+      "published": "Thu, 16 Jul 2026 16:00:00 GMT",
+      "url": "https://aihot.virxact.com/items/cmrnq8ryq01d5bizzarqvm3y1",
+      "fetch_time": "2026-07-18T13:25:47.437853+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "世界人工智能合作组织协定签署仪式在上海举行，总部设中国上海",
+      "description": "7月16日，成立世界人工智能合作组织协定签署仪式在上海举行，中共中央政治局委员、外交部长王毅代表中国政府签署协定。该组织是独立的政府间国际组织，总部设在中国上海，旨在促进人工智能国际合作与全球治理。哈萨克斯坦、老挝、巴基斯坦等29个国家代表签署协定成为创始成员国。  阅读原文：https://www.ithome.com/0/977/793.htm via AI HOT · https://aihot.virxact.com/items/cmrnmdjt80051bizz895rbmu6",
+      "author": "noreply@aihot.virxact.com (IT之家（RSS）)",
+      "published": "Thu, 16 Jul 2026 14:38:08 GMT",
+      "url": "https://aihot.virxact.com/items/cmrnmdjt80051bizz895rbmu6",
+      "fetch_time": "2026-07-18T13:25:47.437867+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "在 Claude Cowork 中使用 Claude Fable 5",
+      "description": "Anthropic 发布最强通用模型 Claude Fable 5，专为长时间、多步骤的复杂异步工作设计，可在 Claude Cowork 中自主执行深度研究、尽职调查等任务。该模型需手动选择，默认模型为 Claude Sonnet 5。  阅读原文：https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork via AI HOT · https://aihot.virxact.com/items/cmrnlyzl3006sbi8v0f80nbaz",
+      "author": "noreply@aihot.virxact.com (Claude：Blog（网页）)",
+      "published": "Thu, 16 Jul 2026 14:32:22 GMT",
+      "url": "https://aihot.virxact.com/items/cmrnlyzl3006sbi8v0f80nbaz",
+      "fetch_time": "2026-07-18T13:25:47.437882+00:00"
+    },
+    {
+      "source": "ai_hot_feed",
+      "title": "面壁智能开源企业AI数字员工平台StaffDeck",
+      "description": "面壁智能联合多团队开源StaffDeck，一个用于构建与管理数字员工的企业平台。该平台旨在将专业知识、标准作业程序（SOP）和决策规则转化为持续工作、改进并保留组织知识的数字员工，而非传统聊天机器人。项目代码已发布于GitHub。  阅读原文：https://x.com/OpenBMB/status/2077741814799548451 via AI HOT · https://aihot.virxact.com/items/cmrnj049b00hzbii5lr5jqwgm",
+      "author": "noreply@aihot.virxact.com (X：面壁智能 OpenBMB (@OpenBMB))",
+      "published": "Thu, 16 Jul 2026 13:07:05 GMT",
+      "url": "https://aihot.virxact.com/items/cmrnj049b00hzbii5lr5jqwgm",
+      "fetch_time": "2026-07-18T13:25:47.437896+00:00"
+    },
+    {
+      "source": "venturebeat",
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+      "description": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot wrappers, the control plane enterprises expect is deliberately hybrid to avoid lock-in, and real-time fiscal control over token burn remains the exception. This wave of VentureBeat",
+      "author": "",
+      "published": "Wed, 15 Jul 2026 22:24:17 GMT",
+      "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "fetch_time": "2026-07-18T13:25:47.837418+00:00"
+    },
+    {
+      "source": "venturebeat",
+      "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+      "description": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm. At its annual I/O developer conference , Google announced a sweeping redesign of the search box itself — the literal text field where billions of queries begin every day — transforming it from a simple keyword input into a dynamic, AI-driven convers",
+      "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
+      "published": "Tue, 19 May 2026 17:45:00 GMT",
+      "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "fetch_time": "2026-07-18T13:25:47.838365+00:00"
+    },
+    {
+      "source": "venturebeat",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "description": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. TQ Ventures led the round, with participation from FPV Ventures , Redpoint , and Unusual Ventures . The investment values Railway as one of the most significant infrastructur",
+      "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
+      "published": "Thu, 22 Jan 2026 14:00:00 GMT",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "fetch_time": "2026-07-18T13:25:47.839053+00:00"
+    },
+    {
+      "source": "theverge",
+      "title": "TikTok is testing an AI likeness detection tool",
+      "description": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been working on a similar tool […]",
+      "author": "Jay Peters",
+      "published": "2026-07-17T15:34:30-04:00",
+      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+      "fetch_time": "2026-07-18T13:25:48.063664+00:00"
+    },
+    {
+      "source": "theverge",
+      "title": "Apple’s plot to crush OpenAI",
+      "description": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The […]",
+      "author": "David Pierce",
+      "published": "2026-07-17T13:41:32-04:00",
+      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "fetch_time": "2026-07-18T13:25:48.063934+00:00"
+    },
+    {
+      "source": "theverge",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "description": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing […]",
+      "author": "Emma Roth",
+      "published": "2026-07-16T12:00:00-04:00",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "fetch_time": "2026-07-18T13:25:48.064543+00:00"
+    },
+    {
+      "source": "theverge",
+      "title": "Claude can now use your 1Password credentials for you",
+      "description": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing online accounts on their behalf without having to manually input their login […]",
+      "author": "Jess Weatherbed",
+      "published": "2026-07-16T09:00:00-04:00",
+      "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+      "fetch_time": "2026-07-18T13:25:48.064610+00:00"
+    },
+    {
+      "source": "theverge",
+      "title": "Google ordered to open Android and Search to rivals in Europe",
+      "description": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bloc's digital antitrust rules. The two decisions, handed down Thursday, could weaken Google's control over two of the tech industry's most important platforms and have […]",
+      "author": "Robert Hart",
+      "published": "2026-07-16T08:06:51-04:00",
+      "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+      "fetch_time": "2026-07-18T13:25:48.064863+00:00"
+    },
+    {
+      "source": "theverge",
+      "title": "xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;",
+      "description": "The Elon Musk-owned xAI is suing a South Carolina man who allegedly used the company's Grok AI chatbot to generate child sexual abuse material (CSAM). In a lawsuit reported earlier by Reuters, xAI claims Terry Wayne Harwood \"knowingly and intentionally used Grok to circumvent safeguards, alter nonconsensual images, and generate and distribute CSAM,\" breaching the […]",
+      "author": "Emma Roth",
+      "published": "2026-07-15T17:33:20-04:00",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+      "fetch_time": "2026-07-18T13:25:48.065382+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Neil Rimer thinks the AI money is coming back out",
+      "description": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+      "author": "Connie Loizos",
+      "published": "Sat, 18 Jul 2026 04:47:25 +0000",
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "fetch_time": "2026-07-18T13:25:48.166104+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
+      "description": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
+      "author": "Jagmeet Singh",
+      "published": "Fri, 17 Jul 2026 22:55:09 +0000",
+      "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
+      "fetch_time": "2026-07-18T13:25:48.166128+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
+      "description": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
+      "author": "Julie Bort",
+      "published": "Fri, 17 Jul 2026 22:12:56 +0000",
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "fetch_time": "2026-07-18T13:25:48.166143+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "The Zoom hack that says, ‘Don’t record me’",
+      "description": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?",
+      "author": "Connie Loizos",
+      "published": "Fri, 17 Jul 2026 21:20:47 +0000",
+      "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
+      "fetch_time": "2026-07-18T13:25:48.166155+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Agility Robotics plants its flag in Tesla’s backyard",
+      "description": "Agility is opening a new training center for its Digit robots in Fremont, California.",
+      "author": "Tim Fernholz",
+      "published": "Fri, 17 Jul 2026 20:19:49 +0000",
+      "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+      "fetch_time": "2026-07-18T13:25:48.166165+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "AI-driven memory crunch jolts India’s smartphone market",
+      "description": "India's smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.",
+      "author": "Jagmeet Singh",
+      "published": "Fri, 17 Jul 2026 20:09:27 +0000",
+      "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
+      "fetch_time": "2026-07-18T13:25:48.166177+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
+      "description": "Apple filed a trade secrets lawsuit against OpenAI last Friday, and it’s not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI’s chief hardware officer and claims more than 400 former Apple employees now work at the company. OpenAI’s response so far has been carefully hedged, and the timing couldn’t be worse with the company reportedly eyeing an IPO […]",
+      "author": "Theresa Loconsolo",
+      "published": "Fri, 17 Jul 2026 17:45:46 +0000",
+      "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "fetch_time": "2026-07-18T13:25:48.166223+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+      "description": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
+      "author": "Sarah Perez",
+      "published": "Fri, 17 Jul 2026 15:21:17 +0000",
+      "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "fetch_time": "2026-07-18T13:25:48.166243+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Apple’s lawsuit couldn’t come at a worse time for OpenAI",
+      "description": "Apple filed a trade secrets lawsuit against OpenAI last Friday, and it’s not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI’s chief hardware officer and claims more than 400 former Apple employees now work at the company. OpenAI’s response so far has been carefully hedged, and the timing couldn’t be worse with the company reportedly eyeing an IPO […]",
+      "author": "Anthony Ha, Theresa Loconsolo, Kirsten Korosec, Sean O'Kane",
+      "published": "Fri, 17 Jul 2026 14:00:00 +0000",
+      "url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
+      "fetch_time": "2026-07-18T13:25:48.166281+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
+      "description": "A $400 million chip-backed loan points to the next wave of AI infrastructure deals.",
+      "author": "Tim Fernholz",
+      "published": "Fri, 17 Jul 2026 12:00:00 +0000",
+      "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+      "fetch_time": "2026-07-18T13:25:48.166293+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Google Vids now lets you star in your own AI videos",
+      "description": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
+      "author": "Sarah Perez",
+      "published": "Thu, 16 Jul 2026 18:32:54 +0000",
+      "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "fetch_time": "2026-07-18T13:25:48.166307+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+      "description": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
+      "author": "Lauren Forristal",
+      "published": "Thu, 16 Jul 2026 18:22:06 +0000",
+      "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+      "fetch_time": "2026-07-18T13:25:48.166318+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Google’s AI Mode now lets you link and interact with select apps",
+      "description": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+      "author": "Aisha Malik",
+      "published": "Thu, 16 Jul 2026 16:00:00 +0000",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "fetch_time": "2026-07-18T13:25:48.166330+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Yes, you can now order DoorDash from the command line",
+      "description": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
+      "author": "Sarah Perez",
+      "published": "Thu, 16 Jul 2026 15:38:55 +0000",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "fetch_time": "2026-07-18T13:25:48.166345+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Why is OpenAI selling a ChatGPT basketball?",
+      "description": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
+      "author": "Amanda Silberling",
+      "published": "Thu, 16 Jul 2026 15:31:09 +0000",
+      "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+      "fetch_time": "2026-07-18T13:25:48.166357+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "description": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+      "author": "Maggie Nye",
+      "published": "Thu, 16 Jul 2026 15:02:00 +0000",
+      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "fetch_time": "2026-07-18T13:25:48.166373+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+      "description": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
+      "author": "Kate Park",
+      "published": "Thu, 16 Jul 2026 14:40:00 +0000",
+      "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+      "fetch_time": "2026-07-18T13:25:48.166386+00:00"
+    },
+    {
+      "source": "techcrunch_ai",
+      "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+      "description": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+      "author": "Dominic-Madori Davis",
+      "published": "Thu, 16 Jul 2026 14:26:29 +0000",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+      "fetch_time": "2026-07-18T13:25:48.166398+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "[AINews] not much happened today",
+      "description": "a quiet day",
+      "author": "Latent.Space",
+      "published": "Sat, 18 Jul 2026 04:30:21 GMT",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+      "fetch_time": "2026-07-18T13:25:49.329385+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+      "description": "a great week for open models continues.",
+      "author": "",
+      "published": "Fri, 17 Jul 2026 01:46:36 GMT",
+      "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "fetch_time": "2026-07-18T13:25:49.329412+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences",
+      "description": "Lila is betting that science, not the internet, is the last untapped source of training data. We went to find out what that actually looks like in a room full of robots.",
+      "author": "",
+      "published": "Thu, 16 Jul 2026 13:30:44 GMT",
+      "url": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
+      "fetch_time": "2026-07-18T13:25:49.329430+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+      "description": "Thinky's first full LLM release is a banger and bonus: it's open weights!",
+      "author": "",
+      "published": "Thu, 16 Jul 2026 06:18:05 GMT",
+      "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+      "fetch_time": "2026-07-18T13:25:49.329443+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "[AINews] not much happened today",
+      "description": "a continuation: Codex adding 1M users a day now.",
+      "author": "",
+      "published": "Tue, 14 Jul 2026 23:54:07 GMT",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
+      "fetch_time": "2026-07-18T13:25:49.329453+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "5 Trends That Defined AI Engineering at World’s Fair 2026",
+      "description": "At this year's AIE World’s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents.",
+      "author": "Richard MacManus",
+      "published": "Tue, 14 Jul 2026 23:21:21 GMT",
+      "url": "https://www.latent.space/p/aiewf26trends",
+      "fetch_time": "2026-07-18T13:25:49.329489+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
+      "description": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+      "author": "",
+      "published": "Tue, 14 Jul 2026 01:22:27 GMT",
+      "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+      "fetch_time": "2026-07-18T13:25:49.329502+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "[AINews] not much happened today",
+      "description": "a quiet day after a week of nonstop model releases",
+      "author": "",
+      "published": "Sat, 11 Jul 2026 02:53:08 GMT",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
+      "fetch_time": "2026-07-18T13:25:49.329513+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
+      "description": "A big day for OpenAI.",
+      "author": "Latent.Space",
+      "published": "Fri, 10 Jul 2026 06:19:40 GMT",
+      "url": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
+      "fetch_time": "2026-07-18T13:25:49.329522+00:00"
+    },
+    {
+      "source": "latent_space",
+      "title": "[AINews] SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition",
+      "description": "SpaceXAI continues to move faster than any other frontier lab on earth.",
+      "author": "",
+      "published": "Thu, 09 Jul 2026 06:05:41 GMT",
+      "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
+      "fetch_time": "2026-07-18T13:25:49.329533+00:00"
+    },
+    {
+      "source": "one_useful_thing",
+      "title": "The twilight of the chatbots",
+      "description": "How work changes along the exponential",
+      "author": "Ethan Mollick",
+      "published": "Tue, 30 Jun 2026 22:18:12 GMT",
+      "url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+      "fetch_time": "2026-07-18T13:25:49.878943+00:00"
+    },
+    {
+      "source": "one_useful_thing",
+      "title": "What it feels like to work with Mythos",
+      "description": "Claude Fable represents another big jump in AI",
+      "author": "Ethan Mollick",
+      "published": "Tue, 09 Jun 2026 17:11:22 GMT",
+      "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "fetch_time": "2026-07-18T13:25:49.878968+00:00"
+    },
+    {
+      "source": "one_useful_thing",
+      "title": "Co-Existence and the End of Co-Intelligence",
+      "description": "Also: how pitch a book to an AI!",
+      "author": "Ethan Mollick",
+      "published": "Thu, 04 Jun 2026 21:13:42 GMT",
+      "url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+      "fetch_time": "2026-07-18T13:25:49.878979+00:00"
+    },
+    {
+      "source": "one_useful_thing",
+      "title": "Choosing to Stay Human",
+      "description": "If you go to your favorite social media site, you will find it full of posts that start to look suspiciously similar to each other:",
+      "author": "Ethan Mollick",
+      "published": "Tue, 26 May 2026 19:56:01 GMT",
+      "url": "https://www.oneusefulthing.org/p/choosing-to-stay-human",
+      "fetch_time": "2026-07-18T13:25:49.878992+00:00"
+    },
+    {
+      "source": "one_useful_thing",
+      "title": "Sign of the future: GPT-5.5",
+      "description": "One impressive step on the curve",
+      "author": "Ethan Mollick",
+      "published": "Thu, 23 Apr 2026 20:00:38 GMT",
+      "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "fetch_time": "2026-07-18T13:25:49.879000+00:00"
+    },
+    {
+      "source": "one_useful_thing",
+      "title": "Claude Dispatch and the Power of Interfaces",
+      "description": "We often lack the tools for the job, even if the AI is capable enough",
+      "author": "Ethan Mollick",
+      "published": "Tue, 31 Mar 2026 22:34:37 GMT",
+      "url": "https://www.oneusefulthing.org/p/claude-dispatch-and-the-power-of",
+      "fetch_time": "2026-07-18T13:25:49.879011+00:00"
+    },
+    {
+      "source": "one_useful_thing",
+      "title": "The Shape of the Thing",
+      "description": "Where we are right now, and what likely happens next",
+      "author": "Ethan Mollick",
+      "published": "Thu, 12 Mar 2026 14:10:07 GMT",
+      "url": "https://www.oneusefulthing.org/p/the-shape-of-the-thing",
+      "fetch_time": "2026-07-18T13:25:49.879020+00:00"
+    },
+    {
+      "source": "one_useful_thing",
+      "title": "A Guide to Which AI to Use in the Agentic Era",
+      "description": "It's not just chatbots anymore",
+      "author": "Ethan Mollick",
+      "published": "Wed, 18 Feb 2026 01:45:41 GMT",
+      "url": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
+      "fetch_time": "2026-07-18T13:25:49.879029+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "Mainichi",
+      "description": "Learn Japanese, one prefecture at a time. Discussion | Link",
+      "author": "Michał Paczyński",
+      "published": "2026-07-13T12:26:12-07:00",
+      "url": "https://www.producthunt.com/products/mainichi-2",
+      "fetch_time": "2026-07-18T13:25:50.453950+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "ZooData",
+      "description": "The data layer for AI agents Discussion | Link",
+      "author": "Justin Jincaid",
+      "published": "2026-07-07T02:57:18-07:00",
+      "url": "https://www.producthunt.com/products/zoodata",
+      "fetch_time": "2026-07-18T13:25:50.453982+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "Acebuilder",
+      "description": "Build landing pages with Aceternity UI Discussion | Link",
+      "author": "Manu Arora",
+      "published": "2026-07-14T04:05:00-07:00",
+      "url": "https://www.producthunt.com/products/acebuilder",
+      "fetch_time": "2026-07-18T13:25:50.453994+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "DocuSmart AI",
+      "description": "Turning fragmented knowledge into one simple system Discussion | Link",
+      "author": "Paul Murnane",
+      "published": "2026-03-12T10:37:12-07:00",
+      "url": "https://www.producthunt.com/products/docusmart-ai",
+      "fetch_time": "2026-07-18T13:25:50.454005+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "Clark",
+      "description": "An AI coworker with its own cloud computer Discussion | Link",
+      "author": "Ben Lang",
+      "published": "2026-05-27T02:38:52-07:00",
+      "url": "https://www.producthunt.com/products/clark-agent",
+      "fetch_time": "2026-07-18T13:25:50.454016+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "LiveDemo",
+      "description": "Open-source alternative to Storylane, Navattic, and Arcade Discussion | Link",
+      "author": "Aleksandar Blazhev",
+      "published": "2026-07-05T22:59:02-07:00",
+      "url": "https://www.producthunt.com/products/livedemo",
+      "fetch_time": "2026-07-18T13:25:50.454026+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "Buzzy",
+      "description": "Your creative AI co-director Discussion | Link",
+      "author": "Rohan Chaubey",
+      "published": "2026-06-30T07:36:15-07:00",
+      "url": "https://www.producthunt.com/products/buzzy-2",
+      "fetch_time": "2026-07-18T13:25:50.454036+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "OpenMarkdown",
+      "description": "A markdown editor you and your agent co-edit Discussion | Link",
+      "author": "XUEYANZ",
+      "published": "2026-07-14T21:32:04-07:00",
+      "url": "https://www.producthunt.com/products/openmarkdown",
+      "fetch_time": "2026-07-18T13:25:50.454047+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "Mirage",
+      "description": "Turn your SaaS into a clickable demo in 90 seconds. Discussion | Link",
+      "author": "Anukar",
+      "published": "2026-07-11T00:48:47-07:00",
+      "url": "https://www.producthunt.com/products/mirage-15",
+      "fetch_time": "2026-07-18T13:25:50.454057+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "Pebbles Ai",
+      "description": "AI sales platform for modern B2B teams Discussion | Link",
+      "author": "ISTIAK AHMAD",
+      "published": "2026-07-13T21:03:42-07:00",
+      "url": "https://www.producthunt.com/products/pebbles-ai",
+      "fetch_time": "2026-07-18T13:25:50.454068+00:00"
+    },
     {
       "source": "hacker_news",
       "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
       "description": "",
       "url": "https://news.ycombinator.com/item?id=48945241",
       "hn_url": "https://news.ycombinator.com/item?id=48945241",
-      "score": 1222,
+      "score": 1224,
       "comments": 716,
-      "author": "nprateem",
-      "fetch_time": "2026-07-18T12:51:42.533036+00:00"
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:51.108903+00:00"
     },
     {
       "source": "hacker_news",
@@ -24,10 +950,10 @@
       "description": "",
       "url": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
       "hn_url": "https://news.ycombinator.com/item?id=48946303",
-      "score": 395,
-      "comments": 348,
-      "author": "merksittich",
-      "fetch_time": "2026-07-18T12:51:53.402557+00:00"
+      "score": 396,
+      "comments": 353,
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:56.247066+00:00"
     },
     {
       "source": "hacker_news",
@@ -37,19 +963,8 @@
       "hn_url": "https://news.ycombinator.com/item?id=48936426",
       "score": 798,
       "comments": 173,
-      "author": "jervant",
-      "fetch_time": "2026-07-18T12:51:55.200439+00:00"
-    },
-    {
-      "source": "hacker_news",
-      "title": "Claude Code(Fable) refused my slow down instruction",
-      "description": "",
-      "url": "https://qusaisuwan.github.io/cc-incident/index.html",
-      "hn_url": "https://news.ycombinator.com/item?id=48953519",
-      "score": 26,
-      "comments": 10,
-      "author": "qusaisuwan",
-      "fetch_time": "2026-07-18T12:51:55.777580+00:00"
+      "published": "",
+      "fetch_time": "2026-07-18T13:25:57.513290+00:00"
     },
     {
       "source": "hacker_news",
@@ -59,308 +974,41 @@
       "hn_url": "https://news.ycombinator.com/item?id=48939524",
       "score": 391,
       "comments": 525,
-      "author": "hershyb_",
-      "fetch_time": "2026-07-18T12:52:01.741247+00:00"
+      "published": "",
+      "fetch_time": "2026-07-18T13:26:00.954440+00:00"
     },
     {
-      "source": "ai_hot_feed",
-      "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\"",
-      "description": "Index Ventures 联合创始人 Neil Rimer 表示，围绕 AI 积累的巨额财富将面临\"某种形式的再分配\"，无论是自愿还是强制。他呼吁科技领袖在推动自愿再分配中发挥主导作用。与此同时，美国慈善捐赠总额虽创新高，但捐赠人数持续下降，而加州正考虑对亿万富翁征收 5% 的一次性财富税。\n\n🔗 阅读原文：https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out\n\nvia AI HOT · https://aihot.virxact.com/items/cmrpwwjho06dj",
-      "url": "https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro",
-      "published": "Sat, 18 Jul 2026 04:47:25 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309143+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
-      "description": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri AI 为核心）之际，外界猜测 Apple 究竟是担忧 OpenAI 成为潜在竞争对手，还是想利用 OpenAI 的弱势期获利。\n\n🔗 阅读原文：https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast\n\nvia AI HOT · https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro",
-      "url": "https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro",
-      "published": "Fri, 17 Jul 2026 17:41:32 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309158+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
-      "description": "月之暗面CEO杨植麟在GTC 2026演讲中提出用MuonClip优化器替代Adam，可将数据利用效率提升近一倍。同时推出Kimi Linear线性注意力，在百万Token上下文下全面超越全注意力；Agent Swarm已支持300个Agent并行工作。\n\n🔗 阅读原文：https://x.com/dotey/status/2078172517085085951\n\nvia AI HOT · https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq",
-      "url": "https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq",
-      "published": "Fri, 17 Jul 2026 17:38:33 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309163+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "八天四款前沿模型发布，Kimi K3 跻身第三",
-      "description": "过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2 家增至 6 家。\n\n🔗 阅读原文：https://x.com/ArtificialAnlys/status/2078165665278730490\n\nvia AI HOT · https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k",
-      "url": "https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k",
-      "published": "Fri, 17 Jul 2026 17:11:19 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309167+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "Sora 2 视频克隆效果惊人，真假难辨",
-      "description": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。\n\n如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。\n\n🔗 阅读原文：https://x.com/gabriel1/status/2078156277247881438\n\nvia AI HOT · https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp",
-      "url": "https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp",
-      "published": "Fri, 17 Jul 2026 16:34:01 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309170+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
-      "description": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。\n\n🔗 阅读原文：https://claude.com/blog/working-at-the-frontier-cursor\n\nvia AI HOT · https://aihot.virxact.com/items/cmrp5pfjw0af6b",
-      "url": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk",
-      "published": "Fri, 17 Jul 2026 16:32:51 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309175+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
-      "description": "美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问题。在11个前沿模型测试中，最佳得分仅34.74%，远低于当前模型在BrowseComp上约90%的成绩；上下文策略仅带来+6.8个百分点的提升。该基准包含544道问题、11个领域，采用树与图结构，已开源。\n\n🔗 阅读原文：https://x.com/Meituan_LongCat/status/2078119654632124547\n\nvia AI HOT · https://aihot.virxact.com/items/cmrp0",
-      "url": "https://aihot.virxact.com/items/cmrp0qw3s090ybitorwj6diwi",
-      "published": "Fri, 17 Jul 2026 14:08:29 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309179+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "LLM cliché highlighter：一款识别AI写作套话的检测工具",
-      "description": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式，例如\"no fluff， no filler， no jargon\"这类陈词滥调。该工具旨在帮助读者快速识别并过滤掉充斥在文章中的 AI 写作风格化表达。\n\n🔗 阅读原文：https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter\n\nvia AI HOT · https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6",
-      "url": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6",
-      "published": "Fri, 17 Jul 2026 12:11:11 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309186+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
-      "description": "苹果已向约40名就职于OpenAI的前员工发出律师函，要求保存相关文件。此前苹果起诉OpenAI及两名前员工，指控其通过挖角获取商业机密以加速AI硬件研发。苹果称已有超400名前员工在OpenAI工作，正寻求法院禁令阻止OpenAI使用苹果信息并要求归还机密。\n\n🔗 阅读原文：https://www.ithome.com/0/978/277.htm\n\nvia AI HOT · https://aihot.virxact.com/items/cmrove64p07imbitof1v9rzwz",
-      "url": "https://aihot.virxact.com/items/cmrove64p07imbitof1v9rzwz",
-      "published": "Fri, 17 Jul 2026 11:10:01 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309191+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "OpenAI 提出 AI 时代记分卡：\"有用智能每美元\"衡量实际工作价值",
-      "description": "OpenAI 提出\"Useful Intelligence per Dollar\"（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功任务的实际成本、结果可靠性三个维度评估。\n\n🔗 阅读原文：https://openai.com/index/a-scorecard-for-the-ai-age\n\nvia AI HOT · https://aihot.virxact.com/items/cmrozfoiv08mhbitofbllzxl4",
-      "url": "https://aihot.virxact.com/items/cmrozfoiv08mhbitofbllzxl4",
-      "published": "Fri, 17 Jul 2026 10:00:00 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309195+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"技术拆解",
-      "description": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。系统包含规划、草稿、实现、审查、合成五个阶段，渲染失败时可自动提取日志并修复，该工程范式可迁移至其他赛道。\n\n🔗 阅读原文：https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ\n\nvia AI HOT · https://aihot.virxact.com/items/cmrorbywu06cebitoixzgpb5l",
-      "url": "https://aihot.virxact.com/items/cmrorbywu06cebitoixzgpb5l",
-      "published": "Fri, 17 Jul 2026 09:41:25 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309199+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
-      "description": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。此前最强模型 GPT-5.6 Sol 在半私有集上仅得 7.78%。\n\n🔗 阅读原文：https://schema-harness.github.io/\n\nvia AI HOT · https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u",
-      "url": "https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u",
-      "published": "Fri, 17 Jul 2026 08:41:53 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309203+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
-      "description": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一。1B-NVFP4 版本在 Blackwell 上吞吐量比 BF16 高 2 倍，精度保留 99.5%，所有模型最大序列长度 32，768 tokens。\n\n🔗 阅读原文：https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-check",
-      "url": "https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un",
-      "published": "Fri, 17 Jul 2026 07:53:02 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309207+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms",
-      "description": "通义实验室发布 Wan-Streamer v0.2，这是一款将\"听、看、说、演\"统一进单个 Transformer 的端到端全模态模型。其端到端响应延迟仅 550ms，输出分辨率从 v0.1 的 192×336 提升至 640×368 @ 25FPS，并采用 Thinker-Performer 双通路架构在提升画质的同时维持了极低延迟。\n\n🔗 阅读原文：https://mp.weixin.qq.com/s/_eaO0wmsiQFGsrE2_zW_Dg\n\nvia AI HOT · https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz",
-      "url": "https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz",
-      "published": "Fri, 17 Jul 2026 07:14:00 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309211+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
-      "description": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，力压 Claude Fable 5 与 GPT-5.6 Sol，7 个前端细分赛道拿下 6 个第一。该模型为 2.8 万亿参数 MoE 架构，百万上下文窗口，7 月 27 日开放权重。K3 的 API 定价为输入每百万 tokens 15 美元，对标前沿闭源模型，放弃低价路线，转向长上下文智能体编码场景的定价策略。\n\n🔗 阅读原文：https://x.com/AYi_AInotes/status/2077981025905316253\n\nvia AI HOT · https://aihot.virxact.com",
-      "url": "https://aihot.virxact.com/items/cmroipdr803rvbito8t018vr1",
-      "published": "Fri, 17 Jul 2026 04:57:38 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309215+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
-      "description": "AI公司为维持大语言模型（如ChatGPT、Claude）运行，可能已购买全球70%的高端计算机内存，导致内存与存储价格飙升：两年前350美元的硬盘现已涨至800美元且缺货，部分笔记本电脑涨价50%。科技公司计划未来几年将美国数据中心容量扩大8倍，部分站点甚至用喷气发动机供电。预测称，平价入门级电脑可能在2028年前消失，内存短缺预计持续数年。\n\n🔗 阅读原文：https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901\n\nvia AI HOT · https://aihot.v",
-      "url": "https://aihot.virxact.com/items/cmro8l78w00j5bitou01qowy4",
-      "published": "Fri, 17 Jul 2026 00:40:20 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309219+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
-      "description": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立场转变。案件聚焦用户滥用行为，而非模型本身的技术缺陷。\n\n🔗 阅读原文：https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users\n\nvia AI HOT · https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59",
-      "url": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59",
-      "published": "Thu, 16 Jul 2026 20:26:23 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309222+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
-      "description": "VentureBeat调查107家企业发现，54%已遭遇AI智能体安全事件（18%确认事故，36%险些酿祸）。仅32%为每个智能体分配独立身份凭证，30%将高风险智能体隔离在沙箱中。安全工具主要依赖模型提供商原生方案，专用智能体安全产品渗透率极低。\n\n🔗 阅读原文：https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials\n\nvia AI HOT · htt",
-      "url": "https://aihot.virxact.com/items/cmrnvme99015abixymkemy6lj",
-      "published": "Thu, 16 Jul 2026 19:02:38 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309226+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "ChatGPT 工作区支持文档表格幻灯片编辑",
-      "description": "在 ChatGPT 工作区中创建和编辑精美的文档、电子表格和幻灯片。\n\n@nickbaumann_ 为你演示操作。\n\n🔗 阅读原文：https://x.com/ChatGPTapp/status/2077826846373380535\n\nvia AI HOT · https://aihot.virxact.com/items/cmrnvlijq012lbixy2xhlk8k8",
-      "url": "https://aihot.virxact.com/items/cmrnvlijq012lbixy2xhlk8k8",
-      "published": "Thu, 16 Jul 2026 18:44:58 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309235+00:00"
-    },
-    {
-      "source": "ai_hot_feed",
-      "title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
-      "description": "Decoy Font 是一款 TTF 字体，通过在同一字符中叠加不同空间频率的图形（前景细轮廓与背景低频模糊块），使近距离观看时 AI 读到\"诱饵\"字母，而人眼远距离或眯眼时才能看到真实隐藏信息。\n\n🔗 阅读原文：https://www.mixfont.com/experiments/decoy-font\n\nvia AI HOT · https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z",
-      "url": "https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z",
-      "published": "Thu, 16 Jul 2026 18:32:23 GMT",
-      "fetch_time": "2026-07-18T12:52:06.309238+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "WAIC2026的三个关键信号：算力重组、Agent交付与AI硬件闭环",
+      "source": "hacker_news",
+      "title": "NotebookLM is now Gemini Notebook",
       "description": "",
-      "url": "https://36kr.com/p/3900957398960006",
-      "fetch_time": "2026-07-18T12:52:07.776839+00:00"
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "hn_url": "https://news.ycombinator.com/item?id=48936451",
+      "score": 365,
+      "comments": 181,
+      "published": "",
+      "fetch_time": "2026-07-18T13:26:01.195130+00:00"
     },
     {
-      "source": "36kr_ai",
-      "title": "刚刚，Fable 5官宣永久可用",
+      "source": "hacker_news",
+      "title": "Grok Build is open source",
       "description": "",
-      "url": "https://36kr.com/p/3900918550546308",
-      "fetch_time": "2026-07-18T12:52:07.776862+00:00"
+      "url": "https://github.com/xai-org/grok-build",
+      "hn_url": "https://news.ycombinator.com/item?id=48926590",
+      "score": 583,
+      "comments": 649,
+      "published": "",
+      "fetch_time": "2026-07-18T13:26:06.711482+00:00"
     },
     {
-      "source": "36kr_ai",
-      "title": "十年服务世界，正在成为普渡迈向具身智能的底牌",
+      "source": "hacker_news",
+      "title": "Microsoft has released software updates to plug at least 570 security holes",
       "description": "",
-      "url": "https://36kr.com/p/3900610713175938",
-      "fetch_time": "2026-07-18T12:52:07.776871+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "门票炒到 3000 元的 WAIC，我们找到了 AI 真正的创新",
-      "description": "",
-      "url": "https://36kr.com/p/3899772123694979",
-      "fetch_time": "2026-07-18T12:52:07.776879+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "打败Fable 5！Kimi K3冲上第一，杨植麟导师很骄傲",
-      "description": "",
-      "url": "https://36kr.com/p/3899876606985864",
-      "fetch_time": "2026-07-18T12:52:07.776886+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "算法代理不对称：当AI替你决策时，你连反对的权利都没有",
-      "description": "",
-      "url": "https://36kr.com/p/3899527497335943",
-      "fetch_time": "2026-07-18T12:52:07.776891+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "全球首个“变形金刚”，中国企业造出来了",
-      "description": "",
-      "url": "https://36kr.com/p/3899505422796161",
-      "fetch_time": "2026-07-18T12:52:07.776897+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "真人短剧，被AI逼上大银幕",
-      "description": "",
-      "url": "https://36kr.com/p/3899537124165256",
-      "fetch_time": "2026-07-18T12:52:07.776907+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "第一个被AI做空的国家，出现了",
-      "description": "",
-      "url": "https://36kr.com/p/3899650585806469",
-      "fetch_time": "2026-07-18T12:52:07.776914+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "什么国产模型，都能跟Fable 5掰手腕了？全方位实测Kimi K3",
-      "description": "",
-      "url": "https://36kr.com/p/3899650690188936",
-      "fetch_time": "2026-07-18T12:52:07.776919+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "终于用上 AI 的公司，发现业务被大模型公司抢了",
-      "description": "",
-      "url": "https://36kr.com/p/3899582770611845",
-      "fetch_time": "2026-07-18T12:52:07.776924+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "做出来容易上线难：搞定企业级Agent要先学会“评估”？",
-      "description": "",
-      "url": "https://36kr.com/p/3899570321901449",
-      "fetch_time": "2026-07-18T12:52:07.776929+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "全体起立：面向AI智能体的Internet Court现已开庭",
-      "description": "",
-      "url": "https://36kr.com/p/3899512269538945",
-      "fetch_time": "2026-07-18T12:52:07.776933+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "Kimi K3：马斯克 Impressed",
-      "description": "",
-      "url": "https://36kr.com/p/3899601903322244",
-      "fetch_time": "2026-07-18T12:52:07.776937+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "给人形机器人当老师，撑起一个百亿市场",
-      "description": "",
-      "url": "https://36kr.com/p/3899549255288711",
-      "fetch_time": "2026-07-18T12:52:07.776941+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "字节两员离职大将，单挑老东家？",
-      "description": "",
-      "url": "https://36kr.com/p/3899540157236869",
-      "fetch_time": "2026-07-18T12:52:07.776946+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环",
-      "description": "",
-      "url": "https://36kr.com/p/3899556701128578",
-      "fetch_time": "2026-07-18T12:52:07.776950+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
-      "description": "",
-      "url": "https://36kr.com/p/3899597215745664",
-      "fetch_time": "2026-07-18T12:52:07.776954+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "星地协同，问答无界 ——复旦大学空间互联网研究院联合天空智算亮相WAIC",
-      "description": "",
-      "url": "https://36kr.com/p/3899524856694409",
-      "fetch_time": "2026-07-18T12:52:07.776960+00:00"
-    },
-    {
-      "source": "36kr_ai",
-      "title": "梁文锋“狙击”闫俊杰",
-      "description": "",
-      "url": "https://36kr.com/p/3899475392906880",
-      "fetch_time": "2026-07-18T12:52:07.776964+00:00"
+      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "hn_url": "https://news.ycombinator.com/item?id=48913190",
+      "score": 206,
+      "comments": 121,
+      "published": "",
+      "fetch_time": "2026-07-18T13:26:08.746841+00:00"
     }
   ]
 }
