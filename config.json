@@ -1,16 +1,11 @@
 {
   "sources": {
-    "github_trending": {
-      "enabled": false,
-      "url": "https://github.com/trending",
-      "description": "GitHub 热门项目（已关闭）"
-    },
     "hacker_news": {
       "enabled": true,
       "api_url": "https://hacker-news.firebaseio.com/v0",
-      "max_items": 15,
-      "keywords": ["AI", "LLM", "GPT", "Claude", "Agent", "machine learning", "neural", "transformer", "diffusion", "openai", "anthropic", "model"],
-      "description": "Hacker News AI 相关热帖"
+      "max_items": 20,
+      "keywords": ["AI", "LLM", "GPT", "Claude", "Agent", "machine learning", "OpenAI", "Anthropic", "Google", "Meta", "Apple", "Microsoft", "Amazon", "ByteDance", "Baidu", "Alibaba", "Tencent", "revenue", "business", "commerce", "ads", "advertising", "local", "delivery", "retail", "monetiz"],
+      "description": "Hacker News AI 商业热帖"
     },
     "ai_hot_feed": {
       "enabled": true,
@@ -21,14 +16,14 @@
     "huggingface_papers": {
       "enabled": true,
       "api_url": "https://huggingface.co/api/daily_papers",
-      "max_items": 10,
-      "description": "Hugging Face 每日论文"
+      "max_items": 8,
+      "description": "Hugging Face 重点论文"
     },
     "kr36_ai": {
       "enabled": true,
       "url": "https://36kr.com/information/AI/",
       "rss_url": "https://36kr.com/feed/AI",
-      "max_items": 15,
+      "max_items": 20,
       "description": "36Kr AI 专栏"
     },
     "aibase": {
@@ -58,22 +53,27 @@
     "product_hunt": {
       "enabled": true,
       "url": "https://www.producthunt.com/",
-      "max_items": 15,
-      "keywords": ["AI", "GPT", "LLM", "machine learning", "automation", "agent", "chatbot", "copilot"],
+      "max_items": 10,
+      "keywords": ["AI", "GPT", "LLM", "automation", "agent", "chatbot", "copilot", "local", "commerce", "marketing", "ads"],
       "description": "Product Hunt AI 新产品"
     },
     "toolify": {
       "enabled": true,
       "url": "https://www.toolify.ai/Best-trending-AI-Tools",
-      "max_items": 15,
+      "max_items": 10,
       "description": "Toolify AI 工具榜"
     },
     "chatpaper": {
       "enabled": true,
       "url": "https://www.chatpaper.ai/zh/dashboard/papers",
-      "max_items": 10,
+      "max_items": 8,
       "description": "ChatPaper AI 论文"
     }
+  },
+  "business_focus": {
+    "top_companies": ["OpenAI", "Google", "Meta", "Apple", "Microsoft", "Amazon", "Anthropic", "ByteDance", "Baidu", "Alibaba", "Tencent", "Nvidia", "xAI", "Mistral", "Cohere", "Perplexity", "Midjourney", "Stability AI", "Adobe", "Salesforce"],
+    "commercial_keywords": ["商业化", "营收", "收入", "广告", "变现", "付费", "订阅", "定价", "融资", "估值", "IPO", "上市", "合作", "战略", "发布", "推出", "上线", "partnership", "revenue", "monetiz", "pricing", "subscription", "enterprise", "business", "launch", "billion", "million", "funding", "valuation"],
+    "local_life_keywords": ["本地生活", "外卖", "到店", "团购", "餐饮", "零售", "配送", "即时", "O2O", "到家", "门店", "商家", "local", "delivery", "restaurant", "retail", "food", "grocery", "ride", "travel", "booking", "hotel", "Meituan", "Ele.me", "DoorDash", "Uber Eats", "Instacart", "Grab", "GoTo"]
   },
   "ai": {
     "model": "gpt-4o-mini",
@@ -82,6 +82,8 @@
   },
   "output": {
     "schedule": "daily",
-    "timezone": "Asia/Shanghai"
+    "timezone": "Asia/Shanghai",
+    "weekly_day": "friday",
+    "archive_months": 3
   }
 }
