@@ -1,11 +1,28 @@
 {
   "sources": {
-    "hacker_news": {
+    "google_news_ai": {
       "enabled": true,
-      "api_url": "https://hacker-news.firebaseio.com/v0",
+      "queries": [
+        "OpenAI OR Anthropic OR \"Google AI\" revenue OR launch OR funding",
+        "\"Meta AI\" OR \"Microsoft AI\" OR \"Apple AI\" business OR product",
+        "ByteDance AI OR Baidu AI OR Alibaba AI OR Tencent AI",
+        "Nvidia AI OR xAI OR \"Mistral AI\" funding OR chip OR revenue",
+        "AI advertising OR AI commerce OR AI enterprise deal OR AI partnership"
+      ],
+      "base_url": "https://news.google.com/rss/search",
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en",
+      "when": "7d",
+      "max_items_per_query": 12,
+      "description": "Google News RSS 大厂 AI 商业动态（核心源）"
+    },
+    "kr36_ai": {
+      "enabled": true,
+      "url": "https://36kr.com/information/AI/",
+      "rss_url": "https://36kr.com/feed/AI",
       "max_items": 20,
-      "keywords": ["AI", "LLM", "GPT", "Claude", "Agent", "machine learning", "OpenAI", "Anthropic", "Google", "Meta", "Apple", "Microsoft", "Amazon", "ByteDance", "Baidu", "Alibaba", "Tencent", "revenue", "business", "commerce", "ads", "advertising", "local", "delivery", "retail", "monetiz"],
-      "description": "Hacker News AI 商业热帖"
+      "description": "36Kr AI 专栏（国内 AI 商业报道）"
     },
     "ai_hot_feed": {
       "enabled": true,
@@ -13,71 +30,40 @@
       "max_items": 20,
       "description": "AI HOT Feed 中文热点"
     },
-    "huggingface_papers": {
+    "venturebeat": {
       "enabled": true,
-      "api_url": "https://huggingface.co/api/daily_papers",
-      "max_items": 8,
-      "description": "Hugging Face 重点论文"
-    },
-    "kr36_ai": {
-      "enabled": true,
-      "url": "https://36kr.com/information/AI/",
-      "rss_url": "https://36kr.com/feed/AI",
-      "max_items": 20,
-      "description": "36Kr AI 专栏"
-    },
-    "aibase": {
-      "enabled": true,
-      "url": "https://www.aibase.com/zh",
+      "url": "https://venturebeat.com/category/ai/",
+      "feed_url": "https://venturebeat.com/category/ai/feed/",
       "max_items": 15,
-      "description": "AI Base 综合资讯"
+      "description": "VentureBeat AI 企业级商业化"
     },
-    "particle_news": {
+    "theverge": {
       "enabled": true,
-      "url": "https://particle.news/technology",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
       "max_items": 15,
-      "description": "Particle News AI 聚合"
+      "description": "The Verge AI 大厂动态"
     },
-    "the_rundown_ai": {
+    "hacker_news": {
       "enabled": true,
-      "url": "https://www.therundown.ai/",
+      "api_url": "https://hacker-news.firebaseio.com/v0",
       "max_items": 10,
-      "description": "The Rundown AI Newsletter"
-    },
-    "tldr": {
-      "enabled": true,
-      "url": "https://tldr.tech/ai",
-      "max_items": 10,
-      "description": "TLDR AI Newsletter"
-    },
-    "product_hunt": {
-      "enabled": true,
-      "url": "https://www.producthunt.com/",
-      "max_items": 10,
-      "keywords": ["AI", "GPT", "LLM", "automation", "agent", "chatbot", "copilot", "local", "commerce", "marketing", "ads"],
-      "description": "Product Hunt AI 新产品"
-    },
-    "toolify": {
-      "enabled": true,
-      "url": "https://www.toolify.ai/Best-trending-AI-Tools",
-      "max_items": 10,
-      "description": "Toolify AI 工具榜"
-    },
-    "chatpaper": {
-      "enabled": true,
-      "url": "https://www.chatpaper.ai/zh/dashboard/papers",
-      "max_items": 8,
-      "description": "ChatPaper AI 论文"
+      "min_score": 150,
+      "keywords": ["OpenAI", "Anthropic", "Google", "Gemini", "Meta", "Apple", "Microsoft", "Amazon", "AWS", "Claude", "ByteDance", "TikTok", "Baidu", "Alibaba", "Tencent", "Nvidia", "xAI", "Mistral"],
+      "description": "Hacker News AI 高热帖（score>150 且含大厂名）"
     }
   },
   "business_focus": {
-    "top_companies": ["OpenAI", "Google", "Meta", "Apple", "Microsoft", "Amazon", "Anthropic", "ByteDance", "Baidu", "Alibaba", "Tencent", "Nvidia", "xAI", "Mistral", "Cohere", "Perplexity", "Midjourney", "Stability AI", "Adobe", "Salesforce"],
-    "commercial_keywords": ["商业化", "营收", "收入", "广告", "变现", "付费", "订阅", "定价", "融资", "估值", "IPO", "上市", "合作", "战略", "发布", "推出", "上线", "partnership", "revenue", "monetiz", "pricing", "subscription", "enterprise", "business", "launch", "billion", "million", "funding", "valuation"],
-    "local_life_keywords": ["本地生活", "外卖", "到店", "团购", "餐饮", "零售", "配送", "即时", "O2O", "到家", "门店", "商家", "local", "delivery", "restaurant", "retail", "food", "grocery", "ride", "travel", "booking", "hotel", "Meituan", "Ele.me", "DoorDash", "Uber Eats", "Instacart", "Grab", "GoTo"]
+    "top_companies": ["OpenAI", "Google", "Alphabet", "Gemini", "Meta", "Apple", "Microsoft", "Amazon", "AWS", "Anthropic", "Claude", "ByteDance", "TikTok", "Baidu", "Alibaba", "Tencent", "Nvidia", "xAI", "Grok", "Mistral", "Cohere", "Perplexity", "Midjourney", "Stability AI", "Adobe", "Salesforce", "Meta AI", "字节跳动", "字节", "抖音", "百度", "阿里", "阿里巴巴", "腾讯", "谷歌", "微软", "苹果", "亚马逊", "英伟达"],
+    "commercial_keywords": ["商业化", "营收", "收入", "广告", "变现", "付费", "订阅", "定价", "融资", "估值", "IPO", "上市", "合作", "战略", "发布", "推出", "上线", "收购", "partnership", "revenue", "monetize", "monetization", "pricing", "subscription", "enterprise", "launch", "billion", "million", "funding", "valuation", "acquisition", "deal"],
+    "analysis_keywords": ["财报", "季报", "行业分析", "市场分析", "研报", "调研", "市场份额", "增长", "行业报告", "earnings", "quarterly results", "quarterly", "market share", "report", "outlook", "forecast", "analysis", "trend", "adoption"],
+    "local_life_keywords": ["本地生活", "外卖", "到店", "团购", "餐饮", "零售", "配送", "即时零售", "O2O", "到家", "门店", "商家", "本地", "local", "delivery", "restaurant", "retail", "food", "grocery", "ride hailing", "travel", "booking", "hotel", "Meituan", "Ele.me", "DoorDash", "Uber Eats", "Instacart", "Grab", "GoTo", "Deliveroo"]
   },
   "ai": {
-    "model": "gpt-4o-mini",
+    "model": "deepseek-chat",
+    "base_url": "https://api.deepseek.com",
     "language": "zh-CN",
+    "max_curated_items": 15,
     "fallback_enabled": true
   },
   "output": {
