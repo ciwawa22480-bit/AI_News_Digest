@@ -802,9 +802,9 @@ def main():
         items = fetch_huggingface_papers(config)
         all_items.extend(items)
     
-    # 5. GitHub Releases
-    items = fetch_github_ai_releases()
-    all_items.extend(items)
+    # 5. GitHub Releases (disabled - only AI news)
+    # items = fetch_github_ai_releases()
+    # all_items.extend(items)
     
     # 6. 36Kr AI
     if config["sources"].get("kr36_ai", {}).get("enabled"):
