@@ -3,15 +3,16 @@
 """
 generate_ai_summary.py
 
-使用 DeepSeek API（兼容 OpenAI SDK）将抓取的 100+ 条原始资讯精选为 10-15 条
-高质量 AI 商业日报。输出风格对标「AI日报沉淀」：
+使用 DeepSeek API 将 100+ 条原始资讯精选为 15-20 条深度日报。
+对标「AI日报沉淀」文档：
 
+- 每日编辑一句话总结（editorial_summary）
 - 分类：大厂动向 / 初创动向 / 生态动向 / 观点与深度
-- 每条：中文标题 + 一句话说明（是什么 + 为什么重要）
-- 标注：fact / 观点 + 高影响 / 中影响
-- 周报聚合：本周精选条目去重合并
-
-无 API Key 时自动降级为规则模式。
+- 每条：标题 + 核心说明 + 2-3 条深度分析子要点
+- 影响等级：高影响(红) / 中影响(黄) / 信息流(灰)
+- 类型：fact / opinion
+- 去重：排除昨天已出现的内容
+- 周报：一周精选聚合
 """
 import json
 import os
@@ -42,15 +43,65 @@ SOURCE_NAMES = {
     "ai_hot_feed": "AI热点",
     "venturebeat": "VentureBeat",
     "theverge": "The Verge",
+    "techcrunch_ai": "TechCrunch",
+    "the_rundown_ai": "The Rundown",
+    "tldr_ai": "TLDR AI",
+    "latent_space": "Latent Space",
+    "one_useful_thing": "One Useful Thing",
+    "a16z_ai": "A16Z",
+    "product_hunt": "Product Hunt",
     "hacker_news": "Hacker News",
 }
 
 
-# ============ DeepSeek / OpenAI 精选模式 ============
+# ============ 去重：加载昨天的数据 ============
+def load_yesterday_urls():
+    """加载昨天的日报数据，用于去重。"""
+    beijing = timezone(timedelta(hours=8))
+    yesterday = datetime.now(beijing) - timedelta(days=1)
+    yesterday_file = os.path.join(DAILY_DIR, yesterday.strftime("%Y-%m-%d") + ".json")
+    urls = set()
+    titles = set()
+    if os.path.exists(yesterday_file):
+        try:
+            with open(yesterday_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                for item in data.get("items", []):
+                    if item.get("url"):
+                        urls.add(item["url"])
+                    if item.get("title"):
+                        titles.add(item["title"][:20])
+        except Exception:
+            pass
+    return urls, titles
+
+
+def deduplicate_from_yesterday(items):
+    """移除昨天已经出现过的条目。"""
+    yesterday_urls, yesterday_titles = load_yesterday_urls()
+    if not yesterday_urls and not yesterday_titles:
+        return items
+
+    filtered = []
+    for item in items:
+        url = item.get("url", "")
+        title = item.get("title", "")[:20]
+        if url in yesterday_urls:
+            continue
+        if title and title in yesterday_titles:
+            continue
+        filtered.append(item)
+
+    removed = len(items) - len(filtered)
+    if removed > 0:
+        print("  [INFO] Removed " + str(removed) + " items (already in yesterday's digest)")
+    return filtered
+
+
+# ============ DeepSeek AI 精选模式 ============
 def curate_with_ai(items, config):
     """
-    调用 DeepSeek API，从原始资讯中精选 10-15 条，
-    按「AI日报沉淀」格式输出结构化 JSON。
+    调用 DeepSeek API，精选 15-20 条，每条含深度分析子要点。
     """
     from openai import OpenAI
 
@@ -58,65 +109,83 @@ def curate_with_ai(items, config):
     api_key = os.environ.get("OPENAI_API_KEY", "")
     base_url = os.environ.get("OPENAI_BASE_URL", ai_config.get("base_url", "https://api.deepseek.com"))
     model = os.environ.get("AI_MODEL", ai_config.get("model", "deepseek-chat"))
-    max_curated = ai_config.get("max_curated_items", 15)
+    max_curated = ai_config.get("max_curated_items", 20)
 
     client = OpenAI(api_key=api_key, base_url=base_url)
 
-    # 准备输入：所有条目的标题 + 描述 + 来源 + URL
+    # 构造输入
     items_text = ""
-    for i, item in enumerate(items[:120], 1):
+    for i, item in enumerate(items[:150], 1):
         title = item.get("title", "").strip()
         desc = item.get("description", "").strip()
         source = SOURCE_NAMES.get(item.get("source", ""), item.get("source", ""))
         url = item.get("url", "")
         line = str(i) + ". [" + source + "] " + title
         if desc:
-            line += " | " + desc[:150]
+            line += " | " + desc[:200]
         if url:
             line += " | URL: " + url
         items_text += line + "\n"
 
     biz = config.get("business_focus", {})
-    top_companies = ", ".join(biz.get("top_companies", [])[:15])
-    local_keywords = ", ".join(biz.get("local_life_keywords", [])[:8])
+    top_companies = ", ".join(biz.get("top_companies", [])[:20])
 
-    prompt = """你是一位面向「本地生活商业化外投团队」的 AI 行业分析师编辑。
-你的读者是销售人员，他们关注：
-1. 头部互联网大厂和 AI 公司（""" + top_companies + """）的商业动作：产品发布、营收、融资、战略合作、落地效果
-2. AI 如何改变广告、营销、本地生活（""" + local_keywords + """）等商业场景
-3. 行业分析、财报数据、市场趋势
+    prompt = """你是一位顶级 AI 行业分析师编辑，为「本地生活商业化外投团队」编写每日 AI 商业日报。
 
-现在请从以下 """ + str(len(items[:120])) + """ 条原始资讯中，精选出最重要的 """ + str(max_curated) + """ 条（不超过 """ + str(max_curated) + """ 条），按以下规则输出：
+读者画像：广告销售人员，关注头部大厂和 AI 公司的商业动作、落地效果、以及对广告/营销/本地生活的启发。
 
-## 分类规则（4个分类）：
-- **大厂动向**：头部大公司（OpenAI/Google/Meta/Microsoft/Apple/Amazon/字节/百度/阿里/腾讯/Nvidia等）的商业动作
-- **初创动向**：AI 初创公司（Anthropic/Mistral/Perplexity/Cohere 等）的融资、产品、合作
-- **生态动向**：行业整体趋势、监管政策、开源社区、基础设施、芯片供应链等
-- **观点与深度**：行业分析报告、财报解读、专家观点、市场预测
+## 任务
 
-## 每条输出格式：
-- title: 20-30字中文标题（简洁有力，一眼看懂）
-- summary: 1-2句话说明"是什么 + 为什么重要"（50-100字）
-- category: 上述4个分类之一
-- type: "fact" 或 "opinion"（事实类 vs 观点类）
-- impact: "high" 或 "medium"（高影响=头部公司重大动作/大额融资/行业拐点；中影响=值得关注）
-- source: 来源媒体名
-- url: 原文链接
-- local_life_hint: 如果与本地生活/广告/营销相关，用一句话说明启发；否则为空字符串
+从以下 """ + str(len(items[:150])) + """ 条原始资讯中，精选 """ + str(max_curated) + """ 条最有价值的内容。
 
-## 精选原则：
-1. 优先选择大厂重大商业动作（发布、营收、融资>5亿美元、战略合作）
-2. 优先选择有具体数据的条目（金额、增长率、用户数）
-3. 去重：同一事件只保留信息量最大的一条
+## 输出要求
+
+返回一个 JSON 对象，格式如下：
+{
+  "editorial_summary": "今日一句话编辑总结（提炼今天最核心的趋势/事件，20-40字）",
+  "items": [
+    {
+      "title": "中文标题（20-35字，简洁有力）",
+      "explanation": "核心说明（这条讲什么+为什么重要，60-120字）",
+      "analysis_points": [
+        "深度分析要点1（解读商业意义/竞争格局/对行业的影响，30-60字）",
+        "深度分析要点2（延伸思考/对本地生活广告的启发，30-60字）"
+      ],
+      "category": "大厂动向 / 初创动向 / 生态动向 / 观点与深度",
+      "type": "fact / opinion",
+      "impact": "high / medium / low",
+      "source": "来源媒体名",
+      "url": "原文链接",
+      "local_life_hint": "对本地生活/广告/营销的启发（如不相关则为空字符串）"
+    }
+  ]
+}
+
+## 分类规则
+- **大厂动向**：""" + top_companies + """ 等头部公司的产品发布、营收、战略
+- **初创动向**：AI 初创公司融资、新产品、商业模式
+- **生态动向**：行业趋势、监管政策、开源、基础设施、开发者工具
+- **观点与深度**：行业报告、CEO 观点、市场预测、深度分析
+
+## 影响等级
+- **high**（红色）：头部公司重大动作 / 大额融资(>1亿美元) / 行业拐点
+- **medium**（黄色）：值得关注的趋势 / 中型融资 / 产品更新
+- **low**（灰色）：一般信息流 / 小更新
+
+## 精选原则
+1. 每个分类至少 3 条，大厂动向占比最高
+2. 优先有具体数据的条目（金额、增长率、用户数）
+3. 同一事件只保留信息量最大的一条
 4. 英文内容必须翻译为中文
-5. 不要选纯技术/代码/论文类内容，聚焦商业价值
-6. 每个分类至少 2 条，大厂动向占比最高
+5. 每条的 analysis_points 必须有 2-3 条，体现深度
+6. 不选纯技术/代码/论文，聚焦商业价值
+7. editorial_summary 要有观点，不是简单罗列
 
-## 输出：
-纯 JSON 数组，不要 markdown 代码块，不要额外说明。
+## 输出
+纯 JSON，不要 markdown 代码块。
 
 ---
-原始资讯列表：
+原始资讯：
 """ + items_text
 
     try:
@@ -125,39 +194,27 @@ def curate_with_ai(items, config):
             model=model,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
-            max_tokens=6000,
+            max_tokens=8000,
         )
         result_text = response.choices[0].message.content.strip()
 
-        # 清理可能的 markdown 代码块
+        # 清理 markdown 代码块
         if result_text.startswith("```"):
             result_text = result_text.split("\n", 1)[1]
             if "```" in result_text:
                 result_text = result_text.rsplit("```", 1)[0]
         result_text = result_text.strip()
 
-        curated = json.loads(result_text)
-        print("  [OK] AI curated " + str(len(curated)) + " items")
-
-        # 标准化输出
-        news_items = []
-        for item in curated:
-            news_items.append({
-                "title": item.get("title", ""),
-                "summary": item.get("summary", ""),
-                "category": item.get("category", "大厂动向"),
-                "type": item.get("type", "fact"),
-                "impact": item.get("impact", "medium"),
-                "source": item.get("source", ""),
-                "url": item.get("url", ""),
-                "local_life_hint": item.get("local_life_hint", ""),
-            })
-        return news_items
+        data = json.loads(result_text)
+        editorial = data.get("editorial_summary", "")
+        curated_items = data.get("items", [])
+        print("  [OK] AI curated " + str(len(curated_items)) + " items")
+        print("  [OK] Editorial: " + editorial)
+        return editorial, curated_items
 
     except Exception as e:
         print("  [WARN] AI curation failed: " + str(e))
-        print("  [INFO] Falling back to rule-based mode")
-        return None
+        return None, None
 
 
 # ============ 规则模式 fallback ============
@@ -172,56 +229,50 @@ def keyword_in_text(keyword, text):
     return kw in txt
 
 
-def content_text(item):
-    return (item.get("title", "") + " " + item.get("description", "")).strip()
-
-
 def rule_based_curate(items, config):
-    """规则模式：按商业价值评分排序，取 top 15。"""
+    """规则模式降级。"""
     biz = config.get("business_focus", {})
-
     scored = []
     for item in items:
-        text = content_text(item)
+        text = (item.get("title", "") + " " + item.get("description", "")).strip()
         score = 30
         if any(keyword_in_text(c, text) for c in biz.get("top_companies", [])):
             score += 25
         commercial_hits = sum(1 for kw in biz.get("commercial_keywords", []) if keyword_in_text(kw, text))
-        score += min(commercial_hits * 12, 30)
+        score += min(commercial_hits * 10, 30)
         analysis_hits = sum(1 for kw in biz.get("analysis_keywords", []) if keyword_in_text(kw, text))
-        score += min(analysis_hits * 18, 36)
+        score += min(analysis_hits * 15, 30)
         if any(keyword_in_text(kw, text) for kw in biz.get("local_life_keywords", [])):
-            score += 25
-        if re.search(r"\$[\d,.]+|[\d,.]+\s*(亿|万)|billion|million|[\d.]+%", text.lower()):
-            score += 10
+            score += 20
         scored.append((score, item))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-    top_items = scored[:15]
+    top_items = scored[:20]
 
+    editorial = "今日 AI 行业多条重要商业动态，头部公司持续发力。"
     news_items = []
     for score, item in top_items:
         title = item.get("title", "")
         desc = item.get("description", "") or ""
         source = SOURCE_NAMES.get(item.get("source", ""), item.get("source", ""))
+        text = (title + " " + desc).lower()
 
-        # 简单分类
-        text = content_text(item).lower()
-        if any(keyword_in_text(kw, text) for kw in ["融资", "收购", "ipo", "funding", "acquisition", "raises"]):
+        if any(keyword_in_text(kw, text) for kw in ["融资", "收购", "funding", "acquisition"]):
             category = "初创动向"
         elif any(keyword_in_text(kw, text) for kw in biz.get("analysis_keywords", [])):
             category = "观点与深度"
-        elif any(keyword_in_text(kw, text) for kw in ["开源", "监管", "政策", "芯片", "chip", "regulation", "open source"]):
+        elif any(keyword_in_text(kw, text) for kw in ["开源", "监管", "芯片", "regulation", "open source"]):
             category = "生态动向"
         else:
             category = "大厂动向"
 
-        impact = "high" if score >= 70 else "medium"
-        summary = desc[:200] if desc else title
+        impact = "high" if score >= 75 else ("medium" if score >= 55 else "low")
+        explanation = desc[:150] if desc else "关注 AI 行业最新商业动态。"
 
         news_items.append({
             "title": title,
-            "summary": summary,
+            "explanation": explanation,
+            "analysis_points": ["关注该动态对行业格局的影响", "思考对广告和营销场景的启发"],
             "category": category,
             "type": "fact",
             "impact": impact,
@@ -230,12 +281,12 @@ def rule_based_curate(items, config):
             "local_life_hint": "",
         })
 
-    return news_items
+    return editorial, news_items
 
 
 # ============ 周报聚合 ============
 def load_weekly_items():
-    """读取 data/daily/ 本周（周一至今）所有 json，合并精选条目。"""
+    """加载本周所有日报数据。"""
     weekly = []
     today = datetime.now(timezone(timedelta(hours=8)))
     monday = today - timedelta(days=today.weekday())
@@ -252,19 +303,6 @@ def load_weekly_items():
     return weekly
 
 
-def deduplicate_items(items):
-    """去重：按 url 或 title 去重。"""
-    seen = set()
-    unique = []
-    for it in items:
-        key = it.get("url") or it.get("title", "")
-        if not key or key in seen:
-            continue
-        seen.add(key)
-        unique.append(it)
-    return unique
-
-
 # ============ 主流程 ============
 def main():
     config = load_config()
@@ -272,28 +310,30 @@ def main():
     items = raw.get("items", [])
 
     print("=" * 60)
-    print("AI Daily Digest - Curator Mode")
+    print("AI Daily Digest - Deep Analysis Mode")
     print("   Raw items: " + str(len(items)))
     print("=" * 60)
 
+    # 去重：排除昨天的
+    items = deduplicate_from_yesterday(items)
+    print("  [INFO] After dedup: " + str(len(items)) + " items")
+
+    editorial = ""
     news_items = None
 
-    # 优先使用 AI 精选模式
     if os.environ.get("OPENAI_API_KEY"):
-        print("  [INFO] AI mode enabled (DeepSeek/OpenAI)")
-        news_items = curate_with_ai(items, config)
+        print("  [INFO] AI mode enabled")
+        editorial, news_items = curate_with_ai(items, config)
 
-    # AI 失败或无 Key 时降级
     if news_items is None:
-        print("  [INFO] Using rule-based curation")
-        news_items = rule_based_curate(items, config)
+        print("  [INFO] Using rule-based mode")
+        editorial, news_items = rule_based_curate(items, config)
 
-    # 构建输出
+    # 输出
     beijing = timezone(timedelta(hours=8))
     now_bj = datetime.now(beijing)
     today_str = now_bj.strftime("%Y-%m-%d")
 
-    # 按分类分组统计
     category_counts = {}
     for item in news_items:
         cat = item.get("category", "大厂动向")
@@ -304,6 +344,7 @@ def main():
         "date_display": now_bj.strftime("%Y年%m月%d日"),
         "date_short": today_str,
         "weekday": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"][now_bj.weekday()],
+        "editorial_summary": editorial,
         "total_items": len(news_items),
         "high_count": len([i for i in news_items if i.get("impact") == "high"]),
         "category_counts": category_counts,
@@ -319,43 +360,40 @@ def main():
     with open(os.path.join(DAILY_DIR, today_str + ".json"), "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    # 周报聚合
+    # 周报
     weekly_items = load_weekly_items()
     if weekly_items:
-        unique = deduplicate_items(weekly_items)
-        # 按 impact 排序：high 在前
+        seen = set()
+        unique = []
+        for it in weekly_items:
+            key = it.get("url") or it.get("title", "")
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            unique.append(it)
         unique.sort(key=lambda x: (0 if x.get("impact") == "high" else 1))
 
         week_start = (now_bj - timedelta(days=now_bj.weekday())).strftime("%m.%d")
         week_end = now_bj.strftime("%m.%d")
 
-        weekly_category_counts = {}
-        for item in unique:
-            cat = item.get("category", "大厂动向")
-            weekly_category_counts[cat] = weekly_category_counts.get(cat, 0) + 1
-
         weekly_output = {
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "week_range": week_start + "-" + week_end,
             "date_display": week_start + " - " + week_end,
+            "editorial_summary": "本周 AI 行业精选要闻汇总",
             "total_items": len(unique),
             "high_count": len([i for i in unique if i.get("impact") == "high"]),
-            "category_counts": weekly_category_counts,
             "items": unique,
             "mode": output.get("mode", "rule"),
         }
         with open(os.path.join(DATA_DIR, "weekly_items.json"), "w", encoding="utf-8") as f:
             json.dump(weekly_output, f, ensure_ascii=False, indent=2)
-        print("  [OK] Weekly aggregated: " + str(len(unique)) + " unique items")
+        print("  [OK] Weekly: " + str(len(unique)) + " items")
 
     print()
     print("=" * 60)
-    print("Done! Curated: " + str(len(news_items)) + " items"
-          + " | High: " + str(output["high_count"])
-          + " | Mode: " + output["mode"])
-    for cat, count in sorted(category_counts.items()):
-        print("   - " + cat + ": " + str(count))
-    print("   Saved: data/news_items.json + data/daily/" + today_str + ".json")
+    print("Done! Curated: " + str(len(news_items)) + " | High: " + str(output["high_count"]))
+    print("   Editorial: " + editorial)
     print("=" * 60)
 
 
