@@ -1,500 +1,363 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-generate_ai_summary.py - v2 (商业化版)
-将抓取的原始数据转化为面向商业决策者的中文资讯摘要
-核心改进：
-1. 商业价值筛选和评分
-2. 要点提取（每条3-5个要点）
-3. 本地生活相关性标注
-4. 头部汇总生成
-5. 周报/月报数据聚合
+generate_ai_summary.py
+
+使用 DeepSeek API（兼容 OpenAI SDK）将抓取的 100+ 条原始资讯精选为 10-15 条
+高质量 AI 商业日报。输出风格对标「AI日报沉淀」：
+
+- 分类：大厂动向 / 初创动向 / 生态动向 / 观点与深度
+- 每条：中文标题 + 一句话说明（是什么 + 为什么重要）
+- 标注：fact / 观点 + 高影响 / 中影响
+- 周报聚合：本周精选条目去重合并
+
+无 API Key 时自动降级为规则模式。
 """
 import json
 import os
 import re
-import sys
-import glob
 from datetime import datetime, timezone, timedelta
 
-def load_raw_news():
-    with open('data/raw_news.json', 'r', encoding='utf-8') as f:
-        return json.load(f)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+DAILY_DIR = os.path.join(DATA_DIR, "daily")
+
 
 def load_config():
-    config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.json')
-    with open(config_path, 'r', encoding='utf-8') as f:
+    config_path = os.path.join(BASE_DIR, "config.json")
+    with open(config_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+
+def load_raw_news():
+    with open(os.path.join(DATA_DIR, "raw_news.json"), "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 SOURCE_NAMES = {
-    "github_trending": "GitHub",
-    "hacker_news": "技术社区",
-    "ai_hot_feed": "AI 热点",
-    "huggingface_papers": "前沿论文",
-    "github_releases": "版本更新",
+    "google_news_ai": "Google News",
+    "kr36_ai": "36氪",
     "36kr_ai": "36氪",
-    "aibase": "AI 工具",
-    "particle_news": "科技资讯",
-    "the_rundown_ai": "AI 简报",
-    "tldr_ai": "技术速递",
-    "product_hunt": "新品发现",
-    "toolify": "工具榜单",
-    "chatpaper": "论文推荐",
+    "ai_hot_feed": "AI热点",
+    "venturebeat": "VentureBeat",
+    "theverge": "The Verge",
+    "hacker_news": "Hacker News",
 }
 
-# ============ 商业价值评分 ============
 
-def score_business_value(item, config):
-    """对每条资讯进行商业价值评分 (0-100)"""
-    title = (item.get("title", "") + " " + item.get("description", "")).lower()
-    score = 30  # 基础分
-    
-    biz = config.get("business_focus", {})
-    
-    # 头部公司提及 +20
-    for company in biz.get("top_companies", []):
-        if company.lower() in title:
-            score += 20
-            break
-    
-    # 商业关键词 +15 each (max 30)
-    commercial_hits = 0
-    for kw in biz.get("commercial_keywords", []):
-        if kw.lower() in title:
-            commercial_hits += 1
-    score += min(commercial_hits * 15, 30)
-    
-    # 本地生活关键词 +25
-    for kw in biz.get("local_life_keywords", []):
-        if kw.lower() in title:
-            score += 25
-            break
-    
-    # 有具体数字/金额 +10
-    if re.search(r'\$[\d,.]+|[\d,.]+亿|[\d,.]+万|billion|million', title):
-        score += 10
-    
-    return min(score, 100)
-
-def check_local_life_relevance(item, config):
-    """检查是否与本地生活商业化相关"""
-    text = (item.get("title", "") + " " + item.get("description", "")).lower()
-    keywords = config.get("business_focus", {}).get("local_life_keywords", [])
-    
-    hits = []
-    for kw in keywords:
-        if kw.lower() in text:
-            hits.append(kw)
-    
-    return len(hits) > 0, hits
-
-def extract_key_points(item):
-    """从描述中提取要点"""
-    desc = item.get("description", "")
-    title = item.get("title", "")
-    source = item.get("source", "")
-    
-    points = []
-    
-    # 基于来源生成不同风格的要点
-    if source == "hacker_news":
-        score = item.get("score", 0)
-        comments = item.get("comments", 0)
-        if score:
-            points.append(f"社区热度：{score} 分，{comments} 条讨论")
-        points.append("技术社区高度关注的 AI 话题")
-        
-    elif source in ("huggingface_papers", "chatpaper"):
-        if desc:
-            # 从摘要中提取前几句
-            sentences = re.split(r'[.。!！?？]', desc)
-            for s in sentences[:3]:
-                s = s.strip()
-                if len(s) > 15:
-                    points.append(s[:80])
-        if not points:
-            points.append("AI 前沿研究论文")
-    
-    elif source == "36kr_ai":
-        if desc:
-            sentences = re.split(r'[.。!！?？;；]', desc)
-            for s in sentences[:3]:
-                s = s.strip()
-                if len(s) > 8:
-                    points.append(s[:80])
-        if not points:
-            points.append("国内 AI 行业动态报道")
-    
-    elif source == "product_hunt":
-        points.append("新上线的 AI 产品/工具")
-        if desc:
-            points.append(desc[:80])
-    
-    elif source == "ai_hot_feed":
-        if desc:
-            sentences = re.split(r'[.。!！?？;；]', desc)
-            for s in sentences[:3]:
-                s = s.strip()
-                if len(s) > 8:
-                    points.append(s[:80])
-        if not points:
-            points.append("AI 行业热点资讯")
-    
-    else:
-        if desc:
-            sentences = re.split(r'[.。!！?？;；]', desc)
-            for s in sentences[:2]:
-                s = s.strip()
-                if len(s) > 8:
-                    points.append(s[:80])
-    
-    # 确保至少有1个要点
-    if not points:
-        points.append(f"来源：{SOURCE_NAMES.get(source, source)}")
-    
-    return points[:5]
-
-def determine_category(item, config):
-    """判断商业分类"""
-    text = (item.get("title", "") + " " + item.get("description", "")).lower()
-    
-    if any(kw in text for kw in ["发布", "推出", "上线", "launch", "release", "announce"]):
-        if any(kw in text for kw in ["模型", "model", "gpt", "llm", "claude"]):
-            return "模型发布"
-        return "产品动态"
-    
-    if any(kw in text for kw in ["融资", "收购", "估值", "ipo", "funding", "acquisition", "valuation", "billion", "million"]):
-        return "投融资"
-    
-    if any(kw in text for kw in ["合作", "战略", "partnership", "collaborate", "deal"]):
-        return "战略合作"
-    
-    if any(kw in text for kw in ["广告", "营销", "marketing", "ads", "advertising", "brand"]):
-        return "营销广告"
-    
-    if any(kw in text for kw in ["本地", "外卖", "到店", "零售", "local", "delivery", "retail", "food"]):
-        return "本地生活"
-    
-    if any(kw in text for kw in ["论文", "研究", "paper", "research", "study"]):
-        return "前沿研究"
-    
-    if any(kw in text for kw in ["工具", "tool", "app", "saas", "platform"]):
-        return "工具应用"
-    
-    return "行业动态"
-
-def generate_importance(score):
-    """根据商业价值评分确定重要性"""
-    if score >= 70:
-        return "high"
-    elif score >= 45:
-        return "medium"
-    else:
-        return "low"
-
-def generate_executive_summary(items):
-    """生成头部执行摘要"""
-    high_items = [i for i in items if i.get("importance") == "high"]
-    
-    summary_points = []
-    
-    # 按分类聚合
-    categories = {}
-    for item in high_items[:10]:
-        cat = item.get("category", "行业动态")
-        if cat not in categories:
-            categories[cat] = []
-        categories[cat].append(item["title"])
-    
-    for cat, titles in list(categories.items())[:5]:
-        summary_points.append(f"【{cat}】{titles[0]}")
-    
-    # 如果高重要性不够，补充中等重要性
-    if len(summary_points) < 3:
-        medium_items = [i for i in items if i.get("importance") == "medium"]
-        for item in medium_items[:5 - len(summary_points)]:
-            summary_points.append(f"【{item.get('category', '动态')}】{item['title']}")
-    
-    return summary_points[:8]
-
-def generate_fallback_item(item, config):
-    """增强版降级摘要 - 面向商业决策者"""
-    source = item["source"]
-    title = item.get("title", "")
-    desc = item.get("description", "")
-    
-    # 商业价值评分
-    biz_score = score_business_value(item, config)
-    importance = generate_importance(biz_score)
-    
-    # 本地生活相关性
-    is_local, local_keywords = check_local_life_relevance(item, config)
-    
-    # 要点提取
-    key_points = extract_key_points(item)
-    
-    # 分类
-    category = determine_category(item, config)
-    
-    # 生成摘要
-    if desc and len(desc) > 20:
-        summary = desc[:150]
-    elif source == "36kr_ai":
-        summary = f"36氪报道：{title}。关注国内 AI 产业最新商业动态。"
-    elif source == "hacker_news":
-        summary = f"技术社区热议：{title}。该话题引发广泛讨论，可能预示行业新趋势。"
-    elif source == "ai_hot_feed":
-        summary = f"AI 行业热点：{title}。"
-    elif source in ("huggingface_papers", "chatpaper"):
-        summary = f"前沿研究：{title}。该论文可能对 AI 应用商业化产生影响。"
-    elif source == "product_hunt":
-        summary = f"新产品上线：{title}。值得关注其商业模式和应用场景。"
-    elif source == "toolify":
-        summary = f"热门 AI 工具：{title}。观察市场需求和用户偏好变化。"
-    else:
-        summary = f"{title}。"
-    
-    # 本地生活标注
-    local_life_note = ""
-    if is_local:
-        local_life_note = f"与本地生活商业化相关：涉及{', '.join(local_keywords[:3])}"
-    
-    # 展示标题处理
-    display_title = title if len(title) <= 40 else title[:37] + "..."
-    
-    return {
-        "title": display_title,
-        "summary": summary,
-        "key_points": key_points,
-        "importance": importance,
-        "biz_score": biz_score,
-        "category": category,
-        "is_local_life": is_local,
-        "local_life_note": local_life_note,
-        "tags": [category],
-        "source": source,
-        "original_title": title,
-        "url": item.get("url", ""),
-        "extra": {
-            "stars": item.get("stars"),
-            "score": item.get("score"),
-            "comments": item.get("comments"),
-            "upvotes": item.get("upvotes"),
-            "today_stars": item.get("today_stars"),
-            "hn_url": item.get("hn_url"),
-        }
-    }
-
-def generate_with_openai(items, config):
-    """使用 OpenAI API 生成商业化摘要"""
+# ============ DeepSeek / OpenAI 精选模式 ============
+def curate_with_ai(items, config):
+    """
+    调用 DeepSeek API，从原始资讯中精选 10-15 条，
+    按「AI日报沉淀」格式输出结构化 JSON。
+    """
     from openai import OpenAI
-    
-    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-    news_items = []
-    
+
+    ai_config = config.get("ai", {})
+    api_key = os.environ.get("OPENAI_API_KEY", "")
+    base_url = os.environ.get("OPENAI_BASE_URL", ai_config.get("base_url", "https://api.deepseek.com"))
+    model = os.environ.get("AI_MODEL", ai_config.get("model", "deepseek-chat"))
+    max_curated = ai_config.get("max_curated_items", 15)
+
+    client = OpenAI(api_key=api_key, base_url=base_url)
+
+    # 准备输入：所有条目的标题 + 描述 + 来源 + URL
+    items_text = ""
+    for i, item in enumerate(items[:120], 1):
+        title = item.get("title", "").strip()
+        desc = item.get("description", "").strip()
+        source = SOURCE_NAMES.get(item.get("source", ""), item.get("source", ""))
+        url = item.get("url", "")
+        line = str(i) + ". [" + source + "] " + title
+        if desc:
+            line += " | " + desc[:150]
+        if url:
+            line += " | URL: " + url
+        items_text += line + "\n"
+
     biz = config.get("business_focus", {})
-    top_companies = ", ".join(biz.get("top_companies", [])[:10])
-    local_keywords = ", ".join(biz.get("local_life_keywords", [])[:10])
-    
-    source_groups = {}
+    top_companies = ", ".join(biz.get("top_companies", [])[:15])
+    local_keywords = ", ".join(biz.get("local_life_keywords", [])[:8])
+
+    prompt = """你是一位面向「本地生活商业化外投团队」的 AI 行业分析师编辑。
+你的读者是销售人员，他们关注：
+1. 头部互联网大厂和 AI 公司（""" + top_companies + """）的商业动作：产品发布、营收、融资、战略合作、落地效果
+2. AI 如何改变广告、营销、本地生活（""" + local_keywords + """）等商业场景
+3. 行业分析、财报数据、市场趋势
+
+现在请从以下 """ + str(len(items[:120])) + """ 条原始资讯中，精选出最重要的 """ + str(max_curated) + """ 条（不超过 """ + str(max_curated) + """ 条），按以下规则输出：
+
+## 分类规则（4个分类）：
+- **大厂动向**：头部大公司（OpenAI/Google/Meta/Microsoft/Apple/Amazon/字节/百度/阿里/腾讯/Nvidia等）的商业动作
+- **初创动向**：AI 初创公司（Anthropic/Mistral/Perplexity/Cohere 等）的融资、产品、合作
+- **生态动向**：行业整体趋势、监管政策、开源社区、基础设施、芯片供应链等
+- **观点与深度**：行业分析报告、财报解读、专家观点、市场预测
+
+## 每条输出格式：
+- title: 20-30字中文标题（简洁有力，一眼看懂）
+- summary: 1-2句话说明"是什么 + 为什么重要"（50-100字）
+- category: 上述4个分类之一
+- type: "fact" 或 "opinion"（事实类 vs 观点类）
+- impact: "high" 或 "medium"（高影响=头部公司重大动作/大额融资/行业拐点；中影响=值得关注）
+- source: 来源媒体名
+- url: 原文链接
+- local_life_hint: 如果与本地生活/广告/营销相关，用一句话说明启发；否则为空字符串
+
+## 精选原则：
+1. 优先选择大厂重大商业动作（发布、营收、融资>5亿美元、战略合作）
+2. 优先选择有具体数据的条目（金额、增长率、用户数）
+3. 去重：同一事件只保留信息量最大的一条
+4. 英文内容必须翻译为中文
+5. 不要选纯技术/代码/论文类内容，聚焦商业价值
+6. 每个分类至少 2 条，大厂动向占比最高
+
+## 输出：
+纯 JSON 数组，不要 markdown 代码块，不要额外说明。
+
+---
+原始资讯列表：
+""" + items_text
+
+    try:
+        print("  [INFO] Calling DeepSeek API (model: " + model + ")...")
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
+            max_tokens=6000,
+        )
+        result_text = response.choices[0].message.content.strip()
+
+        # 清理可能的 markdown 代码块
+        if result_text.startswith("```"):
+            result_text = result_text.split("\n", 1)[1]
+            if "```" in result_text:
+                result_text = result_text.rsplit("```", 1)[0]
+        result_text = result_text.strip()
+
+        curated = json.loads(result_text)
+        print("  [OK] AI curated " + str(len(curated)) + " items")
+
+        # 标准化输出
+        news_items = []
+        for item in curated:
+            news_items.append({
+                "title": item.get("title", ""),
+                "summary": item.get("summary", ""),
+                "category": item.get("category", "大厂动向"),
+                "type": item.get("type", "fact"),
+                "impact": item.get("impact", "medium"),
+                "source": item.get("source", ""),
+                "url": item.get("url", ""),
+                "local_life_hint": item.get("local_life_hint", ""),
+            })
+        return news_items
+
+    except Exception as e:
+        print("  [WARN] AI curation failed: " + str(e))
+        print("  [INFO] Falling back to rule-based mode")
+        return None
+
+
+# ============ 规则模式 fallback ============
+def keyword_in_text(keyword, text):
+    if not keyword or not text:
+        return False
+    kw = keyword.lower().strip()
+    txt = text.lower()
+    if re.match(r"^[a-z0-9][a-z0-9 .\-\+]*$", kw):
+        pattern = r"(?<![a-z0-9])" + re.escape(kw) + r"(?![a-z0-9])"
+        return re.search(pattern, txt) is not None
+    return kw in txt
+
+
+def content_text(item):
+    return (item.get("title", "") + " " + item.get("description", "")).strip()
+
+
+def rule_based_curate(items, config):
+    """规则模式：按商业价值评分排序，取 top 15。"""
+    biz = config.get("business_focus", {})
+
+    scored = []
     for item in items:
-        src = item["source"]
-        if src not in source_groups:
-            source_groups[src] = []
-        source_groups[src].append(item)
-    
-    for source, group_items in source_groups.items():
-        batch = group_items[:15]
-        
-        items_text = ""
-        for i, item in enumerate(batch, 1):
-            items_text += f"\n{i}. {item['title']}"
-            if item.get("description"):
-                items_text += f"\n   {item['description'][:250]}"
-            if item.get("url"):
-                items_text += f"\n   URL: {item['url']}"
-        
-        prompt = f"""你是一个面向商业决策者的 AI 行业分析师。你的读者是本地生活商业化部门的人员，他们关注：
-1. 头部互联网公司和 AI 公司的商业动作（{top_companies}等）
-2. AI 如何改变广告、营销、本地生活、到店、外卖等商业场景
-3. 值得借鉴的外部玩家玩法和商业模式
+        text = content_text(item)
+        score = 30
+        if any(keyword_in_text(c, text) for c in biz.get("top_companies", [])):
+            score += 25
+        commercial_hits = sum(1 for kw in biz.get("commercial_keywords", []) if keyword_in_text(kw, text))
+        score += min(commercial_hits * 12, 30)
+        analysis_hits = sum(1 for kw in biz.get("analysis_keywords", []) if keyword_in_text(kw, text))
+        score += min(analysis_hits * 18, 36)
+        if any(keyword_in_text(kw, text) for kw in biz.get("local_life_keywords", [])):
+            score += 25
+        if re.search(r"\$[\d,.]+|[\d,.]+\s*(亿|万)|billion|million|[\d.]+%", text.lower()):
+            score += 10
+        scored.append((score, item))
 
-请分析以下资讯，为每条生成商业化视角的摘要：
-{items_text}
+    scored.sort(key=lambda x: x[0], reverse=True)
+    top_items = scored[:15]
 
-输出 JSON 数组格式：
-[
-  {{
-    "title": "20-35字中文标题，突出商业价值",
-    "summary": "80-150字摘要：这是什么、商业价值在哪、对行业意味什么",
-    "key_points": ["要点1(20字内)", "要点2", "要点3"],
-    "importance": "high/medium/low (商业价值判断)",
-    "category": "产品动态/投融资/战略合作/模型发布/营销广告/本地生活/前沿研究/工具应用/行业动态",
-    "is_local_life": true/false,
-    "local_life_note": "如果与本地生活相关，说明相关性(30字内)，否则空字符串"
-  }}
-]
+    news_items = []
+    for score, item in top_items:
+        title = item.get("title", "")
+        desc = item.get("description", "") or ""
+        source = SOURCE_NAMES.get(item.get("source", ""), item.get("source", ""))
 
-判断标准：
-- importance=high: 头部公司重大动作、大额融资、颠覆性产品、直接影响本地生活
-- importance=medium: 值得关注的趋势、中型公司动态、有参考价值的玩法
-- importance=low: 一般工具更新、学术论文（无明确商业应用）
-- 如果条目与 AI 商业化完全无关（纯技术讨论），可以标记 importance=low
-- 涉及本地生活相关词汇({local_keywords})时 is_local_life=true"""
+        # 简单分类
+        text = content_text(item).lower()
+        if any(keyword_in_text(kw, text) for kw in ["融资", "收购", "ipo", "funding", "acquisition", "raises"]):
+            category = "初创动向"
+        elif any(keyword_in_text(kw, text) for kw in biz.get("analysis_keywords", [])):
+            category = "观点与深度"
+        elif any(keyword_in_text(kw, text) for kw in ["开源", "监管", "政策", "芯片", "chip", "regulation", "open source"]):
+            category = "生态动向"
+        else:
+            category = "大厂动向"
 
-        try:
-            response = client.chat.completions.create(
-                model=os.environ.get("AI_MODEL", "gpt-4o-mini"),
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.3,
-                max_tokens=4000
-            )
-            result_text = response.choices[0].message.content.strip()
-            
-            if result_text.startswith("```"):
-                result_text = result_text.split("\n", 1)[1].rsplit("```", 1)[0]
-            
-            summaries = json.loads(result_text)
-            
-            for i, summary in enumerate(summaries):
-                if i < len(batch):
-                    news_items.append({
-                        **summary,
-                        "biz_score": score_business_value(batch[i], config),
-                        "source": source,
-                        "original_title": batch[i]["title"],
-                        "url": batch[i].get("url", ""),
-                        "extra": {
-                            "stars": batch[i].get("stars"),
-                            "score": batch[i].get("score"),
-                            "comments": batch[i].get("comments"),
-                            "upvotes": batch[i].get("upvotes"),
-                            "today_stars": batch[i].get("today_stars"),
-                            "hn_url": batch[i].get("hn_url"),
-                        }
-                    })
-            
-            print(f"  [OK] [{SOURCE_NAMES.get(source, source)}] {len(summaries)} items")
-            
-        except Exception as e:
-            print(f"  [WARN] [{source}] AI failed: {e}, using fallback")
-            for item in batch:
-                news_items.append(generate_fallback_item(item, config))
-    
+        impact = "high" if score >= 70 else "medium"
+        summary = desc[:200] if desc else title
+
+        news_items.append({
+            "title": title,
+            "summary": summary,
+            "category": category,
+            "type": "fact",
+            "impact": impact,
+            "source": source,
+            "url": item.get("url", ""),
+            "local_life_hint": "",
+        })
+
     return news_items
 
-def load_weekly_data():
-    """加载本周历史数据用于周报"""
-    weekly_items = []
+
+# ============ 周报聚合 ============
+def load_weekly_items():
+    """读取 data/daily/ 本周（周一至今）所有 json，合并精选条目。"""
+    weekly = []
     today = datetime.now(timezone(timedelta(hours=8)))
-    
-    # 找到本周一
-    weekday = today.weekday()
-    monday = today - timedelta(days=weekday)
-    
+    monday = today - timedelta(days=today.weekday())
     for i in range(7):
         day = monday + timedelta(days=i)
-        day_str = day.strftime("%Y-%m-%d")
-        filepath = f"data/daily/{day_str}.json"
-        if os.path.exists(filepath):
+        fp = os.path.join(DAILY_DIR, day.strftime("%Y-%m-%d") + ".json")
+        if os.path.exists(fp):
             try:
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    day_data = json.load(f)
-                    weekly_items.extend(day_data.get("items", []))
-            except:
+                with open(fp, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    weekly.extend(data.get("items", []))
+            except Exception:
                 pass
-    
-    return weekly_items
+    return weekly
 
+
+def deduplicate_items(items):
+    """去重：按 url 或 title 去重。"""
+    seen = set()
+    unique = []
+    for it in items:
+        key = it.get("url") or it.get("title", "")
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        unique.append(it)
+    return unique
+
+
+# ============ 主流程 ============
 def main():
     config = load_config()
-    raw_data = load_raw_news()
-    items = raw_data["items"]
-    
+    raw = load_raw_news()
+    items = raw.get("items", [])
+
     print("=" * 60)
-    print("AI Commercial News Summary - Start")
-    print(f"   Items: {len(items)}")
+    print("AI Daily Digest - Curator Mode")
+    print("   Raw items: " + str(len(items)))
     print("=" * 60)
-    
-    # 生成摘要
+
+    news_items = None
+
+    # 优先使用 AI 精选模式
     if os.environ.get("OPENAI_API_KEY"):
-        print("  [KEY] Using AI mode")
-        news_items = generate_with_openai(items, config)
-    else:
-        print("  [INFO] Using rule-based mode (no API key)")
-        news_items = []
-        for item in items:
-            news_items.append(generate_fallback_item(item, config))
-    
-    # 按商业价值排序
-    news_items.sort(key=lambda x: x.get("biz_score", 0), reverse=True)
-    
-    # 生成执行摘要
-    exec_summary = generate_executive_summary(news_items)
-    
-    # 统计
-    beijing_tz = timezone(timedelta(hours=8))
-    now_beijing = datetime.now(beijing_tz)
-    
-    # 保存当天数据到 daily 目录
-    os.makedirs("data/daily", exist_ok=True)
-    today_str = now_beijing.strftime("%Y-%m-%d")
-    
+        print("  [INFO] AI mode enabled (DeepSeek/OpenAI)")
+        news_items = curate_with_ai(items, config)
+
+    # AI 失败或无 Key 时降级
+    if news_items is None:
+        print("  [INFO] Using rule-based curation")
+        news_items = rule_based_curate(items, config)
+
+    # 构建输出
+    beijing = timezone(timedelta(hours=8))
+    now_bj = datetime.now(beijing)
+    today_str = now_bj.strftime("%Y-%m-%d")
+
+    # 按分类分组统计
+    category_counts = {}
+    for item in news_items:
+        cat = item.get("category", "大厂动向")
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "date_display": now_beijing.strftime("%Y\u5e74%m\u6708%d\u65e5"),
+        "date_display": now_bj.strftime("%Y年%m月%d日"),
         "date_short": today_str,
-        "weekday": now_beijing.strftime("%A"),
+        "weekday": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"][now_bj.weekday()],
         "total_items": len(news_items),
-        "high_count": len([i for i in news_items if i.get("importance") == "high"]),
-        "local_life_count": len([i for i in news_items if i.get("is_local_life")]),
-        "sources_count": len(set(i["source"] for i in news_items)),
-        "executive_summary": exec_summary,
-        "categories": list(set(i.get("category", "") for i in news_items)),
-        "items": news_items
+        "high_count": len([i for i in news_items if i.get("impact") == "high"]),
+        "category_counts": category_counts,
+        "items": news_items,
+        "mode": "ai" if os.environ.get("OPENAI_API_KEY") else "rule",
     }
-    
-    # 保存主文件
-    with open("data/news_items.json", 'w', encoding='utf-8') as f:
+
+    os.makedirs(DATA_DIR, exist_ok=True)
+    os.makedirs(DAILY_DIR, exist_ok=True)
+
+    with open(os.path.join(DATA_DIR, "news_items.json"), "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    # 保存日度存档
-    with open(f"data/daily/{today_str}.json", 'w', encoding='utf-8') as f:
+    with open(os.path.join(DAILY_DIR, today_str + ".json"), "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    # 生成周报数据
-    weekly_items = load_weekly_data()
+
+    # 周报聚合
+    weekly_items = load_weekly_items()
     if weekly_items:
-        # 去重
-        seen_titles = set()
-        unique_weekly = []
-        for item in weekly_items:
-            t = item.get("original_title", item.get("title", ""))
-            if t not in seen_titles:
-                seen_titles.add(t)
-                unique_weekly.append(item)
-        
-        unique_weekly.sort(key=lambda x: x.get("biz_score", 0), reverse=True)
-        weekly_summary = generate_executive_summary(unique_weekly)
-        
-        week_start = (now_beijing - timedelta(days=now_beijing.weekday())).strftime("%m.%d")
-        week_end = now_beijing.strftime("%m.%d")
-        
+        unique = deduplicate_items(weekly_items)
+        # 按 impact 排序：high 在前
+        unique.sort(key=lambda x: (0 if x.get("impact") == "high" else 1))
+
+        week_start = (now_bj - timedelta(days=now_bj.weekday())).strftime("%m.%d")
+        week_end = now_bj.strftime("%m.%d")
+
+        weekly_category_counts = {}
+        for item in unique:
+            cat = item.get("category", "大厂动向")
+            weekly_category_counts[cat] = weekly_category_counts.get(cat, 0) + 1
+
         weekly_output = {
-            "week_range": f"{week_start}-{week_end}",
-            "total_items": len(unique_weekly),
-            "high_count": len([i for i in unique_weekly if i.get("importance") == "high"]),
-            "executive_summary": weekly_summary,
-            "items": unique_weekly
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "week_range": week_start + "-" + week_end,
+            "date_display": week_start + " - " + week_end,
+            "total_items": len(unique),
+            "high_count": len([i for i in unique if i.get("impact") == "high"]),
+            "category_counts": weekly_category_counts,
+            "items": unique,
+            "mode": output.get("mode", "rule"),
         }
-        
-        with open("data/weekly_items.json", 'w', encoding='utf-8') as f:
+        with open(os.path.join(DATA_DIR, "weekly_items.json"), "w", encoding="utf-8") as f:
             json.dump(weekly_output, f, ensure_ascii=False, indent=2)
-    
+        print("  [OK] Weekly aggregated: " + str(len(unique)) + " unique items")
+
     print()
     print("=" * 60)
-    print(f"Done! Total: {len(news_items)} | High: {output['high_count']} | Local Life: {output['local_life_count']}")
-    print(f"   Saved: data/news_items.json + data/daily/{today_str}.json")
+    print("Done! Curated: " + str(len(news_items)) + " items"
+          + " | High: " + str(output["high_count"])
+          + " | Mode: " + output["mode"])
+    for cat, count in sorted(category_counts.items()):
+        print("   - " + cat + ": " + str(count))
+    print("   Saved: data/news_items.json + data/daily/" + today_str + ".json")
     print("=" * 60)
+
 
 if __name__ == "__main__":
     main()
