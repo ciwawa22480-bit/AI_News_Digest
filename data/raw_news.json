@@ -1,11 +1,12 @@
 {
-  "fetch_time": "2026-07-18T13:26:12.344453+00:00",
-  "total_items": 112,
+  "fetch_time": "2026-07-18T13:40:27.728422+00:00",
+  "total_items": 173,
   "sources_summary": {
+    "google_news_ai": 60,
     "36kr_ai": 25,
     "ai_hot_feed": 25,
     "venturebeat": 3,
-    "theverge": 6,
+    "theverge": 7,
     "techcrunch_ai": 18,
     "latent_space": 10,
     "one_useful_thing": 8,
@@ -14,12 +15,552 @@
   },
   "items": [
     {
+      "source": "google_news_ai",
+      "title": "ADBE, WIX, FIG, GDDY Stocks Fall As Anthropic Reportedly Prepares To Launch AI Design Tool",
+      "description": "ADBE, WIX, FIG, GDDY Stocks Fall As Anthropic Reportedly Prepares To Launch AI Design Tool Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUTJfMmUtemdLRGZfSmtTaVE1OU5YVHZIV0pjcXNlcFMwSWduVEFLaHFwSUpvc01zTG9BS1hBY1FjaUFyeDNheDNaZkVZZk0wWnJNZkpUa2RRZW5YQlhyV0VUN0ljVFlEVk9PRnRkNHJDR1pPQVFpRG5KeTBUQ1ZDZXMtY0ZyUC1FZFBMbWpudmxTUVRNcTUtd2ZIYnh3elp5S1dNbGZNV192VHpoQWxxS2o5OWpCekhvN2o3ZjJYMzFFUnRwZTlWRFZjQ2p0VDJTLTJYMHV4M0xXemZTSjhtVWsxLXBjUQ?oc=5",
+      "publisher": "Stocktwits",
+      "published": "Sat, 18 Jul 2026 08:30:39 GMT",
+      "fetch_time": "2026-07-18T13:40:05.757286+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "OpenAI's GPT-5.6 finally set for public release after delays",
+      "description": "OpenAI's GPT-5.6 finally set for public release after delays Mashable",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83b2JlcGVmOWg2dGVTNFExa1dSVEE3bVhyc2JocVh5ZFN3RTJpU1M5NEdhZ3FOU1lVbzdfYkNwTVlnRzhlbWRueHVjTExUaXlMS2xiQnlVZW1kOWx0ZkF6Z0ZfRzNJdVZGVzJR?oc=5",
+      "publisher": "Mashable",
+      "published": "Fri, 17 Jul 2026 19:58:09 GMT",
+      "fetch_time": "2026-07-18T13:40:05.758094+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Meta Eyes $10B Anthropic Deal To Launch New Cloud Business",
+      "description": "Meta Eyes $10B Anthropic Deal To Launch New Cloud Business Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85Rl9XS3ljZTBNUDlsYUxUNmMwd2RGeGU2cHRVQi1oNkg5b0taMXpWcmdJdVZQMXlGdHh0d1lpeEtZSFNDaFZfbWk4NWVFVGRoLUVabE1fY3otTTFuSEVZakV0Zw?oc=5",
+      "publisher": "Yellow.com",
+      "published": "Sat, 18 Jul 2026 07:56:31 GMT",
+      "fetch_time": "2026-07-18T13:40:05.759064+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "What a Delayed OpenAI IPO Would Tell Investors",
+      "description": "What a Delayed OpenAI IPO Would Tell Investors Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeTVtTWh2dUR3Y0VnYlp6X0RPX01ZdldzRWZOS3JuVUk2OFRfaGl2VjVyaDFPcVlPbzlpYXhzNWt4UGdGQTBSNlg5aW11VDR1UzlROTZDTVZGMmZQazBqbE5UdC1KOGtXbTgwbEZBdE5sNXRXMExYNnU0NVBNOWxSbzZjc3l0UQ?oc=5",
+      "publisher": "Morningstar",
+      "published": "Fri, 17 Jul 2026 16:30:09 GMT",
+      "fetch_time": "2026-07-18T13:40:05.759104+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "OpenAI Employees Are Funding a Political Fight Against Their Own President",
+      "description": "OpenAI Employees Are Funding a Political Fight Against Their Own President inc.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNlF1RnBwQ1pmcUVNbXllQlRBTk5KUi1rTENmZFNlcS01Z1JRR2JvSEZNdkM0Rk8tTk5EYVZPWGVCYnNMWXcwZVdvdnVCN1VCRXR2TXV4SWVVUV90MDB2WFRuaFhDVDE3d1pJSkNoM0VqV2tNVk10R3lGa2NRUFBQaHlhSkUxMjBiQnRjY1FjZzd4R1FjVkR5Ulc1dkx4dFF2c3VjajJudTJvN2lWZnNTLQ?oc=5",
+      "publisher": "inc.com",
+      "published": "Fri, 17 Jul 2026 13:30:52 GMT",
+      "fetch_time": "2026-07-18T13:40:05.759120+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "China’s Moonshot Challenges Anthropic With a Bigger, Cheaper Model",
+      "description": "China’s Moonshot Challenges Anthropic With a Bigger, Cheaper Model PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOekU5SW1ta216TXlYTHdOSXhpSkNTQ0RmbkVKSm45NE5nMGRmRG5MSVJMMVp4T0hIdkJfSWxiR1FiazV3QTFJVWVtdW80TkRORkNYaUotcm5zMVUwcTJDUzRRYnE4eVkycm43V1pNTHN6TnFobU41cV9rZWVKSkE4aUJ4Z1V0X0ZoRFhYU1NyeTBHM3pSSktjb2pIM01DdVNsY09XSU5NMENPOVZCT1NGMVdzbGdZengwcVVYandkSQ?oc=5",
+      "publisher": "PYMNTS.com",
+      "published": "Thu, 16 Jul 2026 15:53:46 GMT",
+      "fetch_time": "2026-07-18T13:40:05.759140+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "OpenAI debuts $230 Codex Micro keyboard amid Apple lawsuit",
+      "description": "OpenAI debuts $230 Codex Micro keyboard amid Apple lawsuit MSN",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdDFwMWoxQm1CVWJBRjRnUUtwZ1ZtWmVfY0FPZEtCTUFsb09nOWxnRGxmMW45aXU0ZG9hbW5ERmNIYk5hbTdOMzNyejV2QW5FN292d3JLX1FXYW9LQ0lRSjZ2MmJrd2s0MFo1UUduLU9Xam1GZXFqRnI3YjdQanQ1U0pnaWdfN3pQcHBpd2RYVDJSSHdDcTJ5bU1wbWt6U3hqVVRJOWZlcVg2ai0yeklHdUJvbTJxUUZwQTMyV2NBX09tbGQtbmF4Z0V6UUdwQWVGajRYNUhiUHdzc05ieDdyYzRPNzV4WWJqb2NtbllBUkE?oc=5",
+      "publisher": "MSN",
+      "published": "Sat, 18 Jul 2026 01:39:06 GMT",
+      "fetch_time": "2026-07-18T13:40:05.759240+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "‘Lehman Brothers of AI’: Why One Critic Thinks OpenAI Will Crash the Entire AI Industry",
+      "description": "‘Lehman Brothers of AI’: Why One Critic Thinks OpenAI Will Crash the Entire AI Industry 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOXzZybVBHV2VEQmp4cGg5cTNuY2Z4dGx5U203SEo4dldHb1dQRVRKOXEwQ3lmUDhaQnZydFNBQThrb2lFUENqNkg5MmhvVXBmT0ROV0REcGdjNTRLM1ZfUXFPVm5IREROWWs3S0QtVFJQejY1VXYtOFQ5OFNYTGJvRkEwX004TXU4amlxUFdQUTJQdXQ5SG1HMkpzaEFXLXJTYWdWZDlQWkVPaFRsQy1NVHRsWnRCb0pfaFdhN0pKbUp4aGZFVHhr?oc=5",
+      "publisher": "24/7 Wall St.",
+      "published": "Fri, 17 Jul 2026 10:17:18 GMT",
+      "fetch_time": "2026-07-18T13:40:05.759260+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Anthropic reveals it will pay $600,000 for someone to shape its tricky IPO story",
+      "description": "Anthropic reveals it will pay $600,000 for someone to shape its tricky IPO story Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRDNhRm4tcXpZYXBXUjJISTJsal9Wb1hVaWhJU3ZLTXNmZ1ZyQ1JaMFlGZHE4WTV1anRQYk1MQlBqbGdQeTRqWldVRVp2ZnlxaFpkYUJpaGdtdmptdldLdTBIZjdNTkprUXZ1LUhocWJlTF9HbVNRTUJPT0tsRXVZalhhUEVjU3NtdzRZRzh2Wjk?oc=5",
+      "publisher": "Business Insider",
+      "published": "Fri, 17 Jul 2026 09:00:00 GMT",
+      "fetch_time": "2026-07-18T13:40:05.759279+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "From models to solutions: What Anthropic’s Ode launch signals for legal",
+      "description": "From models to solutions: What Anthropic’s Ode launch signals for legal Legal IT Insider",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeE1TZXBmeHRQOEV0X1hMd0dZajBfTVdIekNFbHlEcndxandBQ20wb0d2ZDluc3IydHZZOVktWUtKVGRXakkxYXFMVEZUVUgtUFJ2Nnp6TFlva25ISnIwSzhkYS1uV1h6X2YtLS0wdGJ0cXJHVGRXLTBlWFNlTF85Z2haZERXY1FzLVZTRVVwVm1RYUVMTUt1ODE4Z1hyX2M?oc=5",
+      "publisher": "Legal IT Insider",
+      "published": "Fri, 17 Jul 2026 08:17:08 GMT",
+      "fetch_time": "2026-07-18T13:40:05.759537+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "MAIRE redefines global engineering with 100+ use cases in Microsoft AI and Autodesk",
+      "description": "MAIRE redefines global engineering with 100+ use cases in Microsoft AI and Autodesk Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92aEZBTWtLaDZSZDhqOC1nVEstbEx0TnJhQU9OZGxMMHRreWpvV2VxZ1hremxRZUZkWUxEVHVnbjYyRWlCWXZ0cFJxemIzaXFIRWYwamRvVC0wMFRPT2ZFdWlYTFZWOUFaUVBYem9DU0FlSlF0MzczSWRyZUg0U3c?oc=5",
+      "publisher": "Microsoft",
+      "published": "Fri, 17 Jul 2026 21:20:10 GMT",
+      "fetch_time": "2026-07-18T13:40:06.516794+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Meta AI’s Reversal is a Wake-Up Call for the Media Industry",
+      "description": "Meta AI’s Reversal is a Wake-Up Call for the Media Industry NAB Show",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaFVycEF6V2UxNTctWk9kZlFhaFhKd0NoNFdES3E2NHZhM01xZWlrZlpZY3pDT2pwUVNJZzlpVXFxT3hlVzJKWExKeTZ1a1NHdENoZDBDN245a21uaG01TnBnX0haN2g2TmZfNmYwb3BnSktXMGdSMEZYRTc4emlyTGVib2RMRzdpdEVFb1VURThsMFJyaWc?oc=5",
+      "publisher": "NAB Show",
+      "published": "Fri, 17 Jul 2026 20:23:40 GMT",
+      "fetch_time": "2026-07-18T13:40:06.516881+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Microsoft AI Integration Drives Business Performance Amid Economic Pressures",
+      "description": "Microsoft AI Integration Drives Business Performance Amid Economic Pressures GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbXpGNDJDZHJRX2dlVVZNa19DNk9lRUswUFBteGEzM0ZUcVlyelRXaGJXOHRfd01jMGpLWW1BT3h2Rm1iZFdwbEh5bG50ZlVpTDBEQ3FJNjZDVlA1OVRZZF9rYXJ0MzdJYVIyaWRGRnowWjRKdzQzQ24ycExMMVJEb1A4YWw4T1dyZ1FkTEFzQ2tzeWxiekRZMGlEMDd3N1RiVzUtcTJydko4ei1saHRITEVGRjZZdw?oc=5",
+      "publisher": "GuruFocus",
+      "published": "Fri, 17 Jul 2026 17:23:28 GMT",
+      "fetch_time": "2026-07-18T13:40:06.516930+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Meta’s AI Compute Could Become A $10 Billion Side Business",
+      "description": "Meta’s AI Compute Could Become A $10 Billion Side Business Finimize",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQU5aNHNua0VWVjFhazA0My1MZkNjMDlkTUhnWVRwVTROcFBWd2g0TTd3NXpyTE9tU3J6MXhXX1FNMXpua3BhZDhGZzZjcTNtdkhJQjNRRWFMb1cyU0NuMjFleEhPNmVIYlh5TFh3VUMzbElSelRkSGZnVFZTNWpMbzFFWl9iS0JZbUIwV0V3?oc=5",
+      "publisher": "Finimize",
+      "published": "Fri, 17 Jul 2026 17:50:00 GMT",
+      "fetch_time": "2026-07-18T13:40:06.517003+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Microsoft’s AI Cybersecurity Overhaul Brings Hundreds of Layoffs",
+      "description": "Microsoft’s AI Cybersecurity Overhaul Brings Hundreds of Layoffs WinBuzzer",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVUhDbG5oR2oxSjhXQXY5ckZCOVhJN2F6eWhzS1JRLV9LZjcyRUxIbF9IU0lNZnJiX3B5Y01BMHp2cDJENV9mMEc3NFhtOVBaTXVxVXU4ZzlLUUNHRmZNSFBZVlpOZWhvMXNoX0QxWFFhc2hJdklyRDl0aHk4Q1gtZWFUU3hqSldjUE5aOURGQ0NVSl9pc0FESmJJbnlfV1dmZWM4?oc=5",
+      "publisher": "WinBuzzer",
+      "published": "Sat, 18 Jul 2026 11:30:49 GMT",
+      "fetch_time": "2026-07-18T13:40:06.517048+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Mark Zuckerberg Said Meta's AI Bets \"Haven't Come to Fruition Yet\" as Shares Fell 5%",
+      "description": "Mark Zuckerberg Said Meta's AI Bets \"Haven't Come to Fruition Yet\" as Shares Fell 5% AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52U1ZLX0dMbHlLM2FVNGpNMmJVNTAyUllyT3VEUUMzdUxkaUFWSVdWOVhMb1VJMDhqZFlyY1VQQXVUdWFIZWctQ0JodjNiRmhpWklXQW9BUnpCUGNBN3FHaXBLaXNKaTV6dVhXYmNGZEdEdHlNNmtEdkxtRXAxUQ?oc=5",
+      "publisher": "AOL.com",
+      "published": "Fri, 17 Jul 2026 23:08:15 GMT",
+      "fetch_time": "2026-07-18T13:40:06.517115+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple’s AI Frugality and $851 Billion Buyback Machine Are Crushing the Market",
+      "description": "Apple’s AI Frugality and $851 Billion Buyback Machine Are Crushing the Market NAI500",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVnluVkZMX0I0WDJEbDZuU284S2xPTXcxdGtHVzhLU3pjRzEtakJ2NGtObVlhemZ1eXM0LXdvU050NkhEdGRfU0wybmpWNE1uQWt4LTdXdUlIOF9yeHV4N2lkR2NsNC04NlVEdllYVkRidWhLSEhsNXMtX3ZLRGNWYzBFYjdOdVVVUlJISllod2pNNVVzeTZUNzdxdnowVnFLSVBJMFJCbFkzbDAz?oc=5",
+      "publisher": "NAI500",
+      "published": "Sat, 18 Jul 2026 01:17:12 GMT",
+      "fetch_time": "2026-07-18T13:40:06.517159+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "What Evri’s Tailored Delivery Looks Like with Microsoft AI",
+      "description": "What Evri’s Tailored Delivery Looks Like with Microsoft AI Technology Magazine",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN3BmYmJiMkZkMjJ2NEFkZ21ZTTZQNi1KRVEwTVBjRExrUTh6RU1OY2V5dmE5MlRYNjRuNE9sZ0NJeTJEOU9mMkZMYTcyOFQzN1czUzdqWHhUVXo5d2JyODZZbDNRRk01azBtQmwtUzZEemlqUnJnc2Zpa0lqd1hSU2d2c2x2TUp2NHpKY2J5ZmowXzd0amcxag?oc=5",
+      "publisher": "Technology Magazine",
+      "published": "Fri, 17 Jul 2026 12:34:09 GMT",
+      "fetch_time": "2026-07-18T13:40:06.517246+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "New Two-Day Courses Accelerate Microsoft AI Skills",
+      "description": "New Two-Day Courses Accelerate Microsoft AI Skills EIN News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYWFBNGpta2RoTnV0R0pvbjFZZGNicXBmMVk1VkpxZFhxYk5McUcwT1ZNZFV5ZTlCSEc5TlViV2E1S1Fpa1dXSU4walNYY0lER19fUXVURUZxMk1kNXh6ZFBnNHIwSmNnWFhPWDR6Y1ZaQm5WbkJFckx0cHZHUFJsRzh0M2dSZ3ZfblpGVEZwSzRoSURXcjF6Rw?oc=5",
+      "publisher": "EIN News",
+      "published": "Thu, 16 Jul 2026 16:29:43 GMT",
+      "fetch_time": "2026-07-18T13:40:06.517310+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Meta’s AI and cloud push sparks investor optimism and scrutiny",
+      "description": "Meta’s AI and cloud push sparks investor optimism and scrutiny MSN",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUGEtX2hnY2FoSFVTWG9mZ2RrWjhaZkxXbTNEaXlqMHJ4TjVwNGpfWEp6Z1loQ25wZTBqOUt4TW1XWnEwZkVpbjJQQlh1WmtpUHZnN2JUMkFLUFRkcWNsNFZyUDN5LXd0TGtSdHd1U2hpX1FOWDBsMUdrbTM0MmJjMWIwNGZ0TU93NE5qY2lWUEg2eEN4Z191TlNBLUZIT3pPVU16dHo1ckh5VDdKTExHUVEyR2s?oc=5",
+      "publisher": "MSN",
+      "published": "Sat, 18 Jul 2026 06:46:48 GMT",
+      "fetch_time": "2026-07-18T13:40:06.517360+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Indonesia invites Huawei, ByteDance to boost AI cooperation",
+      "description": "Indonesia invites Huawei, ByteDance to boost AI cooperation ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRG91YVgyMklWUVdNcTJyQktkeEtxUDZHWXI4ejM0N0htQjlGeUtmelpzekJ0SllKelg0akdCeVFYalE0MWNyc0xQTjV4NUp6Ujh2R3VxdUh3Mm5tazNzOXA2NjFUamZNZzFhVUEtWkpBRWxZOXRKdFp3OTJRLWpmb3dKMGZSRkJFcUdkbWpIbEczNVl6dmR2Rm44WUHSAaIBQVVfeXFMT0k4RUdsbkVQcExPN3p4NTBNSE1LaDBaZWd6eDNramRzOGQ1Ulgzd3BEOWNQYTV2Y1I1QmtYeU5TMTRVb0NXdV91d2tUZG1nc2ViT3hDa0Z2dXFLM0FtSWZwdXJCV29CenB2am9pOUlDT0pDLUtKZnJtUnRRa3FFckdVbzl3TURCNlF3eHc4cFpCaHJfT0Y4ODNJMjZTOGRsaVV3?oc=5",
+      "publisher": "ANTARA News",
+      "published": "Sat, 18 Jul 2026 11:51:32 GMT",
+      "fetch_time": "2026-07-18T13:40:07.157890+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "AI Phones Dance in Shackles: Why Are ByteDance, Honor, and Others Betting Big on the \"AI Agent\" Battlefield?",
+      "description": "AI Phones Dance in Shackles: Why Are ByteDance, Honor, and Others Betting Big on the \"AI Agent\" Battlefield? finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JendyWjFrdW1uY0NNdzlIVEJqN2U3dC11NUJYTE14Q1c5cHZzNmNtX2JBLUlwdlZKNWU5V3hOWk0tb3JicThyZUNRQ2dLZ1JwOG9sd3JXYXdMRjlpT01BMms2bkRtTnI4OGJtVlJYYmZfUE5tT1E?oc=5",
+      "publisher": "finance.biggo.com",
+      "published": "Fri, 17 Jul 2026 05:05:00 GMT",
+      "fetch_time": "2026-07-18T13:40:07.158554+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple Intelligence Wins China Approval After 22 Months: Qwen Handles Language, Baidu Handles Search",
+      "description": "Apple Intelligence Wins China Approval After 22 Months: Qwen Handles Language, Baidu Handles Search Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQT1hqeUYxZmE0RnYzTU52NjA5c205R1JYWXV5VlZySml0RXlYbnUxb0hpR3AzdnQtbmR2SGtfVmtIQjNsbi1SdGxGR3ZMS0U5SmZ6dTMxOXJrcGtHMjhtQ0RqRUU0YTFjSzBDcnc1N0xuUUc3SWFqUHYxQV9EUzVrZk0xelBvenV1c1Nsd0JONTBQcUlMdlZFNGdUaEk4OC1kQlpXS3EzMHZieUVwNDJJR3MxWEd0YXNmZlU3SDlvb0w4dTZYdjlKQ1M5M1h4c1RHM2h5TG13R1ExOXFEZzFnRDdQLUZzM1E?oc=5",
+      "publisher": "Tech Times",
+      "published": "Fri, 17 Jul 2026 11:13:16 GMT",
+      "fetch_time": "2026-07-18T13:40:07.158861+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple Intelligence Wins China Regulatory Approval With Alibaba's Qwen AI",
+      "description": "Apple Intelligence Wins China Regulatory Approval With Alibaba's Qwen AI MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVGtBTnhpVWZ1RmpjUUdKSFZZV1NyVkVKMkE4cm9SZ3hvVjhvR1cwUVVBMi1qdEhtZmtLcDVqSHdmanZQdzNDOFZXTlZsWGlSUzk0Z01maW9PY0xMM3dpRnJlV2pMdDhyQzNqYUhVQTZheVdLZzNwbk43UjdEX0VoS1FzV1ZTc3NUUkpMOHR2VTg2a1VPaFZN?oc=5",
+      "publisher": "MLQ.ai",
+      "published": "Thu, 16 Jul 2026 13:53:04 GMT",
+      "fetch_time": "2026-07-18T13:40:07.158945+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "ByteDance, Alibaba pull AI companions as Beijing tightens rules",
+      "description": "ByteDance, Alibaba pull AI companions as Beijing tightens rules The Malaysian Reserve",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcnRfTUxqN3UzQllscm55WjlKYmNQWWZFSmhLemZNaVpjbjdjTy1HcnJhSjFxZ0xtZ0tuSEItV2JxLXhrcVlVSkxMdlpDQjUyTUJhNnBlb2llb2xWaWd2RW1zNmFvTTdFRU12SHdSN1ZMVzJoOWd1ZjhPTGktS19LSUxHRXpxUV9OdlBMalBHcFRrcXViQ19UUGtURUUxMnNMSzZjdzAxVFB1c3BNamxn?oc=5",
+      "publisher": "The Malaysian Reserve",
+      "published": "Fri, 17 Jul 2026 01:34:45 GMT",
+      "fetch_time": "2026-07-18T13:40:07.159010+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Tens of Millions of Users’ 7-Day Journey with Doubao AI Companion: Which Niche Players Seized a Slice of the \"AI Companion Business War\" Market?",
+      "description": "Tens of Millions of Users’ 7-Day Journey with Doubao AI Companion: Which Niche Players Seized a Slice of the \"AI Companion Business War\" Market? 36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kS1FVMzBQY0pNNzlqX3hyTjZDVUlJc1EyT0tELXRUQW5HNC1PUVlqd2Q0YWs0OF9mUzNPZUhBZWFrOFoxZTRyMFBhOE0tSnpUU2VZ?oc=5",
+      "publisher": "36Kr",
+      "published": "Fri, 17 Jul 2026 00:12:18 GMT",
+      "fetch_time": "2026-07-18T13:40:07.159255+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "New Self-Supervised AI, Google Mini Brain AI, ByteDance ToolTrain, Microsoft POML + More AI News Property (PJLC5tS4h7)",
+      "description": "New Self-Supervised AI, Google Mini Brain AI, ByteDance ToolTrain, Microsoft POML + More AI News Property (PJLC5tS4h7) Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0ZTJCTERyYkNfd3h1aGNFQ2c3QXNxS1Jaa0loVEtqeWtlUDJwUmJVOXFsVEM4TWVSREFYd0p5QWo5Yl9tWGpzaXQyaE84UldVMXhMbEpfSUxsY1FRSEhTSA?oc=5",
+      "publisher": "Mshale",
+      "published": "Fri, 17 Jul 2026 14:48:25 GMT",
+      "fetch_time": "2026-07-18T13:40:07.159636+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Alibaba's Qwen Secures Apple AI Deal for China iPhones — Can 45% Cloud Growth End the Slump?",
+      "description": "Alibaba's Qwen Secures Apple AI Deal for China iPhones — Can 45% Cloud Growth End the Slump? finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNLVVVSWZWc3dBUUUyVHNFZWlLaGpSWGJPOGFoRmtzQlZTMExlNW9uNm5WRDJqdDd2UUpad0R2LWU0M3VnZll0V3ZBM29WVGt3NTJVSkRMYW4tWXlEVE94RGFVVUN0RWhaTklFUWhXc1VhVlJhWnc?oc=5",
+      "publisher": "finance.biggo.com",
+      "published": "Fri, 17 Jul 2026 08:35:00 GMT",
+      "fetch_time": "2026-07-18T13:40:07.159860+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "FAST picks ByteDance’s Regional HR Leader as People & Culture Head",
+      "description": "FAST picks ByteDance’s Regional HR Leader as People & Culture Head Campaign Middle East",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcVJXSnRSUUlaUm5uT2NtTExsRzlmZnk0RDlsN0o3dU9ubnlIMjBsc0ZMQnFUOU9aVE9zN0F6SC0wRVJxdjB2aU9EQXV6NWZleWtJY20zM01aLVp6OWVSdHNrUHdjMDhBaDAtZ1ItYVNpaVRwMm9fZkVYaUFIaU5GS2hDdzRNNWxxZTJLbURENHd3RTNsQ2xwUmN1YVlkZw?oc=5",
+      "publisher": "Campaign Middle East",
+      "published": "Fri, 17 Jul 2026 07:24:47 GMT",
+      "fetch_time": "2026-07-18T13:40:07.160304+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple Expands Siri AI Overhaul With Public Beta and Wins Regulatory Approval for China Launch",
+      "description": "Apple Expands Siri AI Overhaul With Public Beta and Wins Regulatory Approval for China Launch AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaGxOeFJsS1JnTF9zM2RsMXVtZk85MnN6RFJXQ2g2M01ZRFBTazFlRmlFQ1NwMVdMZHJzZm5hV0I1ekpMUHFHenJWWk1UM204dDljclVHN3ctVm9uaVYzTzZ4ZEFWLThCUHFKNWM5RFJIbE53TW1iRVhibG9KSWtyRmtGM3MwaEhaekdYNW4zNDEyWDlObngzOUtZd1JxM3FiajhLUHh1QWMwdXVsRktyTEZqWERwUVk2X0FkSl9Ha3AxV2RFc2Y3cjZUTQ?oc=5",
+      "publisher": "AI Insider",
+      "published": "Thu, 16 Jul 2026 15:56:19 GMT",
+      "fetch_time": "2026-07-18T13:40:07.160413+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Alibaba targets Nvidia’s dominant software ecosystem with open-source AI stack",
+      "description": "Alibaba targets Nvidia’s dominant software ecosystem with open-source AI stack South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2xEa0hHRmlsX3ZzM1VYYTBYWEt2SFZnMnp1RnNWUlZRT1VwdzNaVElPYjA3SHdGTmlsQjBXSXl1bFpZSnlGek5Pa0daWUF4c1BuLTZoNndnOFUyXzFYb1JmVy1WN2Jta3FIbEtzYWNPbEpYZUE1aFBZeFhHZXZ6M283eHYtYjdnc1NJQkh5MC1pM2FNVGpvYi05LXduRUgwanlVY2t0Vy1FWEJ3cXNKaV9vUDF0TkgxbldRckVDZG_SAcABQVVfeXFMUHlqRHI4RFZGX0lDRUdScmVsRDhrd09OeHhvS0Nrb0N3bE9uenVFdHdtcWhVblJVUlFXckxLTnFRWFhEeklRRWRrSWJzbmloNlc0dk54ZVd6UkRzamZ0aW9WWDh2N0NVM1N2SEtVTzVZdXBvTHBDZUNKS3NyWkh4dFE4MkVrNUt0TkJsQ2N3OS04bXF2bURqa3hXZEdlSU45dnE5QURTUU1ZbEg2VmNMcUVKdmFXc3VzeUpDZ2pFQUpv?oc=5",
+      "publisher": "South China Morning Post",
+      "published": "Sat, 18 Jul 2026 11:00:07 GMT",
+      "fetch_time": "2026-07-18T13:40:07.924362+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Nvidia's New AI Rival Could Reportedly Be Worth $20 Billion",
+      "description": "Nvidia's New AI Rival Could Reportedly Be Worth $20 Billion Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWU12VnktclV5X05jZjgtaHc4VG81Q1JqckpidDNRaEdRZ0dPRUk5dGtuNThBNnJkWnIwcldrUlRmWmE5a1lEN19tOHpEYThJbVUtS0pqakRvOXYzMXJFdTFpQ2d3TktmMGk0X2hJbzhTQlZLdjVFeUh1el82amNhRzktYzZETTNQbmdiTXNZcXFONlFJTlpjZmdRMHFKQUxlb1BoSnZUMDJTWV94WjVnRHNjVDBqeGg2THFZY0pn?oc=5",
+      "publisher": "Benzinga",
+      "published": "Sat, 18 Jul 2026 07:05:23 GMT",
+      "fetch_time": "2026-07-18T13:40:07.924510+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "What is Nvidia? The chipmaker powering the AI hardware industry",
+      "description": "What is Nvidia? The chipmaker powering the AI hardware industry qz.com",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFAtQXBXWTdTSURQeTdjb09ZWkhIb2UwRm1OQ2lpd1pWUkI1OV9wdDFBME5nWktqZWdFRjZaUlRoRGFBbVk?oc=5",
+      "publisher": "qz.com",
+      "published": "Sat, 18 Jul 2026 00:39:40 GMT",
+      "fetch_time": "2026-07-18T13:40:07.924764+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple Avoided the AI CapEx Spending Trap — Now the Bill May Be Coming Due",
+      "description": "Apple Avoided the AI CapEx Spending Trap — Now the Bill May Be Coming Due 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONlVhQ2VtZ0pOWG1RR0NYajh0RDJ2eC1mMkhGSmJBT0x6SWpyR2YyX3R3YjltbG11RElkb1dWWFYxVE5FcnlWRUdyNUNzbHB2dWVaSFNSRFZRRzFNd2VJbmREeDlsMGRjNnZQU1RGUmZseEJMVWtNX0FpU0tWU3dLVXdFcjQzNXZxZFo1S2hxY21YZDNrZWZrT0FkcjBCT19NbGp0RUhNREpHNEM1R0JOdlJtY1VHUQ?oc=5",
+      "publisher": "24/7 Wall St.",
+      "published": "Sat, 18 Jul 2026 11:59:57 GMT",
+      "fetch_time": "2026-07-18T13:40:07.924866+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Nvidia seen as undervalued despite AI boom risks",
+      "description": "Nvidia seen as undervalued despite AI boom risks MSN",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc3ZNS0I4Mjd4RmxxU3NPaWdBLW9lZ3JKYU9URVRvY0dSRlN0M0I2TFRac3RER3VrdGpJazkwQmxsWlFINVVIQ19Wck9wRE9PdElSdDY1ejdTNjBWUkxCY1RUd2Nac055US1kS2NSYmVlbzZJVzJKdXY0dmp4dU5ZR19qUUNBNHhiOU84dWhrTmRnVEsteHVieGRZaldvWGRGNFBzd2R3dkVNX19nVGV2SC1SM000R2ZLeWgzVG5PYmNrN0ZNLVFNOTJ6NF9zM3RGV05XUmxEVjhqNEQzOEN3dVI3Ulo?oc=5",
+      "publisher": "MSN",
+      "published": "Fri, 17 Jul 2026 20:50:21 GMT",
+      "fetch_time": "2026-07-18T13:40:07.924965+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple briefly overtakes Nvidia as world's most valuable company amid AI investment doubts",
+      "description": "Apple briefly overtakes Nvidia as world's most valuable company amid AI investment doubts Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPclFsLVRuY1RVcnB2Y25SdGlsM05JbUVvd2xsXzhaOGNoeU9ZMWxDOEVxV2ZEWVJoMVFxS3RDZk51R1M1WHFsbVRQREl5cGJWb2FqYUxWcGhOeEdsc0dubHBMb3RZTERRaHpiamdXSEFCSi1BbUJXQnZRZk9iNXFwTTlJYV9tQVRTZTE3a3VabWZGRS1oR2x4TWxGWmZkQmJZYkJpSEZKczIycVhEQ3RnaTZTeko0T2Jxby1OVEFR0gHDAUFVX3lxTE51UFZIek9UbDVNTWFBR1U4Q0xfZzRWSzZTNERNdHZnWi1pZWc4Ny01SXNTeDNlWnFyeFZ1WGV4WGdQZHU3dE5xeGtIS0FTSGoyMDVKaTJLUTJ2NC12c0ZZbW1xMV95T3hjOVpXU1JleDBfOHhVWUJ6d2FqVTU3MXRkTkVWcFRrWmtJM2dnbzlDcFp1Mi1tRjhULTRsODRzX2M3YUVobGFrSklPcjB5eVdwSnRQYnpYNDREdktIY0R6V2dCSQ?oc=5",
+      "publisher": "Fox Business",
+      "published": "Fri, 17 Jul 2026 20:50:00 GMT",
+      "fetch_time": "2026-07-18T13:40:07.925052+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Nvidia CEO doubles down on AI and stock market verdict",
+      "description": "Nvidia CEO doubles down on AI and stock market verdict thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcE5TWFN1RDhOSDNsSkZpclBrYmdiazBTZ0NPZ0RJVlN2UFE3Qk5YMHBjdWtKdFJKU1ctcVRNdWp6WHp4UlJHRC1QeXI1VkFYd2pCeTFTR0k5Tkk2M2RQX2hBVE5OQThqVThETXdRSE1KTUdGaHJ0M2hRWjg4eUF1V2lVOWZJblNmMFRoejYxQl9uam1kR0lQWGh3?oc=5",
+      "publisher": "thestreet.com",
+      "published": "Fri, 17 Jul 2026 20:00:16 GMT",
+      "fetch_time": "2026-07-18T13:40:07.925122+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple, Nvidia vie for title of world's most valuable company",
+      "description": "Apple, Nvidia vie for title of world's most valuable company CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FblYzYlBFTDRwYzRTbzRYdWVTbFItUmtRMWpJOU1ndXhIcFJsZXJIdzd2UWVHWENRV29BNWxnNHA2eGdCamZXem9Ma3RHYjh6QWI0T0lKMFVjSEYyczM3TDFTT2lkaU9FTkNlNHlBQmNVT3NYZTU2Q1FR0gF_QVVfeXFMT0FUY3lyN01USE9ieWxUbHU2Qk5vaFM5U25acnNoYXpTM1I0dzN0cmJuQkowdXE3NFZuU29GeVdsNEZiaGNHTlotWjUwSmdXT0lYbVBkdUFpWUFjNE5hczl0aUFzN0gzV0xraHZISDJPMjRVWU5zbV9BaHVfd3R2QQ?oc=5",
+      "publisher": "CNBC",
+      "published": "Fri, 17 Jul 2026 13:52:24 GMT",
+      "fetch_time": "2026-07-18T13:40:07.925216+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Qualcomm's $3.9B deal and OpenAI chip challenge Nvidia amid rising AI power demands and supply constraints.",
+      "description": "Qualcomm's $3.9B deal and OpenAI chip challenge Nvidia amid rising AI power demands and supply constraints. Pluang",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JNExpS0xuTUVoYnEwZ1E0ZGVpTFBuMlpXblFSMnpBZlBOeWJIUWVWbEwtT1l1Rkh0cDBtN05yaDhMUkE5YTlMV0xsM2VqbnI3bERiNGpyb0tZdXAzLUw2V0xYLWtrNHdfaWl4aFNXRFMzMUk?oc=5",
+      "publisher": "Pluang",
+      "published": "Sat, 18 Jul 2026 13:26:26 GMT",
+      "fetch_time": "2026-07-18T13:40:07.925274+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Wall Street Couldn't Stop Buying Nvidia. Now Apple Is Worth More As AI Bets Shift And Chipmakers Fall",
+      "description": "Wall Street Couldn't Stop Buying Nvidia. Now Apple Is Worth More As AI Bets Shift And Chipmakers Fall International Business Times",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaUJIWndaVFZfUVo3MzZrWThKMzhBdmVQX2RUUWxXZy1HekE0TThhdlA3cHhPZkQ4R3Bpc1pqSU9IaENFWEFEWVZ1WmV1MDRacVRJWmNUZ2xEZGdXb1Voa1pFOUk3V1VuTlUxb3hfLXhYZzV5ZldvOFR5Yi1hY1VxYXZYdWdNempMN1Vkb0ZGREJZZDZ1RjhNRTZhS3lLVE1BeklMelNNQUVxUldXTVZ6MjlTTEVVMzJRTXRwT1ZR?oc=5",
+      "publisher": "International Business Times",
+      "published": "Fri, 17 Jul 2026 18:37:13 GMT",
+      "fetch_time": "2026-07-18T13:40:07.925290+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Intel and Google Cloud Announce Collaboration to Accelerate Intel’s AI-Enabled Enterprise Transformation",
+      "description": "Intel and Google Cloud Announce Collaboration to Accelerate Intel’s AI-Enabled Enterprise Transformation Intel Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZ3FuX1FkMFlqazduWFAyVmdwTmh2c3RfdzB0QjY0c3dJNks4MnlzOFU0ZnhxbG53bU96cHJHcC1IWDlUTUMtVklGd2lQd3lBWV9DLTZhQUpDZXhvUGlZb0ZXRzgxQVRNeDN5bS1ENTV6ZVZjLWhWTk44eDdWdFNtVDRNLVBmNVJUNVNQdGVYRTI2MFE1Z1EtbUNzUTZJaFgxUUQ5eERfMEpXX1dVT01JSEFVc3hBYTZJOU9OeGlqUGo2NlhpMV8zUzhQYlNQcHZDQk93Z3VhbjZuNVlfeW1FMmc2WQ?oc=5",
+      "publisher": "Intel Newsroom",
+      "published": "Thu, 16 Jul 2026 16:01:10 GMT",
+      "fetch_time": "2026-07-18T13:40:08.765792+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Nvidia Broadens Physical AI Push With Robotics, Edge AI Updates",
+      "description": "Nvidia Broadens Physical AI Push With Robotics, Edge AI Updates AI Business",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWjhLZDRiMHREdlV0ejZyUVVPeHptdndKOUlZR3p4LTloNU45NjU5b2diekZyVDhUekx2TW9uVXRNaWVyMTZyeGotNUZYOUVSSVhjMWpBTHM3RU81RkhSbi1WeDgzeXZIM2dnMGVoQWoxTUtHTG9Dbk4zWktmLUVkdVM2cC0wQ1E?oc=5",
+      "publisher": "AI Business",
+      "published": "Fri, 17 Jul 2026 20:29:30 GMT",
+      "fetch_time": "2026-07-18T13:40:08.766679+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Microsoft, 3M Partnership Targets AI Infrastructure and Enterprise Transformation",
+      "description": "Microsoft, 3M Partnership Targets AI Infrastructure and Enterprise Transformation Redmondmag.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWUhRZ1ctUGh0VEVvdWktRk9XSHlYY3UxNDE5ZU5ZaFdyTjE4cG1DQlBjVjdJUHhVY2hHcldZR0xXZktzbEN6RXlJS2RRajUxRW01ekR3QVBCZWdURmhHajQxSW8xT3NnR0x5dC1rd2pfUzdUMFVhNmRtSmdvRGZKbG9B?oc=5",
+      "publisher": "Redmondmag.com",
+      "published": "Thu, 16 Jul 2026 15:16:52 GMT",
+      "fetch_time": "2026-07-18T13:40:08.767638+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Intel, Google Cloud deepen AI partnership",
+      "description": "Intel, Google Cloud deepen AI partnership Mobile World Live",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdWVKcEl0bnNaRUhQSUZuVHRvbXFKZHJDcjZZSmtuQzRyRWxoUHZIU01ta0FReE5aZFhPWnBWWEQ4WGxHR3hQMS1IcElTeU9RMUh2RW4yY20xY1N4UHhxb0dBSl90aWZrblhSaUZMTkJIUndjZGtmNEZsYm9WVTdTZV84VVFZN2c?oc=5",
+      "publisher": "Mobile World Live",
+      "published": "Fri, 17 Jul 2026 15:00:25 GMT",
+      "fetch_time": "2026-07-18T13:40:08.767696+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "3M and Microsoft Partner on AI Data Center Infrastructure and Enterprise AI",
+      "description": "3M and Microsoft Partner on AI Data Center Infrastructure and Enterprise AI HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc2dpVTBRZktOT1FtcGl5bGRoNC13bF9KWlY4UXJ4NjFRWjBzbE54QkNNbW1ETElXc193UGEwUEJIemU4bVBYejVUYlRodnZmMHZJS2xNNWw3VEQwRmNZWVA5N1BuQjJNN1B6WHlCMFZtMXI4MG9sTjYyNmhYRmZ1T2VjZEVScEJ5Rm5qeFhkS3RVRm4zUnBaZXM0dWJDYTZReXN6LWx4UlRhM0RIY0ZVeldxOA?oc=5",
+      "publisher": "HPCwire",
+      "published": "Thu, 16 Jul 2026 18:59:42 GMT",
+      "fetch_time": "2026-07-18T13:40:08.768410+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Can INTC's Google Cloud AI Deal Expansion Boost its Enterprise Growth?",
+      "description": "Can INTC's Google Cloud AI Deal Expansion Boost its Enterprise Growth? TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaVZIakl5T2x4TVM2YzdPUVJIQTUwSk1TbkpnOU85M0QwOUtyaXRLNGxpVWJwQU5QMHVFYWxLX19rQmV1SFJyRVBzS19ZQ2NNVXRSTzJ4aGZIT1JyZHdsMHA3UGpwY2JncmZNdEtnRS0xUzdpaEJ3ZkZZVmxnWnVNZGZNUjZhN0l3MllLZzBuUG11eGFfU1dTd0dyaHpOTERaYlN1VHZqMktwdlZXdmx2NUs4QVZvWVduczA1U0lEeHZuSzQ?oc=5",
+      "publisher": "TradingView",
+      "published": "Fri, 17 Jul 2026 16:05:00 GMT",
+      "fetch_time": "2026-07-18T13:40:08.768616+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Sundar Pichai Says 'Great' to see Intel Using Gemini Enterprise as Chipmaker Expands Google Cloud Partner",
+      "description": "Sundar Pichai Says 'Great' to see Intel Using Gemini Enterprise as Chipmaker Expands Google Cloud Partner Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQjFEeWkwdExMUTBhTVpiLThYeHRIVlc2S1B5TEkzZW5leThKcTRoRmhTR1VwWnZycVFuODNjNGFhR2l6aEoyaDJ6d1VaS3RNb0IyQWpTQ2xKZE80ckQ2bW10RUFTUThRWU83M2VIbFZ0akpIT2FCMWV1aHlMSWp5bW5GcGZjblZlSFM4SkkzZTU3Y0pEdGlTWGh2MVZHUHFmNDFzMm83WVFWNHBSdW5vQWpIRQ?oc=5",
+      "publisher": "Benzinga",
+      "published": "Fri, 17 Jul 2026 06:51:40 GMT",
+      "fetch_time": "2026-07-18T13:40:08.772045+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Can INTC's Google Cloud AI Deal Expansion Boost its Enterprise Growth?",
+      "description": "Can INTC's Google Cloud AI Deal Expansion Boost its Enterprise Growth? Zacks Investment Research",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb1REZE9mMnJwTHZaU2lYaEIya1hFYWJfSWlodDVKZXN0TWZyRFBFTjYzUExIcUJBeVFiNGZiOG9fRDVsZnllcUdhVXJybEdhRklaN00xTUl0b2ZJMDhFNUFZaE50VFppdGY0RllBb21xbXBGWW5nS01lQXpoQmxzdTNmdXZLUnZ4OEdPQW5FZ1pNVi1rZUhYbnlaYkotSlV6X3lBZ2VHYVJ1QXV5OGc?oc=5",
+      "publisher": "Zacks Investment Research",
+      "published": "Fri, 17 Jul 2026 15:37:15 GMT",
+      "fetch_time": "2026-07-18T13:40:08.772410+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Parag Agrawal, whom Elon Musk removed as Twitter CEO, deepens partnership with Google for his $2 billion",
+      "description": "Parag Agrawal, whom Elon Musk removed as Twitter CEO, deepens partnership with Google for his $2 billion The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPeUpjajhyQ1BHTFpIYktPNzB0cEFETGt5MEVmZmVITXJqMnZwLTVMdDNobGU2cGNYR2RobDdvd2NYbmxMY29hN1ktdGJtakJGYnVIWWhJODJteXRtUk1sMWU4YTdKQUxnTGpHUGwtdXMxUkJZckFRRndMeTJyY0gtTkRTcTFyNjlaWHJhZWdNclA4b3NpcGU2UkVuTzJHVlh0Y21NMmo0V2gzNGhvVDVyNnhPNEZCZ2hfRG1SakF0bk54LU5pcG4tVUVlSUhTTXlpY0xsNTBvX29MVHRiei1OSHA1aFVBY3Fld3lLZExDeU1VdVBoTC1UUmU1UGtCRVB3UFpURXpGNUNHSDE5dHlzYnVaNWpYZTc4MnRGZ2xKbnRaVWY1WHN3YXhKaDZTVWV6QjgtTThMR1JjdS0zVVN6djEySE9EUdIBywJBVV95cUxNc2VGOHU2OUppeFhVQTFTcG1HS09aQ1RDenAySmkwU0Y3VDloNHZ0YWg2eHNSTzdBWkhqSzZLMmFhUXFGa3dDdmRhTld1MV8wSGI5TXRtMlFSTEJ6aGRRbXdRdWJsU2VOX3R2Ri1BMVRNVkNQbVJKdTdERmsyaWRqM2RMRGQ2b002X0JJTHpDQ2hnRDNrajZnZXpBQ2UyNnhNck1HQ2xyQnViTlhYWXFSb0FSdmttU2UtZjRTUHJRZzUtZHJvZ2txMmNNb2dpMTItR3VsXy1aQ3hzbUpuNlJucVhoN0VTNFJiZlNrSTNLYnBnZ2tkUzZReWNBQ3Z1ck50czVFMlNpVk9xaTZ6UVhBZnRWendSQ0d0X0hQRzZGZkZDamR1ejB4cHRUUWhlZ0lOajQ5QTVTTmVuMnJXM3Q5UUV6MWMtNXdnY2Rr?oc=5",
+      "publisher": "The Times of India",
+      "published": "Sat, 18 Jul 2026 08:33:00 GMT",
+      "fetch_time": "2026-07-18T13:40:08.772715+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Meta’s Custom AI Chip Could Redefine the Economics of AI",
+      "description": "Meta’s Custom AI Chip Could Redefine the Economics of AI HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSDhvc0xRUngtOERfcGo1YWs1WWNCV0tjc1BfREw2bVd6MkF2dUdxUm5qUmx5RUZhaFFUcy1mZHg3bGxYS3ZjMzlPT1BKSTNFcEF0ZkVHcHlHVGVVcFV6OV9CVEZGY1k0clRtbTJLVWlvbmE0ZkxBbkpVX1JWd0h5U3BRTW9PMkUzeW9FdFBTZWdMNS1QaWc?oc=5",
+      "publisher": "HPCwire",
+      "published": "Fri, 17 Jul 2026 03:34:25 GMT",
+      "fetch_time": "2026-07-18T13:40:08.773747+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Anthropic in early talks with Meta to acquire compute power",
+      "description": "Anthropic in early talks with Meta to acquire compute power CNBC",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tZWtxWDkycmdUVlYtM3RpUUdqTVd5cWloOWVnYVZPWUxpc1pBZDFtNkN2NTM5anJXdmRlYnJubDhTV2pyWEp1cnRWQ1pWUnZ3U21OQ0ZhUHAwcGlUN2h4ajNaZVhWWmc0ZTRad0NNNNIBdEFVX3lxTE03WExldWF5Ukd0VGxHRjluWlBNVEZPbW9KWk5LQjZJbk55T3ZjQWozel9NMDZVWkZsYUFKNE9kUmVTN2xSNFI5MFZMOGVqYjVsenFjdmlPYzFvVl85WnhXLTBBOGt4eER0ZW1KS3E5ZE5XNHZJ?oc=5",
+      "publisher": "CNBC",
+      "published": "Fri, 17 Jul 2026 16:41:26 GMT",
+      "fetch_time": "2026-07-18T13:40:09.483343+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Vercel Acquires Egypt’s Stakpak to Strengthen Its AI Infrastructure Platform",
+      "description": "Vercel Acquires Egypt’s Stakpak to Strengthen Its AI Infrastructure Platform entARABI",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb2pTVmM2cVBZU1ZHdU1VRzY0YmJrdlFxUVlhQldfTGIybXB5MVJJLUhOSURjT3JQT0d0Vl84bGtKTElHLTJSSUpsRDJCdW5ERll4R3R6MFRaa3lBeXJSSHRMaE1wYmJlWHJZZHh1c0JwODBhV0lTVnVDQWh1QXhxbXVJMkM0QlFKbkVVOGNoV2hNR0UxOFlKT3g1SjBybGhCLVJTY1dVOXE5dGR3?oc=5",
+      "publisher": "entARABI",
+      "published": "Fri, 17 Jul 2026 11:50:22 GMT",
+      "fetch_time": "2026-07-18T13:40:09.484359+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple Explores Chip Acquisitions as Its M2 Ultra AI Servers Fall Short",
+      "description": "Apple Explores Chip Acquisitions as Its M2 Ultra AI Servers Fall Short Technology Org",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLVZ5ZEE1ZFBNUW5tMkR5UnhlUTQ5Ym5PaFVHRENRcVVzbUZHYkZESmtJd09NSm4yUXE0VUZsazBMcU5fcWNPZ3ExMGMweDFFWmFPS1NQVW5WcEg5UEFxREtWMFVHc083TDFSX0U3end5WUtLcl9tM3hydjduZTVlV3J5b3djQ0FYZjU3NUlkTUo?oc=5",
+      "publisher": "Technology Org",
+      "published": "Fri, 17 Jul 2026 04:11:00 GMT",
+      "fetch_time": "2026-07-18T13:40:09.484571+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple Reportedly Delays ‘Baltra’ AI Server Chip Amid Infrastructure Challenges",
+      "description": "Apple Reportedly Delays ‘Baltra’ AI Server Chip Amid Infrastructure Challenges TechRepublic",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNVJHR3lrQWhHV1gxVHFFaVFQSHAzdXJOTzJtSnZTYmx3NElmMTZKUnJfck5hX0s0QnBKc2w4anR4cVZQV2ZFRGdncWtvR1d3Q1hUd1F2U05ZQXVRSnpsbjFhWjF4N2pnVjhVanh1dTdieFBKYUw5VWZKNVlUbWtiWnpTdG13LV9iTnQwYi1Ob05NdjZVX1ZBZXRB?oc=5",
+      "publisher": "TechRepublic",
+      "published": "Fri, 17 Jul 2026 13:25:39 GMT",
+      "fetch_time": "2026-07-18T13:40:09.485125+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple's AI Chip Ambitions Hit a Wall: Reportedly Seeking Semiconductor Startup Acquisitions to Accelerate In-House Server Development",
+      "description": "Apple's AI Chip Ambitions Hit a Wall: Reportedly Seeking Semiconductor Startup Acquisitions to Accelerate In-House Server Development finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zci1RWGdBZFJHY1lyR0VzS19Td3RDNTFOOGFlZnh5OFhuYnk4N095ZWcxOGVoaGszWTJ3Z2FCZ2dmQTh3ZVNQS3RMQ21DQWlNTHNwWUN0bnFuLWtud0N6WEtVLThsUFBkYXpHSWJkUm5INzJoaFE?oc=5",
+      "publisher": "finance.biggo.com",
+      "published": "Thu, 16 Jul 2026 23:43:59 GMT",
+      "fetch_time": "2026-07-18T13:40:09.485346+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Apple is hunting for chip companies to build its own AI server silicon",
+      "description": "Apple is hunting for chip companies to build its own AI server silicon Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMa2ZzX0w5QjBHQ0RtUVItN0NCMVVIdmk5ei1yY3IwcVp0WUI0QVBQaUNzZHlkOV9UWWJ1VVNSdFFXNzRCZzAwSzRKY2FKVDVPOHZ3T0hVdm1SUEF0am4zM0pndnpCWmhLaFhrNC13?oc=5",
+      "publisher": "Crypto Briefing",
+      "published": "Thu, 16 Jul 2026 15:58:13 GMT",
+      "fetch_time": "2026-07-18T13:40:09.485438+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Anthropic and Blackstone Launch Ode, a $1.5B Enterprise AI Services Venture",
+      "description": "Anthropic and Blackstone Launch Ode, a $1.5B Enterprise AI Services Venture MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcUczbm90Yl9Zc0s0V01KV1huMEFTTnNEVjBnSHJfUVdjeTZubUpvWjJOemo3bEdGYjZkem1lWW1XS2ZPSHUxMWdRekcxZ0xsdHBrMUtMNVJFZ0lPbWZ6V3BROUo5OHd1aE1RY2lNUV9XYm84cWlCRWlwYk9uUE5BSEpRVjBOYy1qYzI2bzhRN3VjX3dsbHh3OQ?oc=5",
+      "publisher": "MLQ.ai",
+      "published": "Thu, 16 Jul 2026 13:40:52 GMT",
+      "fetch_time": "2026-07-18T13:40:09.485505+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Reports: Apple seeks to acquire a chip company to accelerate AI server capabilities",
+      "description": "Reports: Apple seeks to acquire a chip company to accelerate AI server capabilities Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13bG01aElTLVlvcWZoYzNRV0t5OUhxcGNFZjFFLUpKNkNQVVZ0bTlpXzV4bWpVemNTOUN4RjNlNDBVQXp3c0ctTXRBMXdUN2tTWXl2b3d6bHFqcVRpQ3EzSG5rSdIBY0FVX3lxTE13bG01aElTLVlvcWZoYzNRV0t5OUhxcGNFZjFFLUpKNkNQVVZ0bTlpXzV4bWpVemNTOUN4RjNlNDBVQXp3c0ctTXRBMXdUN2tTWXl2b3d6bHFqcVRpQ3EzSG5rSQ?oc=5",
+      "publisher": "Bitget",
+      "published": "Thu, 16 Jul 2026 15:49:26 GMT",
+      "fetch_time": "2026-07-18T13:40:09.485582+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "OpenAI's Peter Steinberger on Hiring for the AI Era",
+      "description": "OpenAI's Peter Steinberger on Hiring for the AI Era StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLTFXUGhYMGZiU3REd3ZjSU1kSHVqQjNFcXFYS1k3SHB0M1FfRW5jRnQxTTFRS2RtTnJXeGdwNFFmREN6ZWotYkNQLWkxWTFUZTNPU1FPS3pOLW1mU1ZVd3FnN3MzcURfc2lNZTJRSEFKTHN3djZMTVBkMUp2ZGNqbktZX0RITGZSQ0RaVkJtM05kVnd6UHhiR1ZRU3dydzQzOVNxcUtXa2U3b0RCY1pGUm1wb0s?oc=5",
+      "publisher": "StartupHub.ai",
+      "published": "Thu, 16 Jul 2026 16:09:22 GMT",
+      "fetch_time": "2026-07-18T13:40:09.486455+00:00"
+    },
+    {
+      "source": "google_news_ai",
+      "title": "Egypt's Stakpak Acquired By Vercel After USD 500 K Pre-Seed Funding",
+      "description": "Egypt's Stakpak Acquired By Vercel After USD 500 K Pre-Seed Funding WeeTracker",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUFdqN280V2NyQklOTXFIejhvODNMdE5QNjF3a2tDNS1PUHJtemQzY21rXzZsZmZXMnVGeUlqdzExUnFDeHdzUWRlYk81b2E5bFBteUJoZGFfT1g1TlJray1NUEN1azBYbFRjVEFNNXlUOXVWeGJxbnNNZEtlWDdidWtva2NKZw?oc=5",
+      "publisher": "WeeTracker",
+      "published": "Fri, 17 Jul 2026 11:56:13 GMT",
+      "fetch_time": "2026-07-18T13:40:09.486602+00:00"
+    },
+    {
       "source": "36kr_ai",
       "title": "WAIC2026的三个关键信号：算力重组、Agent交付与AI硬件闭环",
       "description": "",
       "url": "https://36kr.com/p/3900957398960006",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989181+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190691+00:00"
     },
     {
       "source": "36kr_ai",
@@ -27,7 +568,7 @@
       "description": "",
       "url": "https://36kr.com/p/3900918550546308",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989207+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190711+00:00"
     },
     {
       "source": "36kr_ai",
@@ -35,7 +576,7 @@
       "description": "",
       "url": "https://36kr.com/p/3900610713175938",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989216+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190718+00:00"
     },
     {
       "source": "36kr_ai",
@@ -43,7 +584,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899772123694979",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989224+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190723+00:00"
     },
     {
       "source": "36kr_ai",
@@ -51,7 +592,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899876606985864",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989230+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190727+00:00"
     },
     {
       "source": "36kr_ai",
@@ -59,7 +600,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899527497335943",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989236+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190731+00:00"
     },
     {
       "source": "36kr_ai",
@@ -67,7 +608,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899505422796161",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989242+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190736+00:00"
     },
     {
       "source": "36kr_ai",
@@ -75,7 +616,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899537124165256",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989253+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190744+00:00"
     },
     {
       "source": "36kr_ai",
@@ -83,7 +624,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899650585806469",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989260+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190749+00:00"
     },
     {
       "source": "36kr_ai",
@@ -91,7 +632,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899650690188936",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989266+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190753+00:00"
     },
     {
       "source": "36kr_ai",
@@ -99,7 +640,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899582770611845",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989271+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190756+00:00"
     },
     {
       "source": "36kr_ai",
@@ -107,7 +648,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899570321901449",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989276+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190759+00:00"
     },
     {
       "source": "36kr_ai",
@@ -115,7 +656,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899512269538945",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989282+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190763+00:00"
     },
     {
       "source": "36kr_ai",
@@ -123,7 +664,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899601903322244",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989286+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190772+00:00"
     },
     {
       "source": "36kr_ai",
@@ -131,7 +672,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899549255288711",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989291+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190775+00:00"
     },
     {
       "source": "36kr_ai",
@@ -139,7 +680,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899540157236869",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989296+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190779+00:00"
     },
     {
       "source": "36kr_ai",
@@ -147,7 +688,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899556701128578",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989300+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190782+00:00"
     },
     {
       "source": "36kr_ai",
@@ -155,7 +696,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899597215745664",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989304+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190786+00:00"
     },
     {
       "source": "36kr_ai",
@@ -163,7 +704,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899524856694409",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989310+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190789+00:00"
     },
     {
       "source": "36kr_ai",
@@ -171,7 +712,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899475392906880",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989314+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190793+00:00"
     },
     {
       "source": "36kr_ai",
@@ -179,7 +720,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899419861976457",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989318+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190796+00:00"
     },
     {
       "source": "36kr_ai",
@@ -187,7 +728,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899248113158023",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989322+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190799+00:00"
     },
     {
       "source": "36kr_ai",
@@ -195,7 +736,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899266713847176",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989327+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190802+00:00"
     },
     {
       "source": "36kr_ai",
@@ -203,7 +744,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899383692691078",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989331+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190805+00:00"
     },
     {
       "source": "36kr_ai",
@@ -211,7 +752,7 @@
       "description": "",
       "url": "https://36kr.com/p/3899383821305476",
       "published": "",
-      "fetch_time": "2026-07-18T13:25:46.989336+00:00"
+      "fetch_time": "2026-07-18T13:40:11.190808+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -220,7 +761,7 @@
       "author": "noreply@aihot.virxact.com (TechCrunch：AI（RSS）)",
       "published": "Sat, 18 Jul 2026 04:47:25 GMT",
       "url": "https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro",
-      "fetch_time": "2026-07-18T13:25:47.437442+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961101+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -229,7 +770,7 @@
       "author": "noreply@aihot.virxact.com (The Verge：AI（RSS）)",
       "published": "Fri, 17 Jul 2026 17:41:32 GMT",
       "url": "https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro",
-      "fetch_time": "2026-07-18T13:25:47.437494+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961130+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -238,7 +779,7 @@
       "author": "noreply@aihot.virxact.com (X：宝玉 (@dotey))",
       "published": "Fri, 17 Jul 2026 17:38:33 GMT",
       "url": "https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq",
-      "fetch_time": "2026-07-18T13:25:47.437514+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961144+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -247,7 +788,7 @@
       "author": "noreply@aihot.virxact.com (X：Artificial Analysis (@ArtificialAnlys))",
       "published": "Fri, 17 Jul 2026 17:11:19 GMT",
       "url": "https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k",
-      "fetch_time": "2026-07-18T13:25:47.437536+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961161+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -256,7 +797,7 @@
       "author": "noreply@aihot.virxact.com (X：Gabriel (@gabriel1))",
       "published": "Fri, 17 Jul 2026 16:34:01 GMT",
       "url": "https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp",
-      "fetch_time": "2026-07-18T13:25:47.437553+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961173+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -265,7 +806,7 @@
       "author": "noreply@aihot.virxact.com (Claude：Blog（网页）)",
       "published": "Fri, 17 Jul 2026 16:32:51 GMT",
       "url": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk",
-      "fetch_time": "2026-07-18T13:25:47.437572+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961190+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -274,7 +815,7 @@
       "author": "noreply@aihot.virxact.com (X：美团 LongCat (@Meituan_LongCat))",
       "published": "Fri, 17 Jul 2026 14:08:29 GMT",
       "url": "https://aihot.virxact.com/items/cmrp0qw3s090ybitorwj6diwi",
-      "fetch_time": "2026-07-18T13:25:47.437589+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961203+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -283,7 +824,7 @@
       "author": "noreply@aihot.virxact.com (Simon Willison 博客)",
       "published": "Fri, 17 Jul 2026 12:11:11 GMT",
       "url": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6",
-      "fetch_time": "2026-07-18T13:25:47.437614+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961223+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -292,7 +833,7 @@
       "author": "noreply@aihot.virxact.com (IT之家（RSS）)",
       "published": "Fri, 17 Jul 2026 11:10:01 GMT",
       "url": "https://aihot.virxact.com/items/cmrove64p07imbitof1v9rzwz",
-      "fetch_time": "2026-07-18T13:25:47.437630+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961236+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -301,7 +842,7 @@
       "author": "noreply@aihot.virxact.com (OpenAI：官网动态（RSS · 排除企业/客户案例）)",
       "published": "Fri, 17 Jul 2026 10:00:00 GMT",
       "url": "https://aihot.virxact.com/items/cmrozfoiv08mhbitofbllzxl4",
-      "fetch_time": "2026-07-18T13:25:47.437646+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961249+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -310,7 +851,7 @@
       "author": "noreply@aihot.virxact.com (公众号：通义实验室（千问）)",
       "published": "Fri, 17 Jul 2026 09:41:25 GMT",
       "url": "https://aihot.virxact.com/items/cmrorbywu06cebitoixzgpb5l",
-      "fetch_time": "2026-07-18T13:25:47.437663+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961261+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -319,7 +860,7 @@
       "author": "noreply@aihot.virxact.com (Hacker News 热门（buzzing.cc 中文翻译）)",
       "published": "Fri, 17 Jul 2026 08:41:53 GMT",
       "url": "https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u",
-      "fetch_time": "2026-07-18T13:25:47.437683+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961277+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -328,7 +869,7 @@
       "author": "noreply@aihot.virxact.com (MarkTechPost（RSS）)",
       "published": "Fri, 17 Jul 2026 07:53:02 GMT",
       "url": "https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un",
-      "fetch_time": "2026-07-18T13:25:47.437704+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961296+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -337,7 +878,7 @@
       "author": "noreply@aihot.virxact.com (公众号：通义实验室（千问）)",
       "published": "Fri, 17 Jul 2026 07:14:00 GMT",
       "url": "https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz",
-      "fetch_time": "2026-07-18T13:25:47.437722+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961310+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -346,7 +887,7 @@
       "author": "noreply@aihot.virxact.com (X：阿易 AI Notes (@AYi_AInotes))",
       "published": "Fri, 17 Jul 2026 04:57:38 GMT",
       "url": "https://aihot.virxact.com/items/cmroipdr803rvbito8t018vr1",
-      "fetch_time": "2026-07-18T13:25:47.437743+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961328+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -355,7 +896,7 @@
       "author": "noreply@aihot.virxact.com (Hacker News 热门（buzzing.cc 中文翻译）)",
       "published": "Fri, 17 Jul 2026 00:40:20 GMT",
       "url": "https://aihot.virxact.com/items/cmro8l78w00j5bitou01qowy4",
-      "fetch_time": "2026-07-18T13:25:47.437758+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961340+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -364,7 +905,7 @@
       "author": "noreply@aihot.virxact.com (Ars Technica：AI（RSS）)",
       "published": "Thu, 16 Jul 2026 20:26:23 GMT",
       "url": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59",
-      "fetch_time": "2026-07-18T13:25:47.437775+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961354+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -373,7 +914,7 @@
       "author": "noreply@aihot.virxact.com (VentureBeat：AI（RSS）)",
       "published": "Thu, 16 Jul 2026 19:02:38 GMT",
       "url": "https://aihot.virxact.com/items/cmrnvme99015abixymkemy6lj",
-      "fetch_time": "2026-07-18T13:25:47.437790+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961366+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -382,7 +923,7 @@
       "author": "noreply@aihot.virxact.com (X：ChatGPT (@ChatGPTapp))",
       "published": "Thu, 16 Jul 2026 18:44:58 GMT",
       "url": "https://aihot.virxact.com/items/cmrnvlijq012lbixy2xhlk8k8",
-      "fetch_time": "2026-07-18T13:25:47.437804+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961377+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -391,7 +932,7 @@
       "author": "noreply@aihot.virxact.com (Hacker News 热门（buzzing.cc 中文翻译）)",
       "published": "Thu, 16 Jul 2026 18:32:23 GMT",
       "url": "https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z",
-      "fetch_time": "2026-07-18T13:25:47.437819+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961389+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -400,7 +941,7 @@
       "author": "noreply@aihot.virxact.com (VentureBeat：AI（RSS）)",
       "published": "Thu, 16 Jul 2026 16:40:48 GMT",
       "url": "https://aihot.virxact.com/items/cmrnrc11901tnbizz2dlcio3z",
-      "fetch_time": "2026-07-18T13:25:47.437834+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961401+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -409,7 +950,7 @@
       "author": "noreply@aihot.virxact.com (Google Blog：AI（RSS）)",
       "published": "Thu, 16 Jul 2026 16:00:00 GMT",
       "url": "https://aihot.virxact.com/items/cmrnq8ryq01d5bizzarqvm3y1",
-      "fetch_time": "2026-07-18T13:25:47.437853+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961416+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -418,7 +959,7 @@
       "author": "noreply@aihot.virxact.com (IT之家（RSS）)",
       "published": "Thu, 16 Jul 2026 14:38:08 GMT",
       "url": "https://aihot.virxact.com/items/cmrnmdjt80051bizz895rbmu6",
-      "fetch_time": "2026-07-18T13:25:47.437867+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961427+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -427,7 +968,7 @@
       "author": "noreply@aihot.virxact.com (Claude：Blog（网页）)",
       "published": "Thu, 16 Jul 2026 14:32:22 GMT",
       "url": "https://aihot.virxact.com/items/cmrnlyzl3006sbi8v0f80nbaz",
-      "fetch_time": "2026-07-18T13:25:47.437882+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961439+00:00"
     },
     {
       "source": "ai_hot_feed",
@@ -436,7 +977,7 @@
       "author": "noreply@aihot.virxact.com (X：面壁智能 OpenBMB (@OpenBMB))",
       "published": "Thu, 16 Jul 2026 13:07:05 GMT",
       "url": "https://aihot.virxact.com/items/cmrnj049b00hzbii5lr5jqwgm",
-      "fetch_time": "2026-07-18T13:25:47.437896+00:00"
+      "fetch_time": "2026-07-18T13:40:11.961450+00:00"
     },
     {
       "source": "venturebeat",
@@ -445,7 +986,7 @@
       "author": "",
       "published": "Wed, 15 Jul 2026 22:24:17 GMT",
       "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-      "fetch_time": "2026-07-18T13:25:47.837418+00:00"
+      "fetch_time": "2026-07-18T13:40:12.129192+00:00"
     },
     {
       "source": "venturebeat",
@@ -454,7 +995,7 @@
       "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
       "published": "Tue, 19 May 2026 17:45:00 GMT",
       "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-      "fetch_time": "2026-07-18T13:25:47.838365+00:00"
+      "fetch_time": "2026-07-18T13:40:12.129967+00:00"
     },
     {
       "source": "venturebeat",
@@ -463,7 +1004,7 @@
       "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
       "published": "Thu, 22 Jan 2026 14:00:00 GMT",
       "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-      "fetch_time": "2026-07-18T13:25:47.839053+00:00"
+      "fetch_time": "2026-07-18T13:40:12.130524+00:00"
     },
     {
       "source": "theverge",
@@ -472,7 +1013,7 @@
       "author": "Jay Peters",
       "published": "2026-07-17T15:34:30-04:00",
       "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-      "fetch_time": "2026-07-18T13:25:48.063664+00:00"
+      "fetch_time": "2026-07-18T13:40:12.196140+00:00"
     },
     {
       "source": "theverge",
@@ -481,7 +1022,7 @@
       "author": "David Pierce",
       "published": "2026-07-17T13:41:32-04:00",
       "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-      "fetch_time": "2026-07-18T13:25:48.063934+00:00"
+      "fetch_time": "2026-07-18T13:40:12.196372+00:00"
     },
     {
       "source": "theverge",
@@ -490,7 +1031,7 @@
       "author": "Emma Roth",
       "published": "2026-07-16T12:00:00-04:00",
       "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
-      "fetch_time": "2026-07-18T13:25:48.064543+00:00"
+      "fetch_time": "2026-07-18T13:40:12.196848+00:00"
     },
     {
       "source": "theverge",
@@ -499,7 +1040,7 @@
       "author": "Jess Weatherbed",
       "published": "2026-07-16T09:00:00-04:00",
       "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
-      "fetch_time": "2026-07-18T13:25:48.064610+00:00"
+      "fetch_time": "2026-07-18T13:40:12.196899+00:00"
     },
     {
       "source": "theverge",
@@ -508,7 +1049,7 @@
       "author": "Robert Hart",
       "published": "2026-07-16T08:06:51-04:00",
       "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
-      "fetch_time": "2026-07-18T13:25:48.064863+00:00"
+      "fetch_time": "2026-07-18T13:40:12.197104+00:00"
     },
     {
       "source": "theverge",
@@ -517,7 +1058,16 @@
       "author": "Emma Roth",
       "published": "2026-07-15T17:33:20-04:00",
       "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
-      "fetch_time": "2026-07-18T13:25:48.065382+00:00"
+      "fetch_time": "2026-07-18T13:40:12.197505+00:00"
+    },
+    {
+      "source": "theverge",
+      "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
+      "description": "Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided revealing what's in its training datasets and how they were acquired, this a rare […]",
+      "author": "Jess Weatherbed",
+      "published": "2026-07-15T13:48:01-04:00",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+      "fetch_time": "2026-07-18T13:40:12.198223+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -526,7 +1076,7 @@
       "author": "Connie Loizos",
       "published": "Sat, 18 Jul 2026 04:47:25 +0000",
       "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-      "fetch_time": "2026-07-18T13:25:48.166104+00:00"
+      "fetch_time": "2026-07-18T13:40:12.235966+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -535,7 +1085,7 @@
       "author": "Jagmeet Singh",
       "published": "Fri, 17 Jul 2026 22:55:09 +0000",
       "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
-      "fetch_time": "2026-07-18T13:25:48.166128+00:00"
+      "fetch_time": "2026-07-18T13:40:12.235990+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -544,7 +1094,7 @@
       "author": "Julie Bort",
       "published": "Fri, 17 Jul 2026 22:12:56 +0000",
       "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-      "fetch_time": "2026-07-18T13:25:48.166143+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236003+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -553,7 +1103,7 @@
       "author": "Connie Loizos",
       "published": "Fri, 17 Jul 2026 21:20:47 +0000",
       "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
-      "fetch_time": "2026-07-18T13:25:48.166155+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236012+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -562,7 +1112,7 @@
       "author": "Tim Fernholz",
       "published": "Fri, 17 Jul 2026 20:19:49 +0000",
       "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
-      "fetch_time": "2026-07-18T13:25:48.166165+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236021+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -571,7 +1121,7 @@
       "author": "Jagmeet Singh",
       "published": "Fri, 17 Jul 2026 20:09:27 +0000",
       "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
-      "fetch_time": "2026-07-18T13:25:48.166177+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236030+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -580,7 +1130,7 @@
       "author": "Theresa Loconsolo",
       "published": "Fri, 17 Jul 2026 17:45:46 +0000",
       "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-      "fetch_time": "2026-07-18T13:25:48.166223+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236069+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -589,7 +1139,7 @@
       "author": "Sarah Perez",
       "published": "Fri, 17 Jul 2026 15:21:17 +0000",
       "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
-      "fetch_time": "2026-07-18T13:25:48.166243+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236085+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -598,7 +1148,7 @@
       "author": "Anthony Ha, Theresa Loconsolo, Kirsten Korosec, Sean O'Kane",
       "published": "Fri, 17 Jul 2026 14:00:00 +0000",
       "url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
-      "fetch_time": "2026-07-18T13:25:48.166281+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236114+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -607,7 +1157,7 @@
       "author": "Tim Fernholz",
       "published": "Fri, 17 Jul 2026 12:00:00 +0000",
       "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
-      "fetch_time": "2026-07-18T13:25:48.166293+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236123+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -616,7 +1166,7 @@
       "author": "Sarah Perez",
       "published": "Thu, 16 Jul 2026 18:32:54 +0000",
       "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
-      "fetch_time": "2026-07-18T13:25:48.166307+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236139+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -625,7 +1175,7 @@
       "author": "Lauren Forristal",
       "published": "Thu, 16 Jul 2026 18:22:06 +0000",
       "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
-      "fetch_time": "2026-07-18T13:25:48.166318+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236147+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -634,7 +1184,7 @@
       "author": "Aisha Malik",
       "published": "Thu, 16 Jul 2026 16:00:00 +0000",
       "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
-      "fetch_time": "2026-07-18T13:25:48.166330+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236156+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -643,7 +1193,7 @@
       "author": "Sarah Perez",
       "published": "Thu, 16 Jul 2026 15:38:55 +0000",
       "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
-      "fetch_time": "2026-07-18T13:25:48.166345+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236169+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -652,7 +1202,7 @@
       "author": "Amanda Silberling",
       "published": "Thu, 16 Jul 2026 15:31:09 +0000",
       "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
-      "fetch_time": "2026-07-18T13:25:48.166357+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236178+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -661,7 +1211,7 @@
       "author": "Maggie Nye",
       "published": "Thu, 16 Jul 2026 15:02:00 +0000",
       "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
-      "fetch_time": "2026-07-18T13:25:48.166373+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236191+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -670,7 +1220,7 @@
       "author": "Kate Park",
       "published": "Thu, 16 Jul 2026 14:40:00 +0000",
       "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
-      "fetch_time": "2026-07-18T13:25:48.166386+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236200+00:00"
     },
     {
       "source": "techcrunch_ai",
@@ -679,7 +1229,7 @@
       "author": "Dominic-Madori Davis",
       "published": "Thu, 16 Jul 2026 14:26:29 +0000",
       "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
-      "fetch_time": "2026-07-18T13:25:48.166398+00:00"
+      "fetch_time": "2026-07-18T13:40:12.236210+00:00"
     },
     {
       "source": "latent_space",
@@ -688,7 +1238,7 @@
       "author": "Latent.Space",
       "published": "Sat, 18 Jul 2026 04:30:21 GMT",
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
-      "fetch_time": "2026-07-18T13:25:49.329385+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970438+00:00"
     },
     {
       "source": "latent_space",
@@ -697,7 +1247,7 @@
       "author": "",
       "published": "Fri, 17 Jul 2026 01:46:36 GMT",
       "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-      "fetch_time": "2026-07-18T13:25:49.329412+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970461+00:00"
     },
     {
       "source": "latent_space",
@@ -706,7 +1256,7 @@
       "author": "",
       "published": "Thu, 16 Jul 2026 13:30:44 GMT",
       "url": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
-      "fetch_time": "2026-07-18T13:25:49.329430+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970475+00:00"
     },
     {
       "source": "latent_space",
@@ -715,7 +1265,7 @@
       "author": "",
       "published": "Thu, 16 Jul 2026 06:18:05 GMT",
       "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-      "fetch_time": "2026-07-18T13:25:49.329443+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970485+00:00"
     },
     {
       "source": "latent_space",
@@ -724,7 +1274,7 @@
       "author": "",
       "published": "Tue, 14 Jul 2026 23:54:07 GMT",
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
-      "fetch_time": "2026-07-18T13:25:49.329453+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970494+00:00"
     },
     {
       "source": "latent_space",
@@ -733,7 +1283,7 @@
       "author": "Richard MacManus",
       "published": "Tue, 14 Jul 2026 23:21:21 GMT",
       "url": "https://www.latent.space/p/aiewf26trends",
-      "fetch_time": "2026-07-18T13:25:49.329489+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970512+00:00"
     },
     {
       "source": "latent_space",
@@ -742,7 +1292,7 @@
       "author": "",
       "published": "Tue, 14 Jul 2026 01:22:27 GMT",
       "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
-      "fetch_time": "2026-07-18T13:25:49.329502+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970522+00:00"
     },
     {
       "source": "latent_space",
@@ -751,7 +1301,7 @@
       "author": "",
       "published": "Sat, 11 Jul 2026 02:53:08 GMT",
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
-      "fetch_time": "2026-07-18T13:25:49.329513+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970530+00:00"
     },
     {
       "source": "latent_space",
@@ -760,7 +1310,7 @@
       "author": "Latent.Space",
       "published": "Fri, 10 Jul 2026 06:19:40 GMT",
       "url": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
-      "fetch_time": "2026-07-18T13:25:49.329522+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970537+00:00"
     },
     {
       "source": "latent_space",
@@ -769,7 +1319,7 @@
       "author": "",
       "published": "Thu, 09 Jul 2026 06:05:41 GMT",
       "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
-      "fetch_time": "2026-07-18T13:25:49.329533+00:00"
+      "fetch_time": "2026-07-18T13:40:12.970545+00:00"
     },
     {
       "source": "one_useful_thing",
@@ -778,7 +1328,7 @@
       "author": "Ethan Mollick",
       "published": "Tue, 30 Jun 2026 22:18:12 GMT",
       "url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
-      "fetch_time": "2026-07-18T13:25:49.878943+00:00"
+      "fetch_time": "2026-07-18T13:40:13.341528+00:00"
     },
     {
       "source": "one_useful_thing",
@@ -787,7 +1337,7 @@
       "author": "Ethan Mollick",
       "published": "Tue, 09 Jun 2026 17:11:22 GMT",
       "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
-      "fetch_time": "2026-07-18T13:25:49.878968+00:00"
+      "fetch_time": "2026-07-18T13:40:13.341548+00:00"
     },
     {
       "source": "one_useful_thing",
@@ -796,7 +1346,7 @@
       "author": "Ethan Mollick",
       "published": "Thu, 04 Jun 2026 21:13:42 GMT",
       "url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
-      "fetch_time": "2026-07-18T13:25:49.878979+00:00"
+      "fetch_time": "2026-07-18T13:40:13.341558+00:00"
     },
     {
       "source": "one_useful_thing",
@@ -805,7 +1355,7 @@
       "author": "Ethan Mollick",
       "published": "Tue, 26 May 2026 19:56:01 GMT",
       "url": "https://www.oneusefulthing.org/p/choosing-to-stay-human",
-      "fetch_time": "2026-07-18T13:25:49.878992+00:00"
+      "fetch_time": "2026-07-18T13:40:13.341569+00:00"
     },
     {
       "source": "one_useful_thing",
@@ -814,7 +1364,7 @@
       "author": "Ethan Mollick",
       "published": "Thu, 23 Apr 2026 20:00:38 GMT",
       "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
-      "fetch_time": "2026-07-18T13:25:49.879000+00:00"
+      "fetch_time": "2026-07-18T13:40:13.341576+00:00"
     },
     {
       "source": "one_useful_thing",
@@ -823,7 +1373,7 @@
       "author": "Ethan Mollick",
       "published": "Tue, 31 Mar 2026 22:34:37 GMT",
       "url": "https://www.oneusefulthing.org/p/claude-dispatch-and-the-power-of",
-      "fetch_time": "2026-07-18T13:25:49.879011+00:00"
+      "fetch_time": "2026-07-18T13:40:13.341585+00:00"
     },
     {
       "source": "one_useful_thing",
@@ -832,7 +1382,7 @@
       "author": "Ethan Mollick",
       "published": "Thu, 12 Mar 2026 14:10:07 GMT",
       "url": "https://www.oneusefulthing.org/p/the-shape-of-the-thing",
-      "fetch_time": "2026-07-18T13:25:49.879020+00:00"
+      "fetch_time": "2026-07-18T13:40:13.341593+00:00"
     },
     {
       "source": "one_useful_thing",
@@ -841,16 +1391,7 @@
       "author": "Ethan Mollick",
       "published": "Wed, 18 Feb 2026 01:45:41 GMT",
       "url": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
-      "fetch_time": "2026-07-18T13:25:49.879029+00:00"
-    },
-    {
-      "source": "product_hunt",
-      "title": "Mainichi",
-      "description": "Learn Japanese, one prefecture at a time. Discussion | Link",
-      "author": "Michał Paczyński",
-      "published": "2026-07-13T12:26:12-07:00",
-      "url": "https://www.producthunt.com/products/mainichi-2",
-      "fetch_time": "2026-07-18T13:25:50.453950+00:00"
+      "fetch_time": "2026-07-18T13:40:13.341601+00:00"
     },
     {
       "source": "product_hunt",
@@ -859,34 +1400,7 @@
       "author": "Justin Jincaid",
       "published": "2026-07-07T02:57:18-07:00",
       "url": "https://www.producthunt.com/products/zoodata",
-      "fetch_time": "2026-07-18T13:25:50.453982+00:00"
-    },
-    {
-      "source": "product_hunt",
-      "title": "Acebuilder",
-      "description": "Build landing pages with Aceternity UI Discussion | Link",
-      "author": "Manu Arora",
-      "published": "2026-07-14T04:05:00-07:00",
-      "url": "https://www.producthunt.com/products/acebuilder",
-      "fetch_time": "2026-07-18T13:25:50.453994+00:00"
-    },
-    {
-      "source": "product_hunt",
-      "title": "DocuSmart AI",
-      "description": "Turning fragmented knowledge into one simple system Discussion | Link",
-      "author": "Paul Murnane",
-      "published": "2026-03-12T10:37:12-07:00",
-      "url": "https://www.producthunt.com/products/docusmart-ai",
-      "fetch_time": "2026-07-18T13:25:50.454005+00:00"
-    },
-    {
-      "source": "product_hunt",
-      "title": "Clark",
-      "description": "An AI coworker with its own cloud computer Discussion | Link",
-      "author": "Ben Lang",
-      "published": "2026-05-27T02:38:52-07:00",
-      "url": "https://www.producthunt.com/products/clark-agent",
-      "fetch_time": "2026-07-18T13:25:50.454016+00:00"
+      "fetch_time": "2026-07-18T13:40:13.858254+00:00"
     },
     {
       "source": "product_hunt",
@@ -895,25 +1409,43 @@
       "author": "Aleksandar Blazhev",
       "published": "2026-07-05T22:59:02-07:00",
       "url": "https://www.producthunt.com/products/livedemo",
-      "fetch_time": "2026-07-18T13:25:50.454026+00:00"
+      "fetch_time": "2026-07-18T13:40:13.858274+00:00"
     },
     {
       "source": "product_hunt",
-      "title": "Buzzy",
-      "description": "Your creative AI co-director Discussion | Link",
-      "author": "Rohan Chaubey",
-      "published": "2026-06-30T07:36:15-07:00",
-      "url": "https://www.producthunt.com/products/buzzy-2",
-      "fetch_time": "2026-07-18T13:25:50.454036+00:00"
+      "title": "Clark",
+      "description": "An AI coworker with its own cloud computer Discussion | Link",
+      "author": "Ben Lang",
+      "published": "2026-05-27T02:38:52-07:00",
+      "url": "https://www.producthunt.com/products/clark-agent",
+      "fetch_time": "2026-07-18T13:40:13.858284+00:00"
     },
     {
       "source": "product_hunt",
-      "title": "OpenMarkdown",
-      "description": "A markdown editor you and your agent co-edit Discussion | Link",
-      "author": "XUEYANZ",
-      "published": "2026-07-14T21:32:04-07:00",
-      "url": "https://www.producthunt.com/products/openmarkdown",
-      "fetch_time": "2026-07-18T13:25:50.454047+00:00"
+      "title": "Mainichi",
+      "description": "Learn Japanese, one prefecture at a time. Discussion | Link",
+      "author": "Michał Paczyński",
+      "published": "2026-07-13T12:26:12-07:00",
+      "url": "https://www.producthunt.com/products/mainichi-2",
+      "fetch_time": "2026-07-18T13:40:13.858292+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "DocuSmart AI",
+      "description": "Turning fragmented knowledge into one simple system Discussion | Link",
+      "author": "Paul Murnane",
+      "published": "2026-03-12T10:37:12-07:00",
+      "url": "https://www.producthunt.com/products/docusmart-ai",
+      "fetch_time": "2026-07-18T13:40:13.858300+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "Acebuilder",
+      "description": "Build landing pages with Aceternity UI Discussion | Link",
+      "author": "Manu Arora",
+      "published": "2026-07-14T04:05:00-07:00",
+      "url": "https://www.producthunt.com/products/acebuilder",
+      "fetch_time": "2026-07-18T13:40:13.858308+00:00"
     },
     {
       "source": "product_hunt",
@@ -922,16 +1454,34 @@
       "author": "Anukar",
       "published": "2026-07-11T00:48:47-07:00",
       "url": "https://www.producthunt.com/products/mirage-15",
-      "fetch_time": "2026-07-18T13:25:50.454057+00:00"
+      "fetch_time": "2026-07-18T13:40:13.858323+00:00"
     },
     {
       "source": "product_hunt",
-      "title": "Pebbles Ai",
-      "description": "AI sales platform for modern B2B teams Discussion | Link",
-      "author": "ISTIAK AHMAD",
-      "published": "2026-07-13T21:03:42-07:00",
-      "url": "https://www.producthunt.com/products/pebbles-ai",
-      "fetch_time": "2026-07-18T13:25:50.454068+00:00"
+      "title": "OpenMarkdown",
+      "description": "A markdown editor you and your agent co-edit Discussion | Link",
+      "author": "XUEYANZ",
+      "published": "2026-07-14T21:32:04-07:00",
+      "url": "https://www.producthunt.com/products/openmarkdown",
+      "fetch_time": "2026-07-18T13:40:13.858331+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "Buzzy",
+      "description": "Your creative AI co-director Discussion | Link",
+      "author": "Rohan Chaubey",
+      "published": "2026-06-30T07:36:15-07:00",
+      "url": "https://www.producthunt.com/products/buzzy-2",
+      "fetch_time": "2026-07-18T13:40:13.858339+00:00"
+    },
+    {
+      "source": "product_hunt",
+      "title": "Scribble Party",
+      "description": "A local-first whiteboard studio for teachers and creators Discussion | Link",
+      "author": "Dakota Kim",
+      "published": "2026-07-16T19:55:51-07:00",
+      "url": "https://www.producthunt.com/products/scribble-party",
+      "fetch_time": "2026-07-18T13:40:13.858347+00:00"
     },
     {
       "source": "hacker_news",
@@ -939,10 +1489,10 @@
       "description": "",
       "url": "https://news.ycombinator.com/item?id=48945241",
       "hn_url": "https://news.ycombinator.com/item?id=48945241",
-      "score": 1224,
-      "comments": 716,
+      "score": 1227,
+      "comments": 717,
       "published": "",
-      "fetch_time": "2026-07-18T13:25:51.108903+00:00"
+      "fetch_time": "2026-07-18T13:40:14.470007+00:00"
     },
     {
       "source": "hacker_news",
@@ -953,7 +1503,7 @@
       "score": 396,
       "comments": 353,
       "published": "",
-      "fetch_time": "2026-07-18T13:25:56.247066+00:00"
+      "fetch_time": "2026-07-18T13:40:17.810683+00:00"
     },
     {
       "source": "hacker_news",
@@ -962,9 +1512,9 @@
       "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
       "hn_url": "https://news.ycombinator.com/item?id=48936426",
       "score": 798,
-      "comments": 173,
+      "comments": 174,
       "published": "",
-      "fetch_time": "2026-07-18T13:25:57.513290+00:00"
+      "fetch_time": "2026-07-18T13:40:18.546132+00:00"
     },
     {
       "source": "hacker_news",
@@ -973,9 +1523,9 @@
       "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
       "hn_url": "https://news.ycombinator.com/item?id=48939524",
       "score": 391,
-      "comments": 525,
+      "comments": 526,
       "published": "",
-      "fetch_time": "2026-07-18T13:26:00.954440+00:00"
+      "fetch_time": "2026-07-18T13:40:20.767359+00:00"
     },
     {
       "source": "hacker_news",
@@ -986,7 +1536,7 @@
       "score": 365,
       "comments": 181,
       "published": "",
-      "fetch_time": "2026-07-18T13:26:01.195130+00:00"
+      "fetch_time": "2026-07-18T13:40:20.930063+00:00"
     },
     {
       "source": "hacker_news",
@@ -997,7 +1547,7 @@
       "score": 583,
       "comments": 649,
       "published": "",
-      "fetch_time": "2026-07-18T13:26:06.711482+00:00"
+      "fetch_time": "2026-07-18T13:40:24.429441+00:00"
     },
     {
       "source": "hacker_news",
@@ -1008,7 +1558,7 @@
       "score": 206,
       "comments": 121,
       "published": "",
-      "fetch_time": "2026-07-18T13:26:08.746841+00:00"
+      "fetch_time": "2026-07-18T13:40:25.891568+00:00"
     }
   ]
 }
