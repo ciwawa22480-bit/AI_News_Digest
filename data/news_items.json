@@ -1,465 +1,65 @@
 {
-  "generated_at": "2026-07-18T09:22:24.382925+00:00",
+  "generated_at": "2026-07-18T10:35:35.286543+00:00",
   "date_display": "2026年07月18日",
   "date_short": "2026-07-18",
-  "total_items": 112,
-  "high_count": 0,
-  "sources_count": 9,
+  "total_items": 84,
+  "high_count": 5,
+  "sources_count": 7,
   "items": [
     {
-      "title": "PostHog/posthog",
-      "summary": "GitHub 热门项目 PostHog/posthog，🦔 PostHog is the leading platform for building self-driving ",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "PostHog/posthog",
-      "url": "https://github.com/PostHog/posthog",
-      "extra": {
-        "stars": "36322",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "438 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "HenryNdubuaku/maths-cs-ai-c...",
-      "summary": "GitHub 热门项目 HenryNdubuaku/maths-cs-ai-compendium，Become a cracked AI/ML Research Engineer",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "HenryNdubuaku/maths-cs-ai-compendium",
-      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-      "extra": {
-        "stars": "6809",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "200 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "Nutlope/hallmark",
-      "summary": "GitHub 热门项目 Nutlope/hallmark，Anti-AI-slop design skill for Claude Code, Cursor, and Codex",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "extra": {
-        "stars": "12417",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "1,485 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "github/copilot-sdk",
-      "summary": "GitHub 热门项目 github/copilot-sdk，Multi-platform SDK for integrating GitHub Copilot Agent into",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "github/copilot-sdk",
-      "url": "https://github.com/github/copilot-sdk",
-      "extra": {
-        "stars": "9847",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "233 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "anthropics/cwc-workshops",
-      "summary": "GitHub 热门 AI 项目：anthropics/cwc-workshops",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "anthropics/cwc-workshops",
-      "url": "https://github.com/anthropics/cwc-workshops",
-      "extra": {
-        "stars": "1665",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "45 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "PrismML-Eng/Bonsai-demo",
-      "summary": "GitHub 热门项目 PrismML-Eng/Bonsai-demo，Bonsai Demo",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "PrismML-Eng/Bonsai-demo",
-      "url": "https://github.com/PrismML-Eng/Bonsai-demo",
-      "extra": {
-        "stars": "1769",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "278 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "tirth8205/code-review-graph",
-      "summary": "GitHub 热门项目 tirth8205/code-review-graph，Local-first code intelligence graph for MCP and CLI. Builds ",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "tirth8205/code-review-graph",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "extra": {
-        "stars": "19908",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "74 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "openinterpreter/openinterpr...",
-      "summary": "GitHub 热门项目 openinterpreter/openinterpreter，A coding agent for open models like Kimi K3",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "openinterpreter/openinterpreter",
-      "url": "https://github.com/openinterpreter/openinterpreter",
-      "extra": {
-        "stars": "66560",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "431 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "RyanCodrai/turbovec",
-      "summary": "GitHub 热门项目 RyanCodrai/turbovec，A vector index built on TurboQuant, written in Rust with Pyt",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "RyanCodrai/turbovec",
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "extra": {
-        "stars": "13424",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "280 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "aws/agent-toolkit-for-aws",
-      "summary": "GitHub 热门项目 aws/agent-toolkit-for-aws，Official, AWS-supported MCP servers, skills, and plugins to ",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "aws/agent-toolkit-for-aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "extra": {
-        "stars": "1951",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "34 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "Shubhamsaboo/awesome-llm-apps",
-      "summary": "GitHub 热门项目 Shubhamsaboo/awesome-llm-apps，100+ AI Agent & RAG apps you can actually run — clone, custo",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "Shubhamsaboo/awesome-llm-apps",
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "extra": {
-        "stars": "123761",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "951 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "rohitg00/ai-engineering-fro...",
-      "summary": "GitHub 热门项目 rohitg00/ai-engineering-from-scratch，Learn it. Build it. Ship it for others.",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "rohitg00/ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "extra": {
-        "stars": "38835",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "232 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "Graphify-Labs/graphify",
-      "summary": "GitHub 热门项目 Graphify-Labs/graphify，AI coding assistant skill (Claude Code, Codex, OpenCode, Cur",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "extra": {
-        "stars": "90510",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "1,360 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "PurpleAILAB/Decepticon",
-      "summary": "GitHub 热门项目 PurpleAILAB/Decepticon，Autonomous Hacking Agent for Red Team",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "PurpleAILAB/Decepticon",
-      "url": "https://github.com/PurpleAILAB/Decepticon",
-      "extra": {
-        "stars": "4810",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "28 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "open-telemetry/semantic-con...",
-      "summary": "GitHub 热门 AI 项目：open-telemetry/semantic-conventions-genai",
-      "importance": "medium",
-      "category": "开源项目",
-      "tags": [
-        "github trending"
-      ],
-      "source": "github_trending",
-      "original_title": "open-telemetry/semantic-conventions-genai",
-      "url": "https://github.com/open-telemetry/semantic-conventions-genai",
-      "extra": {
-        "stars": "174",
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": "6 stars today",
-        "hn_url": null
-      }
-    },
-    {
-      "title": "In-toto: A framework to sec...",
-      "summary": "Hacker News 热议：In-toto: A framework to secure the integrity of software supply chains",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "hacker news"
-      ],
-      "source": "hacker_news",
-      "original_title": "In-toto: A framework to secure the integrity of software supply chains",
-      "url": "https://in-toto.io/",
-      "extra": {
-        "stars": null,
-        "score": 20,
-        "comments": 0,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48942603"
-      }
-    },
-    {
-      "title": "Painting the sides of railr...",
-      "summary": "Hacker News 热议：Painting the sides of railroad rails white to reduce derailment",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "hacker news"
-      ],
-      "source": "hacker_news",
-      "original_title": "Painting the sides of railroad rails white to reduce derailment",
-      "url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608",
-      "extra": {
-        "stars": null,
-        "score": 93,
-        "comments": 47,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48951780"
-      }
-    },
-    {
       "title": "The state of open source AI",
-      "summary": "Hacker News 热议：The state of open source AI",
-      "importance": "medium",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "high",
       "category": "行业动态",
       "tags": [
-        "hacker news"
+        "行业动态"
       ],
       "source": "hacker_news",
       "original_title": "The state of open source AI",
       "url": "https://stateofopensource.ai/",
       "extra": {
         "stars": null,
-        "score": 436,
-        "comments": 314,
+        "score": 447,
+        "comments": 321,
         "upvotes": null,
         "today_stars": null,
         "hn_url": "https://news.ycombinator.com/item?id=48947825"
       }
     },
     {
-      "title": "Kaiser nurses say AI, surve...",
-      "summary": "Hacker News 热议：Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
-      "importance": "medium",
+      "title": "Kaiser nurses say AI, surveillan...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "high",
       "category": "行业动态",
       "tags": [
-        "hacker news"
+        "行业动态"
       ],
       "source": "hacker_news",
       "original_title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
       "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
       "extra": {
         "stars": null,
-        "score": 506,
-        "comments": 324,
+        "score": 512,
+        "comments": 337,
         "upvotes": null,
         "today_stars": null,
         "hn_url": "https://news.ycombinator.com/item?id=48952880"
       }
     },
     {
-      "title": "FAA lets Boeing sign off on...",
-      "summary": "Hacker News 热议：FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
-      "importance": "medium",
+      "title": "Apple targets dozens of OpenAI e...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "high",
       "category": "行业动态",
       "tags": [
-        "hacker news"
-      ],
-      "source": "hacker_news",
-      "original_title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
-      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
-      "extra": {
-        "stars": null,
-        "score": 174,
-        "comments": 97,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48952439"
-      }
-    },
-    {
-      "title": "AI Meets Cryptography 2: Wh...",
-      "summary": "Hacker News 热议：AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "hacker news"
-      ],
-      "source": "hacker_news",
-      "original_title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
-      "url": "https://blog.zksecurity.xyz/posts/openvm-bugs/",
-      "extra": {
-        "stars": null,
-        "score": 94,
-        "comments": 6,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48947714"
-      }
-    },
-    {
-      "title": "Claude Code(Fable) refused ...",
-      "summary": "Hacker News 热议：Claude Code(Fable) refused my slow down instruction",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "hacker news"
-      ],
-      "source": "hacker_news",
-      "original_title": "Claude Code(Fable) refused my slow down instruction",
-      "url": "https://qusaisuwan.github.io/cc-incident/index.html",
-      "extra": {
-        "stars": null,
-        "score": 20,
-        "comments": 8,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48953519"
-      }
-    },
-    {
-      "title": "Apple targets dozens of Ope...",
-      "summary": "Hacker News 热议：Apple targets dozens of OpenAI employees with legal letters",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "hacker news"
+        "行业动态"
       ],
       "source": "hacker_news",
       "original_title": "Apple targets dozens of OpenAI employees with legal letters",
       "url": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
       "extra": {
         "stars": null,
-        "score": 393,
+        "score": 394,
         "comments": 339,
         "upvotes": null,
         "today_stars": null,
@@ -467,32 +67,12 @@
       }
     },
     {
-      "title": "Texas wins court order to s...",
-      "summary": "Hacker News 热议：Texas wins court order to suspend domain name for violating age-verification law",
-      "importance": "medium",
+      "title": "The LLM Critics Are Right. I Use...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "high",
       "category": "行业动态",
       "tags": [
-        "hacker news"
-      ],
-      "source": "hacker_news",
-      "original_title": "Texas wins court order to suspend domain name for violating age-verification law",
-      "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-landmark-legal-victory-lock-pornographic-website-domain-and",
-      "extra": {
-        "stars": null,
-        "score": 176,
-        "comments": 204,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48952939"
-      }
-    },
-    {
-      "title": "The LLM Critics Are Right. ...",
-      "summary": "Hacker News 热议：The LLM Critics Are Right. I Use LLMs Anyway",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "hacker news"
+        "行业动态"
       ],
       "source": "hacker_news",
       "original_title": "The LLM Critics Are Right. I Use LLMs Anyway",
@@ -507,72 +87,12 @@
       }
     },
     {
-      "title": "VulnHunter: Capital One's a...",
-      "summary": "Hacker News 热议：VulnHunter: Capital One's agentic AI code security tool",
-      "importance": "medium",
+      "title": "EEG shows brain can simultaneous...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "high",
       "category": "行业动态",
       "tags": [
-        "hacker news"
-      ],
-      "source": "hacker_news",
-      "original_title": "VulnHunter: Capital One's agentic AI code security tool",
-      "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
-      "extra": {
-        "stars": null,
-        "score": 68,
-        "comments": 34,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48946692"
-      }
-    },
-    {
-      "title": "How to Train a Gen AI Kick ...",
-      "summary": "Hacker News 热议：How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "hacker news"
-      ],
-      "source": "hacker_news",
-      "original_title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
-      "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
-      "extra": {
-        "stars": null,
-        "score": 156,
-        "comments": 82,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48935687"
-      }
-    },
-    {
-      "title": "How to Write Unmaintainable...",
-      "summary": "Hacker News 热议：How to Write Unmaintainable Code (2015)",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "hacker news"
-      ],
-      "source": "hacker_news",
-      "original_title": "How to Write Unmaintainable Code (2015)",
-      "url": "https://github.com/droogans/unmaintainable-code",
-      "extra": {
-        "stars": null,
-        "score": 23,
-        "comments": 2,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48951474"
-      }
-    },
-    {
-      "title": "EEG shows brain can simulta...",
-      "summary": "Hacker News 热议：EEG shows brain can simultaneous encode two speech streams",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "hacker news"
+        "行业动态"
       ],
       "source": "hacker_news",
       "original_title": "EEG shows brain can simultaneous encode two speech streams",
@@ -587,32 +107,212 @@
       }
     },
     {
-      "title": "Agent Security Is a Systems...",
-      "summary": "Hacker News 热议：Agent Security Is a Systems Problem",
+      "title": "In-toto: A framework to secure t...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "hacker news"
+        "行业动态"
       ],
       "source": "hacker_news",
-      "original_title": "Agent Security Is a Systems Problem",
-      "url": "https://arxiv.org/abs/2605.18991",
+      "original_title": "In-toto: A framework to secure the integrity of software supply chains",
+      "url": "https://in-toto.io/",
       "extra": {
         "stars": null,
-        "score": 10,
-        "comments": 1,
+        "score": 34,
+        "comments": 0,
         "upvotes": null,
         "today_stars": null,
-        "hn_url": "https://news.ycombinator.com/item?id=48951509"
+        "hn_url": "https://news.ycombinator.com/item?id=48942603"
       }
     },
     {
-      "title": "Index Ventures 联合创始人 Neil R...",
-      "summary": "Index Ventures 联合创始人 Neil Rimer 表示，围绕 AI 积累的巨额财富将面临\"某种形式的再分配\"，无论是自愿还是强制。他呼吁科技领袖在",
+      "title": "Painting the sides of railroad r...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
+      ],
+      "source": "hacker_news",
+      "original_title": "Painting the sides of railroad rails white to reduce derailment",
+      "url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608",
+      "extra": {
+        "stars": null,
+        "score": 100,
+        "comments": 51,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48951780"
+      }
+    },
+    {
+      "title": "FAA lets Boeing sign off on 737 ...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "medium",
+      "category": "行业动态",
+      "tags": [
+        "行业动态"
+      ],
+      "source": "hacker_news",
+      "original_title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+      "extra": {
+        "stars": null,
+        "score": 175,
+        "comments": 98,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48952439"
+      }
+    },
+    {
+      "title": "AI Meets Cryptography 2: What AI...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "medium",
+      "category": "行业动态",
+      "tags": [
+        "行业动态"
+      ],
+      "source": "hacker_news",
+      "original_title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
+      "url": "https://blog.zksecurity.xyz/posts/openvm-bugs/",
+      "extra": {
+        "stars": null,
+        "score": 95,
+        "comments": 6,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48947714"
+      }
+    },
+    {
+      "title": "Claude Code(Fable) refused my sl...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "medium",
+      "category": "行业动态",
+      "tags": [
+        "行业动态"
+      ],
+      "source": "hacker_news",
+      "original_title": "Claude Code(Fable) refused my slow down instruction",
+      "url": "https://qusaisuwan.github.io/cc-incident/index.html",
+      "extra": {
+        "stars": null,
+        "score": 22,
+        "comments": 8,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48953519"
+      }
+    },
+    {
+      "title": "VulnHunter: Capital One's agenti...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "medium",
+      "category": "行业动态",
+      "tags": [
+        "行业动态"
+      ],
+      "source": "hacker_news",
+      "original_title": "VulnHunter: Capital One's agentic AI code security tool",
+      "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
+      "extra": {
+        "stars": null,
+        "score": 69,
+        "comments": 34,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48946692"
+      }
+    },
+    {
+      "title": "Texas wins court order to suspen...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "medium",
+      "category": "行业动态",
+      "tags": [
+        "行业动态"
+      ],
+      "source": "hacker_news",
+      "original_title": "Texas wins court order to suspend domain name for violating age-verification law",
+      "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-landmark-legal-victory-lock-pornographic-website-domain-and",
+      "extra": {
+        "stars": null,
+        "score": 179,
+        "comments": 212,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48952939"
+      }
+    },
+    {
+      "title": "How to Train a Gen AI Kick Drum ...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "medium",
+      "category": "行业动态",
+      "tags": [
+        "行业动态"
+      ],
+      "source": "hacker_news",
+      "original_title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
+      "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
+      "extra": {
+        "stars": null,
+        "score": 156,
+        "comments": 82,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48935687"
+      }
+    },
+    {
+      "title": "AI Mania Is Eviscerating Global ...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "medium",
+      "category": "行业动态",
+      "tags": [
+        "行业动态"
+      ],
+      "source": "hacker_news",
+      "original_title": "AI Mania Is Eviscerating Global Decision-Making",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
+      "extra": {
+        "stars": null,
+        "score": 10,
+        "comments": 0,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48956153"
+      }
+    },
+    {
+      "title": "How to Write Unmaintainable Code...",
+      "summary": "该话题在 Hacker News 上引发技术社区广泛讨论。",
+      "importance": "medium",
+      "category": "行业动态",
+      "tags": [
+        "行业动态"
+      ],
+      "source": "hacker_news",
+      "original_title": "How to Write Unmaintainable Code (2015)",
+      "url": "https://github.com/droogans/unmaintainable-code",
+      "extra": {
+        "stars": null,
+        "score": 23,
+        "comments": 2,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": "https://news.ycombinator.com/item?id=48951474"
+      }
+    },
+    {
+      "title": "Index Ventures 联合创始人 Neil Rimer ...",
+      "summary": "Index Ventures 联合创始人 Neil Rimer 表示，围绕 AI 积累的巨额财富将面临\"某种形式的再分配\"，无论是自愿还是强制。他呼吁科技领袖在推动自愿再分配中发挥主导作用。与此同时，美国慈善捐赠总额虽创新高，但捐赠人数持续",
+      "importance": "medium",
+      "category": "行业动态",
+      "tags": [
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\"",
@@ -627,12 +327,12 @@
       }
     },
     {
-      "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是...",
-      "summary": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri ",
+      "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
+      "summary": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri AI 为核心）之际，外界猜测 Apple 究竟是担忧 OpenAI 成为潜在竞争",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
@@ -647,12 +347,12 @@
       }
     },
     {
-      "title": "月之暗面在GTC 2026披露Kimi K2.5技术路...",
-      "summary": "月之暗面CEO杨植麟在GTC 2026演讲中提出用MuonClip优化器替代Adam，可将数据利用效率提升近一倍。同时推出Kimi Linear线性注意力，在百",
+      "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用Mu...",
+      "summary": "月之暗面CEO杨植麟在GTC 2026演讲中提出用MuonClip优化器替代Adam，可将数据利用效率提升近一倍。同时推出Kimi Linear线性注意力，在百万Token上下文下全面超越全注意力；Agent Swarm已支持300个Age",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
@@ -668,11 +368,11 @@
     },
     {
       "title": "八天四款前沿模型发布，Kimi K3 跻身第三",
-      "summary": "过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis",
+      "summary": "过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "八天四款前沿模型发布，Kimi K3 跻身第三",
@@ -688,11 +388,11 @@
     },
     {
       "title": "Sora 2 视频克隆效果惊人，真假难辨",
-      "summary": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。\n\n如果你从这段关于我或 Sam 的视",
+      "summary": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。\n\n如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。\n\n🔗 阅读原文：https://x.co",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "Sora 2 视频克隆效果惊人，真假难辨",
@@ -707,12 +407,12 @@
       }
     },
     {
-      "title": "Cursor 评估负责人确认 Claude Fable...",
-      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort ",
+      "title": "Cursor 评估负责人确认 Claude Fable 5 在 ...",
+      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
@@ -727,12 +427,12 @@
       }
     },
     {
-      "title": "美团LongCat发布LoHoSearch：更难搜索智...",
-      "summary": "美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问",
+      "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
+      "summary": "美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问题。在11个前沿模型测试中，最佳得分仅34.74%，远低于当前模型在Browse",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
@@ -747,12 +447,12 @@
       }
     },
     {
-      "title": "LLM cliché highlighter：一款识别...",
-      "summary": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式",
+      "title": "LLM cliché highlighter：一款识别AI写作套...",
+      "summary": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式，例如\"no fluff， no filler， no jargon\"这类陈词滥",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "LLM cliché highlighter：一款识别AI写作套话的检测工具",
@@ -767,12 +467,12 @@
       }
     },
     {
-      "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收...",
-      "summary": "苹果已向约40名就职于OpenAI的前员工发出律师函，要求保存相关文件。此前苹果起诉OpenAI及两名前员工，指控其通过挖角获取商业机密以加速AI硬件研发。苹果",
+      "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+      "summary": "苹果已向约40名就职于OpenAI的前员工发出律师函，要求保存相关文件。此前苹果起诉OpenAI及两名前员工，指控其通过挖角获取商业机密以加速AI硬件研发。苹果称已有超400名前员工在OpenAI工作，正寻求法院禁令阻止OpenAI使用苹果",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
@@ -787,12 +487,12 @@
       }
     },
     {
-      "title": "OpenAI 提出 AI 时代记分卡：\"有用智能每美元...",
-      "summary": "OpenAI 提出\"Useful Intelligence per Dollar\"（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功",
+      "title": "OpenAI 提出 AI 时代记分卡：\"有用智能每美元\"衡量实际...",
+      "summary": "OpenAI 提出\"Useful Intelligence per Dollar\"（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功任务的实际成本、结果可靠性三个维度评估。\n\n🔗 阅读原文：https://ope",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "OpenAI 提出 AI 时代记分卡：\"有用智能每美元\"衡量实际工作价值",
@@ -808,11 +508,11 @@
     },
     {
       "title": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"技术拆解",
-      "summary": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与",
+      "summary": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。系统包含规划、草稿、实现、",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"技术拆解",
@@ -827,12 +527,12 @@
       }
     },
     {
-      "title": "Schema Harness 在 ARC-AGI-3 ...",
-      "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6",
+      "title": "Schema Harness 在 ARC-AGI-3 公开集上取...",
+      "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
@@ -847,12 +547,12 @@
       }
     },
     {
-      "title": "NVIDIA 发布 Nemotron 3 Embed ...",
-      "summary": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的",
+      "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B...",
+      "summary": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一。1B-NVFP4 版本在 Blackwell 上",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
@@ -867,12 +567,12 @@
       }
     },
     {
-      "title": "通义实验室发布 Wan-Streamer v0.2，端...",
-      "summary": "通义实验室发布 Wan-Streamer v0.2，这是一款将\"听、看、说、演\"统一进单个 Transformer 的端到端全模态模型。其端到端响应延迟仅 55",
+      "title": "通义实验室发布 Wan-Streamer v0.2，端到端响应延...",
+      "summary": "通义实验室发布 Wan-Streamer v0.2，这是一款将\"听、看、说、演\"统一进单个 Transformer 的端到端全模态模型。其端到端响应延迟仅 550ms，输出分辨率从 v0.1 的 192×336 提升至 640×368 @ ",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms",
@@ -888,11 +588,11 @@
     },
     {
       "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
-      "summary": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，力压 Claude Fable 5 与 GPT-5.6 Sol，7 个前端细分",
+      "summary": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，力压 Claude Fable 5 与 GPT-5.6 Sol，7 个前端细分赛道拿下 6 个第一。该模型为 2.8 万亿参数 MoE 架构，百万上下文窗口，",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
@@ -907,12 +607,12 @@
       }
     },
     {
-      "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内...",
-      "summary": "AI公司为维持大语言模型（如ChatGPT、Claude）运行，可能已购买全球70%的高端计算机内存，导致内存与存储价格飙升：两年前350美元的硬盘现已涨至80",
+      "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
+      "summary": "AI公司为维持大语言模型（如ChatGPT、Claude）运行，可能已购买全球70%的高端计算机内存，导致内存与存储价格飙升：两年前350美元的硬盘现已涨至800美元且缺货，部分笔记本电脑涨价50%。科技公司计划未来几年将美国数据中心容量扩",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
@@ -927,12 +627,12 @@
       }
     },
     {
-      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否...",
-      "summary": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立",
+      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
+      "summary": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立场转变。案件聚焦用户滥用行为，而非模型本身的技术缺陷。\n\n🔗 阅读原文：http",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
@@ -948,11 +648,11 @@
     },
     {
       "title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
-      "summary": "VentureBeat调查107家企业发现，54%已遭遇AI智能体安全事件（18%确认事故，36%险些酿祸）。仅32%为每个智能体分配独立身份凭证，30%将高风",
+      "summary": "VentureBeat调查107家企业发现，54%已遭遇AI智能体安全事件（18%确认事故，36%险些酿祸）。仅32%为每个智能体分配独立身份凭证，30%将高风险智能体隔离在沙箱中。安全工具主要依赖模型提供商原生方案，专用智能体安全产品渗透",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
@@ -968,11 +668,11 @@
     },
     {
       "title": "ChatGPT 工作区支持文档表格幻灯片编辑",
-      "summary": "在 ChatGPT 工作区中创建和编辑精美的文档、电子表格和幻灯片。\n\n@nickbaumann_ 为你演示操作。\n\n🔗 阅读原文：https://x.com/",
+      "summary": "在 ChatGPT 工作区中创建和编辑精美的文档、电子表格和幻灯片。\n\n@nickbaumann_ 为你演示操作。\n\n🔗 阅读原文：https://x.com/ChatGPTapp/status/2077826846373380535\n\nv",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "ChatGPT 工作区支持文档表格幻灯片编辑",
@@ -988,11 +688,11 @@
     },
     {
       "title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
-      "summary": "Decoy Font 是一款 TTF 字体，通过在同一字符中叠加不同空间频率的图形（前景细轮廓与背景低频模糊块），使近距离观看时 AI 读到\"诱饵\"字母，而人眼",
+      "summary": "Decoy Font 是一款 TTF 字体，通过在同一字符中叠加不同空间频率的图形（前景细轮廓与背景低频模糊块），使近距离观看时 AI 读到\"诱饵\"字母，而人眼远距离或眯眼时才能看到真实隐藏信息。\n\n🔗 阅读原文：https://www.m",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "ai hot feed"
+        "行业动态"
       ],
       "source": "ai_hot_feed",
       "original_title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
@@ -1007,12 +707,12 @@
       }
     },
     {
-      "title": "On Locality and Length Gene...",
-      "summary": "最新 AI 论文：On Locality and Length Generalization in Visual Re",
+      "title": "On Locality and Length Generaliz...",
+      "summary": "最新 AI 研究论文。A striking feature of the human visual system is that it ingests visual information through a series",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "On Locality and Length Generalization in Visual Reasoning",
@@ -1027,12 +727,12 @@
       }
     },
     {
-      "title": "Rethinking the Evaluation o...",
-      "summary": "最新 AI 论文：Rethinking the Evaluation of Harness Evolution for",
+      "title": "Rethinking the Evaluation of Har...",
+      "summary": "最新 AI 研究论文。We revisit the evaluation of automatic harness evolution for LLM agents. Existing harness evolution ",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "Rethinking the Evaluation of Harness Evolution for Agents",
@@ -1047,12 +747,12 @@
       }
     },
     {
-      "title": "Chat2Scenic: An Iterative R...",
-      "summary": "最新 AI 论文：Chat2Scenic: An Iterative RAG-Based Framework for ",
+      "title": "Chat2Scenic: An Iterative RAG-Ba...",
+      "summary": "最新 AI 研究论文。Validating autonomous driving systems requires diverse, regulation-compliant test scenarios. In simu",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
@@ -1067,12 +767,12 @@
       }
     },
     {
-      "title": "Hierarchical Denoising For ...",
-      "summary": "最新 AI 论文：Hierarchical Denoising For Multi-Step Visual Reaso",
+      "title": "Hierarchical Denoising For Multi...",
+      "summary": "最新 AI 研究论文。Video models are evolving into vision foundation models, yet they still lack human-like multi-step r",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
@@ -1087,12 +787,12 @@
       }
     },
     {
-      "title": "RxBrain: Embodied Cognition...",
-      "summary": "最新 AI 论文：RxBrain: Embodied Cognition Foundation Model with ",
+      "title": "RxBrain: Embodied Cognition Foun...",
+      "summary": "最新 AI 研究论文。Embodied cognition requires agents to connect high-level task reasoning with the physical states to ",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
@@ -1101,18 +801,18 @@
         "stars": null,
         "score": null,
         "comments": null,
-        "upvotes": 16,
+        "upvotes": 19,
         "today_stars": null,
         "hn_url": null
       }
     },
     {
-      "title": "Token Time Continuous Diffu...",
-      "summary": "最新 AI 论文：Token Time Continuous Diffusion for Language Model",
+      "title": "Token Time Continuous Diffusion ...",
+      "summary": "最新 AI 研究论文。In this paper we introduce token time continuous diffusion (TTCD), a new diffusion language model wh",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "Token Time Continuous Diffusion for Language Modeling",
@@ -1127,12 +827,12 @@
       }
     },
     {
-      "title": "SUFLECA: Scaling Up Feature...",
-      "summary": "最新 AI 论文：SUFLECA: Scaling Up Feature Learning for CAD-to-im",
+      "title": "SUFLECA: Scaling Up Feature Lear...",
+      "summary": "最新 AI 研究论文。CAD-to-image alignment aims to estimate an object's 9D pose (rotation, translation, and anisotropic ",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
@@ -1147,12 +847,12 @@
       }
     },
     {
-      "title": "AsySplat: Efficient Asymmet...",
-      "summary": "最新 AI 论文：AsySplat: Efficient Asymmetric 3D Gaussian Splatti",
+      "title": "AsySplat: Efficient Asymmetric 3...",
+      "summary": "最新 AI 研究论文。Recent generalizable 3D Gaussian Splatting models have advanced long-sequence novel view synthesis (",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "AsySplat: Efficient Asymmetric 3D Gaussian Splatting for Long-Sequence Scene Modeling",
@@ -1167,12 +867,12 @@
       }
     },
     {
-      "title": "LongStraw: Long-Context RL ...",
-      "summary": "最新 AI 论文：LongStraw: Long-Context RL Beyond 2M Tokens under ",
+      "title": "LongStraw: Long-Context RL Beyon...",
+      "summary": "最新 AI 研究论文。A growing gap separates inference context lengths from RL post-training: inference systems are appro",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
@@ -1181,18 +881,18 @@
         "stars": null,
         "score": null,
         "comments": null,
-        "upvotes": 140,
+        "upvotes": 146,
         "today_stars": null,
         "hn_url": null
       }
     },
     {
-      "title": "VIABench: A Comprehensive V...",
-      "summary": "最新 AI 论文：VIABench: A Comprehensive Video Benchmark Collecte",
+      "title": "VIABench: A Comprehensive Video ...",
+      "summary": "最新 AI 研究论文。Visually impaired individuals (VIIs) encounter significant daily challenges due to limited access to",
       "importance": "medium",
       "category": "论文研究",
       "tags": [
-        "huggingface papers"
+        "论文研究"
       ],
       "source": "huggingface_papers",
       "original_title": "VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance",
@@ -1207,256 +907,16 @@
       }
     },
     {
-      "title": "openai/openai-python releas...",
-      "summary": "开源项目更新：openai/openai-python released v2.46.0",
+      "title": "WAIC2026的三个关键信号：算力重组、Agent交付与AI硬件闭环",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
-      "category": "工具框架",
+      "category": "行业动态",
       "tags": [
-        "github releases"
+        "行业动态"
       ],
-      "source": "github_releases",
-      "original_title": "openai/openai-python released v2.46.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v2.46.0",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "langchain-ai/langchain rele...",
-      "summary": "开源项目更新：langchain-ai/langchain released langchain==1.3.14",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "langchain-ai/langchain released langchain==1.3.14",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.14",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "huggingface/transformers re...",
-      "summary": "开源项目更新：huggingface/transformers released v5.14.1",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "huggingface/transformers released v5.14.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.1",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "huggingface/transformers re...",
-      "summary": "开源项目更新：huggingface/transformers released v5.14.0",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "huggingface/transformers released v5.14.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.0",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "vllm-project/vllm released ...",
-      "summary": "开源项目更新：vllm-project/vllm released v0.25.1",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "vllm-project/vllm released v0.25.1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.1",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "vllm-project/vllm released ...",
-      "summary": "开源项目更新：vllm-project/vllm released v0.25.0",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "vllm-project/vllm released v0.25.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "ollama/ollama released v0.32.1",
-      "summary": "开源项目更新：ollama/ollama released v0.32.1",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "ollama/ollama released v0.32.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.1",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "Significant-Gravitas/AutoGP...",
-      "summary": "开源项目更新：Significant-Gravitas/AutoGPT released autogpt-platform-beta-v0.6.68",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "Significant-Gravitas/AutoGPT released autogpt-platform-beta-v0.6.68",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.68",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "Significant-Gravitas/AutoGP...",
-      "summary": "开源项目更新：Significant-Gravitas/AutoGPT released autogpt-platform-beta-v0.6.67",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "Significant-Gravitas/AutoGPT released autogpt-platform-beta-v0.6.67",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.67",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "crewAIInc/crewAI released 1...",
-      "summary": "开源项目更新：crewAIInc/crewAI released 1.15.4",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "crewAIInc/crewAI released 1.15.4",
-      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.4",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "crewAIInc/crewAI released 1...",
-      "summary": "开源项目更新：crewAIInc/crewAI released 1.15.3",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "crewAIInc/crewAI released 1.15.3",
-      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.3",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "crewAIInc/crewAI released 1...",
-      "summary": "开源项目更新：crewAIInc/crewAI released 1.15.3a2",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "crewAIInc/crewAI released 1.15.3a2",
-      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.3a2",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "anthropics/anthropic-sdk-py...",
-      "summary": "开源项目更新：anthropics/anthropic-sdk-python released v0.117.0",
-      "importance": "medium",
-      "category": "工具框架",
-      "tags": [
-        "github releases"
-      ],
-      "source": "github_releases",
-      "original_title": "anthropics/anthropic-sdk-python released v0.117.0",
-      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.117.0",
+      "source": "36kr_ai",
+      "original_title": "WAIC2026的三个关键信号：算力重组、Agent交付与AI硬件闭环",
+      "url": "https://36kr.com/p/3900957398960006",
       "extra": {
         "stars": null,
         "score": null,
@@ -1468,11 +928,11 @@
     },
     {
       "title": "刚刚，Fable 5官宣永久可用",
-      "summary": "刚刚，Fable 5官宣永久可用",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "刚刚，Fable 5官宣永久可用",
@@ -1488,11 +948,11 @@
     },
     {
       "title": "十年服务世界，正在成为普渡迈向具身智能的底牌",
-      "summary": "十年服务世界，正在成为普渡迈向具身智能的底牌",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "十年服务世界，正在成为普渡迈向具身智能的底牌",
@@ -1507,12 +967,12 @@
       }
     },
     {
-      "title": "门票炒到 3000 元的 WAIC，我们找到了 AI ...",
-      "summary": "门票炒到 3000 元的 WAIC，我们找到了 AI 真正的创新",
+      "title": "门票炒到 3000 元的 WAIC，我们找到了 AI 真正的创新",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "门票炒到 3000 元的 WAIC，我们找到了 AI 真正的创新",
@@ -1528,11 +988,11 @@
     },
     {
       "title": "打败Fable 5！Kimi K3冲上第一，杨植麟导师很骄傲",
-      "summary": "打败Fable 5！Kimi K3冲上第一，杨植麟导师很骄傲",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "打败Fable 5！Kimi K3冲上第一，杨植麟导师很骄傲",
@@ -1548,11 +1008,11 @@
     },
     {
       "title": "算法代理不对称：当AI替你决策时，你连反对的权利都没有",
-      "summary": "算法代理不对称：当AI替你决策时，你连反对的权利都没有",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "算法代理不对称：当AI替你决策时，你连反对的权利都没有",
@@ -1568,11 +1028,11 @@
     },
     {
       "title": "全球首个“变形金刚”，中国企业造出来了",
-      "summary": "全球首个“变形金刚”，中国企业造出来了",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "全球首个“变形金刚”，中国企业造出来了",
@@ -1588,11 +1048,11 @@
     },
     {
       "title": "真人短剧，被AI逼上大银幕",
-      "summary": "真人短剧，被AI逼上大银幕",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "真人短剧，被AI逼上大银幕",
@@ -1608,11 +1068,11 @@
     },
     {
       "title": "第一个被AI做空的国家，出现了",
-      "summary": "第一个被AI做空的国家，出现了",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "第一个被AI做空的国家，出现了",
@@ -1627,12 +1087,12 @@
       }
     },
     {
-      "title": "什么国产模型，都能跟Fable 5掰手腕了？全方位实测...",
-      "summary": "什么国产模型，都能跟Fable 5掰手腕了？全方位实测Kimi K3",
+      "title": "什么国产模型，都能跟Fable 5掰手腕了？全方位实测Kimi K3",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "什么国产模型，都能跟Fable 5掰手腕了？全方位实测Kimi K3",
@@ -1648,11 +1108,11 @@
     },
     {
       "title": "终于用上 AI 的公司，发现业务被大模型公司抢了",
-      "summary": "终于用上 AI 的公司，发现业务被大模型公司抢了",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "终于用上 AI 的公司，发现业务被大模型公司抢了",
@@ -1668,11 +1128,11 @@
     },
     {
       "title": "做出来容易上线难：搞定企业级Agent要先学会“评估”？",
-      "summary": "做出来容易上线难：搞定企业级Agent要先学会“评估”？",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "做出来容易上线难：搞定企业级Agent要先学会“评估”？",
@@ -1687,12 +1147,12 @@
       }
     },
     {
-      "title": "全体起立：面向AI智能体的Internet Court...",
-      "summary": "全体起立：面向AI智能体的Internet Court现已开庭",
+      "title": "全体起立：面向AI智能体的Internet Court现已开庭",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "全体起立：面向AI智能体的Internet Court现已开庭",
@@ -1708,11 +1168,11 @@
     },
     {
       "title": "Kimi K3：马斯克 Impressed",
-      "summary": "Kimi K3：马斯克 Impressed",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "Kimi K3：马斯克 Impressed",
@@ -1728,11 +1188,11 @@
     },
     {
       "title": "给人形机器人当老师，撑起一个百亿市场",
-      "summary": "给人形机器人当老师，撑起一个百亿市场",
+      "summary": "36氪报道的 AI 行业最新动态。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
+        "行业动态"
       ],
       "source": "36kr_ai",
       "original_title": "给人形机器人当老师，撑起一个百亿市场",
@@ -1747,272 +1207,12 @@
       }
     },
     {
-      "title": "字节两员离职大将，单挑老东家？",
-      "summary": "字节两员离职大将，单挑老东家？",
+      "title": "Moonshot’s Kimi K3 closes the fr...",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "36kr ai"
-      ],
-      "source": "36kr_ai",
-      "original_title": "字节两员离职大将，单挑老东家？",
-      "url": "https://36kr.com/p/3899540157236869",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "NVIDIA 发布 Nemotron 3 Embed ...",
-      "summary": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本登顶 RTEB 检索基准",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本登顶 RTEB 检索基准",
-      "url": "https://news.aibase.com/zh/news/29695",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "得物App联合千觉机器人发布AI鉴别机器人，亮相WAI...",
-      "summary": "得物App联合千觉机器人发布AI鉴别机器人，亮相WAIC 2026",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "得物App联合千觉机器人发布AI鉴别机器人，亮相WAIC 2026",
-      "url": "https://news.aibase.com/zh/news/29694",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "重庆上线“渝小健”AI就医智能体，覆盖233家公立医院",
-      "summary": "重庆上线“渝小健”AI就医智能体，覆盖233家公立医院",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "重庆上线“渝小健”AI就医智能体，覆盖233家公立医院",
-      "url": "https://news.aibase.com/zh/news/29693",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "银河通用机器人创始人王鹤： 2028 年，具身智能的 ...",
-      "summary": "银河通用机器人创始人王鹤： 2028 年，具身智能的 “ChatGPT 时刻” 即将来临！",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "银河通用机器人创始人王鹤： 2028 年，具身智能的 “ChatGPT 时刻” 即将来临！",
-      "url": "https://news.aibase.com/zh/news/29692",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "#2微软全面引入AI挖掘Windows漏洞，后续安全补...",
-      "summary": "#2微软全面引入AI挖掘Windows漏洞，后续安全补丁修复数量将大幅增加",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "#2微软全面引入AI挖掘Windows漏洞，后续安全补丁修复数量将大幅增加",
-      "url": "https://news.aibase.com/zh/news/29553",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "#3LibTV Agent 打造工作流生态，重塑创作者生产力",
-      "summary": "#3LibTV Agent 打造工作流生态，重塑创作者生产力",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "#3LibTV Agent 打造工作流生态，重塑创作者生产力",
-      "url": "https://news.aibase.com/zh/news/29588",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "#4努比亚率先完成智能体大模型备案，全球首款AI智能体...",
-      "summary": "#4努比亚率先完成智能体大模型备案，全球首款AI智能体手机即亮相",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "#4努比亚率先完成智能体大模型备案，全球首款AI智能体手机即亮相",
-      "url": "https://news.aibase.com/zh/news/29625",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "内容创作专业级AI萌宠“刀盾”短视频爆火变现案例：两集...",
-      "summary": "内容创作专业级AI萌宠“刀盾”短视频爆火变现案例：两集播放破千万，打造治愈系虚拟IP15.2K查看攻略",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "内容创作专业级AI萌宠“刀盾”短视频爆火变现案例：两集播放破千万，打造治愈系虚拟IP15.2K查看攻略",
-      "url": "https://news.aibase.com/zh/news/29097",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "内容创作专业级真人反向COS AI水果——蹭爆款热点两...",
-      "summary": "内容创作专业级真人反向COS AI水果——蹭爆款热点两天破3500万播放23.2K查看攻略",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "内容创作专业级真人反向COS AI水果——蹭爆款热点两天破3500万播放23.2K查看攻略",
-      "url": "https://news.aibase.com/zh/news/28133",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "内容创作专业级AI二创萌系IP“咕咕嘎嘎”:从流量爆款...",
-      "summary": "内容创作专业级AI二创萌系IP“咕咕嘎嘎”:从流量爆款到实物变现的全流程路径47.5K查看攻略",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "内容创作专业级AI二创萌系IP“咕咕嘎嘎”:从流量爆款到实物变现的全流程路径47.5K查看攻略",
-      "url": "https://news.aibase.com/zh/news/27067",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "内容创作专业级借势 AI “龙虾风暴”：小红书 Ope...",
-      "summary": "内容创作专业级借势 AI “龙虾风暴”：小红书 OpenClaw 安装教程高收藏变现案例43.0K查看攻略",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "内容创作专业级借势 AI “龙虾风暴”：小红书 OpenClaw 安装教程高收藏变现案例43.0K查看攻略",
-      "url": "https://news.aibase.com/zh/news/26113",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "内容创作专业级利用 OpenClaw 自动化搭建 Sa...",
-      "summary": "内容创作专业级利用 OpenClaw 自动化搭建 SaaS 封装工具，实现日入 200 美金的复利业务70.9K查看攻略",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "aibase"
-      ],
-      "source": "aibase",
-      "original_title": "内容创作专业级利用 OpenClaw 自动化搭建 SaaS 封装工具，实现日入 200 美金的复利业务70.9K查看攻略",
-      "url": "https://news.aibase.com/zh/news/25682",
-      "extra": {
-        "stars": null,
-        "score": null,
-        "comments": null,
-        "upvotes": null,
-        "today_stars": null,
-        "hn_url": null
-      }
-    },
-    {
-      "title": "Moonshot’s Kimi K3 closes t...",
-      "summary": "Moonshot’s Kimi K3 closes the frontier gapPLUS: Use OpenAI's new GPT-Live to plan any trip fastZach Mink, +4",
-      "importance": "medium",
-      "category": "行业动态",
-      "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "Moonshot’s Kimi K3 closes the frontier gapPLUS: Use OpenAI's new GPT-Live to plan any trip fastZach Mink, +4",
@@ -2027,12 +1227,12 @@
       }
     },
     {
-      "title": "OpenAI’s new $230 AI agent ...",
-      "summary": "OpenAI’s new $230 AI agent control padPLUS: Use Manus to write better LinkedIn posts in your voiceZach Mink, +4",
+      "title": "OpenAI’s new $230 AI agent contr...",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "OpenAI’s new $230 AI agent control padPLUS: Use Manus to write better LinkedIn posts in your voiceZach Mink, +4",
@@ -2047,12 +1247,12 @@
       }
     },
     {
-      "title": "Demis Hassabis puts a clock...",
-      "summary": "Demis Hassabis puts a clock on AI oversightPLUS: Build a no-code voice agent for customer intake with GrokZach Mink, +4",
+      "title": "Demis Hassabis puts a clock on A...",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "Demis Hassabis puts a clock on AI oversightPLUS: Build a no-code voice agent for customer intake with GrokZach Mink, +4",
@@ -2067,12 +1267,12 @@
       }
     },
     {
-      "title": "Economists, researchers put...",
-      "summary": "Economists, researchers put AI’s job shock on the clockPLUS: Find winning ad angles with Claude and Meta dataZach Mink, +3",
+      "title": "Economists, researchers put AI’s...",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "Economists, researchers put AI’s job shock on the clockPLUS: Find winning ad angles with Claude and Meta dataZach Mink, +3",
@@ -2087,12 +1287,12 @@
       }
     },
     {
-      "title": "Apple takes OpenAI to court...",
-      "summary": "Apple takes OpenAI to courtPLUS: Go from idea to website with ChatGPT Work + CodexZach Mink, +3",
+      "title": "Apple takes OpenAI to courtPLUS:...",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "Apple takes OpenAI to courtPLUS: Go from idea to website with ChatGPT Work + CodexZach Mink, +3",
@@ -2107,12 +1307,12 @@
       }
     },
     {
-      "title": "OpenAI sends GPT-5.6 to Wor...",
-      "summary": "OpenAI sends GPT-5.6 to WorkPLUS: Use 60% less Fable tokens with this orchestrator setupZach Mink, +4",
+      "title": "OpenAI sends GPT-5.6 to WorkPLUS...",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "OpenAI sends GPT-5.6 to WorkPLUS: Use 60% less Fable tokens with this orchestrator setupZach Mink, +4",
@@ -2127,12 +1327,12 @@
       }
     },
     {
-      "title": "SpaceXAI, Cursor release th...",
-      "summary": "SpaceXAI, Cursor release the strongest Grok yetPLUS: Add CGI to any video with HiggsfieldZach Mink, +4",
+      "title": "SpaceXAI, Cursor release the str...",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "SpaceXAI, Cursor release the strongest Grok yetPLUS: Add CGI to any video with HiggsfieldZach Mink, +4",
@@ -2147,12 +1347,12 @@
       }
     },
     {
-      "title": "Meta climbs the AI image le...",
-      "summary": "Meta climbs the AI image leaderboardPLUS: Run better 1-on-1s with employees using AIZach Mink, +4",
+      "title": "Meta climbs the AI image leaderb...",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "Meta climbs the AI image leaderboardPLUS: Run better 1-on-1s with employees using AIZach Mink, +4",
@@ -2168,11 +1368,11 @@
     },
     {
       "title": "Show More",
-      "summary": "Show More",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "Show More",
@@ -2187,12 +1387,12 @@
       }
     },
     {
-      "title": "Exclusive interview: Sam Al...",
-      "summary": "Exclusive interview: Sam Altman on Dev Day and AI's futurePLUS: Google releases Gemini Computer Use for AI browser controlZach Mink, +4",
+      "title": "Exclusive interview: Sam Altman ...",
+      "summary": "The Rundown AI Newsletter 精选的 AI 行业要闻。",
       "importance": "medium",
       "category": "行业动态",
       "tags": [
-        "the rundown ai"
+        "行业动态"
       ],
       "source": "the_rundown_ai",
       "original_title": "Exclusive interview: Sam Altman on Dev Day and AI's futurePLUS: Google releases Gemini Computer Use for AI browser controlZach Mink, +4",
@@ -2208,11 +1408,11 @@
     },
     {
       "title": "LLMs",
-      "summary": "LLMs",
+      "summary": "Product Hunt 上线的 AI 新产品，值得关注。",
       "importance": "medium",
-      "category": "行业动态",
+      "category": "产品发布",
       "tags": [
-        "product hunt"
+        "产品发布"
       ],
       "source": "product_hunt",
       "original_title": "LLMs",
@@ -2228,15 +1428,255 @@
     },
     {
       "title": "AI Agents",
-      "summary": "AI Agents",
+      "summary": "Product Hunt 上线的 AI 新产品，值得关注。",
       "importance": "medium",
-      "category": "行业动态",
+      "category": "产品发布",
       "tags": [
-        "product hunt"
+        "产品发布"
       ],
       "source": "product_hunt",
       "original_title": "AI Agents",
       "url": "https://www.producthunt.com/categories/ai-agents?ref=footer",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B...",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本登顶 RTEB 检索基准",
+      "url": "https://news.aibase.com/zh/news/29695",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "得物App联合千觉机器人发布AI鉴别机器人，亮相WAIC 2026",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "得物App联合千觉机器人发布AI鉴别机器人，亮相WAIC 2026",
+      "url": "https://news.aibase.com/zh/news/29694",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "重庆上线“渝小健”AI就医智能体，覆盖233家公立医院",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "重庆上线“渝小健”AI就医智能体，覆盖233家公立医院",
+      "url": "https://news.aibase.com/zh/news/29693",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "银河通用机器人创始人王鹤： 2028 年，具身智能的 “Chat...",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "银河通用机器人创始人王鹤： 2028 年，具身智能的 “ChatGPT 时刻” 即将来临！",
+      "url": "https://news.aibase.com/zh/news/29692",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "#2微软全面引入AI挖掘Windows漏洞，后续安全补丁修复数量...",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "#2微软全面引入AI挖掘Windows漏洞，后续安全补丁修复数量将大幅增加",
+      "url": "https://news.aibase.com/zh/news/29553",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "#3LibTV Agent 打造工作流生态，重塑创作者生产力",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "#3LibTV Agent 打造工作流生态，重塑创作者生产力",
+      "url": "https://news.aibase.com/zh/news/29588",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "#4努比亚率先完成智能体大模型备案，全球首款AI智能体手机即亮相",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "#4努比亚率先完成智能体大模型备案，全球首款AI智能体手机即亮相",
+      "url": "https://news.aibase.com/zh/news/29625",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "内容创作专业级AI萌宠“刀盾”短视频爆火变现案例：两集播放破千万...",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "内容创作专业级AI萌宠“刀盾”短视频爆火变现案例：两集播放破千万，打造治愈系虚拟IP15.2K查看攻略",
+      "url": "https://news.aibase.com/zh/news/29097",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "内容创作专业级真人反向COS AI水果——蹭爆款热点两天破350...",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "内容创作专业级真人反向COS AI水果——蹭爆款热点两天破3500万播放23.2K查看攻略",
+      "url": "https://news.aibase.com/zh/news/28133",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "内容创作专业级AI二创萌系IP“咕咕嘎嘎”:从流量爆款到实物变现...",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "内容创作专业级AI二创萌系IP“咕咕嘎嘎”:从流量爆款到实物变现的全流程路径47.5K查看攻略",
+      "url": "https://news.aibase.com/zh/news/27067",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "内容创作专业级借势 AI “龙虾风暴”：小红书 OpenClaw...",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "内容创作专业级借势 AI “龙虾风暴”：小红书 OpenClaw 安装教程高收藏变现案例44.1K查看攻略",
+      "url": "https://news.aibase.com/zh/news/26113",
+      "extra": {
+        "stars": null,
+        "score": null,
+        "comments": null,
+        "upvotes": null,
+        "today_stars": null,
+        "hn_url": null
+      }
+    },
+    {
+      "title": "内容创作专业级利用 OpenClaw 自动化搭建 SaaS 封装...",
+      "summary": "AI Base 收录的新工具或资讯。",
+      "importance": "low",
+      "category": "AI应用",
+      "tags": [
+        "AI应用"
+      ],
+      "source": "aibase",
+      "original_title": "内容创作专业级利用 OpenClaw 自动化搭建 SaaS 封装工具，实现日入 200 美金的复利业务70.9K查看攻略",
+      "url": "https://news.aibase.com/zh/news/25682",
       "extra": {
         "stars": null,
         "score": null,
