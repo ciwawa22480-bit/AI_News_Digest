@@ -24,6 +24,56 @@
       "api_url": "https://huggingface.co/api/daily_papers",
       "max_items": 10,
       "description": "Hugging Face 每日论文"
+    },
+    "kr36_ai": {
+      "enabled": true,
+      "url": "https://36kr.com/information/AI/",
+      "rss_url": "https://36kr.com/feed/AI",
+      "max_items": 15,
+      "description": "36Kr AI 专栏"
+    },
+    "aibase": {
+      "enabled": true,
+      "url": "https://www.aibase.com/zh",
+      "max_items": 15,
+      "description": "AI Base 综合资讯"
+    },
+    "particle_news": {
+      "enabled": true,
+      "url": "https://particle.news/technology",
+      "max_items": 15,
+      "description": "Particle News AI 聚合"
+    },
+    "the_rundown_ai": {
+      "enabled": true,
+      "url": "https://www.therundown.ai/",
+      "max_items": 10,
+      "description": "The Rundown AI Newsletter"
+    },
+    "tldr": {
+      "enabled": true,
+      "url": "https://tldr.tech/ai",
+      "max_items": 10,
+      "description": "TLDR AI Newsletter"
+    },
+    "product_hunt": {
+      "enabled": true,
+      "url": "https://www.producthunt.com/",
+      "max_items": 15,
+      "keywords": ["AI", "GPT", "LLM", "machine learning", "automation", "agent", "chatbot", "copilot"],
+      "description": "Product Hunt AI 新产品"
+    },
+    "toolify": {
+      "enabled": true,
+      "url": "https://www.toolify.ai/Best-trending-AI-Tools",
+      "max_items": 15,
+      "description": "Toolify AI 工具榜"
+    },
+    "chatpaper": {
+      "enabled": true,
+      "url": "https://www.chatpaper.ai/zh/dashboard/papers",
+      "max_items": 10,
+      "description": "ChatPaper AI 论文"
     }
   },
   "ai": {
