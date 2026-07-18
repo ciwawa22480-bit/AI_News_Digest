@@ -1,4 +1,4 @@
-name: AI News Generate
+name: AI News Digest
 
 on:
   schedule:
@@ -14,32 +14,39 @@ jobs:
   generate-news:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - run: python fetch_multi_source.py
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch news
+        run: python fetch_multi_source.py
 
-      - run: python generate_ai_summary.py
+      - name: AI curate and summarize
+        run: python generate_ai_summary.py
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
 
-      - run: python build_html.py
+      - name: Build page
+        run: python build_html.py
 
-      - run: |
+      - name: Commit data
+        run: |
           git config user.name "AI News Bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.email "bot@example.com"
           git add data/ || true
-          git diff --cached --quiet || git commit -m "update data"
+          git diff --cached --quiet || git commit -m "update data $(date +%Y-%m-%d)"
           git push || true
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy to Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
