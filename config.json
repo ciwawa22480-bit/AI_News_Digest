@@ -1,10 +1,9 @@
 {
   "sources": {
     "github_trending": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://github.com/trending",
-      "languages": ["python", "typescript", "rust"],
-      "description": "GitHub 热门项目"
+      "description": "GitHub 热门项目（已关闭）"
     },
     "hacker_news": {
       "enabled": true,
