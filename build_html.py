@@ -3,20 +3,19 @@
 """
 build_html.py
 
-将 AI 精选资讯渲染为类似「AI日报沉淀」的表格式静态网页。
+将 AI 精选资讯渲染为中文商业日报静态网页。
 
-布局特点：
-- 顶部：日期 + 每日编辑一句话总结
-- 信号说明：红=高影响 / 黄=中影响 / 灰=信息流
-- 主体：按分类分区，每区为表格布局
-  - 左列：类型(fact/观点) + 分类名
-  - 右列：条目列表，每条含标题+说明+分析子要点
-- 日报/周报切换
-- 底部：日期归档（按日+按周分组）
+本版本重点升级：
+- 顶部：整段编辑概述（不再是一句话）
+- 新增「本期要点概述」：三维结论（新产品功能 / 网上观点 / 行业生态）
+- 单条渲染时过滤空话/水字数要点（防御旧数据）
+- 历史归档：为每一天生成独立、排版精美的 HTML 页面（archive/<date>.html），
+  点击历史日期打开的是正常网页，而不是裸 JSON 列表。
 """
 import os
 import json
 import html
+import re
 import shutil
 from datetime import datetime, timezone, timedelta
 
@@ -24,12 +23,21 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 DAILY_DIR = os.path.join(DATA_DIR, "daily")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
+ARCHIVE_DIR = os.path.join(OUTPUT_DIR, "archive")
 
 NEWS_FILE = os.path.join(DATA_DIR, "news_items.json")
 WEEKLY_FILE = os.path.join(DATA_DIR, "weekly_items.json")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "index.html")
 
 CATEGORY_ORDER = ["大厂动向", "初创动向", "生态动向", "观点与深度"]
+
+FILLER_POINT_PATTERNS = [
+    "关注其对竞争格局与商业化节奏的影响",
+    "头部公司动作，关注其对行业标准与广告营销场景的辐射",
+    "资本与融资动向，关注新玩家的商业模式与落地场景",
+    "行业观点/数据，可用于判断趋势与市场空间",
+    "生态/政策/基础设施变化，关注对上下游与合规的影响",
+]
 
 
 def esc(text):
@@ -56,43 +64,54 @@ def impact_dot(impact):
     return '<span class="dot dot-low" title="信息流"></span>'
 
 
+def clean_points(points):
+    """渲染层防御：去掉空话/纯公司名罗列/重复的要点。"""
+    cleaned = []
+    seen = set()
+    for p in points or []:
+        if not p or not str(p).strip():
+            continue
+        p = str(p).strip()
+        if re.match(r"^涉及公司[:：]", p) and "，" not in p.rstrip("。"):
+            continue
+        if any(fp in p for fp in FILLER_POINT_PATTERNS):
+            continue
+        key = p[:20]
+        if key in seen:
+            continue
+        seen.add(key)
+        cleaned.append(p)
+    return cleaned[:3]
+
+
 def build_item_html(item):
-    """单条资讯 HTML。"""
     title = item.get("title", "")
     explanation = item.get("explanation", item.get("summary", ""))
-    analysis_points = item.get("analysis_points", [])
+    analysis_points = clean_points(item.get("analysis_points", []))
     impact = item.get("impact", "medium")
     source = item.get("source", "")
     url = item.get("url", "")
     local_hint = item.get("local_life_hint", "")
 
-    # 标题链接
     if url:
         title_html = '<a href="' + esc(url) + '" target="_blank" class="item-link">' + esc(title) + '</a>'
     else:
         title_html = '<span class="item-title-text">' + esc(title) + '</span>'
 
-    # 说明
     exp_html = ""
     if explanation:
-        exp_html = '<span class="item-explanation">：' + esc(explanation) + '</span>'
+        exp_html = '<div class="item-explanation">' + esc(explanation) + '</div>'
 
-    # 分析子要点
     points_html = ""
     if analysis_points:
-        pts = ""
-        for pt in analysis_points[:3]:
-            if pt:
-                pts += '<li>' + esc(pt) + '</li>'
+        pts = "".join('<li>' + esc(pt) + '</li>' for pt in analysis_points if pt)
         if pts:
             points_html = '<ul class="analysis-points">' + pts + '</ul>'
 
-    # 本地生活提示
     local_html = ""
     if local_hint:
         local_html = '<div class="local-hint"><span class="local-tag">营销启发</span>' + esc(local_hint) + '</div>'
 
-    # 来源
     source_html = ""
     if source:
         source_html = '<span class="item-source">(' + esc(source) + ')</span>'
@@ -103,8 +122,8 @@ def build_item_html(item):
         impact_dot(impact),
         title_html,
         source_html,
-        exp_html,
         '</div>',
+        exp_html,
         points_html,
         local_html,
         '</div>',
@@ -112,16 +131,12 @@ def build_item_html(item):
 
 
 def build_category_block(category, type_label, items, summary=""):
-    """构建一个分类行（表格行）。"""
     if not items:
         return ""
-
     items_html = "\n".join([build_item_html(it) for it in items])
-
     summary_html = ""
     if summary:
         summary_html = '<div class="cat-summary">' + esc(summary) + '</div>'
-
     return "".join([
         '<tr class="category-row">',
         '<td class="col-type"><span class="type-label">', esc(type_label), '</span></td>',
@@ -131,30 +146,76 @@ def build_category_block(category, type_label, items, summary=""):
     ])
 
 
+def build_overview_html(overview):
+    """三维结论：新产品功能 / 网上观点 / 行业生态。"""
+    if not overview:
+        return ""
+    dims = [
+        ("new_products", "🚀 新产品功能", "哪个公司有什么新功能、具体怎么实现"),
+        ("opinions", "💬 网上观点", "报道/分析师的新观点与论据"),
+        ("ecosystem", "🌐 行业生态", "基于这些文章看到的行业态势"),
+    ]
+    blocks = ""
+    for key, label, hint in dims:
+        arr = [a for a in (overview.get(key) or []) if a and str(a).strip()]
+        if not arr:
+            continue
+        lis = "".join('<li>' + esc(a) + '</li>' for a in arr)
+        blocks += ('<div class="ov-block"><div class="ov-head">' + label
+                   + '<span class="ov-hint">' + esc(hint) + '</span></div>'
+                   + '<ul class="ov-list">' + lis + '</ul></div>')
+    if not blocks:
+        return ""
+    return ('<section class="overview-section">'
+            '<h3 class="overview-title">本期要点概述</h3>'
+            + blocks + '</section>')
+
+
+def build_local_life_insights(insights):
+    if not insights:
+        return ""
+    items_html = ""
+    for idx, ins in enumerate(insights, 1):
+        if not ins:
+            continue
+        items_html += ('<li class="insight-item"><span class="insight-num">'
+                       + str(idx) + '</span><span class="insight-text">'
+                       + esc(ins) + '</span></li>')
+    if not items_html:
+        return ""
+    return "".join([
+        '<section class="insights-section">',
+        '<h3 class="insights-title">本地生活商业化启发</h3>',
+        '<ol class="insights-list">',
+        items_html,
+        '</ol>',
+        '</section>',
+    ])
+
+
 def build_content_view(data):
-    """构建完整内容视图。"""
     if not data or not data.get("items"):
         return '<div class="empty">暂无数据</div>'
 
     items = data.get("items", [])
     editorial = data.get("editorial_summary", "")
+    overview = data.get("overview", {}) or {}
     category_summaries = data.get("category_summaries", {}) or {}
     local_life_insights = data.get("local_life_insights", []) or []
 
-    # 编辑总结
     editorial_html = ""
     if editorial:
-        editorial_html = '<div class="editorial"><strong>' + esc(editorial) + '</strong></div>'
+        editorial_html = ('<div class="editorial"><span class="editorial-label">编辑导读</span>'
+                          + esc(editorial) + '</div>')
 
-    # 按分类分组
+    overview_html = build_overview_html(overview)
+
     grouped = {}
     for item in items:
         cat = item.get("category", "大厂动向")
         grouped.setdefault(cat, []).append(item)
 
-    # 分类到 fact/opinion 类型
     fact_categories = ["大厂动向", "初创动向", "生态动向"]
-    opinion_categories = ["观点与深度"]
 
     rows = ""
     for cat in CATEGORY_ORDER:
@@ -162,13 +223,10 @@ def build_content_view(data):
             continue
         type_label = "偏fact类" if cat in fact_categories else "偏观点类"
         rows += build_category_block(cat, type_label, grouped[cat], category_summaries.get(cat, ""))
-
-    # 处理额外分类
     for cat in grouped:
         if cat not in CATEGORY_ORDER:
             rows += build_category_block(cat, "偏fact类", grouped[cat], category_summaries.get(cat, ""))
 
-    # 统计信息
     total = len(items)
     high_count = len([i for i in items if i.get("impact") == "high"])
     stats_html = ('<div class="stats">共 ' + str(total) + ' 条精选 · '
@@ -178,6 +236,7 @@ def build_content_view(data):
 
     return "".join([
         editorial_html,
+        overview_html,
         '<div class="signal-legend">',
         '信号等级：',
         '<span class="dot dot-high"></span>高影响 / ',
@@ -192,44 +251,17 @@ def build_content_view(data):
     ])
 
 
-def build_local_life_insights(insights):
-    """构建「本地生活商业化启发」高亮区。"""
-    if not insights:
-        return ""
-
-    items_html = ""
-    for idx, ins in enumerate(insights, 1):
-        if not ins:
-            continue
-        items_html += ('<li class="insight-item"><span class="insight-num">'
-                       + str(idx) + '</span><span class="insight-text">'
-                       + esc(ins) + '</span></li>')
-    if not items_html:
-        return ""
-
-    return "".join([
-        '<section class="insights-section">',
-        '<h3 class="insights-title">本地生活商业化启发</h3>',
-        '<ol class="insights-list">',
-        items_html,
-        '</ol>',
-        '</section>',
-    ])
-
-
-def build_archive_section():
-    """按周分组的归档区。"""
+def build_archive_section(current_date=None, prefix=""):
+    """按周分组的归档区。链接指向已渲染的 archive/<date>.html 网页（而非裸 JSON）。"""
     if not os.path.isdir(DAILY_DIR):
         return ""
-
     files = sorted([f for f in os.listdir(DAILY_DIR) if f.endswith(".json")], reverse=True)
     if not files:
         return ""
 
-    # 按周分组
     beijing = timezone(timedelta(hours=8))
     weeks = {}
-    for f in files[:60]:
+    for f in files[:90]:
         date_str = f.replace(".json", "")
         try:
             dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=beijing)
@@ -244,24 +276,168 @@ def build_archive_section():
     for month, week_groups in list(weeks.items())[:3]:
         archive_html += '<div class="archive-month"><h4>' + esc(month) + '</h4>'
         for week_range, dates in week_groups.items():
-            # 周度归档链接
             archive_html += '<div class="archive-week"><span class="week-label">' + esc(week_range) + '</span>'
             for d in dates:
-                archive_html += ('<a href="data/daily/' + esc(d) + '.json" target="_blank" '
-                                 'class="date-link">' + esc(d.split("-", 1)[1]) + '</a>')  # 只显示 MM-DD
+                active = ' date-link-active' if d == current_date else ''
+                archive_html += ('<a href="' + prefix + 'archive/' + esc(d) + '.html" '
+                                 'class="date-link' + active + '">' + esc(d.split("-", 1)[1]) + '</a>')
             archive_html += '</div>'
         archive_html += '</div>'
 
     return "".join([
         '<section class="archive-section">',
         '<h3 class="archive-title">历史归档</h3>',
+        '<div class="archive-tip">点击任意日期查看当天完整日报（已排版，非原始数据）</div>',
         archive_html,
         '</section>',
     ])
 
 
+PAGE_CSS = """
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff; color: #1a1a1a; line-height: 1.7; font-size: 14px; }
+.header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; }
+.header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
+.header .date-line { font-size: 14px; color: #666; }
+.header .mode-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: #f0f9ff; color: #0369a1; margin-left: 8px; }
+.header .back-link { display: inline-block; margin-top: 10px; font-size: 13px; color: #4f46e5; text-decoration: none; }
+.header .back-link:hover { text-decoration: underline; }
+.toggle-bar { padding: 12px 40px 0; display: flex; gap: 0; border-bottom: 1px solid #e5e7eb; }
+.tab { padding: 8px 24px; border: none; background: none; font-size: 14px; color: #666; cursor: pointer; border-bottom: 2px solid transparent; font-weight: 500; }
+.tab.active { color: #4f46e5; border-bottom-color: #4f46e5; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 40px; }
+.editorial { padding: 16px 20px; background: #f8fafc; border-left: 4px solid #4f46e5; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 15px; color: #1e293b; line-height: 1.85; }
+.editorial-label { display: inline-block; font-weight: 700; color: #4f46e5; margin-right: 8px; }
+/* Overview 三维结论 */
+.overview-section { margin-bottom: 24px; padding: 20px 22px; background: linear-gradient(135deg,#eef2ff 0%,#f5f3ff 100%); border: 1px solid #e0e7ff; border-radius: 12px; }
+.overview-title { font-size: 16px; font-weight: 700; color: #3730a3; margin-bottom: 14px; display: flex; align-items: center; }
+.overview-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #6366f1; border-radius: 3px; margin-right: 10px; }
+.ov-block { margin-bottom: 14px; }
+.ov-block:last-child { margin-bottom: 0; }
+.ov-head { font-size: 14px; font-weight: 600; color: #4338ca; margin-bottom: 6px; }
+.ov-hint { font-size: 11px; font-weight: 400; color: #818cf8; margin-left: 8px; }
+.ov-list { margin: 0 0 0 20px; padding: 0; list-style: disc; }
+.ov-list li { font-size: 13.5px; color: #334155; line-height: 1.7; margin-bottom: 4px; }
+.signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
+.stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
+.cat-summary { font-size: 13px; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 8px 12px; border-radius: 0 6px 6px 0; margin-bottom: 14px; line-height: 1.7; }
+.insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
+.insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
+.insights-title::before { content: ""; display: inline-block; width: 5px; height: 18px; background: #f59e0b; border-radius: 3px; margin-right: 10px; }
+.insights-list { list-style: none; padding: 0; margin: 0; }
+.insight-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #78350f; line-height: 1.7; }
+.insight-item:last-child { margin-bottom: 0; }
+.insight-num { flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #f59e0b; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.insight-text { flex: 1; font-weight: 500; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
+.dot-high { background: #ef4444; }
+.dot-medium { background: #f59e0b; }
+.dot-low { background: #cbd5e1; }
+.digest-table { width: 100%; border-collapse: collapse; }
+.category-row td { padding: 16px 12px; vertical-align: top; border-top: 1px solid #e5e7eb; }
+.col-type { width: 70px; text-align: center; }
+.col-category { width: 90px; text-align: center; }
+.col-content { padding-left: 20px !important; }
+.type-label { font-size: 12px; color: #64748b; font-weight: 500; white-space: nowrap; }
+.cat-label { font-size: 13px; font-weight: 600; color: #1e293b; white-space: nowrap; }
+.news-item { margin-bottom: 18px; }
+.news-item:last-child { margin-bottom: 0; }
+.item-main { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 4px; }
+.item-main .dot { margin-top: 6px; }
+.item-link { color: #1e40af; text-decoration: none; font-weight: 600; font-size: 14px; }
+.item-link:hover { text-decoration: underline; }
+.item-title-text { font-weight: 600; font-size: 14px; color: #1e293b; }
+.item-explanation { color: #374151; font-size: 13.5px; margin: 4px 0 0 14px; }
+.item-source { color: #94a3b8; font-size: 11px; }
+.analysis-points { margin: 6px 0 0 34px; padding: 0; list-style: disc; }
+.analysis-points li { font-size: 13px; color: #4b5563; line-height: 1.6; margin-bottom: 3px; }
+.local-hint { margin: 6px 0 0 34px; padding: 4px 10px; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 4px; font-size: 12px; color: #0f766e; }
+.local-tag { font-weight: 600; margin-right: 6px; color: #14b8a6; }
+.archive-section { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e5e7eb; }
+.archive-title { font-size: 15px; font-weight: 600; color: #374151; margin-bottom: 4px; }
+.archive-tip { font-size: 12px; color: #94a3b8; margin-bottom: 12px; }
+.archive-month { margin-bottom: 12px; }
+.archive-month h4 { font-size: 13px; color: #64748b; margin-bottom: 6px; }
+.archive-week { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+.week-label { font-size: 12px; color: #94a3b8; min-width: 80px; }
+.date-link { font-size: 12px; color: #6366f1; text-decoration: none; padding: 2px 8px; border-radius: 4px; background: #f5f3ff; }
+.date-link:hover { background: #ede9fe; }
+.date-link-active { background: #6366f1; color: #fff; }
+.footer { padding: 24px 40px; text-align: center; color: #94a3b8; font-size: 11px; border-top: 1px solid #f1f5f9; margin-top: 32px; }
+.empty { text-align: center; padding: 60px; color: #94a3b8; }
+@media (max-width: 768px) {
+  .header, .container, .footer { padding-left: 16px; padding-right: 16px; }
+  .toggle-bar { padding-left: 16px; }
+  .col-type, .col-category { display: none; }
+  .col-content { padding-left: 0 !important; }
+  .category-row td { padding: 12px 0; }
+}
+"""
+
+
+def render_page(title_suffix, header_date_line, body_html, toggle_html="",
+                switch_script="", back_link_html="", gen_time=""):
+    return """<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 商业日报 · """ + esc(title_suffix) + """</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>""" + PAGE_CSS + """</style>
+</head>
+<body>
+<div class="header">
+<h1>AI 商业日报</h1>
+<div class="date-line">""" + header_date_line + """</div>
+""" + back_link_html + """
+</div>
+""" + toggle_html + """
+<div class="container">
+""" + body_html + """
+</div>
+<div class="footer">
+每日自动更新 · 数据来源：Google News / 36氪 / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
+生成于 """ + gen_time + """
+</div>
+""" + switch_script + """
+</body>
+</html>"""
+
+
+def build_archive_pages():
+    """为每一天生成独立的排版网页 output/archive/<date>.html。"""
+    if not os.path.isdir(DAILY_DIR):
+        return 0
+    os.makedirs(ARCHIVE_DIR, exist_ok=True)
+    files = sorted([f for f in os.listdir(DAILY_DIR) if f.endswith(".json")], reverse=True)
+    count = 0
+    for f in files[:90]:
+        date_str = f.replace(".json", "")
+        data = load_json(os.path.join(DAILY_DIR, f))
+        if not data:
+            continue
+        body = build_content_view(data)
+        # 归档区里的链接需要用 ../ 前缀回到 output 根
+        archive_nav = build_archive_section(current_date=date_str, prefix="../")
+        date_display = data.get("date_display", date_str)
+        weekday = data.get("weekday", "")
+        mode = data.get("mode", "rule")
+        mode_text = "DeepSeek AI 精选" if mode == "ai" else "规则筛选"
+        header_line = (esc(date_display) + " " + esc(weekday)
+                       + ' <span class="mode-badge">' + esc(mode_text) + '</span>')
+        back = '<a href="../index.html" class="back-link">← 返回今日日报</a>'
+        gen_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+        page = render_page(date_display, header_line, body + archive_nav,
+                           back_link_html=back, gen_time=gen_time)
+        with open(os.path.join(ARCHIVE_DIR, date_str + ".html"), "w", encoding="utf-8") as fh:
+            fh.write(page)
+        count += 1
+    return count
+
+
 def copy_data_to_output():
-    """将 data/ 目录复制到 output/data，使归档 JSON 随 Pages 一起发布。"""
+    """将 data/ 目录复制到 output/data（保留原始数据可下载，但页面不再直接跳转到它）。"""
     if not os.path.isdir(DATA_DIR):
         return
     dest = os.path.join(OUTPUT_DIR, "data")
@@ -273,7 +449,7 @@ def copy_data_to_output():
 
 
 def main():
-    print("Building HTML (digest table layout)...")
+    print("Building HTML (digest layout + archive pages)...")
 
     daily_data = load_json(NEWS_FILE)
     if daily_data is None:
@@ -285,12 +461,14 @@ def main():
     date_display = daily_data.get("date_display", "")
     weekday = daily_data.get("weekday", "")
     mode = daily_data.get("mode", "rule")
+    mode_text = "DeepSeek AI 精选" if mode == "ai" else "规则筛选"
 
     daily_view = build_content_view(daily_data)
     weekly_view = build_content_view(weekly_data) if has_weekly else ""
-    archive_html = build_archive_section()
+    archive_html = build_archive_section(current_date=daily_data.get("date_short"))
 
     toggle_html = ""
+    switch_script = ""
     if has_weekly:
         toggle_html = "".join([
             '<div class="toggle-bar">',
@@ -298,9 +476,6 @@ def main():
             '<button id="btn-weekly" onclick="switchView(\'weekly\')" class="tab">周报</button>',
             '</div>',
         ])
-
-    switch_script = ""
-    if has_weekly:
         switch_script = (
             '<script>\n'
             'function switchView(m){\n'
@@ -317,149 +492,22 @@ def main():
         views_html += '<div id="weekly-view" style="display:none;">' + weekly_view + '</div>'
 
     gen_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    mode_text = "DeepSeek AI 精选" if mode == "ai" else "规则筛选"
+    header_line = (esc(date_display) + " " + esc(weekday)
+                   + ' <span class="mode-badge">' + esc(mode_text) + '</span>')
 
-    page = """<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 商业日报 · """ + esc(date_display) + """</title>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff; color: #1a1a1a; line-height: 1.7; font-size: 14px; }
-
-/* Header */
-.header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; }
-.header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
-.header .date-line { font-size: 14px; color: #666; }
-.header .mode-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: #f0f9ff; color: #0369a1; margin-left: 8px; }
-
-/* Toggle */
-.toggle-bar { padding: 12px 40px 0; display: flex; gap: 0; border-bottom: 1px solid #e5e7eb; }
-.tab { padding: 8px 24px; border: none; background: none; font-size: 14px; color: #666; cursor: pointer; border-bottom: 2px solid transparent; font-weight: 500; }
-.tab.active { color: #4f46e5; border-bottom-color: #4f46e5; }
-
-/* Content */
-.container { max-width: 1100px; margin: 0 auto; padding: 24px 40px; }
-
-/* Editorial */
-.editorial { padding: 16px 20px; background: #f8fafc; border-left: 4px solid #4f46e5; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 15px; color: #1e293b; }
-
-/* Signal legend */
-.signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
-.stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
-
-/* Category summary */
-.cat-summary { font-size: 13px; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 8px 12px; border-radius: 0 6px 6px 0; margin-bottom: 14px; line-height: 1.7; }
-
-/* Local life insights */
-.insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
-.insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
-.insights-title::before { content: ""; display: inline-block; width: 5px; height: 18px; background: #f59e0b; border-radius: 3px; margin-right: 10px; }
-.insights-list { list-style: none; padding: 0; margin: 0; }
-.insight-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #78350f; line-height: 1.7; }
-.insight-item:last-child { margin-bottom: 0; }
-.insight-num { flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #f59e0b; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
-.insight-text { flex: 1; font-weight: 500; }
-
-/* Dots */
-.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
-.dot-high { background: #ef4444; }
-.dot-medium { background: #f59e0b; }
-.dot-low { background: #cbd5e1; }
-
-/* Table */
-.digest-table { width: 100%; border-collapse: collapse; }
-.category-row td { padding: 16px 12px; vertical-align: top; border-top: 1px solid #e5e7eb; }
-.col-type { width: 70px; text-align: center; }
-.col-category { width: 90px; text-align: center; }
-.col-content { padding-left: 20px !important; }
-.type-label { font-size: 12px; color: #64748b; font-weight: 500; white-space: nowrap; }
-.cat-label { font-size: 13px; font-weight: 600; color: #1e293b; white-space: nowrap; }
-
-/* News item */
-.news-item { margin-bottom: 18px; }
-.news-item:last-child { margin-bottom: 0; }
-.item-main { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 4px; }
-.item-main .dot { margin-top: 6px; }
-.item-link { color: #1e40af; text-decoration: none; font-weight: 600; font-size: 14px; }
-.item-link:hover { text-decoration: underline; }
-.item-title-text { font-weight: 600; font-size: 14px; color: #1e293b; }
-.item-explanation { color: #374151; font-size: 13.5px; }
-.item-source { color: #94a3b8; font-size: 11px; }
-
-/* Analysis points */
-.analysis-points { margin: 6px 0 0 24px; padding: 0; list-style: disc; }
-.analysis-points li { font-size: 13px; color: #4b5563; line-height: 1.6; margin-bottom: 3px; }
-
-/* Local hint */
-.local-hint { margin: 6px 0 0 24px; padding: 4px 10px; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 4px; font-size: 12px; color: #0f766e; }
-.local-tag { font-weight: 600; margin-right: 6px; color: #14b8a6; }
-
-/* Archive */
-.archive-section { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e5e7eb; }
-.archive-title { font-size: 15px; font-weight: 600; color: #374151; margin-bottom: 12px; }
-.archive-month { margin-bottom: 12px; }
-.archive-month h4 { font-size: 13px; color: #64748b; margin-bottom: 6px; }
-.archive-week { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
-.week-label { font-size: 12px; color: #94a3b8; min-width: 80px; }
-.date-link { font-size: 12px; color: #6366f1; text-decoration: none; padding: 2px 8px; border-radius: 4px; background: #f5f3ff; }
-.date-link:hover { background: #ede9fe; }
-
-/* Footer */
-.footer { padding: 24px 40px; text-align: center; color: #94a3b8; font-size: 11px; border-top: 1px solid #f1f5f9; margin-top: 32px; }
-
-/* Empty */
-.empty { text-align: center; padding: 60px; color: #94a3b8; }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .header, .container, .footer { padding-left: 16px; padding-right: 16px; }
-  .toggle-bar { padding-left: 16px; }
-  .col-type, .col-category { display: none; }
-  .col-content { padding-left: 0 !important; }
-  .category-row td { padding: 12px 0; }
-  .category-row::before { content: attr(data-cat); display: block; font-weight: 600; font-size: 13px; color: #4f46e5; margin-bottom: 8px; }
-}
-</style>
-</head>
-<body>
-
-<div class="header">
-<h1>AI 商业日报</h1>
-<div class="date-line">
-""" + esc(date_display) + " " + esc(weekday) + """
-<span class="mode-badge">""" + esc(mode_text) + """</span>
-</div>
-</div>
-
-""" + toggle_html + """
-
-<div class="container">
-""" + views_html + """
-""" + archive_html + """
-</div>
-
-<div class="footer">
-每日自动更新 · 数据来源：Google News / 36氪 / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
-生成于 """ + gen_time + """
-</div>
-
-""" + switch_script + """
-</body>
-</html>"""
+    page = render_page(date_display, header_line, views_html + archive_html,
+                       toggle_html=toggle_html, switch_script=switch_script, gen_time=gen_time)
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(page)
 
-    # 将 data/ 复制进 output/，随 GitHub Pages 一起发布，避免归档链接 404
+    n_archive = build_archive_pages()
     copy_data_to_output()
 
     total = daily_data.get("total_items", 0)
     print("[OK] Built! Items: " + str(total) + " | Mode: " + mode
+          + " | Archive pages: " + str(n_archive)
           + (" | Weekly on" if has_weekly else ""))
 
 
