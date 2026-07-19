@@ -119,6 +119,140 @@ def deduplicate_from_yesterday(items):
     return filtered
 
 
+# ============ 字节 AI 曝光聚焦（软性倾斜，可配置） ============
+# 字节系关键词的默认集合（config.display.bytedance_keywords 可覆盖）
+BYTEDANCE_DEFAULT_KEYWORDS = [
+    "字节", "字节跳动", "bytedance", "抖音", "douyin", "tiktok", "豆包", "doubao",
+    "即梦", "jimeng", "剪映", "capcut", "火山引擎", "volcano", "coze", "扣子",
+    "seedream", "seedance",
+]
+
+# 其他国内大厂分组（字节单独处理，故此处不含字节）
+DOMESTIC_OTHER_GROUPS = {
+    "百度": ["baidu", "ernie", "百度", "文心", "apollo", "萝卜快跑"],
+    "腾讯": ["tencent", "hunyuan", "腾讯", "混元", "元宝"],
+    "快手": ["kuaishou", "kling", "快手", "可灵"],
+    "阿里": ["alibaba", "qwen", "阿里", "通义", "万相", "阿里妈妈"],
+}
+
+
+def get_display_config(config):
+    return (config or {}).get("display", {}) or {}
+
+
+def get_bytedance_keywords(config):
+    d = get_display_config(config)
+    kws = d.get("bytedance_keywords") or BYTEDANCE_DEFAULT_KEYWORDS
+    return [str(k).lower() for k in kws]
+
+
+def is_bytedance_item(item, config):
+    text = (item.get("title", "") + " " + (item.get("content") or item.get("description", ""))).lower()
+    return any(kw in text for kw in get_bytedance_keywords(config))
+
+
+def count_bytedance(items, config):
+    return sum(1 for it in items if is_bytedance_item(it, config))
+
+
+def _domestic_other_group(item):
+    t = (item.get("title", "") + " " + (item.get("content") or item.get("description", ""))).lower()
+    for name, kws in DOMESTIC_OTHER_GROUPS.items():
+        if any(w in t for w in kws):
+            return name
+    return None
+
+
+def item_has_quality_info(item, biz):
+    """其他公司纳入时的质量门槛：需为'必要产品/功能信息、鲜明完整观点、有价值生态信息'，
+    且有足够信息量（描述不能太短），避免为凑数纳入信息量低的条目。"""
+    title = item.get("title", "") or ""
+    desc = (item.get("content") or item.get("description", "") or "")
+    text = (title + " " + desc).lower()
+    product_kw = ["发布", "推出", "上线", "更新", "升级", "功能", "产品", "平台", "api", "模型",
+                  "model", "launch", "release", "update", "introduc", "unveil", "feature", "tool"]
+    opinion_kw = list(biz.get("analysis_keywords", [])) + [
+        "认为", "观点", "预测", "分析", "报告", "says", "forecast", "outlook", "analyst"]
+    eco_kw = ["开源", "监管", "芯片", "合作", "融资", "收购", "投资", "生态", "基础设施",
+              "partnership", "open source", "chip", "funding", "acquisition", "regulation",
+              "infrastructure", "deal"]
+    has_product = any(keyword_in_text(k, text) for k in product_kw)
+    has_opinion = any(keyword_in_text(k, text) for k in opinion_kw)
+    has_eco = any(keyword_in_text(k, text) for k in eco_kw)
+    substantive = len(desc.strip()) >= 50
+    return substantive and (has_product or has_opinion or has_eco)
+
+
+def select_curated_with_focus(scored, config, biz, total=24, other_quota_each=2):
+    """在已打分排序（降序）的 scored=[(score,item),...] 上做软性择优，逼近字节目标占比。
+
+    护栏：
+    - 开关关闭或池中字节条目 < bytedance_min_items 时返回 None（表示不做倾斜，走原逻辑）。
+    - 字节名额 ≈ round(total * target_ratio)，从字节高分条目择优，不机械填满、以目标区间为上限。
+    - 保留其他国内大厂（百度/腾讯/快手/阿里）每家保底配额，优先过质量门槛的条目。
+    - 其余名额按原有打分在其他公司里择优，other_company_quality_only 开启时过质量门槛。
+    返回选定的 [(score,item),...]（长度≈total），或 None。
+    """
+    display = get_display_config(config)
+    if not display.get("bytedance_focus"):
+        return None
+    ratio = float(display.get("bytedance_target_ratio", 0.32))
+    min_items = int(display.get("bytedance_min_items", 3))
+    quality_only = bool(display.get("other_company_quality_only", True))
+
+    bd = [si for si in scored if is_bytedance_item(si[1], config)]
+    # 护栏：字节太少，退回正常逻辑，绝不硬凑
+    if len(bd) < min_items:
+        return None
+
+    total = min(total, len(scored))
+    bd_slots = min(len(bd), max(1, int(round(total * ratio))))
+
+    selected = []
+    ids = set()
+
+    # 1) 字节高分择优（不超过目标名额，避免过度渲染）
+    for si in bd[:bd_slots]:
+        selected.append(si)
+        ids.add(id(si[1]))
+
+    others = [si for si in scored if id(si[1]) not in ids]
+
+    # 2) 其他国内大厂保底配额（先取过质量门槛的高分条目，不足再放宽）
+    quota_counts = {n: 0 for n in DOMESTIC_OTHER_GROUPS}
+    for require_gate in (True, False):
+        for si in others:
+            if len(selected) >= total:
+                break
+            if id(si[1]) in ids:
+                continue
+            g = _domestic_other_group(si[1])
+            if not g or quota_counts[g] >= other_quota_each:
+                continue
+            if require_gate and quality_only and not item_has_quality_info(si[1], biz):
+                continue
+            selected.append(si)
+            ids.add(id(si[1]))
+            quota_counts[g] += 1
+
+    # 3) 其余名额：其他公司高分 + 质量门槛（门槛过严导致名额填不满时再放宽兜底）
+    for require_gate in (True, False):
+        for si in others:
+            if len(selected) >= total:
+                break
+            if id(si[1]) in ids:
+                continue
+            if require_gate and quality_only and not item_has_quality_info(si[1], biz):
+                continue
+            selected.append(si)
+            ids.add(id(si[1]))
+        if len(selected) >= total:
+            break
+
+    selected.sort(key=lambda x: x[0], reverse=True)
+    return selected
+
+
 # ============ 打分（预筛选 + 规则兜底共用） ============
 def keyword_in_text(keyword, text):
     if not keyword or not text:
@@ -149,11 +283,14 @@ def score_item(item, biz):
     return score
 
 
-def prefilter_items(items, biz, limit=70):
+def prefilter_items(items, biz, limit=70, config=None):
     """按商业价值预打分，截取 top N 送入 AI，缩短输入、提高精选质量。
 
     额外保证国内大厂（百度/腾讯/快手/字节/阿里）的配额，避免被 OpenAI/英伟达等
     高分国际公司挤出候选集，导致页面偏科。
+
+    另：若 display.bytedance_focus 开启且池中字节条目 >= 阈值，则额外确保候选集中
+    字节条目充足（供 AI 在最终精选里达到目标占比）；字节太少时不做此倾斜。
     """
     scored = [(score_item(it, biz), it) for it in items]
     scored.sort(key=lambda x: x[0], reverse=True)
@@ -193,6 +330,24 @@ def prefilter_items(items, biz, limit=70):
             top.append(it)
             top_keys.add(id(it))
             counts[g] += 1
+
+    # 字节聚焦：确保候选集中字节条目充足，供 AI 在最终精选里逼近目标占比。
+    display = get_display_config(config)
+    if display.get("bytedance_focus"):
+        bd_all = [it for it in ordered if is_bytedance_item(it, config)]
+        if len(bd_all) >= int(display.get("bytedance_min_items", 3)):
+            ratio = float(display.get("bytedance_target_ratio", 0.32))
+            max_curated = ((config or {}).get("ai", {}) or {}).get("max_curated_items", 18)
+            want = min(len(bd_all), int(round(max_curated * ratio)) + 3)
+            bd_in_top = sum(1 for it in top if is_bytedance_item(it, config))
+            for it in bd_all:  # bd_all 已按分数降序（源自 ordered）
+                if bd_in_top >= want:
+                    break
+                if id(it) in top_keys:
+                    continue
+                top.append(it)
+                top_keys.add(id(it))
+                bd_in_top += 1
 
     return top
 
@@ -252,6 +407,25 @@ def build_ai_prompt(items, config, max_curated):
     biz = config.get("business_focus", {})
     top_companies = ", ".join(biz.get("top_companies", [])[:20])
 
+    # 字节聚焦：仅在开关开启且候选集中字节条目充足时，追加一层软性倾斜 + 概述客观性约束。
+    display = get_display_config(config)
+    focus_block = ""
+    if display.get("bytedance_focus"):
+        bd_count = count_bytedance(items, config)
+        if bd_count >= int(display.get("bytedance_min_items", 3)):
+            ratio = float(display.get("bytedance_target_ratio", 0.32))
+            lo = int(round((ratio - 0.02) * 100))
+            hi = int(round((ratio + 0.03) * 100))
+            focus_block = (
+                "\n## 字节跳动关注（本报读者为美团商业化管理层，字节系我方重点，务必自然、不过度渲染）\n"
+                "11. 【字节适度突出，勿过度】本次原始资讯中字节跳动系相关内容充足。请在【大厂动向】【观点与深度】【生态动向】"
+                "三个分类里都适当多选字节跳动系（字节/字节跳动/抖音/TikTok/豆包/即梦/剪映/火山引擎/Coze/扣子/Seedream/Seedance 等）"
+                "中确有实质信息量的条目，使字节相关条目在最终精选里占比约 " + str(lo) + "%-" + str(hi) + "%（这是目标上限区间，不要机械凑满，更不要整份只讲字节）。"
+                "其他公司（OpenAI/谷歌/阿里/百度/腾讯/快手等）合计仍应占约 60%-70%，纳入时优先'必要的产品/功能信息''观点鲜明且完整的观点''有价值的生态信息'，不要为凑数选信息量低的条目。\n"
+                "12. 【概述必须客观、基于全量】editorial_summary 与 overview（new_products/opinions/ecosystem）必须基于上面列出的全部资讯客观归因，"
+                "如实反映 AI 行业整体态势与多家公司动态；不得因字节条目多而在概述/三维结论里过度突出字节——分类精选可以向字节适度倾斜，但概述与结论要保持多公司客观均衡。\n"
+            )
+
     prompt = """你是一位顶级 AI 行业分析师编辑，为「本地生活商业化外投团队」编写每日 AI 商业中文日报。
 读者画像：广告销售人员，关注头部大厂/AI 公司的商业动作、产品能力、落地效果，以及对广告/营销/本地生活的启发。
 
@@ -275,7 +449,7 @@ def build_ai_prompt(items, config, max_curated):
 8. 分类规则：大厂动向=""" + top_companies + """ 等头部公司产品/营收/战略；初创动向=AI 初创融资/新品/商业模式；生态动向=行业趋势/监管/开源/基础设施；观点与深度=行业报告/CEO 观点/市场预测。
 9. 影响等级：high=头部公司重大动作/大额融资(>1亿美元)/行业拐点；medium=值得关注的趋势/中型融资/产品更新；low=一般信息流。
 10. 【最后一块换视角，但不许凑数】insights_intro + local_life_insights 从"技术能力底座改造"视角切入：只有当天资讯里**确实出现**了会影响外投素材生产/定向投放/成本结构的底座级变化时，才提炼；能挖出几条写几条，最多 3 条，宁缺毋滥。当天若没有真正相关的内容，就把 local_life_insights 返回空数组 []、insights_intro 返回空字符串 ""，**绝不允许为了有这一块而硬写**。每条要写清 base=底座能力具体发生了什么变化、borrow=对"拿商家预算做外部广告投放(外投)"的商业化团队(如美团商业化)有什么可落地借鉴；borrow 必须与当天这条 base 强相关，不能是放之四海皆准的空话。
-
+""" + focus_block + """
 ---
 原始资讯：
 """ + items_text
@@ -318,7 +492,7 @@ def curate_with_ai(items, config):
 
     biz = config.get("business_focus", {})
     # 预筛选：把最有价值的 70 条送入，缩短输入、降低输出被截断的风险
-    candidates = prefilter_items(items, biz, limit=70)
+    candidates = prefilter_items(items, biz, limit=70, config=config)
     prompt = build_ai_prompt(candidates, config, max_curated)
 
     client = OpenAI(api_key=api_key, base_url=base_url, timeout=120.0)
@@ -428,6 +602,7 @@ def derive_local_life_insights(news_items):
     ]
     text = " ".join(
         (it.get("title", "") + " " + it.get("explanation", "") + " " +
+         (it.get("content") or it.get("description", "") or "") + " " +
          " ".join(it.get("analysis_points", []) or []))
         for it in news_items
     ).lower()
@@ -451,39 +626,47 @@ def rule_based_curate(items, config):
     biz = config.get("business_focus", {})
     scored = [(score_item(it, biz), it) for it in items]
     scored.sort(key=lambda x: x[0], reverse=True)
-    top_items = scored[:20]
 
-    # 国内大厂配额：保证百度/腾讯/快手/字节/阿里在兜底模式下也不被挤出
-    domestic_groups = {
-        "百度": ["baidu", "ernie", "百度", "文心", "apollo", "萝卜快跑"],
-        "腾讯": ["tencent", "hunyuan", "腾讯", "混元", "元宝"],
-        "快手": ["kuaishou", "kling", "快手", "可灵"],
-        "字节": ["bytedance", "doubao", "字节", "豆包", "抖音", "即梦"],
-        "阿里": ["alibaba", "qwen", "阿里", "通义", "万相"],
-    }
+    # 字节聚焦：若开关开启且池中字节条目 >= 阈值，走软性择优（逼近目标占比 + 保留其他大厂配额 + 质量门槛）；
+    # 否则（含字节太少的护栏分支）返回 None，退回原有 top20 + 国内大厂保底配额逻辑。
+    focus_selection = select_curated_with_focus(scored, config, biz, total=24, other_quota_each=2)
 
-    def _group_of(it):
-        t = (it.get("title", "") + " " + it.get("description", "")).lower()
-        for name, kws in domestic_groups.items():
-            if any(w in t for w in kws):
-                return name
-        return None
+    if focus_selection is not None:
+        top_items = focus_selection
+    else:
+        top_items = scored[:20]
 
-    picked_keys = set(id(it) for _, it in top_items)
-    counts = {name: 0 for name in domestic_groups}
-    for _, it in top_items:
-        g = _group_of(it)
-        if g:
-            counts[g] += 1
-    for sc, it in scored:
-        if id(it) in picked_keys:
-            continue
-        g = _group_of(it)
-        if g and counts[g] < 2:
-            top_items.append((sc, it))
-            picked_keys.add(id(it))
-            counts[g] += 1
-    top_items.sort(key=lambda x: x[0], reverse=True)
+        # 国内大厂配额：保证百度/腾讯/快手/字节/阿里在兜底模式下也不被挤出
+        domestic_groups = {
+            "百度": ["baidu", "ernie", "百度", "文心", "apollo", "萝卜快跑"],
+            "腾讯": ["tencent", "hunyuan", "腾讯", "混元", "元宝"],
+            "快手": ["kuaishou", "kling", "快手", "可灵"],
+            "字节": ["bytedance", "doubao", "字节", "豆包", "抖音", "即梦"],
+            "阿里": ["alibaba", "qwen", "阿里", "通义", "万相"],
+        }
+
+        def _group_of(it):
+            t = (it.get("title", "") + " " + it.get("description", "")).lower()
+            for name, kws in domestic_groups.items():
+                if any(w in t for w in kws):
+                    return name
+            return None
+
+        picked_keys = set(id(it) for _, it in top_items)
+        counts = {name: 0 for name in domestic_groups}
+        for _, it in top_items:
+            g = _group_of(it)
+            if g:
+                counts[g] += 1
+        for sc, it in scored:
+            if id(it) in picked_keys:
+                continue
+            g = _group_of(it)
+            if g and counts[g] < 2:
+                top_items.append((sc, it))
+                picked_keys.add(id(it))
+                counts[g] += 1
+        top_items.sort(key=lambda x: x[0], reverse=True)
 
     news_items = []
     for score, item in top_items:
@@ -540,19 +723,31 @@ def rule_based_curate(items, config):
         titles = "、".join([i.get("title", "")[:16] for i in its[:3] if i.get("title")])
         category_summaries[cat] = ("本期" + cat + "共 " + str(len(its)) + " 条，涵盖：" + titles + " 等。")
 
+    # 归因/概述的输入池：护栏要求 overview、外投洞察等"归因"必须基于全量检索到的信息客观归因，
+    # 不得因字节倾斜而偏向字节。故当启用字节倾斜时，用全量（去重后、按分排序）资讯池做归因；
+    # 未倾斜时沿用原逻辑（curated 子集≈高分全量，二者等价）。
+    if focus_selection is not None:
+        attribution_items = [it for _, it in scored]
+    else:
+        attribution_items = news_items
+
     # 整段编辑概述（规则模式：聚合高影响条目，尽量成段）
-    high_titles = [i["title"] for i in news_items if i.get("impact") == "high"][:4]
-    if not high_titles:
-        high_titles = [i["title"] for i in news_items][:4]
+    if focus_selection is not None:
+        # 客观归因：核心看点取自全量高分池，避免只讲字节
+        high_titles = [it.get("title", "") for it in attribution_items[:8] if it.get("title")][:4]
+    else:
+        high_titles = [i["title"] for i in news_items if i.get("impact") == "high"][:4]
+        if not high_titles:
+            high_titles = [i["title"] for i in news_items][:4]
     editorial = ("今日共精选 " + str(len(news_items)) + " 条 AI 商业动态，其中高影响 "
                  + str(len([i for i in news_items if i.get('impact') == 'high'])) + " 条。"
                  + "核心看点集中在：" + "；".join(t[:30] for t in high_titles)
                  + "。头部大厂在产品、营收与生态合作上持续加码，建议重点关注其能力更新对广告/营销与本地生活场景的可迁移性。")
 
-    # 三维概述（规则模式：按关键词粗分聚合，best-effort）
-    overview = build_rule_overview(news_items, biz)
+    # 三维概述（规则模式：按关键词粗分聚合，best-effort，基于全量池客观归因）
+    overview = build_rule_overview(attribution_items, biz)
 
-    insights_intro, local_life_insights = derive_local_life_insights(news_items)
+    insights_intro, local_life_insights = derive_local_life_insights(attribution_items)
 
     return editorial, overview, news_items, category_summaries, local_life_insights, insights_intro
 
@@ -564,7 +759,8 @@ def build_rule_overview(news_items, biz):
     opinion_kw = ["认为", "观点", "预测", "分析", "报告", "report", "says", "forecast", "outlook", "analyst"]
     eco_kw = ["监管", "开源", "芯片", "合作", "生态", "基础设施", "regulation", "open source", "chip", "partnership", "infrastructure"]
     for it in news_items:
-        t = (it.get("title", "") + " " + it.get("explanation", "")).lower()
+        t = (it.get("title", "") + " " + it.get("explanation", "") + " "
+             + (it.get("content") or it.get("description", "") or "")).lower()
         title = it.get("title", "")[:40]
         if len(new_products) < 3 and any(k in t for k in product_kw):
             new_products.append(title)
