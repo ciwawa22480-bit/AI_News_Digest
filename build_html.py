@@ -171,24 +171,35 @@ def build_overview_html(overview):
             + blocks + '</section>')
 
 
-def build_local_life_insights(insights):
+def build_local_life_insights(insights, intro=""):
+    """外投团队借鉴（技术底座视角）。支持两种条目：{base,borrow} 结构 或 纯字符串。"""
     if not insights:
         return ""
-    items_html = ""
-    for idx, ins in enumerate(insights, 1):
+    cards = ""
+    for ins in insights:
         if not ins:
             continue
-        items_html += ('<li class="insight-item"><span class="insight-num">'
-                       + str(idx) + '</span><span class="insight-text">'
-                       + esc(ins) + '</span></li>')
-    if not items_html:
+        if isinstance(ins, dict):
+            base = ins.get("base", "")
+            borrow = ins.get("borrow", "")
+            if not base and not borrow:
+                continue
+            cards += ('<div class="takeaway">'
+                      '<div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>' + esc(base) + '</div>'
+                      '<div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>' + esc(borrow) + '</div>'
+                      '</div>')
+        else:
+            cards += '<div class="takeaway"><div class="tw-borrow">' + esc(ins) + '</div></div>'
+    if not cards:
         return ""
+    intro_html = ('<p class="insights-intro">' + esc(intro) + '</p>') if intro else ""
     return "".join([
         '<section class="insights-section">',
-        '<h3 class="insights-title">本地生活商业化启发</h3>',
-        '<ol class="insights-list">',
-        items_html,
-        '</ol>',
+        '<h3 class="insights-title">外投团队的借鉴 · 技术底座视角</h3>',
+        intro_html,
+        '<div class="takeaway-list">',
+        cards,
+        '</div>',
         '</section>',
     ])
 
@@ -232,7 +243,7 @@ def build_content_view(data):
     stats_html = ('<div class="stats">共 ' + str(total) + ' 条精选 · '
                   + str(high_count) + ' 条高影响</div>')
 
-    insights_html = build_local_life_insights(local_life_insights)
+    insights_html = build_local_life_insights(local_life_insights, data.get("insights_intro", ""))
 
     return "".join([
         editorial_html,
@@ -324,6 +335,14 @@ body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff;
 .insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
 .insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
 .insights-title::before { content: ""; display: inline-block; width: 5px; height: 18px; background: #f59e0b; border-radius: 3px; margin-right: 10px; }
+.insights-intro { font-size: 13.5px; color: #92400e; line-height: 1.8; margin-bottom: 16px; }
+.takeaway-list { display: flex; flex-direction: column; gap: 12px; }
+.takeaway { background: #fffdf7; border: 1px solid #fde68a; border-radius: 8px; padding: 12px 14px; }
+.tw-base { font-size: 13px; color: #7c2d12; line-height: 1.7; margin-bottom: 6px; }
+.tw-borrow { font-size: 13.5px; color: #78350f; font-weight: 500; line-height: 1.75; }
+.tw-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 4px; margin-right: 8px; vertical-align: middle; }
+.tw-tag-base { background: #fef3c7; color: #b45309; }
+.tw-tag-borrow { background: #f59e0b; color: #fff; }
 .insights-list { list-style: none; padding: 0; margin: 0; }
 .insight-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #78350f; line-height: 1.7; }
 .insight-item:last-child { margin-bottom: 0; }
