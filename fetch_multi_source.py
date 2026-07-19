@@ -104,6 +104,45 @@ def clean_summary(raw):
     return txt.strip()
 
 
+# ============ 正文补抓（给 AI 更多"如何实现/论据"素材） ============
+def enrich_with_article_body(items, limit=40, timeout=8):
+    """
+    对描述较薄且有真实链接的条目，best-effort 抓取正文前几段，写入 item['content']。
+    - 跳过 Google News 跳转链接（无法直接提取正文）
+    - 带超时与总量上限，任何失败都静默跳过，绝不阻塞主流程。
+    """
+    enriched = 0
+    for it in items:
+        if enriched >= limit:
+            break
+        url = it.get("url", "") or ""
+        desc = it.get("description", "") or ""
+        if not url or url.startswith("http") is False:
+            continue
+        if "news.google.com" in url:  # 跳转页，抓不到真实正文
+            continue
+        if len(desc) >= 200:  # 已经比较充实
+            continue
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
+            if resp.status_code != 200 or not resp.text:
+                continue
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for tag in soup(["script", "style", "noscript", "header", "footer", "nav", "aside"]):
+                tag.decompose()
+            paras = [p.get_text(" ", strip=True) for p in soup.find_all("p")]
+            paras = [p for p in paras if len(p) > 60]
+            body = " ".join(paras[:6]).strip()
+            if len(body) > max(len(desc), 120):
+                it["content"] = body[:1500]
+                enriched += 1
+            time.sleep(0.2)
+        except Exception:
+            continue
+    print("  [OK] Enriched " + str(enriched) + " items with article body")
+    return items
+
+
 # ============ Google News ============
 def fetch_google_news_ai(config):
     print("[Google News AI] start...")
@@ -446,6 +485,16 @@ def main():
     for it in unique_items:
         s = it["source"]
         sources_summary[s] = sources_summary.get(s, 0) + 1
+
+    # 正文补抓（best-effort，给 AI 更多素材）
+    enrich_cfg = config.get("enrich", {})
+    if enrich_cfg.get("enabled", True):
+        print("[Enrich] fetching article bodies (best-effort)...")
+        enrich_with_article_body(
+            unique_items,
+            limit=enrich_cfg.get("limit", 40),
+            timeout=enrich_cfg.get("timeout", 8),
+        )
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(base_dir, "data")
