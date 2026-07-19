@@ -17,6 +17,7 @@ build_html.py
 import os
 import json
 import html
+import shutil
 from datetime import datetime, timezone, timedelta
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -110,18 +111,22 @@ def build_item_html(item):
     ])
 
 
-def build_category_block(category, type_label, items):
+def build_category_block(category, type_label, items, summary=""):
     """构建一个分类行（表格行）。"""
     if not items:
         return ""
 
     items_html = "\n".join([build_item_html(it) for it in items])
 
+    summary_html = ""
+    if summary:
+        summary_html = '<div class="cat-summary">' + esc(summary) + '</div>'
+
     return "".join([
         '<tr class="category-row">',
         '<td class="col-type"><span class="type-label">', esc(type_label), '</span></td>',
         '<td class="col-category"><span class="cat-label">', esc(category), '</span></td>',
-        '<td class="col-content">', items_html, '</td>',
+        '<td class="col-content">', summary_html, items_html, '</td>',
         '</tr>',
     ])
 
@@ -133,6 +138,8 @@ def build_content_view(data):
 
     items = data.get("items", [])
     editorial = data.get("editorial_summary", "")
+    category_summaries = data.get("category_summaries", {}) or {}
+    local_life_insights = data.get("local_life_insights", []) or []
 
     # 编辑总结
     editorial_html = ""
@@ -154,18 +161,20 @@ def build_content_view(data):
         if cat not in grouped:
             continue
         type_label = "偏fact类" if cat in fact_categories else "偏观点类"
-        rows += build_category_block(cat, type_label, grouped[cat])
+        rows += build_category_block(cat, type_label, grouped[cat], category_summaries.get(cat, ""))
 
     # 处理额外分类
     for cat in grouped:
         if cat not in CATEGORY_ORDER:
-            rows += build_category_block(cat, "偏fact类", grouped[cat])
+            rows += build_category_block(cat, "偏fact类", grouped[cat], category_summaries.get(cat, ""))
 
     # 统计信息
     total = len(items)
     high_count = len([i for i in items if i.get("impact") == "high"])
     stats_html = ('<div class="stats">共 ' + str(total) + ' 条精选 · '
                   + str(high_count) + ' 条高影响</div>')
+
+    insights_html = build_local_life_insights(local_life_insights)
 
     return "".join([
         editorial_html,
@@ -179,6 +188,32 @@ def build_content_view(data):
         '<table class="digest-table"><tbody>',
         rows,
         '</tbody></table>',
+        insights_html,
+    ])
+
+
+def build_local_life_insights(insights):
+    """构建「本地生活商业化启发」高亮区。"""
+    if not insights:
+        return ""
+
+    items_html = ""
+    for idx, ins in enumerate(insights, 1):
+        if not ins:
+            continue
+        items_html += ('<li class="insight-item"><span class="insight-num">'
+                       + str(idx) + '</span><span class="insight-text">'
+                       + esc(ins) + '</span></li>')
+    if not items_html:
+        return ""
+
+    return "".join([
+        '<section class="insights-section">',
+        '<h3 class="insights-title">本地生活商业化启发</h3>',
+        '<ol class="insights-list">',
+        items_html,
+        '</ol>',
+        '</section>',
     ])
 
 
@@ -212,7 +247,7 @@ def build_archive_section():
             # 周度归档链接
             archive_html += '<div class="archive-week"><span class="week-label">' + esc(week_range) + '</span>'
             for d in dates:
-                archive_html += ('<a href="../data/daily/' + esc(d) + '.json" target="_blank" '
+                archive_html += ('<a href="data/daily/' + esc(d) + '.json" target="_blank" '
                                  'class="date-link">' + esc(d.split("-", 1)[1]) + '</a>')  # 只显示 MM-DD
             archive_html += '</div>'
         archive_html += '</div>'
@@ -223,6 +258,18 @@ def build_archive_section():
         archive_html,
         '</section>',
     ])
+
+
+def copy_data_to_output():
+    """将 data/ 目录复制到 output/data，使归档 JSON 随 Pages 一起发布。"""
+    if not os.path.isdir(DATA_DIR):
+        return
+    dest = os.path.join(OUTPUT_DIR, "data")
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    if os.path.exists(dest):
+        shutil.rmtree(dest)
+    shutil.copytree(DATA_DIR, dest)
+    print("[OK] Copied data/ into output/data")
 
 
 def main():
@@ -303,6 +350,19 @@ body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff;
 /* Signal legend */
 .signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
 .stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
+
+/* Category summary */
+.cat-summary { font-size: 13px; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 8px 12px; border-radius: 0 6px 6px 0; margin-bottom: 14px; line-height: 1.7; }
+
+/* Local life insights */
+.insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
+.insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
+.insights-title::before { content: ""; display: inline-block; width: 5px; height: 18px; background: #f59e0b; border-radius: 3px; margin-right: 10px; }
+.insights-list { list-style: none; padding: 0; margin: 0; }
+.insight-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #78350f; line-height: 1.7; }
+.insight-item:last-child { margin-bottom: 0; }
+.insight-num { flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #f59e0b; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.insight-text { flex: 1; font-weight: 500; }
 
 /* Dots */
 .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
@@ -394,6 +454,9 @@ body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff;
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(page)
+
+    # 将 data/ 复制进 output/，随 GitHub Pages 一起发布，避免归档链接 404
+    copy_data_to_output()
 
     total = daily_data.get("total_items", 0)
     print("[OK] Built! Items: " + str(total) + " | Mode: " + mode
