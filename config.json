@@ -121,8 +121,13 @@
     "model": "deepseek-chat",
     "base_url": "https://api.deepseek.com",
     "language": "zh-CN",
-    "max_curated_items": 25,
+    "max_curated_items": 18,
     "fallback_enabled": true
+  },
+  "enrich": {
+    "enabled": true,
+    "limit": 40,
+    "timeout": 8
   },
   "output": {
     "schedule": "daily",
