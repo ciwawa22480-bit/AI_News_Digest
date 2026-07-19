@@ -315,6 +315,51 @@ def main():
     if config["sources"].get("google_news_ai", {}).get("enabled"):
         all_items.extend(fetch_google_news_ai(config))
 
+    # Google News CN (国内大厂)
+    cn_src = config["sources"].get("google_news_cn", {})
+    if cn_src.get("enabled"):
+        print("[Google News CN] start...")
+        cn_results = []
+        seen_cn = set()
+        for query in cn_src.get("queries", []):
+            q = query + " when:" + cn_src.get("when", "5d")
+            feed_url = (cn_src.get("base_url", "https://news.google.com/rss/search")
+                        + "?q=" + quote_plus(q)
+                        + "&hl=" + cn_src.get("hl", "zh-CN")
+                        + "&gl=" + cn_src.get("gl", "CN")
+                        + "&ceid=" + cn_src.get("ceid", "CN:zh-Hans"))
+            try:
+                feed = feedparser.parse(feed_url)
+                count = 0
+                for entry in feed.entries:
+                    if count >= cn_src.get("max_items_per_query", 8):
+                        break
+                    title = entry.get("title", "").strip()
+                    m = re.search(r"\s-\s([^-]+)$", title)
+                    if m:
+                        title = title[:m.start()].strip()
+                    link = entry.get("link", "").strip()
+                    if not title or len(title) < 5:
+                        continue
+                    key = link or title
+                    if key in seen_cn:
+                        continue
+                    seen_cn.add(key)
+                    cn_results.append({
+                        "source": "google_news_cn",
+                        "title": title,
+                        "description": clean_summary(entry.get("summary", ""))[:500],
+                        "url": link,
+                        "published": entry.get("published", ""),
+                        "fetch_time": datetime.now(timezone.utc).isoformat(),
+                    })
+                    count += 1
+                time.sleep(0.3)
+            except Exception as e:
+                print("  [WARN] CN query failed: " + str(e))
+        print("  [OK] Google News CN: " + str(len(cn_results)) + " items")
+        all_items.extend(cn_results)
+
     # 36Kr
     if config["sources"].get("kr36_ai", {}).get("enabled"):
         all_items.extend(fetch_36kr_ai(config))
