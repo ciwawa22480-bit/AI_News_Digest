@@ -14,9 +14,27 @@
       "hl": "en-US",
       "gl": "US",
       "ceid": "US:en",
-      "when": "2d",
-      "max_items_per_query": 10,
+      "when": "5d",
+      "max_items_per_query": 12,
       "description": "Google News RSS 大厂 AI 商业动态（核心源）"
+    },
+    "google_news_cn": {
+      "enabled": true,
+      "queries": [
+        "百度AI OR 文心一言 OR 百度智能云",
+        "腾讯AI OR 混元 OR 腾讯云AI",
+        "阿里AI OR 通义千问 OR 阿里云AI",
+        "字节跳动AI OR 豆包 OR 抖音AI OR 即梦",
+        "快手AI OR 可灵 OR 快手商业化",
+        "小红书AI OR 小红书商业化"
+      ],
+      "base_url": "https://news.google.com/rss/search",
+      "hl": "zh-CN",
+      "gl": "CN",
+      "ceid": "CN:zh-Hans",
+      "when": "5d",
+      "max_items_per_query": 8,
+      "description": "Google News 中文搜索（国内大厂 AI 商业化）"
     },
     "kr36_ai": {
       "enabled": true,
@@ -103,7 +121,7 @@
     "model": "deepseek-chat",
     "base_url": "https://api.deepseek.com",
     "language": "zh-CN",
-    "max_curated_items": 20,
+    "max_curated_items": 25,
     "fallback_enabled": true
   },
   "output": {
