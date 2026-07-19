@@ -21,20 +21,34 @@
     "google_news_cn": {
       "enabled": true,
       "queries": [
-        "百度AI OR 文心一言 OR 百度智能云",
-        "腾讯AI OR 混元 OR 腾讯云AI",
-        "阿里AI OR 通义千问 OR 阿里云AI",
-        "字节跳动AI OR 豆包 OR 抖音AI OR 即梦",
-        "快手AI OR 可灵 OR 快手商业化",
-        "小红书AI OR 小红书商业化"
+        "Baidu AI OR ERNIE",
+        "Tencent AI OR Hunyuan",
+        "Kuaishou OR Kling AI",
+        "ByteDance",
+        "TikTok AI OR TikTok Shop",
+        "Alibaba Qwen OR Tongyi",
+        "Alimama OR Alibaba advertising AI",
+        "Xiaohongshu OR RED app AI"
       ],
       "base_url": "https://news.google.com/rss/search",
-      "hl": "zh-CN",
-      "gl": "CN",
-      "ceid": "CN:zh-Hans",
-      "when": "5d",
-      "max_items_per_query": 8,
-      "description": "Google News 中文搜索（国内大厂 AI 商业化）"
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en",
+      "when": "7d",
+      "max_items_per_query": 10,
+      "description": "Google News 按公司单独查询（国内大厂 AI，英文源稳定产出，正文由 DeepSeek 译为中文）。注意：必须用英文 locale + 每公司一条简单查询，zh-CN locale 与复杂布尔查询会返空。"
+    },
+    "cnbeta": {
+      "enabled": true,
+      "feed_url": "https://www.cnbeta.com.tw/backend.php",
+      "max_items": 30,
+      "description": "cnBeta 科技资讯（中文，稳定高产，按公司过滤）"
+    },
+    "tmtpost": {
+      "enabled": true,
+      "feed_url": "https://www.tmtpost.com/rss.xml",
+      "max_items": 15,
+      "description": "钛媒体 TMTPost（中文商业科技，按公司过滤）"
     },
     "kr36_ai": {
       "enabled": true,
