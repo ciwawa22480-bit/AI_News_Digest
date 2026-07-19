@@ -150,10 +150,51 @@ def score_item(item, biz):
 
 
 def prefilter_items(items, biz, limit=70):
-    """按商业价值预打分，截取 top N 送入 AI，缩短输入、提高精选质量。"""
+    """按商业价值预打分，截取 top N 送入 AI，缩短输入、提高精选质量。
+
+    额外保证国内大厂（百度/腾讯/快手/字节/阿里）的配额，避免被 OpenAI/英伟达等
+    高分国际公司挤出候选集，导致页面偏科。
+    """
     scored = [(score_item(it, biz), it) for it in items]
     scored.sort(key=lambda x: x[0], reverse=True)
-    return [it for _, it in scored[:limit]]
+    ordered = [it for _, it in scored]
+    top = ordered[:limit]
+
+    # 国内大厂配额：每家至少保证 quota_each 条进入候选集（若原始池里有的话）
+    domestic_groups = {
+        "百度": ["baidu", "ernie", "百度", "文心", "apollo", "萝卜快跑"],
+        "腾讯": ["tencent", "hunyuan", "腾讯", "混元", "元宝"],
+        "快手": ["kuaishou", "kling", "快手", "可灵"],
+        "字节": ["bytedance", "doubao", "字节", "豆包", "抖音", "即梦", "coze"],
+        "阿里": ["alibaba", "qwen", "阿里", "通义", "万相", "阿里妈妈"],
+    }
+    quota_each = 3
+
+    def group_of(it):
+        t = (it.get("title", "") + " " + it.get("description", "")).lower()
+        for name, kws in domestic_groups.items():
+            if any(w in t for w in kws):
+                return name
+        return None
+
+    top_keys = set(id(it) for it in top)
+    counts = {name: 0 for name in domestic_groups}
+    for it in top:
+        g = group_of(it)
+        if g:
+            counts[g] += 1
+
+    # 从未入选的高分项里，为配额不足的公司补位
+    for it in ordered:
+        if id(it) in top_keys:
+            continue
+        g = group_of(it)
+        if g and counts[g] < quota_each:
+            top.append(it)
+            top_keys.add(id(it))
+            counts[g] += 1
+
+    return top
 
 
 # ============ DeepSeek AI 精选模式 ============
@@ -411,6 +452,38 @@ def rule_based_curate(items, config):
     scored = [(score_item(it, biz), it) for it in items]
     scored.sort(key=lambda x: x[0], reverse=True)
     top_items = scored[:20]
+
+    # 国内大厂配额：保证百度/腾讯/快手/字节/阿里在兜底模式下也不被挤出
+    domestic_groups = {
+        "百度": ["baidu", "ernie", "百度", "文心", "apollo", "萝卜快跑"],
+        "腾讯": ["tencent", "hunyuan", "腾讯", "混元", "元宝"],
+        "快手": ["kuaishou", "kling", "快手", "可灵"],
+        "字节": ["bytedance", "doubao", "字节", "豆包", "抖音", "即梦"],
+        "阿里": ["alibaba", "qwen", "阿里", "通义", "万相"],
+    }
+
+    def _group_of(it):
+        t = (it.get("title", "") + " " + it.get("description", "")).lower()
+        for name, kws in domestic_groups.items():
+            if any(w in t for w in kws):
+                return name
+        return None
+
+    picked_keys = set(id(it) for _, it in top_items)
+    counts = {name: 0 for name in domestic_groups}
+    for _, it in top_items:
+        g = _group_of(it)
+        if g:
+            counts[g] += 1
+    for sc, it in scored:
+        if id(it) in picked_keys:
+            continue
+        g = _group_of(it)
+        if g and counts[g] < 2:
+            top_items.append((sc, it))
+            picked_keys.add(id(it))
+            counts[g] += 1
+    top_items.sort(key=lambda x: x[0], reverse=True)
 
     news_items = []
     for score, item in top_items:
