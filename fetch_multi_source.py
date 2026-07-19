@@ -409,6 +409,20 @@ def main():
         all_items.extend(fetch_rss_generic("ai_hot_feed", "AI HOT Feed",
                                             src.get("feed_url", ""), src.get("max_items", 25)))
 
+    # cnBeta（中文科技，稳定高产，按公司过滤）
+    src = config["sources"].get("cnbeta", {})
+    if src.get("enabled"):
+        all_items.extend(fetch_rss_generic("cnbeta", "cnBeta",
+                                            src.get("feed_url", ""), src.get("max_items", 30),
+                                            company_filter=True))
+
+    # 钛媒体（中文商业科技，按公司过滤）
+    src = config["sources"].get("tmtpost", {})
+    if src.get("enabled"):
+        all_items.extend(fetch_rss_generic("tmtpost", "TMTPost 钛媒体",
+                                            src.get("feed_url", ""), src.get("max_items", 15),
+                                            company_filter=True))
+
     # VentureBeat
     src = config["sources"].get("venturebeat", {})
     if src.get("enabled"):
@@ -515,6 +529,35 @@ def main():
     print("Fetch complete! Total: " + str(len(unique_items)))
     for source, count in sorted(sources_summary.items(), key=lambda x: x[1], reverse=True):
         print("   - " + source + ": " + str(count))
+
+    # 源健康度告警：配置为 enabled 但本次返回 0 条的源
+    # 部分源的配置键与 item 里的 source 标签不一致，这里做别名映射
+    source_tag_alias = {"kr36_ai": "36kr_ai"}
+    enabled_sources = [k for k, v in config.get("sources", {}).items()
+                       if isinstance(v, dict) and v.get("enabled")]
+    empty_sources = [s for s in enabled_sources
+                     if sources_summary.get(source_tag_alias.get(s, s), 0) == 0]
+    if empty_sources:
+        print("-" * 60)
+        print("[WARN] 以下已启用的源本次返回 0 条（可能被限流/失效，需关注）：")
+        for s in empty_sources:
+            print("   ! " + s)
+
+    # 国内大厂覆盖度检查
+    domestic = {"百度": ["baidu", "ernie", "百度", "文心"],
+                "腾讯": ["tencent", "hunyuan", "腾讯", "混元"],
+                "快手": ["kuaishou", "kling", "快手", "可灵"]}
+    dom_hits = {k: 0 for k in domestic}
+    for it in unique_items:
+        t = (it.get("title", "") + " " + it.get("description", "")).lower()
+        for k, kws in domestic.items():
+            if any(w in t for w in kws):
+                dom_hits[k] += 1
+    print("-" * 60)
+    print("[国内大厂覆盖度] " + "  ".join(k + "=" + str(v) for k, v in dom_hits.items()))
+    for k, v in dom_hits.items():
+        if v == 0:
+            print("   ! [WARN] 本次未抓到 " + k + " 相关资讯")
     print("=" * 60)
 
 
