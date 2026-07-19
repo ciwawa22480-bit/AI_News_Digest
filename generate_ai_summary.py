@@ -1,68 +1,241 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-fetch_multi_source.py - 多源 AI 商业资讯抓取
+generate_ai_summary.py
 
-信源（8个）：
-- Google News AI Business（核心）
-- 36Kr AI
-- AI HOT Feed
-- VentureBeat AI
-- The Verge AI
-- TechCrunch AI（新增）
-- The Rundown AI（新增）
-- Hacker News
+使用 DeepSeek API 将 100+ 条原始资讯精选为 15-20 条深度日报。
+对标「AI日报沉淀」文档：
+
+- 每日编辑一句话总结（editorial_summary）
+- 分类：大厂动向 / 初创动向 / 生态动向 / 观点与深度
+- 每条：标题 + 核心说明 + 2-3 条深度分析子要点
+- 影响等级：高影响(红) / 中影响(黄) / 信息流(灰)
+- 类型：fact / opinion
+- 去重：排除昨天已出现的内容
+- 周报：一周精选聚合
 """
 import json
 import os
 import re
-import time
-import html as html_lib
-from datetime import datetime, timezone
-from urllib.parse import quote_plus
+from datetime import datetime, timezone, timedelta
 
-import requests
-import feedparser
-from bs4 import BeautifulSoup
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+DAILY_DIR = os.path.join(DATA_DIR, "daily")
 
 
 def load_config():
-    config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")
+    config_path = os.path.join(BASE_DIR, "config.json")
     with open(config_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-HEADERS = {
-    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                   "AppleWebKit/537.36 (KHTML, like Gecko) "
-                   "Chrome/120.0.0.0 Safari/537.36"),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
+def load_raw_news():
+    with open(os.path.join(DATA_DIR, "raw_news.json"), "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+SOURCE_NAMES = {
+    "google_news_ai": "Google News",
+    "google_news_cn": "Google News中文",
+    "kr36_ai": "36氪",
+    "36kr_ai": "36氪",
+    "ai_hot_feed": "AI热点",
+    "venturebeat": "VentureBeat",
+    "theverge": "The Verge",
+    "techcrunch_ai": "TechCrunch",
+    "the_rundown_ai": "The Rundown",
+    "tldr_ai": "TLDR AI",
+    "latent_space": "Latent Space",
+    "one_useful_thing": "One Useful Thing",
+    "a16z_ai": "A16Z",
+    "product_hunt": "Product Hunt",
+    "hacker_news": "Hacker News",
 }
 
 
-# ============ 公司名匹配 ============
-TOP_COMPANY_ALIASES = [
-    "OpenAI", "ChatGPT", "Sam Altman",
-    "Google", "Alphabet", "Gemini", "DeepMind",
-    "Meta", "Instagram", "WhatsApp", "Llama", "Facebook",
-    "Microsoft", "Copilot", "Azure",
-    "Apple",
-    "Amazon", "AWS",
-    "Anthropic", "Claude",
-    "ByteDance", "TikTok", "Doubao",
-    "Baidu", "Ernie",
-    "Alibaba", "Qwen",
-    "Tencent",
-    "Nvidia",
-    "xAI", "Grok",
-    "Mistral", "Cohere", "Perplexity", "Midjourney",
-    "Stability AI", "Adobe", "Salesforce",
-    "Runway", "ElevenLabs", "Suno", "Cursor",
-    "Vercel", "Cloudflare",
-]
+# ============ 去重：加载昨天的数据 ============
+def load_yesterday_urls():
+    """加载昨天的日报数据，用于去重。"""
+    beijing = timezone(timedelta(hours=8))
+    yesterday = datetime.now(beijing) - timedelta(days=1)
+    yesterday_file = os.path.join(DAILY_DIR, yesterday.strftime("%Y-%m-%d") + ".json")
+    urls = set()
+    titles = set()
+    if os.path.exists(yesterday_file):
+        try:
+            with open(yesterday_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                for item in data.get("items", []):
+                    if item.get("url"):
+                        urls.add(item["url"])
+                    if item.get("title"):
+                        titles.add(item["title"][:20])
+        except Exception:
+            pass
+    return urls, titles
 
 
+def deduplicate_from_yesterday(items):
+    """移除昨天已经出现过的条目。"""
+    yesterday_urls, yesterday_titles = load_yesterday_urls()
+    if not yesterday_urls and not yesterday_titles:
+        return items
+
+    filtered = []
+    for item in items:
+        url = item.get("url", "")
+        title = item.get("title", "")[:20]
+        if url in yesterday_urls:
+            continue
+        if title and title in yesterday_titles:
+            continue
+        filtered.append(item)
+
+    removed = len(items) - len(filtered)
+    if removed > 0:
+        print("  [INFO] Removed " + str(removed) + " items (already in yesterday's digest)")
+    return filtered
+
+
+# ============ DeepSeek AI 精选模式 ============
+def curate_with_ai(items, config):
+    """
+    调用 DeepSeek API，精选 15-20 条，每条含深度分析子要点。
+    """
+    from openai import OpenAI
+
+    ai_config = config.get("ai", {})
+    api_key = os.environ.get("OPENAI_API_KEY", "")
+    base_url = os.environ.get("OPENAI_BASE_URL", ai_config.get("base_url", "https://api.deepseek.com"))
+    model = os.environ.get("AI_MODEL", ai_config.get("model", "deepseek-chat"))
+    max_curated = ai_config.get("max_curated_items", 20)
+
+    client = OpenAI(api_key=api_key, base_url=base_url)
+
+    # 构造输入
+    items_text = ""
+    for i, item in enumerate(items[:150], 1):
+        title = item.get("title", "").strip()
+        desc = item.get("description", "").strip()
+        source = SOURCE_NAMES.get(item.get("source", ""), item.get("source", ""))
+        url = item.get("url", "")
+        line = str(i) + ". [" + source + "] " + title
+        if desc:
+            line += " | " + desc[:200]
+        if url:
+            line += " | URL: " + url
+        items_text += line + "\n"
+
+    biz = config.get("business_focus", {})
+    top_companies = ", ".join(biz.get("top_companies", [])[:20])
+
+    prompt = """你是一位顶级 AI 行业分析师编辑，为「本地生活商业化外投团队」编写每日 AI 商业日报。
+
+读者画像：广告销售人员，关注头部大厂和 AI 公司的商业动作、落地效果、以及对广告/营销/本地生活的启发。
+
+## 任务
+
+从以下 """ + str(len(items[:150])) + """ 条原始资讯中，精选 """ + str(max_curated) + """ 条最有价值的内容。
+
+## 输出要求
+
+返回一个 JSON 对象，格式如下：
+{
+  "editorial_summary": "今日一句话编辑总结（提炼今天最核心的趋势/事件，20-40字）",
+  "category_summaries": {
+    "大厂动向": "本分类2-3句话综述（提炼本期该分类的核心脉络与看点）",
+    "初创动向": "本分类2-3句话综述",
+    "生态动向": "本分类2-3句话综述",
+    "观点与深度": "本分类2-3句话综述"
+  },
+  "items": [
+    {
+      "title": "中文标题（20-35字，简洁有力）",
+      "explanation": "核心说明（这条讲什么+为什么重要，60-120字）",
+      "analysis_points": [
+        "深度分析要点1（解读商业意义/竞争格局/对行业的影响，30-60字）",
+        "深度分析要点2（延伸思考/对本地生活广告的启发，30-60字）"
+      ],
+      "category": "大厂动向 / 初创动向 / 生态动向 / 观点与深度",
+      "type": "fact / opinion",
+      "impact": "high / medium / low",
+      "source": "来源媒体名",
+      "url": "原文链接",
+      "local_life_hint": "对本地生活/广告/营销的启发（如不相关则为空字符串）"
+    }
+  ],
+  "local_life_insights": [
+    "面向本地生活广告销售团队的可落地启发1（结合当日资讯，给出具体动作建议）",
+    "面向本地生活广告销售团队的可落地启发2",
+    "面向本地生活广告销售团队的可落地启发3"
+  ]
+}
+
+## 分类规则
+- **大厂动向**：""" + top_companies + """ 等头部公司的产品发布、营收、战略
+- **初创动向**：AI 初创公司融资、新产品、商业模式
+- **生态动向**：行业趋势、监管政策、开源、基础设施、开发者工具
+- **观点与深度**：行业报告、CEO 观点、市场预测、深度分析
+
+## 影响等级
+- **high**（红色）：头部公司重大动作 / 大额融资(>1亿美元) / 行业拐点
+- **medium**（黄色）：值得关注的趋势 / 中型融资 / 产品更新
+- **low**（灰色）：一般信息流 / 小更新
+
+## 精选原则
+1. 每个分类至少 3 条，大厂动向占比最高
+2. **必须覆盖国内大厂**：百度/腾讯/阿里/字节跳动(豆包/即梦)/快手(可灵)/小红书，如果原始资讯中有相关内容必须入选
+3. 优先有具体数据的条目（金额、增长率、用户数）
+4. 同一事件只保留信息量最大的一条
+5. 英文内容必须翻译为中文
+6. 每条的 analysis_points 必须有 2-3 条，体现深度
+7. 不选纯技术/代码/论文，聚焦商业价值
+8. editorial_summary 要有观点，不是简单罗列
+9. 对于产品发布/更新类资讯，analysis_points中必须说明：具体是什么产品/功能、从什么变成了什么（能力变化）、对商家/广告主意味着什么。避免笼统描述。
+10. category_summaries 中每个分类给出 2-3 句话综述，串联本期该分类的核心脉络与看点，不要简单罗列标题
+11. local_life_insights 给出 3-5 条面向本地生活广告销售团队的可落地启发，需结合当日精选资讯，语气以行动为导向（例如"可以…"、"建议…"、"应重点…"），指向具体动作而非空泛口号
+
+## 输出
+纯 JSON，不要 markdown 代码块。
+
+---
+原始资讯：
+""" + items_text
+
+    try:
+        print("  [INFO] Calling DeepSeek API (model: " + model + ")...")
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
+            max_tokens=8000,
+        )
+        result_text = response.choices[0].message.content.strip()
+
+        # 清理 markdown 代码块
+        if result_text.startswith("```"):
+            result_text = result_text.split("\n", 1)[1]
+            if "```" in result_text:
+                result_text = result_text.rsplit("```", 1)[0]
+        result_text = result_text.strip()
+
+        data = json.loads(result_text)
+        editorial = data.get("editorial_summary", "")
+        curated_items = data.get("items", [])
+        category_summaries = data.get("category_summaries", {}) or {}
+        local_life_insights = data.get("local_life_insights", []) or []
+        print("  [OK] AI curated " + str(len(curated_items)) + " items")
+        print("  [OK] Editorial: " + editorial)
+        return editorial, curated_items, category_summaries, local_life_insights
+
+    except Exception as e:
+        print("  [WARN] AI curation failed: " + str(e))
+        return None, None, None, None
+
+
+# ============ 规则模式 fallback ============
 def keyword_in_text(keyword, text):
     if not keyword or not text:
         return False
@@ -74,398 +247,217 @@ def keyword_in_text(keyword, text):
     return kw in txt
 
 
-def content_text(item):
-    return (item.get("title", "") + " " + item.get("description", "")).strip()
+def rule_based_curate(items, config):
+    """规则模式降级。"""
+    biz = config.get("business_focus", {})
+    scored = []
+    for item in items:
+        text = (item.get("title", "") + " " + item.get("description", "")).strip()
+        score = 30
+        if any(keyword_in_text(c, text) for c in biz.get("top_companies", [])):
+            score += 25
+        commercial_hits = sum(1 for kw in biz.get("commercial_keywords", []) if keyword_in_text(kw, text))
+        score += min(commercial_hits * 10, 30)
+        analysis_hits = sum(1 for kw in biz.get("analysis_keywords", []) if keyword_in_text(kw, text))
+        score += min(analysis_hits * 15, 30)
+        if any(keyword_in_text(kw, text) for kw in biz.get("local_life_keywords", [])):
+            score += 20
+        scored.append((score, item))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+    top_items = scored[:20]
+
+    editorial = "今日 AI 行业多条重要商业动态，头部公司持续发力。"
+    news_items = []
+    for score, item in top_items:
+        title = item.get("title", "")
+        desc = item.get("description", "") or ""
+        source = SOURCE_NAMES.get(item.get("source", ""), item.get("source", ""))
+        text = (title + " " + desc).lower()
+
+        if any(keyword_in_text(kw, text) for kw in ["融资", "收购", "funding", "acquisition"]):
+            category = "初创动向"
+        elif any(keyword_in_text(kw, text) for kw in biz.get("analysis_keywords", [])):
+            category = "观点与深度"
+        elif any(keyword_in_text(kw, text) for kw in ["开源", "监管", "芯片", "regulation", "open source"]):
+            category = "生态动向"
+        else:
+            category = "大厂动向"
+
+        impact = "high" if score >= 75 else ("medium" if score >= 55 else "low")
+        explanation = desc[:150] if desc else "关注 AI 行业最新商业动态。"
+
+        # 基于条目内容生成更具体的分析要点
+        analysis_points = []
+        if desc:
+            analysis_points.append("事件要点：" + desc[:120])
+        else:
+            analysis_points.append("事件要点：" + (title[:80] if title else "AI 行业最新动态"))
+
+        matched_companies = [c for c in biz.get("top_companies", []) if keyword_in_text(c, text)]
+        if matched_companies:
+            analysis_points.append("涉及公司：" + "、".join(matched_companies[:3])
+                                   + "，关注其对竞争格局与商业化节奏的影响。")
+
+        if category == "初创动向":
+            analysis_points.append("资本与融资动向，关注新玩家的商业模式与落地场景。")
+        elif category == "观点与深度":
+            analysis_points.append("行业观点/数据，可用于判断趋势与市场空间。")
+        elif category == "生态动向":
+            analysis_points.append("生态/政策/基础设施变化，关注对上下游与合规的影响。")
+        else:
+            analysis_points.append("头部公司动作，关注其对行业标准与广告营销场景的辐射。")
+
+        if any(keyword_in_text(kw, text) for kw in biz.get("local_life_keywords", [])):
+            local_hint = "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+        else:
+            local_hint = ""
+
+        news_items.append({
+            "title": title,
+            "explanation": explanation,
+            "analysis_points": analysis_points[:3],
+            "category": category,
+            "type": "fact",
+            "impact": impact,
+            "source": source,
+            "url": item.get("url", ""),
+            "local_life_hint": local_hint,
+        })
+
+    # 规则模式下按分类生成简单综述
+    cat_items = {}
+    for it in news_items:
+        cat_items.setdefault(it.get("category", "大厂动向"), []).append(it)
+    category_summaries = {}
+    for cat, its in cat_items.items():
+        titles = "、".join([i.get("title", "")[:16] for i in its[:3] if i.get("title")])
+        category_summaries[cat] = ("本期" + cat + "共 " + str(len(its)) + " 条，涵盖："
+                                   + titles + " 等。")
+
+    local_life_insights = [
+        "关注头部大厂的 AI 产品更新，评估其能力变化能否复用到本地生活的投放与素材生成。",
+        "梳理本期与广告/营销相关的动态，主动向重点商家同步可落地的 AI 营销玩法。",
+        "结合融资与新产品动向，提前储备潜在的合作与外投资源，抢占先发窗口。",
+    ]
+
+    return editorial, news_items, category_summaries, local_life_insights
 
 
-def mentions_top_company(item):
-    text = content_text(item)
-    return any(keyword_in_text(kw, text) for kw in TOP_COMPANY_ALIASES)
-
-
-_EMOJI_RE = re.compile(
-    "[\U0001F000-\U0001FAFF\U00002600-\U000027BF\U0001F1E6-\U0001F1FF]+",
-    flags=re.UNICODE,
-)
-
-
-def strip_emoji(text):
-    if not text:
-        return text
-    return _EMOJI_RE.sub("", text).strip()
-
-
-def clean_summary(raw):
-    if not raw:
-        return ""
-    txt = re.sub(r"<[^>]+>", " ", raw)
-    txt = html_lib.unescape(txt)
-    txt = re.sub(r"\s+", " ", txt)
-    return txt.strip()
-
-
-# ============ Google News ============
-def fetch_google_news_ai(config):
-    print("[Google News AI] start...")
-    results = []
-    src = config["sources"].get("google_news_ai", {})
-    queries = src.get("queries", [])
-    base_url = src.get("base_url", "https://news.google.com/rss/search")
-    hl = src.get("hl", "en-US")
-    gl = src.get("gl", "US")
-    ceid = src.get("ceid", "US:en")
-    when = src.get("when", "2d")
-    max_per_query = src.get("max_items_per_query", 10)
-
-    seen = set()
-    for query in queries:
-        q = query + " when:" + when if when else query
-        feed_url = base_url + "?q=" + quote_plus(q) + "&hl=" + hl + "&gl=" + gl + "&ceid=" + ceid
-        try:
-            feed = feedparser.parse(feed_url)
-            count = 0
-            for entry in feed.entries:
-                if count >= max_per_query:
-                    break
-                title = entry.get("title", "").strip()
-                publisher = ""
-                m = re.search(r"\s-\s([^-]+)$", title)
-                if m:
-                    publisher = m.group(1).strip()
-                    title = title[:m.start()].strip()
-                link = entry.get("link", "").strip()
-                summary = clean_summary(entry.get("summary", ""))
-                if not title or len(title) < 8:
-                    continue
-                item = {
-                    "source": "google_news_ai",
-                    "title": title,
-                    "description": summary[:500],
-                    "url": link,
-                    "publisher": publisher,
-                    "published": entry.get("published", ""),
-                    "fetch_time": datetime.now(timezone.utc).isoformat(),
-                }
-                if not mentions_top_company(item):
-                    continue
-                key = link or title
-                if key in seen:
-                    continue
-                seen.add(key)
-                results.append(item)
-                count += 1
-            time.sleep(0.3)
-        except Exception as e:
-            print("  [WARN] Google News query failed: " + str(e))
-    print("  [OK] Google News AI: " + str(len(results)) + " items")
-    return results
-
-
-# ============ RSS 通用 ============
-def fetch_rss_generic(source_key, source_name, feed_url, max_items, company_filter=False):
-    print("[" + source_name + "] start...")
-    results = []
-    try:
-        feed = feedparser.parse(feed_url)
-        for entry in feed.entries[:max_items * 3]:
-            title = entry.get("title", "").strip()
-            link = entry.get("link", "").strip()
-            summary = clean_summary(entry.get("summary", ""))
-            if not title or len(title) < 5:
-                continue
-            item = {
-                "source": source_key,
-                "title": title,
-                "description": summary[:500],
-                "author": entry.get("author", ""),
-                "published": entry.get("published", entry.get("updated", "")),
-                "url": link,
-                "fetch_time": datetime.now(timezone.utc).isoformat(),
-            }
-            if company_filter and not mentions_top_company(item):
-                continue
-            results.append(item)
-            if len(results) >= max_items:
-                break
-    except Exception as e:
-        print("  [WARN] " + source_name + " failed: " + str(e))
-    print("  [OK] " + source_name + ": " + str(len(results)) + " items")
-    return results
-
-
-# ============ 36Kr AI ============
-def fetch_36kr_ai(config):
-    print("[36Kr AI] start...")
-    results = []
-    src = config["sources"].get("kr36_ai", {})
-    max_items = src.get("max_items", 25)
-    url = src.get("url", "https://36kr.com/information/AI/")
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=20)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        anchors = soup.select('a.article-item-title, a[class*="title"], div.article-item a')
-        seen = set()
-        for a in anchors:
-            title = a.get_text(strip=True)
-            href = a.get("href", "")
-            if not title or len(title) < 5:
-                continue
-            if href and not href.startswith("http"):
-                href = "https://36kr.com" + href
-            if not href or href in seen:
-                continue
-            seen.add(href)
-            results.append({
-                "source": "36kr_ai",
-                "title": title,
-                "description": "",
-                "url": href,
-                "published": "",
-                "fetch_time": datetime.now(timezone.utc).isoformat(),
-            })
-            if len(results) >= max_items:
-                break
-    except Exception as e:
-        print("  [WARN] 36Kr web failed: " + str(e))
-    if len(results) < 3:
-        rss_url = src.get("rss_url", "https://36kr.com/feed/AI")
-        try:
-            feed = feedparser.parse(rss_url)
-            seen = set(r["url"] for r in results)
-            for entry in feed.entries[:max_items]:
-                link = entry.get("link", "")
-                if not link or link in seen:
-                    continue
-                seen.add(link)
-                results.append({
-                    "source": "36kr_ai",
-                    "title": entry.get("title", ""),
-                    "description": clean_summary(entry.get("summary", ""))[:300],
-                    "url": link,
-                    "published": entry.get("published", ""),
-                    "fetch_time": datetime.now(timezone.utc).isoformat(),
-                })
-                if len(results) >= max_items:
-                    break
-        except Exception as e:
-            print("  [WARN] 36Kr RSS failed: " + str(e))
-    print("  [OK] 36Kr AI: " + str(len(results)) + " articles")
-    return results
-
-
-# ============ Hacker News ============
-def fetch_hacker_news(config):
-    print("[Hacker News] start...")
-    results = []
-    hn = config["sources"].get("hacker_news", {})
-    api_url = hn.get("api_url", "https://hacker-news.firebaseio.com/v0")
-    max_items = hn.get("max_items", 10)
-    min_score = hn.get("min_score", 120)
-    try:
-        resp = requests.get(api_url + "/topstories.json", timeout=15)
-        resp.raise_for_status()
-        story_ids = resp.json()[:200]
-        for story_id in story_ids:
-            if len(results) >= max_items:
-                break
+# ============ 周报聚合 ============
+def load_weekly_items():
+    """加载本周所有日报数据。"""
+    weekly = []
+    today = datetime.now(timezone(timedelta(hours=8)))
+    monday = today - timedelta(days=today.weekday())
+    for i in range(7):
+        day = monday + timedelta(days=i)
+        fp = os.path.join(DAILY_DIR, day.strftime("%Y-%m-%d") + ".json")
+        if os.path.exists(fp):
             try:
-                sr = requests.get(api_url + "/item/" + str(story_id) + ".json", timeout=10)
-                story = sr.json()
-                if not story or story.get("type") != "story":
-                    continue
-                score = story.get("score", 0)
-                if score < min_score:
-                    continue
-                title = story.get("title", "")
-                item = {
-                    "source": "hacker_news",
-                    "title": title,
-                    "description": "",
-                    "url": story.get("url", "https://news.ycombinator.com/item?id=" + str(story_id)),
-                    "hn_url": "https://news.ycombinator.com/item?id=" + str(story_id),
-                    "score": score,
-                    "comments": story.get("descendants", 0),
-                    "published": "",
-                    "fetch_time": datetime.now(timezone.utc).isoformat(),
-                }
-                if not mentions_top_company(item):
-                    continue
-                results.append(item)
-                time.sleep(0.05)
+                with open(fp, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    weekly.extend(data.get("items", []))
             except Exception:
-                continue
-    except Exception as e:
-        print("  [WARN] Hacker News failed: " + str(e))
-    print("  [OK] Hacker News: " + str(len(results)) + " posts")
-    return results
+                pass
+    return weekly
 
 
 # ============ 主流程 ============
 def main():
     config = load_config()
+    raw = load_raw_news()
+    items = raw.get("items", [])
+
     print("=" * 60)
-    print("AI News Multi-Source Fetch")
-    print("   Time: " + datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"))
+    print("AI Daily Digest - Deep Analysis Mode")
+    print("   Raw items: " + str(len(items)))
     print("=" * 60)
 
-    all_items = []
+    # 去重：排除昨天的
+    items = deduplicate_from_yesterday(items)
+    print("  [INFO] After dedup: " + str(len(items)) + " items")
 
-    # Google News
-    if config["sources"].get("google_news_ai", {}).get("enabled"):
-        all_items.extend(fetch_google_news_ai(config))
+    editorial = ""
+    news_items = None
+    category_summaries = {}
+    local_life_insights = []
 
-    # Google News CN (国内大厂)
-    cn_src = config["sources"].get("google_news_cn", {})
-    if cn_src.get("enabled"):
-        print("[Google News CN] start...")
-        cn_results = []
-        seen_cn = set()
-        for query in cn_src.get("queries", []):
-            q = query + " when:" + cn_src.get("when", "5d")
-            feed_url = (cn_src.get("base_url", "https://news.google.com/rss/search")
-                        + "?q=" + quote_plus(q)
-                        + "&hl=" + cn_src.get("hl", "zh-CN")
-                        + "&gl=" + cn_src.get("gl", "CN")
-                        + "&ceid=" + cn_src.get("ceid", "CN:zh-Hans"))
-            try:
-                feed = feedparser.parse(feed_url)
-                count = 0
-                for entry in feed.entries:
-                    if count >= cn_src.get("max_items_per_query", 8):
-                        break
-                    title = entry.get("title", "").strip()
-                    m = re.search(r"\s-\s([^-]+)$", title)
-                    if m:
-                        title = title[:m.start()].strip()
-                    link = entry.get("link", "").strip()
-                    if not title or len(title) < 5:
-                        continue
-                    key = link or title
-                    if key in seen_cn:
-                        continue
-                    seen_cn.add(key)
-                    cn_results.append({
-                        "source": "google_news_cn",
-                        "title": title,
-                        "description": clean_summary(entry.get("summary", ""))[:500],
-                        "url": link,
-                        "published": entry.get("published", ""),
-                        "fetch_time": datetime.now(timezone.utc).isoformat(),
-                    })
-                    count += 1
-                time.sleep(0.3)
-            except Exception as e:
-                print("  [WARN] CN query failed: " + str(e))
-        print("  [OK] Google News CN: " + str(len(cn_results)) + " items")
-        all_items.extend(cn_results)
+    if os.environ.get("OPENAI_API_KEY"):
+        print("  [INFO] AI mode enabled")
+        editorial, news_items, category_summaries, local_life_insights = curate_with_ai(items, config)
 
-    # 36Kr
-    if config["sources"].get("kr36_ai", {}).get("enabled"):
-        all_items.extend(fetch_36kr_ai(config))
+    if news_items is None:
+        print("  [INFO] Using rule-based mode")
+        editorial, news_items, category_summaries, local_life_insights = rule_based_curate(items, config)
 
-    # AI HOT Feed
-    src = config["sources"].get("ai_hot_feed", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("ai_hot_feed", "AI HOT Feed",
-                                            src.get("feed_url", ""), src.get("max_items", 25)))
+    # 输出
+    beijing = timezone(timedelta(hours=8))
+    now_bj = datetime.now(beijing)
+    today_str = now_bj.strftime("%Y-%m-%d")
 
-    # VentureBeat
-    src = config["sources"].get("venturebeat", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("venturebeat", "VentureBeat AI",
-                                            src.get("feed_url", ""), src.get("max_items", 20),
-                                            company_filter=True))
-
-    # The Verge
-    src = config["sources"].get("theverge", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("theverge", "The Verge AI",
-                                            src.get("feed_url", ""), src.get("max_items", 20),
-                                            company_filter=True))
-
-    # TechCrunch AI
-    src = config["sources"].get("techcrunch_ai", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("techcrunch_ai", "TechCrunch AI",
-                                            src.get("feed_url", ""), src.get("max_items", 20)))
-
-    # The Rundown AI
-    src = config["sources"].get("the_rundown_ai", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("the_rundown_ai", "The Rundown AI",
-                                            src.get("feed_url", ""), src.get("max_items", 15)))
-
-    # TLDR AI
-    src = config["sources"].get("tldr_ai", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("tldr_ai", "TLDR AI",
-                                            src.get("feed_url", ""), src.get("max_items", 15)))
-
-    # Latent Space
-    src = config["sources"].get("latent_space", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("latent_space", "Latent Space",
-                                            src.get("feed_url", ""), src.get("max_items", 10)))
-
-    # One Useful Thing
-    src = config["sources"].get("one_useful_thing", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("one_useful_thing", "One Useful Thing",
-                                            src.get("feed_url", ""), src.get("max_items", 8)))
-
-    # A16Z AI
-    src = config["sources"].get("a16z_ai", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("a16z_ai", "A16Z AI",
-                                            src.get("feed_url", ""), src.get("max_items", 10)))
-
-    # Product Hunt
-    src = config["sources"].get("product_hunt", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("product_hunt", "Product Hunt",
-                                            src.get("feed_url", ""), src.get("max_items", 10)))
-
-    # Hacker News
-    if config["sources"].get("hacker_news", {}).get("enabled"):
-        all_items.extend(fetch_hacker_news(config))
-
-    # 去重
-    seen = set()
-    unique_items = []
-    for it in all_items:
-        it["title"] = strip_emoji(it.get("title", ""))
-        it["description"] = strip_emoji(it.get("description", ""))
-        key = it.get("url") or it.get("title")
-        if not key or key in seen:
-            continue
-        seen.add(key)
-        unique_items.append(it)
-
-    sources_summary = {}
-    for it in unique_items:
-        s = it["source"]
-        sources_summary[s] = sources_summary.get(s, 0) + 1
-
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(base_dir, "data")
-    os.makedirs(data_dir, exist_ok=True)
+    category_counts = {}
+    for item in news_items:
+        cat = item.get("category", "大厂动向")
+        category_counts[cat] = category_counts.get(cat, 0) + 1
 
     output = {
-        "fetch_time": datetime.now(timezone.utc).isoformat(),
-        "total_items": len(unique_items),
-        "sources_summary": sources_summary,
-        "items": unique_items,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "date_display": now_bj.strftime("%Y年%m月%d日"),
+        "date_short": today_str,
+        "weekday": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"][now_bj.weekday()],
+        "editorial_summary": editorial,
+        "category_summaries": category_summaries or {},
+        "local_life_insights": local_life_insights or [],
+        "total_items": len(news_items),
+        "high_count": len([i for i in news_items if i.get("impact") == "high"]),
+        "category_counts": category_counts,
+        "items": news_items,
+        "mode": "ai" if os.environ.get("OPENAI_API_KEY") else "rule",
     }
 
-    with open(os.path.join(data_dir, "raw_news.json"), "w", encoding="utf-8") as f:
+    os.makedirs(DATA_DIR, exist_ok=True)
+    os.makedirs(DAILY_DIR, exist_ok=True)
+
+    with open(os.path.join(DATA_DIR, "news_items.json"), "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(DAILY_DIR, today_str + ".json"), "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    # 周报
+    weekly_items = load_weekly_items()
+    if weekly_items:
+        seen = set()
+        unique = []
+        for it in weekly_items:
+            key = it.get("url") or it.get("title", "")
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            unique.append(it)
+        unique.sort(key=lambda x: (0 if x.get("impact") == "high" else 1))
+
+        week_start = (now_bj - timedelta(days=now_bj.weekday())).strftime("%m.%d")
+        week_end = now_bj.strftime("%m.%d")
+
+        weekly_output = {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "week_range": week_start + "-" + week_end,
+            "date_display": week_start + " - " + week_end,
+            "editorial_summary": "本周 AI 行业精选要闻汇总",
+            "total_items": len(unique),
+            "high_count": len([i for i in unique if i.get("impact") == "high"]),
+            "items": unique,
+            "mode": output.get("mode", "rule"),
+        }
+        with open(os.path.join(DATA_DIR, "weekly_items.json"), "w", encoding="utf-8") as f:
+            json.dump(weekly_output, f, ensure_ascii=False, indent=2)
+        print("  [OK] Weekly: " + str(len(unique)) + " items")
 
     print()
     print("=" * 60)
-    print("Fetch complete! Total: " + str(len(unique_items)))
-    for source, count in sorted(sources_summary.items(), key=lambda x: x[1], reverse=True):
-        print("   - " + source + ": " + str(count))
+    print("Done! Curated: " + str(len(news_items)) + " | High: " + str(output["high_count"]))
+    print("   Editorial: " + editorial)
     print("=" * 60)
 
 
