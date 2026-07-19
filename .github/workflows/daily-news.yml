@@ -37,6 +37,11 @@ jobs:
       - name: Build page
         run: python build_html.py
 
+      - name: Include data directory in published output
+        run: |
+          mkdir -p output/data
+          cp -r data/. output/data/
+
       - name: Commit data
         run: |
           git config user.name "AI News Bot"
