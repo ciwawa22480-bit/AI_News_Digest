@@ -131,6 +131,13 @@
     "analysis_keywords": ["财报", "季报", "行业分析", "市场分析", "研报", "调研", "市场份额", "增长", "行业报告", "earnings", "quarterly", "market share", "report", "outlook", "forecast", "analysis", "trend"],
     "local_life_keywords": ["本地生活", "外卖", "到店", "团购", "餐饮", "零售", "配送", "即时零售", "O2O", "门店", "商家", "delivery", "restaurant", "retail", "food", "grocery", "advertising", "marketing", "campaign", "creative", "素材", "投放", "ROI"]
   },
+  "display": {
+    "bytedance_focus": true,
+    "bytedance_target_ratio": 0.32,
+    "bytedance_min_items": 3,
+    "other_company_quality_only": true,
+    "bytedance_keywords": ["字节", "字节跳动", "bytedance", "抖音", "douyin", "tiktok", "豆包", "doubao", "即梦", "jimeng", "剪映", "capcut", "火山引擎", "volcano", "coze", "扣子", "seedream", "seedance"]
+  },
   "ai": {
     "model": "deepseek-chat",
     "base_url": "https://api.deepseek.com",
