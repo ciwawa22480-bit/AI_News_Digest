@@ -29,7 +29,23 @@ from bs4 import BeautifulSoup
 def load_config():
     config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")
     with open(config_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        config = json.load(f)
+    # 把 display.bytedance_keywords 里的字节全系产品词合并进公司别名列表，
+    # 让 cnbeta / tmtpost / qbitai / jiqizhixin 这些"按公司过滤"的中文源
+    # 也能捕获火山引擎/扣子/即梦/剪映/巨量引擎等字节产品相关稿件。
+    try:
+        bd_kws = (config.get("display", {}) or {}).get("bytedance_keywords", []) or []
+        seen_lower = {c.lower() for c in TOP_COMPANY_ALIASES}
+        for kw in bd_kws:
+            if not kw:
+                continue
+            k = str(kw).strip()
+            if k and k.lower() not in seen_lower:
+                TOP_COMPANY_ALIASES.append(k)
+                seen_lower.add(k.lower())
+    except Exception:
+        pass
+    return config
 
 
 HEADERS = {
@@ -421,6 +437,20 @@ def main():
     if src.get("enabled"):
         all_items.extend(fetch_rss_generic("tmtpost", "TMTPost 钛媒体",
                                             src.get("feed_url", ""), src.get("max_items", 15),
+                                            company_filter=True))
+
+    # 量子位 QbitAI（中文 AI 垂类，按公司过滤——含字节全系产品词）
+    src = config["sources"].get("qbitai", {})
+    if src.get("enabled"):
+        all_items.extend(fetch_rss_generic("qbitai", "量子位 QbitAI",
+                                            src.get("feed_url", ""), src.get("max_items", 25),
+                                            company_filter=True))
+
+    # 机器之心 Jiqizhixin（中文 AI 垂类，按公司过滤——含字节全系产品词）
+    src = config["sources"].get("jiqizhixin", {})
+    if src.get("enabled"):
+        all_items.extend(fetch_rss_generic("jiqizhixin", "机器之心 Jiqizhixin",
+                                            src.get("feed_url", ""), src.get("max_items", 25),
                                             company_filter=True))
 
     # VentureBeat
