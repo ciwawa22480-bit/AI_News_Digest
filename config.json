@@ -61,6 +61,18 @@
       "max_items": 25,
       "description": "36Kr AI 专栏"
     },
+    "qbitai": {
+      "enabled": true,
+      "feed_url": "https://www.qbitai.com/feed",
+      "max_items": 25,
+      "description": "量子位 QbitAI（中文 AI 垂类，按字节关键词过滤）"
+    },
+    "jiqizhixin": {
+      "enabled": true,
+      "feed_url": "https://www.jiqizhixin.com/rss",
+      "max_items": 25,
+      "description": "机器之心 Jiqizhixin（中文 AI 垂类，按字节关键词过滤）"
+    },
     "ai_hot_feed": {
       "enabled": true,
       "feed_url": "https://aihot.virxact.com/feed.xml",
@@ -136,11 +148,12 @@
     "local_life_keywords": ["本地生活", "外卖", "到店", "团购", "餐饮", "零售", "配送", "即时零售", "O2O", "门店", "商家", "delivery", "restaurant", "retail", "food", "grocery", "advertising", "marketing", "campaign", "creative", "素材", "投放", "ROI"]
   },
   "display": {
+    "bytedance_only": true,
     "bytedance_focus": true,
     "bytedance_target_ratio": 0.32,
     "bytedance_min_items": 3,
     "other_company_quality_only": true,
-    "bytedance_keywords": ["字节", "字节跳动", "bytedance", "抖音", "douyin", "tiktok", "豆包", "doubao", "即梦", "jimeng", "剪映", "capcut", "火山引擎", "volcano", "coze", "扣子", "seedream", "seedance"]
+    "bytedance_keywords": ["字节", "字节跳动", "bytedance", "byteplus", "抖音", "douyin", "tiktok", "豆包", "doubao", "即梦", "jimeng", "剪映", "capcut", "火山引擎", "火山方舟", "volcano", "volcengine", "ark", "方舟", "扣子", "coze", "seed", "seedream", "seedance", "pixeldance", "ui-tars", "猫箱", "trae", "marscode", "巨量引擎", "巨量", "ocean engine", "oceanengine", "飞书", "lark", "ola friend", "veimage", "hiagent", "promptpilot"]
   },
   "ai": {
     "model": "deepseek-chat",
