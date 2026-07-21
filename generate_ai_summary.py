@@ -44,6 +44,10 @@ SOURCE_NAMES = {
     "kr36_ai": "36氪",
     "36kr_ai": "36氪",
     "ai_hot_feed": "AI热点",
+    "cnbeta": "cnBeta",
+    "tmtpost": "钛媒体",
+    "qbitai": "量子位",
+    "jiqizhixin": "机器之心",
     "venturebeat": "VentureBeat",
     "theverge": "The Verge",
     "techcrunch_ai": "TechCrunch",
@@ -146,9 +150,24 @@ def get_bytedance_keywords(config):
     return [str(k).lower() for k in kws]
 
 
+def get_bytedance_only(config):
+    """硬开关：True 时整个 pipeline 只处理字节系条目，其他公司条目一律不进入任何环节。"""
+    return bool(get_display_config(config).get("bytedance_only", False))
+
+
+def filter_bytedance_only(items, config):
+    """当 bytedance_only 打开时，把资讯池收敛到仅字节系条目。"""
+    return [it for it in items if is_bytedance_item(it, config)]
+
+
 def is_bytedance_item(item, config):
-    text = (item.get("title", "") + " " + (item.get("content") or item.get("description", ""))).lower()
-    return any(kw in text for kw in get_bytedance_keywords(config))
+    text = (item.get("title", "") + " " + (item.get("content") or item.get("description", "")))
+    # 用带词边界的匹配（keyword_in_text 已在下面定义），避免 "ark" 命中 "market"、
+    # "seed" 命中 "seeds"、"lark" 命中 "clark" 这类误召回。
+    for kw in get_bytedance_keywords(config):
+        if keyword_in_text(kw, text):
+            return True
+    return False
 
 
 def count_bytedance(items, config):
@@ -194,6 +213,14 @@ def select_curated_with_focus(scored, config, biz, total=24, other_quota_each=2)
     返回选定的 [(score,item),...]（长度≈total），或 None。
     """
     display = get_display_config(config)
+
+    # 硬开关：bytedance_only=True 时，直接返回字节池里按分数降序的前 N 条，
+    # 不再回填任何非字节条目，不再做 32% 配比计算。若字节条目不足 total，就有多少给多少。
+    if display.get("bytedance_only"):
+        bd_only = [si for si in scored if is_bytedance_item(si[1], config)]
+        bd_only.sort(key=lambda x: x[0], reverse=True)
+        return bd_only[:total]
+
     if not display.get("bytedance_focus"):
         return None
     ratio = float(display.get("bytedance_target_ratio", 0.32))
@@ -410,7 +437,17 @@ def build_ai_prompt(items, config, max_curated):
     # 字节聚焦：仅在开关开启且候选集中字节条目充足时，追加一层软性倾斜 + 概述客观性约束。
     display = get_display_config(config)
     focus_block = ""
-    if display.get("bytedance_focus"):
+    bytedance_only = bool(display.get("bytedance_only"))
+    if bytedance_only:
+        focus_block = (
+            "\n## 【硬约束：仅字节系】\n"
+            "11. 本次报道的读者只关心字节跳动全系 AI 商业化动态。上面这批候选资讯已由外部过滤器**收敛到只包含字节系条目**"
+            "（字节跳动/抖音/TikTok/豆包/火山引擎/火山方舟/扣子Coze/即梦/剪映/巨量引擎/Seedance/Seedream/Trae 等）。\n"
+            "12. items 只能围绕字节系资讯做筛选与中文摘要，**严禁选入或提及任何非字节公司的动态**（OpenAI/谷歌/Anthropic/微软/Meta/阿里/百度/腾讯/快手/英伟达/xAI 等非字节公司若被误传入，请忽略）。\n"
+            "13. editorial_summary / overview（new_products/opinions/ecosystem）/ category_summaries / local_life_insights / insights_intro **全部只围绕字节系** AI 商业化做归因与结论，不要跨到非字节公司。\n"
+            "14. 若候选资讯数量少于 " + str(max_curated) + " 条，就有多少写多少，宁缺毋滥，**严禁**用非字节内容或空话补位。\n"
+        )
+    elif display.get("bytedance_focus"):
         bd_count = count_bytedance(items, config)
         if bd_count >= int(display.get("bytedance_min_items", 3)):
             ratio = float(display.get("bytedance_target_ratio", 0.32))
@@ -426,9 +463,14 @@ def build_ai_prompt(items, config, max_curated):
                 "如实反映 AI 行业整体态势与多家公司动态；不得因字节条目多而在概述/三维结论里过度突出字节——分类精选可以向字节适度倾斜，但概述与结论要保持多公司客观均衡。\n"
             )
 
-    prompt = """你是一位顶级 AI 行业分析师编辑，为「本地生活商业化外投团队」编写每日 AI 商业中文日报。
-读者画像：广告销售人员，关注头部大厂/AI 公司的商业动作、产品能力、落地效果，以及对广告/营销/本地生活的启发。
+    intro_text = ("你是一位顶级 AI 行业分析师编辑，为「本地生活商业化外投团队」编写每日 AI 商业中文日报。\n"
+                  "读者画像：广告销售人员，关注头部大厂/AI 公司的商业动作、产品能力、落地效果，以及对广告/营销/本地生活的启发。\n")
+    if bytedance_only:
+        intro_text = ("你是一位顶级 AI 行业分析师编辑，为「本地生活商业化外投团队」编写每日**字节系 AI 商业化**中文日报。\n"
+                      "读者画像：广告销售人员，本次报道**只围绕字节跳动全系 AI 商业化动态**（字节跳动/抖音/TikTok/豆包/火山引擎/火山方舟/扣子Coze/即梦/剪映/巨量引擎/Seedance/Seedream/Trae 等），不涉及其他公司。\n"
+                      "所有筛选、中文摘要、编辑概述、三维结论、外投洞察都只围绕字节系公司做归因。\n")
 
+    prompt = intro_text + """
 ## 任务
 从下面 """ + str(len(items)) + """ 条原始资讯中，精选 """ + str(max_curated) + """ 条最有商业价值的内容，并做深度中文解读。
 
@@ -858,6 +900,15 @@ def main():
     items = deduplicate_from_yesterday(items)
     print("  [INFO] After dedup: " + str(len(items)) + " items")
 
+    # 【硬开关：仅字节系】开启后，先把整个池子过滤成只保留字节系条目，
+    # 后续所有环节（curated / overview / editorial / local_life_insights / weekly）
+    # 全部基于这个"仅字节"池，绝不用非字节内容补位。
+    if get_bytedance_only(config):
+        before = len(items)
+        items = filter_bytedance_only(items, config)
+        print("  [INFO] bytedance_only=True: pool " + str(before)
+              + " -> " + str(len(items)) + " (仅字节系)")
+
     editorial = ""
     overview = {}
     news_items = None
@@ -866,7 +917,19 @@ def main():
     insights_intro = ""
     ai_success = False
 
-    if os.environ.get("OPENAI_API_KEY"):
+    # 空池优雅兜底：不调 AI、不崩，直接给占位输出
+    if not items:
+        print("  [INFO] Empty pool after ByteDance filter — emit placeholder digest")
+        news_items = []
+        if get_bytedance_only(config):
+            editorial = "今日暂无字节系 AI 商业化资讯入池（可能是抓取窗口内相关报道较少，或已被昨日日报去重）。稍后将持续跟进字节跳动/抖音/TikTok/豆包/火山引擎/扣子/即梦/剪映/巨量引擎等产品线的新动态。"
+        else:
+            editorial = "今日暂无可精选的资讯。"
+        overview = {"new_products": [], "opinions": [], "ecosystem": []}
+        category_summaries = {}
+        local_life_insights = []
+        insights_intro = ""
+    elif os.environ.get("OPENAI_API_KEY"):
         print("  [INFO] AI mode enabled")
         editorial, overview, news_items, category_summaries, local_life_insights, insights_intro = curate_with_ai(items, config)
         ai_success = news_items is not None
