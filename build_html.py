@@ -309,6 +309,7 @@ PAGE_CSS = """
 body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff; color: #1a1a1a; line-height: 1.7; font-size: 14px; }
 .header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; }
 .header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
+.header .subtitle { font-size: 13px; color: #4f46e5; font-weight: 500; margin-bottom: 6px; }
 .header .date-line { font-size: 14px; color: #666; }
 .header .mode-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: #f0f9ff; color: #0369a1; margin-left: 8px; }
 .header .back-link { display: inline-block; margin-top: 10px; font-size: 13px; color: #4f46e5; text-decoration: none; }
@@ -408,6 +409,7 @@ def render_page(title_suffix, header_date_line, body_html, toggle_html="",
 <body>
 <div class="header">
 <h1>AI 商业日报</h1>
+<div class="subtitle">字节系 AI 商业化动态 · DeepSeek 精选</div>
 <div class="date-line">""" + header_date_line + """</div>
 """ + back_link_html + """
 </div>
@@ -416,7 +418,8 @@ def render_page(title_suffix, header_date_line, body_html, toggle_html="",
 """ + body_html + """
 </div>
 <div class="footer">
-每日自动更新 · 数据来源：Google News / 36氪 / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
+每日自动更新 · 聚焦字节跳动全系 AI 商业化（豆包 / 火山引擎 / 扣子 Coze / 即梦 / 剪映 / 巨量引擎 / TikTok 等）<br>
+数据来源：Google News / 36氪 / 量子位 / 机器之心 / 钛媒体 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
 生成于 """ + gen_time + """
 </div>
 """ + switch_script + """
