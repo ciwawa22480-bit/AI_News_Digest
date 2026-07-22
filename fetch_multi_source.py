@@ -216,6 +216,61 @@ def fetch_google_news_ai(config):
     return results
 
 
+# ============ Google News 通用查询源 ============
+def fetch_google_news_query(config, source_key, source_label):
+    """通用 Google News RSS 查询源：按 config 里的 queries + locale 抓取。
+    - google_news_cn：英文 locale，覆盖国内大厂有英文报道的宏观新闻。
+    - google_news_bd：中文 locale + 中文产品名，覆盖火山/扣子/即梦/剪映/巨量等
+      国内 B 端字节产品（英文 locale 对这些词返回 0，中文 locale 稳定出数）。
+    查询词本身即过滤条件，不再叠加 mentions_top_company，避免误杀中文垂类稿。
+    """
+    src = config["sources"].get(source_key, {})
+    print("[" + source_label + "] start...")
+    results = []
+    seen = set()
+    base_url = src.get("base_url", "https://news.google.com/rss/search")
+    hl = src.get("hl", "zh-CN")
+    gl = src.get("gl", "CN")
+    ceid = src.get("ceid", "CN:zh-Hans")
+    when = src.get("when", "7d")
+    max_per_query = src.get("max_items_per_query", 8)
+    for query in src.get("queries", []):
+        q = query + " when:" + when if when else query
+        feed_url = (base_url + "?q=" + quote_plus(q)
+                    + "&hl=" + hl + "&gl=" + gl + "&ceid=" + ceid)
+        try:
+            feed = feedparser.parse(feed_url)
+            count = 0
+            for entry in feed.entries:
+                if count >= max_per_query:
+                    break
+                title = entry.get("title", "").strip()
+                m = re.search(r"\s-\s([^-]+)$", title)
+                if m:
+                    title = title[:m.start()].strip()
+                link = entry.get("link", "").strip()
+                if not title or len(title) < 5:
+                    continue
+                key = link or title
+                if key in seen:
+                    continue
+                seen.add(key)
+                results.append({
+                    "source": source_key,
+                    "title": title,
+                    "description": clean_summary(entry.get("summary", ""))[:500],
+                    "url": link,
+                    "published": entry.get("published", ""),
+                    "fetch_time": datetime.now(timezone.utc).isoformat(),
+                })
+                count += 1
+            time.sleep(0.3)
+        except Exception as e:
+            print("  [WARN] " + source_label + " query failed: " + str(e))
+    print("  [OK] " + source_label + ": " + str(len(results)) + " items")
+    return results
+
+
 # ============ RSS 通用 ============
 def fetch_rss_generic(source_key, source_name, feed_url, max_items, company_filter=False):
     print("[" + source_name + "] start...")
@@ -370,50 +425,15 @@ def main():
     if config["sources"].get("google_news_ai", {}).get("enabled"):
         all_items.extend(fetch_google_news_ai(config))
 
-    # Google News CN (国内大厂)
+    # Google News CN (国内大厂，英文 locale)
     cn_src = config["sources"].get("google_news_cn", {})
     if cn_src.get("enabled"):
-        print("[Google News CN] start...")
-        cn_results = []
-        seen_cn = set()
-        for query in cn_src.get("queries", []):
-            q = query + " when:" + cn_src.get("when", "5d")
-            feed_url = (cn_src.get("base_url", "https://news.google.com/rss/search")
-                        + "?q=" + quote_plus(q)
-                        + "&hl=" + cn_src.get("hl", "zh-CN")
-                        + "&gl=" + cn_src.get("gl", "CN")
-                        + "&ceid=" + cn_src.get("ceid", "CN:zh-Hans"))
-            try:
-                feed = feedparser.parse(feed_url)
-                count = 0
-                for entry in feed.entries:
-                    if count >= cn_src.get("max_items_per_query", 8):
-                        break
-                    title = entry.get("title", "").strip()
-                    m = re.search(r"\s-\s([^-]+)$", title)
-                    if m:
-                        title = title[:m.start()].strip()
-                    link = entry.get("link", "").strip()
-                    if not title or len(title) < 5:
-                        continue
-                    key = link or title
-                    if key in seen_cn:
-                        continue
-                    seen_cn.add(key)
-                    cn_results.append({
-                        "source": "google_news_cn",
-                        "title": title,
-                        "description": clean_summary(entry.get("summary", ""))[:500],
-                        "url": link,
-                        "published": entry.get("published", ""),
-                        "fetch_time": datetime.now(timezone.utc).isoformat(),
-                    })
-                    count += 1
-                time.sleep(0.3)
-            except Exception as e:
-                print("  [WARN] CN query failed: " + str(e))
-        print("  [OK] Google News CN: " + str(len(cn_results)) + " items")
-        all_items.extend(cn_results)
+        all_items.extend(fetch_google_news_query(config, "google_news_cn", "Google News CN"))
+
+    # Google News 字节全系产品（中文 locale + 中文产品名，主力覆盖火山/扣子/即梦/剪映/巨量）
+    bd_src = config["sources"].get("google_news_bd", {})
+    if bd_src.get("enabled"):
+        all_items.extend(fetch_google_news_query(config, "google_news_bd", "Google News 字节全系"))
 
     # 36Kr
     if config["sources"].get("kr36_ai", {}).get("enabled"):
@@ -432,24 +452,31 @@ def main():
                                             src.get("feed_url", ""), src.get("max_items", 30),
                                             company_filter=True))
 
-    # 钛媒体（中文商业科技，按公司过滤）
+    # IT之家（中文科技资讯，feed 饱满，按公司/字节产品词过滤）
+    src = config["sources"].get("ithome", {})
+    if src.get("enabled"):
+        all_items.extend(fetch_rss_generic("ithome", "IT之家 ithome",
+                                            src.get("feed_url", ""), src.get("max_items", 30),
+                                            company_filter=True))
+
+    # 爱范儿 ifanr（中文科技/消费产品，按公司/字节产品词过滤）
+    src = config["sources"].get("ifanr", {})
+    if src.get("enabled"):
+        all_items.extend(fetch_rss_generic("ifanr", "爱范儿 ifanr",
+                                            src.get("feed_url", ""), src.get("max_items", 20),
+                                            company_filter=True))
+
+    # 钛媒体（默认禁用：GitHub 海外网络返回 0 条；保留配置以便需要时启用）
     src = config["sources"].get("tmtpost", {})
     if src.get("enabled"):
         all_items.extend(fetch_rss_generic("tmtpost", "TMTPost 钛媒体",
                                             src.get("feed_url", ""), src.get("max_items", 15),
                                             company_filter=True))
 
-    # 量子位 QbitAI（中文 AI 垂类，按公司过滤——含字节全系产品词）
+    # 量子位 QbitAI（默认禁用：GitHub 海外网络返回 0 条；同类内容由 google_news_bd 覆盖）
     src = config["sources"].get("qbitai", {})
     if src.get("enabled"):
         all_items.extend(fetch_rss_generic("qbitai", "量子位 QbitAI",
-                                            src.get("feed_url", ""), src.get("max_items", 25),
-                                            company_filter=True))
-
-    # 机器之心 Jiqizhixin（中文 AI 垂类，按公司过滤——含字节全系产品词）
-    src = config["sources"].get("jiqizhixin", {})
-    if src.get("enabled"):
-        all_items.extend(fetch_rss_generic("jiqizhixin", "机器之心 Jiqizhixin",
                                             src.get("feed_url", ""), src.get("max_items", 25),
                                             company_filter=True))
 
