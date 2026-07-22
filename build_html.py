@@ -419,7 +419,7 @@ def render_page(title_suffix, header_date_line, body_html, toggle_html="",
 </div>
 <div class="footer">
 每日自动更新 · 聚焦字节跳动全系 AI 商业化（豆包 / 火山引擎 / 扣子 Coze / 即梦 / 剪映 / 巨量引擎 / TikTok 等）<br>
-数据来源：Google News / 36氪 / 量子位 / 机器之心 / 钛媒体 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
+数据来源：Google News（中英）/ 36氪 / IT之家 / 爱范儿 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
 生成于 """ + gen_time + """
 </div>
 """ + switch_script + """
