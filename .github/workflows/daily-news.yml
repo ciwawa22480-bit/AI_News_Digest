@@ -2,7 +2,10 @@ name: AI News Digest
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # GitHub 定时任务(cron)不保证准时，整点 00:00 UTC 是全球高峰最易被延迟/丢弃。
+    # 改到错峰时间，并加一条备份触发，降低"某天没跑=当天没数据"的概率。
+    - cron: '35 1 * * *'   # UTC 01:35 = 北京时间 09:35（主）
+    - cron: '35 6 * * *'   # UTC 06:35 = 北京时间 14:35（备份，当天重跑覆盖同日文件）
   workflow_dispatch:
   push:
     branches:
