@@ -158,6 +158,45 @@ def _titles_similar(sig_a, sig_b, threshold=0.72):
     return False
 
 
+# 通用词剥离后再比对区分性实体，避免"火山引擎×A"与"火山引擎×B"被误判为同一事件
+_GENERIC_EVENT_TOKENS = [
+    "火山引擎", "火山方舟", "字节跳动", "字节", "bytedance", "豆包", "doubao",
+    "抖音", "douyin", "tiktok", "seedance", "seed", "扣子", "coze", "即梦", "剪映",
+    "战略合作", "达成合作", "合作", "达成", "发布", "推出", "上线", "接入", "签署",
+    "模型", "大模型", "视频", "音频", "创作", "业务", "商业化", "产品", "功能",
+    "升级", "战略", "中国", "集团", "有限公司", "公司", "智能", "系统", "平台",
+]
+
+
+def _strip_generic(title):
+    """归一化后剥离通用词，仅留下区分性内容（如具体合作方/人名）。"""
+    s = _norm_title(title)
+    for tok in _GENERIC_EVENT_TOKENS:
+        s = s.replace(_norm_title(tok), "")
+    return s
+
+
+def _same_event(a, b, ratio_th=0.62):
+    """跨天同事件判定（中文对中文）：
+    1) 整标题词面高相似（difflib>=ratio_th 或 jaccard/子串命中）；
+    2) 或剥离通用词后的区分性内容仍高度重合（同一具体实体/合作方/人名）。"""
+    if _titles_similar(_make_sig(a), _make_sig(b), ratio_th):
+        return True
+    ra, rb = _strip_generic(a), _strip_generic(b)
+    if len(ra) >= 3 and len(rb) >= 3:
+        jac = _jaccard(_shingles(ra, 2), _shingles(rb, 2))
+        rat = difflib.SequenceMatcher(None, ra, rb).ratio()
+        if jac >= 0.34 or rat >= 0.5:
+            return True
+        # 剥离通用词后仍共享一段较长的"中文区分性实体"（如具体合作方/人名，>=4字）
+        m = difflib.SequenceMatcher(None, ra, rb).find_longest_match(0, len(ra), 0, len(rb))
+        if m.size >= 4:
+            common = ra[m.a:m.a + m.size]
+            if re.search(r"[\u4e00-\u9fff]", common):  # 仅中文实体才算，避免 shop/live 等英文通用词误伤
+                return True
+    return False
+
+
 def load_config_dedup(config):
     d = (config or {}).get("dedup", {}) if isinstance(config, dict) else {}
     return {
@@ -265,14 +304,63 @@ def deduplicate_from_yesterday_compat(items, config=None):
     return items
 
 
-def compute_new_vs_yesterday(news_items, threshold=0.72):
-    """统计今日精选里相对"上一份日报"是新增（未出现过）的条目数。
-    返回 (new_count, compare_date_str)。找不到上一份日报时返回 (总数, "")。"""
+def _load_recent_digest_titles(lookback_days=7):
+    """取最近 N 天（不含今天）已发布日报的中文标题列表 + 命中到的比较基准日期。"""
     beijing = timezone(timedelta(hours=8))
     today = datetime.now(beijing)
-    prev_sigs = []
+    titles = []
+    latest_date = ""
+    for i in range(1, lookback_days + 1):
+        day = today - timedelta(days=i)
+        ds = day.strftime("%Y-%m-%d")
+        f = os.path.join(DAILY_DIR, ds + ".json")
+        if not os.path.exists(f):
+            continue
+        try:
+            with open(f, "r", encoding="utf-8") as fh:
+                data = json.load(fh)
+            for it in data.get("items", []):
+                t = it.get("title", "")
+                if t:
+                    titles.append(t)
+            if not latest_date:
+                latest_date = ds
+        except Exception:
+            continue
+    return titles, latest_date
+
+
+def apply_post_ai_cross_day(news_items, config=None):
+    """AI/规则出稿后，用中文对中文的同事件判定，剔除最近几天已报道过的条目。
+    这是解决"同一事件被翻译成不同中文标题、逃过原始池去重"的关键一步。"""
+    cfg = load_config_dedup(config)
+    if not cfg["enabled"]:
+        return news_items
+    recent_titles, _ = _load_recent_digest_titles(cfg["lookback_days"] + 2)
+    if not recent_titles:
+        return news_items
+    kept = []
+    removed = 0
+    for it in news_items:
+        title = it.get("title", "")
+        dup = any(_same_event(title, rt) for rt in recent_titles)
+        if dup:
+            removed += 1
+            continue
+        kept.append(it)
+    if removed > 0:
+        print("  [INFO] Post-AI cross-day dedup removed " + str(removed)
+              + " items (same event already reported in recent days)")
+    return kept
+
+
+def compute_new_vs_yesterday(news_items, threshold=0.72):
+    """统计今日精选里相对"上一份日报"是新增（未出现过）的条目数。
+    用中文对中文的 _same_event 判定。返回 (new_count, compare_date_str)。"""
+    beijing = timezone(timedelta(hours=8))
+    today = datetime.now(beijing)
+    prev_titles = []
     compare_date = ""
-    # 从昨天往前找，取第一份存在的历史日报作为比较基准
     for i in range(1, 8):
         day = today - timedelta(days=i)
         ds = day.strftime("%Y-%m-%d")
@@ -285,22 +373,17 @@ def compute_new_vs_yesterday(news_items, threshold=0.72):
             for it in data.get("items", []):
                 t = it.get("title", "")
                 if t:
-                    prev_sigs.append(_make_sig(t))
+                    prev_titles.append(t)
             compare_date = ds
             break
         except Exception:
             continue
-    if not prev_sigs:
+    if not prev_titles:
         return len(news_items), compare_date
     new_count = 0
     for it in news_items:
-        sig = _make_sig(it.get("title", ""))
-        is_new = True
-        for ps in prev_sigs:
-            if _titles_similar(sig, ps, threshold):
-                is_new = False
-                break
-        if is_new:
+        title = it.get("title", "")
+        if not any(_same_event(title, pt) for pt in prev_titles):
             new_count += 1
     return new_count, compare_date
 
@@ -709,7 +792,7 @@ def build_ai_prompt(items, config, max_curated, recent_titles=None):
 5. 【三维结论】overview 的三个维度（new_products / opinions / ecosystem）尽量都给内容；某维度确实无料时给空数组，不要硬编。
 6. 必须覆盖国内大厂（百度/腾讯/阿里/字节跳动豆包即梦/快手可灵/小红书），原始资讯中有相关内容必须入选。
 7. 优先有具体数据（金额、增长率、用户数）的条目；同一事件只保留信息量最大的一条；不选纯代码/论文，聚焦商业价值。
-7b. 【跨天去重·重要】下面「近期已报道事件」列出了最近几天日报已经写过的事件。**凡是与这些事件表达同一件事/同一含义的候选（即使措辞、来源、语言不同），一律不要再次选入**。只有当该事件出现了明确的新进展（新数据、新动作、新阶段）时才可再报，并且必须在 explanation 里点明"相较此前的新变化是什么"。宁可少选，也不要把已经报过的事情换个标题再讲一遍。
+7b. 【跨天去重·硬规则】下面「近期已报道事件」列出了最近几天日报已经写过的事件。**凡是与这些事件表达同一件事/同一含义的候选（哪怕换了措辞、换了来源、中英文不同、或只是加了些新细节），一律不要选入**。判断标准是"这件事是不是之前已经讲过"，而不是"标题字面是否相同"。例如"Seedance 2.5 API 上线""火山引擎与欧莱雅合作""某前高管融资"这类只要出现过就不要再选。宁可当天少选几条，也绝不允许把已经报过的事情换个中文标题再讲一遍。
 8. 分类规则：大厂动向=""" + top_companies + """ 等头部公司产品/营收/战略；初创动向=AI 初创融资/新品/商业模式；生态动向=行业趋势/监管/开源/基础设施；观点与深度=行业报告/CEO 观点/市场预测。
 9. 影响等级：high=头部公司重大动作/大额融资(>1亿美元)/行业拐点；medium=值得关注的趋势/中型融资/产品更新；low=一般信息流。
 10. 【最后一块换视角，但不许凑数】insights_intro + local_life_insights 从"技术能力底座改造"视角切入：只有当天资讯里**确实出现**了会影响外投素材生产/定向投放/成本结构的底座级变化时，才提炼；能挖出几条写几条，最多 3 条，宁缺毋滥。当天若没有真正相关的内容，就把 local_life_insights 返回空数组 []、insights_intro 返回空字符串 ""，**绝不允许为了有这一块而硬写**。每条要写清 base=底座能力具体发生了什么变化、borrow=对"拿商家预算做外部广告投放(外投)"的商业化团队(如美团商业化)有什么可落地借鉴；borrow 必须与当天这条 base 强相关，不能是放之四海皆准的空话。
@@ -1166,6 +1249,11 @@ def main():
     beijing = timezone(timedelta(hours=8))
     now_bj = datetime.now(beijing)
     today_str = now_bj.strftime("%Y-%m-%d")
+
+    # 出稿后再做一次「中文对中文」的跨天同事件去重：原始池去重比的是英文源标题，
+    # 与历史日报里 AI 改写后的中文标题对不上，故必须在这里补一刀。
+    if news_items:
+        news_items = apply_post_ai_cross_day(news_items, config)
 
     category_counts = {}
     for item in news_items:
