@@ -146,6 +146,45 @@ def build_category_block(category, type_label, items, summary=""):
     ])
 
 
+def build_speak_button(editorial, overview):
+    """构造「🔊 播报摘要」按钮，把要朗读的文本安全地放进 data-speak。
+
+    朗读文本 = editorial_summary + overview 三维要点（尽量丰富，但受浏览器实现限制约 200-400 字更合适）。
+    使用 esc() 转义，避免引号/尖括号破坏 HTML。
+    """
+    parts = []
+    if editorial:
+        parts.append(str(editorial).strip())
+    if overview:
+        for key in ("new_products", "opinions", "ecosystem"):
+            for a in (overview.get(key) or []):
+                if a and str(a).strip():
+                    parts.append(str(a).strip())
+    text = " ".join(p for p in parts if p)
+    if not text:
+        return ""
+    # 收敛长度，避免长度过长导致朗读时间过久
+    if len(text) > 800:
+        text = text[:800]
+    return ('<button type="button" class="speak-btn" data-speak="'
+            + esc(text) + '" aria-label="播报摘要">🔊 播报摘要</button>')
+
+
+def build_commonality_html(commonality):
+    """周报「共性提炼」板块：把 list[str] 渲染成有序列表；空则不显示。"""
+    if not commonality:
+        return ""
+    items = [c for c in commonality if c and str(c).strip()]
+    if not items:
+        return ""
+    lis = "".join('<li>' + esc(c) + '</li>' for c in items)
+    return ('<section class="commonality-section">'
+            '<h3 class="commonality-title">共性提炼</h3>'
+            '<div class="commonality-tip">跨条目的高频主题与趋势结论</div>'
+            '<ul class="commonality-list">' + lis + '</ul>'
+            '</section>')
+
+
 def build_overview_html(overview):
     """三维结论：新产品功能 / 网上观点 / 行业生态。"""
     if not overview:
@@ -213,13 +252,26 @@ def build_content_view(data):
     overview = data.get("overview", {}) or {}
     category_summaries = data.get("category_summaries", {}) or {}
     local_life_insights = data.get("local_life_insights", []) or []
+    commonality = data.get("commonality", []) or []
+
+    speak_btn_html = build_speak_button(editorial, overview)
 
     editorial_html = ""
     if editorial:
-        editorial_html = ('<div class="editorial"><span class="editorial-label">编辑导读</span>'
-                          + esc(editorial) + '</div>')
+        editorial_html = ('<div class="editorial">'
+                          '<div class="editorial-head">'
+                          '<span class="editorial-label">编辑导读</span>'
+                          + speak_btn_html +
+                          '</div>'
+                          '<div class="editorial-body">' + esc(editorial) + '</div>'
+                          '</div>')
+    elif speak_btn_html:
+        # 兜底：即使没有 editorial_summary，也把播报按钮放出来（如果有 overview 可读）
+        editorial_html = ('<div class="editorial editorial-speak-only">'
+                          + speak_btn_html + '</div>')
 
     overview_html = build_overview_html(overview)
+    commonality_html = build_commonality_html(commonality)
 
     grouped = {}
     for item in items:
@@ -256,6 +308,7 @@ def build_content_view(data):
     return "".join([
         editorial_html,
         overview_html,
+        commonality_html,
         '<div class="signal-legend">',
         '信号等级：',
         '<span class="dot dot-high"></span>高影响 / ',
@@ -314,20 +367,56 @@ def build_archive_section(current_date=None, prefix=""):
 
 PAGE_CSS = """
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff; color: #1a1a1a; line-height: 1.7; font-size: 14px; }
-.header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; }
+html, body { min-height: 100%; }
+body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fafbff; color: #1a1a1a; line-height: 1.7; font-size: 14px; position: relative; overflow-x: hidden; }
+/* 低调科技感背景：淡网格 + 柔和径向光斑 + 极缓慢的位移动效 */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: #fafbff;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(99,102,241,0.055) 0px, transparent 42%),
+    radial-gradient(circle at 85% 75%, rgba(255,195,0,0.045) 0px, transparent 42%),
+    linear-gradient(rgba(99,102,241,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99,102,241,0.05) 1px, transparent 1px);
+  background-size: auto, auto, 34px 34px, 34px 34px;
+  background-position: 0 0, 0 0, 0 0, 0 0;
+  animation: techbg-shift 40s ease-in-out infinite alternate;
+}
+@keyframes techbg-shift {
+  0%   { background-position: 0 0, 0 0, 0 0, 0 0; }
+  100% { background-position: 40px 20px, -30px -20px, 17px 0, 0 17px; }
+}
+.header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); backdrop-filter: blur(4px); position: relative; }
 .header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
 .header .subtitle { font-size: 13px; color: #4f46e5; font-weight: 500; margin-bottom: 6px; }
 .header .date-line { font-size: 14px; color: #666; }
 .header .mode-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: #f0f9ff; color: #0369a1; margin-left: 8px; }
 .header .back-link { display: inline-block; margin-top: 10px; font-size: 13px; color: #4f46e5; text-decoration: none; }
 .header .back-link:hover { text-decoration: underline; }
-.toggle-bar { padding: 12px 40px 0; display: flex; gap: 0; border-bottom: 1px solid #e5e7eb; }
+/* 美团黄袋鼠吉祥物：header 右上角点缀，缓慢上下浮动 */
+.roo-mascot { position: absolute; top: 22px; right: 28px; width: 52px; height: 52px; animation: roo-hop 3.6s ease-in-out infinite; pointer-events: none; filter: drop-shadow(0 2px 4px rgba(255,195,0,0.28)); }
+@keyframes roo-hop {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+.toggle-bar { padding: 12px 40px 0; display: flex; gap: 0; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); }
 .tab { padding: 8px 24px; border: none; background: none; font-size: 14px; color: #666; cursor: pointer; border-bottom: 2px solid transparent; font-weight: 500; }
 .tab.active { color: #4f46e5; border-bottom-color: #4f46e5; }
-.container { max-width: 1100px; margin: 0 auto; padding: 24px 40px; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 40px; background: transparent; }
 .editorial { padding: 16px 20px; background: #f8fafc; border-left: 4px solid #4f46e5; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 15px; color: #1e293b; line-height: 1.85; }
+.editorial-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+.editorial-body { }
+.editorial-speak-only { display: flex; justify-content: flex-end; padding: 8px 12px; }
 .editorial-label { display: inline-block; font-weight: 700; color: #4f46e5; margin-right: 8px; }
+/* 播报按钮：克制的胶囊风格，参考 .new-badge */
+.speak-btn { display: inline-flex; align-items: center; gap: 4px; padding: 3px 12px; border-radius: 12px; font-size: 12px; font-weight: 600; color: #4338ca; background: #eef2ff; border: 1px solid #c7d2fe; cursor: pointer; transition: background 0.18s, color 0.18s, border-color 0.18s; line-height: 1.6; font-family: inherit; white-space: nowrap; }
+.speak-btn:hover { background: #e0e7ff; }
+.speak-btn:disabled { color: #94a3b8; background: #f1f5f9; border-color: #e2e8f0; cursor: not-allowed; }
+.speak-btn.speaking { color: #b91c1c; background: #fef2f2; border-color: #fecaca; }
 /* Overview 三维结论 */
 .overview-section { margin-bottom: 24px; padding: 20px 22px; background: linear-gradient(135deg,#eef2ff 0%,#f5f3ff 100%); border: 1px solid #e0e7ff; border-radius: 12px; }
 .overview-title { font-size: 16px; font-weight: 700; color: #3730a3; margin-bottom: 14px; display: flex; align-items: center; }
@@ -338,6 +427,13 @@ body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff;
 .ov-hint { font-size: 11px; font-weight: 400; color: #818cf8; margin-left: 8px; }
 .ov-list { margin: 0 0 0 20px; padding: 0; list-style: disc; }
 .ov-list li { font-size: 13.5px; color: #334155; line-height: 1.7; margin-bottom: 4px; }
+/* 共性提炼板块（周报）：低调的浅青底 */
+.commonality-section { margin-bottom: 24px; padding: 18px 22px; background: linear-gradient(135deg,#ecfeff 0%,#f0f9ff 100%); border: 1px solid #bae6fd; border-radius: 12px; }
+.commonality-title { font-size: 16px; font-weight: 700; color: #075985; margin-bottom: 4px; display: flex; align-items: center; }
+.commonality-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #0ea5e9; border-radius: 3px; margin-right: 10px; }
+.commonality-tip { font-size: 12px; color: #0369a1; margin-bottom: 10px; }
+.commonality-list { margin: 0 0 0 22px; padding: 0; list-style: disc; }
+.commonality-list li { font-size: 13.5px; color: #0c4a6e; line-height: 1.7; margin-bottom: 4px; }
 .signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
 .stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
 .new-badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; cursor: help; }
@@ -362,7 +458,7 @@ body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff;
 .dot-high { background: #ef4444; }
 .dot-medium { background: #f59e0b; }
 .dot-low { background: #cbd5e1; }
-.digest-table { width: 100%; border-collapse: collapse; }
+.digest-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; }
 .category-row td { padding: 16px 12px; vertical-align: top; border-top: 1px solid #e5e7eb; }
 .col-type { width: 70px; text-align: center; }
 .col-category { width: 90px; text-align: center; }
@@ -392,7 +488,7 @@ body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff;
 .date-link { font-size: 12px; color: #6366f1; text-decoration: none; padding: 2px 8px; border-radius: 4px; background: #f5f3ff; }
 .date-link:hover { background: #ede9fe; }
 .date-link-active { background: #6366f1; color: #fff; }
-.footer { padding: 24px 40px; text-align: center; color: #94a3b8; font-size: 11px; border-top: 1px solid #f1f5f9; margin-top: 32px; }
+.footer { padding: 24px 40px; text-align: center; color: #94a3b8; font-size: 11px; border-top: 1px solid #f1f5f9; margin-top: 32px; background: rgba(255,255,255,0.6); }
 .empty { text-align: center; padding: 60px; color: #94a3b8; }
 @media (max-width: 768px) {
   .header, .container, .footer { padding-left: 16px; padding-right: 16px; }
@@ -400,8 +496,31 @@ body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff;
   .col-type, .col-category { display: none; }
   .col-content { padding-left: 0 !important; }
   .category-row td { padding: 12px 0; }
+  .roo-mascot { width: 40px; height: 40px; top: 16px; right: 12px; }
+  .editorial-head { flex-direction: column; align-items: flex-start; gap: 6px; }
 }
 """
+
+
+ROO_SVG = """<svg class="roo-mascot" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="美团黄袋鼠">
+<defs>
+<linearGradient id="rooGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0" stop-color="#FFD100"/>
+<stop offset="1" stop-color="#FFC300"/>
+</linearGradient>
+</defs>
+<!-- 耳朵 -->
+<path fill="#FFC300" d="M35 7c1-1 3-1 3 1 0 3-1 6-3 8-2 1-3 0-3-2 0-2 1-5 3-7z"/>
+<path fill="#FFC300" d="M41 9c1-1 3 0 3 2 0 3-1 5-3 7-1 1-3 1-3-1 0-3 1-6 3-8z"/>
+<!-- 头 -->
+<circle cx="41" cy="20" r="7" fill="url(#rooGrad)"/>
+<!-- 眼睛 -->
+<circle cx="43" cy="19" r="1.4" fill="#222"/>
+<!-- 身体+尾巴（一笔剪影） -->
+<path fill="url(#rooGrad)" d="M36 26c-6 0-11 4-13 10-1 3-3 6-6 8-2 2-4 3-5 5-1 1 0 3 2 3h13c2 0 3-1 3-3 0-2 1-4 3-5 3-2 6-2 9-2 3 0 5-2 5-5 0-2-1-4-3-5l-3-1c-2-1-3-3-5-5z"/>
+<!-- 前爪 -->
+<path fill="#E6A800" d="M31 33c1-1 3-1 4 0 1 1 1 3 0 3l-4 1c-1 0-1-3 0-4z"/>
+</svg>"""
 
 
 def render_page(title_suffix, header_date_line, body_html, toggle_html="",
@@ -417,6 +536,7 @@ def render_page(title_suffix, header_date_line, body_html, toggle_html="",
 </head>
 <body>
 <div class="header">
+""" + ROO_SVG + """
 <h1>AI 商业日报</h1>
 <div class="subtitle">字节系 AI 商业化动态 · DeepSeek 精选</div>
 <div class="date-line">""" + header_date_line + """</div>
@@ -431,9 +551,94 @@ def render_page(title_suffix, header_date_line, body_html, toggle_html="",
 数据来源：Google News（中英）/ 36氪 / IT之家 / 爱范儿 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
 生成于 """ + gen_time + """
 </div>
+""" + toggle_html_speak_script() + """
 """ + switch_script + """
 </body>
 </html>"""
+
+
+def toggle_html_speak_script():
+    """浏览器原生 Web Speech API 的播报/停止 toggle 脚本。
+
+    - 遍历所有 .speak-btn，click 时读取 data-speak 属性文本
+    - 优先选择 zh 语音
+    - 再次点击当前按钮停止；点击其他按钮先停止旧的再朗读新的
+    - 朗读结束/错误自动复位按钮
+    - 不支持 speechSynthesis 时，按钮禁用并给出提示
+    """
+    return """<script>
+(function(){
+  var btns = document.querySelectorAll('.speak-btn');
+  if (!btns.length) return;
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+    btns.forEach(function(b){
+      b.disabled = true;
+      b.textContent = '⚠ 浏览器不支持语音';
+      b.title = '当前浏览器不支持 Web Speech API';
+    });
+    return;
+  }
+  var synth = window.speechSynthesis;
+  var currentBtn = null;
+  var voicesCache = [];
+
+  function loadVoices(){
+    try { voicesCache = synth.getVoices() || []; } catch(e) { voicesCache = []; }
+  }
+  loadVoices();
+  if (typeof synth.onvoiceschanged !== 'undefined') {
+    synth.addEventListener('voiceschanged', loadVoices);
+  }
+
+  function pickChineseVoice(){
+    for (var i=0; i<voicesCache.length; i++) {
+      var lang = (voicesCache[i].lang || '').toLowerCase();
+      if (lang.indexOf('zh') !== -1) return voicesCache[i];
+    }
+    return null;
+  }
+
+  function resetBtn(b){
+    if (!b) return;
+    b.textContent = '🔊 播报摘要';
+    b.classList.remove('speaking');
+  }
+  function stopAll(){
+    try { synth.cancel(); } catch(e){}
+    if (currentBtn) resetBtn(currentBtn);
+    currentBtn = null;
+  }
+
+  btns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var text = btn.getAttribute('data-speak') || '';
+      text = text.replace(/\\s+/g, ' ').trim();
+      if (!text) return;
+      // 再次点击当前按钮 -> 停止
+      if (currentBtn === btn) { stopAll(); return; }
+      // 切换到另一个按钮 -> 先停旧的
+      if (currentBtn) stopAll();
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = 'zh-CN';
+      u.rate = 1.0;
+      u.pitch = 1.0;
+      // 语音列表在部分浏览器上是异步加载的
+      if (!voicesCache.length) loadVoices();
+      var v = pickChineseVoice();
+      if (v) u.voice = v;
+      u.onend = function(){ if (currentBtn === btn) { resetBtn(btn); currentBtn = null; } };
+      u.onerror = function(){ if (currentBtn === btn) { resetBtn(btn); currentBtn = null; } };
+      currentBtn = btn;
+      btn.textContent = '⏸ 停止播报';
+      btn.classList.add('speaking');
+      try { synth.speak(u); } catch(e) { resetBtn(btn); currentBtn = null; }
+    });
+  });
+
+  // 离开页面时停止朗读，避免后台继续读
+  window.addEventListener('beforeunload', function(){ try { synth.cancel(); } catch(e){} });
+})();
+</script>"""
 
 
 def build_archive_pages():
