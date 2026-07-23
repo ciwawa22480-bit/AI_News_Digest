@@ -240,8 +240,16 @@ def build_content_view(data):
 
     total = len(items)
     high_count = len([i for i in items if i.get("impact") == "high"])
+    # 较昨日（上一份日报）新增条目数标记
+    new_cnt = data.get("new_vs_yesterday")
+    cmp_date = data.get("compare_date", "")
+    new_badge = ""
+    if isinstance(new_cnt, int):
+        tip = ("对比 " + esc(cmp_date) + " 日报去重后统计") if cmp_date else "对比上一份日报"
+        new_badge = (' · <span class="new-badge" title="' + tip + '">▲ 较昨日新增 '
+                     + str(new_cnt) + ' 条</span>')
     stats_html = ('<div class="stats">共 ' + str(total) + ' 条精选 · '
-                  + str(high_count) + ' 条高影响</div>')
+                  + str(high_count) + ' 条高影响' + new_badge + '</div>')
 
     insights_html = build_local_life_insights(local_life_insights, data.get("insights_intro", ""))
 
@@ -332,6 +340,7 @@ body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fff;
 .ov-list li { font-size: 13.5px; color: #334155; line-height: 1.7; margin-bottom: 4px; }
 .signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
 .stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
+.new-badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; cursor: help; }
 .cat-summary { font-size: 13px; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 8px 12px; border-radius: 0 6px 6px 0; margin-bottom: 14px; line-height: 1.7; }
 .insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
 .insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
