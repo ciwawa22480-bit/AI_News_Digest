@@ -1194,6 +1194,144 @@ def build_weekly_editorial(unique, has_insights=True):
     return text
 
 
+def derive_weekly_commonality(unique, config=None):
+    """规则兜底版「共性提炼」：统计本周条目标题/分类/正文的高频主题与实体，
+    产出 3-5 条中文短结论。每条 1 句话，避免空话。
+
+    输入：unique = 本周去重后的 items 列表（含 title/category/explanation/analysis_points 等）。
+    输出：list[str]，长度 0-5。若入池为空则返回 []。
+    """
+    if not unique:
+        return []
+
+    # ==== 1) 类别与影响分布 ====
+    cat_counts = {}
+    impact_counts = {"high": 0, "medium": 0, "low": 0}
+    for it in unique:
+        c = it.get("category", "")
+        if c:
+            cat_counts[c] = cat_counts.get(c, 0) + 1
+        imp = it.get("impact", "medium")
+        if imp in impact_counts:
+            impact_counts[imp] += 1
+
+    # ==== 2) 全文汇总（小写化用于关键词命中） ====
+    text_all = " ".join(
+        (it.get("title", "") + " " +
+         it.get("explanation", "") + " " +
+         (it.get("content") or it.get("description", "") or "") + " " +
+         " ".join(it.get("analysis_points", []) or []))
+        for it in unique
+    ).lower()
+
+    def _count_hits(kws):
+        n = 0
+        for kw in kws:
+            if not kw:
+                continue
+            if keyword_in_text(kw, text_all):
+                n += 1
+        return n
+
+    # ==== 3) 主题池：命中数量足够才产出一条结论（避免硬凑） ====
+    theme_pool = [
+        {
+            "kws": ["视频", "video", "sora", "veo", "可灵", "kling", "即梦", "runway",
+                    "seedance", "seedream", "数字人", "avatar"],
+            "conclusion": "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
+            "min_hits": 2,
+        },
+        {
+            "kws": ["火山引擎", "火山方舟", "coze", "扣子", "豆包", "doubao",
+                    "seedance", "seedream", "trae", "巨量引擎"],
+            "conclusion": "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+            "min_hits": 2,
+        },
+        {
+            "kws": ["agent", "智能体", "copilot", "自动化", "workflow", "多智能体"],
+            "conclusion": "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。",
+            "min_hits": 2,
+        },
+        {
+            "kws": ["降价", "开源", "open source", "token", "cheaper", "pricing",
+                    "低价", "价格", "免费"],
+            "conclusion": "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
+            "min_hits": 2,
+        },
+        {
+            "kws": ["广告", "ads", "advertis", "营销", "marketing", "投放",
+                    "巨量", "妙鸭", "creative"],
+            "conclusion": "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
+            "min_hits": 2,
+        },
+        {
+            "kws": ["合作", "partnership", "接入", "签署", "达成", "战略合作", "to b", "企业级"],
+            "conclusion": "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
+            "min_hits": 2,
+        },
+        {
+            "kws": ["融资", "funding", "投资", "收购", "acquisition", "估值", "ipo"],
+            "conclusion": "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。",
+            "min_hits": 2,
+        },
+        {
+            "kws": ["监管", "regulation", "合规", "隐私", "版权", "safety", "policy"],
+            "conclusion": "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。",
+            "min_hits": 1,
+        },
+        {
+            "kws": ["芯片", "chip", "gpu", "算力", "infrastructure", "数据中心", "云"],
+            "conclusion": "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。",
+            "min_hits": 2,
+        },
+    ]
+
+    hits = []
+    for th in theme_pool:
+        n = _count_hits(th["kws"])
+        if n >= th["min_hits"]:
+            hits.append((n, th["conclusion"]))
+    hits.sort(key=lambda x: -x[0])
+
+    lines = []
+
+    # 结论 1：本周结构分布（类别 top-1 + 高影响占比）
+    if cat_counts:
+        top_cat, top_cat_cnt = max(cat_counts.items(), key=lambda x: x[1])
+        high_ratio = int(round(impact_counts["high"] * 100 / max(1, len(unique))))
+        lines.append("本周内容重心在「" + top_cat + "」（" + str(top_cat_cnt)
+                     + " 条），高影响条目占比约 " + str(high_ratio) + "%，商业化叙事仍由头部驱动。")
+
+    # 结论 2..N：主题命中
+    for _, conclusion in hits:
+        if len(lines) >= 5:
+            break
+        lines.append(conclusion)
+
+    # 兜底：如果结论 < 3，再补一条高频公司观察
+    if len(lines) < 3:
+        # 字节 + 其他国内大厂 中命中最多的一家/两家
+        company_stat = []
+        bd_hits = _count_hits(BYTEDANCE_DEFAULT_KEYWORDS)
+        if bd_hits > 0:
+            company_stat.append(("字节系", bd_hits))
+        for name, kws in DOMESTIC_OTHER_GROUPS.items():
+            n = _count_hits(kws)
+            if n > 0:
+                company_stat.append((name, n))
+        company_stat.sort(key=lambda x: -x[1])
+        if company_stat:
+            names = "、".join(n for n, _ in company_stat[:2])
+            lines.append("国内头部（" + names
+                         + "）在本周动态密度较高，其能力更新对广告 / 营销侧的辐射值得持续跟踪。")
+
+    # 兜底 2：仍不足 3 条时，追加一条最通用观察
+    if len(lines) < 3 and len(unique) >= 3:
+        lines.append("本周资讯覆盖多家公司多个产品线，暂无明显的单一主线；建议以「大厂能力迭代 + 生态合作」为主视角持续跟进。")
+
+    return lines[:5]
+
+
 # ============ 主流程 ============
 def main():
     config = load_config()
@@ -1310,6 +1448,7 @@ def main():
         week_end = now_bj.strftime("%m.%d")
 
         weekly_intro, weekly_insights = load_weekly_insights()
+        weekly_commonality = derive_weekly_commonality(unique, config)
 
         weekly_output = {
             "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -1317,6 +1456,7 @@ def main():
             "date_display": week_start + " - " + week_end,
             "editorial_summary": build_weekly_editorial(unique, has_insights=bool(weekly_insights)),
             "overview": build_rule_overview(unique, config.get("business_focus", {})),
+            "commonality": weekly_commonality,
             "local_life_insights": weekly_insights,
             "insights_intro": weekly_intro,
             "total_items": len(unique),
