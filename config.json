@@ -190,6 +190,13 @@
     "limit": 40,
     "timeout": 8
   },
+  "dedup": {
+    "enabled": true,
+    "within_day": true,
+    "lookback_days": 5,
+    "title_threshold": 0.72,
+    "_comment": "去重配置：within_day=当天池内近重复合并；lookback_days=跨天与最近N天日报比对；title_threshold=difflib标题相似度阈值(0-1，越大越严格保留越多)。若发现误删可调到0.8，漏删可调到0.66。"
+  },
   "output": {
     "schedule": "daily",
     "timezone": "Asia/Shanghai",
