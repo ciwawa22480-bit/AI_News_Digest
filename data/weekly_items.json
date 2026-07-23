@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-22T12:18:09.396000+00:00",
-  "week_range": "07.20-07.22",
-  "date_display": "07.20 - 07.22",
-  "editorial_summary": "本周共汇总 54 条 AI 商业要闻，其中高影响 19 条。本周主线包括：字节跳动发布Seed Audio 1.0，统一人声与音效；Kimi K3发布48小时服务器满载，暂停新用户订阅；苹果起诉OpenAI，或影响其IPO和硬件计划；Google推出AI Mode，可链接和操作第三方应用；快手AI视频部门估值180亿美元，分拆在即。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-07-23T02:12:15.146926+00:00",
+  "week_range": "07.20-07.23",
+  "date_display": "07.20 - 07.23",
+  "editorial_summary": "本周共汇总 71 条 AI 商业要闻，其中高影响 25 条。本周主线包括：字节跳动发布Seed Audio 1.0，统一人声与音效；Kimi K3发布48小时服务器满载，暂停新用户订阅；苹果起诉OpenAI，或影响其IPO和硬件计划；Google推出AI Mode，可链接和操作第三方应用；快手AI视频部门估值180亿美元，分拆在即。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节跳动发布Seed Audio 1.0，统一人声与音效建模",
@@ -39,8 +39,8 @@
     }
   ],
   "insights_intro": "今日多家公司升级了音频、视频和交互式内容生成底座，从单一模态转向多模态、低延迟、低成本，这将重塑外投素材的生产方式和投放效率。",
-  "total_items": 54,
-  "high_count": 19,
+  "total_items": 71,
+  "high_count": 25,
   "items": [
     {
       "title": "字节跳动发布Seed Audio 1.0，统一人声与音效建模",
@@ -301,6 +301,90 @@
       "source": "finance.biggo.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zT1lCRmRZanFITlFWNTVOZDl1S0tJdEliNVFCQkFnbkNYaXB2Q0ZSR0xfWWREQVV5S3UxYmtrYjQ1cDJnRktlN2dMZ3hoLU9wVGJBY3BRYXpySUQwemZMTjc2YmRpbUZGMDZycy1rdnFHUktsTkE?oc=5",
       "local_life_hint": "扣子Agent工作台可能成为本地生活商家管理AI营销、客服的统一平台，需提前布局。"
+    },
+    {
+      "title": "字节跳动发布Seed Audio 1.0音频创作模型",
+      "explanation": "字节跳动推出Seed Audio 1.0，支持从文本或视频生成高质量音频，补全多模态能力。该模型可生成背景音乐、音效、人声等，面向内容创作者和开发者，降低音频制作门槛。",
+      "analysis_points": [
+        "Seed Audio 1.0支持文本到音频、视频到音频生成，可输出多种风格和场景的音频内容。",
+        "对广告营销团队，可快速生成视频广告配乐、产品音效，提升素材生产效率，降低外包成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1672637?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": "本地生活广告素材可借助Seed Audio自动生成符合场景的音频，提升视频广告的沉浸感和转化率。"
+    },
+    {
+      "title": "Seedance 2.5 API上线：30秒单镜头、50张参考图、3D运镜",
+      "explanation": "字节跳动Seedance 2.5 API正式上线，支持生成30秒单镜头视频，可输入最多50张参考图控制风格和内容，并支持3D摄像机运镜。该API大幅提升AI视频的可控性和专业度，已用于《第九区》导演的AI短片。",
+      "analysis_points": [
+        "Seedance 2.5从早期简单生成升级为支持多参考图、长镜头、3D运镜的专业级视频生成工具。",
+        "广告团队可用其快速生成高质量视频素材，尤其适合需要复杂场景和运镜的品牌广告，降低制作成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "CineD",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbFNSX0o5eWsyX3lzVlJXNkVkQ0E1T2ZxRklMVG0zbGpHaE9iTWRBNXlacmRhTVVCaVZoZm5xWVMwbjh6R1A0ODlST3NIWGt0THMtOUlSWjFFaU9Za1poZ0FVc1ZTZ3NhRjdyd2gySHB5c0hRaklLOXRObHNWaFdGcUdZQnBPeEZQNzdpeHdSQmVSeVlaU3U5bkRFanJkMW1JczhmV1JDUUJpcEZlRXI0NDNOY2ExZ2o2Snc1WHhUNHREWmxtaGZjZlp3aw?oc=5",
+      "local_life_hint": "本地生活商家可用Seedance 2.5生成高质量探店视频、活动宣传片，通过多参考图保持品牌一致性，提升广告效果。"
+    },
+    {
+      "title": "豆包AI手机二代NaviX Ultra发布，备货数十万台",
+      "explanation": "字节与中兴合作推出豆包AI手机二代NaviX Ultra，端侧大模型已获备案，AI Agent可调用抖音、瑞幸等应用。该手机备货数十万台，标志AI硬件从概念走向规模量产，可能改变移动端AI应用分发。",
+      "analysis_points": [
+        "豆包手机从一代概念验证升级为二代量产，端侧大模型支持本地运行AI应用，无需联网。",
+        "对广告主，AI手机作为新终端，可承载原生AI广告形式，如语音交互广告、智能推荐，拓展营销场景。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Pandaily",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pWmVPMXVqQXdDM1ZLYzFWMHQwN2RiNGRoQlNrSHpscXZnclY4UVJfRk0yTTFUMWlMUE4xb3NScUZRaEw0VFE0R0hSX2EwU0RJcXBNOWZtU1ZWTGdyd0FTajlKQkFBMnExdi1iYkExcWlZQQ?oc=5",
+      "local_life_hint": "豆包AI手机可作为本地生活服务的新入口，商家可开发AI语音点餐、智能推荐等交互，抢占端侧流量。"
+    },
+    {
+      "title": "火山引擎与欧莱雅中国达成战略合作，豆包大模型赋能美妆",
+      "explanation": "火山引擎与欧莱雅中国签署战略合作，将豆包大模型应用于美妆经营一线，包括个性化推荐、虚拟试妆、内容生成等。这是豆包大模型在美妆行业的首个大型合作，验证其垂直行业商业化能力。",
+      "analysis_points": [
+        "豆包大模型从通用能力进入美妆垂直场景，提供AI导购、内容生成等具体功能。",
+        "对本地生活商家，可借鉴此模式，将豆包大模型接入本地服务（如餐饮推荐、美容咨询），提升用户体验和转化。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBmdHpkM3BoQVJhV3lGaE05T21JNDlnc3AxT0J2cmRnUDQ4WDljNDhBX2xfX3BnSnE2c0dNYnVNcnYtbHdCelBuQXdyVUdKdw?oc=5",
+      "local_life_hint": "本地生活平台可引入豆包大模型，为商家提供AI客服、智能推荐、营销文案生成等工具，提升运营效率。"
+    },
+    {
+      "title": "美国司法部解除联邦设备TikTok禁令",
+      "explanation": "美国司法部宣布，由于字节跳动完成资产剥离，联邦雇员可在政府设备上使用TikTok。这消除了TikTok在美国的监管不确定性，利好其商业化进程。",
+      "analysis_points": [
+        "TikTok从被禁到解禁，监管风险降低，可正常开展广告和电商业务。",
+        "对广告主，TikTok用户覆盖恢复，可放心投放广告，尤其面向政府雇员等高端人群。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYzlmV2w0M0RDbnNpaU9udDJ6NUExTEtQMjZpaHhseVBxXzctZTViZUdRUWRvVE9nYXVHWF9tUUp0SkI2TWhkOUJPbDJxZHhIQWZuLXkyaWNXX3FsUGpIdlg5LVJpcVpXZXpsR04yRmtPcHVBal94bU10emFXajhRZHAwYk9qVElOVVVRRW9URVRhMnQyUkF2RzBWQ3czNlA5VU5RZUh6LXVqLW1vcjhJMVlXbFYwZTN0bEttZkhn0gHDAUFVX3lxTE9QeXZ3b0tEZnlXNHpJd1oxOUgxZzVMQ0IxSjVnSmJUSU5RTnJUZGJsZVVoSmhtdUE0NFNQOWlOb3BQa3NEMF9JNjhDMHI3SmZ0bW5uRmNpS0twWkZLMVVXSVhRY0VUdndNazVhU0xXMEl5dXNPRWJNWUNFQUJwTl9SYU9MQ0kza0drdmlkMm54djdCamZCZDAzSDhNLWRKLUdINk81dXkwSmhxR21tZ0VXaDI2bXZnM2d4T2NXTkNTakZxTQ?oc=5",
+      "local_life_hint": "TikTok解禁后，本地生活商家可加大TikTok广告投放，利用其庞大用户基础进行本地推广。"
+    },
+    {
+      "title": "字节跳动Seedance 2.5助力《第九区》导演发布AI短片《阴兵》",
+      "explanation": "著名导演尼尔·布洛姆坎普使用字节Seedance 2.0生成AI短片《阴兵》，并宣布成立AI工作室。这验证了Seedance在专业影视创作中的可行性，提升字节在AI视频领域的品牌影响力。",
+      "analysis_points": [
+        "Seedance从工具升级为专业影视制作平台，获得顶级导演认可。",
+        "对广告营销，专业级AI视频生成可制作电影质感广告，提升品牌调性。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xMGlxUDJKbncwWXdyYmgzOF9IbXJEdUQ4bmxISU91a19hSUFCSWRBbWlzUlMxZWhRYm4tQ2hXZ0N5cnhYcHJOYm1pclZ1bWdQVW5zamRxc0M?oc=5",
+      "local_life_hint": "本地生活品牌可借助Seedance制作高品质AI视频广告，用于品牌宣传或大型活动推广。"
     },
     {
       "title": "通义发布Qwen-Audio-3.0-TTS，实时语音合成夺冠",
@@ -780,6 +864,160 @@
       "source": "Infoq.cn",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JZkNvNEk0Z2RaOUl6QlVVMXRnaElHTGxSTFFEQ2dXbF9UeDYzZkY2a1YyMkIxZVU2M0RobV8wQzdMcDEwS2pqRFc2aXV5Qzl6QUxBQmFOOTRaQQ?oc=5",
       "local_life_hint": "多模态传输底座可支持本地生活平台的AI视频客服、虚拟导购等创新应用。"
+    },
+    {
+      "title": "火山引擎与安永达成战略合作，助力企业AI原生架构",
+      "explanation": "火山引擎与安永签署战略合作，共同推动企业向AI原生架构转型。合作将结合火山引擎的AI技术和安永的咨询能力，为企业提供从战略到落地的AI解决方案，加速行业智能化。",
+      "analysis_points": [
+        "火山引擎从提供AI工具升级为提供企业级AI转型服务，联合咨询公司覆盖战略层。",
+        "对广告营销团队，AI原生架构意味着更高效的广告投放系统、智能创意生成，可提升整体商业化效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhUi1KZm41R3k2d1VfUE5JOVZBSjRidDBEZWU5TmNLOGhGWnhlVE10SkxLRHdlWUJGcnc1OXRJdHc0dHk4OFZGd0VLemM2UEE0NGRwQ3pIZDhnaUZ6THZsMmwtblUxckNYdjdOaF85WVlOaHEtOWNsSjZyYmpPU2s?oc=5",
+      "local_life_hint": "本地生活平台可借助火山引擎的AI原生架构，优化广告投放系统，实现更精准的定向和实时优化。"
+    },
+    {
+      "title": "特斯拉中国车机将接入豆包大模型",
+      "explanation": "特斯拉中国宣布车机系统将接入字节跳动豆包大模型，提供智能语音交互、内容推荐等功能。这是豆包大模型在车载场景的重要落地，拓展了AI应用边界。",
+      "analysis_points": [
+        "豆包大模型从手机、电脑扩展到车载场景，提供语音助手、导航、娱乐等AI服务。",
+        "对广告主，车载AI场景开辟新营销触点，可探索基于位置和驾驶场景的本地生活推荐。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XSjdrbENDZ1lKWWIwWXhPam5nZEtWTlR1TzRFc1R0MjI2aW5ic2s5RDV1Y296RUppOGFMbWpObXFhVEFLUkdzc01qVDAySmd1dHVLNVRkR3VicGY2dVE?oc=5",
+      "local_life_hint": "车载豆包大模型可推荐沿途餐厅、加油站等本地生活服务，为商家带来新的场景化流量。"
+    },
+    {
+      "title": "三星中国接入豆包大模型：Galaxy Z系列首发",
+      "explanation": "三星中国宣布在Galaxy Z系列手机中接入字节跳动豆包大模型，提供AI写作、翻译、摘要等功能。这是豆包大模型首次与国际手机品牌合作，标志其生态扩展。",
+      "analysis_points": [
+        "豆包大模型从字节自有硬件扩展到三星旗舰机型，覆盖更广泛用户群。",
+        "对广告主，豆包大模型在三星设备上的预装，意味着更多用户可便捷使用AI功能，为AI营销提供更大用户基础。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rbGY0Rjh2cDZjeU9LTk1KeUg2RXVQWEM4Zkp2cUpieTY2N1BxbEh1ejM3LUhSYVlWMC1GTXBqZ2RrN1V5R29remdtS1oyeU53Z05wai1wLXljdFlreVZTQlZB?oc=5",
+      "local_life_hint": "三星用户可通过豆包大模型快速获取本地生活信息，商家可优化AI搜索内容，提升被推荐概率。"
+    },
+    {
+      "title": "TikTok Shop强化电商布局，AI假货引发信任危机",
+      "explanation": "TikTok Shop正加大电商投入，但AI生成内容导致假货问题凸显，品牌敦促创作者减少AI生成内容以维护信任。这反映AI在电商中双刃剑效应，需平衡效率与真实性。",
+      "analysis_points": [
+        "TikTok Shop从社交电商向全品类电商扩张，但AI生成内容可能损害消费者信任。",
+        "对本地生活商家，应谨慎使用AI生成内容，确保真实性和合规性，避免因虚假宣传影响口碑。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmUyUlBtRnhIemtUNzYtakpqeVZSSjgzaWZkQjhna1lQTVc5N1BzSnpXN1ZkS1N5OFNuT1g2Rk56REE4WDFkNlNUUUxnRmlhTGZVY04yV1hQSE4wZW9pNEpTeEdUaXgxX1phQVdjbnNkTndlT29HR1IwNnN1TXFGaXVWcmE2b2VfNERLekExbVlQS1JMeWJwN01QYw?oc=5",
+      "local_life_hint": "本地生活商家在TikTok Shop推广时，应使用真实拍摄素材，避免AI生成内容引发信任问题，影响转化。"
+    },
+    {
+      "title": "前字节高管郭列再创业，视频Agent公司Flova融资8000万美元",
+      "explanation": "剪映前负责人郭列创立Flova，专注视频生成Agent，近期完成8000万美元融资。其产品对标Claude Code，旨在自动化视频制作流程，可能对字节系视频工具形成竞争。",
+      "analysis_points": [
+        "Flova从剪映团队衍生，聚焦视频Agent，可自动完成脚本、剪辑、配音等任务。",
+        "对广告团队，视频Agent可大幅降低视频制作成本，但需关注其与字节系工具的差异化。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc1E3OHRWWVB6a3k2UXhTallfcmNYa0l6Q0M1TE9lVDktenc1QnZ0cEZVQVB0OE1CREEyYURxZmNEdUN3QTBDZ3ozdU5zSndyTi1lOXVEMVlHSkdiVkFKS0k3cE5HS2ZTaE9hcUZORnlqa1pOUHdFUzhnRUdsUG9YalkzSzhlY1NR?oc=5",
+      "local_life_hint": "视频Agent可帮助本地生活商家自动化生成探店视频，但需注意与字节系工具（如剪映）的协同或替代关系。"
+    },
+    {
+      "title": "印尼政府邀请字节跳动扩大AI投资",
+      "explanation": "印尼经济事务部长邀请华为和字节跳动扩大在印尼的AI投资，包括数据中心和人才培养。字节跳动在东南亚的AI布局进一步深化，有望获得当地政策支持。",
+      "analysis_points": [
+        "字节跳动从内容平台扩展到AI基础设施投资，在印尼建立数据中心。",
+        "对广告主，本地化AI基础设施可降低服务延迟，提升TikTok等产品的用户体验和广告效果。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IDNFinancials.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVFDalBBYzV3UnlDQVQzSjJXZGpXQ3hWekNSQ1QzaGVVWXlKdUdUTERicVFVaERQNkRXUUV4V0hjSzFwSEZyWGFiLUE4WUN5dUNRdFdkR3FYbHVIU3lTTUNLY2FYMmRYQzY5NzdEWGQ5cnhqaXBxY0RnUnlnM3V0QzViNWJwanNhaklfeUcwZDdkeGhhd1BudzhIN2E5NDZnN2J0Rk1TNlJQTndlVE5nUA?oc=5",
+      "local_life_hint": "印尼AI基础设施完善后，本地生活商家可更高效地使用TikTok广告和AI工具进行本地化营销。"
+    },
+    {
+      "title": "字节跳动出售游戏公司沐瞳科技，获6亿美元",
+      "explanation": "字节跳动以6亿美元将沐瞳科技出售给沙特Savvy Games Group，继续剥离非核心业务，聚焦AI和内容主业。此举释放资源用于AI研发。",
+      "analysis_points": [
+        "字节跳动从游戏业务收缩，集中资源投入AI和核心内容平台。",
+        "对广告业务，字节聚焦AI意味着更多资源投入广告技术，提升广告效果。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82YXh3T2U0dmh3Q2hkM1VENmczVDdOelhUaHBIN3h2ZWtEa3NELV9nSUlnaDFYLTQtUmFsejFmc0FURVJIX3pyRm0xZlFBSUxWSjVCX1JlX1N4dWdQeWMyN0xGeHVFdVlUUGN5cTB6RQ?oc=5",
+      "local_life_hint": "字节聚焦AI后，其广告平台（巨量引擎）可能获得更多AI技术赋能，本地生活商家可期待更智能的投放工具。"
+    },
+    {
+      "title": "豆包AI眼镜第二代曝光，字节转向轻量化硬件",
+      "explanation": "据报道，字节跳动豆包AI眼镜第一代被内部取消，但第二代正在开发中，转向轻量化设计。字节在AI硬件上持续探索，但策略更务实。",
+      "analysis_points": [
+        "字节从AI眼镜一代取消到二代研发，硬件策略从激进转向务实，注重轻量化和用户体验。",
+        "对广告主，AI眼镜作为新终端，未来可能提供AR广告等创新形式，但当前尚需观望。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "VR陀螺",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBEd2hvWFJLNy1GQVRySEg2VGt0R284V2RLYTN2RVFyamtDbzMtRE1sbWJaOXBKalBHMFM5Nm13OWE1Qlh3cTRZb1cxTQ?oc=5",
+      "local_life_hint": "AI眼镜若成功，可提供第一视角的本地生活推荐，但短期内对广告投放影响有限。"
+    },
+    {
+      "title": "火山引擎与卓越睿新合作，AI赋能智慧教学",
+      "explanation": "火山引擎与教育科技公司卓越睿新签署合作框架协议，共同开发AI智慧教学解决方案，包括智能备课、个性化学习等。豆包大模型进入教育行业。",
+      "analysis_points": [
+        "火山引擎从通用AI扩展到教育垂直场景，提供定制化教学AI。",
+        "对本地生活，教育场景的AI应用可借鉴到培训、知识付费等领域。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTOVRCbC1NOTY2Q01TdXJJS01DcmVoRFc1X0FMYW1yanlxQmk4SnB5R3MtWFhyWU5oS3lDTEFDQWVocERaODloOEFGWXlhYnl6VjlQaDAzQndqV0QtM21hTw?oc=5",
+      "local_life_hint": "教育AI合作模式可复制到本地生活培训场景，如餐饮员工培训、服务流程优化。"
+    },
+    {
+      "title": "抖音豆包拿下行业断层第一，用户规模领先",
+      "explanation": "报道称抖音豆包在AI应用用户规模上取得断层第一，远超其他竞品。这得益于抖音的庞大用户基础和AI功能整合。",
+      "analysis_points": [
+        "豆包借助抖音生态实现用户快速增长，成为国内最大AI应用之一。",
+        "对广告主，豆包的高用户覆盖意味着AI营销可触达海量用户，提升广告效果。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "电商派",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DdXp2dG1UR0ZWalZWM3EzTXlqZWpBNHJ1eVpPTFBxcG5oRERmTzRmLTRnU2QwSHZWNEgtZmhhNjAzVTEyQ1d0aEVIM1RwLWRXbXdsckRQRXNUZFg5T0J5eQ?oc=5",
+      "local_life_hint": "豆包的高用户规模为本地生活商家提供了AI营销的庞大潜在受众，可探索豆包内的广告形式。"
+    },
+    {
+      "title": "钉钉悟空、飞书、扣子等企业级AI智能体对比",
+      "explanation": "文章对比了钉钉悟空、飞书、WorkBuddy、扣子等企业级AI智能体，指出扣子（Coze）在易用性和生态整合上具有优势，适合中小企业快速搭建AI应用。",
+      "analysis_points": [
+        "扣子从开发平台升级为企业级AI智能体，支持低代码构建AI工作流。",
+        "对本地生活商家，扣子可快速搭建客服、营销等AI应用，降低技术门槛。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fd0xiN3VpVXdleHpLRWg5TGZIcldsMTZvOHJVNEhZVTFTY0x6c25Rb0ducXFMWEdvUzR0SmRIVS0tNUhyYVhxLUMzT2dlNzdkNjd6RWhubFAzZU9LV2htMV93?oc=5",
+      "local_life_hint": "扣子可帮助本地生活商家快速搭建AI客服、智能推荐系统，提升运营效率。"
     }
   ],
   "mode": "ai"
