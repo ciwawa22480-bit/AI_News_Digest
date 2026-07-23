@@ -146,30 +146,6 @@ def build_category_block(category, type_label, items, summary=""):
     ])
 
 
-def build_speak_button(editorial, overview):
-    """构造「🔊 播报摘要」按钮，把要朗读的文本安全地放进 data-speak。
-
-    朗读文本 = editorial_summary + overview 三维要点（尽量丰富，但受浏览器实现限制约 200-400 字更合适）。
-    使用 esc() 转义，避免引号/尖括号破坏 HTML。
-    """
-    parts = []
-    if editorial:
-        parts.append(str(editorial).strip())
-    if overview:
-        for key in ("new_products", "opinions", "ecosystem"):
-            for a in (overview.get(key) or []):
-                if a and str(a).strip():
-                    parts.append(str(a).strip())
-    text = " ".join(p for p in parts if p)
-    if not text:
-        return ""
-    # 收敛长度，避免长度过长导致朗读时间过久
-    if len(text) > 800:
-        text = text[:800]
-    return ('<button type="button" class="speak-btn" data-speak="'
-            + esc(text) + '" aria-label="播报摘要">🔊 播报摘要</button>')
-
-
 def build_commonality_html(commonality):
     """周报「共性提炼」板块：把 list[str] 渲染成有序列表；空则不显示。"""
     if not commonality:
@@ -254,21 +230,14 @@ def build_content_view(data):
     local_life_insights = data.get("local_life_insights", []) or []
     commonality = data.get("commonality", []) or []
 
-    speak_btn_html = build_speak_button(editorial, overview)
-
     editorial_html = ""
     if editorial:
         editorial_html = ('<div class="editorial">'
                           '<div class="editorial-head">'
                           '<span class="editorial-label">编辑导读</span>'
-                          + speak_btn_html +
                           '</div>'
                           '<div class="editorial-body">' + esc(editorial) + '</div>'
                           '</div>')
-    elif speak_btn_html:
-        # 兜底：即使没有 editorial_summary，也把播报按钮放出来（如果有 overview 可读）
-        editorial_html = ('<div class="editorial editorial-speak-only">'
-                          + speak_btn_html + '</div>')
 
     overview_html = build_overview_html(overview)
     commonality_html = build_commonality_html(commonality)
@@ -368,27 +337,29 @@ def build_archive_section(current_date=None, prefix=""):
 PAGE_CSS = """
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html, body { min-height: 100%; }
-body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #fafbff; color: #1a1a1a; line-height: 1.7; font-size: 14px; position: relative; overflow-x: hidden; }
-/* 低调科技感背景：淡网格 + 柔和径向光斑 + 极缓慢的位移动效 */
+body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #f7f9fc; color: #1a1a1a; line-height: 1.7; font-size: 14px; position: relative; overflow-x: hidden; }
+/* 浅色专业风底：柔和径向光晕做底，粒子由 #particle-bg canvas 叠加，无廉价网格 */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-color: #f7f9fc;
+  background-image:
+    radial-gradient(1200px 700px at 12% -5%, rgba(99,102,241,0.10) 0%, transparent 55%),
+    radial-gradient(1000px 620px at 100% 8%, rgba(56,189,248,0.08) 0%, transparent 55%),
+    radial-gradient(900px 560px at 88% 100%, rgba(255,195,0,0.07) 0%, transparent 55%);
+}
+/* 粒子背景 canvas：铺满视口、固定、置于内容下方 */
+#particle-bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
   pointer-events: none;
-  background-color: #fafbff;
-  background-image:
-    radial-gradient(circle at 15% 20%, rgba(99,102,241,0.055) 0px, transparent 42%),
-    radial-gradient(circle at 85% 75%, rgba(255,195,0,0.045) 0px, transparent 42%),
-    linear-gradient(rgba(99,102,241,0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(99,102,241,0.05) 1px, transparent 1px);
-  background-size: auto, auto, 34px 34px, 34px 34px;
-  background-position: 0 0, 0 0, 0 0, 0 0;
-  animation: techbg-shift 40s ease-in-out infinite alternate;
-}
-@keyframes techbg-shift {
-  0%   { background-position: 0 0, 0 0, 0 0, 0 0; }
-  100% { background-position: 40px 20px, -30px -20px, 17px 0, 0 17px; }
+  display: block;
 }
 .header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); backdrop-filter: blur(4px); position: relative; }
 .header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
@@ -410,13 +381,7 @@ body::before {
 .editorial { padding: 16px 20px; background: #f8fafc; border-left: 4px solid #4f46e5; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 15px; color: #1e293b; line-height: 1.85; }
 .editorial-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
 .editorial-body { }
-.editorial-speak-only { display: flex; justify-content: flex-end; padding: 8px 12px; }
 .editorial-label { display: inline-block; font-weight: 700; color: #4f46e5; margin-right: 8px; }
-/* 播报按钮：克制的胶囊风格，参考 .new-badge */
-.speak-btn { display: inline-flex; align-items: center; gap: 4px; padding: 3px 12px; border-radius: 12px; font-size: 12px; font-weight: 600; color: #4338ca; background: #eef2ff; border: 1px solid #c7d2fe; cursor: pointer; transition: background 0.18s, color 0.18s, border-color 0.18s; line-height: 1.6; font-family: inherit; white-space: nowrap; }
-.speak-btn:hover { background: #e0e7ff; }
-.speak-btn:disabled { color: #94a3b8; background: #f1f5f9; border-color: #e2e8f0; cursor: not-allowed; }
-.speak-btn.speaking { color: #b91c1c; background: #fef2f2; border-color: #fecaca; }
 /* Overview 三维结论 */
 .overview-section { margin-bottom: 24px; padding: 20px 22px; background: linear-gradient(135deg,#eef2ff 0%,#f5f3ff 100%); border: 1px solid #e0e7ff; border-radius: 12px; }
 .overview-title { font-size: 16px; font-weight: 700; color: #3730a3; margin-bottom: 14px; display: flex; align-items: center; }
@@ -535,6 +500,7 @@ def render_page(title_suffix, header_date_line, body_html, toggle_html="",
 <style>""" + PAGE_CSS + """</style>
 </head>
 <body>
+<canvas id="particle-bg" aria-hidden="true"></canvas>
 <div class="header">
 """ + ROO_SVG + """
 <h1>AI 商业日报</h1>
@@ -551,92 +517,126 @@ def render_page(title_suffix, header_date_line, body_html, toggle_html="",
 数据来源：Google News（中英）/ 36氪 / IT之家 / 爱范儿 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
 生成于 """ + gen_time + """
 </div>
-""" + toggle_html_speak_script() + """
+""" + particle_bg_script() + """
 """ + switch_script + """
 </body>
 </html>"""
 
 
-def toggle_html_speak_script():
-    """浏览器原生 Web Speech API 的播报/停止 toggle 脚本。
+def particle_bg_script():
+    """浅色专业风的 canvas 粒子背景。
 
-    - 遍历所有 .speak-btn，click 时读取 data-speak 属性文本
-    - 优先选择 zh 语音
-    - 再次点击当前按钮停止；点击其他按钮先停止旧的再朗读新的
-    - 朗读结束/错误自动复位按钮
-    - 不支持 speechSynthesis 时，按钮禁用并给出提示
+    设计目标：
+    - 浅色、克制、专业，不喧宾夺主（低不透明度、柔和靛蓝/琥珀点缀色）；
+    - 轻量粒子在慢速漂移，邻近粒子间用极淡连线，形成"科技网络"质感；
+    - 粒子数量随屏幕面积自适应并设上限，移动端进一步降密度；
+    - 尊重 prefers-reduced-motion，减少动态；
+    - devicePixelRatio 适配，避免高分屏模糊；resize 时重建。
     """
     return """<script>
 (function(){
-  var btns = document.querySelectorAll('.speak-btn');
-  if (!btns.length) return;
-  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-    btns.forEach(function(b){
-      b.disabled = true;
-      b.textContent = '⚠ 浏览器不支持语音';
-      b.title = '当前浏览器不支持 Web Speech API';
-    });
-    return;
-  }
-  var synth = window.speechSynthesis;
-  var currentBtn = null;
-  var voicesCache = [];
+  var canvas = document.getElementById('particle-bg');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = false;
+  try {
+    reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch(e) {}
 
-  function loadVoices(){
-    try { voicesCache = synth.getVoices() || []; } catch(e) { voicesCache = []; }
-  }
-  loadVoices();
-  if (typeof synth.onvoiceschanged !== 'undefined') {
-    synth.addEventListener('voiceschanged', loadVoices);
+  var dpr = Math.max(1, Math.min(window.devicePixelRatio || 1, 2));
+  var W = 0, H = 0, particles = [], raf = null;
+  // 浅色专业配色：靛蓝为主，少量美团黄点缀
+  var COLORS = ['99,102,241', '99,102,241', '99,102,241', '255,195,0'];
+
+  function isMobile(){ return window.innerWidth <= 768; }
+
+  function particleCount(){
+    var area = window.innerWidth * window.innerHeight;
+    var base = Math.round(area / 16000); // 密度
+    if (isMobile()) base = Math.round(base * 0.5);
+    return Math.max(28, Math.min(base, 90));
   }
 
-  function pickChineseVoice(){
-    for (var i=0; i<voicesCache.length; i++) {
-      var lang = (voicesCache[i].lang || '').toLowerCase();
-      if (lang.indexOf('zh') !== -1) return voicesCache[i];
+  function rand(min, max){ return Math.random() * (max - min) + min; }
+
+  function makeParticle(){
+    return {
+      x: Math.random() * W,
+      y: Math.random() * H,
+      vx: rand(-0.18, 0.18),
+      vy: rand(-0.18, 0.18),
+      r: rand(1.1, 2.6),
+      c: COLORS[Math.floor(Math.random() * COLORS.length)],
+      a: rand(0.35, 0.75)
+    };
+  }
+
+  function build(){
+    W = canvas.clientWidth;
+    H = canvas.clientHeight;
+    canvas.width = Math.floor(W * dpr);
+    canvas.height = Math.floor(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = particleCount();
+    particles = [];
+    for (var i = 0; i < n; i++) particles.push(makeParticle());
+  }
+
+  var LINK_DIST = 128;
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    // 连线：邻近粒子间极淡靛蓝线，营造网络质感
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      for (var j = i + 1; j < particles.length; j++) {
+        var q = particles[j];
+        var dx = p.x - q.x, dy = p.y - q.y;
+        var d2 = dx * dx + dy * dy;
+        if (d2 < LINK_DIST * LINK_DIST) {
+          var alpha = (1 - Math.sqrt(d2) / LINK_DIST) * 0.16;
+          ctx.strokeStyle = 'rgba(99,102,241,' + alpha.toFixed(3) + ')';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(q.x, q.y);
+          ctx.stroke();
+        }
+      }
     }
-    return null;
+    // 粒子点
+    for (var k = 0; k < particles.length; k++) {
+      var pt = particles[k];
+      ctx.beginPath();
+      ctx.fillStyle = 'rgba(' + pt.c + ',' + pt.a.toFixed(2) + ')';
+      ctx.arc(pt.x, pt.y, pt.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
   }
 
-  function resetBtn(b){
-    if (!b) return;
-    b.textContent = '🔊 播报摘要';
-    b.classList.remove('speaking');
-  }
-  function stopAll(){
-    try { synth.cancel(); } catch(e){}
-    if (currentBtn) resetBtn(currentBtn);
-    currentBtn = null;
+  function step(){
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < -20) p.x = W + 20; else if (p.x > W + 20) p.x = -20;
+      if (p.y < -20) p.y = H + 20; else if (p.y > H + 20) p.y = -20;
+    }
+    draw();
+    raf = requestAnimationFrame(step);
   }
 
-  btns.forEach(function(btn){
-    btn.addEventListener('click', function(){
-      var text = btn.getAttribute('data-speak') || '';
-      text = text.replace(/\\s+/g, ' ').trim();
-      if (!text) return;
-      // 再次点击当前按钮 -> 停止
-      if (currentBtn === btn) { stopAll(); return; }
-      // 切换到另一个按钮 -> 先停旧的
-      if (currentBtn) stopAll();
-      var u = new SpeechSynthesisUtterance(text);
-      u.lang = 'zh-CN';
-      u.rate = 1.0;
-      u.pitch = 1.0;
-      // 语音列表在部分浏览器上是异步加载的
-      if (!voicesCache.length) loadVoices();
-      var v = pickChineseVoice();
-      if (v) u.voice = v;
-      u.onend = function(){ if (currentBtn === btn) { resetBtn(btn); currentBtn = null; } };
-      u.onerror = function(){ if (currentBtn === btn) { resetBtn(btn); currentBtn = null; } };
-      currentBtn = btn;
-      btn.textContent = '⏸ 停止播报';
-      btn.classList.add('speaking');
-      try { synth.speak(u); } catch(e) { resetBtn(btn); currentBtn = null; }
-    });
+  var resizeTimer = null;
+  window.addEventListener('resize', function(){
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(build, 200);
   });
 
-  // 离开页面时停止朗读，避免后台继续读
-  window.addEventListener('beforeunload', function(){ try { synth.cancel(); } catch(e){} });
+  build();
+  if (reduce) {
+    draw(); // 尊重减少动效偏好：只画一帧静态粒子
+  } else {
+    step();
+  }
 })();
 </script>"""
 
