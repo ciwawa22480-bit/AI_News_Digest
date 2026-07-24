@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 商业日报 · 2026年07月19日</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #f7f9fc; color: #1a1a1a; line-height: 1.7; font-size: 14px; position: relative; overflow-x: hidden; }
+/* 浅色专业风底：柔和径向光晕做底，粒子由 #particle-bg canvas 叠加，无廉价网格 */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-color: #f7f9fc;
+  background-image:
+    radial-gradient(1200px 700px at 12% -5%, rgba(99,102,241,0.10) 0%, transparent 55%),
+    radial-gradient(1000px 620px at 100% 8%, rgba(56,189,248,0.08) 0%, transparent 55%),
+    radial-gradient(900px 560px at 88% 100%, rgba(255,195,0,0.07) 0%, transparent 55%);
+}
+/* 粒子背景 canvas：铺满视口、固定、置于内容下方 */
+#particle-bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  display: block;
+}
+.header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); backdrop-filter: blur(4px); position: relative; }
+.header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
+.header .subtitle { font-size: 13px; color: #4f46e5; font-weight: 500; margin-bottom: 6px; }
+.header .date-line { font-size: 14px; color: #666; }
+.header .mode-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: #f0f9ff; color: #0369a1; margin-left: 8px; }
+.header .back-link { display: inline-block; margin-top: 10px; font-size: 13px; color: #4f46e5; text-decoration: none; }
+.header .back-link:hover { text-decoration: underline; }
+/* 美团黄袋鼠吉祥物：header 右上角点缀，缓慢上下浮动 */
+.roo-mascot { position: absolute; top: 22px; right: 28px; width: 52px; height: 52px; animation: roo-hop 3.6s ease-in-out infinite; pointer-events: none; filter: drop-shadow(0 2px 4px rgba(255,195,0,0.28)); }
+@keyframes roo-hop {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+.toggle-bar { padding: 12px 40px 0; display: flex; gap: 0; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); }
+.tab { padding: 8px 24px; border: none; background: none; font-size: 14px; color: #666; cursor: pointer; border-bottom: 2px solid transparent; font-weight: 500; }
+.tab.active { color: #4f46e5; border-bottom-color: #4f46e5; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 40px; background: transparent; }
+.editorial { padding: 16px 20px; background: #f8fafc; border-left: 4px solid #4f46e5; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 15px; color: #1e293b; line-height: 1.85; }
+.editorial-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+.editorial-body { }
+.editorial-label { display: inline-block; font-weight: 700; color: #4f46e5; margin-right: 8px; }
+/* Overview 三维结论 */
+.overview-section { margin-bottom: 24px; padding: 20px 22px; background: linear-gradient(135deg,#eef2ff 0%,#f5f3ff 100%); border: 1px solid #e0e7ff; border-radius: 12px; }
+.overview-title { font-size: 16px; font-weight: 700; color: #3730a3; margin-bottom: 14px; display: flex; align-items: center; }
+.overview-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #6366f1; border-radius: 3px; margin-right: 10px; }
+.ov-block { margin-bottom: 14px; }
+.ov-block:last-child { margin-bottom: 0; }
+.ov-head { font-size: 14px; font-weight: 600; color: #4338ca; margin-bottom: 6px; }
+.ov-hint { font-size: 11px; font-weight: 400; color: #818cf8; margin-left: 8px; }
+.ov-list { margin: 0 0 0 20px; padding: 0; list-style: disc; }
+.ov-list li { font-size: 13.5px; color: #334155; line-height: 1.7; margin-bottom: 4px; }
+/* 共性提炼板块（周报）：低调的浅青底 */
+.commonality-section { margin-bottom: 24px; padding: 18px 22px; background: linear-gradient(135deg,#ecfeff 0%,#f0f9ff 100%); border: 1px solid #bae6fd; border-radius: 12px; }
+.commonality-title { font-size: 16px; font-weight: 700; color: #075985; margin-bottom: 4px; display: flex; align-items: center; }
+.commonality-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #0ea5e9; border-radius: 3px; margin-right: 10px; }
+.commonality-tip { font-size: 12px; color: #0369a1; margin-bottom: 10px; }
+.commonality-list { margin: 0 0 0 22px; padding: 0; list-style: disc; }
+.commonality-list li { font-size: 13.5px; color: #0c4a6e; line-height: 1.7; margin-bottom: 4px; }
+.signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
+.stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
+.new-badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; cursor: help; }
+.cat-summary { font-size: 13px; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 8px 12px; border-radius: 0 6px 6px 0; margin-bottom: 14px; line-height: 1.7; }
+.insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
+.insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
+.insights-title::before { content: ""; display: inline-block; width: 5px; height: 18px; background: #f59e0b; border-radius: 3px; margin-right: 10px; }
+.insights-intro { font-size: 13.5px; color: #92400e; line-height: 1.8; margin-bottom: 16px; }
+.takeaway-list { display: flex; flex-direction: column; gap: 12px; }
+.takeaway { background: #fffdf7; border: 1px solid #fde68a; border-radius: 8px; padding: 12px 14px; }
+.tw-base { font-size: 13px; color: #7c2d12; line-height: 1.7; margin-bottom: 6px; }
+.tw-borrow { font-size: 13.5px; color: #78350f; font-weight: 500; line-height: 1.75; }
+.tw-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 4px; margin-right: 8px; vertical-align: middle; }
+.tw-tag-base { background: #fef3c7; color: #b45309; }
+.tw-tag-borrow { background: #f59e0b; color: #fff; }
+.insights-list { list-style: none; padding: 0; margin: 0; }
+.insight-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #78350f; line-height: 1.7; }
+.insight-item:last-child { margin-bottom: 0; }
+.insight-num { flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #f59e0b; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.insight-text { flex: 1; font-weight: 500; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
+.dot-high { background: #ef4444; }
+.dot-medium { background: #f59e0b; }
+.dot-low { background: #cbd5e1; }
+.digest-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; }
+.category-row td { padding: 16px 12px; vertical-align: top; border-top: 1px solid #e5e7eb; }
+.col-type { width: 70px; text-align: center; }
+.col-category { width: 90px; text-align: center; }
+.col-content { padding-left: 20px !important; }
+.type-label { font-size: 12px; color: #64748b; font-weight: 500; white-space: nowrap; }
+.cat-label { font-size: 13px; font-weight: 600; color: #1e293b; white-space: nowrap; }
+.news-item { margin-bottom: 18px; }
+.news-item:last-child { margin-bottom: 0; }
+.item-main { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 4px; }
+.item-main .dot { margin-top: 6px; }
+.item-link { color: #1e40af; text-decoration: none; font-weight: 600; font-size: 14px; }
+.item-link:hover { text-decoration: underline; }
+.item-title-text { font-weight: 600; font-size: 14px; color: #1e293b; }
+.item-explanation { color: #374151; font-size: 13.5px; margin: 4px 0 0 14px; }
+.item-source { color: #94a3b8; font-size: 11px; }
+.analysis-points { margin: 6px 0 0 34px; padding: 0; list-style: disc; }
+.analysis-points li { font-size: 13px; color: #4b5563; line-height: 1.6; margin-bottom: 3px; }
+.local-hint { margin: 6px 0 0 34px; padding: 4px 10px; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 4px; font-size: 12px; color: #0f766e; }
+.local-tag { font-weight: 600; margin-right: 6px; color: #14b8a6; }
+.archive-section { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e5e7eb; }
+.archive-title { font-size: 15px; font-weight: 600; color: #374151; margin-bottom: 4px; }
+.archive-tip { font-size: 12px; color: #94a3b8; margin-bottom: 12px; }
+.archive-month { margin-bottom: 12px; }
+.archive-month h4 { font-size: 13px; color: #64748b; margin-bottom: 6px; }
+.archive-week { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+.week-label { font-size: 12px; color: #94a3b8; min-width: 80px; }
+.date-link { font-size: 12px; color: #6366f1; text-decoration: none; padding: 2px 8px; border-radius: 4px; background: #f5f3ff; }
+.date-link:hover { background: #ede9fe; }
+.date-link-active { background: #6366f1; color: #fff; }
+.footer { padding: 24px 40px; text-align: center; color: #94a3b8; font-size: 11px; border-top: 1px solid #f1f5f9; margin-top: 32px; background: rgba(255,255,255,0.6); }
+.empty { text-align: center; padding: 60px; color: #94a3b8; }
+@media (max-width: 768px) {
+  .header, .container, .footer { padding-left: 16px; padding-right: 16px; }
+  .toggle-bar { padding-left: 16px; }
+  .col-type, .col-category { display: none; }
+  .col-content { padding-left: 0 !important; }
+  .category-row td { padding: 12px 0; }
+  .roo-mascot { width: 40px; height: 40px; top: 16px; right: 12px; }
+  .editorial-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+</style>
+</head>
+<body>
+<canvas id="particle-bg" aria-hidden="true"></canvas>
+<div class="header">
+<svg class="roo-mascot" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="美团黄袋鼠">
+<defs>
+<linearGradient id="rooGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0" stop-color="#FFD100"/>
+<stop offset="1" stop-color="#FFC300"/>
+</linearGradient>
+</defs>
+<!-- 耳朵 -->
+<path fill="#FFC300" d="M35 7c1-1 3-1 3 1 0 3-1 6-3 8-2 1-3 0-3-2 0-2 1-5 3-7z"/>
+<path fill="#FFC300" d="M41 9c1-1 3 0 3 2 0 3-1 5-3 7-1 1-3 1-3-1 0-3 1-6 3-8z"/>
+<!-- 头 -->
+<circle cx="41" cy="20" r="7" fill="url(#rooGrad)"/>
+<!-- 眼睛 -->
+<circle cx="43" cy="19" r="1.4" fill="#222"/>
+<!-- 身体+尾巴（一笔剪影） -->
+<path fill="url(#rooGrad)" d="M36 26c-6 0-11 4-13 10-1 3-3 6-6 8-2 2-4 3-5 5-1 1 0 3 2 3h13c2 0 3-1 3-3 0-2 1-4 3-5 3-2 6-2 9-2 3 0 5-2 5-5 0-2-1-4-3-5l-3-1c-2-1-3-3-5-5z"/>
+<!-- 前爪 -->
+<path fill="#E6A800" d="M31 33c1-1 3-1 4 0 1 1 1 3 0 3l-4 1c-1 0-1-3 0-4z"/>
+</svg>
+<h1>AI 商业日报</h1>
+<div class="subtitle">字节系 AI 商业化动态 · DeepSeek 精选</div>
+<div class="date-line">2026年07月19日 周日 <span class="mode-badge">DeepSeek AI 精选</span></div>
+<a href="../index.html" class="back-link">← 返回今日日报</a>
+</div>
+
+<div class="container">
+<div class="editorial"><div class="editorial-head"><span class="editorial-label">编辑导读</span></div><div class="editorial-body">今日AI行业核心动态围绕三大主线：一是苹果与阿里、百度达成Apple Intelligence中国区合作，阿里Qwen模型获选，带动阿里、百度股价上涨，标志着中国大模型首次进入全球顶级消费电子供应链；二是字节跳动拟投入高达700亿美元资本开支，并传出涉足自动驾驶，同时TikTok在美国获司法部解禁，显示其AI扩张与合规双线并进；三是AI视频赛道半年吸金超37亿美元，快手可灵估值逼近快手市值，字节系主导格局初现。此外，Anthropic营收从10亿飙升至470亿美元，Meta拟向其出租算力，折射出AI基础设施租赁商业模式兴起。对本地生活外投团队而言，大模型能力嵌入终端设备（如Apple Intelligence）将催生新的AI原生广告形态，而视频生成模型的成熟则可能重塑素材生产与投放效率。</div></div><section class="overview-section"><h3 class="overview-title">本期要点概述</h3><div class="ov-block"><div class="ov-head">🚀 新产品功能<span class="ov-hint">哪个公司有什么新功能、具体怎么实现</span></div><ul class="ov-list"><li>阿里发布Qwen3.8模型（2.4T参数）并开源，同时推出企业AI平台&#x27;Meoo Team&#x27;，聚焦电商与营销协作，技术路径为超大规模MoE架构，面向企业客户。</li><li>面壁智能发布MiniCPM5-2B端侧模型，2B参数在4B以下模型评测中全球第一，原生支持混合思考与512K上下文，已完成9款芯片适配，面向端侧部署场景。</li><li>NVIDIA发布Nemotron 3 Embed系列开源embedding模型，8B版本在RTEB基准排名第一，1B-NVFP4版本在Blackwell上吞吐量翻倍，面向检索增强生成等场景。</li></ul></div><div class="ov-block"><div class="ov-head">💬 网上观点<span class="ov-hint">报道/分析师的新观点与论据</span></div><ul class="ov-list"><li>VentureBeat调研101家企业发现，多数部署的&#x27;智能体&#x27;仍是聊天机器人包装，真正的多步执行能力不足，企业智能体编排正向模型提供商平台（如Claude）集中。</li><li>分析师认为腾讯在企业AI智能体领域已取得早期领先，其云服务扩展至印尼市场，验证了中国云厂商在东南亚的AI落地能力。</li><li>Morningstar分析指出，OpenAI若推迟IPO将向投资者传递其商业化节奏不及预期的信号，结合苹果诉讼与员工政治分歧，公司治理风险上升。</li></ul></div><div class="ov-block"><div class="ov-head">🌐 行业生态<span class="ov-hint">基于这些文章看到的行业态势</span></div><ul class="ov-list"><li>AI基础设施租赁模式兴起：Meta拟向Anthropic出租算力（潜在两年100亿美元），Meta自身AI计算可能成为百亿美元级副业，显示算力资产化趋势。</li><li>美国特朗普政府加强AI模型发布管控，科技巨头自主决定权被削弱，Anthropic和OpenAI此前自行决定模型访问对象的模式面临监管收紧。</li><li>中国AI视频赛道半年融资超37亿美元，字节系主导，快手可灵估值逼近快手市值，资本向头部视频生成公司集中。</li></ul></div></section><div class="signal-legend">信号等级：<span class="dot dot-high"></span>高影响 / <span class="dot dot-medium"></span>中影响 / <span class="dot dot-low"></span>信息流</div><div class="stats">共 18 条精选 · 5 条高影响</div><table class="digest-table"><tbody><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">大厂动向</span></td><td class="col-content"><div class="cat-summary">苹果与阿里、百度达成Apple Intelligence中国合作，阿里Qwen模型获选，带动股价上涨；字节跳动拟投入700亿美元资本开支，并传出涉足自动驾驶，TikTok获美国司法部解禁；腾讯云将AI智能体服务扩展至印尼，分析师认为其已取得企业AI智能体早期领先；阿里发布Qwen3.8（2.4T参数）并开源，同时推出企业AI平台&#x27;Meoo Team&#x27;。</div><div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOZVV1M3NBV3JZb05FUWZ4TTNoZVlXZS13OHdlUnI3YWlrZDQ3SkdnN0hsc2xZSm90Tm9nVV90OFhTdkpmczNLV1hCOGc4UWE2MzBkZ2F5OFh0QkhBa1ZuSWxJTTRTX0JRTWN4YlpsNGI5bkxPX05jeERBazNVTnB1MmhNRnBBNEp5WFEzWkZoc1EtNkMwWl9RaWdkQlczVVZlZHE1czFsRQ?oc=5" target="_blank" class="item-link">苹果Apple Intelligence中国合作选定阿里Qwen与百度</a><span class="item-source">(TechCrunch)</span></div><div class="item-explanation">苹果Apple Intelligence获准在中国推出，与阿里和百度合作，阿里Qwen模型成为核心底座。这是中国大模型首次进入全球顶级消费电子供应链，标志着中国AI能力获得国际认可。</div><ul class="analysis-points"><li>阿里Qwen模型被苹果选为Apple Intelligence中国区基础模型，意味着Qwen在中文理解和合规方面达到苹果严苛标准。</li><li>对本地生活商家：未来苹果设备上的AI功能（如Siri、搜索）将调用Qwen，可能催生基于苹果生态的AI原生广告形态，商家需关注苹果搜索广告与AI结合的投放机会。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>苹果生态广告位可能接入AI能力，商家可探索基于Apple Intelligence的个性化推荐和互动广告。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNnQ3Vy15c0UwS2lVYkVEd3NOQ1lMQnpfOThSX1JaMUFqNXBfTzhGLXY1eDE1SWpjRjV3T2w3dzJpWk5RbC0wTXFGVk9pTGh3MmNMQjY5bU9TWmowNUZNaXFPSUZUMDl6MmJLWG5odFNlbTJfZjRQUWlyZVRCYnpTb2JRSG4wUlVON2tXa1FLbzlITzR6X3IwcERPUEJFOG9tamh4TXJnMGNhdw?oc=5" target="_blank" class="item-link">字节跳动拟投入700亿美元资本开支，AI扩张加速</a><span class="item-source">(MSN)</span></div><div class="item-explanation">据报告，字节跳动考虑高达700亿美元的资本开支，主要用于AI基础设施。同时传出涉足自动驾驶，显示其AI战略从内容向硬科技延伸。</div><ul class="analysis-points"><li>700亿美元资本开支规模远超多数科技公司，主要用于AI数据中心和芯片，字节跳动正构建全球最大AI算力池之一。</li><li>对本地生活外投：字节算力优势将支撑更复杂的广告模型和实时竞价系统，可能提升抖音/头条广告的精准度和投放效率，商家需关注其广告产品迭代。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>字节算力扩张将提升广告系统能力，商家可期待更精准的定向和更低的投放成本。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://aihot.virxact.com/items/cmrrjaxlv030jbihklywu3xy6" target="_blank" class="item-link">阿里发布Qwen3.8：2.4T参数开源模型，性能媲美前沿</a><span class="item-source">(AI HOT)</span></div><div class="item-explanation">阿里发布Qwen3.8模型，拥有2.4T参数，即将开源权重，预览版已在阿里云平台上线。该模型自称仅次于Fable 5，是目前最强开源模型之一。</div><ul class="analysis-points"><li>Qwen3.8参数规模达2.4T，采用MoE架构，性能接近闭源前沿模型，开源策略将推动社区应用。</li><li>对本地生活商家：开源模型可本地化部署，商家可基于Qwen3.8构建定制化客服、推荐系统，降低AI使用成本。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>开源大模型降低AI应用门槛，本地生活商家可自建AI客服或营销文案生成工具。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxPeF8yV29Gd1hJei1leWtRTXJ5VXBEeVpxeWs3WjZVeFZiVGZUcVdhRUZJN2lmUzFKQlAwMUhvUTF6cWV0VFJpa2ktUG1fRm5yMVc4NWMxYUNNb19LVjhsSGpoQnRaMjRoZkZrX3ZVS2xpQzdFR0Jtb3dtbUg3ekZlUksxcVdvR2VldGczYVM5RGxCS29JQVBTQ084Z2NIVlJ0VHVEYVp5OGhISXlFblR3N25XUnR0RW1kS1VLelhKTGltN1NKeVFyWDF6b1dobnRwWHBpMUNFRG5ycjR6bUpzYk5BaTF1X3RPeDdabFNxY1JkblE?oc=5" target="_blank" class="item-link">腾讯云AI智能体服务扩展至印尼，加速企业AI采用</a><span class="item-source">(PR Newswire)</span></div><div class="item-explanation">腾讯云将AI智能体解决方案扩展至印尼市场，帮助当地企业快速部署AI应用。分析师认为腾讯在企业AI智能体领域已取得早期领先。</div><ul class="analysis-points"><li>腾讯云AI智能体套件包括对话、流程自动化等能力，面向东南亚企业，显示中国云厂商出海AI服务。</li><li>对本地生活外投：腾讯智能体能力可应用于广告投放自动化，如智能出价、创意优化，商家可关注腾讯广告平台AI功能升级。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>腾讯智能体能力可赋能广告投放自动化，商家可期待更智能的广告管理工具。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un" target="_blank" class="item-link">NVIDIA发布Nemotron 3 Embed，8B版本排名第一</a><span class="item-source">(AI HOT)</span></div><div class="item-explanation">NVIDIA发布Nemotron 3 Embed系列开源embedding模型，8B版本在RTEB基准以78.46 NDCG@10排名第一，1B-NVFP4版本在Blackwell上吞吐量翻倍，精度保留99.5%。</div><ul class="analysis-points"><li>该系列模型专为检索增强生成（RAG）设计，支持32K tokens上下文，可提升搜索和推荐质量。</li><li>对本地生活外投：embedding模型可改善广告相关性匹配，如用户意图与商家信息的语义匹配，提升点击率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>高质量embedding模型可提升广告定向的语义理解能力，实现更精准的匹配。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-low" title="信息流"></span><a href="https://www.cnbeta.com.tw/articles/movie/1569338.htm" target="_blank" class="item-link">TikTok测试AI肖像检测工具，协助识别深度伪造</a><span class="item-source">(cnbeta)</span></div><div class="item-explanation">TikTok正在小范围测试AI肖像检测工具，帮助创作者识别其肖像是否被AI未经授权使用，这是平台应对深度伪造的实质性举措。</div><ul class="analysis-points"><li>该工具可检测AI生成的肖像内容，保护创作者权益，TikTok在内容安全上迈出一步。</li><li>对本地生活外投：广告主使用AI生成素材时需注意合规，避免侵权，平台工具可帮助审核素材真实性。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>AI生成广告素材需标注或检测，商家应确保合规，避免法律风险。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9RNk5jRzE2UmRHQy04UTQ2bU1FVWdxZ25fNDVRTklyNmpYSm1HTUxySk43dHVWSW42VnRhRjU4VkxZVkw0LXZwdW9iY2pTUHVOT0QzZmwzV0dOSlFQaWR6NFJ3QmRZM0tJMDhoMzRWVGI4WEVuT2c?oc=5" target="_blank" class="item-link">阿里推出企业AI平台&#x27;Meoo Team&#x27;，聚焦电商营销协作</a><span class="item-source">(finance.biggo.com)</span></div><div class="item-explanation">阿里在WAIC上发布企业AI平台&#x27;Meoo Team&#x27;，面向电商和营销协作场景，提供AI驱动的团队协作工具，旨在提升营销效率。</div><ul class="analysis-points"><li>Meoo Team整合AI能力到电商营销工作流，如自动生成营销文案、分析数据、协同任务。</li><li>对本地生活外投：类似平台可帮助商家自动化营销流程，外投团队可借鉴其AI协作模式，提升广告运营效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>AI协作平台可提升广告团队效率，商家可探索类似工具优化营销流程。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-low" title="信息流"></span><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5LalhWbkU4OHlodTRtTEdmYlNSdTdTNVlEQWxoNFNPVGhmTmlkREpRQlc1NHZFeTZob0V3NFFQY1ItQVZpYWdLUU1nSmE4WHBIWmtRZEFHd3VtdGR0ajZiakJRYlM0MFZWa0xjd0tnaEM?oc=5" target="_blank" class="item-link">阿里Qwen-Audio TTS模型登顶语音评测榜首</a><span class="item-source">(Crypto Briefing)</span></div><div class="item-explanation">阿里Qwen-Audio TTS模型在Speech Arena排行榜上取得第一，显示阿里在多模态语音生成领域的实力，可用于语音交互和内容生成。</div><ul class="analysis-points"><li>Qwen-Audio TTS在自然度、清晰度等指标上领先，支持多种语音风格，可应用于智能客服、语音广告。</li><li>对本地生活外投：高质量TTS可生成逼真的语音广告，提升音频广告体验，商家可探索语音交互式广告。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>高质量TTS可提升语音广告效果，商家可考虑在音频平台投放AI生成的语音广告。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">初创动向</span></td><td class="col-content"><div class="cat-summary">Anthropic营收从10亿飙升至470亿美元，估值9650亿美元，同时与Meta洽谈两年最高100亿美元的算力租赁；Nvidia投资的Fireworks估值达175亿美元，聚焦低成本AI模型；前字节跳动高管创业挑战前东家；OpenAI研究员Miles Wang洽谈成立20亿美元估值的AI药物发现初创。</div><div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTFBudUdSb0xVNVdTZ2dwa1ZneTdUUFNSV3RQZFJ3Y3lzc2JBY29wTVdFQ2pvV0E2TzFycnhnRUVmdktuaEo2dkROMmU1RE43QldkUEI1SWRFYi1ET1NLNnlGdXJ0bFZ2N2RhX2V4SFZkNUhiNkZrUnRzR1JqOGdTdw?oc=5" target="_blank" class="item-link">Anthropic营收从10亿飙升至470亿美元，估值近万亿</a><span class="item-source">(FourWeekMBA)</span></div><div class="item-explanation">Anthropic在17个月内年化营收从10亿美元增至470亿美元，估值达9650亿美元，成为AI领域增长最快的公司之一，其Claude模型在企业市场表现强劲。</div><ul class="analysis-points"><li>Anthropic营收爆发式增长，主要来自企业客户对Claude的采用，证明大模型企业订阅模式可行。</li><li>对本地生活外投：Claude在企业智能体领域的领先地位可能催生新的广告技术栈，商家可关注基于Claude的营销自动化工具。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>Claude的企业采用率表明，AI助手在营销和客户服务领域有巨大潜力，本地生活平台可考虑集成类似能力。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod" target="_blank" class="item-link">MiniCPM5-2B发布：端侧模型性能全球第一</a><span class="item-source">(AI HOT)</span></div><div class="item-explanation">面壁智能联合OpenBMB发布MiniCPM5-2B，以2B参数在4B以下模型评测中取得最高分，原生支持混合思考与512K上下文，已完成9款芯片适配，即将开源。</div><ul class="analysis-points"><li>MiniCPM5-2B在端侧模型性能上超越Qwen3.5-2B等竞品，支持混合思考（快速与深度推理结合），适合手机等设备。</li><li>对本地生活外投：端侧模型可在用户设备上实时处理广告请求，降低延迟和云端成本，提升广告个性化体验。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>端侧AI模型可支持离线广告推荐，减少网络依赖，提升用户体验。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNRlRKeDJCZWhSbUxXbTV6dTZPeUhPZ3FiN0MzV1pnVXM3NXAzRjRoTVJYSWhxVW0tNGctUVY4QzRIT3lTMUlWRHlNeTFubW11OTdMNHFEd09GMWxHcGRMVkJNcWlIS2I3bFZFVkpoWnNYUzJFOU51ZEprM3RGdE13SVRB0gGHAUFVX3lxTE1YWm5zQU5aTlhaSm10UEJPdENLSTVMTzBuQU5lY0xNX2hpNXFrTERPRXF4OHM3VE9NRElXcl9xQU94ODl2SG1rejVONUFUbnF6eTZtWGcydnV5Y1R2bTd0VHFzLWY1SEJTbFJNbmN5RGZsV1dGSXNnZDRSYnU4a2YwOU9WcGxIYw?oc=5" target="_blank" class="item-link">Nvidia投资Fireworks估值达175亿美元，聚焦低成本AI模型</a><span class="item-source">(CNBC)</span></div><div class="item-explanation">Nvidia投资的AI初创Fireworks估值达175亿美元，专注于提供低成本AI模型推理服务，帮助企业降低AI部署成本。</div><ul class="analysis-points"><li>Fireworks通过优化推理效率降低模型调用成本，吸引企业客户，Nvidia的投资显示其布局AI推理生态。</li><li>对本地生活外投：低成本推理服务可降低广告系统调用大模型的成本，使更多中小商家负担得起AI广告优化。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>低成本AI推理使广告系统更经济地使用大模型，商家可受益于更智能的投放优化。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">生态动向</span></td><td class="col-content"><div class="cat-summary">AI视频赛道半年吸金超37亿美元，字节系主导，快手可灵估值逼近快手市值；美国司法部解除联邦雇员使用TikTok禁令；特朗普政府加强AI模型发布管控；苹果起诉OpenAI，指控其通过挖角获取商业机密，约40名前员工收到律师函。</div><div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE85NC0zYXZSZUIwc05PaHdBcWN3NHc2OWEzcG5MRlVzbWQzTDBMTDE3Mko4bzRzNFc5WUdHclRkWFBqUmRtREpyenVvc3VRTWV6RDFOM291U0k2RXdUTVlBZUtsdGtlXy1nLTg1NmRSd0pZdVRhTHc?oc=5" target="_blank" class="item-link">AI视频赛道半年融资超37亿美元，字节系主导</a><span class="item-source">(finance.biggo.com)</span></div><div class="item-explanation">AI视频生成领域半年内吸引超37亿美元投资，字节跳动旗下产品（如即梦）占据主导，快手可灵估值逼近快手市值，显示资本对AI视频商业化的强烈信心。</div><ul class="analysis-points"><li>字节系在AI视频领域领先，快手可灵估值接近快手市值，说明市场将视频生成视为独立高价值赛道。</li><li>对本地生活广告：AI视频生成工具可大幅降低商家视频素材制作成本，未来本地生活广告可能大量采用AI生成视频，外投团队可探索与视频生成平台合作。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>AI视频生成成本下降，本地生活商家可批量制作短视频广告素材，外投团队可整合AI视频工具提升素材生产效率。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://www.cnbeta.com.tw/articles/tech/1569368.htm" target="_blank" class="item-link">Meta拟向Anthropic出租算力，两年最高100亿美元</a><span class="item-source">(cnbeta)</span></div><div class="item-explanation">Meta正与Anthropic谈判出租AI数据中心算力，潜在交易价值两年最高100亿美元，标志着AI基础设施租赁商业模式兴起，Meta可能将AI计算发展为百亿美元级副业。</div><ul class="analysis-points"><li>Meta将过剩算力出租给Anthropic，类似AWS模式，但聚焦AI训练推理，显示算力资产化趋势。</li><li>对本地生活外投：算力租赁模式可能降低AI广告技术门槛，更多中小广告技术公司可获取高性能算力，推动广告创新。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>算力租赁普及可能催生更多AI广告初创，本地生活平台可关注外部AI广告技术合作机会。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/" target="_blank" class="item-link">苹果起诉OpenAI：指控挖角窃取商业机密</a><span class="item-source">(TechCrunch)</span></div><div class="item-explanation">苹果对OpenAI提起诉讼，指控其通过挖角400多名前苹果员工获取商业机密，加速AI硬件研发。约40名前员工已收到律师函，要求保存文件。</div><ul class="analysis-points"><li>苹果指控OpenAI系统性挖角并窃取机密，涉及硬件研发，可能影响OpenAI的IPO进程。</li><li>对本地生活外投：此案凸显AI人才争夺激烈，可能推高AI人才成本，间接影响AI广告技术公司的人力成本。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://www.cnbeta.com.tw/articles/tech/1569360.htm" target="_blank" class="item-link">特朗普政府加强AI模型发布管控，科技巨头话语权削弱</a><span class="item-source">(cnbeta)</span></div><div class="item-explanation">美国特朗普政府采取新措施，规定哪些公司和实体可访问前沿AI模型，此前这一决定权在AI公司手中。Anthropic和OpenAI的模型访问自主权被削弱。</div><ul class="analysis-points"><li>政府介入模型发布管控，可能影响AI模型的开放性和商业化节奏，尤其对开源模型出口限制。</li><li>对本地生活外投：若模型访问受限，依赖海外大模型的广告技术公司需考虑替代方案，国产模型重要性提升。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>模型管控可能加速国产AI替代，本地生活平台应关注国产大模型生态。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏观点类</span></td><td class="col-category"><span class="cat-label">观点与深度</span></td><td class="col-content"><div class="cat-summary">VentureBeat调研显示企业智能体部署名不副实，多数仍是聊天机器人；分析师对微软财报前持谨慎态度；Nvidia估值争议持续；作家戴夫·艾格斯批评ChatGPT让一代人失声；xAI起诉Grok用户制作儿童性虐待内容，承认模型被滥用。</div><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents" target="_blank" class="item-link">VentureBeat：企业智能体部署名不副实，多数仍是聊天机器人</a><span class="item-source">(VentureBeat)</span></div><div class="item-explanation">VentureBeat调研101家企业发现，大多数部署的&#x27;智能体&#x27;实际是聊天机器人包装，缺乏真正的多步执行能力。智能体编排正向模型提供商平台集中，Claude领先。</div><ul class="analysis-points"><li>企业智能体市场存在泡沫，多数产品未能实现自主决策和多步骤任务，Claude在可靠执行方面领先。</li><li>对本地生活外投：广告智能体（如自动优化投放）需真正具备多步推理能力，商家应谨慎评估供应商的智能体成熟度。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>广告智能体需具备真正的自主优化能力，商家应选择经过验证的平台。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxNVEczMVEwSDQwT0Noc3NkWTNhcDhHUHhZUEd1ZGhCZS04QTAxTlhYWkdiVTZQU2QyalcxVlVob2xrajhVNFdsT0x5UWk2elBEUkxUOFpSWkItVlZreGh2RU9KVktkVmxOWVloaDFSOWVkTXFiUEktaFJxbG1GaUY1SkVfNlExV0Y4QUxNVzNNSzd6TjZ3UW1feHowN015NHB3?oc=5" target="_blank" class="item-link">分析师：腾讯在企业AI智能体领域取得早期领先</a><span class="item-source">(Moomoo)</span></div><div class="item-explanation">市场分析认为腾讯在企业AI智能体部署上领先，其云服务扩展至印尼，结合微信生态，腾讯智能体在客户服务和营销场景有优势。</div><ul class="analysis-points"><li>腾讯智能体依托微信和企业微信生态，在触达用户和业务流程自动化方面有独特优势。</li><li>对本地生活外投：腾讯广告平台可能集成智能体能力，实现更智能的广告投放和客户互动，商家可关注微信生态内的AI广告工具。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>腾讯智能体领先地位意味着微信生态内AI广告工具可能率先成熟，商家应提前布局。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMHB4N3BjWTNfc1VCd19hUGJIMmlURVBUWWtGN1VVNVVxbFFlenREdjVkanlzUFR0amZEcTl2Y0NmclpaRVlYT0xDVjBEaXRHRXpPazVGVFNkczhXeHJ1aEhaSHdrbkJVN1A1aVRQSUZqUWVINTJqaWE3MktQa002b3M2WEV6Sm10X3diTHljZjllYk85UkdQMGtIRjQyNTR3NFJUNEN4WE90ZlVyYnR2MHNPenY1aUIyc0VKWlpmX21xMUkxbEpidmktaHkzeGZXQ0VB?oc=5" target="_blank" class="item-link">UBS将快手、美团加入中国关注名单，提升阿里权重</a><span class="item-source">(Investing.com)</span></div><div class="item-explanation">瑞银将快手和美团加入中国关注名单，并提升阿里巴巴权重，显示对中国互联网和本地生活领域的看好，尤其AI赋能下的增长潜力。</div><ul class="analysis-points"><li>瑞银看好快手和美团在AI赋能下的本地生活服务，认为AI可提升运营效率和用户体验。</li><li>对本地生活外投：机构看好表明本地生活AI化趋势明确，商家应加大在AI广告和运营上的投入。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>机构看好本地生活AI化，商家应积极采用AI广告和运营工具以提升竞争力。</div></div></td></tr></tbody></table><section class="insights-section"><h3 class="insights-title">外投团队的借鉴 · 技术底座视角</h3><p class="insights-intro">今日资讯显示，大模型能力正向终端设备下沉（苹果+阿里Qwen、端侧模型MiniCPM5-2B），同时embedding等基础模型性能大幅提升，这些技术底座变化将直接影响外投素材的个性化生成、实时定向和成本结构。</p><div class="takeaway-list"><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>苹果Apple Intelligence中国区采用阿里Qwen模型，将大模型能力嵌入终端设备，实现端侧AI推理。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>对美团商业化外投团队：苹果生态广告位（如App Store搜索广告、Siri建议）可能接入AI能力，商家可探索基于Apple Intelligence的个性化推荐广告，利用端侧模型实时优化投放策略，降低延迟并提升转化。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>MiniCPM5-2B等端侧模型性能突破，支持混合思考与512K上下文，可在手机等设备上运行复杂AI任务。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>外投团队可考虑与手机厂商合作，将广告定向模型部分部署在用户端，实现实时个性化推荐，同时减少云端调用成本，尤其适合本地生活场景的即时推送。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>NVIDIA Nemotron 3 Embed系列提升embedding质量，8B版本在检索基准排名第一，支持32K tokens上下文。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>外投团队可升级广告相关性匹配系统，采用高质量embedding模型进行用户意图与商家信息的语义匹配，提升广告点击率和转化率，尤其适用于本地生活长尾查询。</div></div></div></section><section class="archive-section"><h3 class="archive-title">历史归档</h3><div class="archive-tip">点击任意日期查看当天完整日报（已排版，非原始数据）</div><div class="archive-month"><h4>2026年07月</h4><div class="archive-week"><span class="week-label">07.20-07.26</span><a href="../archive/2026-07-24.html" class="date-link">07-24</a><a href="../archive/2026-07-23.html" class="date-link">07-23</a><a href="../archive/2026-07-22.html" class="date-link">07-22</a><a href="../archive/2026-07-21.html" class="date-link">07-21</a><a href="../archive/2026-07-20.html" class="date-link">07-20</a></div><div class="archive-week"><span class="week-label">07.13-07.19</span><a href="../archive/2026-07-19.html" class="date-link date-link-active">07-19</a><a href="../archive/2026-07-18.html" class="date-link">07-18</a></div></div></section>
+</div>
+<div class="footer">
+每日自动更新 · 聚焦字节跳动全系 AI 商业化（豆包 / 火山引擎 / 扣子 Coze / 即梦 / 剪映 / 巨量引擎 / TikTok 等）<br>
+数据来源：Google News（中英）/ 36氪 / IT之家 / 爱范儿 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
+生成于 2026-07-24 02:15 UTC
+</div>
+<script>
+(function(){
+  var canvas = document.getElementById('particle-bg');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = false;
+  try {
+    reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch(e) {}
+
+  var dpr = Math.max(1, Math.min(window.devicePixelRatio || 1, 2));
+  var W = 0, H = 0, particles = [], raf = null;
+  // 浅色专业配色：靛蓝为主，少量美团黄点缀
+  var COLORS = ['99,102,241', '99,102,241', '99,102,241', '255,195,0'];
+
+  function isMobile(){ return window.innerWidth <= 768; }
+
+  function particleCount(){
+    var area = window.innerWidth * window.innerHeight;
+    var base = Math.round(area / 16000); // 密度
+    if (isMobile()) base = Math.round(base * 0.5);
+    return Math.max(28, Math.min(base, 90));
+  }
+
+  function rand(min, max){ return Math.random() * (max - min) + min; }
+
+  function makeParticle(){
+    return {
+      x: Math.random() * W,
+      y: Math.random() * H,
+      vx: rand(-0.18, 0.18),
+      vy: rand(-0.18, 0.18),
+      r: rand(1.1, 2.6),
+      c: COLORS[Math.floor(Math.random() * COLORS.length)],
+      a: rand(0.35, 0.75)
+    };
+  }
+
+  function build(){
+    W = canvas.clientWidth;
+    H = canvas.clientHeight;
+    canvas.width = Math.floor(W * dpr);
+    canvas.height = Math.floor(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = particleCount();
+    particles = [];
+    for (var i = 0; i < n; i++) particles.push(makeParticle());
+  }
+
+  var LINK_DIST = 128;
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    // 连线：邻近粒子间极淡靛蓝线，营造网络质感
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      for (var j = i + 1; j < particles.length; j++) {
+        var q = particles[j];
+        var dx = p.x - q.x, dy = p.y - q.y;
+        var d2 = dx * dx + dy * dy;
+        if (d2 < LINK_DIST * LINK_DIST) {
+          var alpha = (1 - Math.sqrt(d2) / LINK_DIST) * 0.16;
+          ctx.strokeStyle = 'rgba(99,102,241,' + alpha.toFixed(3) + ')';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(q.x, q.y);
+          ctx.stroke();
+        }
+      }
+    }
+    // 粒子点
+    for (var k = 0; k < particles.length; k++) {
+      var pt = particles[k];
+      ctx.beginPath();
+      ctx.fillStyle = 'rgba(' + pt.c + ',' + pt.a.toFixed(2) + ')';
+      ctx.arc(pt.x, pt.y, pt.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function step(){
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < -20) p.x = W + 20; else if (p.x > W + 20) p.x = -20;
+      if (p.y < -20) p.y = H + 20; else if (p.y > H + 20) p.y = -20;
+    }
+    draw();
+    raf = requestAnimationFrame(step);
+  }
+
+  var resizeTimer = null;
+  window.addEventListener('resize', function(){
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(build, 200);
+  });
+
+  build();
+  if (reduce) {
+    draw(); // 尊重减少动效偏好：只画一帧静态粒子
+  } else {
+    step();
+  }
+})();
+</script>
+
+</body>
+</html>
