@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-23T15:09:54.243486+00:00",
-  "week_range": "07.20-07.23",
-  "date_display": "07.20 - 07.23",
-  "editorial_summary": "本周共汇总 66 条 AI 商业要闻，其中高影响 23 条。本周主线包括：字节跳动发布Seed Audio 1.0，统一人声与音效；Kimi K3发布48小时服务器满载，暂停新用户订阅；苹果起诉OpenAI，或影响其IPO和硬件计划；Google推出AI Mode，可链接和操作第三方应用；快手AI视频部门估值180亿美元，分拆在即。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-07-24T02:15:53.928253+00:00",
+  "week_range": "07.20-07.24",
+  "date_display": "07.20 - 07.24",
+  "editorial_summary": "本周共汇总 74 条 AI 商业要闻，其中高影响 26 条。本周主线包括：字节跳动发布Seed Audio 1.0，统一人声与音效；Kimi K3发布48小时服务器满载，暂停新用户订阅；苹果起诉OpenAI，或影响其IPO和硬件计划；Google推出AI Mode，可链接和操作第三方应用；快手AI视频部门估值180亿美元，分拆在即。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节跳动发布Seed Audio 1.0，统一人声与音效建模",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（44 条），高影响条目占比约 35%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（50 条），高影响条目占比约 35%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
     "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "今日多家公司升级了音频、视频和交互式内容生成底座，从单一模态转向多模态、低延迟、低成本，这将重塑外投素材的生产方式和投放效率。",
-  "total_items": 66,
-  "high_count": 23,
+  "total_items": 74,
+  "high_count": 26,
   "items": [
     {
       "title": "字节跳动发布Seed Audio 1.0，统一人声与音效建模",
@@ -364,6 +364,48 @@
       "source": "电商派",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DdXp2dG1UR0ZWalZWM3EzTXlqZWpBNHJ1eVpPTFBxcG5oRERmTzRmLTRnU2QwSHZWNEgtZmhhNjAzVTEyQ1d0aEVIM1RwLWRXbXdsckRQRXNUZFg5T0J5eQ?oc=5",
       "local_life_hint": "豆包技术领先，本地生活商家可放心使用其AI能力进行营销。"
+    },
+    {
+      "title": "TikTok测试付费短剧App LimeShorts，周订阅20美元",
+      "explanation": "TikTok在美国低调测试付费短剧应用LimeShorts，采用免费+付费模式，周订阅20美元或年200美元。内容来自第三方，时长1-5分钟竖屏短剧。此举标志着TikTok从短视频平台向付费内容平台延伸，为本地生活内容变现提供新路径。",
+      "analysis_points": [
+        "LimeShorts是TikTok推出的独立付费短剧App，从免费短视频平台扩展到订阅制内容服务，用户可付费解锁全部短剧内容。",
+        "对本地生活商家而言，可借鉴此模式制作品牌定制短剧，通过付费或广告植入实现内容营销，同时TikTok的付费生态可能开放给优质内容创作者。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/980/894.htm",
+      "local_life_hint": "本地生活商家可考虑与TikTok合作制作品牌短剧，利用付费订阅模式实现内容变现，或通过植入广告触达精准用户。"
+    },
+    {
+      "title": "字节跳动Seed启动STEM科学家计划，重金投入AI4S",
+      "explanation": "字节跳动Seed启动STEM科学家计划，面向全球招募AI4S（AI for Science）领域顶尖人才，提供百万级年薪和独立研究资源。此举旨在强化基础科研能力，遏制人才流失，并推动AI在科学发现中的应用。",
+      "analysis_points": [
+        "Seed STEM科学家计划是字节跳动首次系统性投入AI4S，从应用层研发转向基础科学研究，提供独立研究资源和长期支持。",
+        "对广告营销行业而言，AI4S可能带来更精准的用户行为预测模型和广告效果归因算法，提升投放效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1672938?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包二代手机改用MCP合作模式，接入超级应用",
+      "explanation": "豆包二代手机在WAIC 2026亮相，改用MCP（Model Context Protocol）合作模式接入超级应用，不再直接操作头部应用。这意味着字节AI硬件战略从自研转向生态合作，降低硬件风险，同时通过MCP协议实现AI能力与第三方应用的灵活集成。",
+      "analysis_points": [
+        "豆包手机二代从直接操作应用转向MCP合作模式，能力从封闭自研变为开放生态，通过协议与微信、抖音等超级应用对接。",
+        "对本地生活商家而言，MCP模式可能使豆包手机成为新的AI入口，商家可通过该平台提供AI导购、智能推荐等服务。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "钛媒体",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBYUkJUcVo5NG5KMXc5NTFtSVhrZHZEc0R3RFV0SzVlX0QzdWljYlZXM0lHWlVicmpsRENtWUU4U1hMVGFlTmpwbjkwTFo?oc=5",
+      "local_life_hint": "本地生活商家可关注豆包手机MCP接口开放情况，未来可能通过该平台提供AI点餐、智能客服等本地服务。"
     },
     {
       "title": "通义发布Qwen-Audio-3.0-TTS，实时语音合成夺冠",
@@ -955,6 +997,76 @@
       "source": "电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FeS1Eb1hpdmR3QjE5ZE44S0E2T1hiNm9aQ2VTVFdRYjNyLWRrTi10ZC1WSkRrRmM1c21TX1RsWmpuYzJMWHN4TVVKTEM2XzdxNXhz?oc=5",
       "local_life_hint": "低价AI手机普及，本地生活商家可通过豆包触达更多用户。"
+    },
+    {
+      "title": "字节跳动AI制药团队拟独立拆分，引入外部融资",
+      "explanation": "据36氪报道，字节跳动正推动旗下AI制药团队独立拆分并引入外部融资。这反映大厂在AI应用变现压力下开始精细化成本核算，通过独立运营加速商业化。",
+      "analysis_points": [
+        "字节AI制药从内部研发转向独立公司，能力从自用变为对外服务，通过融资分担成本并加速技术落地。",
+        "对本地生活商家而言，AI制药的独立模式可借鉴：将AI能力封装为独立产品对外销售，实现技术变现。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3908886455751816",
+      "local_life_hint": ""
+    },
+    {
+      "title": "KrASIA：Seedance如何让字节重回AI视频竞赛前列",
+      "explanation": "KrASIA分析文章指出，Seedance凭借30秒单镜头生成和3D摄像机控制能力，将字节跳动重新拉回AI视频生成竞赛的前列。其差异化优势在于对专业影视制作流程的深度理解。",
+      "analysis_points": [
+        "Seedance从追赶者变为领先者，能力从简单视频生成升级为专业影视工具，技术路径强调对镜头语言的控制。",
+        "对广告主而言，Seedance的专业化方向意味着AI视频广告质量将大幅提升，可替代部分传统拍摄。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "KrASIA",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9udWJJZXFfbWlpaGNiNkdzaVp3UC1xVE1GZENpZzBCcktjQXJnZjF5UzRFV1hSdkxpNVExYUdrdEhZTWN5TllWb1BJdnZWdUFYMTZSYnI3MFM3ZGstRF9wVlNsZ2loYW1Nay1nQWJmVVp2S1l3?oc=5",
+      "local_life_hint": "本地生活商家可关注Seedance的专业化趋势，未来可能推出面向广告主的定制化AI视频生成服务。"
+    },
+    {
+      "title": "TikTok付费短剧LimeShorts取代原有测试应用",
+      "explanation": "TikTok的付费短剧应用LimeShorts取代了之前测试的TikTok Shorts，采用独立App形式运营。这表明TikTok对短剧市场的重视，以及从短视频平台向付费内容平台的战略转型。",
+      "analysis_points": [
+        "LimeShorts从TikTok内部功能升级为独立App，能力从免费内容扩展为付费订阅，商业模式更清晰。",
+        "对本地生活商家而言，可考虑与LimeShorts合作制作品牌短剧，利用付费模式实现内容变现。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1570110.htm",
+      "local_life_hint": "本地生活商家可探索与LimeShorts合作，制作本地美食、旅游等主题短剧，吸引付费用户。"
+    },
+    {
+      "title": "字节跳动与中兴合作推出豆包二代手机，暂定Q2发布",
+      "explanation": "在WAIC 2026上，中兴通讯宣布将推出第二代豆包AI手机，暂定Q2发布。该手机采用MCP合作模式，用户关注豆包AI是否额外收费。",
+      "analysis_points": [
+        "豆包手机二代从中兴代工升级为深度合作，能力从内置豆包AI变为MCP协议接入，硬件与AI服务分离。",
+        "对本地生活商家而言，豆包手机可能成为新的AI服务入口，商家可开发适配MCP的本地生活应用。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EeWZOVDVBX2tTSVdTcGR5bTFrdFhtd3VaQzhoX0xWakNZT1BaNk5sZXVId0xYSW5zTHd1cWVxekNMY3lZZFF2Z1FpVTBua1lPUWc?oc=5",
+      "local_life_hint": "本地生活商家可关注豆包手机MCP接口，未来可能通过该平台提供AI点餐、智能推荐等服务。"
+    },
+    {
+      "title": "TikTok Shop面临AI视频信任危机，品牌施压",
+      "explanation": "TikTok Shop上的AI视频泛滥，品牌敦促创作者停止使用AI伪造内容，以维护联盟营销的信任度。TikTok Shop正面临内容治理挑战。",
+      "analysis_points": [
+        "TikTok Shop从鼓励AI创作转向品牌抵制，AI内容从营销工具变为信任风险，平台需加强审核。",
+        "对本地生活商家而言，应坚持真实内容创作，避免使用AI伪造素材，以建立用户信任。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Affiverse",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQmJMYV9hMkRwOXZIY2I0cldtY2FrX1M4aHhkRy1TMlZUMjhzalpEdDdGZEljbFNTejQyTXJWWC0xcGd4RHpPWE4weDFlMDE2OXB4QV9lV0VQamVrZzBkZjRtXzI1NjdqMUxPOTZlWm12Unczb3hLeEFheExVT3ptVlJQLUp2Zw?oc=5",
+      "local_life_hint": "本地生活商家在TikTok Shop上推广时，应使用真实拍摄素材，避免AI伪造，以保护品牌声誉。"
     }
   ],
   "mode": "ai"
