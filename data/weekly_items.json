@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-25T09:14:13.731145+00:00",
+  "generated_at": "2026-07-25T11:00:23.404435+00:00",
   "week_range": "07.20-07.25",
   "date_display": "07.20 - 07.25",
-  "editorial_summary": "本周共汇总 91 条 AI 商业要闻，其中高影响 29 条。本周主线包括：字节跳动发布Seed Audio 1.0，统一人声与音效；Kimi K3发布48小时服务器满载，暂停新用户订阅；苹果起诉OpenAI，或影响其IPO和硬件计划；Google推出AI Mode，可链接和操作第三方应用；快手AI视频部门估值180亿美元，分拆在即。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 91 条 AI 商业要闻，其中高影响 28 条。本周主线包括：字节跳动发布Seed Audio 1.0，统一人声与音效；Kimi K3发布48小时服务器满载，暂停新用户订阅；苹果起诉OpenAI，或影响其IPO和硬件计划；Google推出AI Mode，可链接和操作第三方应用；快手AI视频部门估值180亿美元，分拆在即。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节跳动发布Seed Audio 1.0，统一人声与音效建模",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（65 条），高影响条目占比约 32%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（64 条），高影响条目占比约 31%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
@@ -47,7 +47,7 @@
   ],
   "insights_intro": "今日多家公司升级了音频、视频和交互式内容生成底座，从单一模态转向多模态、低延迟、低成本，这将重塑外投素材的生产方式和投放效率。",
   "total_items": 91,
-  "high_count": 29,
+  "high_count": 28,
   "items": [
     {
       "title": "字节跳动发布Seed Audio 1.0，统一人声与音效建模",
@@ -410,17 +410,6 @@
       "impact": "high",
       "source": "Google News中文",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTnVsTV9lbHh6UGw5ZERSTG5MajdDWDJNN1k2eTZvWEsxS2o1RHNkeVVXbXVJMHpZVi0waFpHVV9oWk1zMk9yUUNYanNZWUVkTnlWY19GZ2d4SmU0dzVIbFBHUy1sMUNuWDItSzRHb3AtUW41cm1mWEQxakdrS0JhSUY4NA?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
-    },
-    {
-      "title": "Podean snaps up Social Commerce Club to focus on social shopping, TikTok Shop",
-      "explanation": "Podean snaps up Social Commerce Club to focus on social shopping, TikTok Shop",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa1J6OWtqRnQ1X1BGOGl6OVE5ZkE2NklVZVp2WkszbEhtVzc5b0NlcDdxV2VtSHI3cGRvVGxZU25zSG1VSXNZSElSSjVJclo2eXpBUVNpeWNkX0JYTV94OTJCRWxUMDdwdUJINjNzZi1fZHhXQm1BQlFzNjNBTUMybV9zcWI4dVM1SldSbjJvcEFYUEJwVVNxLUxFdk5CalNHbXhIU2dBV2JiVmJZcnBVXw?oc=5",
       "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
     },
     {
@@ -1107,6 +1096,17 @@
       "local_life_hint": ""
     },
     {
+      "title": "Brands urge TikTok Shop creators to ditch AI fakes, report says",
+      "explanation": "Brands urge TikTok Shop creators to ditch AI fakes, report says",
+      "analysis_points": [],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdGZOYzB4R2xxSW56U2djRVg4dVFuejdQOGl2RDFoQk8ycW5rUW9YSi1fZVBIVE1IanBFRUFQOW5LZ3RUeXU4eXpKTE84a3k5bW1LRzE2RWFZakR3T01sT1BUTTRmNks3R0NQcFVpRHFIX05CcEZCa09XLTZsckZCX2hn?oc=5",
+      "local_life_hint": ""
+    },
+    {
       "title": "Is Qualcomm's ByteDance Deal a Game-Changer for its AI Ambitions",
       "explanation": "Is Qualcomm's ByteDance Deal a Game-Changer for its AI Ambitions",
       "analysis_points": [],
@@ -1148,19 +1148,6 @@
       "impact": "medium",
       "source": "Google News中文",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE84azRLRm93cV9UaVNqRmtONjVlem5hTXFtc1dNMk1aMmdqNTdJeUtqajFPTHpjbzVWTlJnVEVZVWwwYmlSRlU4YjRkVmw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "欧盟警告TikTok：未成年人安全保护不应设为“可选项”",
-      "explanation": "针对TikTok在未成年人保护方面的措施，欧盟委员会今日根据《数字服务法案》（DSA）发布了初步调查结果，指出了该平台存在的具体安全隐患，并对此提出严厉警告。 阅读全文",
-      "analysis_points": [
-        "针对TikTok在未成年人保护方面的措施，欧盟委员会今日根据《数字服务法案》（DSA）发布了初步调查结果，指出了该平台存在的具体安全隐患，并对此提出严厉警告。 阅读全文"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "cnBeta",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1570180.htm",
       "local_life_hint": ""
     },
     {
@@ -1249,6 +1236,17 @@
       "impact": "medium",
       "source": "Google News中文",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYzlmV2w0M0RDbnNpaU9udDJ6NUExTEtQMjZpaHhseVBxXzctZTViZUdRUWRvVE9nYXVHWF9tUUp0SkI2TWhkOUJPbDJxZHhIQWZuLXkyaWNXX3FsUGpIdlg5LVJpcVpXZXpsR04yRmtPcHVBal94bU10emFXajhRZHAwYk9qVElOVVVRRW9URVRhMnQyUkF2RzBWQ3czNlA5VU5RZUh6LXVqLW1vcjhJMVlXbFYwZTN0bEttZkhn0gHDAUFVX3lxTE9QeXZ3b0tEZnlXNHpJd1oxOUgxZzVMQ0IxSjVnSmJUSU5RTnJUZGJsZVVoSmhtdUE0NFNQOWlOb3BQa3NEMF9JNjhDMHI3SmZ0bW5uRmNpS0twWkZLMVVXSVhRY0VUdndNazVhU0xXMEl5dXNPRWJNWUNFQUJwTl9SYU9MQ0kza0drdmlkMm54djdCamZCZDAzSDhNLWRKLUdINk81dXkwSmhxR21tZ0VXaDI2bXZnM2d4T2NXTkNTakZxTQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Sells Moonton to Savvy Games for $6B [2026] - tech-insider.org",
+      "explanation": "ByteDance Sells Moonton to Savvy Games for $6B [2026] - tech-insider.org",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82YXh3T2U0dmh3Q2hkM1VENmczVDdOelhUaHBIN3h2ZWtEa3NELV9nSUlnaDFYLTQtUmFsejFmc0FURVJIX3pyRm0xZlFBSUxWSjVCX1JlX1N4dWdQeWMyN0xGeHVFdVlUUGN5cTB6RQ?oc=5",
       "local_life_hint": ""
     }
   ],
