@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-24T12:08:13.200680+00:00",
-  "week_range": "07.20-07.24",
-  "date_display": "07.20 - 07.24",
-  "editorial_summary": "本周共汇总 72 条 AI 商业要闻，其中高影响 24 条。本周主线包括：字节跳动发布Seed Audio 1.0，统一人声与音效；Kimi K3发布48小时服务器满载，暂停新用户订阅；苹果起诉OpenAI，或影响其IPO和硬件计划；Google推出AI Mode，可链接和操作第三方应用；快手AI视频部门估值180亿美元，分拆在即。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-07-25T09:14:13.731145+00:00",
+  "week_range": "07.20-07.25",
+  "date_display": "07.20 - 07.25",
+  "editorial_summary": "本周共汇总 91 条 AI 商业要闻，其中高影响 29 条。本周主线包括：字节跳动发布Seed Audio 1.0，统一人声与音效；Kimi K3发布48小时服务器满载，暂停新用户订阅；苹果起诉OpenAI，或影响其IPO和硬件计划；Google推出AI Mode，可链接和操作第三方应用；快手AI视频部门估值180亿美元，分拆在即。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节跳动发布Seed Audio 1.0，统一人声与音效建模",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（48 条），高影响条目占比约 33%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（65 条），高影响条目占比约 32%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
-    "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
+    "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "今日多家公司升级了音频、视频和交互式内容生成底座，从单一模态转向多模态、低延迟、低成本，这将重塑外投素材的生产方式和投放效率。",
-  "total_items": 72,
-  "high_count": 24,
+  "total_items": 91,
+  "high_count": 29,
   "items": [
     {
       "title": "字节跳动发布Seed Audio 1.0，统一人声与音效建模",
@@ -378,6 +378,61 @@
       "source": "cnBeta",
       "url": "https://www.cnbeta.com.tw/articles/tech/1570110.htm",
       "local_life_hint": "本地生活商家可探索与TikTok短剧合作，将本地探店、美食体验融入剧情，实现软性种草。"
+    },
+    {
+      "title": "Exclusive: Ulta Beauty taps Ice Spice for its first TikTok Shop campaign to unveil the rapper's first fragrance",
+      "explanation": "Exclusive: Ulta Beauty taps Ice Spice for its first TikTok Shop campaign to unveil the rapper's first fragrance",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVVZSdVJhRW9McnFLTjJmbW8tY09ta193TjktdE1wYnYzRUlKblNvWEJMVWF0a19ER0tyN2x1ZDliZ2VwT0lSdUh6MGI1azZWeVI1ajU2QWJTWXZUcDRYcDlpdE1Ka3VEbnZqMWtMUXJ6RlItMURlaGxXdzBVbVdJUW9jN0ZOM1lfdlZxbUpkTk9wSk1EdDhUcU1Fa2FyQjRyVWNSZjhlMFpTd0RZd1pZcFFDcDRsMXNsTlBkdFJDUi1LZ082d2U0UjEyOXFwbklkN2lqOC13?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "Alibaba to Launch \"Qwen Office\" Unifying Three AI Agents; Tencent and ByteDance Consolidate as AI Office Race Enters Era of Coordinated Warfare",
+      "explanation": "Alibaba to Launch \"Qwen Office\" Unifying Three AI Agents; Tencent and ByteDance Consolidate as AI Office Race Enters Era of Coordinated Warfare",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MNlpxZ3cwN2Z5VmNDSnRtSzZPV1BoSmlVS1BZa3BiWmdUbmxmak45MFlSeTROZE41R05wVEhadUpCREFLdzJ3bmtsTklRYzUtXzZKTUZHY2FqY1BwR0x5RG1nYWhSUEdIRUZXd1lhTW5JVV9KWEE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "How TikTok Shop is changing innovation for food and beverage brands",
+      "explanation": "How TikTok Shop is changing innovation for food and beverage brands",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTnVsTV9lbHh6UGw5ZERSTG5MajdDWDJNN1k2eTZvWEsxS2o1RHNkeVVXbXVJMHpZVi0waFpHVV9oWk1zMk9yUUNYanNZWUVkTnlWY19GZ2d4SmU0dzVIbFBHUy1sMUNuWDItSzRHb3AtUW41cm1mWEQxakdrS0JhSUY4NA?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "Podean snaps up Social Commerce Club to focus on social shopping, TikTok Shop",
+      "explanation": "Podean snaps up Social Commerce Club to focus on social shopping, TikTok Shop",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa1J6OWtqRnQ1X1BGOGl6OVE5ZkE2NklVZVp2WkszbEhtVzc5b0NlcDdxV2VtSHI3cGRvVGxZU25zSG1VSXNZSElSSjVJclo2eXpBUVNpeWNkX0JYTV94OTJCRWxUMDdwdUJINjNzZi1fZHhXQm1BQlFzNjNBTUMybV9zcWI4dVM1SldSbjJvcEFYUEJwVVNxLUxFdk5CalNHbXhIU2dBV2JiVmJZcnBVXw?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "From R&D to retail: The philosophy behind YouTheory’s TikTok Shop",
+      "explanation": "From R&D to retail: The philosophy behind YouTheory’s TikTok Shop",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV3h2Nnk1UU4zdV9aMUF3d1VLWjhVaHExRTI3dm9Nc3JlaW9PMXFGc2FNRVZyM1ZlVEEzM2ZTVmk4RlpKNHkwYk10UTBCRmNXdHBYUF81YnV0REVKaTBJTVppMndiQU0wa1Z2NS0xb3BvVW5hMjBPNGtaNmpLaGMxUE8wUkhGV25HdzNQVjJHblV4Vzl0WWc0?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
     },
     {
       "title": "通义发布Qwen-Audio-3.0-TTS，实时语音合成夺冠",
@@ -1039,7 +1094,163 @@
       "source": "New York Post",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNlhwWG5VWVJyTTdEM2JjT05PY3NoRXJiSC1tZnB1TnZKb3k3YWRCbmtkeUVpQmlibWUxdTFQbGg0dFhKYnZtNjlKckNhSmNyOWQzOFpoZWNrX0E4d3A3YllQMWdWVFBHMFBmSFZRRWZXY09vbV9hU0NORTZGLS1tZEpZWE1XUE9IeHNTeS1ORXhHYmYxTXU1MWh0cmZ4VTJ4aEVpRzZ3UG1Gc2RpRGhfYQ?oc=5",
       "local_life_hint": "本地生活商家在TikTok Shop销售商品时，需确保产品质量合规，避免监管风险。"
+    },
+    {
+      "title": "TikTok Shop: Little Luxury Treats",
+      "explanation": "TikTok Shop: Little Luxury Treats The Robin Report",
+      "analysis_points": [],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NUTdQdU9yMi1BeTNwR05qNnVMN2t4UThKdnFVRkhfODBpOTluYmtfQmktOVV5ZFY4YW5MVnRFaTJTcUtudVlfU1dOM1g4SHZlVFFyRWdxdXowNVZyRE92Q2drN2xKdzdHaGJGRQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Is Qualcomm's ByteDance Deal a Game-Changer for its AI Ambitions",
+      "explanation": "Is Qualcomm's ByteDance Deal a Game-Changer for its AI Ambitions",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGFmb1kzRTRmbHoxTU9YN1VYMnZuVG9CeDNvQktnTzlrLWNFbmQ5NkdYRDVkbWxXbk9aLWRIRWFLdnNtMUlKUlBHdUNRQUtiaEE5X0FNb1Q0dm9YZlJ6d1V4Z2NMeTY3UGhxX3pJU21OZHJCOGt6MGYzdEUxVGVrNEZaMnZLeHNuTXFJVXN6MExhclFUNkdKWl9vRDBjZDVU?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节Seeduplex发布：语音AI的\"回合制\"结束了",
+      "explanation": "字节Seeduplex发布：语音AI的\"回合制\"结束了",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3WnVwWUY5MkhnNFh6TUhFMENwbC14cG5DRktXS1hpQXQ5eUdVMlVXYWMyQUFtcUFkRGU4YWNaU0tFTEVsN0pTTHNkZWhpbndFb0ZraEsxUkFWWUhqUG5YaEllTUVVQUZOb2xRUFhlcWV6LTVWTE52UnNWeVpRTlE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "即梦联合抖音电商、艾菲奖发起 “AI 广告爆改大赛” ，共创经典广告新表达",
+      "explanation": "即梦联合抖音电商、艾菲奖发起 “AI 广告爆改大赛” ，共创经典广告新表达",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNjdHejBkeC1nUlRTcUhjS0lKbkkwUXpQZEc1SHcwamRSSFdDQXlUNk53M2I1VExsOXBNTTlLdldEMExLMXJJMXE0X1NndndJNzdZQVlJOXB0a3dkMDNTQU5VR2ZoM0dEak04Rko3cWx0VXFQcmxzWG5tTldTNjNSZjhVVS1jOUZVNWpyWk56aGI2VEhjQjhiMC1STUVTTlhWUVpNcExWY1VmZjZvbml5NXJ3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "90后字节前高管，融资20亿",
+      "explanation": "90后字节前高管，融资20亿",
+      "analysis_points": [],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE84azRLRm93cV9UaVNqRmtONjVlem5hTXFtc1dNMk1aMmdqNTdJeUtqajFPTHpjbzVWTlJnVEVZVWwwYmlSRlU4YjRkVmw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "欧盟警告TikTok：未成年人安全保护不应设为“可选项”",
+      "explanation": "针对TikTok在未成年人保护方面的措施，欧盟委员会今日根据《数字服务法案》（DSA）发布了初步调查结果，指出了该平台存在的具体安全隐患，并对此提出严厉警告。 阅读全文",
+      "analysis_points": [
+        "针对TikTok在未成年人保护方面的措施，欧盟委员会今日根据《数字服务法案》（DSA）发布了初步调查结果，指出了该平台存在的具体安全隐患，并对此提出严厉警告。 阅读全文"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1570180.htm",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Blomkamp Launches AI Studio With ByteDance-Powered Short Film",
+      "explanation": "Blomkamp Launches AI Studio With ByteDance-Powered Short Film",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSlhUaExYZGtJRUhWdzQ4SWJndUo4QzhLbnBNLTZzU1YwNURncTNMUTVQRlZDeUlDMTh0SEdVbVZaNTRiUHBnalF2R1Bncy13VGtUZ3RXZDA2SDRLM3JwSURYNno1VllPTFAta1pQTjBoVXg3SGVTTEd1bXVHRnBQTlFrR0Q2aVZ2b0RqMUhhaExkc1MxbWpEU2FB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Tencent, Alibaba & ByteDance: Fierce Battle in the AI Office Productivity Sector",
+      "explanation": "Tencent, Alibaba & ByteDance: Fierce Battle in the AI Office Productivity Sector",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DZENXLWxMTnBqRkktdzI3cHFWUkN2ZDFpYWlVYjd4OUZMclNCbjduZjJtR01fVHA4T0NBNm9PSTM5d1l6UW9JZjlEUjZrZjFsTnF3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "How Seedance put ByteDance back in the AI race",
+      "explanation": "How Seedance put ByteDance back in the AI race",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9udWJJZXFfbWlpaGNiNkdzaVp3UC1xVE1GZENpZzBCcktjQXJnZjF5UzRFV1hSdkxpNVExYUdrdEhZTWN5TllWb1BJdnZWdUFYMTZSYnI3MFM3ZGstRF9wVlNsZ2loYW1Nay1nQWJmVVp2S1l3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "HMD Touch AI: A $70 Lumia throwback with ByteDance AI inside",
+      "explanation": "HMD Touch AI: A $70 Lumia throwback with ByteDance AI inside",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa3FmV2dRbWVkRGlaNHl0TzNhUWZzdG9Za09Qb0UyZWY3cHJuZkIxSHZ0S2tpZlBYaDBuTHlmY0tzcnpnaENuX1I2WTFGUGVwQXBUUEkwTTl0Q2o0cnVtbGN1aUl6MXJocVhFcGIwczc0eUhzeVM3RDkwN2FMQ3YycnZEUFJLdFJqT3RSVmQzZFIxcG1s0gGaAUFVX3lxTE05ZUpjVGtkd3I1V2lCNmo5dzl4SVI0aDJjcE5ua2Zfa3lwUVl2VTlFdG8wTDJ4elI4TFNnajd0d3c0bVdqb3g2cHNaSVAzaUR4MXdjTjRfWDBfdEdYWnpjTW1Sb21mNzA0cVpicUo5TFZKX2kyVVZ6aFRtRHR6SWxVbVBMVWVHbmliRFhvM3Q4YXZScjhFUUtlYlE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Bets Millions on AI4S: Can the Seed STEM Scientist Program Reverse Its Brain Drain?",
+      "explanation": "ByteDance Bets Millions on AI4S: Can the Seed STEM Scientist Program Reverse Its Brain Drain?",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1pVk96RDBjTFdzWTN1UlUwdGNIOGN3QU0zTUVXN2dkdHBXVmdoNncxWHY1X3BGNTVNUHFZcUZTSmotN2h5STcyUV9zdVRacWc5elZfc1E0S2NyZTR1QlU2QjR6ZzEyeUN6dUxrNjZVNFdRckxtV1E?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Airlangga strengthens AI cooperation with Huawei and ByteDance in Shanghai",
+      "explanation": "Airlangga strengthens AI cooperation with Huawei and ByteDance in Shanghai",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBWOGJJSEtqbVM4cWtrOGlQbk1oNzdlOG9UTjBPN1d2OTdtWU1aMU1nVEE2YkphYVhYdDhERVdlQmFaZTRZbDZj0gFCQVVfeXFMT3BQTE83ZzFsN1FsVnFoSFFtSkpROVJySGRUbzJIcHhZRlhvaWZlU3p6MDBUN2FveDBxUVNhU2ZEbi1R?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "What You Should Know About Seedance 2.5, ByteDance’s New AI Video Generator",
+      "explanation": "What You Should Know About Seedance 2.5, ByteDance’s New AI Video Generator",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ29GLWxEb2xJYU9mYkZLY2cwUm1nTWs2Vm83OWNMQjhUTWVvZTNac1VVbGJaZUVzOVBwNVI4LWtieWdYNEJvdTdQcUcyTUZqcUZiUHBZUlJoekRhX0JHR25yUExXODJqOGNXa0lFTmpLRlo0RmFzOWw1dkZFSWYxSG95cUVWRWtEdXdCV0d6cDA5Y01NWjNVakdYaGktaWkwb2huclBRb2c2bkpQLTlINHdDTThpSUV5bmVJSi1hSlg?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Federal employees can download TikTok on government devices after ByteDance's divestiture, DOJ says",
+      "explanation": "Federal employees can download TikTok on government devices after ByteDance's divestiture, DOJ says",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYzlmV2w0M0RDbnNpaU9udDJ6NUExTEtQMjZpaHhseVBxXzctZTViZUdRUWRvVE9nYXVHWF9tUUp0SkI2TWhkOUJPbDJxZHhIQWZuLXkyaWNXX3FsUGpIdlg5LVJpcVpXZXpsR04yRmtPcHVBal94bU10emFXajhRZHAwYk9qVElOVVVRRW9URVRhMnQyUkF2RzBWQ3czNlA5VU5RZUh6LXVqLW1vcjhJMVlXbFYwZTN0bEttZkhn0gHDAUFVX3lxTE9QeXZ3b0tEZnlXNHpJd1oxOUgxZzVMQ0IxSjVnSmJUSU5RTnJUZGJsZVVoSmhtdUE0NFNQOWlOb3BQa3NEMF9JNjhDMHI3SmZ0bW5uRmNpS0twWkZLMVVXSVhRY0VUdndNazVhU0xXMEl5dXNPRWJNWUNFQUJwTl9SYU9MQ0kza0drdmlkMm54djdCamZCZDAzSDhNLWRKLUdINk81dXkwSmhxR21tZ0VXaDI2bXZnM2d4T2NXTkNTakZxTQ?oc=5",
+      "local_life_hint": ""
     }
   ],
-  "mode": "ai"
+  "mode": "rule"
 }
