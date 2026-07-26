@@ -1,218 +1,66 @@
 {
-  "generated_at": "2026-07-26T09:34:23.592205+00:00",
+  "generated_at": "2026-07-26T11:42:51.194551+00:00",
   "date_display": "2026年07月26日",
   "date_short": "2026-07-26",
   "weekday": "周日",
-  "editorial_summary": "今日共精选 24 条 AI 商业动态，其中高影响 2 条。核心看点集中在：字节跳动发布SeedSTEM科学家计划 邀请百位前沿学者合作；早报｜极氪回应跨境自驾车机被锁/曝苹果Apple Store；TikTok | Pros, Cons, Debate, A；字节豆包新功能上线:AI终于能像人一样边听边说了。头部大厂在产品、营收与生态合作上持续加码，建议重点关注其能力更新对广告/营销与本地生活场景的可迁移性。",
+  "editorial_summary": "今日字节系AI商业化动态聚焦三大方向：一是字节Seed启动STEM科学家计划，通过吸引顶尖科学家强化AI基础研究，为长期技术壁垒奠基；二是大厂Agent赛马结束，字节内部整合多款智能体产品，火山引擎ArkAgent成为统一入口，标志Agent商业化进入集约化阶段；三是即梦AI视频定价三连涨，在可灵等对手降价背景下逆势提价，反映字节对自身技术溢价的信心，但也面临用户流失风险。整体看，字节正从粗放赛马转向精耕细作，通过人才、产品、定价策略巩固AI商业化护城河。",
   "overview": {
     "new_products": [
-      "字节跳动发布SeedSTEM科学家计划 邀请百位前沿学者合作",
-      "早报｜极氪回应跨境自驾车机被锁/曝苹果Apple Store应用将上线「AI购物",
-      "字节豆包新功能上线:AI终于能像人一样边听边说了"
+      "字节Seed启动STEM科学家计划，投入数百万美元招募顶尖科学家，强化AI for Science基础研究，旨在将前沿科学融入AI研发。"
     ],
     "opinions": [
-      "DOJ says it's no longer illegal to downl",
-      "OpenAI挖到最新菲尔兹奖得主，字节刚出炉的科学家计划在瞄准谁？",
-      "欧莱雅中国与火山引擎达成战略合作 探索AI美妆应用"
+      "36氪分析认为，字节等大厂整合Agent产品线（如火山引擎ArkAgent统一入口），标志赛马结束，Agent商业化进入集约化阶段，避免重复建设。",
+      "AI视频赛道定价分化：即梦AI涨价被用户调侃“即贵”，而可灵等降价，反映字节对技术溢价的自信，但可能影响市场份额。"
     ],
     "ecosystem": [
-      "卓越睿新(02687)与火山引擎签署合作框架协议 聚焦AI赋能教育",
-      "Black Forest Labs发布Flux 3！初评超过Seedance 2",
-      "Agent手机的三条路线与一场权力游戏"
+      "字节内部Agent产品从多线赛马转向统一整合，火山引擎ArkAgent成为核心入口，体现大厂AI商业化从探索期进入效率优先阶段。",
+      "AI视频赛道资本热与定价分化并存，字节即梦涨价策略考验用户付费意愿，行业竞争从技术比拼延伸至定价策略。"
     ]
   },
   "category_summaries": {
-    "大厂动向": "本期大厂动向共 23 条，涵盖：字节跳动发布SeedSTEM科学、早报｜极氪回应跨境自驾车机被锁/、TikTok | Pros, C 等。",
-    "初创动向": "本期初创动向共 1 条，涵盖：AI视频赛道融资热、价格战激烈： 等。"
+    "大厂动向": "字节Seed启动STEM科学家计划，投入数百万美元吸引顶尖科学家，强化AI基础研究；同时内部Agent产品线整合，火山引擎ArkAgent成为统一入口，标志赛马结束。",
+    "初创动向": "无相关初创动态。",
+    "生态动向": "AI视频赛道定价分化，字节即梦涨价而对手降价，反映技术溢价与市场份额的博弈；大厂Agent整合趋势表明行业从粗放竞争转向精细化运营。",
+    "观点与深度": "36氪分析指出，大厂Agent赛马结束，整合是必然；AI视频定价分化背后是技术实力与市场策略的较量，字节即梦涨价需平衡用户接受度。"
   },
-  "local_life_insights": [
-    {
-      "base": "生成式视频底座升级：视频从'套模板'转向'自然语言直接生成 + 数字分身出镜'。",
-      "borrow": "外投团队可把'AI 批量生成商家口播/带货素材'纳入投放链路，用素材数量与快速迭代摊薄单条获客成本，而非继续依赖人工拍摄。"
-    },
-    {
-      "base": "模型底座更大更便宜：调用成本持续下探，'千商千面'的定制生成在成本上开始可行。",
-      "borrow": "外投可从'一套素材投所有人'转向按商家、按人群定制创意与文案，用精细化投放提升 ROI。"
-    },
-    {
-      "base": "AI 广告/自动投放底座在推进，但全自动投放的效果与品牌安全仍受质疑。",
-      "borrow": "外投当前宜'AI 提效 + 人工兜底'：AI 做素材生产与初筛，把预算分配与品牌把关留给人，替商家守住 ROI。"
-    }
-  ],
-  "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
-  "total_items": 15,
-  "new_vs_yesterday": 15,
+  "local_life_insights": [],
+  "insights_intro": "",
+  "total_items": 2,
+  "new_vs_yesterday": 2,
   "compare_date": "2026-07-25",
   "high_count": 0,
   "category_counts": {
-    "大厂动向": 15
+    "大厂动向": 2
   },
   "items": [
     {
-      "title": "TikTok | Pros, Cons, Debate, Arguments, Social Media, Internet, China, National Security, Free Speech, & Ban",
-      "explanation": "TikTok | Pros, Cons, Debate, Arguments, Social Media, Internet, China, National Security, Free Speech, & Ban",
-      "analysis_points": [],
+      "title": "大厂Agent赛马结束，字节整合多款智能体产品",
+      "summary": "字节内部至少做了四款智能体（飞书妙搭、火山引擎ArkAgent等），现整合为火山引擎ArkAgent统一入口，避免重复建设。阿里、腾讯也类似整合。标志Agent商业化进入集约化阶段。",
+      "analysis_points": [
+        "字节从多线赛马转向统一Agent平台，火山引擎ArkAgent成为核心入口，减少内部资源浪费。",
+        "对广告主：统一Agent平台可能提供更标准化的AI营销工具，降低使用门槛，但需关注整合后的功能完整性。"
+      ],
       "category": "大厂动向",
-      "type": "fact",
+      "type": "opinion",
       "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82dUx4b05Ld1FZWGZ2dFBlR1ptS2R1elUxc0xNaHR1TGtBRHUyOGxLdU9RNk9ELWtyVWtjSkV2aHNXZXp0Ykk4eThTbnZiUkZWSENZNFRvbnc3ODQ?oc=5",
-      "local_life_hint": ""
+      "source": "36氪",
+      "url": "https://36kr.com/p/3909509300556931",
+      "local_life_hint": "火山引擎ArkAgent统一后，本地生活商家可期待更易用的AI营销助手，用于自动生成广告文案、优化投放策略。"
     },
     {
-      "title": "字节豆包新功能上线:AI终于能像人一样边听边说了",
-      "explanation": "字节豆包新功能上线:AI终于能像人一样边听边说了",
-      "analysis_points": [],
+      "title": "即梦AI视频定价三连涨，被用户调侃“即贵”",
+      "summary": "字节旗下即梦AI视频生成产品价格连续三次上涨，而快手可灵、万兴科技等对手降价。即梦涨价反映字节对技术溢价的自信，但可能面临用户流失风险。",
+      "analysis_points": [
+        "即梦AI从低价策略转向高价策略，利用技术优势锁定高价值用户，但需平衡用户接受度。",
+        "对广告主：即梦涨价可能增加视频素材制作成本，但高质量视频生成能力仍具吸引力；可关注是否推出企业套餐。"
+      ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IWFBNNUkwRVBNZHRTZ0ZYWGJVRFJFZTR2WXVTZ3dWU3VReFR1bkRwcHNhb2ZKdXpWYmRpU1pWY3VNbmVCX183enFFRFpqc2xUZ0hMLWpuOXhWZGJNV2czdzZHUkNsd2ZObWpZd1d2TUd6UXNHakp1VDJjVEx1ZzA?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "OpenAI Poached the Latest Fields Medal Winner: Who Is ByteDance's Newly Launched Scientist Program Targeting?",
-      "explanation": "OpenAI Poached the Latest Fields Medal Winner: Who Is ByteDance's Newly Launched Scientist Program Targeting?",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01WGJseWlxVG1IOU1naXVIMGdBOUQ0OHZLanVKYTdiY1ZoR001Nkl0YkhZWEU1REpDY05RbEp0SzBPelB2dURCRTlRMllCWU41Z2Vr?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "HMD Touch AI Launched: Retro Lumia Design Meets ByteDance AI for $69",
-      "explanation": "HMD Touch AI Launched: Retro Lumia Design Meets ByteDance AI for $69",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSU5FTFhYQnA4MDRuLVR0NHFNZWZ1a19iNm9lUzMtUmgyaGlRNlVhQzg2NE40UXdCOGFvLTU1dkhJTlJfX0FtUGFmeEtybHdOQ1RMbFQ2NERlV3FPeDhLQmVqdXVoUWdidWhUZUpvRTFwWnFKTVFaYk03U3ZHZm5jNU1RSGFQVnpnVExETzlORGxTS09TcmYzQnNOUW1IeUUzUC1BQUZKTWdYb2c4VkNzZmZQZ1U?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance Seedance 2.5 API Goes Live – 30-Second Single-Shot Clips, 50 Reference Inputs, and 3D Camera Blockouts",
-      "explanation": "ByteDance Seedance 2.5 API Goes Live – 30-Second Single-Shot Clips, 50 Reference Inputs, and 3D Camera Blockouts",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbFNSX0o5eWsyX3lzVlJXNkVkQ0E1T2ZxRklMVG0zbGpHaE9iTWRBNXlacmRhTVVCaVZoZm5xWVMwbjh6R1A0ODlST3NIWGt0THMtOUlSWjFFaU9Za1poZ0FVc1ZTZ3NhRjdyd2gySHB5c0hRaklLOXRObHNWaFdGcUdZQnBPeEZQNzdpeHdSQmVSeVlaU3U5bkRFanJkMW1JczhmV1JDUUJpcEZlRXI0NDNOY2ExZ2o2Snc1WHhUNHREWmxtaGZjZlp3aw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok’s Security Chief Heads to Congress: ByteDance Kept Algorithm After Split",
-      "explanation": "TikTok’s Security Chief Heads to Congress: ByteDance Kept Algorithm After Split",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd2N4aXdTN0laOXlBU05xNVNFTl9FZVJkdlQ4V2E1bnN4S1RlbnNERVpsOGF5OEpHRk5na0FnNmU4MUhfaExKcFFHTURNTHR3cnpFVWlwZzFudVFiTEhMUlZ0ckZacmVBenBGSEtmcl8zNG5XU2toT0kzLUhPcENnMDljcVdtOTdSNXc4bWtYcjh2MnRoWmNrVjhYV01CN2tIWjNLeC1acXBwNC05ZFh6RTlsMHh6WWVicG5fTXFuNEpocW5XalJpQw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok US chief security officer to testify before US House on September 15",
-      "explanation": "TikTok US chief security officer to testify before US House on September 15",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZFo4cWpNTjltanFhUUtjbHpsSlRoUWcxclB1clhnS1FjbXVLaFBPazhNd0dOMW5IaVhKUE50SU5hdXZ4Y29GNFBDVGZ4QWlWOERaU2NjYkNSbnQyb2ZNaUtOSkJUMVFDZEtSVWwxc2FGY01vLVdneUJlVzFsWWxXaDFPQVpUcnFTWWh0aDd3Q0d3anVqX1hMaEJQODRlMnVleERKRlAyVm5FUUZWUVMwcDA0STZXTXI5Zzhxcy15UQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance’s PICO changes head as it prepares new MR device",
-      "explanation": "ByteDance’s PICO changes head as it prepares new MR device",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWl9fM1BnMFJfdzl5ZG9yamFhejJTdF9icGxKUXA3X0xSUEowb28yMTBJMUdZa0FMRUNYUzRaRmYxUTNZTEVBT3NKVk5qRWh3a29GWnNGUWRISTA3aEZRVWJpUHZXMWV5NEpCVHVPSnlla29TOWxTTUxPSjNQdmZ5TmtRR3pySjZ1OURicXJBRnJuNFZR?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "DOJ Clears TikTok for Federal Devices",
-      "explanation": "DOJ Clears TikTok for Federal Devices",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NbVdtUmpJS1owRjdLbGxxeE56X3FmZV9CQ0puNkI4eURaVnZNbkllTVZ3ZndxQUNDRnJoRlltbXJPQ1lES1BydzhTMkdzWmp5VWRJZFJNMTVpNjRBZTktc3NJVVpwdzl4dHNfZTFGdEtKQTJsa1E?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Scoop: Trump's Cabinet members are joining TikTok after DOJ shift",
-      "explanation": "Scoop: Trump's Cabinet members are joining TikTok after DOJ shift",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sak1ETXBBVGp4dDc1b2dJbjNPWTRKel9BVmd0SHg1LWMtZDQ4Z3Vaa0FwLVQ1UlZIT1dPLUhqWV8xejgtQVhwSm02V3hpQkl4T2RxOUpkVGY3Nk41dndHdmhWZmxKVWNLSElUVjhIdzFVVEk2Z3BvT1hB?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Shop creators are facing an AI reckoning",
-      "explanation": "TikTok Shop creators are facing an AI reckoning",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWGZiZ0lCQ0ptclFBVHJHNm1vb0o0ZzBidE1TS2tzWjNzc0xfd0V6czFKS3c3b2tabkg1cnNrYmxTcmlfYzlyLURQcm5PRUxPcmdGYnZzSmo1OVAxcnJKZTNSOUpIN2ZNOC1pTFcxTUl1aHp3VlhHM2dQU3B3RElPSGNrMTNVSTlxUER1dF9Xcy1XaklIOE1KS1huTDkzdw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "'I made £100,000 of TikTok sales in one day': The business of live shopping",
-      "explanation": "'I made £100,000 of TikTok sales in one day': The business of live shopping",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1TTklIUHAxeU9VazgxcHR6cmtGUldEN0lfSVhEdEp4S3ZsOWp5amxEbGZoOHFEUm52UDVrQkJFUmdkazREb0RVRE55MldQbHp2elNmS2Rpcl9FUQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "How to Make Money on TikTok",
-      "explanation": "How to Make Money on TikTok NerdWallet",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1nUzhlTmRETjhucGFEdUg2eGowRVo5S1pIclRSTEJQS1ZjUHBfcDBGNFZRNmRncEptSGFBYlYtaWJkMHhob3NLb3JRdTJiNjZabldMWmlhUkRpZDR0TjAyT01vV1dJSkIwUlRBMDE0dXEzYXZxTHo4?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "I Compiled The Top 18 TikTok Buys That Everyone Is Buying, So You Don't Have To Scroll Anymore",
-      "explanation": "I Compiled The Top 18 TikTok Buys That Everyone Is Buying, So You Don't Have To Scroll Anymore",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WSG02ODRtdnRTSTYzM3NIYUpybmR0V1RfZDctLUtyZmlCYnNvM0pKdzlaQnA3eDZpYmJ5eHQ3aWJveDVWa0liLUttZTRLdXlSZUFvMWNsRHdxRXhVU0pXNDVUc1pLWXFsRnVNY0F6VQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "继豆包、Seedance 之后，字节又放出一张王牌",
-      "explanation": "继豆包、Seedance 之后，字节又放出一张王牌",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QcDZCVmRwSUMzbmllR3RpYVduMzVSQWpHaDBrWGhJaHBORUZYTWRNdm9UbGpabWVLdF9rMXpjTU90TFlra2Z1MUc2bEhKUQ?oc=5",
-      "local_life_hint": ""
+      "source": "36氪",
+      "url": "https://36kr.com/p/3909478921999494",
+      "local_life_hint": "本地生活商家使用即梦制作广告视频的成本上升，可评估性价比，或转向其他降价平台如可灵。"
     }
   ],
-  "mode": "rule"
+  "mode": "ai"
 }
