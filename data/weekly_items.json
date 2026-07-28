@@ -1,14 +1,16 @@
 {
-  "generated_at": "2026-07-27T16:05:25.069831+00:00",
+  "generated_at": "2026-07-28T11:02:22.865763+00:00",
   "week_range": "07.27-07.28",
   "date_display": "07.27 - 07.28",
-  "editorial_summary": "本周共汇总 12 条 AI 商业要闻，其中高影响 3 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 20 条 AI 商业要闻，其中高影响 9 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权向AI转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5 API上线，推1亿补贴将成本降至0.3元/秒",
-      "字节豆包新功能上线：AI终于能像人一样边听边说了"
+      "火山引擎上线豆包搜索服务，赋能AI Agent信息引擎",
+      "TikTok Shop将在墨西哥上线，卖家开拓新市场"
     ],
     "opinions": [
+      "特斯拉接入豆包大模型，汽车产品定义权向AI转移",
       "豆包收费背后：AI超级应用如何自证付费价值？"
     ],
     "ecosystem": [
@@ -16,7 +18,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（6 条），高影响条目占比约 25%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（12 条），高影响条目占比约 45%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -34,11 +36,15 @@
     {
       "base": "抖音未成年人模式引入多模态大模型，实现内容自动年龄分级。",
       "borrow": "对美团商业化外投团队：可借鉴多模态内容理解技术，优化本地生活广告的定向投放，确保广告内容与用户年龄、场景匹配，提升品牌安全。"
+    },
+    {
+      "base": "火山引擎上线豆包搜索服务，为AI Agent提供持续搜索和交叉验证能力，从单一问答升级为多轮实时信息引擎。",
+      "borrow": "对美团商业化外投团队，可借鉴豆包搜索服务构建智能投放Agent，实时抓取竞品出价、用户反馈，动态调整投放策略，提升ROI。"
     }
   ],
   "insights_intro": "今日字节系在AI视频生成成本、车载AI入口、内容理解三方面实现底座能力升级，将深刻影响外投素材生产成本、投放渠道和定向精度。",
-  "total_items": 12,
-  "high_count": 3,
+  "total_items": 20,
+  "high_count": 9,
   "items": [
     {
       "title": "招商证券APP大模型大单花落火山引擎",
@@ -81,6 +87,90 @@
       "source": "中华网科技频道",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yYzB4bUllMlhhTVRpM1FoV1R6UWdXZ3R4bmk2bUtLaHd2eXBUU2xLd0pTZjNSbm5mRWx0QTFNNHFKR2xLSk93eVJSQnJnYWxyajVEVDRhMjFiRjNHemZqVDFB?oc=5",
       "local_life_hint": "低成本视频生成可大幅降低本地生活广告主的素材制作成本，外投团队可推广Seedance API作为广告素材生产工具。"
+    },
+    {
+      "title": "火山引擎上线豆包搜索服务，赋能AI Agent信息引擎",
+      "explanation": "火山引擎正式推出豆包搜索服务，为AI Agent提供持续搜索和交叉验证能力，企业开发者可集成该服务实现实时信息检索与准确性校验。这标志着字节将搜索能力开放给B端，降低企业构建智能应用的复杂度。",
+      "analysis_points": [
+        "豆包搜索服务支持多轮对话中持续检索，并能交叉验证多个来源，提升信息可靠性。",
+        "对广告主而言，可基于该能力开发更精准的营销Agent，实时抓取竞品动态、用户反馈，优化投放策略。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbEFtamZ5V2JIQ0RfQmNjamtDNkxkTFRwRl9oS0ZNb3E1YUVtX19pN1dUMm92cDl2RUJRSzNJbXdDTWZWb3ZpR3A4OU9nTzRMTjVFZ01qV3dNYks0djFsVFd4eGhZN1hIWVp0WTdtb2xyOVhIZEhiOEZvUnZibVBiMlkxeUt5VEI3?oc=5",
+      "local_life_hint": "本地生活商家可利用豆包搜索服务构建智能客服或营销Agent，实时获取用户评价、竞品活动等信息，辅助决策。"
+    },
+    {
+      "title": "特斯拉接入豆包大模型，汽车产品定义权向AI转移",
+      "explanation": "特斯拉中国区将内置豆包大模型，首批适配新款Model Y。分析认为，汽车产品定义权正从硬件转向AI能力，豆包在车载场景的渗透将改变智能座舱竞争格局。",
+      "analysis_points": [
+        "豆包大模型提供语音交互、内容推荐等能力，提升车内体验。",
+        "对本地生活商家，车载AI成为新流量入口，可探索与车企合作推送周边服务。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xQ0RLcDZxY20xZEJUQTlHb3lfd0x5NjV0RWlBM3FSSXZiaXA0VXpMWmdxM1hBOHlXMEI4Sk5LWXNiZXhZUHpKMkhCOHFlbWpTa2xtWDdfQ1BET28?oc=5",
+      "local_life_hint": "本地生活商家可探索与车载AI合作，在用户驾车途中推荐餐厅、加油站等，抢占车载场景流量。"
+    },
+    {
+      "title": "TikTok测试Prime式购物会员服务，打造美国电商巨头",
+      "explanation": "TikTok正在测试类似Amazon Prime的购物会员服务，提供免运费、专属折扣等权益，旨在提升用户粘性和复购率。",
+      "analysis_points": [
+        "会员服务可能包括免费配送、独家优惠等，增强电商竞争力。",
+        "对本地生活商家，可参与TikTok会员体系，获取高价值用户。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT2dTU0E3NkJtSC1YcXQzZi13cUl1WWpfdkg4V1NDUkxaUmFadFpxLXpmeXY2UWVWRlNyYjlfMlIweXltMGptRTVoMEl1VG1penl1UEhkenBTY3lvMVNSSUhXWVB2Vlo3Sy1Kd19sNGNWLVdlSThWT3gyYkJoenFBS0dqSkdmeDhCZlcxQ0pXOEtCSW01NF94UXNCXzJidw?oc=5",
+      "local_life_hint": "本地生活商家可关注TikTok会员服务，利用会员权益吸引复购，提升LTV。"
+    },
+    {
+      "title": "TikTok Shop将在墨西哥上线，卖家开拓新市场",
+      "explanation": "TikTok Shop计划本月在墨西哥上线，允许卖家在该区域开店。这是TikTok电商拉美扩张的重要一步。",
+      "analysis_points": [
+        "墨西哥是拉美第二大电商市场，TikTok Shop进入将带来新流量。",
+        "对出海商家，可提前布局墨西哥TikTok Shop，抢占蓝海。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "MediaPost",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQN3I0YUQ4Vm91WnBMWmVoVE5UamctS0pQZWw2UDdIRVdQS1ZUTi1fMGVfVkNGbDdDRU43blNsYmJBM3dmRERPeDdURjdOVUtlbXp2UEtqc05mdFNmQ05rQkFuQ2lhVU5Sb09JTXBYWTJONEJxSlQteEloZVFVLUxvNHM3ZWFKWHI5bUVOSmpaaWZ5NWpyTlJBakZhWlFudVVMUVpKSGl2eEhmZ09LMHBrV3IxbENIcXh3YkZ0MUxJYTVraWVudHNSeEdCbVpXanVReGxBSS05SUpHX3J6dHh1NnlUWQ?oc=5",
+      "local_life_hint": "本地生活出海商家可关注墨西哥TikTok Shop，拓展拉美市场。"
+    },
+    {
+      "title": "TikTok被指控违反欧盟儿童在线安全规则",
+      "explanation": "欧盟指控TikTok违反数字服务法案中关于儿童在线安全的规定，可能面临罚款。TikTok需加强内容审核和年龄验证。",
+      "analysis_points": [
+        "欧盟指控涉及未成年人数据保护和内容推荐算法。",
+        "对广告主，监管趋严可能影响TikTok广告投放的精准度和合规成本。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV2lNN1hzcHdBeGgycVRGNmw0RHhEbVpJc1V6dVlvSjl2d3NQRFBzUjFpQkZqRHd3OXVuaXpweWx6Y01DeFJhejVkb3hsczRwY0tFSFBUY2xLQUdULVc2bEFiSUhySWFLZ2kxVkpKdlBRTUNNUzk3UmxnZDE1ODh0amZoVjhRVnFTWXdUY0VPTUJxbGlPalJkMHlQNldSaUM0S3VOcVVySEQxZFplaEZkS3F3TWPSAboBQVVfeXFMT25ZbUlnaUpJMWhDdnRwcWc0MFpGWXFQSTk3bkhabzlWVFV4RnNvTkpfX1ZoS2ltQlQtMjg4UWVQRlp3Y3V6X1VkY0NWM3dlLWlwcVQtWDhvQ0x3cWRVS0hIRDZuVllmbFJqQWo2b0FrVDVvcFU5LUhYeTNKckFmY1dqWTZOYWZ3TGNlR0FDdEhOeDhVYjhhd0FZYXJRMFRQaHRsZVBMZlZ1NnJ1bG9kRUxBWjBRcFpUSDNn?oc=5",
+      "local_life_hint": "本地生活商家在TikTok投放广告时需注意合规，避免触犯儿童保护规则。"
+    },
+    {
+      "title": "DOJ允许联邦设备下载TikTok，政策转向",
+      "explanation": "美国司法部宣布不再禁止联邦雇员在政府设备上下载TikTok，标志着政策松动。此前TikTok因数据安全被限制。",
+      "analysis_points": [
+        "DOJ认为字节跳动已剥离TikTok算法，满足安全要求。",
+        "对广告主，TikTok在美国的运营环境改善，广告投放风险降低。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yeWtJYUFvWVNPel83clBKMVc5ZElzWDFmbENSY24yWUtGVklBdW9HRjVFV1UtdXVmWlBpeFlya0U0TVdZWTJJQVpiNTdrQTJxU2hyZGJmemNaTGdycm43U1owYWs1LXJTa21VaVFfY3FteUE?oc=5",
+      "local_life_hint": "TikTok在美国政策环境改善，本地生活出海商家可加大TikTok广告投入。"
     },
     {
       "title": "抖音升级未成年人模式，引入多模态大语言模型",
@@ -195,18 +285,46 @@
       "local_life_hint": "豆包收费后，广告主需重新评估AI工具成本，外投团队可对比不同AI工具性价比。"
     },
     {
-      "title": "AI游戏面临同质化与玩家接受度挑战，字节探索差异化",
-      "explanation": "AI游戏热度高但玩法趋同、素材AI味重，玩家对AI标签不买账。字节通过全流程AI制作探索差异化，但需解决算力成本与用户体验问题。",
+      "title": "PICO换帅并筹备新MR设备，字节XR战略调整",
+      "explanation": "字节跳动旗下PICO更换负责人，并筹备新款MR设备。此举显示字节在XR领域持续投入，新设备可能集成AI能力，与豆包等产品协同。",
       "analysis_points": [
-        "AI游戏面临玩法趋同、AI味重、玩家不买账等问题，头部厂商仍押注。",
-        "字节的全流程AI制作尝试差异化，但需平衡成本与体验，对广告主而言，AI生成内容需注重质量而非仅效率。"
+        "PICO新MR设备预计将融合AI交互，提升沉浸式体验。",
+        "对广告主，MR设备可能成为新的广告载体，支持3D展示和互动广告。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "TechNode",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWl9fM1BnMFJfdzl5ZG9yamFhejJTdF9icGxKUXA3X0xSUEowb28yMTBJMUdZa0FMRUNYUzRaRmYxUTNZTEVBT3NKVk5qRWh3a29GWnNGUWRISTA3aEZRVWJpUHZXMWV5NEpCVHVPSnlla29TOWxTTUxPSjNQdmZ5TmtRR3pySjZ1OURicXJBRnJuNFZR?oc=5",
+      "local_life_hint": "未来MR设备可应用于本地生活场景，如虚拟试吃、AR导航等，商家可提前布局。"
+    },
+    {
+      "title": "Kando AI完成数千万元种子轮融资，团队来自字节美团",
+      "explanation": "Kando AI获数千万元种子轮融资，由星连资本领投。团队来自字节、腾讯、美团等，致力于打造决策领域的AI Agent，类似Cursor for decision-making。",
+      "analysis_points": [
+        "Kando AI聚焦将决策认知数字化，辅助投资等高频决策场景。",
+        "对广告主，类似技术可用于优化投放决策，实现自动化出价和策略调整。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
       "impact": "medium",
       "source": "36氪",
-      "url": "https://36kr.com/p/3913591349187972",
-      "local_life_hint": "AI生成广告内容需避免同质化，字节的探索提示本地生活外投团队应注重AI素材的创意与个性化。"
+      "url": "https://36kr.com/p/3915057199535233",
+      "local_life_hint": "本地生活外投团队可关注决策AI Agent，用于自动化广告投放和预算分配。"
+    },
+    {
+      "title": "豆包订单能溯源，元宝直连京东，AI电商新进展",
+      "explanation": "豆包AI助手新增订单溯源功能，用户可追踪订单全流程；同时元宝直连京东，AI电商场景进一步落地。",
+      "analysis_points": [
+        "豆包订单溯源功能提升用户信任，减少售后纠纷。",
+        "对本地生活商家，AI电商功能可整合到抖音小店，优化购物体验。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yNVJkTmR3SlJ0bWN6MWxENl9kRXpJTWJfdERKaW5sTGJkczJ3NjRkZTlFd3BnM2VxekcwTTNaMkllUEtfaElFU00tN2xSLURwZHg0NEo1QXJuLXlrMmFjSU1QdkZjYU55LXNObDhMVFZfX2hzdzVoYnJrNmxCdzA?oc=5",
+      "local_life_hint": "本地生活商家可接入豆包订单溯源，提升服务透明度，增强用户信任。"
     }
   ],
   "mode": "ai"
