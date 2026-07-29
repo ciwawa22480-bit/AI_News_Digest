@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-29T11:10:43.036206+00:00",
+  "generated_at": "2026-07-29T13:16:53.968102+00:00",
   "week_range": "07.27-07.29",
   "date_display": "07.27 - 07.29",
-  "editorial_summary": "本周共汇总 28 条 AI 商业要闻，其中高影响 10 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 26 条 AI 商业要闻，其中高影响 8 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5 API上线，推1亿补贴将成本降至0.3元/秒",
@@ -11,20 +11,21 @@
     ],
     "opinions": [
       "特斯拉接入豆包大模型，汽车产品定义权转移",
-      "豆包收费背后：AI超级应用如何自证付费价值？"
+      "豆包收费背后：AI超级应用如何自证付费价值？",
+      "TikTok被欧盟指控违反儿童在线安全规则"
     ],
     "ecosystem": [
-      "豆包手机二代暂定Q2发布，备货量提升但GUI能力被收回",
       "触手AI首批接入Seedance 2.5，进入决策中台时代",
-      "欧莱雅与火山引擎签署战略合作，探索AI美妆营销"
+      "欧莱雅与火山引擎签署战略合作，探索AI美妆营销",
+      "Potentially AI加入BytePlus合作伙伴网络，获字节云服务支持"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（16 条），高影响条目占比约 36%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（15 条），高影响条目占比约 31%，商业化叙事仍由头部驱动。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。",
-    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。"
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
   ],
   "local_life_insights": [
     {
@@ -45,8 +46,8 @@
     }
   ],
   "insights_intro": "今日字节系在AI视频生成成本、车载AI入口、内容理解三方面实现底座能力升级，将深刻影响外投素材生产成本、投放渠道和定向精度。",
-  "total_items": 28,
-  "high_count": 10,
+  "total_items": 26,
+  "high_count": 8,
   "items": [
     {
       "title": "招商证券APP大模型大单花落火山引擎",
@@ -159,34 +160,6 @@
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yeWtJYUFvWVNPel83clBKMVc5ZElzWDFmbENSY24yWUtGVklBdW9HRjVFV1UtdXVmWlBpeFlya0U0TVdZWTJJQVpiNTdrQTJxU2hyZGJmemNaTGdycm43U1owYWs1LXJTa21VaVFfY3FteUE",
       "local_life_hint": "TikTok政策转暖，本地生活商家可加大在TikTok上的广告投入，覆盖更多美国用户。"
-    },
-    {
-      "title": "豆包手机二代暂定Q2发布，备货量提升但GUI能力被收回",
-      "explanation": "新一代豆包手机备货量从3万台提升至数十万台，但上一代最受关注的GUI能力被收回，不再读取屏幕、模拟点击头部应用，仅当应用主动提供MCP服务后才能接入。这标志着Agent手机从‘全能操控’转向‘生态协作’，降低用户预期但提升可行性。",
-      "analysis_points": [
-        "豆包手机二代策略调整：从主动操控App转向等待应用提供MCP服务，降低技术难度和合规风险。",
-        "对广告主：未来Agent手机可能成为新的广告分发入口，商家需提前布局MCP服务，抢占用户触达先机。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3916492156934023",
-      "local_life_hint": "本地生活商家可关注豆包手机MCP生态，未来或可通过MCP接口直接向用户推送优惠券、到店提醒等。"
-    },
-    {
-      "title": "TikTok Shop成英国第四大美妆零售商，社交电商势能强劲",
-      "explanation": "TikTok Shop在英国美妆零售市场排名第四，显示其社交电商模式在成熟市场取得突破。通过短视频+直播带货，TikTok Shop正在重塑美妆品牌销售渠道，尤其吸引年轻消费者。",
-      "analysis_points": [
-        "TikTok Shop在英国美妆领域排名第四，验证了社交电商在成熟市场的增长潜力。",
-        "对本地生活：TikTok Shop模式可复制到本地生活服务，如餐饮、到店团购，通过内容种草+即时购买提升转化。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "BeautyMatter",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaEc4ZnB1U19VSmtHLW5jalFvMXMxWDZIYUJ2Y29udGZYZlhDS05jbk91X0tOeDVlaDRwVXF1bVU5ZC1USk1WZ25rbFFXYXE3cWd3VS02MVp2aXBNelRLUU5MS1NEZXR1YXRIa2dIdFBXVU9CbDloSG9OcUcxTm8?oc=5",
-      "local_life_hint": "本地生活平台可借鉴TikTok Shop模式，通过短视频+直播推广本地商家，如餐厅、美容院，实现内容到交易的闭环。"
     },
     {
       "title": "抖音升级未成年人模式，引入多模态大语言模型",
@@ -371,74 +344,74 @@
       "local_life_hint": ""
     },
     {
-      "title": "奇想无限与火山引擎深度合作，将上线火山专属版Agent",
-      "explanation": "德才股份旗下奇想无限与火山引擎生态深度合作，近期将上线火山专属版Agent。作为Seedance 2.5第一批合作方，奇想无限将在模型正式发布后第一时间联调上线，推动AI视频生成在商业场景的应用。",
+      "title": "TikTok Shop成为英国第四大美妆零售商",
+      "explanation": "TikTok Shop在英国美妆市场跃居第四大零售商，显示其社交电商模式的强劲增长。这一成功模式可复制到本地生活领域，通过短视频和直播带货推动餐饮、到店等品类销售。",
       "analysis_points": [
-        "奇想无限作为Seedance 2.5首批合作方，将率先集成火山引擎AI视频能力，降低商家视频制作门槛。",
-        "对广告主：商家可通过奇想无限的Agent快速生成广告视频素材，提升内容生产效率。"
+        "TikTok Shop成为英国第四大美妆零售商，社交电商模式验证成功。",
+        "对本地生活商家：可借鉴美妆品类经验，通过TikTok Shop直播和短视频推广餐饮、到店服务，拓展线上销售渠道。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5VkZhaVlmSEtCTFJGV3NMS0x5MkZ3Um1ubU56cDZnczhILXJXSXRzUEJrdnhmbjdyblR3azQ1SUZTOEEzalRSVFlfTmlMZWk3QUtFYi15TUloV2FXS1IxM2JzelI?oc=5",
-      "local_life_hint": "本地生活商家可利用奇想无限的Agent快速生成探店视频、促销广告，降低内容制作成本。"
+      "source": "BeautyMatter",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaEc4ZnB1U19VSmtHLW5jalFvMXMxWDZIYUJ2Y29udGZYZlhDS05jbk91X0tOeDVlaDRwVXF1bVU5ZC1USk1WZ25rbFFXYXE3cWd3VS02MVp2aXBNelRLUU5MS1NEZXR1YXRIa2dIdFBXVU9CbDloSG9OcUcxTm8?oc=5",
+      "local_life_hint": "本地生活商家可入驻TikTok Shop，通过短视频和直播推广餐饮、到店服务，借鉴美妆品类的成功经验。"
     },
     {
-      "title": "赛豆科技发布：赛力斯+火山引擎，AI汽车落地新范式",
-      "explanation": "赛力斯与火山引擎联合发布‘赛豆科技’，探索AI汽车落地。双方将整合火山引擎的AI能力与赛力斯的整车制造经验，打造智能座舱、自动驾驶辅助等AI应用，推动汽车智能化升级。",
+      "title": "TikTok被欧盟指控违反儿童在线安全规则",
+      "explanation": "欧盟对TikTok提起指控，认为其未能充分保护儿童在线安全。此举可能影响TikTok在欧洲的运营，但短期内对商业化影响有限，长期需关注合规成本增加。",
       "analysis_points": [
-        "赛豆科技是火山引擎AI能力在汽车行业的深度落地，从单点合作转向联合品牌。",
-        "对广告营销：AI汽车可能成为移动广告终端，如根据用户位置推送本地商家优惠，本地生活平台可探索车载场景营销。"
+        "欧盟指控TikTok违反儿童在线安全规则，可能面临罚款。",
+        "对广告主：需关注TikTok合规调整对广告投放的影响，但短期内欧洲市场投放仍可正常进行。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV2lNN1hzcHdBeGgycVRGNmw0RHhEbVpJc1V6dVlvSjl2d3NQRFBzUjFpQkZqRHd3OXVuaXpweWx6Y01DeFJhejVkb3hsczRwY0tFSFBUY2xLQUdULVc2bEFiSUhySWFLZ2kxVkpKdlBRTUNNUzk3UmxnZDE1ODh0amZoVjhRVnFTWXdUY0VPTUJxbGlPalJkMHlQNldSaUM0S3VOcVVySEQxZFplaEZkS3F3TWPSAboBQVVfeXFMT25ZbUlnaUpJMWhDdnRwcWc0MFpGWXFQSTk3bkhabzlWVFV4RnNvTkpfX1ZoS2ltQlQtMjg4UWVQRlp3Y3V6X1VkY0NWM3dlLWlwcVQtWDhvQ0x3cWRVS0hIRDZuVllmbFJqQWo2b0FrVDVvcFU5LUhYeTNKckFmY1dqWTZOYWZ3TGNlR0FDdEhOeDhVYjhhd0FZYXJRMFRQaHRsZVBMZlZ1NnJ1bG9kRUxBWjBRcFpUSDNn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "赛力斯与火山引擎合资成立赛豆科技，发力AI汽车",
+      "explanation": "赛力斯与火山引擎合资成立赛豆科技，聚焦AI汽车解决方案。火山引擎的豆包大模型将深度融入赛力斯车型，提供智能座舱、自动驾驶辅助等功能，进一步拓展车载AI场景。",
+      "analysis_points": [
+        "赛力斯与火山引擎合资成立赛豆科技，专注AI汽车。",
+        "对本地生活商家：车载AI场景增加，商家可优化在豆包大模型中的本地服务信息，获取车载推荐流量。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "汽车之家",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pRDlialA4M1ZrWUZsU1plVzNNeF9sSzBKcU9FcV8wUjI2SGxwbjEwaE9UR09iVE85NTU5TExVdWtpX2NzRXNhbW1mWUwyekJfc3pBalJpdEVPNzQ?oc=5",
-      "local_life_hint": "本地生活平台可与赛豆科技合作，在车载系统中嵌入本地服务推荐，如充电站、餐厅导航。"
+      "local_life_hint": "本地生活商家应优化在豆包大模型中的本地搜索信息，争取车载语音推荐流量。"
     },
     {
-      "title": "飞书aily全面升级，主打多智能体协同",
-      "explanation": "飞书aily宣布全面升级，高调打出‘多智能体协同’牌。新功能支持自动检索聊天、文档等工作信息，生成结构化周报，支持群聊消息爬楼、语音重点提炼，自动生成待办事项，并调用智能文档、表格、会议等几十项能力。",
+      "title": "豆包GEO“七维靠谱度筛选矩阵”测评TOP3发布",
+      "explanation": "豆包推出GEO（生成引擎优化）服务，发布“七维靠谱度筛选矩阵”测评TOP3，帮助品牌在AI搜索中提升权威度。这类似于SEO，但针对AI生成内容，本地生活商家可通过优化在豆包中的信息呈现，获取更多AI推荐流量。",
       "analysis_points": [
-        "飞书aily升级为多智能体协同平台，从单一AI助手转向多Agent协作。",
-        "对本地生活：团队可利用飞书aily自动化处理内部协作，提升运营效率，如自动生成周报、管理任务。"
+        "豆包推出GEO服务，通过“七维靠谱度筛选矩阵”评估品牌权威度。",
+        "对本地生活商家：需优化在豆包中的品牌信息，提升AI搜索排名，获取更多推荐流量。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3916363882387074",
-      "local_life_hint": "本地生活运营团队可使用飞书aily自动化处理日常协作，如自动汇总商家反馈、生成运营报告。"
+      "source": "CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81OERxb3FEbXRBZ1JRMm51UVctOFBNZThqc29UU3dKZWphbFRKdVF1VEV1QnhSYndCR2VPZWFEMGRPSGh4UVRlZUpzcU5SbmVtMERXY3Z5RVJwVEJfaXc?oc=5",
+      "local_life_hint": "本地生活商家应关注豆包GEO优化，提升品牌在AI搜索中的权威度，获取更多推荐流量。"
     },
     {
-      "title": "豆包GEO“七维靠谱度筛选矩阵”测评TOP3发布",
-      "explanation": "豆包GEO（生成式引擎优化）推出‘七维靠谱度筛选矩阵’，用于评估发稿平台的可信度。该矩阵从七个维度筛选优质平台，帮助品牌在AI搜索时代建立权威。",
+      "title": "Potentially AI加入BytePlus合作伙伴网络，获字节云服务支持",
+      "explanation": "AI模型聚合平台Potentially AI加入BytePlus合作伙伴网络，获得火山引擎的云服务和AI能力支持。这表明字节云生态正在吸引第三方AI平台入驻，扩大其影响力。",
       "analysis_points": [
-        "豆包GEO推出评估矩阵，为品牌在AI搜索中的可见度提供量化标准。",
-        "对广告主：商家可利用GEO优化品牌在豆包等AI搜索中的表现，提升被推荐概率。"
+        "Potentially AI加入BytePlus网络，获得火山引擎云服务和AI能力支持。",
+        "对本地生活商家：字节云生态扩大，未来可能提供更多AI工具，商家可关注BytePlus生态内的营销解决方案。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "low",
-      "source": "CSDN",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81OERxb3FEbXRBZ1JRMm51UVctOFBNZThqc29UU3dKZWphbFRKdVF1VEV1QnhSYndCR2VPZWFEMGRPSGh4UVRlZUpzcU5SbmVtMERXY3Z5RVJwVEJfaXc?oc=5",
-      "local_life_hint": "本地生活商家可关注豆包GEO，优化品牌在AI搜索中的可见度，提升用户主动搜索时的曝光。"
-    },
-    {
-      "title": "2026年豆包品牌优化服务商观察：AI搜索时代的品牌权威建设路径",
-      "explanation": "文章探讨了在AI搜索时代，品牌如何通过豆包等平台优化自身权威性。指出品牌需通过内容优化、多平台布局等方式，在AI搜索中建立可信形象。",
-      "analysis_points": [
-        "AI搜索时代，品牌权威建设路径从传统SEO转向GEO（生成式引擎优化）。",
-        "对广告主：商家需调整SEO策略，针对豆包等AI搜索进行内容优化，提升品牌在AI回答中的出现频率。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "low",
-      "source": "CSDN",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEUXdRejFqeVhXSU5ZcFBkSUtVQnlpeDhZODRVQmdZaFdyNlMxV2VaS2doZC1lbm9FRWVRdGZBQ1lmdnJBNFVvbnl6SjhWSVRMV0xhYldWVTI3ZElXRVE?oc=5",
-      "local_life_hint": "本地生活商家可针对豆包等AI搜索优化品牌内容，如优化店铺描述、用户评价，提升AI推荐概率。"
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTF5dDVyR2hOVmNaR0luaDdJZ05RTTZWaTZyMFNMZGQ2d285OUljVGNYYy1ycXRxRm9yZWRiRVlDRmI4TDVWckVrTEVGbi1rSnYwUUh1WUxCZWFDQ3NEenJnbm1uQ3RoOTZJd2J3Y3lwQmpmeWRGemg4OEhGcU5uLWo3TjFRbUR5TDlKUURSNUtZMFN4N01PemxUeWVPcjBWdVFvTzNFLUl2RXQ2VklMdzI1Yw?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
