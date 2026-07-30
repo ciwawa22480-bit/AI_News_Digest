@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-30T10:37:11.664107+00:00",
+  "generated_at": "2026-07-30T12:18:24.851198+00:00",
   "week_range": "07.27-07.30",
   "date_display": "07.27 - 07.30",
-  "editorial_summary": "本周共汇总 35 条 AI 商业要闻，其中高影响 11 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 36 条 AI 商业要闻，其中高影响 12 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5 API上线，推1亿补贴将成本降至0.3元/秒",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（21 条），高影响条目占比约 31%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（25 条），高影响条目占比约 33%，商业化叙事仍由头部驱动。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "今日字节系在AI视频生成成本、车载AI入口、内容理解三方面实现底座能力升级，将深刻影响外投素材生产成本、投放渠道和定向精度。",
-  "total_items": 35,
-  "high_count": 11,
+  "total_items": 36,
+  "high_count": 12,
   "items": [
     {
       "title": "招商证券APP大模型大单花落火山引擎",
@@ -162,46 +162,60 @@
       "local_life_hint": "TikTok政策转暖，本地生活商家可加大在TikTok上的广告投入，覆盖更多美国用户。"
     },
     {
-      "title": "字节跳动重组AI业务：飞书并入豆包，火山引擎整合市场团队",
-      "explanation": "字节跳动宣布将飞书产品团队整合进豆包，市场团队并入火山引擎，成立新的豆包产品团队。此举旨在以AI为核心重构ToB业务，豆包企业版已开启内测。",
+      "title": "字节跳动重组AI业务：飞书并入豆包，火山引擎整合商业化",
+      "explanation": "字节跳动将飞书产品团队整合进豆包，市场团队整合进火山引擎，形成以AI为核心的ToB业务架构。此举旨在统一AI能力输出，提升企业服务效率。",
       "analysis_points": [
-        "飞书产品团队并入豆包，意味着字节将AI能力作为企业办公的核心，豆包从C端助手升级为B端工作入口。",
-        "对广告主而言，未来可通过豆包企业版实现AI驱动的营销自动化，火山引擎整合后有望提供更统一的AI营销工具。"
+        "飞书产品团队并入豆包，意味着字节将AI能力作为办公协作的核心，豆包企业版已开启内测。",
+        "对广告主和本地生活商家而言，未来可能通过火山引擎获得更整合的AI营销工具，降低多平台管理成本。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "钛媒体",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4wMWM3cmptdjM1b0xDbFp4VVM1cDhDZXk3NzJJWXFjb3ZGT1gxT2JldC1sUVhNblZMSEhYTjVIQ1FUYVRNR3VGQ2RGLXU?oc=5",
-      "local_life_hint": "火山引擎整合后，本地生活广告主可期待更统一的AI投放工具，降低跨平台管理成本。"
+      "source": "TechNode",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1FDRjMxODktanp2akl3dDUwVzVBc1ZCb3hMQVhSYkxnX01POG1VNDFlY1ZOS1F5YUNqeDVaXzVtS0FyaFE1U0JKdVBGZmNGTTdlT2YyOTZjWmlTWUN2c0h1TkJ4eVE0TGZTVzk5aTUzS21UUHhIdnRjOWk3SnFWcFRyWE1WbEZhRGN0aTJIbEIzQ1hxX3haaGxzTlFPQldtSGhXclp3ejN4d2c?oc=5",
+      "local_life_hint": "整合后，本地生活商家可通过火山引擎一站式获取AI营销、数据分析等服务，提升投放效率。"
     },
     {
-      "title": "字节大模型业务ARR达40亿美元，商业化加速",
-      "explanation": "财新报道字节跳动大模型业务年化经常性收入（ARR）已达40亿美元，显示其AI商业化进入高速增长期，主要来自火山引擎API调用和豆包订阅。",
+      "title": "字节跳动大模型业务ARR达40亿美元，AI商业化加速",
+      "explanation": "字节跳动大模型业务年化经常性收入（ARR）已达40亿美元，显示其AI商业化进入高速增长期。",
       "analysis_points": [
-        "40亿美元ARR表明字节大模型已形成规模收入，主要来自企业API和C端订阅，商业化模式跑通。",
-        "对广告主而言，字节AI能力成熟度提升，未来可依赖其底层模型实现更精准的广告定向和创意生成。"
+        "40亿美元ARR主要来自豆包API调用、火山引擎云服务及企业级AI解决方案。",
+        "对广告主而言，字节AI能力的成熟意味着更精准的投放和更丰富的营销工具。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "财新",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VTDE0VzlCb2RDcE5NejRpaHU3VW9lM2VWQnJGMkpveVdDM0t4cl9Db1c3enhITXdXNmZFQXVTdjExdWpJclNsbVprdEpGNFIycEc3YVZZTF81eG1PRC1QQjR5Mjk?oc=5",
-      "local_life_hint": "字节AI商业化成熟意味着本地生活广告主可获取更稳定、成本更低的AI能力，用于素材生成和投放优化。"
+      "local_life_hint": "商家可更放心地采用字节AI工具，因其商业化已得到验证，服务稳定性有保障。"
     },
     {
       "title": "字节跳动ToB战略升级：豆包、飞书、火山引擎组织调整",
-      "explanation": "字节跳动将飞书产品团队整合进豆包，市场团队并入火山引擎，形成以AI为核心的ToB业务矩阵，豆包企业版已内测。",
+      "explanation": "字节跳动对ToB业务进行重大调整，将飞书产品团队并入豆包，商业化团队并入火山引擎，聚焦AI企业服务。",
       "analysis_points": [
-        "组织调整后，豆包成为企业级AI入口，飞书协同能力融入，火山引擎提供底层算力。",
-        "对广告主而言，字节ToB一体化意味着更便捷的AI营销工具接入，降低多平台切换成本。"
+        "整合后，豆包成为企业AI入口，火山引擎提供底层算力和模型服务，形成完整ToB链条。",
+        "对广告主而言，未来可通过火山引擎一站式获取AI营销、数据分析等服务。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "新浪网",
+      "source": "手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14WmZGWmUyM1lxeDByY19wdDg4RVlGdXVYZDg4a0ZPTVZRcDAyUlFkci1YeDRYZzgtejFILXhITTNQTTRYSDZRYVJBQ1EtQmtEWnU5bnl1WHRJRmZodU9Xc2ZFbV9sWDI3elFGMU9LS1hxR3FTYzd3b001TVhFQ1E?oc=5",
-      "local_life_hint": "火山引擎整合后，本地生活广告主可期待更统一的AI营销平台，实现从素材生成到投放优化的全链路AI化。"
+      "local_life_hint": "本地生活商家可期待更整合的AI营销工具，降低多平台管理成本。"
+    },
+    {
+      "title": "字节跳动AI业务组织架构调整，涉及豆包等团队",
+      "explanation": "字节跳动对AI业务进行组织架构调整，涉及豆包、飞书、火山引擎等团队，旨在提升协同效率。",
+      "analysis_points": [
+        "调整后，豆包聚焦AI产品，火山引擎专注商业化，飞书融入豆包，形成统一AI战略。",
+        "对广告主而言，未来可获得更整合的AI营销解决方案。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "三易生活",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YNWJPNlBtYkFzbVZnalB0Nkhvd1NRUFl2amhyRHZNYnJsM0VxajVab0lELVRrNkNmMDlVaG9NbUZCRXpNWHEzQTN3QWd4NTZOb2Y0Y1BGcDFSdjZxb0ZqM2pTS2RjZ09l?oc=5",
+      "local_life_hint": "商家可期待更整合的AI营销工具，降低多平台管理成本。"
     },
     {
       "title": "抖音升级未成年人模式，引入多模态大语言模型",
@@ -457,87 +471,87 @@
     },
     {
       "title": "巨量引擎：上半年抖音小游戏DAU同比增长130%",
-      "explanation": "巨量引擎在行业论坛上披露，上半年抖音小游戏DAU同比增长130%，平台推出精品化扶持政策，鼓励开发者长线经营。",
+      "explanation": "巨量引擎数据显示，抖音小游戏日活跃用户同比增长130%，表明小游戏成为流量增长新引擎。",
       "analysis_points": [
-        "小游戏DAU高速增长，成为抖音生态新流量入口，广告主可通过小游戏激励视频、插屏广告等获取用户。",
-        "本地生活广告主可尝试与小游戏合作，通过互动广告形式提升品牌曝光和转化。"
+        "小游戏DAU高速增长，为广告主提供了新的用户触达场景，尤其是休闲游戏和互动广告。",
+        "本地生活商家可考虑与小游戏合作，通过游戏内激励广告或品牌植入获取年轻用户。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "观点网",
+      "source": "guandian.cn",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5IUkRoYVI3ZzJYUDhWWWphdUc0QVhlNFhXVWZyNGt2T2VEZFdjZFQ1SFYzU1N6QndueUFlTzFQdG15cHJvU2g4WG9IcHVhQQ?oc=5",
-      "local_life_hint": "小游戏DAU增长为本地生活广告主提供低成本获客渠道，可设计互动小游戏吸引用户到店。"
+      "local_life_hint": "本地生活商家可投放小游戏激励广告，引导用户到店或下单，实现品效合一。"
     },
     {
-      "title": "豆包大模型加速上车：荣威、别克新车型搭载豆包2.0",
-      "explanation": "荣威家越07和别克至境E7内饰谍照曝光，均搭载豆包大模型2.0，提供智能语音交互和个性化服务，AI座舱成为卖点。",
+      "title": "TikTok Shop美妆季度销售额近10亿美元，品牌分化加剧",
+      "explanation": "TikTok Shop美妆品类上季度销售额接近10亿美元，但并非所有品牌都盈利，头部品牌集中度高。",
       "analysis_points": [
-        "豆包大模型从手机端扩展到汽车座舱，实现多模态交互，提升驾驶体验。",
-        "对本地生活广告主而言，车载AI场景可成为新的营销触点，例如基于位置推荐餐厅或服务。"
+        "美妆品类爆发式增长，但竞争激烈，中小品牌需差异化策略。",
+        "本地生活商家可借鉴美妆品牌在TikTok Shop的运营经验，如直播带货、达人合作。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "汽车之家",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXTllZR0hTc0kwdmtVcm1iV0dxbFVncWFzRTI2akI0NU04Z2MzczZod1ZxQmU5MkNjSE1nal9JNFFkOVlUR0Z6TmYtMDB4X0lRUHRlS2RrVlQ0OEE?oc=5",
-      "local_life_hint": "车载AI场景为本地生活营销提供新入口，可探索与车企合作，在豆包座舱中植入本地服务推荐。"
+      "source": "Tubefilter",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQmJXWjdHUWlfMUYybkpPdFVHNGZtRm5PY093d1ExV3Vpb2I3UENZaENQeXlfZWs2NjJvYlVLcEZ4T08yaDR6TzRBWnY1UHVVSEQwRHJhdUxadVhGTHF4YUFROFpqWVRkcmFncmZxZnZhTnlNSTJJcFM5VnY2ME5kemFHcGU2VDJaMW1Ba9IBkgFBVV95cUxPY3pTTnRUbnlpUTQ4cDJpa2JBdXB3TS1qWWRjSDF6TWgtSTVMUmtuZWdnbGNMSjdqdFlPMkVBVmxMSFNTY3lhX2hzdDJjU2NrRXlnT2ZYNFVhN3FtUEFuSVJ2WkxaTEZIRnktQV9lMGs1alB3eE5xT1g1bUdpajBMczVlNXgzOFFCT1JVcTN4ZkQ0Zw?oc=5",
+      "local_life_hint": "本地生活商家可关注TikTok Shop美妆品类的成功案例，学习如何利用短视频和直播提升转化。"
     },
     {
-      "title": "巨量引擎小游戏行业论坛：聚焦精品化与长线经营",
-      "explanation": "巨量引擎在上海举办小游戏行业论坛，强调精品化策略，推出扶持政策鼓励开发者长线运营，小游戏DAU同比增长130%。",
+      "title": "豆包企业版开启内测，飞书功能融入AI能力",
+      "explanation": "字节跳动推出豆包企业版内测，将飞书的办公协作功能与豆包AI能力结合，打造企业级AI工作平台。",
       "analysis_points": [
-        "平台从流量驱动转向精品化，小游戏开发者需注重内容质量和用户留存。",
-        "广告主可借助小游戏的高互动性，设计品牌定制小游戏，实现品效合一。"
+        "豆包企业版集成文档协作、会议、项目管理等功能，并内置AI助手，可自动生成会议纪要、分析数据。",
+        "对本地生活商家而言，可提升内部运营效率，如自动生成营销报告、客户沟通等。"
       ],
       "category": "大厂动向",
       "type": "fact",
-      "impact": "low",
-      "source": "Sohu",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcFJVaGZreTl5QTNMbEUxMW5jd0p3ZklsSEIzX2l3Nk1tSEk5TDlZSVlFcnExZjZGWkhQNDN5R2hiSS1Xd2F4WEFQNnV1WmlBUzR3bENqOHhjVDMwd3pYb3VHMEhpTWJyMm01MGUwbGtUVDlOUjlyeTQ2VGhLMWQxaXc2OTNTQTdpSmtONg?oc=5",
-      "local_life_hint": "本地生活品牌可开发小游戏互动广告，如餐饮优惠券小游戏，提升用户参与和到店转化。"
+      "impact": "medium",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDd3pXZENUd3lNSmJOYnE2bnAyVDRqbFlMVDhpVEMyNnV1TmR6TlZNbTBIejF4Nzl6ZjBZX3czNHRUQVdzaFB2djFPOXlQcXByakE?oc=5",
+      "local_life_hint": "商家可利用豆包企业版管理门店运营、客户关系，提升管理效率。"
     },
     {
-      "title": "互动派斩获巨量引擎“破峰领航奖”，本地业务单日破峰突破100万",
-      "explanation": "互动派在巨量引擎本地业务中单日消耗突破100万，获得“破峰领航奖”，显示本地生活广告在抖音的潜力。",
+      "title": "TikTok安全主管赴国会作证：字节跳动剥离后仍保留算法",
+      "explanation": "TikTok安全主管在国会听证中表示，即使剥离，字节跳动仍保留核心算法，引发数据安全担忧。",
       "analysis_points": [
-        "本地业务单日破峰100万，证明抖音本地生活广告的规模化投放可行。",
-        "其他本地服务商可借鉴互动派的投放策略，利用巨量引擎工具实现快速起量。"
+        "算法保留意味着字节跳动对TikTok的推荐系统仍有控制权，可能影响广告投放和用户数据使用。",
+        "对广告主而言，需关注监管变化对TikTok广告投放的潜在影响。"
       ],
-      "category": "生态动向",
+      "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "邢台网",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jV3B3OWRJMkM1bXFPYnRtdzZSd0gzbVhWdFZ3WlNlajFJalBSNEh5d0xIc0Z1MHM5WS1zbzhLWC1IeEtwRmFQTl9FWVhRUWlxR3VQR3VSWGRUWTFsNFpMVDl6N1JFUQ?oc=5",
-      "local_life_hint": "本地生活广告主可加大抖音本地投放预算，利用巨量引擎的本地化工具实现高效获客。"
+      "source": "Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd2N4aXdTN0laOXlBU05xNVNFTl9FZVJkdlQ4V2E1bnN4S1RlbnNERVpsOGF5OEpHRk5na0FnNmU4MUhfaExhckFFZ0x0d1Z3cG5jQ3N3a3N2N3hQY0x3VXh0V0RjQ0h2dUJYd3J0T1Z0R0h0d0xqT0FhV2d2eFhQaV9jV3pJdG5pV3B1VjVjVXJjY0x3Wk1uYVhYd1p5V3J3U0RqM0UzM1FmY3RqT0p3V0p4d1l4N0R3?oc=5",
+      "local_life_hint": "商家需关注TikTok政策变化，确保广告投放合规。"
     },
     {
-      "title": "企享云Skills适配字节AI工作台，打造财税硅基员工",
-      "explanation": "企享云Skills平台适配字节、腾讯、阿里AI工作台，提供全链路财税AI员工，实现自动化财税处理。",
+      "title": "字节跳动任命李开晓领导Pico下一阶段发展",
+      "explanation": "字节跳动任命曾负责显示和芯片业务的李开晓领导Pico，预示Pico将加强硬件自研能力。",
       "analysis_points": [
-        "企享云Skills接入字节AI工作台，使财税流程自动化，提升企业效率。",
-        "对广告主而言，AI工作台生态扩展意味着更多企业级AI应用，可降低运营成本。"
+        "李开晓的硬件背景可能推动Pico在VR/AR设备上实现技术突破，如更轻便的头显、更高分辨率。",
+        "对本地生活商家而言，未来可通过VR/AR设备提供沉浸式体验，如虚拟探店、试妆等。"
       ],
-      "category": "生态动向",
+      "category": "大厂动向",
       "type": "fact",
-      "impact": "low",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HUHg5VndDLXdaMDFfS1FNQXJncTdIWGMxdDYxWUpBckpiaGNWemhSZEJlbi1xc1FMQW96dG1URm9udDA5Zmx6UGJTcEZVZlNGQjN6R1YtVzNTbm9HWWVBYmVDOXdoNmhGRGNZdWM3WGs2YmM5Y0lXdnpLMXF4U1E?oc=5",
-      "local_life_hint": ""
+      "impact": "medium",
+      "source": "KrASIA",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iNi1Idmw1a2hlbGxTUlFqRFVoZnVPSHpVRWtxUnUtVXhQbVdnYWxtRVJySHo3RjdvTllLdk9hUDBEb2ppRC1oN1NUNVFLczZkWlgwUTdBaC1Wa2k1eFgwT1FfVVdpUXVHcTd2SGRxenNkU2hjaDhQclRsQQ?oc=5",
+      "local_life_hint": "商家可提前布局VR/AR内容，抢占沉浸式营销先机。"
     },
     {
-      "title": "豆包月活3.82亿，AI影响近八成消费者决策",
-      "explanation": "36氪联合PureblueAI发布报告，豆包月活达3.82亿，近八成消费者认为AI影响消费决策，品牌需争夺AI推荐位。",
+      "title": "OMODA在东南亚推出超级AI座舱，搭载字节Seed大模型",
+      "explanation": "奇瑞旗下OMODA品牌在东南亚发布搭载字节Seed大模型的AI座舱，提供智能语音、导航等功能。",
       "analysis_points": [
-        "豆包月活3.82亿，成为重要消费决策入口，品牌需优化AI可理解性以进入推荐。",
-        "本地生活商家应确保在豆包等AI助手中的信息准确，提升被推荐概率。"
+        "Seed大模型上车，实现自然语言交互、个性化推荐等，提升驾驶体验。",
+        "对本地生活商家而言，车载AI可作为新的营销触点，如推荐附近餐厅、停车场等。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
+      "category": "大厂动向",
+      "type": "fact",
       "impact": "medium",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3917984470576769",
-      "local_life_hint": "本地生活商家需优化线上信息，确保在豆包等AI推荐中优先出现，抢占消费决策入口。"
+      "source": "The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPNG9CVEpVWDk3M3Y0dk9fWURVVXVoZ0hBcEhpTnFXeDViN2R3dFJwSk5HZ1RXN3otYVQySW5ZT0E2dWNOZVgtNUtnU2xlMG1TZmplU3MweTZpTkJtVXFmN0plZmZ3R0ZPU09YaUpDeEtsQW11dEZ4dVgzMXhnZnNsT05Wd0VZdFdnT3NOM1dNWVhQcDdIZkpRN25FRTV3RmM3Vm9WXzFoczlvY01CSDJXa2xOUWY2NlpsMl9MWnFid0dra1ppNGF5YU5obndCRy1YOEhpZERFRXczdjlXUmxXSVRCN2Vaak9oYjFCd0dCRzF4d0plZDJuOEh1ZEUzajRLbFNRMUdWMHJhMU50eGVJRkVPZko2Tmp0eGlmSmtEb3lZQdIBpwJBVV95cUxORG1iekRSaElCX2tFUHQzenphck5RTTJpVlMycFhjYld6ZjQwV3hsS2kxaGtRZmR1OEJ4V3prY1Y0WFQyMnM1WFZtS2dBeEQ3Q3czNm1ZWTNrZnNBZXNfYlFGX21SUEt2SmhDa2hWTU9lbEh3UHRyMHV5eklLS3hDWWpybmdlSlo2TmFKZWhpVWF5Q21vRWkwSXRYSDRBdVpVQUxiaWRtRlF0d21KS2ZPdnNRNzlpbGhuazdJLW56eXFuVkduS3FuSnFwcUhlR3N3NTZQdmdIcVpkVndRaWtuaEptQVItTHBtbkd2UG5SNm85LUVWdkVtalN1WHFOcHNfdE42Q1lJTnY3M2xPa1Z2Sk5KenlqUTU3Tnh0TVR4UTRIU2RGVDlr?oc=5",
+      "local_life_hint": "本地生活商家可与车企合作，在车载系统中植入本地服务推荐。"
     }
   ],
   "mode": "ai"
