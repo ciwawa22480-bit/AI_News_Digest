@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-30T12:18:24.851198+00:00",
-  "week_range": "07.27-07.30",
-  "date_display": "07.27 - 07.30",
-  "editorial_summary": "本周共汇总 36 条 AI 商业要闻，其中高影响 12 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-07-31T11:14:12.280151+00:00",
+  "week_range": "07.27-07.31",
+  "date_display": "07.27 - 07.31",
+  "editorial_summary": "本周共汇总 41 条 AI 商业要闻，其中高影响 13 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5 API上线，推1亿补贴将成本降至0.3元/秒",
@@ -15,16 +15,16 @@
       "TikTok被欧盟指控违反儿童在线安全规则"
     ],
     "ecosystem": [
+      "字节发布Seedance 2.5，单次生成30秒视频，产业合作落地",
       "触手AI首批接入Seedance 2.5，进入决策中台时代",
-      "欧莱雅与火山引擎签署战略合作，探索AI美妆营销",
-      "Potentially AI加入BytePlus合作伙伴网络，获字节云服务支持"
+      "欧莱雅与火山引擎签署战略合作，探索AI美妆营销"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（25 条），高影响条目占比约 33%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（27 条），高影响条目占比约 32%，商业化叙事仍由头部驱动。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
   ],
   "local_life_insights": [
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "今日字节系在AI视频生成成本、车载AI入口、内容理解三方面实现底座能力升级，将深刻影响外投素材生产成本、投放渠道和定向精度。",
-  "total_items": 36,
-  "high_count": 12,
+  "total_items": 41,
+  "high_count": 13,
   "items": [
     {
       "title": "招商证券APP大模型大单花落火山引擎",
@@ -216,6 +216,20 @@
       "source": "三易生活",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YNWJPNlBtYkFzbVZnalB0Nkhvd1NRUFl2amhyRHZNYnJsM0VxajVab0lELVRrNkNmMDlVaG9NbUZCRXpNWHEzQTN3QWd4NTZOb2Y0Y1BGcDFSdjZxb0ZqM2pTS2RjZ09l?oc=5",
       "local_life_hint": "商家可期待更整合的AI营销工具，降低多平台管理成本。"
+    },
+    {
+      "title": "字节发布Seedance 2.5，单次生成30秒视频，产业合作落地",
+      "explanation": "字节跳动正式发布Seedance 2.5视频生成模型，单次生成时长从15秒提升至30秒，支持多模态输入，并宣布与徐工、小鹏等企业达成合作意向，标志着AI视频从创意工具向产业生产力迈进。",
+      "analysis_points": [
+        "Seedance 2.5单次生成时长翻倍至30秒，支持多模态输入，生成质量提升，将陆续上线即梦AI、豆包专业版及火山方舟API。",
+        "与徐工、小鹏等企业合作，AI视频在工业、汽车等垂直行业落地，为广告素材生产提供更高效的工具。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOZDBzMW05UG1OZHQ4aE40WXEzLVJmT3FWSk1FVzB0UlVlT2FmYUlkYVVZMThXZURxRkFLUWFqazFjWXBqYzFjT2FXY0J6SnI5RDJaOEtpa1JNZXN6QlZSV3g3cU9PdlR6NHhoX2hnOGJ1VWU0dVNwU1k2ZnFnWFFsY0M1LW9QWWEzdmtQcDVhQ29VT0hYNmtncjBFOGtIbTNGU2Z3MzJqX2NaQ3RMcEd4eW5NVFgxeHhQc2pWRk5CdXlWUHZhcGlKY3g3OEU1OFJNVERmc2s2Nl9UQWptaDlDQjJpY3ZSWjloYm5waHpIaHBVZ1lsNHN2Z3dVcEVmajZ2X0dpeklMR3htY0RRQ3k?oc=5",
+      "local_life_hint": "Seedance 2.5可生成30秒高质量视频，本地生活商家可用于快速制作短视频广告素材，降低内容生产成本。"
     },
     {
       "title": "抖音升级未成年人模式，引入多模态大语言模型",
@@ -552,6 +566,62 @@
       "source": "The Manila Times",
       "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPNG9CVEpVWDk3M3Y0dk9fWURVVXVoZ0hBcEhpTnFXeDViN2R3dFJwSk5HZ1RXN3otYVQySW5ZT0E2dWNOZVgtNUtnU2xlMG1TZmplU3MweTZpTkJtVXFmN0plZmZ3R0ZPU09YaUpDeEtsQW11dEZ4dVgzMXhnZnNsT05Wd0VZdFdnT3NOM1dNWVhQcDdIZkpRN25FRTV3RmM3Vm9WXzFoczlvY01CSDJXa2xOUWY2NlpsMl9MWnFid0dra1ppNGF5YU5obndCRy1YOEhpZERFRXczdjlXUmxXSVRCN2Vaak9oYjFCd0dCRzF4d0plZDJuOEh1ZEUzajRLbFNRMUdWMHJhMU50eGVJRkVPZko2Tmp0eGlmSmtEb3lZQdIBpwJBVV95cUxORG1iekRSaElCX2tFUHQzenphck5RTTJpVlMycFhjYld6ZjQwV3hsS2kxaGtRZmR1OEJ4V3prY1Y0WFQyMnM1WFZtS2dBeEQ3Q3czNm1ZWTNrZnNBZXNfYlFGX21SUEt2SmhDa2hWTU9lbEh3UHRyMHV5eklLS3hDWWpybmdlSlo2TmFKZWhpVWF5Q21vRWkwSXRYSDRBdVpVQUxiaWRtRlF0d21KS2ZPdnNRNzlpbGhuazdJLW56eXFuVkduS3FuSnFwcUhlR3N3NTZQdmdIcVpkVndRaWtuaEptQVItTHBtbkd2UG5SNm85LUVWdkVtalN1WHFOcHNfdE42Q1lJTnY3M2xPa1Z2Sk5KenlqUTU3Tnh0TVR4UTRIU2RGVDlr?oc=5",
       "local_life_hint": "本地生活商家可与车企合作，在车载系统中植入本地服务推荐。"
+    },
+    {
+      "title": "Seedance 2.5嵌入工业产线，与车企机器人公司合作",
+      "explanation": "字节Seedance 2.5嵌入工业产线，与多家车企和机器人公司达成合作意向，视频生成模型在工业场景的应用探索。",
+      "analysis_points": [
+        "Seedance 2.5可用于工业产线模拟、质检等场景，提升生产效率。",
+        "对广告主而言，工业场景的AI视频应用或可借鉴到广告素材生成中。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb3BwYzZDS0lweXYtOHhsalV3Z3lLeDByNG80YVI2TnNOSkZEcUQteEgzWHR6NHNDVHVXWUdDX3ROOG5lLU9rb3BqX3FILXZkME1GUnM2WHY1dTZFTmdvcUg0VmtpSjF2eHEzOF9FMjdBMnVZX3B3dW01WXVXT3RTTDBlRlY5VElUektHUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节跳动发布Seedance 2.5，传媒ETF涨超6.9%",
+      "explanation": "字节跳动发布Seedance 2.5视频生成模型，带动传媒ETF涨超6.9%，市场对AI视频商业化前景看好。",
+      "analysis_points": [
+        "Seedance 2.5发布引发资本市场积极反应，传媒ETF上涨，显示市场对AI视频商业化的信心。",
+        "对广告主而言，AI视频技术的进步将降低视频广告制作成本，提升投放效率。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55THo4WjJHZlNEYnRlMzhTMXpsYkdyUlZCNDc3SGtzcWo5bU1UTXpqOW1ENzZCZm0yeEhsdHMzU0tzeGRzTUEzc1BtUHRrelFEa1JvSmE3bWdWUktUY1dkRjlDT191VnptejZpdENXelRNSUdabHRyRA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节发布Seedance 2.5，视频生成从创意工具走向产业生产力",
+      "explanation": "媒体分析认为，Seedance 2.5的发布标志着视频生成模型从创意工具走向产业生产力，其与徐工、小鹏等企业的合作预示着AI视频在垂直行业的落地加速。",
+      "analysis_points": [
+        "Seedance 2.5在生成时长、质量上的提升，使其能满足产业级应用需求。",
+        "对广告主而言，AI视频的产业级应用将带来更高效的广告素材生产与个性化投放。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZGYtSWpoU1pxWC1qWFloVkNYenE5Q2Zpb2R6eGthQzFjUEt2bEw2Q2NYR1NZblUyUjNTSGRHTHM5MV96NmdMOS1qYzRzS2toeGVJRUZ0dXNaU0NKeXdLQnNPd2FSUXAtY3A1d3BheGt6UWFxRWlpQnNjWVdKZlA5UndSOENoVnVUZmtLU3NKODR0NlVIZFk1XzFsVUpIalVUMWdlMzhjYw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节ToB变阵，一次新AI入口之争",
+      "explanation": "字节ToB变阵，飞书并入豆包，被视为一次新AI入口之争，旨在抢占企业级AI应用入口。",
+      "analysis_points": [
+        "字节通过整合飞书与豆包，打造统一的AI工作入口，提升企业级AI应用渗透率。",
+        "对广告主而言，AI入口的统一可能带来更便捷的营销工具集成。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "OFweek",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zNjc0ekdWU1BqQ3dfRmk3LXFRdXRCY3Z6V01wMGNRSzIwanlBZWhJVy1Ib3pOZjU2bVRLRDQxQ2Y4NUVXcUoxdUNSYkhQSjQ?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
