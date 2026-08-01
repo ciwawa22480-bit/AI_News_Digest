@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-31T13:15:48.545474+00:00",
-  "week_range": "07.27-07.31",
-  "date_display": "07.27 - 07.31",
-  "editorial_summary": "本周共汇总 44 条 AI 商业要闻，其中高影响 17 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-01T09:35:27.128347+00:00",
+  "week_range": "07.27-08.01",
+  "date_display": "07.27 - 08.01",
+  "editorial_summary": "本周共汇总 49 条 AI 商业要闻，其中高影响 20 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5 API上线，推1亿补贴将成本降至0.3元/秒",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（33 条），高影响条目占比约 39%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（36 条），高影响条目占比约 41%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "今日字节系在AI视频生成成本、车载AI入口、内容理解三方面实现底座能力升级，将深刻影响外投素材生产成本、投放渠道和定向精度。",
-  "total_items": 44,
-  "high_count": 17,
+  "total_items": 49,
+  "high_count": 20,
   "items": [
     {
       "title": "招商证券APP大模型大单花落火山引擎",
@@ -286,6 +286,48 @@
       "source": "FX168财经",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4yM25Wck9LWWp6ZXFPMVEzMm9wX1lWcngtZGlqNER0TFZJQ0ZzSFQyclhzakJSYXA4WExLcVk4TmgxWVdVVmh2anBXU0hKeDAyQ2s5V2pzZFJLcmFEVjVHNkt4MWdKbGkxa01V?oc=5",
       "local_life_hint": "本地生活商家可关注Seedance 2.5在垂直行业的应用案例，探索自身场景。"
+    },
+    {
+      "title": "特斯拉中国全系接入豆包大模型，AI上车加速",
+      "explanation": "特斯拉通过OTA升级，在中国市场全系车型接入豆包大模型，提供实时信息与自然对话能力。这是豆包在车载场景的重要落地，验证了其多模态交互能力。",
+      "analysis_points": [
+        "要点1：豆包大模型从云端走向车端，支持实时信息查询与自然对话，提升驾驶体验。",
+        "要点2：对商家而言，车载场景成为新流量入口，可探索基于位置的服务推荐，如餐饮、充电等。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZWd6Q2FzaVk5dzkwYUh2UlptV2Qxd28yUDF2Mnd4NDVBcVFCWWZicTQ0UmVoNzYxdXBTaU54cHJxdDFzLThXUFAzT0p2Mlh4c1NKV0p3eHVWeTY5YkRiX3FzOHB4M0FhbVd1Rm5sekpLZXdVYUxMOHA0Z21WWUlNS3BoaEphRXliRlhzWg?oc=5",
+      "local_life_hint": "车载场景可推荐周边商家，本地生活服务可探索与车企合作，拓展触达渠道。"
+    },
+    {
+      "title": "字节跳动AI业务重组：豆包接驳抖音，AI重构公司",
+      "explanation": "字节跳动将飞书并入豆包，豆包成为统一AI入口，并与抖音深度整合，AI能力将赋能内容生态与商业化。",
+      "analysis_points": [
+        "要点1：豆包与抖音打通，AI能力可应用于内容创作、推荐、广告等场景。",
+        "要点2：广告主可借助豆包AI优化广告素材与投放策略，提升ROI。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "澎湃新闻",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HdlVaQVh2WFBzZ0xQR21hc3dCR0toVXF4RHpBNjFrVkljbWlra3NPM0lrWXQtYWxSS2psMkxSZU4tLUoxMkNjMi1fVlJzaGtzTU9kUXUyY1FFQm54VS0yRw?oc=5",
+      "local_life_hint": "豆包与抖音整合，本地生活商家可利用AI生成视频、优化直播话术，提升营销效果。"
+    },
+    {
+      "title": "字节跳动重构ToB版图：飞书与豆包整合，激战AI工作入口",
+      "explanation": "字节跳动将飞书与豆包整合，争夺AI工作入口，与阿里、腾讯等大厂竞争企业级AI市场。",
+      "analysis_points": [
+        "要点1：豆包成为AI工作入口，整合飞书功能，提供一站式AI办公体验。",
+        "要点2：企业客户可借助豆包提升内部协作效率，降低管理成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZDd3YwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
+      "local_life_hint": "AI工作入口可能延伸至本地生活管理，商家可关注豆包的企业服务。"
     },
     {
       "title": "抖音升级未成年人模式，引入多模态大语言模型",
@@ -664,6 +706,34 @@
       "source": "新浪财经",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUllCUHc2N0czX2doZVZyUHVUTjY5WVZfR21HbTNNMjlIczlJTVFjMnRKdXVmbDI0eXI2bmlEN0M3VTBQRU1GTVV1X0g5ZTl6bG1SUG5ZSmFSeGpwc0FqUURCWDlSVmExQkhURTFWM2pGSkl0Q3I3TGc3dUtyNUlYV09TdUhSX2tleXZZbEZvckhqVElBdGltak5ocUM4YjFPclFLd2dLVQ?oc=5",
       "local_life_hint": "本地生活商家可用Seedance 2.5生成更自然的视频广告。"
+    },
+    {
+      "title": "前字节产品经理开源animated-voiceover，动画制作90%自动化",
+      "explanation": "前字节产品经理@s1dashu开源animated-voiceover，一套基于Agent的动画科普视频制片流程，可实现90%自动化，个人创作者低成本产出电影感视频。",
+      "analysis_points": [
+        "要点1：该流程将专业动画导演的制片流程封装为Agent可执行管道，解决角色崩和声音飘问题。",
+        "要点2：商家可用此工具快速生成科普类营销视频，降低内容生产成本，提升品牌传播效率。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "AI热点",
+      "url": "https://aihot.virxact.com/items/cms96t19506karo9k3wjqx5vb",
+      "local_life_hint": "本地生活商家可借鉴此工具生成产品说明或品牌故事视频，低成本制作高质量内容。"
+    },
+    {
+      "title": "AI视频竞争白热化：字节Seedance 2.5保持闭源，MiniMax开源",
+      "explanation": "字节跳动Seedance 2.5保持闭源，通过火山引擎提供API服务，而MiniMax H3选择开源，形成不同商业化路径。",
+      "analysis_points": [
+        "要点1：字节选择闭源+API模式，强化商业化闭环，保护技术优势。",
+        "要点2：商家使用API可获稳定服务，但成本可能较高，需评估性价比。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZjY1UldpQzU2NFJXTGo2dVpiUmRnQy03R3Nmc3RYRHhOMDVrd01EUEdzMUxncWhVbXVxbzRHUGl2UFAxU0xrWUQ0dXVOemVDR0dDZ0JnMmVCR3dkME5oMzVFaXZueGxDQ3FrOFhPaGp6UDRHanhvaGo1ZmVqa3RqTjdxRFMxZGN0TzhvWVdhdDFkZjFCUW1GdmE3bDhkQ0JmQWl1SFpNMzVnQVBIdXl4VjQwd2tydmlNeTNVdHNSdGZIbmdIU01yYWRmWHEzTExR?oc=5",
+      "local_life_hint": "商家选择AI视频工具时，需权衡闭源API的稳定性与开源工具的灵活性。"
     }
   ],
   "mode": "ai"
