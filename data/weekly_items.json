@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-01T11:15:40.876805+00:00",
-  "week_range": "07.27-08.01",
-  "date_display": "07.27 - 08.01",
-  "editorial_summary": "本周共汇总 53 条 AI 商业要闻，其中高影响 18 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-02T09:36:00.524203+00:00",
+  "week_range": "07.27-08.02",
+  "date_display": "07.27 - 08.02",
+  "editorial_summary": "本周共汇总 58 条 AI 商业要闻，其中高影响 18 条。本周主线包括：招商证券APP大模型大单花落火山引擎；特斯拉中国区将内置豆包大模型，首批适配新款Model Y；Seedance 2.5 API上线，推1亿补贴将成本降；火山引擎上线豆包搜索服务，赋能AI Agent信息引擎；特斯拉接入豆包大模型，汽车产品定义权转移。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5 API上线，推1亿补贴将成本降至0.3元/秒",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（35 条），高影响条目占比约 34%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（35 条），高影响条目占比约 31%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
   ],
   "local_life_insights": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "今日字节系在AI视频生成成本、车载AI入口、内容理解三方面实现底座能力升级，将深刻影响外投素材生产成本、投放渠道和定向精度。",
-  "total_items": 53,
+  "total_items": 58,
   "high_count": 18,
   "items": [
     {
@@ -790,6 +790,76 @@
       "source": "Mashable",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pWGV6a19McWVWTklmTnd3OVVSMl9QTE1INkwwMThsRVE1SHhSU1JmdUFGTVBlLUJXemgzWERCc0kzRTA2TDExMk5XZHlJZnRIanBQd2NDbVpHR1cwSGc?oc=5",
       "local_life_hint": "本地生活健康类商家需确保广告合规，避免违规风险。"
+    },
+    {
+      "title": "Seedance 2.5实测：从片段到叙事，AI视频下半场开启",
+      "explanation": "媒体实测Seedance 2.5，认为其从'片段'生成走向'叙事'级创作，单次30秒带音频，标志着AI视频进入新阶段。",
+      "analysis_points": [
+        "要点1：Seedance 2.5支持多模态参考和精准编辑，能生成连贯叙事，能力从工具升级为创作伙伴。",
+        "要点2：广告创意人员可快速生成完整故事线视频，用于品牌宣传，提升内容质量。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBORFFvRk5DenlQbmRRS2tndW8wWDh2ay12c2VON2xzaXNRVTNnU3Vfc05sakpOMTdaNld0V1oxd1NkR2hET2Z4cGxGTEdSbDdqakxQWm9PeGpWTkl6M0FBYWo5V2duV3N4OVRPNjJPYnhkbGxKdVktOWEwaHd2Qk0?oc=5",
+      "local_life_hint": "本地生活商家可用Seedance 2.5制作有故事性的探店视频，提升广告吸引力。"
+    },
+    {
+      "title": "AI漫剧小游戏风口起落，2026年或成突围元年",
+      "explanation": "抖音小游戏《别崩人设啊》凭借AI漫剧内容冲上热门榜TOP2，但两个月后跌出TOP100，反映AI漫剧小游戏爆红快、衰退也快的特征。",
+      "analysis_points": [
+        "要点1：AI漫剧小游戏利用AIGC低成本冷启动，但玩法单一、内容套路化，难以长线运营。",
+        "要点2：对开发者而言，需探索更丰富的玩法和商业化模式，2026年或成规模化突围元年。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://36kr.com/p/3919195917080199",
+      "local_life_hint": "本地生活商家可关注AI漫剧小游戏作为广告载体，但需注意用户留存问题。"
+    },
+    {
+      "title": "字节ToB变阵：AI入口之争，豆包接驳抖音",
+      "explanation": "分析认为字节跳动重组ToB业务，飞书并入豆包，豆包接驳抖音，旨在抢占AI工作入口，强化AI企业服务。",
+      "analysis_points": [
+        "要点1：豆包作为AI入口，整合飞书和抖音资源，形成从C端到B端的闭环。",
+        "要点2：对商家而言，未来可通过豆包统一管理营销和客服，提升效率。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "澎湃新闻",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HdlVaQVh2WFBzZ0xQR21hc3dCR0toVXF4RHpBNjFrVkljbWlra3NPM0lrWXQtYWxSS2psMkxSZU4tLUoxMkNjMi1fVlJzaGtzTU9kUXUyY1FFQm54VS0yRw?oc=5",
+      "local_life_hint": "本地生活商家可期待豆包整合抖音生态，实现内容、广告、客服一体化。"
+    },
+    {
+      "title": "Seedance 2.5对比其他模型优势：30秒原生直出",
+      "explanation": "Seedance 2.5相比其他AI视频模型，优势在于单次生成30秒视频且内置音频，支持多模态参考，减少拼接感。",
+      "analysis_points": [
+        "要点1：Seedance 2.5原生生成30秒视频，无需拼接，提升视频连贯性和质量。",
+        "要点2：广告制作效率大幅提升，可快速产出高质量视频素材。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95amYtQ1hTUlRwamZoYi1peXZVNzQ4YWRVTG1TQ2ZPTjB6UnA4ZEg5ZjV0anJrYmVqOXNqUlN0ZkRMZkNLZHplb3VCa2p4a0pZOVRET2U4QWpzS3Z0YjhBa0R5Vlh4SDZQblRweUNqeENJRnNJMEN0SkVtOHk3TlE?oc=5",
+      "local_life_hint": "本地生活商家可快速生成30秒完整视频，用于抖音信息流广告，提升完播率。"
+    },
+    {
+      "title": "MiniMax H3开源，视频生成行业路线分化",
+      "explanation": "MiniMax发布H3模型并开源，价格比Seedance便宜七成，与字节闭源路线形成对比，视频生成行业竞争加剧。",
+      "analysis_points": [
+        "要点1：MiniMax H3开源且低价，Seedance 2.5保持闭源，行业出现开源与闭源路线分化。",
+        "要点2：对开发者而言，开源模型降低使用成本，但闭源模型可能在效果和稳定性上有优势。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "雷峰网",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pekdCNW9LWEtKSGlJaUVHZjYyZ0dPTEtidFJLNHlwRndJYl82cmRtWndGeVFTaGEzZldPWTZ0N0JxWTU2S0pvakF6ZDVsNFZlV0ZXRjItRkpYN0s5eEQyUzZyZU9oSmE2dFAwX0dYeHNNU2M5?oc=5",
+      "local_life_hint": "本地生活商家可比较不同视频生成模型的成本与效果，选择最适合的素材生产方案。"
     }
   ],
   "mode": "ai"
