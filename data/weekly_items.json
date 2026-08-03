@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03T12:49:55.376932+00:00",
-  "week_range": "08.03-08.03",
-  "date_display": "08.03 - 08.03",
-  "editorial_summary": "本周共汇总 8 条 AI 商业要闻，其中高影响 1 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-03T16:09:33.974000+00:00",
+  "week_range": "08.03-08.04",
+  "date_display": "08.03 - 08.04",
+  "editorial_summary": "本周共汇总 11 条 AI 商业要闻，其中高影响 1 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节跳动将推首款AI硬件，主打无感佩戴记录",
@@ -11,15 +11,16 @@
     ],
     "opinions": [
       "Seedance 2.5实测：从片段到叙事，AI视频进入下半场",
-      "AI视频模型竞争进入工作流时代：Seedance 2.5与H3解析"
+      "AI视频模型竞争进入工作流时代：Seedance 2.5与H3解析",
+      "Seedance 2.5将AI视频应用推向屏幕之外，产业应用加速"
     ],
     "ecosystem": []
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（4 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（6 条），高影响条目占比约 9%，商业化叙事仍由头部驱动。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。"
   ],
   "local_life_insights": [
@@ -34,10 +35,14 @@
     {
       "base": "TikTok构建Agentic AI用于广告，实现自动化投放与优化。",
       "borrow": "本地生活商家可期待TikTok Agentic AI实现自动化广告投放，减少人工优化成本，提升投放ROI。"
+    },
+    {
+      "base": "Seedance 2.5将单次视频生成时长从15秒提升至30秒，并支持多模态参考与精准编辑，减少拼接和漂移。",
+      "borrow": "本地生活商家可大幅降低视频广告制作成本，快速生成高质量素材，提升投放效率；外投团队可将其用于批量生成多版本创意，优化素材测试。"
     }
   ],
   "insights_intro": "字节系在视频生成、搜索、广告投放等底座能力上的升级，将重塑外投素材生产效率与投放策略，本地生活商家应关注这些技术底座变化，提前布局AI驱动的营销。",
-  "total_items": 8,
+  "total_items": 11,
   "high_count": 1,
   "items": [
     {
@@ -151,6 +156,48 @@
       "source": "中华网科技频道",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53WWpxX3dvT0RrUVIxc3pORUVyOWZrcDdjc3pEdS1EdGtxS2RaYTJJVDdIVXEtZVYtb2VkbVlsOXRscHhvN1g1UHBBcGdnTC1Da191cVEtRUlyb3Yzckdfal8tR2tlbktRU2IwUkJn?oc=5",
       "local_life_hint": "本地生活商家可借助工作流整合的AI工具，实现营销内容的规模化生产。"
+    },
+    {
+      "title": "Seedance 2.5上线即梦AI，游戏开发圈心动",
+      "explanation": "即梦AI上线Seedance 2.5，性能进阶引发游戏开发圈关注。视频生成能力的提升为游戏宣传片、过场动画等提供高效工具。",
+      "analysis_points": [
+        "要点1：Seedance 2.5在即梦AI上线，支持30秒视频生成，减少拼接和漂移，提升创作效率。",
+        "要点2：游戏开发者可用其快速生成宣传素材，降低制作成本，本地生活商家也可借鉴制作营销视频。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pSmxVOGgtejBzdjRFNm94c25oNWhjT0I4Z2YtNEZFWktYcUFHNm9JVURZNTJTb0VUNk5RUWNJUkVoMHJOeklFVzhQNWJkeDh0ajRTVXA2MzNydHJkcVpYQndkd3hNeXYtY3NiRHZB?oc=5",
+      "local_life_hint": "即梦AI的Seedance 2.5可帮助本地生活商家快速生成高质量视频广告，提升投放效果。"
+    },
+    {
+      "title": "TikTok Shop Plus在美国测试，物流体验升级",
+      "explanation": "TikTok Shop Plus在美国测试，提供增强的物流福利，提升用户购物体验。这有助于提高复购率和平台竞争力。",
+      "analysis_points": [
+        "要点1：TikTok Shop Plus提供更优的物流服务，可能包括免费配送等，提升用户体验。",
+        "要点2：本地生活商家可借鉴其会员模式，提供增值服务增强用户粘性。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "channelx.world",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcHY0NUdfaTlzZDVlMUNnMHZ2MjZiS1BVQ2hzV1BCQkNqcjlRQ0FfZmpDZDItUHNMLTU2b2ppT2dBc1RzZGMzdlFRQUR4YV91Q0xzSURaX09DeGJRTWNCTVJRVEw3MEgwbWlISTdBZHhNTGtfM3FiSkFPc2haRGdHc0NPc280c0xj?oc=5",
+      "local_life_hint": "物流体验是本地生活服务的关键，商家可优化配送服务提升满意度。"
+    },
+    {
+      "title": "Seedance 2.5将AI视频应用推向屏幕之外，产业应用加速",
+      "explanation": "Seedance 2.5发布后，分析认为其将AI视频模型的应用推向屏幕之外，从创意工具走向产业生产力，徐工、小鹏等企业合作印证。",
+      "analysis_points": [
+        "要点1：Seedance 2.5在工业、汽车等领域的应用，显示其从内容创作向产业解决方案延伸。",
+        "要点2：本地生活商家可探索AI视频在培训、营销等场景的应用，提升效率。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObTFwNjFkdkRhUEo1MjZtV3A3T1h0b0p0NjU3X25QZ2hOWW0wUXIzZ1VkaW8tZlExMEdaMElOZE5rQ3l3UUpNZmFHd0N3eVN4d1lsdG9LMzcyZW5fTlU5ZWQydXE5MXFFckEwNlhXdDJpeXh4ODRBbGw4Zmg2WTZIS3UteHRUc2w1S0lkakJwSDZGUHd4by1NRUhXMllKNFN6aXNtZW0yTQ?oc=5",
+      "local_life_hint": "AI视频生成可应用于本地生活商家的产品演示、员工培训等，降低成本。"
     }
   ],
   "mode": "ai"
