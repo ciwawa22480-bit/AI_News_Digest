@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-04T11:11:40.834884+00:00",
+  "generated_at": "2026-08-04T13:18:32.863624+00:00",
   "week_range": "08.03-08.04",
   "date_display": "08.03 - 08.04",
-  "editorial_summary": "本周共汇总 15 条 AI 商业要闻，其中高影响 1 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 12 条 AI 商业要闻，其中高影响 1 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节跳动将推首款AI硬件，主打无感佩戴记录",
@@ -14,16 +14,16 @@
       "AI视频模型竞争进入工作流时代：Seedance 2.5与H3解析"
     ],
     "ecosystem": [
-      "即梦AI创作者成长计划，鼓励AI内容创作",
-      "Seedance 2.5风险探讨：版权与伦理问题"
+      "抖音播放量上亿，商单报价6.8万，第一代AI演员开始赚钱了",
+      "即梦AI创作者成长计划：古风街巷主题创作"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（6 条），高影响条目占比约 7%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（6 条），高影响条目占比约 8%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。"
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。"
   ],
   "local_life_insights": [
     {
@@ -39,12 +39,12 @@
       "borrow": "本地生活商家可期待TikTok Agentic AI实现自动化广告投放，减少人工优化成本，提升投放ROI。"
     },
     {
-      "base": "Seedance 2.5将视频生成能力从15秒提升至30秒，并支持多模态参考与精准编辑，减少剪辑拼接和视觉漂移。",
-      "borrow": "外投团队可利用Seedance 2.5快速生成高质量视频素材，降低素材生产成本，提升广告创意迭代速度，尤其适合本地生活商家的探店、菜品展示等场景。"
+      "base": "Seedance 2.5将视频生成能力从单次15秒提升至30秒，并支持多模态参考与精准编辑，减少片段拼接和视觉漂移。",
+      "borrow": "本地生活商家可借助Seedance 2.5快速生成高质量短视频广告，降低素材制作成本，提升投放效率；同时可利用多模态参考，将商品图片、文案等一键转化为视频，实现规模化素材生产。"
     }
   ],
   "insights_intro": "字节系在视频生成、搜索、广告投放等底座能力上的升级，将重塑外投素材生产效率与投放策略，本地生活商家应关注这些技术底座变化，提前布局AI驱动的营销。",
-  "total_items": 15,
+  "total_items": 12,
   "high_count": 1,
   "items": [
     {
@@ -161,101 +161,59 @@
     },
     {
       "title": "TikTok更新AI广告工具，推出智能广告系列创建",
-      "explanation": "TikTok更新AI广告工具，推出智能广告系列创建功能，帮助广告主自动生成广告素材、优化投放策略。该功能利用AI简化广告创建流程，提升广告效果与投放效率。",
+      "explanation": "TikTok更新AI广告工具，推出智能广告系列创建功能，帮助广告主自动生成广告素材和投放策略。该功能利用AI简化广告创建流程，提升投放效率，对中小广告主尤其友好。",
       "analysis_points": [
-        "要点1：AI广告工具从辅助优化升级为智能创建，广告主可自动生成素材和定向策略。",
-        "要点2：对广告主而言，可降低广告制作门槛，快速测试创意，提升ROI。"
+        "要点1：TikTok AI广告工具从手动创建转向智能自动生成，降低广告制作门槛。",
+        "要点2：广告主可快速生成多版本素材，自动优化投放，提升ROI。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "MediaPost",
       "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNT3JzTVdPLXgyTzF6aFdlcFRQa1VyMXRhcHJTSVpJT0xYQ3lkdWhlYmtSWE01S1VvZmY0VVRwcDNfaERUYnV0Vmp3TUpZNTlrYTJoSXB0ZVVNTzd4dGowTl9qLWItVjdlX3QtelBhM2NtcjZjX2xYVmxyWUpqb3dEbk5PdDl2bDk2aGtTaDRsaUFraFFnZEk1M05XeVhjTlBWam5YRGZldW9vSFhFclYwTnlHaXpUSVJUOEFXbm80SmJUdi1HT3VVSTN4eEVEMVlpS3p5eG9YOVVnVm1MT2dWWHJ1ZWY5dFlHOFJIeXJpWVhFYmE5azRKQWUxb3NHRGFndmtValZBNG5ELVY1eWJBbjBrNUdqQ3ZRc013TFFrQ2t6T2hmczNVVVVJRGZuVGhoRHVkcWtsMjVGOUJvZDluVw?oc=5",
-      "local_life_hint": "本地生活广告主可利用TikTok AI广告工具自动生成视频素材，快速投放本地促销活动。"
+      "local_life_hint": "本地生活商家可利用TikTok智能广告创建，快速生成适配不同市场的广告素材。"
     },
     {
       "title": "Seedance 2.5上线即梦AI，游戏开发圈心动",
-      "explanation": "即梦AI上线Seedance 2.5，性能进阶，游戏开发圈关注其用于生成游戏宣传视频、过场动画等。视频生成能力提升为游戏内容生产提供新工具。",
+      "explanation": "即梦AI上线Seedance 2.5，性能再进阶，游戏开发圈对其表现出浓厚兴趣。Seedance 2.5支持30秒视频生成和多模态参考，可辅助游戏开发中的过场动画、宣传视频制作，提升开发效率。",
       "analysis_points": [
-        "要点1：Seedance 2.5在即梦AI上线，支持30秒视频生成，游戏开发者可快速制作宣传素材。",
-        "要点2：对游戏广告主而言，可低成本生成高质量视频广告，提升买量效率。"
+        "要点1：Seedance 2.5在即梦AI上线，游戏开发者可利用其生成高质量视频素材。",
+        "要点2：对游戏广告主而言，可快速生成游戏宣传视频，降低制作成本。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "风闻",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pSmxVOGgtejBzdjRFNm94c25oNWhjT0I4Z2YtNEZFWktYcUFHNm9JVURZNTJTb0VUNk5RUWNJUkVoMHJOeklFVzhQNWJkeDh0ajRTVXA2MzNydHJkcVpYQndkd3hNeXYtY3NiRHZB?oc=5",
-      "local_life_hint": "本地生活游戏化营销可借鉴，用AI生成互动视频素材。"
+      "local_life_hint": "本地生活商家可借鉴游戏行业，利用Seedance 2.5制作创意短视频广告。"
     },
     {
-      "title": "Seedance 2.5积分消耗上涨，连续包月需数十元起",
-      "explanation": "记者实测Seedance 2.5每秒消耗积分较2.0明显上涨，连续包月需数十元起，引发对AI视频生成成本结构的讨论。成本上升可能影响个人创作者，但企业级应用或可接受。",
+      "title": "抖音播放量上亿，商单报价6.8万，第一代AI演员开始赚钱了",
+      "explanation": "36氪报道，抖音上AI演员内容播放量上亿，商单报价达6.8万元，AI演员开始商业化变现。这显示AI生成内容在抖音生态中已具备商业价值，为创作者和品牌提供新机会。",
       "analysis_points": [
-        "要点1：Seedance 2.5定价上调，反映模型成本与价值提升。",
-        "要点2：对广告主而言，需评估AI视频生成成本与ROI，优化素材生产策略。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "极目新闻",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53TGhKX0ZvcmR0UnQ3TjdFQVVoVUJOdlBPSGZ1NzNWZzZURjJIZzAzdG9KR3FFWmdSTWtIRS0ta2lGVUF1TW1YMDNaTHYzOEVqS3ZtVDV2cnJWb00?oc=5",
-      "local_life_hint": "本地生活商家需权衡AI视频生成成本，可优先用于高价值素材。"
-    },
-    {
-      "title": "抖音播放量上亿，AI演员开始赚钱",
-      "explanation": "36氪报道，第一代AI演员在抖音上播放量上亿，商单报价6.8万，AI生成内容商业化初现。AI演员为品牌营销提供新形式，降低真人拍摄成本。",
-      "analysis_points": [
-        "要点1：AI演员在抖音走红，商单报价高，商业化路径清晰。",
-        "要点2：对广告主而言，可尝试AI演员代言，降低营销成本，提升创意空间。"
+        "要点1：AI演员内容在抖音获得高播放量，商单报价可观，商业化模式初步跑通。",
+        "要点2：品牌可考虑与AI演员合作，降低代言成本，提升内容新鲜度。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "medium",
       "source": "36氪",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hU2RxZDlmWHU0bzR2Y19hUWtzVHRCN1A2ajAwa3lsanlGZEU1WlRGTGJVU3otc1dCajd1NGpvYkVHY3c5U0xoYlh2N0RmQQ?oc=5",
-      "local_life_hint": "本地生活商家可考虑与AI演员合作，制作创意广告。"
+      "local_life_hint": "本地生活商家可尝试与AI演员合作，制作创意广告，吸引年轻用户。"
     },
     {
-      "title": "即梦AI创作者成长计划，鼓励AI内容创作",
-      "explanation": "即梦AI推出创作者成长计划，鼓励用户创作AI内容，如古风街巷等，平台提供流量扶持，推动AI内容生态发展。",
+      "title": "即梦AI创作者成长计划：古风街巷主题创作",
+      "explanation": "即梦AI推出创作者成长计划，本期主题为‘倘若时光倒流，踏入古时街巷’，鼓励创作者使用AI工具进行古风场景创作。该计划旨在培养AI内容生态，提升创作者活跃度。",
       "analysis_points": [
-        "要点1：即梦AI推出创作者成长计划，扶持AI内容创作。",
-        "要点2：对创作者而言，可参与计划获得流量与收益，本地生活商家可合作创作。"
+        "要点1：即梦AI通过创作者成长计划，激励用户创作，丰富平台内容。",
+        "要点2：品牌可参与主题创作，借势营销，提升品牌曝光。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "low",
-      "source": "新浪网",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdlRTaUU2djUwaG9zUllOX2NOd19yRzlURGpJU2RxYk5hdk9IdDZ2NWoycUVINlZXUzlNUzBuU1FLOERSVm1PQmJjSTU3UVpxLXhpczhFa1hpcnVpWXFKcTYyVFhNSkN3aGZJS3pLM2Vfd3dTekUtLW5ORTRiTEVJU0NTNGRsMXZMZ3ZRX3J2OC1sWXNiRExiakw5eTNETVJ2bGlXNmtpZkRJd293NVZZdEhrdVBheGlXM0xRbkVCdmRQV0JvdTZOOTRMQ0dJXzhEWTA0eExNeG5odWM?oc=5",
-      "local_life_hint": "本地生活商家可与AI创作者合作，制作创意内容。"
-    },
-    {
-      "title": "Seedance 2.5风险探讨：版权与伦理问题",
-      "explanation": "中关村在线探讨Seedance 2.5可能带来的风险，包括版权、伦理、深度伪造等问题，引发对AI视频生成监管的讨论。",
-      "analysis_points": [
-        "要点1：Seedance 2.5引发版权与伦理风险讨论。",
-        "要点2：对商家而言，使用AI生成内容需注意合规，避免侵权。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "low",
-      "source": "中关村在线",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pcDdUbDhnVjFMbGhFMkpDQUZpdjhXRUVfa3EtVXJjTVVFa1IwemhKYzJVdk1QV0oyaDNWak5QN0dhSUQtbGJaVWlsaW1RUGxlSzhpbQ?oc=5",
-      "local_life_hint": "本地生活商家使用AI生成内容时需注意版权合规。"
-    },
-    {
-      "title": "Seedance 2.5：把AI视频模型的应用推向屏幕之外",
-      "explanation": "新浪财经报道，Seedance 2.5将AI视频模型应用推向屏幕之外，如工业、汽车、教育等领域，成为产业生产力工具。",
-      "analysis_points": [
-        "要点1：Seedance 2.5应用场景从内容创作扩展到产业。",
-        "要点2：对商家而言，可探索AI视频在非营销场景的应用，如培训、演示。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
       "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNVTBIR3EydmVsbElvckFpQm1uOWpkZmtBWGp6eF81R21qNUNBRFlkZGNJYzdGYRZQdFFvbVZHLVFFZDJnZWVaWkdkUWdTX25MRFJwS1pKS1VwWUpDeXpnMFFSREs0Tm9udVlzZUhET2lmVEpvV08tOEZnTC1QQmNlWEg3Y2pyVnFqc3J2ZkNiUGE4SC03V19wdXVDYW9HTGFzanVaUHJnWmh6MEtiRWZWeEJrdUNvdk4tekRydUV6ZnpsQ2JVRU5rQ19BZDZ1eFRYUElTcm9LcjFBTmgzSm8zZzhMWm5jVkNMNzA3UlEtQ2MxTTV1TkRfeVZfUGhaeDZEZmc1RXc2TnJlNlZtZGpTM3FGY24zb1RPcUVyLWhtTmRYTlZsakRjWGlTcUkwWWc?oc=5",
-      "local_life_hint": "本地生活商家可用AI视频生成制作服务流程演示。"
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdlRTaUU2djUwaG9zUllOX2NOd19yRzlURGpJU2RxYk5hdk9IdDZ2NWoycUVINlZXUzlNUzBuU1FLOERSVm1PQmJjSTU3UVpxLXhpczhFa1hpcnVpWXFKcTYyVFhNSkN3aGZJS3pLM2Vfd3dTekUtLW5ORTRiTEVJU0NTNGRsMXZMZ3ZRX3J2OC1sWXNiRExiakw5eTNETVJ2bGlXNmtpZkRJd293NVZZdEhrdVBheGlXM0xRbkVCdmRQV0JvdTZOOTRMQ0dJXzhEWTA0eExNeG5odWM?oc=5",
+      "local_life_hint": "本地生活商家可结合即梦AI主题创作，制作文化类内容，吸引特定人群。"
     }
   ],
   "mode": "ai"
