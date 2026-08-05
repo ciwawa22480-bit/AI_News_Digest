@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-05T11:05:30.539721+00:00",
+  "generated_at": "2026-08-05T13:08:19.321206+00:00",
   "week_range": "08.03-08.05",
   "date_display": "08.03 - 08.05",
-  "editorial_summary": "本周共汇总 15 条 AI 商业要闻，其中高影响 2 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑；字节SeedRealtime发布，全双工音视频交互落地豆。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 17 条 AI 商业要闻，其中高影响 2 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑；字节Seed发布SeedRealtime全双工大模型，豆。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
-      "字节SeedRealtime发布，全双工音视频交互落地豆包",
+      "字节Seed发布SeedRealtime全双工大模型，豆包App全量上线",
       "字节跳动将推首款AI硬件，主打无感佩戴记录",
       "豆包输入法上线首周下载破5000万，语音交互成新入口"
     ],
@@ -20,7 +20,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（8 条），高影响条目占比约 13%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（10 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -45,7 +45,7 @@
     }
   ],
   "insights_intro": "字节系在视频生成、搜索、广告投放等底座能力上的升级，将重塑外投素材生产效率与投放策略，本地生活商家应关注这些技术底座变化，提前布局AI驱动的营销。",
-  "total_items": 15,
+  "total_items": 17,
   "high_count": 2,
   "items": [
     {
@@ -63,18 +63,18 @@
       "local_life_hint": "本地生活商家可期待TikTok Agentic AI实现自动化广告投放，减少人工操作。"
     },
     {
-      "title": "字节SeedRealtime发布，全双工音视频交互落地豆包",
-      "explanation": "字节Seed发布SeedRealtime音视频全双工大模型，用统一架构原生融合音频、视频与文本，实现'边看、边听、边说'的实时交互，已在豆包App全量上线，级联系统说话节奏问题减少一半。",
+      "title": "字节Seed发布SeedRealtime全双工大模型，豆包App全量上线",
+      "explanation": "字节Seed推出SeedRealtime，用统一架构原生融合音频、视频与文本，实现边看边听边说的实时交互，已在豆包App全量上线，是音视频全双工技术规模化落地的关键一步。",
       "analysis_points": [
-        "SeedRealtime将音视频感知与表达统一到同一端到端模型，相比级联模型，对话节奏问题减少一半，实时场景中能主动提醒并自然停顿。",
-        "对商家而言，可基于此开发更自然的语音交互客服、导购助手，提升用户体验，降低人力成本。"
+        "SeedRealtime将音视频感知与表达统一到同一端到端模型，相比级联模型说话节奏问题减少一半，支持主动提醒和自然停顿。",
+        "对本地生活商家，可基于此开发更自然的语音助手，提升用户交互体验，如点餐、咨询等场景。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "AI热点",
       "url": "https://aihot.virxact.com/items/cmsfkn6cf03ciroch6tfynepy",
-      "local_life_hint": "本地生活商家可探索基于SeedRealtime的语音点餐、智能客服，提升服务效率。"
+      "local_life_hint": "可用于开发本地生活场景的智能语音助手，提升用户点餐、预约等交互体验。"
     },
     {
       "title": "字节跳动将推首款AI硬件，主打无感佩戴记录",
@@ -231,32 +231,60 @@
       "local_life_hint": "本地生活商家可结合即梦AI主题创作，制作文化类内容，吸引特定人群。"
     },
     {
-      "title": "TikTok与迪士尼达成版权合作，开放IP素材创作",
-      "explanation": "TikTok与迪士尼宣布全球短视频内容共享协议，创作者可使用皮克斯、漫威、星战等版权素材进行二次创作，作品将在Disney+竖屏平台Verts展示，并推出创作者大使计划。",
+      "title": "TikTok与迪士尼达成合作，开放IP素材赋能创作者",
+      "explanation": "TikTok与迪士尼达成全球短视频内容共享协议，创作者可使用皮克斯、漫威等IP素材创作，作品同步至Disney+竖屏平台Verts，并推出创作者大使计划。",
       "analysis_points": [
-        "TikTok向创作者开放迪士尼数百部影视素材，支持基于经典角色和故事进行二次创作，并共同运营创作者大使计划，提供激励和职业支持。",
-        "对品牌而言，可借势热门IP进行联名营销，利用TikTok流量提升品牌曝光，尤其适合本地生活商家结合IP主题打造创意内容。"
+        "TikTok创作者可使用迪士尼数百部影视素材，降低创作门槛，提升内容吸引力。",
+        "对本地生活商家，可借势热门IP进行联名营销，提升品牌曝光和用户参与度。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "medium",
       "source": "IT之家",
       "url": "https://www.ithome.com/0/986/188.htm",
-      "local_life_hint": "本地生活商家可结合迪士尼IP元素设计主题营销活动，借助TikTok流量提升到店转化。"
+      "local_life_hint": "本地生活商家可策划IP联名活动，利用TikTok平台流量，吸引年轻用户。"
     },
     {
-      "title": "即梦AI上线Seedance 2.5，同步推出Maya/Blender插件",
-      "explanation": "字节跳动即梦AI接入Seedance 2.5模型，并同步上线Maya/Blender插件等专业工具，降低专业创作者使用门槛，推动AI视频生成在专业制作流程中的应用。",
+      "title": "字节Seedance 2.5接入即梦AI，上线Maya/Blender插件",
+      "explanation": "即梦AI接入Seedance 2.5模型，并同步上线Maya/Blender插件等专业工具，提升专业创作者效率。",
       "analysis_points": [
-        "即梦AI接入Seedance 2.5，支持30秒视频生成，并推出Maya/Blender插件，方便专业动画师和特效师在常用软件中直接调用AI能力。",
-        "对广告制作公司而言，可大幅缩短视频制作周期，降低成本，尤其适合需要高质量3D动画的广告项目。"
+        "即梦AI接入Seedance 2.5，支持30秒视频生成，并上线Maya/Blender插件，方便专业工作流集成。",
+        "对本地生活商家，可利用即梦AI生成高质量3D或动画内容，用于广告宣传。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "guandian.cn",
+      "source": "观点网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aVUc0WEVTblRaY0Jkd3FzeDBpNUo4ZnVMM1U1emdKVmRBeVR0QlJpS1F3MklIWDZxTWVMY2gtb3FaNVZlTGQwVmIxQXowTTJaVzg2QjhjMlZtVjJFSUNyRE5R?oc=5",
-      "local_life_hint": "本地生活商家可借助即梦AI快速生成创意视频，用于抖音广告投放，提升素材多样性。"
+      "local_life_hint": "商家可利用即梦AI生成3D产品展示或动画广告，提升视觉吸引力。"
+    },
+    {
+      "title": "字节Seedance 2.5支持30秒生成与50个参考输入",
+      "explanation": "Dreamina（即梦）上线Seedance 2.5，支持30秒视频生成和50个参考输入，减少片段拼接和视觉漂移。",
+      "analysis_points": [
+        "Seedance 2.5支持30秒单次生成，减少拼接，支持50个参考输入，提升创作灵活性。",
+        "对本地生活商家，可生成更长的产品展示视频，提升信息量。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcy1fQW1ENXJpdW5lV3JhbGkzVWNiX2ZrRGhGR3hocmc5OTE2X0pnX0pHbEloMi1iTlJIMllaUk9VWkVNVl94SjhkZEhHX3l6Rm9WSDFoYWlkZThBSnZobGo4TGFsUzVCNkFhRXBwUFR4dFR1MTNkUmF3Q2E3RklpSncza2ZndG8?oc=5",
+      "local_life_hint": "商家可生成更长的视频内容，如探店、产品介绍，提升用户停留时间。"
+    },
+    {
+      "title": "字节Seedance 2.5减少片段拼接、视觉漂移和返工",
+      "explanation": "Dreamina上线Seedance 2.5，显著减少视频生成中的片段拼接、视觉漂移和返工，提升创作效率。",
+      "analysis_points": [
+        "Seedance 2.5通过技术优化，减少常见问题，提升视频质量。",
+        "对本地生活商家，可减少视频制作返工，节省时间和成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZS1SLXVkR3JCVTlrNjA0MHJkMTJYTGNhcm9rbldlT09LdDJqN2xsdEh0Y1dESTdtLUZicVNfby1TVENaNVFqbjAtU0V1Q0FBM2Z1aHNFNEJ5Snkzc0piLTRrU0FBaU9WZWdIYzlEX2R0T3lKS1NueGM5ckRwN1ZETGY5WGJxMnNVZ0oxZWRlWmtqQlVDRjJqbGJ2SVk5aGJUTEFDaTk2MkNMRkZ6c1ZlY25oNzcwbF93QjNybllIYVl3RzBvbGtGWnpoQ0tQOWpacHRMYlhlekZJQWxCSDI3WDZjUVNOT1liT2hITlk2X01BaWdoUk9UWHVkMnhUeHVR?oc=5",
+      "local_life_hint": "商家可快速生成高质量视频，用于多平台投放。"
     }
   ],
   "mode": "ai"
