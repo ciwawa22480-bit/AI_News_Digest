@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-06T13:08:43.756022+00:00",
-  "week_range": "08.03-08.06",
-  "date_display": "08.03 - 08.06",
-  "editorial_summary": "本周共汇总 27 条 AI 商业要闻，其中高影响 3 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑；字节Seed发布SeedRealtime全双工大模型，豆；张一鸣罕见发声：字节拒绝AI蒸馏，不牺牲长期突破换短期排。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-07T06:03:32.921839+00:00",
+  "week_range": "08.03-08.07",
+  "date_display": "08.03 - 08.07",
+  "editorial_summary": "本周共汇总 38 条 AI 商业要闻，其中高影响 5 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑；字节Seed发布SeedRealtime全双工大模型，豆；张一鸣罕见发声：字节拒绝AI蒸馏，不牺牲长期突破换短期排；字节跳动训练10万亿参数超大模型，逼近Anthropic；TikTok Shop GMV预计2026年达1000亿。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节Seed发布SeedRealtime全双工大模型，豆包App全量上线",
@@ -11,7 +11,8 @@
     ],
     "opinions": [
       "Seedance 2.5实测：从片段到叙事，AI视频进入下半场",
-      "AI视频模型竞争进入工作流时代：Seedance 2.5与H3解析"
+      "AI视频模型竞争进入工作流时代：Seedance 2.5与H3解析",
+      "字节为什么一定要拆飞书？"
     ],
     "ecosystem": [
       "MiniMax低价开源挑战字节，视频生成行业变天",
@@ -20,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（17 条），高影响条目占比约 11%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（25 条），高影响条目占比约 13%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
   ],
   "local_life_insights": [
     {
@@ -45,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系在视频生成、搜索、广告投放等底座能力上的升级，将重塑外投素材生产效率与投放策略，本地生活商家应关注这些技术底座变化，提前布局AI驱动的营销。",
-  "total_items": 27,
-  "high_count": 3,
+  "total_items": 38,
+  "high_count": 5,
   "items": [
     {
       "title": "TikTok构建广告代理式AI，Agentic AI重塑投放",
@@ -89,6 +90,34 @@
       "source": "cnBeta",
       "url": "https://www.cnbeta.com.tw/articles/tech/1571948.htm",
       "local_life_hint": ""
+    },
+    {
+      "title": "字节跳动训练10万亿参数超大模型，逼近Anthropic Mythos",
+      "explanation": "据英国《金融时报》报道，字节跳动正在训练一个参数最高可达10万亿的AI模型，规模接近Anthropic最先进的Mythos系统，目前处于早期阶段。这显示字节在基础模型上的野心，旨在缩小与美国顶尖实验室的差距。",
+      "analysis_points": [
+        "要点1：字节跳动正在训练10万亿参数的超大模型，规模接近Anthropic的Mythos，目前处于早期阶段。",
+        "要点2：超大模型的训练可能带来更强的生成能力，未来有望提升豆包、即梦等产品的性能，为广告创意提供更强大的AI支持。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1572142.htm",
+      "local_life_hint": "超大模型若落地，将提升AI生成内容的质量，外投素材可能更逼真、更个性化。"
+    },
+    {
+      "title": "TikTok Shop GMV预计2026年达1000亿美元",
+      "explanation": "据Tubefilter报道，TikTok Shop在美国销售的带动下，预计2026年全球GMV将达1000亿美元。同时，TikTok Shop LIVE购物增长55%，推动运动鞋、街头服饰等品类增长。",
+      "analysis_points": [
+        "要点1：TikTok Shop全球GMV预计2026年达1000亿美元，美国市场是主要驱动力。",
+        "要点2：对本地生活商家而言，TikTok Shop的快速增长意味着新的销售渠道，可结合直播购物进行推广。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Tubefilter",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaXR6cVNHWmxJNG9uX0h4TnkyTnlQWXo2SmRoRk4xSUlENDNFV3RyY2FGSXpYQmU3cUlIWXVkSVdybkZEV0VNM0t2WHpZQnRhdndFaWo3Z1RfZ1FPdi01cGRMZEpPQ19EcVdJTnVlbFp0NXVlZVo5T1pJaUU4RlliWTBOTEhoZExzLUhrVm1rNTZSWU0?oc=5",
+      "local_life_hint": "本地生活商家可关注TikTok Shop直播购物趋势，布局海外市场。"
     },
     {
       "title": "字节跳动将推首款AI硬件，主打无感佩戴记录",
@@ -424,6 +453,132 @@
       "impact": "medium",
       "source": "财新",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ORjNPbHhkbG52WFFsOFZ4Q245RDMtbkxVYmpaM2dOazQxWVktNUxIcEpVTFRoZ3kyaFBkMjBmMXc5bloyRWw3X1FBaG5iMXE2NU42WjNCbGM5WXZHSEJ6aWdTWWVfZEk?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5 API公测开启，定价较2.0上涨",
+      "explanation": "据cnBeta消息，Seedance 2.5于今日下午两点开放API公测，此前已公布API价格：视频输入42元/百万tokens，不含视频输入70元/百万tokens，较2.0分别上涨14元和24元。这反映了模型能力提升带来的成本上升。",
+      "analysis_points": [
+        "要点1：Seedance 2.5 API公测开启，定价较2.0上涨，视频输入42元/百万tokens，不含视频输入70元/百万tokens。",
+        "要点2：对广告投放团队而言，API成本上升意味着素材生产成本增加，需评估ROI，或寻找更高效的素材生成方案。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1572092.htm",
+      "local_life_hint": "外投团队需关注Seedance API成本变化，合理规划素材生产预算。"
+    },
+    {
+      "title": "TikTok Shop LIVE购物增长55%，带动品类增长",
+      "explanation": "TikTok官方新闻稿显示，TikTok Shop LIVE购物在平台上增长55%，带动运动鞋、街头服饰和收藏品等品类增长。直播购物成为电商增长新引擎。",
+      "analysis_points": [
+        "要点1：TikTok Shop LIVE购物增长55%，带动运动鞋、街头服饰等品类增长。",
+        "要点2：对本地生活商家而言，直播购物是有效的营销方式，可结合TikTok Shop进行推广。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR1RUeDNLc0x5eTl2dVFzalpUUnlqcEE4VVNFYktURGRMaVZSa2dSeUN2T2d5cEVaWG5NYUhvSThGcHY1Zm8wdEotZG16YmF6TWxfekU1U2tyT2NfZ2JYUGtFQmpSTGZSUFpuRHhaZTlFdG9jNTdha2pQSVhic3E4Sw?oc=5",
+      "local_life_hint": "本地生活商家可尝试直播带货，利用TikTok Shop的流量红利。"
+    },
+    {
+      "title": "字节跳动AI战略悄然转向，豆包成为中心",
+      "explanation": "据Pandaily报道，字节跳动的AI战略已悄然转变，豆包成为中心。飞书并入豆包、火山引擎角色调整，都表明豆包在字节AI版图中的核心地位。",
+      "analysis_points": [
+        "要点1：字节AI战略转向，豆包成为中心，飞书和火山引擎围绕豆包整合。",
+        "要点2：对商家而言，豆包作为中心意味着更多AI能力将整合到豆包生态，提供一站式服务。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Pandaily",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcXUwVUxQTzFYazJrV0dWWHhHV0xON3JfVXF5cS1QVGFVQ2pKTkxXa1hJT2lsRS16S2RudWJRRTMyZnRXZy1DM0ZMeWx6OGUyRFJERG5GN3d3QlJXbjNXSGFoRWdrdTNVMFdJc3BvZm5qZ0tjbEtaWVAxeWcwVDhrdWRFbkZzdUVIR1pPaWhn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节跳动重组ToB业务：豆包、飞书、火山扮演新角色",
+      "explanation": "字节跳动重组ToB业务，豆包、飞书、火山引擎各自扮演新角色。飞书并入豆包，火山引擎聚焦MaaS，豆包成为AI工作入口，大厂激战'AI工作入口'。",
+      "analysis_points": [
+        "要点1：字节ToB业务重组，飞书并入豆包，火山引擎聚焦MaaS，豆包成为AI工作入口。",
+        "要点2：对商家而言，ToB整合可能带来更协同的AI工具，提升企业数字化效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "维科号",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95UVBOTlVHUjQ4TWJSaG1Na05OU3Q3Q0dhSmNpNEFLbzMtLTBRZU9sdHlUWUxObGNZM0lPRWdNSmgxMGZjbzdYOUJpcW5BR0E?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "飞书并入豆包：字节AI迎来战略拐点",
+      "explanation": "飞书并入豆包被视为字节AI战略的拐点，豆包成为AI中心，飞书和火山引擎角色重塑。这标志着字节从'赛马'到'合兵'，集中资源发力AI。",
+      "analysis_points": [
+        "要点1：飞书并入豆包是字节AI战略拐点，豆包成为中心。",
+        "要点2：对商家而言，整合可能带来更统一的AI办公和营销工具。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "极客公园",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02c2Q3SE1CdzQ4WE52cWdEclZKeHhpQkozeWQxOFctSFVaMU1Wb1JmS2tFbEZyR0Z5R1RoY3p3Nk1OVDFsVk5IYVJiQmI?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节为什么一定要拆飞书？",
+      "explanation": "文章分析字节拆分飞书的原因，认为飞书并入豆包是战略必然，豆包成为AI入口，飞书作为协同工具被整合，以集中资源应对AI竞争。",
+      "analysis_points": [
+        "要点1：字节拆分飞书是战略必然，豆包成为AI入口。",
+        "要点2：对商家而言，理解字节战略有助于预判其产品方向。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNVlh3ekEycjBkbEpVLXZ2M3VUZUFaOEZYQWhzSFFtVUpBLVhiT0dEdV92N3hSNWppT1hQbFhaS1hNNFdVSFdVM1pYcUI4aFg2VzlHcExpdEdsaWlacU1xRWd5dW1PbEpHUThaaDdvenhWNi1oa1c3UlBXTXRSamk0VkhublhXTG81V1pRd0xpVmRoZFlBdDM3Njc5Y2toYUltREc1RzJPMkdMUEk3RGxOYzBzdG1sNjlwYXlMb1FydnV6UjBDbWdsOE5KUzFUWVRjX3NHTGNLNEJ2Y04zNi0yOGh6b3h1ODhEOEc0NWhzYnpuSzZndmgwLUlCQ1dYMmtLWGZ1WGV6ZWEwZnJZclN4cDcyTUs?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5之后，AI视频战争换了战场",
+      "explanation": "文章指出Seedance 2.5的发布标志着AI视频战争从模型能力转向产业应用，视频生成从'能生成'走向'可交付'，战场从技术转向落地。",
+      "analysis_points": [
+        "要点1：Seedance 2.5发布后，AI视频战争从模型能力转向产业应用。",
+        "要点2：对商家而言，这意味着AI视频生成将更实用，可用于广告、营销等场景。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "界面新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56ckQ4WlJybWJ6QmlaTU5Vd0pwNXhYSGtwSTdEdjI5Nnk4Q1Z0MGZNZ0puc2xvRFNQOFBHeFZEVDhNUW1qUW9IcjlIUFB4UDVrOXV4X1A2dXI?oc=5",
+      "local_life_hint": "本地生活商家可关注AI视频生成在广告中的应用，提升素材质量。"
+    },
+    {
+      "title": "Seedance 2.5，把AI视频模型的应用推向屏幕之外",
+      "explanation": "文章认为Seedance 2.5将AI视频模型的应用推向屏幕之外，即从内容生成扩展到工业、汽车等实体产业，视频生成成为生产力工具。",
+      "analysis_points": [
+        "要点1：Seedance 2.5将AI视频应用从屏幕内扩展到实体产业。",
+        "要点2：对本地生活商家而言，可探索AI视频在虚拟展示、产品演示中的应用。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNVTBIR3EydmVsbElvckFpQm1uOWpkZmtBWGp6eF81R21qNUNBRFlkZGNJYzdGYmRwUFFvbVZHLVFFZDJnZWVaWkdkUWdTX25MRFJwS1pKS1VwWUpDeXpnMFFSREs0Tm9udVlzZUhET2lmVEpvV08tOEZnTC1QQmNlWEg3Y2pyVnFqc3J2ZkNiUGE4SC03V19wdXVDYW9HTGFzanVaUHJnWmh6MEtiRWZWeEJrdUNvdk4tekRydUV6ZnpsQ2JVRU5rQ19BZDZ1eFRYUElTcm9LcjFBTmgzSm8zZzhMWm5jVkNMNzA3UlEtQ2MxTTV1TkRfeVZfUGhaeDZEZmc1RXc2TnJlNlZtZGpTM3FGY24zb1RPcUVyLWhtTmRYTlZsakRjWGlTcUkwWWc?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5进厂，机器成了新观众",
+      "explanation": "品玩文章指出Seedance 2.5进入工厂，机器成为新观众，视频生成模型在工业场景中应用，如设备巡检、生产演示等，拓展了AI视频的使用边界。",
+      "analysis_points": [
+        "要点1：Seedance 2.5在工业场景应用，机器成为新观众。",
+        "要点2：对本地生活商家而言，可借鉴工业应用，用AI视频展示服务流程或产品细节。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBxaU9tWTZ2SC05Sm03akl4MGNjSjlSV0FEQkF4djg4LUZzVGZhNFBBR2ljSVQwenh6U183Z3lMVlRLRzJuN2ljNQ?oc=5",
       "local_life_hint": ""
     }
   ],
