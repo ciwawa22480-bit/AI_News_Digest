@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T09:47:32.295814+00:00",
-  "week_range": "08.03-08.07",
-  "date_display": "08.03 - 08.07",
-  "editorial_summary": "本周共汇总 36 条 AI 商业要闻，其中高影响 7 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑；字节Seed发布SeedRealtime全双工大模型，豆；张一鸣罕见发声：字节拒绝AI蒸馏，不牺牲长期突破换短期排；火山引擎上线Seedance 2.5 API，视频生成开；字节被曝训练10万亿参数超大模型，对标Anthropic。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-08T04:44:44.221564+00:00",
+  "week_range": "08.03-08.08",
+  "date_display": "08.03 - 08.08",
+  "editorial_summary": "本周共汇总 42 条 AI 商业要闻，其中高影响 7 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑；字节Seed发布SeedRealtime全双工大模型，豆；张一鸣罕见发声：字节拒绝AI蒸馏，不牺牲长期突破换短期排；火山引擎上线Seedance 2.5 API，视频生成开；字节被曝训练10万亿参数超大模型，对标Anthropic。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节Seed发布SeedRealtime全双工大模型，豆包App全量上线",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（22 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（25 条），高影响条目占比约 17%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "字节系在视频生成、搜索、广告投放等底座能力上的升级，将重塑外投素材生产效率与投放策略，本地生活商家应关注这些技术底座变化，提前布局AI驱动的营销。",
-  "total_items": 36,
+  "total_items": 42,
   "high_count": 7,
   "items": [
     {
@@ -552,6 +552,90 @@
       "source": "风闻",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnSHJrc2hMbHh5QVlDWF9mU3NoaksyNXBab3M4SWZHY1h6TXZMVTJNb0VzdHNmMU5HVmwzQU94Uk9YdE1lT0ZTR3c2Q2dmNFhfSkI1YVladnkyUVk?oc=5",
       "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5进厂，机器成了新观众",
+      "explanation": "Seedance 2.5被应用于工业场景，如徐工、小鹏、穹彻智能等企业选择使用，视频生成模型从内容创作走向产业应用。",
+      "analysis_points": [
+        "Seedance 2.5进入工业场景，从内容创作工具变为产业生产力工具，用于产品演示、培训等。",
+        "对B端企业而言，Seedance 2.5可降低视频制作成本，提升营销和培训效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBxaU9tWTZ2SC05Sm03akl4MGNjSjlSV0FEQkF4djg4LUZzVGZhNFBBR2ljSVQwenh6U183Z3lMVlRLRzJuN2ljNQ?oc=5",
+      "local_life_hint": "本地生活商家可利用Seedance 2.5生成产品演示视频，用于员工培训或客户展示。"
+    },
+    {
+      "title": "Seedance 2.5发布：视频生成模型向产业生产力工具演进",
+      "explanation": "Seedance 2.5的发布被分析为视频生成模型从'能生成'走向'可交付'，为广告、影视等产业提供生产力工具，推动AI视频应用落地。",
+      "analysis_points": [
+        "Seedance 2.5支持30秒连续视频、多镜头序列，从片段生成升级为完整叙事，满足专业创作需求。",
+        "对广告行业而言，可快速生成高质量视频素材，降低制作成本，提升广告生产效率。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xSFRxMGxmT1dINzVMZXlTQUtuaUh0V0ZMOXVBU0JWaFBjdnZYeGRsWGtOYWNfV0FNTlRsQm5UN05OUUo5T3NEWlVsUU5XVVNRZkhYZ3R3aVg4blNFeVFfcFZ3RlBBMjZVQzlzR3ZPMkI?oc=5",
+      "local_life_hint": "本地生活商家可借助Seedance 2.5快速生成多场景视频广告，如探店、菜品展示等，降低视频制作门槛。"
+    },
+    {
+      "title": "抖音陪MCN跑通AI这条路，从资源扶持到方法陪跑",
+      "explanation": "抖音推出MCN AI扶持计划，从资源扶持到方法陪跑，帮助MCN机构利用AI工具提升内容生产效率，探索AI商业化路径。",
+      "analysis_points": [
+        "抖音为MCN提供AI工具和培训，从资源扶持转向方法陪跑，帮助机构掌握AI内容生产。",
+        "对MCN和商家而言，可借助抖音的AI扶持降低内容制作成本，提升效率。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5fZmh4VktQam1QakoxeDMxS05SdV9oeHZUX1pORHV1d25ueE9MWUJaNTZXLTd0b3RFc2d3b2Yzd1dQVDViRTItUA?oc=5",
+      "local_life_hint": "本地生活商家可关注抖音MCN AI扶持计划，利用AI工具提升内容营销效率。"
+    },
+    {
+      "title": "Seedance 2.5把AI视频模型的应用推向屏幕之外",
+      "explanation": "Seedance 2.5不仅用于内容创作，还拓展到工业、教育等屏幕之外的场景，视频生成模型的应用边界不断拓宽。",
+      "analysis_points": [
+        "Seedance 2.5从屏幕内走向屏幕外，应用于工业演示、教育培训等场景，拓展视频生成的应用范围。",
+        "对B端企业而言，Seedance 2.5可降低视频制作成本，提升营销和培训效率。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNVTBIR3EydmVsbElvckFpQm1uOWpkZmtBWGp6eF81R21qNUNBRFlkZGNJYzdGYmRwUFFvbVZHLVFFZDJnZWVaWkdkUWdTX25MRFJwS1pKS1VwWUpDeXpnMFFSREs0Tm9udVlzZUhET2lmVEpvV08tOEZnTC1QQmNlWEg3Y2pyVnFqc3J2ZkNiUGE4SC03V19wdXVDYW9HTGFzanVaUHJnWmh6MEtiRWZWeEJrdUNvdk4tekRydUV6ZnpsQ2JVRU5rQ19BZDZ1eFRYUElTcm9LcjFBTmgzSm8zZzhMWm5jVkNMNzA3UlEtQ2MxTTV1TkRfeVZfUGhaeDZEZmc1RXc2TnJlNlZtZGpTM3FGY24zb1RPcUVyLWhtTmRYTlZsakRjWGlTcUkwWWc?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节跳动新模型发布，多维度实现全面升级",
+      "explanation": "字节跳动发布新模型，多维度实现全面升级，具体涉及Seedance 2.5等，提升视频生成能力，推动AI商业化。",
+      "analysis_points": [
+        "字节发布新模型，多维度升级，包括视频生成、语音交互等，提升AI能力。",
+        "对广告主而言，新模型可提供更丰富的营销工具，提升广告效果。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "北晚在线",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00MnJmdWFfZFVhSk05T1RWeE56V1BndjhnOHE1SDNlOTA5VVZ2WFRKV1FTeWFCbEFCcmVtRU9POUNDcTEwUGFFMUhZXzg4WVFZMW5ZSUlPTkJyR2UwUTJqZUZKVFA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节跳动Seedance 2.5生成30秒视频片段，内置音频",
+      "explanation": "Seedance 2.5可生成30秒视频片段，并内置音频，提升视频的完整性和可用性，为广告素材生产提供便利。",
+      "analysis_points": [
+        "Seedance 2.5支持30秒视频生成，并内置音频，从无声视频升级为带音效的完整片段。",
+        "对广告主而言，可直接生成带音频的视频素材，减少后期制作环节。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "the-decoder.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMG5raDlWdHBZWmFfTmpxVnBnZExfTGZ5b3RJOWxITUNYQjhMbzFWVTlvT0lvU0U5WTdVb05xOTRlVmtTb3dGRXg0cC1WZ2tRdHJqZnZwS2RlcEpjRFlQVkxBTk1BeFg1S1dFcWJ1Vi1jMmdMYTZwZEJ4cy1yRUd6TkFSblk2ZmRrcGQyUlpQTGNVYnkxMVZWaEtRZm1xZUtOR2c?oc=5",
+      "local_life_hint": "本地生活商家可快速生成带音频的视频广告，提升广告吸引力。"
     }
   ],
   "mode": "ai"
