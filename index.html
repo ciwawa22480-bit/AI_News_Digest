@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 商业日报 · 2026年08月08日</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #f7f9fc; color: #1a1a1a; line-height: 1.7; font-size: 14px; position: relative; overflow-x: hidden; }
+/* 浅色专业风底：柔和径向光晕做底，粒子由 #particle-bg canvas 叠加，无廉价网格 */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-color: #f7f9fc;
+  background-image:
+    radial-gradient(1200px 700px at 12% -5%, rgba(99,102,241,0.10) 0%, transparent 55%),
+    radial-gradient(1000px 620px at 100% 8%, rgba(56,189,248,0.08) 0%, transparent 55%),
+    radial-gradient(900px 560px at 88% 100%, rgba(255,195,0,0.07) 0%, transparent 55%);
+}
+/* 粒子背景 canvas：铺满视口、固定、置于内容下方 */
+#particle-bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  display: block;
+}
+.header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); backdrop-filter: blur(4px); position: relative; }
+.header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
+.header .subtitle { font-size: 13px; color: #4f46e5; font-weight: 500; margin-bottom: 6px; }
+.header .date-line { font-size: 14px; color: #666; }
+.header .mode-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: #f0f9ff; color: #0369a1; margin-left: 8px; }
+.header .back-link { display: inline-block; margin-top: 10px; font-size: 13px; color: #4f46e5; text-decoration: none; }
+.header .back-link:hover { text-decoration: underline; }
+/* 美团黄袋鼠吉祥物：header 右上角点缀，缓慢上下浮动 */
+.roo-mascot { position: absolute; top: 22px; right: 28px; width: 52px; height: 52px; animation: roo-hop 3.6s ease-in-out infinite; pointer-events: none; filter: drop-shadow(0 2px 4px rgba(255,195,0,0.28)); }
+@keyframes roo-hop {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+.toggle-bar { padding: 12px 40px 0; display: flex; gap: 0; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); }
+.tab { padding: 8px 24px; border: none; background: none; font-size: 14px; color: #666; cursor: pointer; border-bottom: 2px solid transparent; font-weight: 500; }
+.tab.active { color: #4f46e5; border-bottom-color: #4f46e5; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 40px; background: transparent; }
+.editorial { padding: 16px 20px; background: #f8fafc; border-left: 4px solid #4f46e5; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 15px; color: #1e293b; line-height: 1.85; }
+.editorial-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+.editorial-body { }
+.editorial-label { display: inline-block; font-weight: 700; color: #4f46e5; margin-right: 8px; }
+/* Overview 三维结论 */
+.overview-section { margin-bottom: 24px; padding: 20px 22px; background: linear-gradient(135deg,#eef2ff 0%,#f5f3ff 100%); border: 1px solid #e0e7ff; border-radius: 12px; }
+.overview-title { font-size: 16px; font-weight: 700; color: #3730a3; margin-bottom: 14px; display: flex; align-items: center; }
+.overview-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #6366f1; border-radius: 3px; margin-right: 10px; }
+.ov-block { margin-bottom: 14px; }
+.ov-block:last-child { margin-bottom: 0; }
+.ov-head { font-size: 14px; font-weight: 600; color: #4338ca; margin-bottom: 6px; }
+.ov-hint { font-size: 11px; font-weight: 400; color: #818cf8; margin-left: 8px; }
+.ov-list { margin: 0 0 0 20px; padding: 0; list-style: disc; }
+.ov-list li { font-size: 13.5px; color: #334155; line-height: 1.7; margin-bottom: 4px; }
+/* 共性提炼板块（周报）：低调的浅青底 */
+.commonality-section { margin-bottom: 24px; padding: 18px 22px; background: linear-gradient(135deg,#ecfeff 0%,#f0f9ff 100%); border: 1px solid #bae6fd; border-radius: 12px; }
+.commonality-title { font-size: 16px; font-weight: 700; color: #075985; margin-bottom: 4px; display: flex; align-items: center; }
+.commonality-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #0ea5e9; border-radius: 3px; margin-right: 10px; }
+.commonality-tip { font-size: 12px; color: #0369a1; margin-bottom: 10px; }
+.commonality-list { margin: 0 0 0 22px; padding: 0; list-style: disc; }
+.commonality-list li { font-size: 13.5px; color: #0c4a6e; line-height: 1.7; margin-bottom: 4px; }
+.signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
+.stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
+.new-badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; cursor: help; }
+.cat-summary { font-size: 13px; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 8px 12px; border-radius: 0 6px 6px 0; margin-bottom: 14px; line-height: 1.7; }
+.insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
+.insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
+.insights-title::before { content: ""; display: inline-block; width: 5px; height: 18px; background: #f59e0b; border-radius: 3px; margin-right: 10px; }
+.insights-intro { font-size: 13.5px; color: #92400e; line-height: 1.8; margin-bottom: 16px; }
+.takeaway-list { display: flex; flex-direction: column; gap: 12px; }
+.takeaway { background: #fffdf7; border: 1px solid #fde68a; border-radius: 8px; padding: 12px 14px; }
+.tw-base { font-size: 13px; color: #7c2d12; line-height: 1.7; margin-bottom: 6px; }
+.tw-borrow { font-size: 13.5px; color: #78350f; font-weight: 500; line-height: 1.75; }
+.tw-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 4px; margin-right: 8px; vertical-align: middle; }
+.tw-tag-base { background: #fef3c7; color: #b45309; }
+.tw-tag-borrow { background: #f59e0b; color: #fff; }
+.insights-list { list-style: none; padding: 0; margin: 0; }
+.insight-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #78350f; line-height: 1.7; }
+.insight-item:last-child { margin-bottom: 0; }
+.insight-num { flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #f59e0b; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.insight-text { flex: 1; font-weight: 500; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
+.dot-high { background: #ef4444; }
+.dot-medium { background: #f59e0b; }
+.dot-low { background: #cbd5e1; }
+.digest-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; }
+.category-row td { padding: 16px 12px; vertical-align: top; border-top: 1px solid #e5e7eb; }
+.col-type { width: 70px; text-align: center; }
+.col-category { width: 90px; text-align: center; }
+.col-content { padding-left: 20px !important; }
+.type-label { font-size: 12px; color: #64748b; font-weight: 500; white-space: nowrap; }
+.cat-label { font-size: 13px; font-weight: 600; color: #1e293b; white-space: nowrap; }
+.news-item { margin-bottom: 18px; }
+.news-item:last-child { margin-bottom: 0; }
+.item-main { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 4px; }
+.item-main .dot { margin-top: 6px; }
+.item-link { color: #1e40af; text-decoration: none; font-weight: 600; font-size: 14px; }
+.item-link:hover { text-decoration: underline; }
+.item-title-text { font-weight: 600; font-size: 14px; color: #1e293b; }
+.item-explanation { color: #374151; font-size: 13.5px; margin: 4px 0 0 14px; }
+.item-source { color: #94a3b8; font-size: 11px; }
+.analysis-points { margin: 6px 0 0 34px; padding: 0; list-style: disc; }
+.analysis-points li { font-size: 13px; color: #4b5563; line-height: 1.6; margin-bottom: 3px; }
+.local-hint { margin: 6px 0 0 34px; padding: 4px 10px; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 4px; font-size: 12px; color: #0f766e; }
+.local-tag { font-weight: 600; margin-right: 6px; color: #14b8a6; }
+.archive-section { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e5e7eb; }
+.archive-title { font-size: 15px; font-weight: 600; color: #374151; margin-bottom: 4px; }
+.archive-tip { font-size: 12px; color: #94a3b8; margin-bottom: 12px; }
+.archive-month { margin-bottom: 12px; }
+.archive-month h4 { font-size: 13px; color: #64748b; margin-bottom: 6px; }
+.archive-week { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+.week-label { font-size: 12px; color: #94a3b8; min-width: 80px; }
+.date-link { font-size: 12px; color: #6366f1; text-decoration: none; padding: 2px 8px; border-radius: 4px; background: #f5f3ff; }
+.date-link:hover { background: #ede9fe; }
+.date-link-active { background: #6366f1; color: #fff; }
+.footer { padding: 24px 40px; text-align: center; color: #94a3b8; font-size: 11px; border-top: 1px solid #f1f5f9; margin-top: 32px; background: rgba(255,255,255,0.6); }
+.empty { text-align: center; padding: 60px; color: #94a3b8; }
+@media (max-width: 768px) {
+  .header, .container, .footer { padding-left: 16px; padding-right: 16px; }
+  .toggle-bar { padding-left: 16px; }
+  .col-type, .col-category { display: none; }
+  .col-content { padding-left: 0 !important; }
+  .category-row td { padding: 12px 0; }
+  .roo-mascot { width: 40px; height: 40px; top: 16px; right: 12px; }
+  .editorial-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+</style>
+</head>
+<body>
+<canvas id="particle-bg" aria-hidden="true"></canvas>
+<div class="header">
+<svg class="roo-mascot" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="美团黄袋鼠">
+<defs>
+<linearGradient id="rooGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0" stop-color="#FFD100"/>
+<stop offset="1" stop-color="#FFC300"/>
+</linearGradient>
+</defs>
+<!-- 耳朵 -->
+<path fill="#FFC300" d="M35 7c1-1 3-1 3 1 0 3-1 6-3 8-2 1-3 0-3-2 0-2 1-5 3-7z"/>
+<path fill="#FFC300" d="M41 9c1-1 3 0 3 2 0 3-1 5-3 7-1 1-3 1-3-1 0-3 1-6 3-8z"/>
+<!-- 头 -->
+<circle cx="41" cy="20" r="7" fill="url(#rooGrad)"/>
+<!-- 眼睛 -->
+<circle cx="43" cy="19" r="1.4" fill="#222"/>
+<!-- 身体+尾巴（一笔剪影） -->
+<path fill="url(#rooGrad)" d="M36 26c-6 0-11 4-13 10-1 3-3 6-6 8-2 2-4 3-5 5-1 1 0 3 2 3h13c2 0 3-1 3-3 0-2 1-4 3-5 3-2 6-2 9-2 3 0 5-2 5-5 0-2-1-4-3-5l-3-1c-2-1-3-3-5-5z"/>
+<!-- 前爪 -->
+<path fill="#E6A800" d="M31 33c1-1 3-1 4 0 1 1 1 3 0 3l-4 1c-1 0-1-3 0-4z"/>
+</svg>
+<h1>AI 商业日报</h1>
+<div class="subtitle">字节系 AI 商业化动态 · DeepSeek 精选</div>
+<div class="date-line">2026年08月08日 周六 <span class="mode-badge">DeepSeek AI 精选</span></div>
+
+</div>
+<div class="toggle-bar"><button id="btn-daily" onclick="switchView('daily')" class="tab active">日报</button><button id="btn-weekly" onclick="switchView('weekly')" class="tab">周报</button></div>
+<div class="container">
+<div id="daily-view"><div class="editorial"><div class="editorial-head"><span class="editorial-label">编辑导读</span></div><div class="editorial-body">今日字节系AI商业化动态密集：火山引擎正式上线Seedance 2.5 API，支持30秒视频直出与50个角色参考，并已接入Runway、Krea等第三方平台，标志着AI视频生成从&#x27;能生成&#x27;走向&#x27;可交付&#x27;，为广告素材生产带来工业化能力。同时，字节被曝预训练10万亿参数超大模型，张一鸣明确拒绝AI蒸馏，坚持自研，显示其长期技术野心。此外，飞书并入豆包，字节ToB战略重塑，豆包成为AI核心入口，与抖音电商深度打通，AI导购单独收费，为本地生活商业化提供了新的流量与转化路径。抖音陪跑MCN探索AI内容创作，即梦AI上线Maya/Blender插件，进一步巩固专业工作流生态。整体看，字节正以豆包为中枢，整合模型、工具与平台，构建全链路AI商业化闭环。</div></div><section class="overview-section"><h3 class="overview-title">本期要点概述</h3><div class="ov-block"><div class="ov-head">🚀 新产品功能<span class="ov-hint">哪个公司有什么新功能、具体怎么实现</span></div><ul class="ov-list"><li>火山引擎正式上线豆包Seedance 2.5 API，支持30秒视频直出、50个角色参考，并原生集成音效与对白，面向专业创作者与开发者，提供电影级质感生成能力。</li><li>即梦AI上线Maya/Blender原生插件，并推出智能编辑模式，使AI视频生成无缝接入专业3D工作流，降低专业创作者使用门槛。</li></ul></div><div class="ov-block"><div class="ov-head">💬 网上观点<span class="ov-hint">报道/分析师的新观点与论据</span></div><ul class="ov-list"><li>分析认为，Seedance 2.5的发布标志着视频生成模型从&#x27;能生成&#x27;向&#x27;可交付&#x27;演进，其30秒连续叙事与多角色控制能力，将推动AI视频在广告、影视等产业场景的规模化应用。</li><li>有观点指出，字节预训练10万亿参数模型，体现张一鸣拒绝&#x27;蒸馏&#x27;、追求原创突破的战略，旨在实现从追赶到引领的跨越，但训练周期长、成本高，商业化回报存在不确定性。</li></ul></div><div class="ov-block"><div class="ov-head">🌐 行业生态<span class="ov-hint">基于这些文章看到的行业态势</span></div><ul class="ov-list"><li>字节跳动通过火山引擎开放Seedance 2.5 API，并接入Runway、Krea等第三方平台，构建开放生态，加速AI视频能力在行业渗透。</li><li>飞书并入豆包，字节ToB战略从&#x27;赛马&#x27;转向&#x27;合兵&#x27;，豆包成为AI核心入口，与抖音电商、本地生活等业务深度协同，形成&#x27;模型+应用+流量&#x27;的闭环生态。</li></ul></div></section><div class="signal-legend">信号等级：<span class="dot dot-high"></span>高影响 / <span class="dot dot-medium"></span>中影响 / <span class="dot dot-low"></span>信息流</div><div class="stats">共 7 条精选 · 0 条高影响 · <span class="new-badge" title="对比 2026-08-07 日报去重后统计">▲ 较昨日新增 7 条</span></div><table class="digest-table"><tbody><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">大厂动向</span></td><td class="col-content"><div class="cat-summary">字节跳动在AI大模型与视频生成领域持续加码：预训练10万亿参数模型，张一鸣明确拒绝蒸馏，坚持自研；火山引擎上线Seedance 2.5 API，并接入Runway、Krea等平台，推动AI视频商业化落地。</div><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBxaU9tWTZ2SC05Sm03akl4MGNjSjlSV0FEQkF4djg4LUZzVGZhNFBBR2ljSVQwenh6U183Z3lMVlRLRzJuN2ljNQ?oc=5" target="_blank" class="item-link">Seedance 2.5进厂，机器成了新观众</a><span class="item-source">(品玩)</span></div><div class="item-explanation">Seedance 2.5在工业场景的应用，如徐工、小鹏等企业接入，用于产品展示、培训视频生成，显示AI视频在B端产业场景的落地价值。</div><ul class="analysis-points"><li>要点1：Seedance 2.5支持30秒视频与多角色，可生成产品演示、操作指南等工业视频，从&#x27;创意工具&#x27;变为&#x27;生产力工具&#x27;。</li><li>要点2：对本地生活商家，可借鉴工业场景，用AI生成门店介绍、服务流程等视频，提升专业形象。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可用Seedance生成标准化服务视频，用于员工培训或顾客引导。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBxaU9tWTZ2SC05Sm03akl4MGNjSjlSV0FEQkF4djg4LUZzVGZhNFBBR2ljSVQwenh6U183Z3lMVlRLRzJuN2ljNQ?oc=5" target="_blank" class="item-link">Seedance 2.5进厂，机器成了新观众</a><span class="item-source">(品玩)</span></div><div class="item-explanation">Seedance 2.5在工业场景的应用，如徐工、小鹏等企业接入，用于产品展示、培训视频生成，显示AI视频在B端产业场景的落地价值。</div><ul class="analysis-points"><li>要点1：Seedance 2.5支持30秒视频与多角色，可生成产品演示、操作指南等工业视频，从&#x27;创意工具&#x27;变为&#x27;生产力工具&#x27;。</li><li>要点2：对本地生活商家，可借鉴工业场景，用AI生成门店介绍、服务流程等视频，提升专业形象。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可用Seedance生成标准化服务视频，用于员工培训或顾客引导。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBxaU9tWTZ2SC05Sm03akl4MGNjSjlSV0FEQkF4djg4LUZzVGZhNFBBR2ljSVQwenh6U183Z3lMVlRLRzJuN2ljNQ?oc=5" target="_blank" class="item-link">Seedance 2.5进厂，机器成了新观众</a><span class="item-source">(品玩)</span></div><div class="item-explanation">Seedance 2.5在工业场景的应用，如徐工、小鹏等企业接入，用于产品展示、培训视频生成，显示AI视频在B端产业场景的落地价值。</div><ul class="analysis-points"><li>要点1：Seedance 2.5支持30秒视频与多角色，可生成产品演示、操作指南等工业视频，从&#x27;创意工具&#x27;变为&#x27;生产力工具&#x27;。</li><li>要点2：对本地生活商家，可借鉴工业场景，用AI生成门店介绍、服务流程等视频，提升专业形象。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可用Seedance生成标准化服务视频，用于员工培训或顾客引导。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">生态动向</span></td><td class="col-content"><div class="cat-summary">即梦AI上线Maya/Blender插件，抖音陪跑MCN探索AI内容创作，火山引擎与公益基金会合作，显示字节正构建从专业工具到创作者生态的完整AI应用链条。</div><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://aihot.virxact.com/items/cmsiujxlq1u0zronkvvklblwk" target="_blank" class="item-link">Seedance 2.5接入Runway与Krea，生态开放加速</a><span class="item-source">(AI热点)</span></div><div class="item-explanation">Seedance 2.5已登陆Runway和Krea等第三方AI创作平台，支持50个角色参考与30秒视频生成，通过开放API与生态合作，字节将AI视频能力输出至全球创作者，扩大市场影响力。</div><ul class="analysis-points"><li>要点1：Seedance 2.5在Runway上支持50个角色参考，可构建复杂角色世界，并生成带音效与对白的30秒片段，能力从&#x27;单镜头&#x27;升级为&#x27;多角色叙事&#x27;。</li><li>要点2：接入第三方平台意味着字节AI视频能力被更广泛采用，广告主可通过这些平台使用Seedance，降低工具迁移成本，提升素材生产效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>广告投放团队可关注Runway等平台的Seedance集成，利用其角色参考功能制作系列化广告，保持品牌一致性。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE5fZmh4VktQam1QakoxeDMxS05SdV9oeHZUX1pORHV1d25ueE9MWUJaNTZXLTd0b3RFc2d3b2Yzd1dQVDViRTItUA?oc=5" target="_blank" class="item-link">抖音陪跑MCN，AI内容创作从扶持到方法</a><span class="item-source">(品玩)</span></div><div class="item-explanation">抖音推出MCN陪跑计划，从资源扶持转向方法陪跑，帮助MCN机构跑通AI内容创作流程，探索AI在短视频领域的商业化路径。</div><ul class="analysis-points"><li>要点1：抖音为MCN提供AI工具、培训与流量支持，从&#x27;给资源&#x27;变为&#x27;教方法&#x27;，推动AI内容规模化生产。</li><li>要点2：对广告主而言，MCN的AI内容生产能力提升，可更高效地生产种草视频，本地生活商家可合作MCN进行AI驱动的营销。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可与AI能力强的MCN合作，批量生产探店、菜品推荐等视频，降低成本。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏观点类</span></td><td class="col-category"><span class="cat-label">观点与深度</span></td><td class="col-content"><div class="cat-summary">行业分析聚焦Seedance 2.5与MiniMax H3的对比，认为字节在视频生成领域保持领先，但独立厂商通过差异化竞争寻求突破；同时，AI视频生成的风险（如版权、虚假内容）引发关注。</div><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pcDdUbDhnVjFMbGhFMkpDQUZpdjhXRUVfa3EtVXJjTVVFa1IwemhKYzJVdk1QV0oyaDNWak5QN0dhSUQtbGJaVWlsaW1RUGxlSzhpbQ?oc=5" target="_blank" class="item-link">Seedance 2.5风险引关注，版权与虚假内容成焦点</a><span class="item-source">(中关村在线)</span></div><div class="item-explanation">中关村在线发文讨论Seedance的风险，包括版权侵权、虚假内容生成等，提示AI视频在商业化应用中需注意合规与伦理。</div><ul class="analysis-points"><li>要点1：AI生成视频可能涉及版权问题，如使用他人形象、音乐等，需建立审核机制。</li><li>要点2：广告主使用AI生成内容时，需确保不侵犯第三方权益，避免法律风险。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家使用AI生成广告时，应使用原创素材或获得授权，避免侵权。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pcDdUbDhnVjFMbGhFMkpDQUZpdjhXRUVfa3EtVXJjTVVFa1IwemhKYzJVdk1QV0oyaDNWak5QN0dhSUQtbGJaVWlsaW1RUGxlSzhpbQ?oc=5" target="_blank" class="item-link">Seedance 2.5风险引关注，版权与虚假内容成焦点</a><span class="item-source">(中关村在线)</span></div><div class="item-explanation">中关村在线发文讨论Seedance的风险，包括版权侵权、虚假内容生成等，提示AI视频在商业化应用中需注意合规与伦理。</div><ul class="analysis-points"><li>要点1：AI生成视频可能涉及版权问题，如使用他人形象、音乐等，需建立审核机制。</li><li>要点2：广告主使用AI生成内容时，需确保不侵犯第三方权益，避免法律风险。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家使用AI生成广告时，应使用原创素材或获得授权，避免侵权。</div></div></td></tr></tbody></table><section class="insights-section"><h3 class="insights-title">外投团队的借鉴 · 技术底座视角</h3><p class="insights-intro">字节系正通过Seedance 2.5 API、即梦插件、豆包整合等动作，将AI视频生成与工作流深度绑定，未来外投素材将走向工业化生产，成本结构大幅优化，投放效率与创意质量成为核心竞争力。</p><div class="takeaway-list"><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>火山引擎上线Seedance 2.5 API，支持30秒视频直出、50个角色参考，并原生集成音效与对白，视频生成从&#x27;片段&#x27;升级为&#x27;完整叙事&#x27;。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>外投团队可基于该API批量生成多版本视频素材，针对不同商家、场景进行个性化投放，大幅降低素材制作成本与周期，提升广告创意效率。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>即梦AI上线Maya/Blender插件，使AI视频生成无缝嵌入专业3D工作流，从&#x27;独立工具&#x27;变为&#x27;工作流组件&#x27;。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>广告制作公司可整合AI视频到现有3D流程，快速产出高质量广告素材，尤其适合需要3D元素的本地生活场景，如虚拟探店、产品展示。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>豆包整合飞书，成为AI核心入口，与抖音电商、本地生活等业务深度协同，形成&#x27;模型+应用+流量&#x27;闭环。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>外投团队可借助豆包生态，实现从素材生成、智能投放、效果分析的全链路AI化，提升广告投放的精准度与ROI。</div></div></div></section></div><div id="weekly-view" style="display:none;"><div class="editorial"><div class="editorial-head"><span class="editorial-label">编辑导读</span></div><div class="editorial-body">本周共汇总 40 条 AI 商业要闻，其中高影响 7 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑；字节Seed发布SeedRealtime全双工大模型，豆；张一鸣罕见发声：字节拒绝AI蒸馏，不牺牲长期突破换短期排；火山引擎上线Seedance 2.5 API，视频生成开；字节被曝训练10万亿参数超大模型，对标Anthropic。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类&#x27;拿商家预算做外部广告投放(外投)&#x27;的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在&#x27;技术能力底座&#x27;上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末&#x27;外投团队的借鉴&#x27;。</div></div><section class="overview-section"><h3 class="overview-title">本期要点概述</h3><div class="ov-block"><div class="ov-head">🚀 新产品功能<span class="ov-hint">哪个公司有什么新功能、具体怎么实现</span></div><ul class="ov-list"><li>字节Seed发布SeedRealtime全双工大模型，豆包App全量上线</li><li>火山引擎上线Seedance 2.5 API，视频生成开启电影级长叙事</li><li>字节跳动将推首款AI硬件，主打无感佩戴记录</li></ul></div><div class="ov-block"><div class="ov-head">💬 网上观点<span class="ov-hint">报道/分析师的新观点与论据</span></div><ul class="ov-list"><li>Seedance 2.5实测：从片段到叙事，AI视频进入下半场</li><li>AI视频模型竞争进入工作流时代：Seedance 2.5与H3解析</li><li>Seedance 2.5之后，AI视频战争换了战场</li></ul></div><div class="ov-block"><div class="ov-head">🌐 行业生态<span class="ov-hint">基于这些文章看到的行业态势</span></div><ul class="ov-list"><li>MiniMax低价开源挑战字节，视频生成行业变天</li><li>抖音播放量上亿，商单报价6.8万，第一代AI演员开始赚钱了</li><li>即梦AI创作者成长计划：古风街巷主题创作</li></ul></div></section><section class="commonality-section"><h3 class="commonality-title">共性提炼</h3><div class="commonality-tip">跨条目的高频主题与趋势结论</div><ul class="commonality-list"><li>本周内容重心在「大厂动向」（23 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。</li><li>视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入&#x27;素材工业化&#x27;阶段。</li><li>火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。</li><li>模型调用成本持续下探、开源与闭源同步内卷，&#x27;千商千面&#x27;的定制生成在成本上开始可行。</li><li>AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。</li></ul></section><div class="signal-legend">信号等级：<span class="dot dot-high"></span>高影响 / <span class="dot dot-medium"></span>中影响 / <span class="dot dot-low"></span>信息流</div><div class="stats">共 40 条精选 · 7 条高影响</div><table class="digest-table"><tbody><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">大厂动向</span></td><td class="col-content"><div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNTUs5MUdkazhJSjNCdWgxQm9RaHR1ZE1pc2s1SHpuTHpIOVNRVW1WZGUzVjM0djZsUlNtUGF5RTY2NExDOHZtSFpicXN1Ni1Ha1NnQVh1LUJGVzhVRGVIVVVNd1VoaGladEV0TFBkeXhzcFhjU0pndW0zWXdOUVNOR3JCdmFmcnNKdHMxUnRSTkJ3a2pfdS1kOU9TOHAtUQ?oc=5" target="_blank" class="item-link">TikTok构建广告代理式AI，Agentic AI重塑投放</a><span class="item-source">(ADWEEK)</span></div><div class="item-explanation">ADWEEK报道TikTok正在构建Agentic AI用于广告，实现自动化投放与优化。该AI可自主执行广告策略，提升投放效率，代表广告技术新方向。</div><ul class="analysis-points"><li>要点1：TikTok的Agentic AI从辅助工具升级为自主代理，可自动执行广告投放。</li><li>要点2：对广告主而言，Agentic AI可降低人工优化成本，提升投放ROI。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可期待TikTok Agentic AI实现自动化广告投放，减少人工操作。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://aihot.virxact.com/items/cmsfkn6cf03ciroch6tfynepy" target="_blank" class="item-link">字节Seed发布SeedRealtime全双工大模型，豆包App全量上线</a><span class="item-source">(AI热点)</span></div><div class="item-explanation">字节Seed推出SeedRealtime，用统一架构原生融合音频、视频与文本，实现边看边听边说的实时交互，已在豆包App全量上线，是音视频全双工技术规模化落地的关键一步。</div><ul class="analysis-points"><li>SeedRealtime将音视频感知与表达统一到同一端到端模型，相比级联模型说话节奏问题减少一半，支持主动提醒和自然停顿。</li><li>对本地生活商家，可基于此开发更自然的语音助手，提升用户交互体验，如点餐、咨询等场景。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>可用于开发本地生活场景的智能语音助手，提升用户点餐、预约等交互体验。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14" target="_blank" class="item-link">火山引擎上线Seedance 2.5 API，视频生成开启电影级长叙事</a><span class="item-source">(AI热点)</span></div><div class="item-explanation">火山引擎正式上线Seedance 2.5 API，将单次视频生成时长从15秒提升至30秒，并支持最高50个全模态素材参考。模型在指令遵循、长叙事、真人感及声画质感上大幅提升，能稳定保持多角色外形与场景关系，兼容十余种语言。</div><ul class="analysis-points"><li>要点1：API能力升级，支持30秒连续视频和50个参考输入，实现电影级长叙事，满足复杂场景生成需求。</li><li>要点2：广告投放团队可调用API批量生成高质量视频素材，降低制作成本，提升广告创意效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活广告可借助API生成多场景视频，如餐厅环境、菜品特写、用户评价等，增强广告真实感。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://www.cnbeta.com.tw/articles/tech/1572142.htm" target="_blank" class="item-link">字节被曝训练10万亿参数超大模型，对标Anthropic最先进系统</a><span class="item-source">(cnBeta)</span></div><div class="item-explanation">据英国《金融时报》报道，字节跳动正在训练一个参数高达10万亿的AI大模型，规模接近Anthropic最先进的Mythos系统，目前处于早期阶段。这显示字节在自研大模型上的长期投入决心，旨在缩小与美国顶尖实验室的差距。</div><ul class="analysis-points"><li>要点1：字节正在训练10万亿参数模型，规模对标Anthropic，显示其自研决心和长期战略。</li><li>要点2：超大模型将提升豆包等产品的底层能力，未来可能带来更智能的AI助手，影响广告投放的智能化水平。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ieWZGMDZndlRuUmxtUFMxSTNtQmJyNGlET2JkMTlDeEZuSnVUMXVuRWYtbjJXb1pESzRndEtid2EyQlB3Nkp0aDllZk9uUlF5SkcyTWlqbmdBQ08wM2Z0RnZB?oc=5" target="_blank" class="item-link">飞书并入豆包，字节ToB战略重塑，豆包成AI核心</a><span class="item-source">(虎嗅)</span></div><div class="item-explanation">字节跳动将飞书并入豆包，豆包与抖音并列核心，AI导购接入电商并单独收费。这标志着字节ToB战略从&#x27;赛马&#x27;转向&#x27;合兵&#x27;，豆包成为AI工作入口，飞书年化收入超30亿但成为&#x27;小弟&#x27;。</div><ul class="analysis-points"><li>要点1：飞书并入豆包，豆包成为AI核心，整合办公与AI能力，形成统一入口。</li><li>要点2：AI导购接入电商并单独收费，为商家提供新的付费工具，可能改变电商营销模式。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>AI导购接入电商并单独收费，本地生活商家可考虑使用AI导购提升转化，但需评估成本。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNaXR6cVNHWmxJNG9uX0h4TnkyTnlQWXo2SmRoRk4xSUlENDNFV3RyY2FGSXpYQmU3cUlIWXVkSVdybkZEV0VNM0t2WHpZQnRhdndFaWo3Z1RfZ1FPdi01cGRMZEpPQ19EcVdJTnVlbFp0NXVlZVo5T1pJaUU4RlliWTBOTEhoZExzLUhrVm1rNTZSWU0?oc=5" target="_blank" class="item-link">TikTok Shop GMV预计2026年达千亿美元，直播购物增长55%</a><span class="item-source">(Tubefilter)</span></div><div class="item-explanation">据Tubefilter报道，TikTok Shop在美国销售带动下，预计2026年GMV将达1000亿美元。平台直播购物增长55%，尤其在运动鞋、街头服饰和收藏品领域表现强劲。</div><ul class="analysis-points"><li>要点1：TikTok Shop GMV预计2026年达千亿美元，直播购物增长55%，显示电商商业化潜力。</li><li>要点2：商家可加大TikTok Shop直播投入，利用直播购物趋势提升销售。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借鉴TikTok Shop直播模式，在抖音开展直播带货，利用直播购物增长趋势。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiOGZ4UkZiNVl5bDV1UGI3b21pUlpXUFJpMzdZUkJZUEVELTVpRkVmb1ZXN2xlNTdXUlE0amd6YXV5aVVmVDFjakZYUmFLYU5xYW5fRGNCYTFVUQ?oc=5" target="_blank" class="item-link">字节跳动将推首款AI硬件，主打无感佩戴记录</a><span class="item-source">(电玩巴士)</span></div><div class="item-explanation">字节跳动将推出首款AI硬件，主打无感佩戴记录，效仿科大讯飞布局AI眼镜赛道。该硬件可能集成豆包AI能力，用于记录生活、辅助信息获取，拓展AI在可穿戴设备中的应用。</div><ul class="analysis-points"><li>要点1：字节从软件走向硬件，AI眼镜主打无感佩戴记录，能力从虚拟助手延伸至物理世界。</li><li>要点2：对广告主而言，AI眼镜可能成为新的内容入口，结合视觉识别推送本地生活信息。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>AI眼镜可结合AR显示，为用户提供周边商户信息、导航等，创造本地生活新场景。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://36kr.com/p/3923732474182017" target="_blank" class="item-link">豆包输入法上线首周下载破5000万，语音交互成新入口</a><span class="item-source">(36氪)</span></div><div class="item-explanation">豆包输入法上线首周下载量突破5000万，日活达1200万，刷新输入法新品增长纪录。其语音输入功能依托豆包大模型，撕开语音口子，对科大讯飞形成冲击。</div><ul class="analysis-points"><li>要点1：豆包输入法从文字输入升级为AI语音交互入口，首周下载破5000万。</li><li>要点2：对广告主而言，输入法成为高频入口，可结合语音搜索推送本地生活服务。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>豆包输入法语音搜索可推荐附近商户，为本地生活服务提供新流量入口。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-low" title="信息流"></span><a href="https://www.ithome.com/0/985/138.htm" target="_blank" class="item-link">字节跳动游戏《雾影猎人》发售4天玩家破50万</a><span class="item-source">(IT之家)</span></div><div class="item-explanation">字节跳动旗下Bellring Games开发的《雾影猎人》发售4天全平台玩家突破50万，采用虚幻引擎5，是字节在游戏领域的又一布局。</div><ul class="analysis-points"><li>要点1：字节游戏工作室推出新作，玩家数快速增长，显示其游戏研发能力。</li><li>要点2：对广告主而言，游戏内广告成为新场景，可结合游戏IP进行营销。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>游戏内可植入本地生活品牌，如餐饮、旅游等，实现跨界营销。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiwAJBVV95cUxNT3JzTVdPLXgyTzF6aFdlcFRQa1VyMXRhcHJTSVpJT0xYQ3lkdWhlYmtSWE01S1VvZmY0VVRwcDNfaERUYnV0Vmp3TUpZNTlrYTJoSXB0ZVVNTzd4dGowTl9qLWItVjdlX3QtelBhM2NtcjZjX2xYVmxyWUpqb3dEbk5PdDl2bDk2aGtTaDRsaUFraFFnZEk1M05XeVhjTlBWam5YRGZldW9vSFhFclYwTnlHaXpUSVJUOEFXbm80SmJUdi1HT3VVSTN4eEVEMVlpS3p5eG9YOVVnVm1MT2dWWHJ1ZWY5dFlHOFJIeXJpWVhFYmE5azRKQWUxb3NHRGFndmtValZBNG5ELVY1eWJBbjBrNUdqQ3ZRc013TFFrQ2t6T2hmczNVVVVJRGZuVGhoRHVkcWtsMjVGOUJvZDluVw?oc=5" target="_blank" class="item-link">TikTok更新AI广告工具，推出智能广告系列创建</a><span class="item-source">(MediaPost)</span></div><div class="item-explanation">TikTok更新AI广告工具，推出智能广告系列创建功能，帮助广告主自动生成广告素材和投放策略。该功能利用AI简化广告创建流程，提升投放效率，对中小广告主尤其友好。</div><ul class="analysis-points"><li>要点1：TikTok AI广告工具从手动创建转向智能自动生成，降低广告制作门槛。</li><li>要点2：广告主可快速生成多版本素材，自动优化投放，提升ROI。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可利用TikTok智能广告创建，快速生成适配不同市场的广告素材。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9pSmxVOGgtejBzdjRFNm94c25oNWhjT0I4Z2YtNEZFWktYcUFHNm9JVURZNTJTb0VUNk5RUWNJUkVoMHJOeklFVzhQNWJkeDh0ajRTVXA2MzNydHJkcVpYQndkd3hNeXYtY3NiRHZB?oc=5" target="_blank" class="item-link">Seedance 2.5上线即梦AI，游戏开发圈心动</a><span class="item-source">(风闻)</span></div><div class="item-explanation">即梦AI上线Seedance 2.5，性能再进阶，游戏开发圈对其表现出浓厚兴趣。Seedance 2.5支持30秒视频生成和多模态参考，可辅助游戏开发中的过场动画、宣传视频制作，提升开发效率。</div><ul class="analysis-points"><li>要点1：Seedance 2.5在即梦AI上线，游戏开发者可利用其生成高质量视频素材。</li><li>要点2：对游戏广告主而言，可快速生成游戏宣传视频，降低制作成本。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借鉴游戏行业，利用Seedance 2.5制作创意短视频广告。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aVUc0WEVTblRaY0Jkd3FzeDBpNUo4ZnVMM1U1emdKVmRBeVR0QlJpS1F3MklIWDZxTWVMY2gtb3FaNVZlTGQwVmIxQXowTTJaVzg2QjhjMlZtVjJFSUNyRE5R?oc=5" target="_blank" class="item-link">字节Seedance 2.5接入即梦AI，上线Maya/Blender插件</a><span class="item-source">(观点网)</span></div><div class="item-explanation">即梦AI接入Seedance 2.5模型，并同步上线Maya/Blender插件等专业工具，提升专业创作者效率。</div><ul class="analysis-points"><li>即梦AI接入Seedance 2.5，支持30秒视频生成，并上线Maya/Blender插件，方便专业工作流集成。</li><li>对本地生活商家，可利用即梦AI生成高质量3D或动画内容，用于广告宣传。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可利用即梦AI生成3D产品展示或动画广告，提升视觉吸引力。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQcy1fQW1ENXJpdW5lV3JhbGkzVWNiX2ZrRGhGR3hocmc5OTE2X0pnX0pHbEloMi1iTlJIMllaUk9VWkVNVl94SjhkZEhHX3l6Rm9WSDFoYWlkZThBSnZobGo4TGFsUzVCNkFhRXBwUFR4dFR1MTNkUmF3Q2E3RklpSncza2ZndG8?oc=5" target="_blank" class="item-link">字节Seedance 2.5支持30秒生成与50个参考输入</a><span class="item-source">(Yahoo Finance Australia)</span></div><div class="item-explanation">Dreamina（即梦）上线Seedance 2.5，支持30秒视频生成和50个参考输入，减少片段拼接和视觉漂移。</div><ul class="analysis-points"><li>Seedance 2.5支持30秒单次生成，减少拼接，支持50个参考输入，提升创作灵活性。</li><li>对本地生活商家，可生成更长的产品展示视频，提升信息量。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可生成更长的视频内容，如探店、产品介绍，提升用户停留时间。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMigAJBVV95cUxPZS1SLXVkR3JCVTlrNjA0MHJkMTJYTGNhcm9rbldlT09LdDJqN2xsdEh0Y1dESTdtLUZicVNfby1TVENaNVFqbjAtU0V1Q0FBM2Z1aHNFNEJ5Snkzc0piLTRrU0FBaU9WZWdIYzlEX2R0T3lKS1NueGM5ckRwN1ZETGY5WGJxMnNVZ0oxZWRlWmtqQlVDRjJqbGJ2SVk5aGJUTEFDaTk2MkNMRkZ6c1ZlY25oNzcwbF93QjNybllIYVl3RzBvbGtGWnpoQ0tQOWpacHRMYlhlekZJQWxCSDI3WDZjUVNOT1liT2hITlk2X01BaWdoUk9UWHVkMnhUeHVR?oc=5" target="_blank" class="item-link">字节Seedance 2.5减少片段拼接、视觉漂移和返工</a><span class="item-source">(PR Newswire)</span></div><div class="item-explanation">Dreamina上线Seedance 2.5，显著减少视频生成中的片段拼接、视觉漂移和返工，提升创作效率。</div><ul class="analysis-points"><li>Seedance 2.5通过技术优化，减少常见问题，提升视频质量。</li><li>对本地生活商家，可减少视频制作返工，节省时间和成本。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可快速生成高质量视频，用于多平台投放。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE5uUlV3RHJXRGRGUWx2MF9DRXhqclhlWHc2UHpsMjFoTmhUT2JvTVdLRTBEZ05XazBzM0szWGpxd2ZsMlhEY1U3VkZSQ3Y?oc=5" target="_blank" class="item-link">特斯拉中国车机正式接入豆包大模型，全系车型覆盖</a><span class="item-source">(凤凰网科技)</span></div><div class="item-explanation">特斯拉中国通过OTA升级，正式接入豆包大模型，全系车型覆盖，提供实时信息与自然对话能力。豆包在车载场景落地，拓展了AI应用边界。</div><ul class="analysis-points"><li>豆包大模型接入特斯拉车机，提供实时信息查询、自然对话等功能，提升车载语音助手体验。</li><li>对广告主而言，车载场景成为新的内容分发入口，可探索车载语音广告等新形式。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5Lak1GM0dZTHZaYlFyaWM1c2tjaTRZeDRrbmZRSE0xVjFyRFBhWXcwbU1GSkJpU1Q4bXVFNXFteUFEcUlqRkp5T1dUYUc4dkFmdnFTVnNtODdBWmF4WmxvcDNPRnE2bmdZc1ZsSnA3Ym5DVVB5bTZr?oc=5" target="_blank" class="item-link">即梦AI上线多款Seedance2.5专业工具，携手上海电影、艾菲奖探索应用</a><span class="item-source">(雷峰网)</span></div><div class="item-explanation">即梦AI上线多款基于Seedance 2.5的专业创作工具，并与上海电影、艾菲奖等合作，探索AI视频在影视、广告等领域的应用场景。</div><ul class="analysis-points"><li>即梦AI推出专业工具，支持更精细的视频创作，如分镜、特效等，提升创作效率。</li><li>与上海电影、艾菲奖合作，推动AI视频在影视制作和广告营销中的落地，商家可借助这些工具制作高质量广告。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可利用即梦AI专业工具生成创意广告视频，结合艾菲奖案例提升营销创意水平。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UZkVGejlLaEVMazRvbGtLaWJ3M2l2VWFpR0pZVllyd1dLWE81RW92REtweTJZQkUzR0pqOTFQZkotTXYxdm05TVZrUnVTOHNURVk0?oc=5" target="_blank" class="item-link">抖音电商上半年GMV增速近20%，继续放缓但优于大盘</a><span class="item-source">(华尔街见闻)</span></div><div class="item-explanation">抖音电商上半年GMV增速接近20%，虽然增速放缓，但优于电商大盘，显示其电商生态仍具韧性。AI工具在内容创作和营销中的应用，或为增长提供支撑。</div><ul class="analysis-points"><li>抖音电商GMV增速近20%，虽放缓但优于大盘，表明其用户粘性和转化效率仍强。</li><li>商家可借助抖音电商的AI工具（如即梦）生成商品视频，提升商品转化率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可加大抖音电商投入，利用AI生成内容提升商品吸引力，抓住增长机会。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zX2VEQ0hKTEFIRGZ5bnhHUFllZGF2X0ktOUVmQVhmOWhJeGJYZG5jVnlCd1BQeW9BQWhxVmplWjdBSXRxSjJOWGc5RmRlQTROVnNMNGZ0V2ZWUEdxTkp2YmlfRDlsUXMw?oc=5" target="_blank" class="item-link">即梦AI接入Seedance2.5，上线多款专业创作工具</a><span class="item-source">(3elife.net)</span></div><div class="item-explanation">即梦AI正式接入Seedance 2.5，并上线多款专业创作工具，支持更精细的视频创作，降低专业门槛，推动AI视频在内容创作中的普及。</div><ul class="analysis-points"><li>即梦AI接入Seedance 2.5，用户可直接在即梦中生成30秒视频，并利用专业工具进行编辑。</li><li>商家可利用即梦AI快速生成广告素材，结合专业工具优化，提升广告创意质量。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借助即梦AI快速生成多版本广告视频，进行A/B测试，优化投放效果。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mOU5TWklGODlTakVCbG1jc253MUs1YW53aXRRY2w5X2I3WUhuQ0EzUHNVak1pWnkxVEE0aEp6WWFaTkRBMVB2TDZYQnFnWjdGcTBsaTBBS2IzYnAtZF9HMFA1V2I4Zw?oc=5" target="_blank" class="item-link">小鹏汽车、智元机器人等将率先接入Seedance 2.5</a><span class="item-source">(TradingView)</span></div><div class="item-explanation">小鹏汽车、智元机器人等企业将率先接入Seedance 2.5，用于产品演示、内容生成等场景，显示AI视频在智能硬件领域的应用潜力。</div><ul class="analysis-points"><li>小鹏汽车等接入Seedance 2.5，可用于生成汽车产品演示视频，提升营销效率。</li><li>对商家而言，AI视频可应用于产品展示、用户教育等，降低内容制作成本。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-low" title="信息流"></span><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXRHM4MHRyQWx6NEsxVUl5Zm9QN3BrcEdtdks5R0xpMUNWX280UU9fRTlPandjU2lhUEQwUGpIaHczZDJYMkpNY0xTeTZUUUtpM18yajNnVW4?oc=5" target="_blank" class="item-link">三大平台齐发力！虎牙、咪咕、即梦AI解锁海南&#x27;村VA&#x27;流量密码</a><span class="item-source">(hinews.cn)</span></div><div class="item-explanation">虎牙、咪咕、即梦AI三大平台合作，利用AI技术解锁海南&#x27;村VA&#x27;（乡村排球）的流量密码，探索AI在体育赛事内容创作中的应用。</div><ul class="analysis-points"><li>即梦AI参与体育赛事内容创作，可快速生成赛事集锦、宣传视频，提升内容生产效率。</li><li>对商家而言，AI内容创作可应用于本地活动宣传，提升营销效果。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借鉴AI内容创作，用于本地活动宣传，提升曝光。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ORjNPbHhkbG52WFFsOFZ4Q245RDMtbkxVYmpaM2dOazQxWVktNUxIcEpVTFRoZ3kyaFBkMjBmMXc5bloyRWw3X1FBaG5iMXE2NU42WjNCbGM5WXZHSEJ6aWdTWWVfZEk?oc=5" target="_blank" class="item-link">字节跳动、MiniMax同日发布新模型，推AI一键完成视频创作</a><span class="item-source">(财新)</span></div><div class="item-explanation">字节跳动与MiniMax同日发布新视频模型，推动AI一键完成视频创作，竞争进入新赛段，但字节坚持闭源，与MiniMax开源低价形成路线分化。</div><ul class="analysis-points"><li>字节Seedance 2.5与MiniMax新模型同日发布，均支持一键视频创作，降低创作门槛。</li><li>字节坚持闭源，MiniMax开源低价，商家可根据需求选择不同方案。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE95UVBOTlVHUjQ4TWJSaG1Na05OU3Q3Q0dhSmNpNEFLbzMtLTBRZU9sdHlUWUxObGNZM0lPRWdNSmgxMGZjbzdYOUJpcW5BR0E?oc=5" target="_blank" class="item-link">字节跳动重组ToB业务：豆包、飞书、火山扮演什么新角色？</a><span class="item-source">(维科号)</span></div><div class="item-explanation">维科号报道，字节跳动重组ToB业务，豆包、飞书、火山引擎各有新角色。飞书并入豆包，豆包成为AI核心，火山引擎提供底层能力。</div><ul class="analysis-points"><li>要点1：字节ToB业务重组，豆包成为AI核心，飞书并入。</li><li>要点2：商家可关注豆包AI能力在办公和营销中的应用。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBxaU9tWTZ2SC05Sm03akl4MGNjSjlSV0FEQkF4djg4LUZzVGZhNFBBR2ljSVQwenh6U183Z3lMVlRLRzJuN2ljNQ?oc=5" target="_blank" class="item-link">Seedance 2.5进厂，机器成了新观众</a><span class="item-source">(品玩)</span></div><div class="item-explanation">Seedance 2.5在工业场景的应用，如徐工、小鹏等企业接入，用于产品展示、培训视频生成，显示AI视频在B端产业场景的落地价值。</div><ul class="analysis-points"><li>要点1：Seedance 2.5支持30秒视频与多角色，可生成产品演示、操作指南等工业视频，从&#x27;创意工具&#x27;变为&#x27;生产力工具&#x27;。</li><li>要点2：对本地生活商家，可借鉴工业场景，用AI生成门店介绍、服务流程等视频，提升专业形象。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可用Seedance生成标准化服务视频，用于员工培训或顾客引导。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">初创动向</span></td><td class="col-content"><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://36kr.com/p/3923706275690888" target="_blank" class="item-link">LiblibAI融资3亿美元，字节最大代理商估值20亿</a><span class="item-source">(36氪)</span></div><div class="item-explanation">LiblibAI完成近3亿美元B+轮融资，估值超20亿美元，成为中国AI应用层最大单轮融资之一。作为字节最大代理商，Liblib定位帮人用好模型，不造模型但提供工具和服务，在AI应用融资寒冬中逆势增长。</div><ul class="analysis-points"><li>要点1：Liblib作为字节代理商，提供模型应用工具，商业模式从转售API转向服务化。</li><li>要点2：对广告主而言，类似Liblib的第三方工具可降低AI使用门槛，提升内容生产效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借助类似Liblib的AI工具，低成本生成营销素材，提升内容质量。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-low" title="信息流"></span><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxORmZxdUhseGJtcktZd0tMOTVkT05MSGNFQWlTMkJFQU5HOXB4YTRLZjVwVXB3UEVHVHZfTGNGRDBPY2t0WWFrMHNkVDU0bmliMFZRaHBWVTI2MDVBT096ZFhaSU0zUF9FTHZ6SURpd01DdDBGVjRSUy1rWXNKWU16RkZTNWhSb1Zk?oc=5" target="_blank" class="item-link">演语科技将赴港IPO？90后创始人曾就职摩拜、滴滴、剪映</a><span class="item-source">(搜狐网)</span></div><div class="item-explanation">演语科技被传将赴港IPO，其90后创始人曾就职摩拜、滴滴、剪映，显示字节系AI人才创业活跃，但具体业务未披露。</div><ul class="analysis-points"><li>演语科技创始人背景涉及剪映，可能从事AI视频相关业务，但具体未披露。</li><li>字节系AI人才创业，可能推动AI应用创新，为行业带来新活力。</li></ul></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">生态动向</span></td><td class="col-content"><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE5pekdCNW9LWEtKSGlJaUVHZjYyZ0dPTEtidFJLNHlwRndJYl82cmRtWndGeVFTaGEzZldPWTZ0N0JxWTU2S0pvakF6ZDVsNFZlV0ZXRjItRkpYN0s5eEQyUzZyZU9oSmE2dFAwX0dYeHNNU2M5?oc=5" target="_blank" class="item-link">MiniMax低价开源挑战字节，视频生成行业变天</a><span class="item-source">(雷峰网)</span></div><div class="item-explanation">MiniMax发布H3模型，价格比Seedance便宜七成并开源，对字节Seedance形成挑战。视频生成行业进入价格战与开源路线分化。</div><ul class="analysis-points"><li>要点1：MiniMax H3以低价开源策略挑战字节Seedance，行业竞争加剧。</li><li>要点2：对广告主而言，低价开源模型降低视频生成成本，可多模型对比使用。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可选用低价开源模型生成视频素材，降低成本。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hU2RxZDlmWHU0bzR2Y19hUWtzVHRCN1A2ajAwa3lsanlGZEU1WlRGTGJVU3otc1dCajd1NGpvYkVHY3c5U0xoYlh2N0RmQQ?oc=5" target="_blank" class="item-link">抖音播放量上亿，商单报价6.8万，第一代AI演员开始赚钱了</a><span class="item-source">(36氪)</span></div><div class="item-explanation">36氪报道，抖音上AI演员内容播放量上亿，商单报价达6.8万元，AI演员开始商业化变现。这显示AI生成内容在抖音生态中已具备商业价值，为创作者和品牌提供新机会。</div><ul class="analysis-points"><li>要点1：AI演员内容在抖音获得高播放量，商单报价可观，商业化模式初步跑通。</li><li>要点2：品牌可考虑与AI演员合作，降低代言成本，提升内容新鲜度。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可尝试与AI演员合作，制作创意广告，吸引年轻用户。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-low" title="信息流"></span><a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdlRTaUU2djUwaG9zUllOX2NOd19yRzlURGpJU2RxYk5hdk9IdDZ2NWoycUVINlZXUzlNUzBuU1FLOERSVm1PQmJjSTU3UVpxLXhpczhFa1hpcnVpWXFKcTYyVFhNSkN3aGZJS3pLM2Vfd3dTekUtLW5ORTRiTEVJU0NTNGRsMXZMZ3ZRX3J2OC1sWXNiRExiakw5eTNETVJ2bGlXNmtpZkRJd293NVZZdEhrdVBheGlXM0xRbkVCdmRQV0JvdTZOOTRMQ0dJXzhEWTA0eExNeG5odWM?oc=5" target="_blank" class="item-link">即梦AI创作者成长计划：古风街巷主题创作</a><span class="item-source">(新浪财经)</span></div><div class="item-explanation">即梦AI推出创作者成长计划，本期主题为‘倘若时光倒流，踏入古时街巷’，鼓励创作者使用AI工具进行古风场景创作。该计划旨在培养AI内容生态，提升创作者活跃度。</div><ul class="analysis-points"><li>要点1：即梦AI通过创作者成长计划，激励用户创作，丰富平台内容。</li><li>要点2：品牌可参与主题创作，借势营销，提升品牌曝光。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可结合即梦AI主题创作，制作文化类内容，吸引特定人群。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://www.ithome.com/0/986/188.htm" target="_blank" class="item-link">TikTok与迪士尼达成合作，开放IP素材赋能创作者</a><span class="item-source">(IT之家)</span></div><div class="item-explanation">TikTok与迪士尼达成全球短视频内容共享协议，创作者可使用皮克斯、漫威等IP素材创作，作品同步至Disney+竖屏平台Verts，并推出创作者大使计划。</div><ul class="analysis-points"><li>TikTok创作者可使用迪士尼数百部影视素材，降低创作门槛，提升内容吸引力。</li><li>对本地生活商家，可借势热门IP进行联名营销，提升品牌曝光和用户参与度。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可策划IP联名活动，利用TikTok平台流量，吸引年轻用户。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://www.ithome.com/0/987/103.htm" target="_blank" class="item-link">AI虚拟人广告因虚假宣传被下架，合规风险凸显</a><span class="item-source">(IT之家)</span></div><div class="item-explanation">AI短剧《被裁掉的女孩》女主角&#x27;方桃子&#x27;抖音主页上的美瞳广告视频已下架。该广告声称AI虚拟人佩戴美瞳&#x27;戴了一天都很舒服&#x27;，引发网友质疑，因AI虚拟人没有真实眼睛，无法体验佩戴感受，涉嫌虚假广告。</div><ul class="analysis-points"><li>要点1：AI虚拟人广告因虚假宣传被下架，暴露AI内容合规风险。</li><li>要点2：广告主使用AI虚拟人代言需确保内容真实，避免误导消费者，否则面临法律风险。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家使用AI虚拟人推广时，需确保宣传内容真实，避免虚假广告风险。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://aihot.virxact.com/items/cmsiujxlq1u0zronkvvklblwk" target="_blank" class="item-link">Seedance 2.5接入Runway与Krea，生态开放加速</a><span class="item-source">(AI热点)</span></div><div class="item-explanation">Seedance 2.5已登陆Runway和Krea等第三方AI创作平台，支持50个角色参考与30秒视频生成，通过开放API与生态合作，字节将AI视频能力输出至全球创作者，扩大市场影响力。</div><ul class="analysis-points"><li>要点1：Seedance 2.5在Runway上支持50个角色参考，可构建复杂角色世界，并生成带音效与对白的30秒片段，能力从&#x27;单镜头&#x27;升级为&#x27;多角色叙事&#x27;。</li><li>要点2：接入第三方平台意味着字节AI视频能力被更广泛采用，广告主可通过这些平台使用Seedance，降低工具迁移成本，提升素材生产效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>广告投放团队可关注Runway等平台的Seedance集成，利用其角色参考功能制作系列化广告，保持品牌一致性。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE5fZmh4VktQam1QakoxeDMxS05SdV9oeHZUX1pORHV1d25ueE9MWUJaNTZXLTd0b3RFc2d3b2Yzd1dQVDViRTItUA?oc=5" target="_blank" class="item-link">抖音陪跑MCN，AI内容创作从扶持到方法</a><span class="item-source">(品玩)</span></div><div class="item-explanation">抖音推出MCN陪跑计划，从资源扶持转向方法陪跑，帮助MCN机构跑通AI内容创作流程，探索AI在短视频领域的商业化路径。</div><ul class="analysis-points"><li>要点1：抖音为MCN提供AI工具、培训与流量支持，从&#x27;给资源&#x27;变为&#x27;教方法&#x27;，推动AI内容规模化生产。</li><li>要点2：对广告主而言，MCN的AI内容生产能力提升，可更高效地生产种草视频，本地生活商家可合作MCN进行AI驱动的营销。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可与AI能力强的MCN合作，批量生产探店、菜品推荐等视频，降低成本。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏观点类</span></td><td class="col-category"><span class="cat-label">观点与深度</span></td><td class="col-content"><div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://www.cnbeta.com.tw/articles/tech/1571948.htm" target="_blank" class="item-link">张一鸣罕见发声：字节拒绝AI蒸馏，不牺牲长期突破换短期排名</a><span class="item-source">(cnBeta)</span></div><div class="item-explanation">字节跳动创始人张一鸣在Seed团队会议上明确表示，公司不会采用&#x27;蒸馏&#x27;技术来提升模型能力，即使这意味着短期落后，也要坚持长期技术突破。这一战略定调影响字节AI竞争节奏。</div><ul class="analysis-points"><li>张一鸣明确拒绝蒸馏，强调自主技术研发，避免依赖外部模型，确保技术自主可控。</li><li>对广告主而言，字节AI模型能力可能短期落后，但长期看技术壁垒更稳固，广告投放的AI能力将更可靠。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBORFFvRk5DenlQbmRRS2tndW8wWDh2ay12c2VON2xzaXNRVTNnU3Vfc05sakpOMTdaNld0V1oxd1NkR2hET2Z4cGxGTEdSbDdqakxQWm9PeGpWTkl6M0FBYWo5V2duV3N4OVRPNjJPYnhkbGxKdVktOWEwaHd2Qk0?oc=5" target="_blank" class="item-link">Seedance 2.5实测：从片段到叙事，AI视频进入下半场</a><span class="item-source">(手机新浪网)</span></div><div class="item-explanation">媒体实测Seedance 2.5，认为其从&#x27;片段&#x27;到&#x27;叙事&#x27;，AI视频进入下半场。模型支持30秒连续叙事，多模态参考与精准编辑，工作流整合成为竞争焦点。</div><ul class="analysis-points"><li>要点1：Seedance 2.5从单片段生成升级为叙事级创作，支持30秒连续视频。</li><li>要点2：对广告主而言，可生成完整故事化广告，提升品牌传播效果。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可用Seedance 2.5生成故事化探店视频，增强用户情感连接。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE53WWpxX3dvT0RrUVIxc3pORUVyOWZrcDdjc3pEdS1EdGtxS2RaYTJJVDdIVXEtZVYtb2VkbVlsOXRscHhvN1g1UHBBcGdnTC1Da191cVEtRUlyb3Yzckdfal8tR2tlbktRU2IwUkJn?oc=5" target="_blank" class="item-link">AI视频模型竞争进入工作流时代：Seedance 2.5与H3解析</a><span class="item-source">(中华网科技频道)</span></div><div class="item-explanation">媒体分析AI视频模型竞争进入工作流时代，Seedance 2.5与MiniMax H3等模型强调工作流整合，而非单点生成。</div><ul class="analysis-points"><li>要点1：AI视频模型从单点生成转向工作流整合，强调与业务场景结合。</li><li>要点2：对广告主而言，工作流整合可提升视频制作效率，实现批量生产。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借助工作流整合的AI工具，实现营销内容的规模化生产。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PQS01MXNFSDNhWVZjSkZCZ2NOYzF6VGlzMHN1dDNxcnFHVGhJYWNLQjRFejRPblBWZ2wtdWt6UTZDLWNXanBFYkU0MjYwb1g0VFo3UDNXcmx4bHdBMUE?oc=5" target="_blank" class="item-link">字节跳动CEO梁汝波：大模型接受短期落后</a><span class="item-source">(DoNews)</span></div><div class="item-explanation">字节跳动CEO梁汝波表示，大模型接受短期落后，强调长期技术突破。这一表态与张一鸣的&#x27;拒绝蒸馏&#x27;一致，显示字节在AI竞争中的战略定力。</div><ul class="analysis-points"><li>梁汝波明确接受短期落后，意味着字节不会为了短期排名而采用捷径，坚持自主创新。</li><li>对广告主而言，字节AI能力可能短期不领先，但长期更可靠，广告投放的AI技术将更稳定。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE56ckQ4WlJybWJ6QmlaTU5Vd0pwNXhYSGtwSTdEdjI5Nnk4Q1Z0MGZNZ0puc2xvRFNQOFBHeFZEVDhNUW1qUW9IcjlIUFB4UDVrOXV4X1A2dXI?oc=5" target="_blank" class="item-link">Seedance 2.5之后，AI视频战争换了战场</a><span class="item-source">(界面新闻)</span></div><div class="item-explanation">界面新闻分析认为，Seedance 2.5的发布标志着AI视频竞争从模型参数转向应用落地和商业化，视频生成从&#x27;能生成&#x27;走向&#x27;可交付&#x27;，行业进入新赛段。</div><ul class="analysis-points"><li>要点1：Seedance 2.5推动AI视频竞争从技术参数转向应用落地，强调可交付性。</li><li>要点2：广告主可关注AI视频在商业场景的落地，如产品演示、广告素材生成，提升营销效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可关注AI视频在广告素材生成的应用，降低制作成本。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFBSQkxiemRydFRlWHFPZk42bm1kTjRETVZuTkwzUFQtYUlqMUxCdy1rcDhadndPNXQ5WGhDZ04zWVVnVzBCc0ZUZVFmcXBNZ3BIUFAtLXZDcTc1ZE1GQ1VGalJlNDRXaEJTaXp6Q0xhOGozT3A4dk45UQ?oc=5" target="_blank" class="item-link">Seedance 2.5正式发布：视频生成从&#x27;能生成&#x27;走向&#x27;可交付&#x27;</a><span class="item-source">(新浪财经)</span></div><div class="item-explanation">新浪财经报道，Seedance 2.5正式发布，视频生成从&#x27;能生成&#x27;走向&#x27;可交付&#x27;，加速赋能实体产业，徐工、小鹏等企业官宣合作。</div><ul class="analysis-points"><li>要点1：Seedance 2.5强调可交付性，满足产业需求。</li><li>要点2：企业合作案例增多，本地生活商家可借鉴其应用模式。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可关注AI视频在广告素材生成的应用，降低制作成本。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnSHJrc2hMbHh5QVlDWF9mU3NoaksyNXBab3M4SWZHY1h6TXZMVTJNb0VzdHNmMU5HVmwzQU94Uk9YdE1lT0ZTR3c2Q2dmNFhfSkI1YVladnkyUVk?oc=5" target="_blank" class="item-link">豆包收飞书，钉钉降悟空，BAT想&#x27;锁死&#x27;AI打工人？</a><span class="item-source">(风闻)</span></div><div class="item-explanation">风闻报道，豆包收飞书，钉钉降悟空，大厂AI办公竞争加剧，旨在争夺AI工作入口，&#x27;锁死&#x27;用户。</div><ul class="analysis-points"><li>要点1：豆包收飞书，字节整合AI办公能力，争夺入口。</li><li>要点2：商家可关注AI办公工具对员工效率的提升。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pcDdUbDhnVjFMbGhFMkpDQUZpdjhXRUVfa3EtVXJjTVVFa1IwemhKYzJVdk1QV0oyaDNWak5QN0dhSUQtbGJaVWlsaW1RUGxlSzhpbQ?oc=5" target="_blank" class="item-link">Seedance 2.5风险引关注，版权与虚假内容成焦点</a><span class="item-source">(中关村在线)</span></div><div class="item-explanation">中关村在线发文讨论Seedance的风险，包括版权侵权、虚假内容生成等，提示AI视频在商业化应用中需注意合规与伦理。</div><ul class="analysis-points"><li>要点1：AI生成视频可能涉及版权问题，如使用他人形象、音乐等，需建立审核机制。</li><li>要点2：广告主使用AI生成内容时，需确保不侵犯第三方权益，避免法律风险。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家使用AI生成广告时，应使用原创素材或获得授权，避免侵权。</div></div></td></tr></tbody></table><section class="insights-section"><h3 class="insights-title">外投团队的借鉴 · 技术底座视角</h3><p class="insights-intro">字节系在视频生成、搜索、广告投放等底座能力上的升级，将重塑外投素材生产效率与投放策略，本地生活商家应关注这些技术底座变化，提前布局AI驱动的营销。</p><div class="takeaway-list"><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>Seedance 2.5单次生成30秒视频，支持多模态参考与精准编辑，从片段生成升级为叙事级创作。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>本地生活商家可借助Seedance 2.5快速生成故事化探店视频，降低内容制作成本，提升广告素材质量，用于抖音等平台投放。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>火山引擎上线豆包搜索服务，提供跨语言、多模态、多垂类联网信息查询。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>本地生活平台可集成豆包搜索，为用户提供实时商户信息、优惠活动等，提升搜索体验，增加用户粘性。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>TikTok构建Agentic AI用于广告，实现自动化投放与优化。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>本地生活商家可期待TikTok Agentic AI实现自动化广告投放，减少人工优化成本，提升投放ROI。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>Seedance 2.5将视频生成能力从单次15秒提升至30秒，并支持多模态参考与精准编辑，减少片段拼接和视觉漂移。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>本地生活商家可借助Seedance 2.5快速生成高质量短视频广告，降低素材制作成本，提升投放效率；同时可利用多模态参考，将商品图片、文案等一键转化为视频，实现规模化素材生产。</div></div></div></section></div><section class="archive-section"><h3 class="archive-title">历史归档</h3><div class="archive-tip">点击任意日期查看当天完整日报（已排版，非原始数据）</div><div class="archive-month"><h4>2026年08月</h4><div class="archive-week"><span class="week-label">08.03-08.09</span><a href="archive/2026-08-08.html" class="date-link date-link-active">08-08</a><a href="archive/2026-08-07.html" class="date-link">08-07</a><a href="archive/2026-08-06.html" class="date-link">08-06</a><a href="archive/2026-08-05.html" class="date-link">08-05</a><a href="archive/2026-08-04.html" class="date-link">08-04</a><a href="archive/2026-08-03.html" class="date-link">08-03</a></div><div class="archive-week"><span class="week-label">07.27-08.02</span><a href="archive/2026-08-02.html" class="date-link">08-02</a><a href="archive/2026-08-01.html" class="date-link">08-01</a></div></div><div class="archive-month"><h4>2026年07月</h4><div class="archive-week"><span class="week-label">07.27-08.02</span><a href="archive/2026-07-31.html" class="date-link">07-31</a><a href="archive/2026-07-30.html" class="date-link">07-30</a><a href="archive/2026-07-29.html" class="date-link">07-29</a><a href="archive/2026-07-28.html" class="date-link">07-28</a><a href="archive/2026-07-27.html" class="date-link">07-27</a></div><div class="archive-week"><span class="week-label">07.20-07.26</span><a href="archive/2026-07-26.html" class="date-link">07-26</a><a href="archive/2026-07-25.html" class="date-link">07-25</a><a href="archive/2026-07-24.html" class="date-link">07-24</a><a href="archive/2026-07-23.html" class="date-link">07-23</a><a href="archive/2026-07-22.html" class="date-link">07-22</a><a href="archive/2026-07-21.html" class="date-link">07-21</a><a href="archive/2026-07-20.html" class="date-link">07-20</a></div><div class="archive-week"><span class="week-label">07.13-07.19</span><a href="archive/2026-07-19.html" class="date-link">07-19</a><a href="archive/2026-07-18.html" class="date-link">07-18</a></div></div></section>
+</div>
+<div class="footer">
+每日自动更新 · 聚焦字节跳动全系 AI 商业化（豆包 / 火山引擎 / 扣子 Coze / 即梦 / 剪映 / 巨量引擎 / TikTok 等）<br>
+数据来源：Google News（中英）/ 36氪 / IT之家 / 爱范儿 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
+生成于 2026-08-08 08:25 UTC
+</div>
+<script>
+(function(){
+  var canvas = document.getElementById('particle-bg');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = false;
+  try {
+    reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch(e) {}
+
+  var dpr = Math.max(1, Math.min(window.devicePixelRatio || 1, 2));
+  var W = 0, H = 0, particles = [], raf = null;
+  // 浅色专业配色：靛蓝为主，少量美团黄点缀
+  var COLORS = ['99,102,241', '99,102,241', '99,102,241', '255,195,0'];
+
+  function isMobile(){ return window.innerWidth <= 768; }
+
+  function particleCount(){
+    var area = window.innerWidth * window.innerHeight;
+    var base = Math.round(area / 16000); // 密度
+    if (isMobile()) base = Math.round(base * 0.5);
+    return Math.max(28, Math.min(base, 90));
+  }
+
+  function rand(min, max){ return Math.random() * (max - min) + min; }
+
+  function makeParticle(){
+    return {
+      x: Math.random() * W,
+      y: Math.random() * H,
+      vx: rand(-0.18, 0.18),
+      vy: rand(-0.18, 0.18),
+      r: rand(1.1, 2.6),
+      c: COLORS[Math.floor(Math.random() * COLORS.length)],
+      a: rand(0.35, 0.75)
+    };
+  }
+
+  function build(){
+    W = canvas.clientWidth;
+    H = canvas.clientHeight;
+    canvas.width = Math.floor(W * dpr);
+    canvas.height = Math.floor(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = particleCount();
+    particles = [];
+    for (var i = 0; i < n; i++) particles.push(makeParticle());
+  }
+
+  var LINK_DIST = 128;
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    // 连线：邻近粒子间极淡靛蓝线，营造网络质感
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      for (var j = i + 1; j < particles.length; j++) {
+        var q = particles[j];
+        var dx = p.x - q.x, dy = p.y - q.y;
+        var d2 = dx * dx + dy * dy;
+        if (d2 < LINK_DIST * LINK_DIST) {
+          var alpha = (1 - Math.sqrt(d2) / LINK_DIST) * 0.16;
+          ctx.strokeStyle = 'rgba(99,102,241,' + alpha.toFixed(3) + ')';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(q.x, q.y);
+          ctx.stroke();
+        }
+      }
+    }
+    // 粒子点
+    for (var k = 0; k < particles.length; k++) {
+      var pt = particles[k];
+      ctx.beginPath();
+      ctx.fillStyle = 'rgba(' + pt.c + ',' + pt.a.toFixed(2) + ')';
+      ctx.arc(pt.x, pt.y, pt.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function step(){
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < -20) p.x = W + 20; else if (p.x > W + 20) p.x = -20;
+      if (p.y < -20) p.y = H + 20; else if (p.y > H + 20) p.y = -20;
+    }
+    draw();
+    raf = requestAnimationFrame(step);
+  }
+
+  var resizeTimer = null;
+  window.addEventListener('resize', function(){
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(build, 200);
+  });
+
+  build();
+  if (reduce) {
+    draw(); // 尊重减少动效偏好：只画一帧静态粒子
+  } else {
+    step();
+  }
+})();
+</script>
+<script>
+function switchView(m){
+  document.getElementById("daily-view").style.display=m==="daily"?"block":"none";
+  document.getElementById("weekly-view").style.display=m==="weekly"?"block":"none";
+  document.getElementById("btn-daily").className="tab"+(m==="daily"?" active":"");
+  document.getElementById("btn-weekly").className="tab"+(m==="weekly"?" active":"");
+}
+</script>
+
+</body>
+</html>
