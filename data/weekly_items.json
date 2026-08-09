@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-08T08:25:07.837198+00:00",
-  "week_range": "08.03-08.08",
-  "date_display": "08.03 - 08.08",
-  "editorial_summary": "本周共汇总 40 条 AI 商业要闻，其中高影响 7 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑；字节Seed发布SeedRealtime全双工大模型，豆；张一鸣罕见发声：字节拒绝AI蒸馏，不牺牲长期突破换短期排；火山引擎上线Seedance 2.5 API，视频生成开；字节被曝训练10万亿参数超大模型，对标Anthropic。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-09T05:29:54.248794+00:00",
+  "week_range": "08.03-08.09",
+  "date_display": "08.03 - 08.09",
+  "editorial_summary": "本周共汇总 50 条 AI 商业要闻，其中高影响 9 条。本周主线包括：TikTok构建广告代理式AI，Agentic AI重塑；字节Seed发布SeedRealtime全双工大模型，豆；张一鸣罕见发声：字节拒绝AI蒸馏，不牺牲长期突破换短期排；火山引擎上线Seedance 2.5 API，视频生成开；字节被曝训练10万亿参数超大模型，对标Anthropic。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节Seed发布SeedRealtime全双工大模型，豆包App全量上线",
       "火山引擎上线Seedance 2.5 API，视频生成开启电影级长叙事",
-      "字节跳动将推首款AI硬件，主打无感佩戴记录"
+      "Seedance 2.5与豆包深度打通，视频生成进入产业应用"
     ],
     "opinions": [
       "Seedance 2.5实测：从片段到叙事，AI视频进入下半场",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（23 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（30 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系在视频生成、搜索、广告投放等底座能力上的升级，将重塑外投素材生产效率与投放策略，本地生活商家应关注这些技术底座变化，提前布局AI驱动的营销。",
-  "total_items": 40,
-  "high_count": 7,
+  "total_items": 50,
+  "high_count": 9,
   "items": [
     {
       "title": "TikTok构建广告代理式AI，Agentic AI重塑投放",
@@ -146,6 +146,34 @@
       "source": "Tubefilter",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaXR6cVNHWmxJNG9uX0h4TnkyTnlQWXo2SmRoRk4xSUlENDNFV3RyY2FGSXpYQmU3cUlIWXVkSVdybkZEV0VNM0t2WHpZQnRhdndFaWo3Z1RfZ1FPdi01cGRMZEpPQ19EcVdJTnVlbFp0NXVlZVo5T1pJaUU4RlliWTBOTEhoZExzLUhrVm1rNTZSWU0?oc=5",
       "local_life_hint": "本地生活商家可借鉴TikTok Shop直播模式，在抖音开展直播带货，利用直播购物增长趋势。"
+    },
+    {
+      "title": "Seedance 2.5与豆包深度打通，视频生成进入产业应用",
+      "explanation": "Seedance 2.5与豆包深度打通，火山引擎上线API，支持电影级细腻质感。视频生成模型从'能生成'走向'可交付'，产业应用加速。",
+      "analysis_points": [
+        "要点1：Seedance 2.5与豆包打通，实现视频生成与AI助手协同，提升创作效率。",
+        "要点2：广告主可利用该能力生成高质量视频素材，用于本地生活推广。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9tWXFEak9fM3BmdW1iS0hDckxoRFg1SlBDeGRZZHlOSUdLRzJHeHNlbWl1TTRsNUk3ZjdfUmZzZWxJWVZfNTJQN21FX1RKUTVGczJhWjhlUzQ?oc=5",
+      "local_life_hint": "外投团队可结合豆包AI助手与Seedance视频生成，打造本地生活创意营销方案。"
+    },
+    {
+      "title": "Seedance 2.5发布：视频生成模型向产业生产力工具演进",
+      "explanation": "Seedance 2.5发布，支持30秒连续视频、多镜头序列，减少拼接和返工，从'能生成'走向'可交付'，成为产业生产力工具。",
+      "analysis_points": [
+        "要点1：Seedance 2.5提升视频生成质量，减少人工干预，提高生产效率。",
+        "要点2：广告主可利用该工具批量生成广告视频，降低制作成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xSFRxMGxmT1dINzVMZXlTQUtuaUh0V0ZMOXVBU0JWaFBjdnZYeGRsWGtOYWNfV0FNTlRsQm5UN05OUUo5T3NEWlVsUU5XVVNRZkhYZ3R3aVg4blNFeVFfcFZ3RlBBMjZVQzlzR3ZPMkI?oc=5",
+      "local_life_hint": "外投团队可利用Seedance 2.5批量生成本地生活场景视频，如餐厅、景点推广，提升素材产出效率。"
     },
     {
       "title": "字节跳动将推首款AI硬件，主打无感佩戴记录",
@@ -608,6 +636,118 @@
       "source": "中关村在线",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pcDdUbDhnVjFMbGhFMkpDQUZpdjhXRUVfa3EtVXJjTVVFa1IwemhKYzJVdk1QV0oyaDNWak5QN0dhSUQtbGJaVWlsaW1RUGxlSzhpbQ?oc=5",
       "local_life_hint": "本地生活商家使用AI生成广告时，应使用原创素材或获得授权，避免侵权。"
+    },
+    {
+      "title": "豆包大模型加速上车，特斯拉、别克等车企接入",
+      "explanation": "特斯拉推送系统更新引入豆包大模型，别克至境E7也搭载豆包，车载AI从'机械客服'转向'有人情味'的交互体验。豆包大模型在汽车场景的渗透加速。",
+      "analysis_points": [
+        "要点1：豆包大模型上车，提供更智能的车载交互，如语音助手、场景理解。",
+        "要点2：对广告主而言，车载场景成为新的广告触点，可探索车内本地生活服务推荐。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "集微网",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5DT1J1QkU5RXdGcXo0b3AtVUg3bWI4M3RkSlJFT194cVZ2ZkR3NlJrSTM1cU9iY05HVHhaSFN2UWJrYlk?oc=5",
+      "local_life_hint": "车载场景可能成为本地生活服务的新入口，外投团队可探索车内广告和推荐位。"
+    },
+    {
+      "title": "SuperOne与BytePlus合作，AI赋能粉丝互动平台",
+      "explanation": "SuperOne宣布与BytePlus（字节跳动企业服务品牌）达成AI合作，将AI集成到其粉丝互动平台，提升用户参与度和运营效率。",
+      "analysis_points": [
+        "要点1：BytePlus提供AI能力，帮助SuperOne实现个性化推荐、内容生成等。",
+        "要点2：对商家而言，AI粉丝互动平台可提升用户粘性，促进转化。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "markets.businessinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc0NUZWM4cno1NUhIeUEyZDZtTEF2R1hQNEN1MHJqZGk0b2tVcDdDN2ZSdzlHQktHZmZuWWZsMlZPNEtGQjhMaDVtM3NyYXl2Mzk4VVFXNVB1WG5KRVpFVmlwMDA5ZmYyQ1B5aWljNzY1U19oNW9KQlA1cUlTMkFiaUtDUTRKZERRcnI0NUM3OWlsX0s1SHM2NE5HMFZmeTk4VjlzYUMwbkN3QQ?oc=5",
+      "local_life_hint": "外投团队可借鉴BytePlus的AI能力，用于本地生活商家的粉丝运营和互动营销。"
+    },
+    {
+      "title": "字节AI战略生变：从追赶到原创，豆包定位调整",
+      "explanation": "字节AI战略发生变化，从追求短期排名转向原创研究，豆包定位调整，与抖音并列核心。张一鸣强调长期突破，接受暂时落后。",
+      "analysis_points": [
+        "要点1：字节AI战略从追赶到原创，豆包成为核心，与抖音并列。",
+        "要点2：对广告主而言，豆包战略调整可能带来更稳定的技术投入和产品迭代。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPbE05UzN4dXR5N3FwMXdJXzNBWXpWWXptQWlOVkFQU0ZkTE9vRC15TWl5TC1KQVY1ak50WnNWdXkwSmJIb3VUZ2JRNXppbHlXZ3UtMmNiSXdwWGNibW9aNUVCVzhGemFGbTY4TW93aWFYNTlqQkVhcEVaQlc0TmVRQnRkR0NLLTdlTjUyTFFnYmdJR0JadGp1NTdETE0tLWdlLU55a2JGNlY5QVNLYlpBUDNaVF9DQUNVZFppZHVfVDhhRFQwdmVINlkxaXJyOTBPemFZYnhCZWp5bEZFdHh5Mi1hN2xsYnQxdEd5WTQwUnRXZWRpOEFsX2JQM0xlWTNQRzgzRGo1ajVQR2tXNWVlSDJZUTFwN0Jfbmh4UGJn?oc=5",
+      "local_life_hint": "外投团队应关注豆包战略调整，可能带来新的广告产品和投放能力。"
+    },
+    {
+      "title": "字节跳动开全员会：承认大模型落后，坚持自研",
+      "explanation": "字节跳动开全员会复盘AI业务，承认大模型被海外竞对拉开差距，但坚持自研，不因外部压力改变。梁汝波强调长期主义。",
+      "analysis_points": [
+        "要点1：字节承认大模型落后，但坚持自研，体现战略定力。",
+        "要点2：对广告主而言，字节的长期投入将带来更可靠的技术底座。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "财新",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzNUdfWUMzbUJXeTlseFlacGFqcjE5OV9FM2FKSHVkcW94ZTBUTHU5cVdKdk5aMXF5VjBUbkhGLWlzUk91Z2JCODl4b0loWTY5SVdTcEZ6MGU0cWFsYjVoa09BcmxyNTg?oc=5",
+      "local_life_hint": "外投团队可关注字节大模型迭代，长期看豆包能力将提升，广告投放更精准。"
+    },
+    {
+      "title": "众联世纪携爆量匣亮相火山引擎Seedance闭门会",
+      "explanation": "众联世纪携爆量匣亮相火山引擎Seedance闭门会，探索AI营销创意规模化。爆量匣可能利用Seedance能力生成营销素材，提升创意效率。",
+      "analysis_points": [
+        "要点1：众联世纪与火山引擎合作，探索AI营销创意规模化。",
+        "要点2：对广告主而言，AI营销创意工具可降低素材制作成本，提升投放效果。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "中华网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxcU5qMDNNYkcwOHQ2RDNGZXp6VktHbElnb3pLSk9ycWk3X0ZDN2UtMzlqR205dWhDQXRuTkt1QXlnSFB1ZF9ualJPd2RBMVFkajFXMDhRWk5oMG4zWDdXLXhzWW5ja1ZxMkZBZg?oc=5",
+      "local_life_hint": "外投团队可关注AI营销创意工具，利用Seedance生成本地生活广告素材，提升创意效率。"
+    },
+    {
+      "title": "豆包大模型上车，别克至境E7打造'有人情味'车载AI",
+      "explanation": "别克至境E7搭载豆包大模型，车载AI不再是'机械客服'，而是能理解用户需求，提供个性化服务。豆包在汽车场景的应用深化。",
+      "analysis_points": [
+        "要点1：豆包大模型提升车载AI交互体验，从机械应答到智能理解。",
+        "要点2：对广告主而言，车载场景可能成为新的广告触点，可探索车内本地生活推荐。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "chejiahao.autohome.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXTllZR0hTc0kwdmtVcm1iV0dxbFVncWFzRTI2akI0NU04Z2MzczZod1ZxQmU5MkNjSE1nal9JNFFkOVlUR0Z6TmYtMDB4X0lRUHRlS2RrVlQ0OEE?oc=5",
+      "local_life_hint": "车载AI可能推荐本地生活服务，外投团队可探索车内广告和推荐位。"
+    },
+    {
+      "title": "字节跳动新模型发布，多维度实现全面升级",
+      "explanation": "字节跳动发布新模型，多维度升级，可能指Seedance 2.5或豆包模型更新。具体细节未明，但体现字节持续迭代AI能力。",
+      "analysis_points": [
+        "要点1：字节新模型多维度升级，提升生成质量和效率。",
+        "要点2：对广告主而言，新模型可能带来更优质的广告素材生成能力。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "北晚在线",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00MnJmdWFfZFVhSk05T1RWeE56V1BndjhnOHE1SDNlOTA5VVZ2WFRKV1FTeWFCbEFCcmVtRU9POUNDcTEwUGFFMUhZXzg4WVFZMW5ZSUlPTkJyR2UwUTJqZUZKVFA?oc=5",
+      "local_life_hint": "外投团队可关注字节新模型，用于广告素材生成和优化。"
+    },
+    {
+      "title": "Seedance 2.5依旧断档领先，与豆包深度打通",
+      "explanation": "Seedance 2.5在视频生成领域保持领先，与豆包深度打通，提供更完整的创作体验。",
+      "analysis_points": [
+        "要点1：Seedance 2.5技术领先，与豆包协同，提升创作效率。",
+        "要点2：广告主可利用该组合生成高质量视频，用于本地生活推广。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QQTRzYWJjZWdfTnRpRHJ0aG1LQkh0dktHTU8xWFRfdVBLQUtUdVpIcW5mQnBiOEdmcVRHSXYyZXliTVVTaGE0NDliR19NY0F1UUh2TDZlYkRfLTRiRkx0eGpR?oc=5",
+      "local_life_hint": "外投团队可结合Seedance 2.5和豆包，打造本地生活创意视频。"
     }
   ],
   "mode": "ai"
