@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-11T05:40:21.255533+00:00",
+  "generated_at": "2026-08-11T09:47:19.402256+00:00",
   "week_range": "08.10-08.11",
   "date_display": "08.10 - 08.11",
-  "editorial_summary": "本周共汇总 18 条 AI 商业要闻，其中高影响 2 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包酒店推荐抽佣12%，AI流量商业化第一枪。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 20 条 AI 商业要闻，其中高影响 3 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5上线一周涌现六大创意玩法，生成成本低至0.4元/秒",
@@ -17,11 +17,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（9 条），高影响条目占比约 11%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（10 条），高影响条目占比约 15%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
   ],
   "local_life_insights": [
     {
@@ -37,13 +37,13 @@
       "borrow": "外投团队使用AI生成素材时需确保标识合规，避免广告下架风险，同时可开发合规的AI素材生产流程。"
     },
     {
-      "base": "豆包App上线SeedRealtime音视频全双工大模型，交互从文本升级到多模态实时对话。",
-      "borrow": "本地生活外投团队可探索在广告素材中嵌入多模态交互，如语音互动广告，提升用户参与度，同时利用豆包的多模态能力优化客服和导购流程。"
+      "base": "豆包在酒店推荐场景开启按成交收费模式，综合费率约12%，从免费导流转向交易分佣，AI流量商业化模式确立。",
+      "borrow": "对美团商业化等外投团队，可借鉴豆包按成交收费的模式，探索AI渠道的CPS合作，降低商家前期投放风险，提升预算吸引力。"
     }
   ],
   "insights_intro": "字节系AI技术底座正从模型能力、生成成本、合规要求三方面重塑外投生态：豆包渠道收费、Seedance低成本生成、AI内容标识合规，将改变素材生产、投放策略和成本结构。",
-  "total_items": 18,
-  "high_count": 2,
+  "total_items": 20,
+  "high_count": 3,
   "items": [
     {
       "title": "Seedance 2.5上线一周涌现六大创意玩法，生成成本低至0.4元/秒",
@@ -60,18 +60,32 @@
       "local_life_hint": "本地生活商家可用Seedance 2.5快速生成创意广告视频，降低素材制作成本，提升营销效率。"
     },
     {
-      "title": "豆包酒店推荐抽佣12%，AI流量商业化第一枪",
-      "explanation": "豆包生活服务对酒店订单收取约12%的佣金，官方回应非广告费，按成交收费，商家不能影响推荐排序。这标志着AI流量从免费到收费的转变，是字节AI商业化的重要一步。",
+      "title": "豆包回应酒店推荐收费：非广告费，按成交抽佣12%",
+      "explanation": "豆包在酒店推荐场景开始对订单收取渠道服务费，综合费率约12%，引发市场关注。豆包公关回应称不收取广告费，商家不能影响推荐排序，仅按成交收费。这标志着AI流量从免费导流转向交易分佣，是AI商业化的重要一步。",
       "analysis_points": [
-        "豆包对酒店订单收取软件服务费11.4%加支付手续费0.6%，综合约12%，按成交收费，与推荐排序无关。",
-        "对本地生活商家，AI流量入口开始收费，需评估ROI，优化在豆包上的运营策略，同时关注平台规则变化。"
+        "豆包生活服务业务对酒店订单收取11.4%软件服务费及0.6%支付手续费，综合约12%，但明确非广告费，与推荐排序无关。",
+        "对本地生活商家而言，豆包作为AI入口开始变现，商家需评估获客成本与转化率，未来或需为AI流量支付佣金，类似OTA模式。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "cnBeta",
       "url": "https://www.cnbeta.com.tw/articles/tech/1572648.htm",
-      "local_life_hint": "本地生活商家应关注豆包等AI平台的商业化政策，提前布局，利用AI推荐获取新客，同时控制成本。"
+      "local_life_hint": "豆包开启酒店订单抽佣，表明AI流量商业化已启动，本地生活商家应关注AI渠道的ROI，并探索与豆包的合作模式。"
+    },
+    {
+      "title": "豆包酒店抽佣12%引发热议，AI流量商业化开启",
+      "explanation": "豆包对酒店订单收取约12%的佣金，引发市场对AI流量商业化的讨论。豆包回应称非广告费，按成交收费，商家不能影响排序。这标志着AI助手从免费导流转向交易分佣。",
+      "analysis_points": [
+        "豆包生活服务对酒店订单收取11.4%软件服务费+0.6%支付手续费，综合约12%，与OTA佣金相当。",
+        "对商家而言，AI渠道的流量成本开始显现，需评估ROI；对平台而言，AI商业化模式初步跑通。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQbHdWWDk0TXVTX19DelJSOXI5RWdzTDZCWGhnOF9UQ3lLN200amJMR2xyb3JPdjhmSGlfYmdHYlhjUktSOWZ6WDJBN1JQT3VnTERiWGQ1clI5NFlOSmhtcnNzTDc2Vl9FVFZxNEpWSTVTQmJJYkl0N0R2V3RieDg?oc=5",
+      "local_life_hint": "AI流量开始收费，本地生活商家应关注豆包等AI渠道的投放效果，调整预算分配。"
     },
     {
       "title": "百花奖设立首个AIGC评奖单元，即梦AI独家技术合作",
@@ -200,53 +214,67 @@
       "local_life_hint": "本地生活商家可考虑在TikTok Shop首发新品，利用平台流量。"
     },
     {
-      "title": "TikTok Shop吸引高客单价品牌入驻",
-      "explanation": "TikTok Shop正吸引越来越多销售高客单价商品的品牌，如奢侈品、电子产品等，平台商业化向高端化发展，GMV有望2026年破千亿美元。",
+      "title": "字节成立AI数据与安全一级部门，强化数据底座",
+      "explanation": "字节跳动近期成立新一级部门“AI数据与安全”，与Seed、Flow平行，负责人为王赢磊。该部门前身为TikTok数据团队，将负责AI数据治理与安全合规，为AI商业化提供数据底座。",
       "analysis_points": [
-        "TikTok Shop品牌结构升级，高客单价商品增多，平台GMV预计2026年超1000亿美元。",
-        "对本地生活商家，可借鉴TikTok Shop的高客单价策略，提升客单价，同时利用TikTok流量拓展高端客户。"
+        "新部门整合原有Global Data团队，规模百人左右，未来将支撑Seed模型训练及TikTok等业务的数据需求。",
+        "对广告主而言，数据安全与合规是投放的基础，字节强化数据治理有助于提升广告投放的精准性与安全性。"
       ],
-      "category": "生态动向",
+      "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Modern Retail",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc3haSnUyMk5QOFFUU2hxQm1JTHlCNVNMUWhoLXpnY0NEYm1QYWw1UWFoMHRoZVk4YWotMnJZbWtna1hueGRVSDFoQkRITWw3UndhTXl3YUtoSkthRzVxZ2d4UkNoY3lkZHhFdnNFN1VjMUNWY3BPTXlhRTE1RDYyaU8zLWlKVGlsQldoQjBNWnBnd3hzb2hVejc1a2xTOUF3VnUwczlycVBBMGJuNnlv?oc=5",
-      "local_life_hint": "本地生活商家可考虑在TikTok Shop上架高客单价套餐，利用平台流量提升品牌溢价。"
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/429.htm",
+      "local_life_hint": "数据安全部门成立，意味着字节对数据合规的重视，本地生活平台在数据合作时需关注合规风险。"
     },
     {
-      "title": "即梦AI携手艾菲奖，用Seedance 2.5打造广告大片",
-      "explanation": "即梦AI与艾菲奖合作发起行业内测，使用Seedance 2.5为英特尔、阳狮等品牌打造广告大片，AI视频生成进入专业广告制作领域。",
+      "title": "即梦AI携手艾菲奖，用Seedance 2.5为英特尔、阳狮打造广告大片",
+      "explanation": "即梦AI与艾菲奖合作发起行业内测，使用Seedance 2.5为英特尔、阳狮等品牌打造广告大片，验证AI视频生成在广告行业的应用价值。",
       "analysis_points": [
-        "即梦AI与艾菲奖合作，为品牌制作广告大片，验证了Seedance 2.5在专业广告场景的可行性。",
-        "对广告行业，AI视频生成可大幅降低制作成本和时间，本地生活商家可借助此类工具制作高质量广告素材。"
+        "即梦AI与艾菲奖合作，邀请品牌参与内测，用Seedance 2.5生成广告素材，展示AI在创意制作中的潜力。",
+        "对广告行业而言，AI视频生成可大幅降低制作成本，提升创意效率，品牌方应关注此类工具。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "medium",
       "source": "rmzxw.com.cn",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yRkktc0pOOU5VWHAyRGZiQXYyYTdGRGpoRE5YR0FkdHRiQjA5bFpXUXFPdTZMVy1jWFhxWjB1WWVaempvVnZaUEt1Uk1weHgxQUpDSU5MaTVSVXdDeWJkR0lnb1MyUmdZ?oc=5",
-      "local_life_hint": "本地生活商家可关注即梦AI的广告制作能力，用于生成创意视频，提升广告投放效果。"
+      "local_life_hint": "本地生活品牌可尝试用AI视频生成广告素材，降低营销成本。"
     },
     {
-      "title": "豆包回应酒店推荐收费：非广告费，按成交收费",
-      "explanation": "豆包公关负责人澄清，推荐酒店不收取广告费，商家不能影响推荐排序，仅在订单成交后支付渠道服务费，消除市场误解。",
+      "title": "中文在线与火山引擎达成合作，探索AI与IP内容融合",
+      "explanation": "中文在线与火山引擎达成深度业务合作，共同探索AI与IP内容的融合，火山引擎将提供AI能力，助力中文在线IP内容的智能化开发与运营。",
       "analysis_points": [
-        "豆包明确不收取广告费，按成交收费，费率约12%，与推荐排序无关。",
-        "对商家，这意味着豆包推荐是效果付费，可放心合作，但需关注费率对利润的影响。"
+        "合作将火山引擎的AI能力（如豆包大模型）应用于中文在线的IP内容创作、分发和变现。",
+        "对内容产业而言，AI可提升IP开发效率，降低创作成本，火山引擎借此拓展ToB市场。"
       ],
-      "category": "大厂动向",
+      "category": "生态动向",
       "type": "fact",
       "impact": "medium",
-      "source": "cnBeta",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1572656.htm",
-      "local_life_hint": "本地生活商家可尝试与豆包合作，按成交付费，降低广告风险。"
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kTHJMaVgxaVp5c3lWLUdncy1VU3dNQnBrRHhNQk1MNzl2UzRPMWd3NDYzeWdpampJekVhNHFobjMxTUthQ1hVZTJsUk4yb0JSbWdHaDd0WVktOHZMcVhPVg?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "字节AI战略生变：从追平到领跑",
-      "explanation": "字节AI战略从早期追平对手转向领跑，通过自研大模型、商业化落地、生态合作等多维度布局，意图在AI时代占据主导。",
+      "title": "字节加入Open Invention Network社区，强化专利保护",
+      "explanation": "字节跳动加入Open Invention Network（OIN）社区，承诺不侵犯Linux系统相关专利，此举有助于减少专利诉讼风险，促进开源生态合作。",
       "analysis_points": [
-        "字节AI战略调整，从追平转向领跑，体现在10万亿参数模型、SeedRealtime、豆包商业化等动作。",
-        "对行业，字节的激进投入可能加速AI商业化进程，本地生活商家可期待更多AI驱动的营销工具。"
+        "OIN是开源专利保护组织，字节加入后，其专利将用于保护Linux生态系统，降低法律风险。",
+        "对字节而言，加入OIN有助于其开源项目（如豆包、Seedance）的推广，吸引开发者。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "The AI Journal",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOY1lWd25iZ1dRWkVBbG81UzJ0SDgwRnVfSktBcGdsNDhWWWxxaFlxc3gxMjVkaWh4bGhaeThrVk43eF9PelE5SHpDSEZZRk92Uk5NSGdPbzBoU2JqdVQ0OXp3bHNTdFU2cFo5MFgza3lWbzMyNjc0M1hTVGo0RUl3QWRhZw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节AI战略转变：从追赶到自研，预训练超大模型",
+      "explanation": "字节AI战略被指已变，从早期追赶转向自研，张一鸣拒绝蒸馏，预训练10万亿参数模型，试图在下一代模型上实现超越，但短期或难落地。",
+      "analysis_points": [
+        "字节预训练超大模型，体现自研决心，但预训练周期长，商业化需时间。",
+        "对行业而言，字节加大投入可能加剧竞争，但短期对市场影响有限。"
       ],
       "category": "观点与深度",
       "type": "opinion",
@@ -256,45 +284,45 @@
       "local_life_hint": ""
     },
     {
-      "title": "中文在线与火山引擎合作，聚焦Seedance落地与IP开发",
-      "explanation": "中文在线与火山引擎达成深度业务合作，共同探索AI与IP内容融合，聚焦Seedance模型落地与IP开发，推动AI在内容创作领域的应用。",
+      "title": "豆包回应推荐酒店收费：不收取广告费，主要按成交收费",
+      "explanation": "豆包公关负责人回应“推荐酒店要收费”传闻，称不收取广告费，商家不能影响推荐排序，仅在订单成交后支付渠道服务费，强调公平性。",
       "analysis_points": [
-        "中文在线与火山引擎合作，利用Seedance模型进行IP内容开发，探索AI与文学、影视等IP的融合。",
-        "对内容产业，AI视频生成可加速IP可视化，本地生活商家可借鉴IP营销，利用AI生成品牌故事。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kTHJMaVgxaVp5c3lWLUdncy1VU3dNQnBrRHhNQk1MNzl2UzRPMWd3NDYzeWdpampJekVhNHFobjMxTUthQ1hVZTJsUk4yb0JSbWdHaDd0WVktOHZMcVhPVg?oc=5",
-      "local_life_hint": "本地生活商家可与内容平台合作，利用AI生成品牌IP内容，提升品牌影响力。"
-    },
-    {
-      "title": "字节跳动Seed团队动态：多模态模型与商业化并进",
-      "explanation": "字节跳动Seed团队近期动作频繁，推出SeedRealtime、Seedance 2.5等模型，并推动在豆包、即梦等产品落地，商业化进程加速。",
-      "analysis_points": [
-        "Seed团队推出多模态模型SeedRealtime和视频模型Seedance 2.5，并快速产品化。",
-        "对行业，字节Seed团队的技术输出将影响AI应用生态，本地生活商家可关注其产品更新。"
+        "豆包明确不卖广告位，推荐排序不受付费影响，仅按成交抽佣，类似OTA模式。",
+        "对商家而言，豆包渠道的流量质量可能较高，但需支付佣金，需评估ROI。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "ByteDance Seed",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFdy1JcXEyeGFMaTh2V1JhRURGb2J0S0lqcUlDcFJkeFZxVl8tRlpVVFZydzBYbzFfdHFNMHhTLWNFU0FQQnc0bXpfY2hXc1g4MWRRcA?oc=5",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1572656.htm",
+      "local_life_hint": "豆包模式或成AI流量商业化范本，本地生活平台可借鉴其按成交收费的模式。"
+    },
+    {
+      "title": "字节Coze CLI被吐槽像病毒，安装技能劫持Codex或Claude Code工作流",
+      "explanation": "字节跳动Coze CLI（扣子）被开发者吐槽安装过程像病毒，且其安装技能可能劫持Codex或Claude Code的工作流，引发对AI工具安全性的担忧。",
+      "analysis_points": [
+        "Coze CLI在安装时可能修改环境变量或注入脚本，被误认为恶意软件，影响开发者信任。",
+        "对开发者而言，使用AI工具时需注意安全，字节需优化安装流程，提升体验。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "蓝点网",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lRDlXZ0tJSHY5ZFlIazZaajFjNE9wYXIzemZZV0M4c1ZSaHVaeG1qanZhSDBFTkpUUnY0elI1dEpUTXBRaV81Zk05YVRwNzN5ZzNsc1JDZVU?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "字节跳动Coze CLI被吐槽像病毒，安装体验待优化",
-      "explanation": "字节跳动Coze CLI被用户吐槽像病毒安装，可能劫持Codex或Claude Code工作流，引发对AI工具安全性的关注。",
+      "title": "字节跳动Seedance 2.5上线后，LibTV帮创作者学会新模型",
+      "explanation": "Seedance 2.5上线后，LibTV平台帮助创作者学习使用新模型，提供教程和工具，加速AI视频生成在创作者中的普及。",
       "analysis_points": [
-        "Coze CLI安装过程被质疑，可能影响开发者信任。",
-        "对开发者，工具安全性至关重要，字节需优化安装体验，避免影响生态。"
+        "LibTV提供Seedance 2.5的教程和模板，帮助创作者快速上手。",
+        "对创作者而言，学习新模型可提升内容质量，但需投入时间。"
       ],
       "category": "生态动向",
-      "type": "opinion",
+      "type": "fact",
       "impact": "low",
-      "source": "蓝点网",
-      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9yR1JjX1BEdklMc1NmaEJLNFpDbmxkZWFrX3FPNzJBbkNqcFJxeFliek12WV9qQTdwQkdJ?oc=5",
+      "source": "geekpark.net",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBrZTFvSERRcjNIU1h0dEVYX1pQdnZJWEpnMGNrM2hFMkVXMjAxYTAyM1RnY1h3S01RQi1FMURDa1MtdHVZb0w0enhhalE?oc=5",
       "local_life_hint": ""
     }
   ],
