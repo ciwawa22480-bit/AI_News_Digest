@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-08-11T09:47:19.402256+00:00",
-  "week_range": "08.10-08.11",
-  "date_display": "08.10 - 08.11",
-  "editorial_summary": "本周共汇总 20 条 AI 商业要闻，其中高影响 3 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-12T06:09:13.586866+00:00",
+  "week_range": "08.10-08.12",
+  "date_display": "08.10 - 08.12",
+  "editorial_summary": "本周共汇总 25 条 AI 商业要闻，其中高影响 4 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启；美国政府设备解禁TikTok，字节重组获认可。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5上线一周涌现六大创意玩法，生成成本低至0.4元/秒",
       "火山引擎发布汽车AI新方案，豆包大模型装车超700万辆",
       "阿里、字节、MiniMax扎堆卷语音，语音模型之战选优选强？"
     ],
-    "opinions": [],
+    "opinions": [
+      "决战视频AI：字节快手玩生态，独立厂商拼差异"
+    ],
     "ecosystem": [
       "百花奖设立首个AIGC评奖单元，即梦AI独家技术合作",
       "字节Seedance爆火背后，藏着一只50亿美元的独角兽",
@@ -17,11 +19,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（10 条），高影响条目占比约 15%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（12 条），高影响条目占比约 16%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
   ],
   "local_life_insights": [
     {
@@ -42,8 +44,8 @@
     }
   ],
   "insights_intro": "字节系AI技术底座正从模型能力、生成成本、合规要求三方面重塑外投生态：豆包渠道收费、Seedance低成本生成、AI内容标识合规，将改变素材生产、投放策略和成本结构。",
-  "total_items": 20,
-  "high_count": 3,
+  "total_items": 25,
+  "high_count": 4,
   "items": [
     {
       "title": "Seedance 2.5上线一周涌现六大创意玩法，生成成本低至0.4元/秒",
@@ -86,6 +88,20 @@
       "source": "新浪网",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQbHdWWDk0TXVTX19DelJSOXI5RWdzTDZCWGhnOF9UQ3lLN200amJMR2xyb3JPdjhmSGlfYmdHYlhjUktSOWZ6WDJBN1JQT3VnTERiWGQ1clI5NFlOSmhtcnNzTDc2Vl9FVFZxNEpWSTVTQmJJYkl0N0R2V3RieDg?oc=5",
       "local_life_hint": "AI流量开始收费，本地生活商家应关注豆包等AI渠道的投放效果，调整预算分配。"
+    },
+    {
+      "title": "美国政府设备解禁TikTok，字节重组获认可",
+      "explanation": "特朗普政府解除联邦设备使用TikTok的禁令，因TikTok美国业务重组后不再构成安全威胁，标志字节合规化取得进展，商业化空间进一步打开。",
+      "analysis_points": [
+        "要点1：TikTok美国业务重组为新实体TikTok USDS Joint Venture，引入甲骨文等投资者，字节保留少数股权，满足监管要求。",
+        "要点2：解禁后TikTok可进入政府相关广告市场，扩大用户基础，为广告主提供更多触达渠道。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/634.htm",
+      "local_life_hint": "TikTok解禁后，本地生活商家可考虑在TikTok投放政府相关场景广告，扩大品牌影响力。"
     },
     {
       "title": "百花奖设立首个AIGC评奖单元，即梦AI独家技术合作",
@@ -323,6 +339,62 @@
       "impact": "low",
       "source": "geekpark.net",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBrZTFvSERRcjNIU1h0dEVYX1pQdnZJWEpnMGNrM2hFMkVXMjAxYTAyM1RnY1h3S01RQi1FMURDa1MtdHVZb0w0enhhalE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5上线Runway，支持50角色参考与音乐同步",
+      "explanation": "Seedance 2.5在Runway上线，支持50个独特角色参考和最长30秒音乐同步片段，提升视频生成的角色一致性和叙事能力，为广告素材制作提供更强工具。",
+      "analysis_points": [
+        "要点1：Seedance 2.5从单一视频生成升级为支持多角色参考和音乐同步，可生成更复杂、更专业的视频内容。",
+        "要点2：广告主可利用该功能制作多角色广告片，实现品牌故事化表达，降低视频制作成本。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "AI热点",
+      "url": "https://aihot.virxact.com/items/cmsp1lufu03a9rortoc0ci36q",
+      "local_life_hint": "本地生活商家可借助Seedance 2.5生成多角色探店视频，增强内容吸引力。"
+    },
+    {
+      "title": "豆包接入Seedance 2.5，AI视频创作门槛再降",
+      "explanation": "豆包接入Seedance 2.5，用户可直接在豆包内生成视频，结合对话交互，降低视频创作门槛，推动AI视频普及。",
+      "analysis_points": [
+        "要点1：豆包从文本助手升级为多模态创作平台，集成视频生成能力，用户可通过对话生成视频。",
+        "要点2：对商家而言，可快速生成营销视频，提升内容生产效率，尤其在本地生活场景中制作探店、活动宣传。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vWmh2ZTNwSk1YS1pZbHB1LThKekNsZFdIXzN0MXRSYjlQbzVReFRVNUNYcHdxSlhYMmpycV9ObWpmRGZYLUZRVUNxbzAzZ1hfMlVrTW1B?oc=5",
+      "local_life_hint": "本地生活商家可利用豆包快速生成视频素材，降低内容制作成本。"
+    },
+    {
+      "title": "TikTok Shop吸引高客单价品牌，电商生态升级",
+      "explanation": "TikTok Shop正吸引越来越多销售高客单价商品的品牌入驻，平台从低价爆款向品质电商转型，提升客单价和品牌调性。",
+      "analysis_points": [
+        "要点1：TikTok Shop的品类结构从低价商品向高客单价扩展，吸引品牌方入驻，提升平台价值。",
+        "要点2：对本地生活商家而言，可借助TikTok Shop拓展高端服务或产品，利用内容电商提升品牌溢价。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "modernretail.co",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc3haSnUyMk5QOFFUU2hxQm1JTHlCNVNMUWhoLXpnY0NEYm1QYWw1UWFoMHRoZVk4YWotMnJZbWtna1hueGRVSDFoQkRITWw3UndhTXl3YUtoSkthRzVxZ2d4UkNoY3lkZHhFdnNFN1VjMUNWY3BPTXlhETE1RDYyaU8zLWlKVGlsQldoQjBNWnBnd3hzb2hVejc1a2xTOUF3VnUwczlycVBBMGJuNnlv?oc=5",
+      "local_life_hint": "本地生活商家可考虑在TikTok Shop销售高客单价服务套餐，结合内容营销提升转化。"
+    },
+    {
+      "title": "决战视频AI：字节快手玩生态，独立厂商拼差异",
+      "explanation": "蓝鲸财经分析视频AI竞争格局，字节和快手通过生态整合取胜，独立厂商则靠差异化功能突围，行业进入生态竞争阶段。",
+      "analysis_points": [
+        "要点1：字节通过Seedance 2.5接入Runway等平台，构建开放生态，快手则依托自家平台，独立厂商需聚焦垂直场景。",
+        "要点2：对广告主而言，选择生态型平台可获得更全面的工具和服务，降低集成成本。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "蓝鲸财经",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVOUV1LUdtbXdJT3FSRWZsSVE0OHF2cjNlTTQwU2E0ODFjLVZyWG5qN29hU2R6YWl3dmZkMGtrLW5uVWE2UlFsdkJfUjJUU2thNHlHdU5Zd09sbnM?oc=5",
       "local_life_hint": ""
     }
   ],
