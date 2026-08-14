@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T10:38:04.658678+00:00",
-  "week_range": "08.10-08.13",
-  "date_display": "08.10 - 08.13",
-  "editorial_summary": "本周共汇总 34 条 AI 商业要闻，其中高影响 7 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启；Seedance 2.5在Runway上线，支持50角色；Seedance 2.5单次直出30秒，终结AI视频时长。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-14T06:08:15.225648+00:00",
+  "week_range": "08.10-08.14",
+  "date_display": "08.10 - 08.14",
+  "editorial_summary": "本周共汇总 40 条 AI 商业要闻，其中高影响 7 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启；Seedance 2.5在Runway上线，支持50角色；Seedance 2.5单次直出30秒，终结AI视频时长。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5上线一周涌现六大创意玩法，生成成本低至0.4元/秒",
@@ -19,7 +19,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（20 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（23 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -44,7 +44,7 @@
     }
   ],
   "insights_intro": "字节系AI技术底座正从模型能力、生成成本、合规要求三方面重塑外投生态：豆包渠道收费、Seedance低成本生成、AI内容标识合规，将改变素材生产、投放策略和成本结构。",
-  "total_items": 34,
+  "total_items": 40,
   "high_count": 7,
   "items": [
     {
@@ -521,6 +521,90 @@
       "impact": "medium",
       "source": "新华网",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GYmpsNTNoOHBnODlxSVF3R1gyMWJUNTVxcmV5MEFqekE3ZFpUNWlLN2tRblVCdTJfMVZhSGI4dEVUSHFkaWhJX2xNSTBRcFJDcnk4VmFLQ3QtQ1pfUFJsUTlQN0lwejRtWHdCX0pLS1VibDVFdzdlTXo4RmQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包输入法iOS版1.5.0新增账号登录，词库云端同步",
+      "explanation": "豆包输入法iOS版更新，新增账号登录与词库云端同步，提升跨设备体验，语音输入采用豆包同款语音大模型，强化AI能力。",
+      "analysis_points": [
+        "豆包输入法从工具型产品向账号体系演进，数据云端化增强用户粘性。",
+        "对广告主而言，输入法作为高频入口，未来可能成为广告投放新场景。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/989/648.htm",
+      "local_life_hint": ""
+    },
+    {
+      "title": "荣耀与抖音成立基础体验联合实验室，深化AI创新合作",
+      "explanation": "荣耀与抖音成立联合实验室，围绕智慧互联与AI创新合作，此前抖音已接入荣耀MagicOS任意门，此次合作将深化AI场景落地。",
+      "analysis_points": [
+        "荣耀与抖音从系统级合作升级为联合实验室，AI能力与手机生态深度融合。",
+        "对广告主而言，手机厂商与内容平台合作可能带来新的AI交互广告形式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/989/613.htm",
+      "local_life_hint": ""
+    },
+    {
+      "title": "剪映前高管创业公司估值30亿美金，被传赴港IPO",
+      "explanation": "剪映前高管创业公司三年估值达30亿美金，被传赴港IPO，显示字节系人才溢出效应，AI视频工具赛道资本活跃。",
+      "analysis_points": [
+        "字节系创业者获得资本青睐，AI视频工具成为投资热点。",
+        "对行业而言，人才流动加速AI视频工具创新，竞争加剧。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORkhEU0tMaUNhNnl3V29TbmZUMUJlNTVobVJsbWdFLVhSdW1JS2drcDZXZzRucWMyWkh3UWU4RERVdXlyTzFnVkRnZVFwUHFPRkNtRFVJWm5aNC1rclc5R3J2LXJkNm1pSWxwam9odjJQR1dkY2x0cnR2NDB1VkRLWUdnMzBCT29mc3NoNQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "剪映员工离职创业已出现人传人现象",
+      "explanation": "剪映员工离职创业成为趋势，多家AI视频工具公司由前剪映员工创立，显示字节系人才在AI视频领域的溢出效应。",
+      "analysis_points": [
+        "剪映成为AI视频创业的黄埔军校，人才外流加速行业创新。",
+        "对字节而言，需警惕人才流失，但生态繁荣也反哺其平台。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "凤凰网科技",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5zZERuNXlmb0Z4NDdJSXlWM0ttWGJENmt0QklBNkhHR08tV056WlFUTmY5QkNiZGtPR29oNk9aeXRzdDBmOXFzek40LUo?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5实测：从片段到叙事，AI视频进入Harness时代",
+      "explanation": "Seedance 2.5被实测为从片段到叙事的突破，支持长叙事与专业工具链，AI视频进入Harness时代，提升创作效率。",
+      "analysis_points": [
+        "Seedance 2.5从短片段生成升级为长叙事能力，支持电影级制作。",
+        "对广告主而言，AI视频生成成本降低，可快速产出高质量广告素材。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "爱范儿",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9tdElnUWwxSDdHSVB5eEpfY3B6Sm5qbDhmcHBqMXZvSkx3clhWWHFudlV1bG9HdmJFLW5EVEJXX3VjN0U?oc=5",
+      "local_life_hint": "AI视频生成可大幅降低本地生活广告素材制作成本，提升投放效率。"
+    },
+    {
+      "title": "字节AI三年集权史，张一鸣挥刀重组",
+      "explanation": "字节AI业务经历三年集权，张一鸣重组AI部门，强化统一管理，推动自研大模型战略。",
+      "analysis_points": [
+        "字节AI从分散走向集权，张一鸣亲自操刀重组。",
+        "对行业而言，字节AI战略调整影响竞争格局。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "qq.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hTkJwVVdfVEFmUUFqUnEtQWZQRHpwY1NOcVRVR1VJckdzSVJqWlBON200YXB5RjRwWEdZVnB6Tm1DdUdDUEhMVnV5bGE0T0E1UFR5WXJR?oc=5",
       "local_life_hint": ""
     }
   ],
