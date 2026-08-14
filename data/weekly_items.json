@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T06:08:15.225648+00:00",
+  "generated_at": "2026-08-14T09:48:42.115408+00:00",
   "week_range": "08.10-08.14",
   "date_display": "08.10 - 08.14",
-  "editorial_summary": "本周共汇总 40 条 AI 商业要闻，其中高影响 7 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启；Seedance 2.5在Runway上线，支持50角色；Seedance 2.5单次直出30秒，终结AI视频时长。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 42 条 AI 商业要闻，其中高影响 7 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启；Seedance 2.5在Runway上线，支持50角色；Seedance 2.5单次直出30秒，终结AI视频时长。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5上线一周涌现六大创意玩法，生成成本低至0.4元/秒",
@@ -10,7 +10,8 @@
       "Seedance 2.5 API上线火山引擎，支持30秒视频直出"
     ],
     "opinions": [
-      "阿里、字节、MiniMax扎堆卷语音，语音模型之战选优选强？"
+      "阿里、字节、MiniMax扎堆卷语音，语音模型之战选优选强？",
+      "Seedance 2.5 vs Kling 3.0：AI视频工作流对比"
     ],
     "ecosystem": [
       "百花奖设立首个AIGC评奖单元，即梦AI独家技术合作",
@@ -19,7 +20,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（23 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（24 条），高影响条目占比约 17%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -44,7 +45,7 @@
     }
   ],
   "insights_intro": "字节系AI技术底座正从模型能力、生成成本、合规要求三方面重塑外投生态：豆包渠道收费、Seedance低成本生成、AI内容标识合规，将改变素材生产、投放策略和成本结构。",
-  "total_items": 40,
+  "total_items": 42,
   "high_count": 7,
   "items": [
     {
@@ -524,88 +525,116 @@
       "local_life_hint": ""
     },
     {
-      "title": "豆包输入法iOS版1.5.0新增账号登录，词库云端同步",
-      "explanation": "豆包输入法iOS版更新，新增账号登录与词库云端同步，提升跨设备体验，语音输入采用豆包同款语音大模型，强化AI能力。",
+      "title": "Seedance 2.5持续渗透影视行业，电影频道、上海电影采用",
+      "explanation": "Seedance 2.5被电影频道、上海电影等专业机构采用，用于电影级长叙事，显示其在影视制作中的专业价值。",
       "analysis_points": [
-        "豆包输入法从工具型产品向账号体系演进，数据云端化增强用户粘性。",
-        "对广告主而言，输入法作为高频入口，未来可能成为广告投放新场景。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/989/648.htm",
-      "local_life_hint": ""
-    },
-    {
-      "title": "荣耀与抖音成立基础体验联合实验室，深化AI创新合作",
-      "explanation": "荣耀与抖音成立联合实验室，围绕智慧互联与AI创新合作，此前抖音已接入荣耀MagicOS任意门，此次合作将深化AI场景落地。",
-      "analysis_points": [
-        "荣耀与抖音从系统级合作升级为联合实验室，AI能力与手机生态深度融合。",
-        "对广告主而言，手机厂商与内容平台合作可能带来新的AI交互广告形式。"
+        "Seedance 2.5提供多款专业工具，支持长叙事和电影级画质，提升影视制作效率。",
+        "对本地生活商家，AI视频生成可用于广告素材制作，降低成本，提升创意。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/0/989/613.htm",
-      "local_life_hint": ""
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1sRDhuQ1B3YlJvODdqVGllaU9IeFk1aThlUlZGbDQ1ZWMteTh1YUNtaGZibUUwYkVlLXJPU3dyMlBHZnhVSm5pTw?oc=5",
+      "local_life_hint": "本地生活商家可利用Seedance 2.5生成高质量广告视频，降低制作成本，提升营销效果。"
     },
     {
       "title": "剪映前高管创业公司估值30亿美金，被传赴港IPO",
-      "explanation": "剪映前高管创业公司三年估值达30亿美金，被传赴港IPO，显示字节系人才溢出效应，AI视频工具赛道资本活跃。",
+      "explanation": "剪映前高管创立的AI公司三年估值达30亿美金，被传赴港IPO，显示字节系人才创业热潮和AI赛道资本热度。",
       "analysis_points": [
-        "字节系创业者获得资本青睐，AI视频工具成为投资热点。",
-        "对行业而言，人才流动加速AI视频工具创新，竞争加剧。"
+        "该公司聚焦AI视频或图像领域，依托字节系经验快速成长。",
+        "对本地生活商家，AI创业公司可能提供创新工具，但需关注其商业化成熟度。"
       ],
       "category": "初创动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Sohu",
+      "source": "搜狐",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORkhEU0tMaUNhNnl3V29TbmZUMUJlNTVobVJsbWdFLVhSdW1JS2drcDZXZzRucWMyWkh3UWU4RERVdXlyTzFnVkRnZVFwUHFPRkNtRFVJWm5aNC1rclc5R3J2LXJkNm1pSWxwam9odjJQR1dkY2x0cnR2NDB1VkRLWUdnMzBCT29mc3NoNQ?oc=5",
-      "local_life_hint": ""
+      "local_life_hint": "字节系创业公司可能带来AI营销工具，本地生活商家可关注其产品。"
     },
     {
-      "title": "剪映员工离职创业已出现人传人现象",
-      "explanation": "剪映员工离职创业成为趋势，多家AI视频工具公司由前剪映员工创立，显示字节系人才在AI视频领域的溢出效应。",
+      "title": "LibTV低价甩卖Seedance 2.5，从业者担忧生态受损",
+      "explanation": "LibTV以1折价格甩卖Seedance 2.5，引发从业者对低价竞争和生态健康的担忧，显示AI视频工具市场竞争激烈。",
       "analysis_points": [
-        "剪映成为AI视频创业的黄埔军校，人才外流加速行业创新。",
-        "对字节而言，需警惕人才流失，但生态繁荣也反哺其平台。"
+        "LibTV通过补贴吸引用户，但低价可能损害创作者利益和行业生态。",
+        "对本地生活商家，低价AI视频工具可降低素材成本，但需注意质量和服务。"
       ],
       "category": "初创动向",
-      "type": "fact",
+      "type": "opinion",
       "impact": "low",
-      "source": "凤凰网科技",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5zZERuNXlmb0Z4NDdJSXlWM0ttWGJENmt0QklBNkhHR08tV056WlFUTmY5QkNiZGtPR29oNk9aeXRzdDBmOXFzek40LUo?oc=5",
-      "local_life_hint": ""
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBIUkIxczIyNHowTl9hVGNKTHVKWFJxNTdYQ2llakdfM3NsNWJ2UmlwNGhkNGhEQWhKcGxDbjVYaVJsMmQ3cXNOd3BrNHFKc1V5LVU0?oc=5",
+      "local_life_hint": "低价AI视频工具可降低本地生活商家的广告素材成本，但需评估稳定性和效果。"
     },
     {
-      "title": "Seedance 2.5实测：从片段到叙事，AI视频进入Harness时代",
-      "explanation": "Seedance 2.5被实测为从片段到叙事的突破，支持长叙事与专业工具链，AI视频进入Harness时代，提升创作效率。",
+      "title": "字节将推首款AI硬件，主打无感佩戴记录",
+      "explanation": "字节跳动将推出首款AI硬件，主打无感佩戴记录，效仿科大讯飞，布局AI硬件入口，拓展AI应用场景。",
       "analysis_points": [
-        "Seedance 2.5从短片段生成升级为长叙事能力，支持电影级制作。",
-        "对广告主而言，AI视频生成成本降低，可快速产出高质量广告素材。"
+        "该硬件可能集成豆包AI能力，提供语音交互和记录功能。",
+        "对本地生活商家，AI硬件可能成为新的交互入口，但初期市场教育成本高。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "电玩巴士",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9hekdNbm1XNzllOVd6cXUxZC1rOG5ZdEliRUVMb1hKamp4YlBYd05HdzNxVUczVVRyRkFESk4wUEgwc1J3QWI1Q3dCM2Q4OGxJcXBwQmQ5RHQxWklhNGc?oc=5",
+      "local_life_hint": "AI硬件可能为本地生活场景提供新交互方式，如语音点餐、导航等。"
+    },
+    {
+      "title": "即梦AI与LibTV对比：Seedream 5.0 Lite与免费生图功能",
+      "explanation": "驱动之家对比即梦AI和LibTV，Seedream 5.0 Lite提供免费AI生图功能，显示字节系AI工具竞争。",
+      "analysis_points": [
+        "Seedream 5.0 Lite免费开放，降低用户使用门槛。",
+        "对本地生活商家，免费AI生图工具可降低设计成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9kdl94aW1ZeWJrWHRzRlp0amNrVFFweEpuajVyQlBJdi1xalV2UTRPMjhPeHc2ZEZwSm4tWWFSSF9fanl1R0NsMHJJUl85NDU4UVByRkxRQkw?oc=5",
+      "local_life_hint": "免费AI生图工具可帮助本地生活商家快速制作营销素材。"
+    },
+    {
+      "title": "字节AI三年集权史，张一鸣挥刀重组",
+      "explanation": "腾讯新闻文章梳理字节AI三年集权史，张一鸣重组AI业务，集中资源，显示字节对AI的重视和战略调整。",
+      "analysis_points": [
+        "字节将AI业务集中管理，提升决策效率。",
+        "对本地生活商家，字节AI战略调整可能带来更稳定的产品和服务。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
-      "source": "爱范儿",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9tdElnUWwxSDdHSVB5eEpfY3B6Sm5qbDhmcHBqMXZvSkx3clhWWHFudlV1bG9HdmJFLW5EVEJXX3VjN0U?oc=5",
-      "local_life_hint": "AI视频生成可大幅降低本地生活广告素材制作成本，提升投放效率。"
+      "source": "腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hTkJwVVdfVEFmUUFqUnEtQWZQRHpwY1NOcVRVR1VJckdzSVJqWlBON200YXB5RjRwWEdZVnB6Tm1DdUdDUEhMVnV5bGE0T0E1UFR5WXJR?oc=5",
+      "local_life_hint": "字节AI重组可能带来更聚焦的产品，本地生活商家可关注豆包等产品迭代。"
     },
     {
-      "title": "字节AI三年集权史，张一鸣挥刀重组",
-      "explanation": "字节AI业务经历三年集权，张一鸣重组AI部门，强化统一管理，推动自研大模型战略。",
+      "title": "一汽-大众ID. AURA T6接入豆包大模型，开启盲订",
+      "explanation": "一汽-大众纯电车型ID. AURA T6接入豆包大模型，开启盲订，显示豆包大模型在汽车领域的扩展。",
       "analysis_points": [
-        "字节AI从分散走向集权，张一鸣亲自操刀重组。",
-        "对行业而言，字节AI战略调整影响竞争格局。"
+        "豆包大模型为汽车提供智能交互，提升驾驶体验。",
+        "对本地生活商家，车载AI可能成为新流量入口，如语音推荐周边服务。"
       ],
       "category": "大厂动向",
-      "type": "opinion",
+      "type": "fact",
       "impact": "medium",
-      "source": "qq.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hTkJwVVdfVEFmUUFqUnEtQWZQRHpwY1NOcVRVR1VJckdzSVJqWlBON200YXB5RjRwWEdZVnB6Tm1DdUdDUEhMVnV5bGE0T0E1UFR5WXJR?oc=5",
-      "local_life_hint": ""
+      "source": "观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FbWZwRzhwNFJKbzllalVjQjVfRkt0RDJacWw5UkRrZzY4bW1fMER2NzcxUnFSU1dIU2FyYzBaUV9qUTJQNElIOGpGNjUzZkhOenBNVTdfV0pXeG1YRDloM3lR?oc=5",
+      "local_life_hint": "车载AI可推荐周边本地生活服务，商家可探索与车企合作。"
+    },
+    {
+      "title": "Seedance 2.5 vs Kling 3.0：AI视频工作流对比",
+      "explanation": "文章对比Seedance 2.5与Kling 3.0，分析两者在技术团队中的适用性，显示AI视频工具竞争。",
+      "analysis_points": [
+        "Seedance 2.5在长视频和一致性上占优，Kling 3.0在特定场景有优势。",
+        "对本地生活商家，选择合适工具可优化广告制作。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "findarticles.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPajFuWS1XWV9LU0Rud0pIRWN2WlJDVVRCWnFfTm5JWjl2OFd3ZUgyZVp6dmNNVGhuZzYwUDVKSVBFZTdlTkpIa0FJUjVGVnJyd3RyUDBua3dBbUxZRE1uOXNfQ3NaQ3FxZXU4elp0aTFBYXNvRTZ0TGMxYzVSZnJhT3V4UGZRcWhSQUhrOFRpTVhJenJ6Q0JnQ05PU0FXSmZWbk9VYtIBrAFBVV95cUxPUjZWLWhWcm1paDhPSFlTeDd3YkZreF80VnlneVRiS3Rqcm1kd2o1OW1LN3lFLVNvS3VpLXhNbHVYLXBNbGVkUXpVcUplclNhY2JJdEZVMWFjYkVOVUhfcTRYcENLdUdSbFVPSFFWaGhta2V0VEdZa19iVFRIRndnZXQ0SFF1YWJnUDNfa0JnQkMtNS1weUhWc1BDMnppemZGQ0wwQkYzeFBSd0JN?oc=5",
+      "local_life_hint": "本地生活商家可根据需求选择AI视频工具，提升广告效果。"
     }
   ],
   "mode": "ai"
