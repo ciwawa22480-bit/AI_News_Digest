@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T03:28:52.220181+00:00",
+  "generated_at": "2026-08-15T07:50:32.772021+00:00",
   "week_range": "08.10-08.15",
   "date_display": "08.10 - 08.15",
   "editorial_summary": "本周共汇总 51 条 AI 商业要闻，其中高影响 7 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启；Seedance 2.5在Runway上线，支持50角色；Seedance 2.5单次直出30秒，终结AI视频时长。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
@@ -12,7 +12,7 @@
     "opinions": [
       "阿里、字节、MiniMax扎堆卷语音，语音模型之战选优选强？",
       "Seedance 2.5 vs Kling 3.0：AI视频工作流对比",
-      "字节高调转ToB，但回避ToB主舞台？"
+      "Seedance 2.5之后，AI视频进入Harness时代"
     ],
     "ecosystem": [
       "百花奖设立首个AIGC评奖单元，即梦AI独家技术合作",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（29 条），高影响条目占比约 14%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（28 条），高影响条目占比约 14%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -638,130 +638,130 @@
       "local_life_hint": "本地生活商家可根据需求选择AI视频工具，提升广告效果。"
     },
     {
-      "title": "TikTok推出长视频AI视频广告，拓展品牌创意空间",
-      "explanation": "TikTok推出长视频AI视频广告，支持更长的叙事，为品牌提供更丰富的创意表达，同时利用AI降低制作成本，提升广告效果。",
+      "title": "TikTok推出长格式AI视频广告，赋能品牌叙事",
+      "explanation": "TikTok推出长格式AI视频广告，支持更长的叙事性内容，为品牌提供更丰富的创意表达空间，提升广告效果。",
       "analysis_points": [
-        "TikTok广告从短视频向长视频扩展，AI生成内容使广告制作更高效，叙事更完整。",
-        "广告主可利用AI生成的长视频广告进行品牌故事讲述，提升用户参与度和转化率。"
+        "TikTok广告从短平快转向长叙事，AI生成视频能力增强。",
+        "品牌可利用AI视频广告讲述更完整的故事，提升用户情感连接。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "MediaPost",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcGt1RWlFVXprQnJSWEl4UGtTU0hfS2h6OGczQ0VrM3Vzamp5TlJ3bnh5QTdhSWtyVGpPbXZfMjdONDFtMXlqSUZhY1VOTHNiODkzVlBYT0s1M2N4MXUzQXBoVEVXOXhHRml2Nm5ncDBOWjhzeFNXYXlXcW9JbEo5MnVycVRKVU1wYVRmZlNMTmFWcUdSRlNzWWVTd2ZidWpOaFE?oc=5",
-      "local_life_hint": "本地生活广告主可尝试用AI生成的长视频广告展示服务场景，提升品牌吸引力。"
+      "local_life_hint": "本地生活商家可尝试用AI生成更长叙事广告，提升品牌调性。"
     },
     {
-      "title": "CapCut Design Studio升级，接入Seedream 5.0 Pro",
-      "explanation": "剪映CapCut Design Studio推出新技能生态和Seedream 5.0 Pro模型，让专业级AI设计能力普及化，降低设计门槛，吸引更多创作者。",
+      "title": "剪映系创业者批量出走，AI视频创业生态兴起",
+      "explanation": "剪映员工离职创业已成'人传人'现象，形成'剪映系'创业群体，围绕AI视频工具链探索新商业模式。",
       "analysis_points": [
-        "CapCut从视频剪辑扩展到设计领域，Seedream 5.0 Pro提供高质量图像生成，提升设计效率。",
-        "对广告营销，AI设计工具可快速生成素材，降低制作成本，提升创意迭代速度。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "The Manila Times",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNWUhVdDMtOEJLLVdRZGRjYTJiNzNoenpZcUUtOVRzd1BRSWpPV1RPcTM4QzFOdlhsS1ZzTXptZ2ZmV09RRGl1bi16bnVMcWFteFJOaWZVb0xhNklVdGNwcHVyaGl6NzlkYUV3eUxCTXVhb2F6Skc5Y2paZHd3eDZ3N1ptXzFUd0tOd2VROGc0clJIZ1p1aDVicG1UamQ2RHVIOWM4ci0tYnJwYjNBblRncUdJbEk5bmo2V2VTYlVia0ctTnVBUWNsVXcwZ0YzdXhSWWdLS2hCbEpjZmtWNFJYZTIxcUY2R29QYUFLOUJmbXJqbXVyVjExeHA0TEhlRHJKU0xTd3hXQTFQV3hqb1ROX0RHWl9LZVdI0gGeAkFVX3lxTE90eWtkaDlDVWtKSndPOUxvWE5sMDV1RElWaU1tMXp4MGhhNS04NVpoeVotT2NaaXY4ZXMzTUYtbkFrWDJ5MkRGZWlGREg2ZXpCdGJZTUREak1YanZpT2t3THprWGhNbDFVWEhSNFFBdTFET3BHOFg0ZmFScTU5bFZZcHVhd2RRSjFtbFoxZkVfbGpiTkdLLWZVcWRoQWdFY2wycklHN29DU04yYUc3M1B0T1hLM20tQmRpalRhY2VyVXBXZE5fNWQ5RkkyNC1nYTJpbERzZGVQpWlXalRCUEFheE4zU0gydHU0dUNrTHd2RFI2NXBpc3N1alBMMTJQVjZGbHBrcm9KVE1HMGZhaHdMZmV3aFVERjQzTHRTblE?oc=5",
-      "local_life_hint": "本地生活商家可用CapCut快速生成营销素材，提升广告创意效率。"
-    },
-    {
-      "title": "字节10万亿参数模型瞄准Anthropic，挑战算力极限",
-      "explanation": "字节跳动正在训练10万亿参数的大模型，目标对标Anthropic，但面临算力和成本挑战，显示其自研大模型的野心。",
-      "analysis_points": [
-        "字节从追赶转向自研超大模型，参数规模达10万亿，技术野心巨大。",
-        "对行业，超大模型竞争加剧，但算力成本高企，可能影响商业化落地速度。"
-      ],
-      "category": "大厂动向",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "capacityglobal.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWlR0LVV0cy0xV0hpcUEwMTc3NjNVLXk2LUx1M0FyLTNaQlY0b0M4VTk3TmFiMWdGWVpGLVVUa3JOdlBVUG1vR1FMZzRBcTRIS21aNWRyTk00TS1ncWJiQWFjVW5kVjlSOHg1U2FsRGw1R29mWTdscUZLUTV4Q2hVSnZtdFZkS2stRWJlcW1GSGQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Shop客服工单解决时间缩短150%",
-      "explanation": "TikTok Shop通过AI和自动化将客服工单解决时间缩短150%，提升用户体验，降低运营成本，显示AI在电商客服中的应用价值。",
-      "analysis_points": [
-        "TikTok Shop利用AI优化客服流程，工单解决效率大幅提升。",
-        "对电商平台，AI客服可降低人力成本，提升用户满意度，值得借鉴。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "cxnetwork.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYTNnYXRsamt0R1Rra0xreVFBSm5McWFoUXh6LWswTk1ialdjYkJnalJaZEJQejhBTU1aSUpEd2JiWi12clUxN3gzUXctZHh3b3l3ejg2amlvMWJ1ZUM0dGktZ0FiZWU1REdoaGJrTkhuT0NpbUZkR2JuVEJNNlpVUGJoLUpTUW9JSk1qWDAwWFFCOGlLQkpNUEI2QTZlcnU5a204?oc=5",
-      "local_life_hint": "本地生活平台可引入AI客服，提升服务效率，降低运营成本。"
-    },
-    {
-      "title": "SuperOne与BytePlus合作，AI赋能体育娱乐粉丝互动",
-      "explanation": "SuperOne与字节旗下BytePlus达成AI合作，将AI应用于体育和娱乐领域的粉丝互动，拓展B端场景，显示字节AI能力的对外输出。",
-      "analysis_points": [
-        "BytePlus将AI能力输出到体育娱乐行业，提供个性化互动体验。",
-        "对体育娱乐品牌，AI可提升粉丝参与度，增加用户粘性。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR2FYdDZLZTFkTmpidTFFT0RjaUNUZ0c4dGZpUy1qb3hnamYza0JROU9JZ1J1ZE9wSFZkejdJRzI1aDJvYkRjVWljYjFMZFNnNUVrY1pXQ1VKVHpmX2tveXdPSHFCa1pCOHUxSHFaeGljRDBSbDhxNXJhUnlGQlRJa0REdHgycDZjN3k5bWFyOC1Pam1QRjJCanl1NEFYV3E5M1oybGx0aTlIa1pHWEMxOHdlZzA5RmQ1V1dxWThRZnFsX3ct?oc=5",
-      "local_life_hint": "本地生活可借鉴AI粉丝互动模式，用于会员运营和活动营销。"
-    },
-    {
-      "title": "剪映系创业者涌现，AI创业热潮持续",
-      "explanation": "剪映员工离职创业现象频现，形成'人传人'效应，AI创业热潮持续，但创业者面临破局挑战，显示字节系生态的溢出效应。",
-      "analysis_points": [
-        "剪映系创业者利用在字节积累的AI经验创业，形成生态。",
-        "对创业者，需找到差异化方向，避免同质化竞争。"
+        "剪映系创业者利用字节生态经验，开发AI视频工具。",
+        "对行业而言，人才流动加速AI视频创新。"
       ],
       "category": "初创动向",
       "type": "fact",
-      "impact": "low",
+      "impact": "medium",
       "source": "凤凰网科技",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5zZERuNXlmb0Z4NDdJSXlWM0ttWGJENmt0QklBNkhHR08tT056WlFUTmY5QkNiZGtPR29oNk9aeXRzdDBmOXFzek40LUo?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5zZERuNXlmb0Z4NDdJSXlWM0ttWGJENmt0QklBNkhHR08tV056WlFUTmY5QkNiZGtPR29oNk9aeXRzdDBmOXFzek40LUo?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "美图RoboNeo接入Seedance 2.5，AI视频工具链整合加速",
+      "explanation": "美图RoboNeo接入Seedance 2.5，实现镜头、人物、模型等局部控制，AI视频进入Harness时代，强调工作流整合。",
+      "analysis_points": [
+        "Seedance 2.5被第三方工具集成，提供更精细的控制能力。",
+        "创作者可通过RoboNeo等工具更高效地制作AI视频。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxOMnhMTXRVNGFEYzVMbm45d3NfRjN6ZHI5X09FYmxhQ1JqS1VoMXVLczZrYS1YR0szVzlqdl9uWlZEa2Y1aU0zbTF6WE5vNVVla3MwRGVhdzBxaVdWX1JnVU9xOWZUd21OaWZiUXZNejZmUTR4WXpNLW5uSXdvOVlJV2RkM3Npckstb0JmSWh0YWxEZnIybjZkQ1JCc3A4OUVtRmF6NGNjWk9lN01tNVZaaEtlRVFGczhESzQ1Y2RuTUpZT2c2bVRrb1U3azZQa1lDbWREbWU3NVMzN2t1eUlwUWE2OTIxNUdLekI2ZjJOSGRjM3d6RHVJNGRGZ1plYTFESHFUd19TanVUWDZNMGctLU1sbENxeUNFQmwwd1dOeXhqRzd0RVFSR0RIUFhiWmczVEVsUTdhR3JoeEZybHpGWEVwOHJnNEZIZWNfWm8xTXZyWmQtU28xdTZKR2M1bV9saDZqdkpScWhGVTMydDVqUk45clFZUHdaXzRSLUtMR3JBWTRoZUZLcXd1NFNYR0xXT2xaLVFvVGxkRzhETFROUmJtTXNvcnd0UXdmQUtvWTNteHk5LW9NdEZTRFFwemY1U09jd1lvV0g0T3BsemZPeDlQaU4wcnJ3VzhmUGZ6aVM5Zy1SV1NFSzNvUDNMNGlzT3gwVGVRdmRxQmZGb2pvQUVpbllxRUlyNXhDMXNNY1VrYTFkWjNxNFJWZ2pEVGp6TmRpTWdMWjlTOUluY1lEQkZUVmY?oc=5",
       "local_life_hint": ""
     },
     {
       "title": "Seedance 2.5之后，AI视频进入Harness时代",
-      "explanation": "爱范儿文章指出，Seedance 2.5之后，AI视频进入'Harness'时代，强调工具链和生态的重要性，而非单一模型能力。",
+      "explanation": "爱范儿分析指出，Seedance 2.5之后AI视频进入Harness时代，强调工作流与工具链整合，而非单点模型能力。",
       "analysis_points": [
-        "AI视频竞争从模型能力转向工具链和生态，创作者需要更完整的解决方案。",
-        "对视频创作者，选择生态完善的平台可提升效率，降低制作成本。"
+        "AI视频竞争从模型能力转向工具链整合。",
+        "创作者需掌握多种工具组合，提升效率。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
-      "source": "ifanr.com",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9tdElnUWwxSDdHSVB5eEpfY3B6Sm5qbDhmcHBqMXZvSkx3clhWWHFudlV1bG9HdmJFLW5EVEJXX3VjN0U?oc=5",
-      "local_life_hint": "本地生活广告可借助AI视频工具链，快速生成高质量广告素材。"
+      "source": "爱范儿",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9tdElnUWwxSDdHSVB5eEpfY3B6Sm5qbDhmcHBqMXZvSkx3clhWWHFudlVtG9HdmJFLW5EVEJXX3VjN0U?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "美图RoboNeo接入Seedance 2.5，拓展视频生成能力",
-      "explanation": "美图旗下RoboNeo接入Seedance 2.5，增强视频生成能力，显示Seedance 2.5的生态扩展，为更多应用提供AI视频支持。",
+      "title": "字节AI'不装了'：收税12%、不蒸馏、赌5万亿",
+      "explanation": "新浪财经文章解读字节AI商业化策略：豆包抽佣12%、坚持自研不蒸馏、押注5万亿参数模型，显示其商业化决心。",
       "analysis_points": [
-        "Seedance 2.5通过API接入第三方应用，生态不断扩展。",
-        "对应用开发者，接入Seedance可快速获得高质量视频生成能力，提升产品竞争力。"
+        "字节AI商业化路径清晰，从流量变现转向交易抽佣。",
+        "自研大模型投入巨大，体现长期主义。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVEFxQWVsREdLaGVxOWg3Vy04YTl4c1o1UkhQRzFSMzV1NTd3SGxqLVlQWXB2OGRSX21sUXJRczZqX3E0em1fQTY2dGJXb1dPYU95V1pOVkN4MnBIOG42TWk0TElNdkxUakVSb0JwczE0T2VfakpjWXpWUVhYQkdPNVYwdUhWOG16YjY5ZG9ZWmZ2MnhCd1pqZlVjaVVOTHdtVUxVQ0x1ZWJLSzJtMlp6NHBR?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Shop用AI客服将工单解决时间缩短150%",
+      "explanation": "TikTok Shop通过AI客服将工单解决时间缩短150%，提升客户服务效率，AI在电商运营中价值凸显。",
+      "analysis_points": [
+        "AI客服显著提升售后效率，降低人力成本。",
+        "商家可借鉴AI客服模式，优化服务体验。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "CX Network",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYTNnYXRsamt0R1Rra0xreVFBSm5McWFoUXh6LWswTk1ialdjYkJnalJaZEJQejhBTU1aSUpEd2JiWi12clUxN3gzUXctZHh3b3l3ejg2amlvMWJ1ZUM0dGktZ0FiZWU1REdoaGJrTkhuT0NpbUZkR2JuVEJNNlpVUGJoLUpTUW9JSk1qWDAwWFFCOGlLQkpNUEI2QTZlcnU5a204?oc=5",
+      "local_life_hint": "本地生活商家可引入AI客服提升响应效率。"
+    },
+    {
+      "title": "火山引擎AI上车：从'回答'到'执行'的跨越",
+      "explanation": "汽车之家分析火山引擎AI上车进展，豆包大模型从语音问答升级为可执行任务的智能体，实现车辆控制等操作。",
+      "analysis_points": [
+        "豆包大模型具备行动能力，可控制车辆功能。",
+        "AI原生汽车成为车企竞争新焦点。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tRmRqNDZTd29FZmJXT2haUDhic0dyZWNlWTJ6Wnc1ZjhXTlNSSUQ3T1NTeExsa2RCdFo0eS0xSnVNN2tMTkczM2pBYmY3WUNTaXRoRjh6b1BLbEU?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "SuperOne与BytePlus合作，AI赋能体育娱乐粉丝互动",
+      "explanation": "SuperOne与BytePlus达成AI合作，将AI用于体育娱乐粉丝互动，拓展字节AI在垂直行业的应用。",
+      "analysis_points": [
+        "BytePlus提供AI能力，支持粉丝互动场景。",
+        "字节AI商业化向体育娱乐延伸。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "low",
-      "source": "新浪网",
-      "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxNVnNDeG9rMm1wUjlTYnZ1bzk2TF84MmNsdXBDMDF4TEpWRzQ2eUhMNmhUTV9fMHRrZExpVElDT1ktTWIzZ3paNl9mZndHQnMzLVBGUjFIaEh1cEFJZzNZY3YyS0NFU05scXA3WEVVd292Q1F1elNodjE5OWEzZ1RmUGNtRUlXd3dTZllEamRRSzFtb0RqaE1UQXFPeGJOdFZIcDIwMUJNbnF0b01ZTE9BWkx0NkFheWlTVXZoSHBNanV3QzBRWVVmaDJSdk8ySXR1bURWXzNfbi1BbDhFZ0hLS002ZjNCdmVIWGJOaGJuRWhiOVVwdkdKdXJmXzk5LXRTaXJqM2Vfd2NFaVFLVjdnNVI2ZjAwSjdFNWFtLVN4dlpkRl82dlJ0cXVGLVQxMm5nRzJjSEoxb0cwakFreUx2c0ZDSklCdHBTaDJES0pCaG00ZVZ2WjRHSERId0E3dWVTVVlHVlNyVXpnamlpaU5PbXdSS3k5TzZGRzA1bFh2QkFkdTNXcFl5NTRWOHA2ZkltZ0RBT0ZDaEtFZWl1WUVGbWZQMy15aVBXMVZfMmNzd3oxem9DeTVTa3pIQzNRUDlPaTRHbHMyekptZkRVNHU4ZkVNWnBhTkhabENIRWpaT1NBNTlzZXdBc09uOUxnVEQzRk1seVV3dE9BeU1Oa3A5bHhON1BMQUZseGNpRk9GVTVDR3ZZQkdHTEpXMi14WDFBQl8ycWdIUGhwOXB4QXdvWkVGOGE5Z0dCTElLZS1QYUpTRGh6Rlc4?oc=5",
+      "source": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR2FYdDZLZTFkTmpidTFFT0RjaUNUZ0c4dGZpUy1qb3hnamYza0JROU9JZ1J1ZE9wSFZkejdJRzI1aDJvYkRjVWljYjFMZFNnNUVrY1pXQ1VKVHpmX2tveXdPSHFCa1pCOHUxSHFaeGljRDBSbDhxNXJhUnlGQlRJa0REdHgycDZjN3k5bWFyOC1Pam1QRjJCanl1NEFYV3E5M1oybGx0aTlIa1pHWEMxOHdlZzA5RmQ1V1dxWThRZnFsX3ct?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "字节高调转ToB，但回避ToB主舞台？",
-      "explanation": "文章分析字节高调转向ToB，但回避ToB主舞台，可能因ToB业务盈利模式不同，显示字节ToB战略的谨慎。",
+      "title": "豆包首推AI交易抽佣，商业化迈入独立定价时代",
+      "explanation": "豆包首推AI交易抽佣，标志AI商业化进入独立定价时代，但竞价排名困扰难解，引发行业讨论。",
       "analysis_points": [
-        "字节ToB布局包括火山引擎、飞书等，但盈利模式与C端不同。",
-        "对ToB客户，字节需证明AI能力的商业价值，才能赢得市场。"
+        "豆包按成交抽佣，与广告费区分。",
+        "AI平台定价模式创新，但需解决公平性问题。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
+      "category": "大厂动向",
+      "type": "fact",
       "impact": "medium",
-      "source": "新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQXVLR2dIQmRrS0lrYUJVMFJDMlU5NDBfS0ZBT0JncDRJZzB0Z3pYWEU2NGNWLWwteTNpMTJ1VFB3U1ZBdkNEWnNyYU1TMFVIMUFVWUJ6cDU4bjZ3c21wUlhiYkx1U282dlg1RlRyZWV4bmtEb0N3MHFkSmNMd2lKc010OHd6dFExRkxR?oc=5",
-      "local_life_hint": ""
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVEtrVHJFc1lFZjA3VXF0NlY0TXNsUHMxNVp4WlYyWHU5T2N4aEFpekV3R3dSY2RkTzJYNlVtVU1LMWFRRy1xcW8xQm41RmtUdXEzZUgxcGk4OUNhQ251MjVoSkN5eE1yQzljT0N0dnpsaFpsWjhQeE9LYjF0Ukk0NzJIa293R19vbXVMRFUzcFgzZUFNQjU3Z1I4MjN5bFIydll1RFkxSQ?oc=5",
+      "local_life_hint": "本地生活商家需关注AI平台定价模式变化。"
     }
   ],
   "mode": "ai"
