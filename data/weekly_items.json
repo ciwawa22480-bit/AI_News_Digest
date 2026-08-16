@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T07:50:32.772021+00:00",
-  "week_range": "08.10-08.15",
-  "date_display": "08.10 - 08.15",
-  "editorial_summary": "本周共汇总 51 条 AI 商业要闻，其中高影响 7 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启；Seedance 2.5在Runway上线，支持50角色；Seedance 2.5单次直出30秒，终结AI视频时长。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-16T04:06:45.619113+00:00",
+  "week_range": "08.10-08.16",
+  "date_display": "08.10 - 08.16",
+  "editorial_summary": "本周共汇总 53 条 AI 商业要闻，其中高影响 9 条。本周主线包括：Seedance 2.5上线一周涌现六大创意玩法，生成成；豆包回应酒店推荐收费：非广告费，按成交抽佣12%；豆包酒店抽佣12%引发热议，AI流量商业化开启；Seedance 2.5在Runway上线，支持50角色；Seedance 2.5单次直出30秒，终结AI视频时长。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5上线一周涌现六大创意玩法，生成成本低至0.4元/秒",
@@ -15,13 +15,13 @@
       "Seedance 2.5之后，AI视频进入Harness时代"
     ],
     "ecosystem": [
+      "剪映CapCut Design Studio升级，Seedream 5.0 Pr",
       "百花奖设立首个AIGC评奖单元，即梦AI独家技术合作",
-      "字节Seedance爆火背后，藏着一只50亿美元的独角兽",
-      "抖音挑战赛参与破千万，4K修复版播放破800万"
+      "字节Seedance爆火背后，藏着一只50亿美元的独角兽"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（28 条），高影响条目占比约 14%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（30 条），高影响条目占比约 17%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系AI技术底座正从模型能力、生成成本、合规要求三方面重塑外投生态：豆包渠道收费、Seedance低成本生成、AI内容标识合规，将改变素材生产、投放策略和成本结构。",
-  "total_items": 51,
-  "high_count": 7,
+  "total_items": 53,
+  "high_count": 9,
   "items": [
     {
       "title": "Seedance 2.5上线一周涌现六大创意玩法，生成成本低至0.4元/秒",
@@ -146,6 +146,34 @@
       "source": "观点网",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0tX3AtTEZMV3FLb2wxX2ZvZkZyMXJDTkdzVWxmMjc4M0NOSWxwTnV2QXJHY1JOVUd2SGFJNVZTd1dpNzJJYUtadFdORDh6QQ?oc=5",
       "local_life_hint": "本地生活商家可用Seedance 2.5快速生成探店视频、菜品展示等素材，提升内容营销效率。"
+    },
+    {
+      "title": "剪映CapCut Design Studio升级，Seedream 5.0 Pro带来专业级AI设计",
+      "explanation": "剪映CapCut Design Studio推出新技能生态并接入Seedream 5.0 Pro模型，将专业级AI设计能力普及给大众，降低设计门槛，对广告素材制作有重要价值。",
+      "analysis_points": [
+        "要点1：CapCut Design Studio从基础设计工具升级为具备专业级AI能力的平台，支持更复杂的创意设计。",
+        "要点2：广告主可利用该工具快速生成高质量广告素材，降低设计成本，提升投放效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNWUhVdDMtOEJLLVdRZGRjYTJiNzNoenpZcUUtOVRzd1BRSWpPV1RPcTM4QzFOdlhsS1ZzTXptZ2ZmV09RRGl1bi16bnVMcWFteFJOaWZVb0xhNklVdGNwcHVyaGl6NzlkYWV3eUxCTXVhb2F6Skc5Y2paZHd3eDZ3N1ptXzFUd0tOd2VROGc0clJIZ1p1aDVicG1UamQ2RHVIOWM4ci0tYnJwYjNBblRncUdJbEk5bmo2V2VTYlVia0ctTnVBUWNsVXcwZ0YzdXhSWWdLS2hCbEpjZmtWNFJYZTIxcUY2R29QYUFLOUJmbXJqbXVyVjExeHA0TEhlRHJKU0xTd3hXQTFQV3hqb1ROX0RHWl9LZVdI0gGeAkFVX3lxTE90eWtkaDlDVWtKSndPOUxvWE5sMDV1RElWaU1tMXp4MGhhNS04NVpoeVotT2NaaXY4ZXMzTUYtbkFrWDJ5MkRGZWlGREg2ZXpCdGJZTUREak1YanZpT2t3THprWGhNbDFVWEhSNFFBdTFET3BHOFg0ZmFScTU5bFZZcHVhd2RRSjFtbFoxZkVfbGpiTkdLLWZVcWRoQWdFY2wycklHN29DU04yYUc3M1B0T1hLM20tQmRpalRhY2VyVXBXZE5fNWQ5RkkyNC1nYTJpbERzZGVQbFpXalRCUEFheE4zU0gydHU0dUNrTHd2RFI2NXBpc3N1alBMMTJQVjZGbHBrcm9KVE1HMGZhaHdMZmV3aFVERjQzTHRTblE?oc=5",
+      "local_life_hint": "本地生活广告主可利用CapCut Design Studio快速生成多版本广告素材，用于巨量引擎投放测试。"
+    },
+    {
+      "title": "TikTok Shop美国线上销售超越Target，电商商业化加速",
+      "explanation": "TikTok Shop在美国的线上销售额已超过Target等传统零售商，显示社交电商的强劲增长，AI驱动的推荐算法是核心优势，对电商格局产生重大影响。",
+      "analysis_points": [
+        "要点1：TikTok Shop从短视频平台转型为重要电商渠道，销售额超越传统零售巨头。",
+        "要点2：商家可利用TikTok Shop的流量和AI推荐，精准触达消费者，提升销售转化。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdzVrcDhwNm1wNTlGUnZRS3J2cmZVekVOSVRGWlZheEg1SzZPTllpSTJlRGNXSkhXdENSUnAwYnk3RHhhRXoyZXFtWUE4S1pEVlJhU0Q0cTdnc3JqY3gzenhINlRnaXJEZTNWR0dtTzAyUk8wZHRFb0NVOUpsdUhLOTVDOVZzMHZjWGtiZVpyU3pVa09jN0wtRg?oc=5",
+      "local_life_hint": "本地生活商家可入驻TikTok Shop，利用短视频和直播带货，结合本地优惠吸引周边用户。"
     },
     {
       "title": "百花奖设立首个AIGC评奖单元，即梦AI独家技术合作",
