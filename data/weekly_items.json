@@ -1,10 +1,13 @@
 {
-  "generated_at": "2026-08-17T07:36:05.451445+00:00",
-  "week_range": "08.17-08.17",
-  "date_display": "08.17 - 08.17",
-  "editorial_summary": "本周共汇总 4 条 AI 商业要闻，其中高影响 0 条。本周主线包括：豆包开启付费订阅，三档定价68元起，免费服务不受影响；字节AI'先慢后快'战略重塑行业，36氪深度分析；抖音的'携程梦'，豆包来实现？；即梦Seedance 2.5上新，游戏开发圈心动。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-18T02:42:58.651808+00:00",
+  "week_range": "08.17-08.18",
+  "date_display": "08.17 - 08.18",
+  "editorial_summary": "本周共汇总 11 条 AI 商业要闻，其中高影响 4 条。本周主线包括：豆包上线'工作任务'功能，手机远程操控电脑；字节跳动与美国电影协会达成首份AI版权协议；飞书与豆包整合，字节重构ToB版图；火山引擎Seedance 2.5支持原生1080p视频生。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
-    "new_products": [],
+    "new_products": [
+      "豆包上线'工作任务'功能，手机远程操控电脑",
+      "豆包更新，能手机远程操控电脑干活了"
+    ],
     "opinions": [
       "字节AI'先慢后快'战略重塑行业，36氪深度分析",
       "抖音的'携程梦'，豆包来实现？"
@@ -12,9 +15,11 @@
     "ecosystem": []
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（2 条），高影响条目占比约 0%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（8 条），高影响条目占比约 36%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。"
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
   ],
   "local_life_insights": [
     {
@@ -28,12 +33,72 @@
     {
       "base": "飞书与豆包整合，字节重构ToB版图，打造AI工作入口，将AI能力深度集成到企业协作工具中。",
       "borrow": "美团商业化可借鉴字节的AI工作入口思路，将AI能力集成到商家管理后台，帮助商家实现营销自动化，提升运营效率。"
+    },
+    {
+      "base": "火山引擎Seedance 2.5支持原生1080p视频生成，图生视频价格降至约2.7元/秒，大幅降低高质量视频素材的生产成本。",
+      "borrow": "对美团商业化外投团队而言，可利用字节AI视频生成能力，低成本批量生产高清本地生活广告素材，提升创意产出效率，降低素材制作成本。"
     }
   ],
   "insights_intro": "字节系AI在技术能力底座上的改造（如豆包抽佣、Seedance 2.5广告应用、飞书豆包整合），将深刻影响外投的素材生产、投放模式和成本结构，美团商业化需提前布局。",
-  "total_items": 4,
-  "high_count": 0,
+  "total_items": 11,
+  "high_count": 4,
   "items": [
+    {
+      "title": "豆包上线'工作任务'功能，手机远程操控电脑",
+      "explanation": "豆包推出新功能，用户可通过手机向电脑端豆包下达指令，完成文件处理、网页操作等任务，实现跨设备协同。这标志着AI助手从单一对话向主动执行任务演进，拓展了应用场景，对提升用户粘性和商业化潜力有重要意义。",
+      "analysis_points": [
+        "要点1：豆包从被动问答升级为主动执行，支持跨设备远程操作，能力从'能聊'变为'能干'。",
+        "要点2：对商家而言，可探索利用该功能实现远程办公自动化，提升运营效率；对广告投放，可结合AI生成内容实现更高效的素材管理。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1573584.htm",
+      "local_life_hint": "本地生活商家可利用豆包远程操控功能，实现门店设备远程管理或营销素材的自动生成，降低人力成本。"
+    },
+    {
+      "title": "字节跳动与美国电影协会达成首份AI版权协议",
+      "explanation": "字节跳动与MPA签署谅解备忘录，为Seedance、Seedream等AI视频和图像模型建立知识产权保护框架，限制深度伪造等侵权行为。这是好莱坞与AI公司首次达成此类协议，为AI内容生成提供了合规范本，有助于降低法律风险。",
+      "analysis_points": [
+        "要点1：字节跳动从无版权约束到建立保护框架，AI模型在内容生成时需遵守IP规则，减少侵权风险。",
+        "要点2：对广告主而言，使用字节AI工具生成素材时更安全，可放心用于商业推广，避免版权纠纷。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Variety",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObDlYZ3FEMU9icGJXSTdGMTF4Q2hPWWlsY05ONHFlQ3RIOEVvdWI3UVVQRTZ1M0FHYmx2WW1EeEYzNVRic2phMHZIQUhpaVUtbS1KODJTa2RaTV9WTEdXdEpwUVJWb005VUxQTXZVcm91UVVfM0Z3dEZUQl9qNWFuUC1VRkJWMXRXVlAtNG5uX1JFRDl6dVoyMmVHcXNhSnRXS3o0Ng?oc=5",
+      "local_life_hint": "本地生活商家使用字节AI生成广告素材时，可确保内容合规，降低法律风险，放心投放。"
+    },
+    {
+      "title": "飞书与豆包整合，字节重构ToB版图",
+      "explanation": "据财联社报道，字节跳动将整合飞书与豆包，重构ToB版图，大厂激战'AI工作入口'。此举旨在将AI能力深度融入办公场景，打造一站式AI工作平台，提升企业服务竞争力。",
+      "analysis_points": [
+        "要点1：飞书从协同办公工具升级为AI工作入口，豆包AI能力嵌入，实现从'工具'到'平台'的转变。",
+        "要点2：对企业客户而言，可在一个平台内完成沟通、协作和AI任务处理，提升效率；对广告投放，可结合AI分析优化营销策略。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
+      "local_life_hint": "本地生活商家可关注飞书+豆包整合，未来可能提供AI驱动的营销自动化工具，提升运营效率。"
+    },
+    {
+      "title": "火山引擎Seedance 2.5支持原生1080p视频生成，图生视频降至约2.7元/秒",
+      "explanation": "火山引擎Seedance 2.5升级，支持原生1080p视频生成，图生视频价格降至约2.7元/秒。这降低了高质量视频生成的成本，提升了效率，对广告素材生产具有重大价值。",
+      "analysis_points": [
+        "要点1：Seedance 2.5从支持较低分辨率升级到原生1080p，画质提升，同时价格下降，性价比更高。",
+        "要点2：对广告主而言，可低成本批量生成高清视频素材，用于信息流广告，提升创意效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB2THBXLVQtVWxuR3QzcE00RnFDNkZkV1lFcHRRNlhGM3BkTy00Z0h2MXg5NTh1R0RFTEV2OUhLcDVndF9hSHJkeHVCSktvQQ?oc=5",
+      "local_life_hint": "本地生活商家可利用Seedance 2.5低成本生成高清视频素材，用于抖音等平台的广告投放，提升吸引力。"
+    },
     {
       "title": "豆包开启付费订阅，三档定价68元起，免费服务不受影响",
       "explanation": "豆包正式开启付费订阅，提供三档定价，最低68元/月，免费服务不受影响，标志着C端AI商业化迈出重要一步。",
@@ -89,6 +154,48 @@
       "source": "风闻",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pSmxVOGgtejBzdjRFNm94c25oNWhjT0I4Z2YtNEZFWktYcUFHNm9JVURZNTJTb0VUNk5RUWNJUkVoMHJOeklFVzhQNWJkeDh0ajRTVXA2MzNydHJkcVpYQndkd3hNeXYtY3NiRHZB?oc=5",
       "local_life_hint": "本地生活商家可借鉴AI视频生成技术制作宣传片，提升品牌形象。"
+    },
+    {
+      "title": "豆包AI订房渠道观察：酒店商家从观望转向主动布局",
+      "explanation": "新华报业网报道，酒店商家对豆包AI订房渠道从观望转向主动布局。这表明AI订房模式逐渐被市场接受，商家开始重视这一新兴渠道，可能改变OTA竞争格局。",
+      "analysis_points": [
+        "要点1：酒店商家从观望到主动布局，认可豆包AI渠道的流量价值。",
+        "要点2：对本地生活商家而言，应积极入驻AI平台，获取早期红利。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新华报业网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QUlhCWTlzQi00clNybmVPSFlpWHBCa2NfTGx2Y2pQNXE2Z2NkVEF4TVVLWlA2QWZyWHAyWktFYWE3YklhWnR4aFRlV1hvd09TT0Z1Y1NIZmtlLXlWTmQ3cHZQZkRZWVhvcG9v?oc=5",
+      "local_life_hint": "本地生活酒店商家应积极入驻豆包等AI平台，拓展预订渠道。"
+    },
+    {
+      "title": "豆包大模型上车，别克至境E7太懂这届车主了",
+      "explanation": "别克至境E7搭载豆包大模型，强调'聪明有人情味'，提升车主体验。这显示豆包在汽车领域的应用注重情感化交互，增强用户粘性。",
+      "analysis_points": [
+        "要点1：豆包大模型在车载场景注重情感交互，提升用户体验。",
+        "要点2：对车企而言，AI座舱成为差异化卖点，可吸引注重智能化的消费者。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXTllZR0hTc0kwdmtVcm1iV0dxbFVncWFzRTI2akI0NU04M2MzczZod1ZxQmU5MkNjSE1nal9JNFFkOVlUR0Z6TmYtMDB4X0lRUHRlS2RrVlQ0OEE?oc=5",
+      "local_life_hint": "本地生活商家可关注车载AI交互，探索车内服务推荐等新场景。"
+    },
+    {
+      "title": "豆包更新，能手机远程操控电脑干活了",
+      "explanation": "豆包更新，支持手机远程操控电脑，实现跨设备协同。这提升了AI助手的实用性，用户可随时随地处理电脑任务，提高效率。",
+      "analysis_points": [
+        "要点1：豆包从单一设备扩展到跨设备协同，能力增强。",
+        "要点2：对办公人群而言，可提升工作效率；对商家，可探索远程办公自动化。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "京报网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YazB3dFJxbGE2Z0sxQlhac1Y3QXVYT2VNQTRPYjA4TE5qZVFzaFM5RW9tOVRGZFZESS1ITVFUSlVhWkZWUVVhTlRRLXVGMHN1c0pzZzFtQ1RyNHFIaFJNQ1JNNE5tUElCYTdTbGN4TVZyZw?oc=5",
+      "local_life_hint": "本地生活商家可利用豆包远程操控功能，实现门店设备远程管理，降低运维成本。"
     }
   ],
   "mode": "ai"
