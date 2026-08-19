@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-08-18T07:23:09.259141+00:00",
-  "week_range": "08.17-08.18",
-  "date_display": "08.17 - 08.18",
-  "editorial_summary": "本周共汇总 12 条 AI 商业要闻，其中高影响 4 条。本周主线包括：豆包虚拟桌面上线，手机远程操控Windows电脑；字节与美国电影协会达成首份AI版权协议；飞书与豆包将整合，字节重构ToB版图；Seedance 2.5支持原生1080p，图生视频降至。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-19T02:44:58.354963+00:00",
+  "week_range": "08.17-08.19",
+  "date_display": "08.17 - 08.19",
+  "editorial_summary": "本周共汇总 18 条 AI 商业要闻，其中高影响 7 条。本周主线包括：豆包虚拟桌面上线，手机远程操控Windows电脑；字节与美国电影协会达成首份AI版权协议；飞书与豆包将整合，字节重构ToB版图；Seedance 2.5支持原生1080p，图生视频降至；豆包启动渠道服务费机制，国内首个AI入口规模化抽佣落地。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
-      "豆包虚拟桌面上线，手机远程操控Windows电脑"
+      "豆包虚拟桌面上线，手机远程操控Windows电脑",
+      "Seedance 2.5上线后，LibTV先帮创作者学会新模型"
     ],
     "opinions": [
       "字节AI'先慢后快'战略重塑行业，36氪深度分析",
@@ -17,11 +18,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（8 条），高影响条目占比约 33%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（12 条），高影响条目占比约 39%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
-    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。"
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
   ],
   "local_life_insights": [
     {
@@ -42,8 +43,8 @@
     }
   ],
   "insights_intro": "字节系AI在技术能力底座上的改造（如豆包抽佣、Seedance 2.5广告应用、飞书豆包整合），将深刻影响外投的素材生产、投放模式和成本结构，美团商业化需提前布局。",
-  "total_items": 12,
-  "high_count": 4,
+  "total_items": 18,
+  "high_count": 7,
   "items": [
     {
       "title": "豆包虚拟桌面上线，手机远程操控Windows电脑",
@@ -100,6 +101,48 @@
       "source": "观点网",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB2THBXLVQtVWxuR3QzcE00RnFDNkZkV1lFcHRRNlhGM3BkTy00Z0h2MXg5NTh1R0RFTEV2OUhLcDVndF9hSHJkeHVCSktvQQ?oc=5",
       "local_life_hint": "本地生活商家可用Seedance 2.5低成本生成高清探店视频、广告素材，提升内容质量。"
+    },
+    {
+      "title": "豆包启动渠道服务费机制，国内首个AI入口规模化抽佣落地",
+      "explanation": "豆包开始对通过其入口产生的交易收取渠道服务费，成为国内首个规模化抽佣的AI对话入口，标志着AI流量商业化进入新阶段。",
+      "analysis_points": [
+        "豆包从免费工具转向交易抽佣，商业模式向平台化演进，类似搜索引擎的竞价排名。",
+        "对商家而言，需考虑AI入口带来的流量成本，优化投放策略以平衡ROI。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbTZ3OVNxRFBtNHBSSVM0YlJETmZfbTFJbEhzbVNxVWsxMll4YWVaalh0RU9VTENiRWJWbWFSX2loLVFLYkNGSHY4ZXBBVXhyTXlsT3dYclV3aXdjU1prZUNQa2ZfNUkyNGlHT3dpYmRMck9hNWVXMEd6dGlkYVJyUV9zMERzWGtYblRMN1BfcE1mVTFWOWZCQWR1bWxuZVBmUUJsejFZd0RFNUlrV2ZnUnBKanR2cng5UHhGUQ?oc=5",
+      "local_life_hint": "豆包抽佣模式为本地生活服务商提供了新的流量渠道，但需评估佣金成本与转化率，外投团队可测试豆包入口的投放效果。"
+    },
+    {
+      "title": "豆包入局酒店预订，抽佣12%引发公平性质疑",
+      "explanation": "豆包开始推荐酒店并抽取12%佣金，引发对AI推荐公平性的讨论，用户担心推荐结果受商业利益影响，损害信任。",
+      "analysis_points": [
+        "豆包从信息推荐延伸到交易闭环，抽佣比例12%与主流OTA相当，但AI推荐的透明度成为焦点。",
+        "对酒店商家而言，豆包成为新的分销渠道，但需权衡佣金与流量质量。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNmd5dUlVYzQwTDNPa3dfeGdOUTNRQUZoMVBkdVlmUWxGLVlCRUttckNwSFlNZGNYWk45X01sOUxOYkdBUEdxNWk5N3J0YUVScWMtTzNUdmZxa2RCdXc5ZkRIRGdSUmplaUtvUTZoanNWeHBfOGt0eXhVb3YzSnFJcW1DUDh4cER6UmtqRw?oc=5",
+      "local_life_hint": "豆包进军酒店预订，对本地生活OTA构成竞争，外投团队可关注豆包流量对酒店广告投放的影响。"
+    },
+    {
+      "title": "字节跳动获超300亿美元银行贷款，AI研发资金充裕",
+      "explanation": "字节跳动为AI投资启动的200亿美元融资计划已吸引超300亿美元认购，显示资本市场对其AI战略的信心，为算力与研发提供充足弹药。",
+      "analysis_points": [
+        "字节跳动巨额贷款将用于AI基础设施与模型研发，加速技术迭代。",
+        "对行业而言，字节的投入将加剧AI竞争，推动模型能力提升，外投团队可期待更强大的AI工具。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1573878.htm",
+      "local_life_hint": "字节AI投入加大，未来可能推出更智能的广告投放工具，外投团队应关注巨量引擎的AI功能更新。"
     },
     {
       "title": "豆包开启付费订阅，三档定价68元起，免费服务不受影响",
@@ -212,6 +255,48 @@
       "source": "汽车之家",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXTllZR0hTc0kwdmtVcm1iV0dxbFVncWFzRTI2akI0NU04Z2MzczZod1ZxQmU5MkNjSE1nal9JNFFkOVlUR0Z6TmYtMDB4X0lRUHRlS2RrVlQ0OEE?oc=5",
       "local_life_hint": "车载AI可推荐附近餐厅、加油站等，为本地生活商家带来新流量入口。"
+    },
+    {
+      "title": "火山引擎小规模邀测独立AI视频产品Seedance Studio",
+      "explanation": "火山引擎正在小规模邀测独立AI视频产品Seedance Studio，提供更专业的视频生成工作流，面向专业创作者，可能成为即梦的补充。",
+      "analysis_points": [
+        "Seedance Studio独立于即梦，提供更专业的视频生成工具，可能支持更精细的控制。",
+        "对视频创作者而言，新工具可提升效率，外投团队可探索用其生成高质量广告素材。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbElLX3Y2RVJZN05OR2czb3l5M0tCTHFuQlFwcnQ2QTB6ZWEtOTg1N2FnWVRmLUN3dVJrRENsVEJwVElzUXkySkp0NEhIendnQ0lHVTlyb1JTeXlGb2RneUhyY3lKS1A4TVQ4OVVsSFhSNGdmNFhwcmZGMEtUT05CVm1yQkF5QVRRQWNydw?oc=5",
+      "local_life_hint": "Seedance Studio可能提供更高效的视频生成能力，外投团队可关注其开放进度，用于批量生成本地生活广告素材。"
+    },
+    {
+      "title": "豆包抽佣 千问招商：AI流量商业化按下快进键",
+      "explanation": "豆包启动抽佣，阿里千问也开始招商，AI流量商业化加速，行业进入变现竞赛。",
+      "analysis_points": [
+        "豆包与千问等AI入口纷纷探索商业化，流量变现成为焦点。",
+        "对商家而言，AI入口成为新的营销渠道，需提前布局。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUT1lGNXdWc2tUZEhtc0UtWWNTTE4tdUV6UUNoeVdkcUJWOU9rQWdSZkloSmkySDQwRUZnWUk5bGNFR3ZDVC10WUlqcjNmbHcybDVEOFhnbWlqNnlXd2ZCczVzS2pSZw?oc=5",
+      "local_life_hint": "AI入口商业化加速，外投团队可关注豆包等平台的广告投放机会。"
+    },
+    {
+      "title": "Seedance 2.5上线后，LibTV先帮创作者学会新模型",
+      "explanation": "Seedance 2.5上线后，LibTV等平台率先帮助创作者适应新模型，提供教程和工具，降低使用门槛。",
+      "analysis_points": [
+        "LibTV提供Seedance 2.5的教程和优化工具，帮助创作者快速上手。",
+        "对创作者而言，新模型提升视频质量，外投团队可借助LibTV生成高质量广告素材。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsR0xjOXZILVAzOEU2aHl2TmlkeElFVFVYYXdNYU9WdWd0aUFUdnNOa0xXbmpsZ0V3T2JBUTFOR2tDanVadW8tNVRsNC1qMnhQcEEwc0RWWDVXa2c?oc=5",
+      "local_life_hint": "LibTV等工具可帮助外投团队快速生成符合Seedance 2.5规范的广告素材。"
     }
   ],
   "mode": "ai"
