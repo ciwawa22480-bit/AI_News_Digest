@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-08-19T07:23:55.982800+00:00",
-  "week_range": "08.17-08.19",
-  "date_display": "08.17 - 08.19",
-  "editorial_summary": "本周共汇总 20 条 AI 商业要闻，其中高影响 5 条。本周主线包括：豆包虚拟桌面上线，手机远程操控Windows电脑；字节与美国电影协会达成首份AI版权协议；飞书与豆包将整合，字节重构ToB版图；Seedance 2.5支持原生1080p，图生视频降至；字节跳动获超300亿美元银团贷款，AI投资再加码。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-20T02:45:12.943409+00:00",
+  "week_range": "08.17-08.20",
+  "date_display": "08.17 - 08.20",
+  "editorial_summary": "本周共汇总 42 条 AI 商业要闻，其中高影响 9 条。本周主线包括：豆包虚拟桌面上线，手机远程操控Windows电脑；字节与美国电影协会达成首份AI版权协议；飞书与豆包将整合，字节重构ToB版图；Seedance 2.5支持原生1080p，图生视频降至；字节跳动获超300亿美元银团贷款，AI投资再加码。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "豆包虚拟桌面上线，手机远程操控Windows电脑",
-      "LibTV帮创作者学会Seedance 2.5，生态适配加速"
+      "Whisker Expands Retail Strategy with Tik",
+      "早报｜豆包进了特斯拉车机/曝苹果带摄像头AirPods延期至2027/宇树科技上"
     ],
     "opinions": [
       "字节AI'先慢后快'战略重塑行业，36氪深度分析",
@@ -15,15 +16,16 @@
     ],
     "ecosystem": [
       "字节与美国电影协会达成首份AI版权协议",
-      "字节前员工创业公司年入47亿，冲刺港股IPO"
+      "字节前员工创业公司年入47亿，冲刺港股IPO",
+      "LibTV帮创作者学会Seedance 2.5，生态适配加速"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（12 条），高影响条目占比约 25%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（33 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
+    "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。"
   ],
   "local_life_insights": [
     {
@@ -44,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系AI在技术能力底座上的改造（如豆包抽佣、Seedance 2.5广告应用、飞书豆包整合），将深刻影响外投的素材生产、投放模式和成本结构，美团商业化需提前布局。",
-  "total_items": 20,
-  "high_count": 5,
+  "total_items": 42,
+  "high_count": 9,
   "items": [
     {
       "title": "豆包虚拟桌面上线，手机远程操控Windows电脑",
@@ -116,6 +118,54 @@
       "source": "Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX21PeFpmTVU5V3hXaUwyTGNsa2VNcGJabVl4Rl9LTWotZksxS0NJLXl5Wlk5dFJ2cmY1SnJmSjNjRnlTUk9UUVFiNjd1dllfYWRrZV8zbWE0SEtPYnp1THZEREtpalVTTTBxeDVPdnFfQVctVGs3Z1VEZGdfVkU1ZG0xbjZmUk1IREtDVG43azRmaU1rOVdxTDJleXBtNjVOeDVkZTVGVnh5cEVGUDJUR1pB?oc=5",
       "local_life_hint": "字节资金充裕可能加大本地生活广告投入，外投团队可关注抖音本地生活广告产品升级。"
+    },
+    {
+      "title": "Whisker Expands Retail Strategy with TikTok Shop Launch",
+      "explanation": "Whisker Expands Retail Strategy with TikTok Shop Launch",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM0ZhS1RTdmhfaGJ0SzRNLURtSDFTR2JPd0htX0NfaTJKOXplbDJNVUZxV2lVZFRFODVCWDZMZ01ZRUxpc3hQRy10S2RqOVpmU0pYcjFLNHNQV1EtTGNDekljZV9ZMzVqSnE4N0xuRDBldlZsekU4Mkk1V2o5d3dOOWJ1TnZqSGc3Ri1LX0pua1ZZUVdEd1VURkJ6SzJ0N2pPaVc2S1phMzFfb3dqRlYzdw?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "Alibaba, ByteDance trim gaming and retail to invest in AI",
+      "explanation": "Alibaba, ByteDance trim gaming and retail to invest in AI",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVk11Tk1KbF94WnpCY0JkRTB6YlVTQkM0UjU2eW9oX0doNGp2bG13RUx0SVVmWjFGYjMtY0ExMHJzRWVDNTQ1TVBaMS1VT05pdWE3ZEl4Q2stRk15MXA0bWpUVFpiVVlrelFLcDgwcG53dkVzdnVtcUNQT2htNWJjRTZQeDRuOWxub09KZDdFN2hIaENoMnhIdTladno4XzBrOXY0U1JwV2JVeE9JekQ5Vkp5NUlpTE9KdFppNi14RmlHdw?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "严打编造传播涉灾网络谣言，公安机关公布 4 起典型案例",
+      "explanation": "IT之家 8 月 20 日消息，据公安部网安局官方微信公众号消息，公安机关网安部门依托“净网 —2026”专项行动，持续严厉打击编造传播涉台风等网络谣言违法犯罪活动。今日（8 月 20 日），公安部网安局再次公布 4 起典型案例： 案例 1 网民王某某（男，35 岁）因台风天气，暂住在临时安置点，为",
+      "analysis_points": [
+        "IT之家 8 月 20 日消息，据公安部网安局官方微信公众号消息，公安机关网安部门依托“净网 —2026”专项行动，持续严厉打击编造传播涉台风等网络谣言违法犯罪活动。今日（8 月 20 日），公安部网安局再次公布 4 起"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/991/887.htm",
+      "local_life_hint": ""
+    },
+    {
+      "title": "早报｜豆包进了特斯拉车机/曝苹果带摄像头AirPods延期至2027/宇树科技上市首日大涨460%​",
+      "explanation": "据彭博社报道，苹果配备摄像头的 AirPods 仍计划于 2027 年推出，尽管本周曝光的 macOS 软件视频显示，该产品似乎已接近公开亮相。苹果原本计划在今年发布这款耳机，但由于供应链和软件问题，已在今年夏季将其推迟至明年。 据报道， 耳机上的摄像头将采用低分辨率传感器，主要用于扫描环境，而非拍",
+      "analysis_points": [
+        "据彭博社报道，苹果配备摄像头的 AirPods 仍计划于 2027 年推出，尽管本周曝光的 macOS 软件视频显示，该产品似乎已接近公开亮相。苹果原本计划在今年发布这款耳机，但由于供应链和软件问题，已在今年夏季将其推迟"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1675698?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": ""
     },
     {
       "title": "豆包开启付费订阅，三档定价68元起，免费服务不受影响",
@@ -326,7 +376,205 @@
       "source": "搜狐",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRlBqNTFRc1JCTjNoRkZna0x0aHNtZk1rbUdNazRjLVZBdUY1V1BqaWt5TXNXeDNseVlST3c2eVQ5NHJGTEpGT1A0OUpkMWpFbXNZUlJnekRNTzBwdHAwMWJRWFQ1YnVKM050d1IyUkluQWZ3ZXYyMkVrYm1TanBhYndOOHVWWjV2MDV4OQ?oc=5",
       "local_life_hint": "AI生成素材版权风险需警惕，外投应建立审核机制。"
+    },
+    {
+      "title": "TikTok explores peer-to-peer payments via DMs, report says",
+      "explanation": "TikTok explores peer-to-peer payments via DMs, report says",
+      "analysis_points": [],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR1BCTWtHYTJnNWk2XzEwUnRab2FvS253RXByVkRpRVM0ejR2U0R5ei05VExzajB6OTlhand3OEJHczFlcGpfQVpKQUNVNlhGWXFJTVNWbHFHYUNFS3c3ZHJXY3NwUTVjUF9qT2lrSEZlVF95N2dIb3lYTkJEanVQS2lXa19XM0IwTzlwWXFPRkxhZFdYaVdZ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "NVDA Stock On Track To Snap 3-Day Losing Streak After H200 AI Chips Reportedly Reach ByteDance, Tencent in China",
+      "explanation": "NVDA Stock On Track To Snap 3-Day Losing Streak After H200 AI Chips Reportedly Reach ByteDance, Tencent in China",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONjk5NHktb25vZWFsS0ZQNnUwdGY1OURRUG03LXBXYkczN1RldGh0TVBzclNCZGlfOG9QQTlka1ZSaUhRazJjb1poYTJUalFqVkNDX3V2ZnY5M1FBb2Z2VGoxZFJXbnNMNFVVUnFrc2tLYXIxS3ZaWmZQVFhyRk9OeTFyZDdveEJQbWdyeGFLczBLUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Motion Picture Association Strikes Deal with ByteDance for IP Protections in AI Video, Image Models",
+      "explanation": "Motion Picture Association Strikes Deal with ByteDance for IP Protections in AI Video, Image Models",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObDlYZ3FEMU9icGJXSTdGMTF4Q2hPWWlsY05ONHFlQ3RIOEVvdWI3UVVQRTZ1M0FHYmx2WW1EeEYzNVRic2phMHZIQUhpaVUtbS1KODJTa2RaTV9WTEdXdEpwUVJWb005VUxQTXZVcm91UVVfM0Z3dEZUQl9qNWFuUC1VRkJWMXRXVlAtNG5uX1JFRDl6dVoyMmVHcXNhSnRXS3o0Ng?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "MPA, ByteDance Reach AI Copyright Protection Deal",
+      "explanation": "MPA, ByteDance Reach AI Copyright Protection Deal",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcnpabXltc2NsTHdRcnZpMEdoTzVWem9mS1dLdWFxOURjZXZwRlJ6bmJnOTZnOFBTYmxZdmM0OVlCeFppNVBQaEdtV18xNkFGQl9yWEwyZHBJS0N2R1VyZGxCbmZ1Y2lZLUJieFdEYlozSzNzZURGaVN0b213VUN0TjIyT3hLQTFneF9pTUx3dDVHWlljM2JyVHVFOWFqUG8?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "MPA and ByteDance Announce Global Agreement to Protect Intellectual Property on AI Video and Image Generation Models",
+      "explanation": "MPA and ByteDance Announce Global Agreement to Protect Intellectual Property on AI Video and Image Generation Models",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOS1k5dEp4VkxkWWFuc2EtLWJtSk1xQWpnQWhOZ1hncXpES0NaVXNmQzNqVkVueGNGVEM0Z215czFJWHVZU0JjenluNXdCRzNyTHlhMEhUQVllWHhRYUtDSmlvZjFON1piSXBvNkFtQzVfSFJVQ0VlbWVWaVdINGZoNzFPVFVMQk5fVU1sYzdLMmQ4T2d4LTJ3S25HRWJrX1N6R015NVN4Sm9RQkFuTHhLMTQ3SUNsY21WMWhiOW1IVl82b2Z0WUpDZjNZYkZfdlAyZ0RSNXBQTk15Z2s3d0lzNkFlOXhsTDg?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Shop hit $50 billion in the first half of 2026",
+      "explanation": "TikTok Shop hit $50 billion in the first half of 2026",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YMGRGZWFFMzdGQ25jUGVUcS0yaTZNSk9ydEt5SE9ZYk5rc0Q1ekFZeExGWG1ldWN3MVI2SFRFdU9LNjlJMkdTSm1lRnN3SmllZHJOVE5SSzFXTG85NGNNR1RGUkFUbkVVYm1R?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Shop To Launch In Mexico This Month, Sellers Open Businesses In Region 02/07/2025",
+      "explanation": "TikTok Shop To Launch In Mexico This Month, Sellers Open Businesses In Region 02/07/2025",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxQaUdmcFppTnd2dTY0QTZaSFl5enBMYTFJNjA5Z1VqSFNqbnNFS3JDSWhjZ0lXT1g4ajhXT0ZIQWFsX2lIUEtqeXU2cXJIY0JHV0Q1am1PT1A0eDY4TlZBT0N4Ql9jQ1paeUQ5WjB1bDI5ZnJUNGlwVkxTVXIzTzVJYU5MeGFGWHhRYnN0ZWltTHo5QmJhc3Jya1hMdHVCelZUUF93NVFmM0FwaXU0TmIxQUIzczdZUG40ZzkyQkctckxIRkNUSkJHMjZVLWt2alNMY0xFeWJhLWVQc1lHdlkwQWxzNGFqb2ktRmxQVTI5ZGJrbDhvcWlzc1dnMTJwbGVCX1ZrZmpwRU91ei1DNWtKcVJ5WTBOMV9UOGh0ZS1HVnBsR0RxSG1zVHVUeUFEa1NfdG5xQ0pScGR3d3RlM25OU3JNSVgzQkNBZi1LTnlQUmNXQm5IRWhsTlBUTjU2OWhHTkV0TU1BU3R0WFNROENnaGZTTGhZWFBzMEJVeXZPOXl6d09wbFFaLUxjZlVTOVpMQkxCZzQxZzU?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Hollywood strikes first AI copyright truce with ByteDance",
+      "explanation": "Hollywood strikes first AI copyright truce with ByteDance",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWHc1M0dNVnQ0Y2JxY1Mza0p3YjFqYm8zYktvMGhLUzMyMWNXVTc5Z0VzeGdnZmM2STJEN1pmNEJURnZkWjRNajhVVFJOY0tQNm52MGh4UnM5RnN0d0dpUWZILWdsZGZlY0cyX0ZOa2hvVE9sR2hZZnhEMUZFSGRtazJtcWdxRVk3dFZ3ODBKODJXbkJDYzBlb0tPTlVWUnppclJlenFveGRLdEJLM1RNQkhVM0kwXzZCdmVDbmpGb0tCeVN0TFVjZkNWTWgzMGJ1SE02eVh4M1NrcTcxZTJGLQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Parent ByteDance Agrees to AI Copyright Guardrails After Hollywood Dispute",
+      "explanation": "TikTok Parent ByteDance Agrees to AI Copyright Guardrails After Hollywood Dispute",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdmxhZTVMa0FRRGNFejhMMGNtNlJNNFJ3U1J6QU9QdVNyb09zczR5cXN4OVRqMEZmbFU0bjhrYzJJaUxLeThJSkUwQzBOb3dFNF9zRUJrMlVqajR3eURHbTBhaTlWeUl3NnNCZVpxQ0tHSmpUSlpiNllCdEx3elItWWh4d1RhUlJ2bll5cWFjVG1zcU8yUW9rblJsVXBhQUJsRjQxUjB6MmkyTTZHWW4xYnJDdEVOajFXb1REQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance | Apps, Controversies, & Facts",
+      "explanation": "ByteDance | Apps, Controversies, & Facts",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43QVRCdnA5d1FOblR4VXlUbHN6NEEtY0txUV96dG1ZS1BiYnNULTBXQ0NzSWU4QTNha1dKNm50RVNvRThiSXc4TFNrTWNFMlM2NUg0eQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Agrees To Reel In Its AI Models To Protect Hollywood IPs",
+      "explanation": "ByteDance Agrees To Reel In Its AI Models To Protect Hollywood IPs",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVk16a0NfLUpaSXhhQVJubDJfVU91Y3lDcEhGMGpQeks5d0VBNzFScy02aUxVdWkwUmptX3NKZUJCeklvcE1WR0FVLUVOOV9naWNteDBIbnBqUGlEYVp2U3BFUWo5ZUN1TUZuNUlkaWtENlVaNGhRb21XVWc0M2FSemtSdWZvUXNnZXRGRmZFYW1QaURUQzItTE9BNGplWmVh?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok cuts 75 jobs in Seattle area, hitting e-commerce teams",
+      "explanation": "TikTok cuts 75 jobs in Seattle area, hitting e-commerce teams",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcTZaN3lTOHNHRWw3UEpFNk5LWmZyZlRJMUNFdTRmTXB2VVd2dHpiNFowa2UtNW4tRGNPdzJBYWlkNW9qSl9COUhtdFVJMERNOFR3cXhSZkM1ZE9xb09seXR6ZWxFZDhIMEpRTzVNWFM3LWNJWkgtZ3JXdXAwcTE2S252U25Ka1JEWUM1cWhia1diR2dYaVE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "How To Make Money Selling Products On TikTok Shop",
+      "explanation": "How To Make Money Selling Products On TikTok Shop",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWGFjdllrd3hYcWNqYTZHMF9qQm9kMC12VTVkR0UzLWJGam9CYm16eHR4YkE2NU5Zd0NUU0dPb1M5M0UxdDR3dU05X0dvMFQxcVVCRkV5S0pKNU56MFBpQ2Eza0t5LXJYU3BMcHlETU4xQnJZc01DMF80NWUyRnZwRVJmZms2M3JZam5RU0E3ZC1xaVVfLWNyMVVQVUlseGhGUDNkdzA3ZVpsUFhDRXc?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok to lay off 75 Bellevue employees, the second consecutive year of local job cuts",
+      "explanation": "TikTok to lay off 75 Bellevue employees, the second consecutive year of local job cuts",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDF2eUhzTWZYcnZWTVRVSUw5bHQxME9uazZJWXZEcDF2Y3V1QzdRSE0xYml2YXlCQjEtREhLanVPLTlBZmxQRDgyaEFSM1pnTDVoZG5kb2NVNGZjX2p5VVJudFRGdjYyMG90aXRkNnZTZ09yalR2bzdhZHhKcGhtelJlVDdwQkF4RVpPWWFocDI0bEJyemlSbFFTMjFZY0t5N1N5aDJYVk9pdG4wN3BXTXV2S1ZOMHg3b25uemllRUpQWnZORTRaSGJMR2pFU1EtV0HSAeYBQVVfeXFMTzdtOWxzNTJPOEFiTVFMTlhlUzVTRkJZOE1VQ0IxNW5rMXg5SU81TEpId0Y4MmpfaGhoUkctb241bVVMVU4xTEM4cEJTUnU5VUpfaHI4VDdWMWFPclRwZ1JybnoyRFF2bTNFYmI5YjRtQ18xdlFzcXZ4RWZVeHBHQUhTZGRQUTdBV0NwbDNCS0FWQ3BxSW11MjV1RWF1aWZZNm96THVUUExsbEZCeGt1aFc4NmpvRnQyTWtJekNWcTE2cUY1UWlJNnFZVG5hNERod0NFVnJZUWZWX3ltRDBYQUlmYjRvYkE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "People Can’t Stop Buying Diamonds on TikTok: ‘I Feel Like Thanos’",
+      "explanation": "People Can’t Stop Buying Diamonds on TikTok: ‘I Feel Like Thanos’",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMmtqTVR2VGMzdjRhT2V5SmR1RFVKSzF0aTlVbEdIeUNmeG9sSGcyTE5ZSXluR29HLWZ5VXRwNWxIdmRxUDdCeE9YZWc2UXFGWjFodFdFTWZ3ZWR0akNmMkhzd3lxX2ZsYkdDNnBlalJ2SGNrd2prT2pCVF9WdURQN2UtdXdhMUd0cU5oSkhHcjdZVDFsMmpxeWRyUzdtUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Your TikTok-Obsessed Teen Won't Scroll Past These Viral Gifts — From $6",
+      "explanation": "Your TikTok-Obsessed Teen Won't Scroll Past These Viral Gifts — From $6",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS3ptVUdqdHhvd1lmRm56UFBUZjcxdFNGNWNMWUEwdDdxMFRSR1pWclFUM1QwWGhTTzZsN1JvSGNOQzFCR05MXzFzdEFPTGJrRTdpMDdrLTM2bVpiSm56aUFXQXVEajc0dHdPWDVnMjVBR2J6c2h3cDliRThzdm9mcVJRaHFpZ1pHMDRsLXNuQWl4UkJUc2JUZzd0Zw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "火山引擎小规模邀测独立AI视频产品“Seedance Studio”|字节跳动|字节|迭代|免费|额度_手机新浪网",
+      "explanation": "火山引擎小规模邀测独立AI视频产品“Seedance Studio”|字节跳动|字节|迭代|免费|额度_手机新浪网",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWThfQU9CdTRlTElRLUlsQXhvWHZ6UlpYVmt5TFdCUVVwUHZTY3EzVk9pNEdrZkQ5ZUlzRjJSQTNrXzlZNGF4Z1ZxQVd5c3RFM2VrYUhFc0dxUGxQY2JLRlc1V01nSmg4elR5S1kyQ2tOM0hCSXF1QmQxOElSTUVySFh4ZG1ZRDloSVV1OGo1X1VoNXdIalpWRmthbjlrc1duZV91cXJuQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "《科创板日报》7月30日讯（记者 王耐） 今天，字节跳动启动面向AI业务的组织调整。",
+      "explanation": "《科创板日报》7月30日讯（记者 王耐） 今天，字节跳动启动面向AI业务的组织调整。",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UREFRVlZDeDhlRklIdW9heVVzYldhOTU3SGRsVmZLdkNscVJ1MUhXcU92bTBXTjd0VlNPTXdGazdDZ1VMNXUxRFVoUU9aRUwzUmVxeWZZNUhyeTFWU1pQS040ZVlEVThYZjBubFk3NS1rUDhobC1MdTlB?oc=5",
+      "local_life_hint": ""
     }
   ],
-  "mode": "ai"
+  "mode": "rule"
 }
