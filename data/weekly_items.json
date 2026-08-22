@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T07:26:39.529670+00:00",
-  "week_range": "08.17-08.21",
-  "date_display": "08.17 - 08.21",
-  "editorial_summary": "本周共汇总 33 条 AI 商业要闻，其中高影响 8 条。本周主线包括：豆包虚拟桌面上线，手机远程操控Windows电脑；字节与美国电影协会达成首份AI版权协议；飞书与豆包将整合，字节重构ToB版图；Seedance 2.5支持原生1080p，图生视频降至；字节跳动获超300亿美元银团贷款，AI投资再加码。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-22T02:41:31.265223+00:00",
+  "week_range": "08.17-08.22",
+  "date_display": "08.17 - 08.22",
+  "editorial_summary": "本周共汇总 43 条 AI 商业要闻，其中高影响 11 条。本周主线包括：豆包虚拟桌面上线，手机远程操控Windows电脑；字节与美国电影协会达成首份AI版权协议；飞书与豆包将整合，字节重构ToB版图；Seedance 2.5支持原生1080p，图生视频降至；字节跳动获超300亿美元银团贷款，AI投资再加码。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "豆包虚拟桌面上线，手机远程操控Windows电脑",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（19 条），高影响条目占比约 24%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（29 条），高影响条目占比约 26%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系AI在技术能力底座上的改造（如豆包抽佣、Seedance 2.5广告应用、飞书豆包整合），将深刻影响外投的素材生产、投放模式和成本结构，美团商业化需提前布局。",
-  "total_items": 33,
-  "high_count": 8,
+  "total_items": 43,
+  "high_count": 11,
   "items": [
     {
       "title": "豆包虚拟桌面上线，手机远程操控Windows电脑",
@@ -160,6 +160,48 @@
       "source": "新浪网",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93VlV5S1Y4WGYwZnhWZms1blNwVEQySWtUQlBhelNoWUluZkZMU2VwUTFxWnhncDZXQmQ2WU55WHpvMmJaTm9LTlBoOVlyUDJjS2VfSF9LcUZtLTZrbmFSVDVmUzEwM0ROOTZvbXhjTTI?oc=5",
       "local_life_hint": "本地生活商家需评估豆包等AI平台的抽佣成本与流量价值。"
+    },
+    {
+      "title": "豆包大模型再上车，一汽-大众ID. AURA T6接入智能座舱",
+      "explanation": "继特斯拉之后，一汽-大众ID. AURA T6也接入豆包大模型，火山引擎汽车座舱布局从新势力扩展到传统车企，覆盖燃油车与纯电车型，豆包在车载AI语音交互市场的渗透加速。",
+      "analysis_points": [
+        "豆包大模型从手机端延伸至车机端，为车主提供更自然的语音交互，支持多轮对话、上下文理解，提升驾驶场景下的智能助手体验。",
+        "对汽车品牌而言，接入豆包可快速获得成熟AI能力，降低自研成本；对本地生活商家，车机场景或成新流量入口，未来可探索车载场景的本地服务推荐。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "网通社",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zZi0ydndXZzhmck8wZGtieVBteFlfVHdjbjhSczFNMlZLSjdKUFZpLXd6bWl1U2JiRk9KWkpud21LazN3UWlEb1JjbVBZbWQtUlU5a2dwbnBGMzQ?oc=5",
+      "local_life_hint": "车机场景或成本地生活新入口，可探索车载语音推荐餐厅、加油站等，结合LBS服务。"
+    },
+    {
+      "title": "豆包做酒旅，一线酒店投了赞成票",
+      "explanation": "豆包在酒旅领域获得一线酒店认可，通过AI对话优化预订决策路径，从搜索筛选到对话即答案，提升用户体验和转化率。",
+      "analysis_points": [
+        "豆包在酒旅场景提供智能预订助手，用户可通过对话直接获取酒店信息、比价、预订，简化决策流程。",
+        "对酒店商家，接入豆包可增加曝光和预订转化，需优化对话内容以匹配用户需求。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sMzRycFlkbzR0YkZEbjNBVTlxWXdxTzgySzFvVEdpZko1ckg2NS1qLS1QelA3MkE5SWpXRzhiRWM4MXk1d3JBXw?oc=5",
+      "local_life_hint": "酒旅商家应优化在豆包等AI平台上的信息，确保对话推荐准确，提升预订转化。"
+    },
+    {
+      "title": "TikTok与字节跳动同意支付4亿美元和解儿童隐私诉讼",
+      "explanation": "TikTok及其母公司字节跳动与美国司法部达成4亿美元和解协议，解决儿童隐私诉讼，平台合规成本增加。",
+      "analysis_points": [
+        "TikTok因违反儿童在线隐私保护法被诉，和解金额巨大，平台需加强未成年人保护措施。",
+        "对广告主，平台合规趋严可能影响广告投放策略，需关注数据使用规范。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1574410.htm",
+      "local_life_hint": "广告投放需注意数据合规，避免针对未成年人的不当营销。"
     },
     {
       "title": "豆包开启付费订阅，三档定价68元起，免费服务不受影响",
@@ -510,6 +552,104 @@
       "source": "搜狐网",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNXhITmhMWFkzdWR3Y0VBdm8yUkVEaEJxTTNWRmM2Nl9MV25QVGxodDRPcnNDMWZYWlJncUJ6Ym0xSjdsN0NIeVd1TkFmQ1IzbFB1Rmc5clJ5SVRocUJrT1dFcjc1WUlab21OQWdpYW1XV05qSE5vYXZ3Tmx5S24xNFhIOXA5UGdX?oc=5",
       "local_life_hint": "本地生活商家可借鉴智能体应用，提升运营效率。"
+    },
+    {
+      "title": "豆包输入法鸿蒙版上架，语音输入复用豆包语音大模型",
+      "explanation": "豆包输入法鸿蒙版在App Gallery开启尝鲜，版本0.9.1，语音输入采用豆包同款语音大模型，支持多方言、中英混输，无网弱网可用，进一步拓展鸿蒙生态入口。",
+      "analysis_points": [
+        "豆包输入法从手机端扩展到鸿蒙系统，语音识别能力复用豆包语音大模型，提升输入效率，强化豆包在输入法场景的AI能力。",
+        "对广告主而言，输入法场景蕴含个性化推荐机会，未来可结合用户输入内容推送相关服务或广告，但需注意隐私边界。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/992/930.htm",
+      "local_life_hint": "输入法场景或成广告新触点，但需谨慎处理用户隐私，可探索基于输入意图的轻量推荐。"
+    },
+    {
+      "title": "火山引擎汽车局：AI座舱大战独开一桌",
+      "explanation": "火山引擎在汽车AI座舱领域持续布局，通过豆包大模型接入多款车型，形成差异化竞争优势，汽车行业成为字节AI商业化的重要场景。",
+      "analysis_points": [
+        "火山引擎为车企提供豆包大模型能力，覆盖语音交互、智能推荐等，帮助车企快速提升座舱智能化水平。",
+        "对本地生活商家，汽车座舱是新的流量入口，可探索车载场景的本地服务推荐，如停车、加油、餐饮等。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zOFpSREpuNFpmMm85eFZWbzY0OGxRbzcwamU2ZkJfc3dQMnZSRDh3WUg2eTNoQkM1OG9zOTlxQmJWSGttUjNtVGs3LXE1UjZiQWFpNXJpRm40X00?oc=5",
+      "local_life_hint": "车载场景或成本地生活新入口，可探索车载语音推荐餐厅、加油站等，结合LBS服务。"
+    },
+    {
+      "title": "抖音验证助手升级：可查验二维码是否为官方活动",
+      "explanation": "抖音验证助手新增二维码识别功能，帮助用户甄别仿冒抖音的诈骗快递，保障用户安全，提升平台信任度。",
+      "analysis_points": [
+        "抖音验证助手从图片识别扩展到二维码识别，用户可扫描二维码验证是否为官方活动，降低诈骗风险。",
+        "对商家，官方活动验证机制有助于打击假冒，保护品牌形象，但需确保自身活动二维码合规。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/992/902.htm",
+      "local_life_hint": "商家在抖音开展活动时，应使用官方工具生成二维码，避免被仿冒。"
+    },
+    {
+      "title": "TikTok探索私信点对点支付，社交电商闭环再进一步",
+      "explanation": "TikTok正在探索通过私信（DMs）实现点对点支付，若落地将打通社交与交易，增强用户粘性和电商闭环。",
+      "analysis_points": [
+        "TikTok计划在私信中集成支付功能，用户可直接在聊天中完成交易，提升购物便利性。",
+        "对商家，私信支付可缩短转化路径，提高成交率，但需关注支付合规。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR1BCTWtHYTJnNWk2XzEwUnRab2FvS253RXByVkRpRVM0ejR2U0R5ei05VExzajB6OTlhand3OEJHczFlcGpfQVpKQUNVNlhGWXFJTVNWbHFHYUNFS3c3ZHJXY3NwUTVjUF9qT2lrSEZlVF95N2dIb3lYTkJEanVQS2lXa19XM0IwTzlwWXFPRkxhZFdYaVdZ?oc=5",
+      "local_life_hint": "私信支付若落地，商家可引导用户私信咨询并完成交易，提升转化。"
+    },
+    {
+      "title": "TikTok Shop与OMIE合作返校季七天活动，强化营销",
+      "explanation": "TikTok Shop选择OMIE进行返校季七天聚焦活动，通过达人营销和限时优惠，提升商品曝光和销售。",
+      "analysis_points": [
+        "TikTok Shop与品牌合作开展限时活动，利用达人带货和短视频引流，提升转化。",
+        "对本地生活商家，可借鉴此类活动模式，结合节日节点进行促销。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSWJGRU1ILUx6Zjh5SFE1Z3Jtd1R1NFNkVlJEbkpsQ0otQ3ZXSnZabUlGN0dMOUpLWUFGUXNXdjBjVngwMGVWMHpZQjhzNVZ0SUg3WmxBbHBEQkhxazBCVnVzUDRqLS1ic3BteVRsM2JHMVctbEtIWG9TODZkQTNXT012QjM2N0hYcWNLc3FGR1VHVjlvcURqbE95c0taWmM?oc=5",
+      "local_life_hint": "可参考TikTok Shop的活动策划，结合本地节日开展限时促销。"
+    },
+    {
+      "title": "TikTok西雅图裁员75人，电商团队重组",
+      "explanation": "TikTok在西雅图地区裁员75人，主要影响电商团队，显示其在电商业务上进行结构调整，优化运营效率。",
+      "analysis_points": [
+        "TikTok电商团队重组，可能调整业务方向，商家需关注平台政策变化。",
+        "对本地生活商家，平台调整可能影响广告投放和运营，需灵活应对。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "GeekWire",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcTZaN3lTOHNHRWw3UEpFNk5LWmZyZlJJMUNFdTRmTXB2VVd2dHpiNFowa2UtNW4tRGNPdzJBYWlkNW9qSl9COUhtdFVJMERNOFR3cXhSZkM1ZE9xb09seXR6ZWxFZDhIMEpRTzVNWFM3LWNJWkgtZ3JXdXAwcTE2S252U25Ka1JEWUM1cWhia1diR2dYaVE?oc=5",
+      "local_life_hint": "平台调整期，商家应多元化渠道，降低依赖。"
+    },
+    {
+      "title": "TikTok Shop助力卖家在亚马逊等平台赚取数百万",
+      "explanation": "TikTok Shop不仅自身平台销售，还帮助卖家在其他平台如亚马逊上获得成功，通过内容引流和品牌曝光，实现跨平台增长。",
+      "analysis_points": [
+        "TikTok Shop通过短视频和直播为卖家引流，提升品牌知名度，进而带动其他平台销售。",
+        "对本地生活商家，可利用TikTok内容营销提升品牌，引导至自有渠道或合作平台。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdkt5dXBpX2tHeE92eFhXb3lXWWRLSE56X0VXelhCQXBqRFNTSzdVWHo0d1JLbTVnZWNMWWRrbXAtM0tudG83eDF6ekIzSXA3Y2U4RHBiM2liWGJJSWxaV3ladUNlR2xVNlNFdzdYLTVsNFdVMmNWR010RDlfY3BzVThnTWtWLTRXVlBzRnYwb0lSd1E5SE12SHBEVVhaT2ZpRkhfbFlnM3NsVExSSE1GUGRHQS1FdDJq?oc=5",
+      "local_life_hint": "本地生活商家可借助TikTok内容营销提升品牌，引导至自有渠道。"
     }
   ],
   "mode": "ai"
