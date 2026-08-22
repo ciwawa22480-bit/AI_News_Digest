@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 商业日报 · 2026年08月22日</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #f7f9fc; color: #1a1a1a; line-height: 1.7; font-size: 14px; position: relative; overflow-x: hidden; }
+/* 浅色专业风底：柔和径向光晕做底，粒子由 #particle-bg canvas 叠加，无廉价网格 */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-color: #f7f9fc;
+  background-image:
+    radial-gradient(1200px 700px at 12% -5%, rgba(99,102,241,0.10) 0%, transparent 55%),
+    radial-gradient(1000px 620px at 100% 8%, rgba(56,189,248,0.08) 0%, transparent 55%),
+    radial-gradient(900px 560px at 88% 100%, rgba(255,195,0,0.07) 0%, transparent 55%);
+}
+/* 粒子背景 canvas：铺满视口、固定、置于内容下方 */
+#particle-bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  display: block;
+}
+.header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); backdrop-filter: blur(4px); position: relative; }
+.header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
+.header .subtitle { font-size: 13px; color: #4f46e5; font-weight: 500; margin-bottom: 6px; }
+.header .date-line { font-size: 14px; color: #666; }
+.header .mode-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: #f0f9ff; color: #0369a1; margin-left: 8px; }
+.header .back-link { display: inline-block; margin-top: 10px; font-size: 13px; color: #4f46e5; text-decoration: none; }
+.header .back-link:hover { text-decoration: underline; }
+/* 美团黄袋鼠吉祥物：header 右上角点缀，缓慢上下浮动 */
+.roo-mascot { position: absolute; top: 22px; right: 28px; width: 52px; height: 52px; animation: roo-hop 3.6s ease-in-out infinite; pointer-events: none; filter: drop-shadow(0 2px 4px rgba(255,195,0,0.28)); }
+@keyframes roo-hop {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+.toggle-bar { padding: 12px 40px 0; display: flex; gap: 0; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); }
+.tab { padding: 8px 24px; border: none; background: none; font-size: 14px; color: #666; cursor: pointer; border-bottom: 2px solid transparent; font-weight: 500; }
+.tab.active { color: #4f46e5; border-bottom-color: #4f46e5; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 40px; background: transparent; }
+.editorial { padding: 16px 20px; background: #f8fafc; border-left: 4px solid #4f46e5; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 15px; color: #1e293b; line-height: 1.85; }
+.editorial-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+.editorial-body { }
+.editorial-label { display: inline-block; font-weight: 700; color: #4f46e5; margin-right: 8px; }
+/* Overview 三维结论 */
+.overview-section { margin-bottom: 24px; padding: 20px 22px; background: linear-gradient(135deg,#eef2ff 0%,#f5f3ff 100%); border: 1px solid #e0e7ff; border-radius: 12px; }
+.overview-title { font-size: 16px; font-weight: 700; color: #3730a3; margin-bottom: 14px; display: flex; align-items: center; }
+.overview-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #6366f1; border-radius: 3px; margin-right: 10px; }
+.ov-block { margin-bottom: 14px; }
+.ov-block:last-child { margin-bottom: 0; }
+.ov-head { font-size: 14px; font-weight: 600; color: #4338ca; margin-bottom: 6px; }
+.ov-hint { font-size: 11px; font-weight: 400; color: #818cf8; margin-left: 8px; }
+.ov-list { margin: 0 0 0 20px; padding: 0; list-style: disc; }
+.ov-list li { font-size: 13.5px; color: #334155; line-height: 1.7; margin-bottom: 4px; }
+/* 共性提炼板块（周报）：低调的浅青底 */
+.commonality-section { margin-bottom: 24px; padding: 18px 22px; background: linear-gradient(135deg,#ecfeff 0%,#f0f9ff 100%); border: 1px solid #bae6fd; border-radius: 12px; }
+.commonality-title { font-size: 16px; font-weight: 700; color: #075985; margin-bottom: 4px; display: flex; align-items: center; }
+.commonality-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #0ea5e9; border-radius: 3px; margin-right: 10px; }
+.commonality-tip { font-size: 12px; color: #0369a1; margin-bottom: 10px; }
+.commonality-list { margin: 0 0 0 22px; padding: 0; list-style: disc; }
+.commonality-list li { font-size: 13.5px; color: #0c4a6e; line-height: 1.7; margin-bottom: 4px; }
+.signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
+.stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
+.new-badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; cursor: help; }
+.cat-summary { font-size: 13px; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 8px 12px; border-radius: 0 6px 6px 0; margin-bottom: 14px; line-height: 1.7; }
+.insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
+.insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
+.insights-title::before { content: ""; display: inline-block; width: 5px; height: 18px; background: #f59e0b; border-radius: 3px; margin-right: 10px; }
+.insights-intro { font-size: 13.5px; color: #92400e; line-height: 1.8; margin-bottom: 16px; }
+.takeaway-list { display: flex; flex-direction: column; gap: 12px; }
+.takeaway { background: #fffdf7; border: 1px solid #fde68a; border-radius: 8px; padding: 12px 14px; }
+.tw-base { font-size: 13px; color: #7c2d12; line-height: 1.7; margin-bottom: 6px; }
+.tw-borrow { font-size: 13.5px; color: #78350f; font-weight: 500; line-height: 1.75; }
+.tw-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 4px; margin-right: 8px; vertical-align: middle; }
+.tw-tag-base { background: #fef3c7; color: #b45309; }
+.tw-tag-borrow { background: #f59e0b; color: #fff; }
+.insights-list { list-style: none; padding: 0; margin: 0; }
+.insight-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #78350f; line-height: 1.7; }
+.insight-item:last-child { margin-bottom: 0; }
+.insight-num { flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #f59e0b; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.insight-text { flex: 1; font-weight: 500; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
+.dot-high { background: #ef4444; }
+.dot-medium { background: #f59e0b; }
+.dot-low { background: #cbd5e1; }
+.digest-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; }
+.category-row td { padding: 16px 12px; vertical-align: top; border-top: 1px solid #e5e7eb; }
+.col-type { width: 70px; text-align: center; }
+.col-category { width: 90px; text-align: center; }
+.col-content { padding-left: 20px !important; }
+.type-label { font-size: 12px; color: #64748b; font-weight: 500; white-space: nowrap; }
+.cat-label { font-size: 13px; font-weight: 600; color: #1e293b; white-space: nowrap; }
+.news-item { margin-bottom: 18px; }
+.news-item:last-child { margin-bottom: 0; }
+.item-main { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 4px; }
+.item-main .dot { margin-top: 6px; }
+.item-link { color: #1e40af; text-decoration: none; font-weight: 600; font-size: 14px; }
+.item-link:hover { text-decoration: underline; }
+.item-title-text { font-weight: 600; font-size: 14px; color: #1e293b; }
+.item-explanation { color: #374151; font-size: 13.5px; margin: 4px 0 0 14px; }
+.item-source { color: #94a3b8; font-size: 11px; }
+.analysis-points { margin: 6px 0 0 34px; padding: 0; list-style: disc; }
+.analysis-points li { font-size: 13px; color: #4b5563; line-height: 1.6; margin-bottom: 3px; }
+.local-hint { margin: 6px 0 0 34px; padding: 4px 10px; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 4px; font-size: 12px; color: #0f766e; }
+.local-tag { font-weight: 600; margin-right: 6px; color: #14b8a6; }
+.archive-section { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e5e7eb; }
+.archive-title { font-size: 15px; font-weight: 600; color: #374151; margin-bottom: 4px; }
+.archive-tip { font-size: 12px; color: #94a3b8; margin-bottom: 12px; }
+.archive-month { margin-bottom: 12px; }
+.archive-month h4 { font-size: 13px; color: #64748b; margin-bottom: 6px; }
+.archive-week { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+.week-label { font-size: 12px; color: #94a3b8; min-width: 80px; }
+.date-link { font-size: 12px; color: #6366f1; text-decoration: none; padding: 2px 8px; border-radius: 4px; background: #f5f3ff; }
+.date-link:hover { background: #ede9fe; }
+.date-link-active { background: #6366f1; color: #fff; }
+.footer { padding: 24px 40px; text-align: center; color: #94a3b8; font-size: 11px; border-top: 1px solid #f1f5f9; margin-top: 32px; background: rgba(255,255,255,0.6); }
+.empty { text-align: center; padding: 60px; color: #94a3b8; }
+@media (max-width: 768px) {
+  .header, .container, .footer { padding-left: 16px; padding-right: 16px; }
+  .toggle-bar { padding-left: 16px; }
+  .col-type, .col-category { display: none; }
+  .col-content { padding-left: 0 !important; }
+  .category-row td { padding: 12px 0; }
+  .roo-mascot { width: 40px; height: 40px; top: 16px; right: 12px; }
+  .editorial-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+</style>
+</head>
+<body>
+<canvas id="particle-bg" aria-hidden="true"></canvas>
+<div class="header">
+<svg class="roo-mascot" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="美团黄袋鼠">
+<defs>
+<linearGradient id="rooGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0" stop-color="#FFD100"/>
+<stop offset="1" stop-color="#FFC300"/>
+</linearGradient>
+</defs>
+<!-- 耳朵 -->
+<path fill="#FFC300" d="M35 7c1-1 3-1 3 1 0 3-1 6-3 8-2 1-3 0-3-2 0-2 1-5 3-7z"/>
+<path fill="#FFC300" d="M41 9c1-1 3 0 3 2 0 3-1 5-3 7-1 1-3 1-3-1 0-3 1-6 3-8z"/>
+<!-- 头 -->
+<circle cx="41" cy="20" r="7" fill="url(#rooGrad)"/>
+<!-- 眼睛 -->
+<circle cx="43" cy="19" r="1.4" fill="#222"/>
+<!-- 身体+尾巴（一笔剪影） -->
+<path fill="url(#rooGrad)" d="M36 26c-6 0-11 4-13 10-1 3-3 6-6 8-2 2-4 3-5 5-1 1 0 3 2 3h13c2 0 3-1 3-3 0-2 1-4 3-5 3-2 6-2 9-2 3 0 5-2 5-5 0-2-1-4-3-5l-3-1c-2-1-3-3-5-5z"/>
+<!-- 前爪 -->
+<path fill="#E6A800" d="M31 33c1-1 3-1 4 0 1 1 1 3 0 3l-4 1c-1 0-1-3 0-4z"/>
+</svg>
+<h1>AI 商业日报</h1>
+<div class="subtitle">字节系 AI 商业化动态 · DeepSeek 精选</div>
+<div class="date-line">2026年08月22日 周六 <span class="mode-badge">DeepSeek AI 精选</span></div>
+
+</div>
+<div class="toggle-bar"><button id="btn-daily" onclick="switchView('daily')" class="tab active">日报</button><button id="btn-weekly" onclick="switchView('weekly')" class="tab">周报</button></div>
+<div class="container">
+<div id="daily-view"><div class="editorial"><div class="editorial-head"><span class="editorial-label">编辑导读</span></div><div class="editorial-body">今日字节系AI商业化多点开花：豆包输入法鸿蒙版上架，语音识别能力再升级，标志着豆包生态向系统级入口渗透；豆包PC版变身Codex，编程代理能力凸显，进一步拓展AI生产力场景；巨量引擎暑期教培广告专项治理封禁违规账户1500余个，显示平台对广告合规的重视；同时，字节跳动与美国电影协会签署AI版权协议，为Seedance和Seedream模型提供版权保护，降低商业化风险；此外，TikTok Shop上半年GMV达500亿美元，电商业务持续高增长，为AI广告投放提供巨大流量池。整体来看，字节系AI商业化正从模型能力、生态入口、合规治理、电商变现等多维度加速推进。</div></div><section class="overview-section"><h3 class="overview-title">本期要点概述</h3><div class="ov-block"><div class="ov-head">🚀 新产品功能<span class="ov-hint">哪个公司有什么新功能、具体怎么实现</span></div><ul class="ov-list"><li>豆包输入法鸿蒙版0.9.1上架，语音输入采用豆包同款语音大模型，支持多方言、中英混输，快速/轻声说话精准识别，无网弱网可用，拓展鸿蒙生态入口。</li><li>豆包PC版升级为Codex，具备编程代理能力，可自动执行复杂任务，从对话助手向生产力工具进化，提升用户粘性和付费意愿。</li></ul></div><div class="ov-block"><div class="ov-head">💬 网上观点<span class="ov-hint">报道/分析师的新观点与论据</span></div><ul class="ov-list"><li>有观点认为，豆包大模型上车特斯拉，标志着车载AI语音交互进入双模型协作时代，豆包作为第三方AI首次进入特斯拉车机，为火山引擎汽车行业布局打开新空间。</li><li>业内分析指出，字节跳动与美国电影协会的版权协议是AI视频生成领域首个版权休战，为Seedance等模型扫清版权障碍，可能加速其在影视行业的商业化应用。</li></ul></div><div class="ov-block"><div class="ov-head">🌐 行业生态<span class="ov-hint">基于这些文章看到的行业态势</span></div><ul class="ov-list"><li>字节系AI商业化生态正从模型层向应用层和平台层延伸，豆包输入法、豆包PC版等入口级产品不断丰富，同时通过版权协议和广告治理规范生态，为商业化铺路。</li><li>TikTok Shop GMV高速增长，电商生态繁荣，为AI广告投放和商家营销提供巨大流量池，巨量引擎等广告平台有望受益。</li></ul></div></section><div class="signal-legend">信号等级：<span class="dot dot-high"></span>高影响 / <span class="dot dot-medium"></span>中影响 / <span class="dot dot-low"></span>信息流</div><div class="stats">共 4 条精选 · 2 条高影响 · <span class="new-badge" title="对比 2026-08-21 日报去重后统计">▲ 较昨日新增 4 条</span></div><table class="digest-table"><tbody><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">大厂动向</span></td><td class="col-content"><div class="cat-summary">字节跳动通过豆包输入法鸿蒙版、豆包PC版Codex等产品更新，持续扩展AI应用场景；同时与美国电影协会签署版权协议，为AI视频和图像模型商业化扫清障碍；特斯拉接入豆包大模型，标志火山引擎在汽车行业取得突破。</div><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://www.ithome.com/0/992/930.htm" target="_blank" class="item-link">豆包输入法鸿蒙版上架，语音识别再升级</a><span class="item-source">(IT之家)</span></div><div class="item-explanation">豆包输入法鸿蒙版0.9.1在App Gallery开启尝鲜，语音输入采用豆包同款语音大模型，支持多方言、中英混输，快速/轻声说话精准识别，无网弱网可用。这标志着豆包AI能力向系统级入口渗透，扩大用户触达。</div><ul class="analysis-points"><li>豆包输入法从基础键盘输入升级为AI语音输入，语音识别能力大幅提升，支持复杂场景。</li><li>对商家而言，豆包输入法作为高频入口，未来可能成为AI营销新触点，可关注其商业化潜力。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>豆包输入法语音识别能力增强，未来可能应用于本地生活场景的语音搜索和点餐，提升用户体验。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sMzRycFlkbzR0YkZEbjNBVTlxWdxTzgySzFvVEdpZko1ckg2NS1qLS1QelA3MkE5SWpXRzhiRWM4MXk1d3JBXw?oc=5" target="_blank" class="item-link">豆包做酒旅，一线酒店投了赞成票</a><span class="item-source">(品玩)</span></div><div class="item-explanation">豆包在酒旅领域获得一线酒店认可，酒店预订决策路径从搜索筛选转向对话即答案。豆包通过AI对话直接推荐酒店，提升预订效率，可能改变酒旅行业的流量分配。</div><ul class="analysis-points"><li>豆包从通用助手切入垂直行业，提供定制化酒旅服务。</li><li>对酒店商家而言，需优化在豆包中的信息，以获取AI推荐流量。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>豆包酒旅模式为本地生活商家提供新思路，可优化AI对话中的信息展示，争取AI推荐。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://www.ithome.com/0/992/930.htm" target="_blank" class="item-link">豆包输入法鸿蒙版上架，语音识别再升级</a><span class="item-source">(IT之家)</span></div><div class="item-explanation">豆包输入法鸿蒙版0.9.1在App Gallery开启尝鲜，语音输入采用豆包同款语音大模型，支持多方言、中英混输，快速/轻声说话精准识别，无网弱网可用。这标志着豆包AI能力向系统级入口渗透，扩大用户触达。</div><ul class="analysis-points"><li>豆包输入法从基础键盘输入升级为AI语音输入，语音识别能力大幅提升，支持复杂场景。</li><li>对商家而言，豆包输入法作为高频入口，未来可能成为AI营销新触点，可关注其商业化潜力。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>豆包输入法语音识别能力增强，未来可能应用于本地生活场景的语音搜索和点餐，提升用户体验。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sMzRycFlkbzR0YkZEbjNBVTlxWdxTzgySzFvVEdpZko1ckg2NS1qLS1QelA3MkE5SWpXRzhiRWM4MXk1d3JBXw?oc=5" target="_blank" class="item-link">豆包做酒旅，一线酒店投了赞成票</a><span class="item-source">(品玩)</span></div><div class="item-explanation">豆包在酒旅领域获得一线酒店认可，酒店预订决策路径从搜索筛选转向对话即答案。豆包通过AI对话直接推荐酒店，提升预订效率，可能改变酒旅行业的流量分配。</div><ul class="analysis-points"><li>豆包从通用助手切入垂直行业，提供定制化酒旅服务。</li><li>对酒店商家而言，需优化在豆包中的信息，以获取AI推荐流量。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>豆包酒旅模式为本地生活商家提供新思路，可优化AI对话中的信息展示，争取AI推荐。</div></div></td></tr></tbody></table><section class="insights-section"><h3 class="insights-title">外投团队的借鉴 · 技术底座视角</h3><p class="insights-intro">字节系AI商业化正从模型能力、生态入口、合规治理、电商变现等多维度加速推进，为外投团队提供了新的技术底座和商业化范式。</p><div class="takeaway-list"><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>豆包PC版升级为Codex，具备编程代理能力，可自动执行复杂任务，从对话助手向生产力工具进化。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>对美团商业化团队而言，可借鉴豆包PC版的代理能力，开发自动化广告投放脚本，根据商家预算自动生成和优化广告素材，提升投放效率。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>豆包工作任务模式新增虚拟桌面功能，支持手机远程操控Windows电脑，实现远程办公和自动化任务。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>美团商业化团队可利用远程操控能力，为商家提供远程店铺管理工具，如远程更新菜单、查看经营数据，增强商家粘性。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>字节与美国电影协会签署版权协议，为Seedance和Seedream模型提供版权保护，降低AI生成内容的合规风险。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>美团商业化团队在利用AI生成广告素材时，可借鉴字节的版权合规机制，确保素材不侵权，降低法律风险。</div></div></div></section></div><div id="weekly-view" style="display:none;"><div class="editorial"><div class="editorial-head"><span class="editorial-label">编辑导读</span></div><div class="editorial-body">本周共汇总 35 条 AI 商业要闻，其中高影响 9 条。本周主线包括：豆包虚拟桌面上线，手机远程操控Windows电脑；字节与美国电影协会达成首份AI版权协议；飞书与豆包将整合，字节重构ToB版图；Seedance 2.5支持原生1080p，图生视频降至；字节跳动获超300亿美元银团贷款，AI投资再加码。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类&#x27;拿商家预算做外部广告投放(外投)&#x27;的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在&#x27;技术能力底座&#x27;上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末&#x27;外投团队的借鉴&#x27;。</div></div><section class="overview-section"><h3 class="overview-title">本期要点概述</h3><div class="ov-block"><div class="ov-head">🚀 新产品功能<span class="ov-hint">哪个公司有什么新功能、具体怎么实现</span></div><ul class="ov-list"><li>豆包虚拟桌面上线，手机远程操控Windows电脑</li><li>LibTV帮创作者学会Seedance 2.5，生态适配加速</li><li>Edu.AI上线Seedance 2.5，探索教学场景应用</li></ul></div><div class="ov-block"><div class="ov-head">💬 网上观点<span class="ov-hint">报道/分析师的新观点与论据</span></div><ul class="ov-list"><li>字节AI&#x27;先慢后快&#x27;战略重塑行业，36氪深度分析</li><li>抖音的&#x27;携程梦&#x27;，豆包来实现？</li><li>MiniMax H3低价竞争，Seedance 2.5安全身位受关注</li></ul></div><div class="ov-block"><div class="ov-head">🌐 行业生态<span class="ov-hint">基于这些文章看到的行业态势</span></div><ul class="ov-list"><li>字节与美国电影协会达成首份AI版权协议</li><li>火山引擎小规模邀测独立AI视频产品Seedance Studio</li><li>特斯拉车机接入豆包大模型，火山引擎官宣推送</li></ul></div></section><section class="commonality-section"><h3 class="commonality-title">共性提炼</h3><div class="commonality-tip">跨条目的高频主题与趋势结论</div><ul class="commonality-list"><li>本周内容重心在「大厂动向」（21 条），高影响条目占比约 26%，商业化叙事仍由头部驱动。</li><li>火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。</li><li>AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。</li><li>大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。</li><li>资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。</li></ul></section><div class="signal-legend">信号等级：<span class="dot dot-high"></span>高影响 / <span class="dot dot-medium"></span>中影响 / <span class="dot dot-low"></span>信息流</div><div class="stats">共 35 条精选 · 9 条高影响</div><table class="digest-table"><tbody><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">大厂动向</span></td><td class="col-content"><div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://www.ithome.com/0/991/073.htm" target="_blank" class="item-link">豆包虚拟桌面上线，手机远程操控Windows电脑</a><span class="item-source">(IT之家)</span></div><div class="item-explanation">豆包工作任务模式新增“虚拟桌面”功能，用户可通过手机远程操控Windows电脑，基于通用GUI能力，无需API/插件即可操作应用、浏览网页、完成跨软件任务。这标志着豆包从对话助手向智能体执行平台进化。</div><ul class="analysis-points"><li>豆包从被动问答升级为主动执行，能像人一样操作电脑，完成复杂任务，提升自动化能力。</li><li>对商家而言，可借助豆包虚拟桌面实现自动化运营，如批量处理订单、管理后台，降本增效。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可利用豆包虚拟桌面自动化处理日常运营，如自动回复、数据整理，提升效率。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxOdU1ONEFWUlFsY1BRU3JteFBXbXd6YUx5NzBpMlRfZVdKT0xESnZ2cUxXckpiaDJ6S1BVek8zRWhlVmxkcEM3TEdpZVRSZmlSbUljWHRYUkhodnloNGd1bHpTeUU4dkhYLVVJTWZWQ2ZKSVIwN3ExXzhYNVdDcTJUeVdMNmRVeW1ER1N5dlNzbjllZFdPZ3VuUjdpUkJKR3RFNHZlY3J2ZlREY3RUVzM3T3Z6TQ?oc=5" target="_blank" class="item-link">字节与美国电影协会达成首份AI版权协议</a><span class="item-source">(Reuters)</span></div><div class="item-explanation">字节跳动与美国电影协会（MPA）宣布就AI视频和图像生成模型的知识产权保护达成合作协议，这是好莱坞与AI公司之间的首份“休战协议”。协议旨在限制AI模型对受版权保护内容的滥用，保护创作者权益。</div><ul class="analysis-points"><li>字节主动与好莱坞合作，建立AI版权保护机制，降低法律风险，提升行业信任。</li><li>对内容创作者和品牌而言，版权保护增强，可更放心使用字节AI工具进行创作和营销。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>版权保护增强有助于本地生活商家放心使用AI生成营销素材，避免侵权风险。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5" target="_blank" class="item-link">飞书与豆包将整合，字节重构ToB版图</a><span class="item-source">(财联社)</span></div><div class="item-explanation">据财联社报道，字节跳动正计划将飞书与豆包整合，旨在打造统一的“AI工作入口”。飞书已召开员工会议讨论整合事宜，此举将强化字节在ToB领域的AI能力，与钉钉、企业微信等竞争。</div><ul class="analysis-points"><li>飞书与豆包整合将实现办公协作与AI助手的深度融合，提升企业办公效率。</li><li>对商家而言，未来可通过飞书+豆包实现智能化客户管理、营销自动化，降低运营成本。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可关注飞书+豆包整合带来的智能办公工具，提升内部管理和营销效率。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTFB2THBXLVQtVWxuR3QzcE00RnFDNkZkV1lFcHRRNlhGM3BkTy00Z0h2MXg5NTh1R0RFTEV2OUhLcDVndF9hSHJkeHVCSktvQQ?oc=5" target="_blank" class="item-link">Seedance 2.5支持原生1080p，图生视频降至2.7元/秒</a><span class="item-source">(观点网)</span></div><div class="item-explanation">火山引擎Seedance 2.5模型升级，支持原生1080p视频生成，图生视频价格降至约2.7元/秒，大幅降低视频生成成本。这将推动AI视频在广告、内容创作等领域的规模化应用。</div><ul class="analysis-points"><li>Seedance 2.5画质提升至1080p，且价格下降，使高质量AI视频生成更普惠。</li><li>对广告主而言，可低成本批量生成高清视频素材，提升广告创意效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可用Seedance 2.5低成本生成高清探店视频、广告素材，提升内容质量。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQX21PeFpmTVU5V3hXaUwyTGNsa2VNcGJabVl4Rl9LTWotZksxS0NJLXl5Wlk5dFJ2cmY1SnJmSjNjRnlTUk9UUVFiNjd1dllfYWRrZV8zbWE0SEtPYnp1THZEREtpalVTTTBxeDVPdnFfQVctVGs3Z1VEZGdfVkU1ZG0xbjZmUk1IREtDVG43azRmaU1rOVdxTDJleXBtNjVOeDVkZTVGVnh5cEVGUDJUR1pB?oc=5" target="_blank" class="item-link">字节跳动获超300亿美元银团贷款，AI投资再加码</a><span class="item-source">(Bloomberg)</span></div><div class="item-explanation">字节跳动为AI业务吸引超300亿美元贷款订单，远超原计划的200亿美元，显示金融机构对其AI前景的强烈信心，为AI研发和扩张提供充足弹药。</div><ul class="analysis-points"><li>要点1：字节跳动启动200亿美元融资计划，实际获得超300亿美元认购，包含增发选项，资金将用于AI基础设施和研发。</li><li>要点2：对广告销售而言，字节充裕资金意味着AI广告产品（如巨量引擎AI工具）迭代加速，可关注新投放能力。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>字节资金充裕可能加大本地生活广告投入，外投团队可关注抖音本地生活广告产品升级。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQWThfQU9CdTRlTElRLUlsQXhvWHZ6UlpYVmt5TFdCUVVwUHZTY3EzVk9pNEdrZkQ5ZUlzRjJSQTNrXzlZNGF4Z1ZxQVd5c3RFM2VrYUhFc0dxUGxQY2JLRlc1V01nSmg4elR5S1kyQ2tOM0hCSXF1QmQxOElSTUVySFh4ZG1ZRDloSVV1OGo1X1VoNXdIalpWRmthbjlrc1duZV91cXJuQQ?oc=5" target="_blank" class="item-link">火山引擎小规模邀测独立AI视频产品Seedance Studio</a><span class="item-source">(新浪网)</span></div><div class="item-explanation">火山引擎开始小规模邀测独立AI视频产品Seedance Studio，该产品独立于即梦，提供更专业的视频生成与编辑工具，面向专业创作者。此举或为字节在AI视频领域构建更完整的产品矩阵，强化Seedance生态。</div><ul class="analysis-points"><li>Seedance Studio是独立于即梦的AI视频产品，提供视频生成与编辑功能，面向专业创作者，与即梦形成互补。</li><li>对广告主而言，Seedance Studio可能提供更专业的视频素材生产工具，降低高质量广告视频的制作门槛。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>广告主可利用Seedance Studio生成高质量本地生活场景视频素材，提升广告创意效率。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNdFM4OWR2U08wNzI4bHNtamctTmNreUU3cVNUdlZUS0NrTFdSckVRTmRQYUtsTVBlSTlQSDM0Tll2WUk5VnhWLXgwcENFSU41cHpPaE5UaG5feFJ6R29xV2pWMmdneHFNZHZaeldVa3dnWVo3V1NsaFduZ2VkQW9La29kZG1ncXVhWS1ibg?oc=5" target="_blank" class="item-link">特斯拉车机接入豆包大模型，火山引擎官宣推送</a><span class="item-source">(搜狐网)</span></div><div class="item-explanation">火山引擎宣布特斯拉车机开始陆续推送豆包大模型，豆包正式进入特斯拉车型。此前豆包已与别克、上汽等合作，此次与特斯拉的合作标志着豆包在智能座舱领域的重要突破，进一步巩固其在汽车AI市场的地位。</div><ul class="analysis-points"><li>豆包大模型接入特斯拉车机，提供智能语音交互、导航、娱乐等功能，提升驾驶体验。</li><li>对本地生活商家，豆包在车机场景的渗透可能带来新的车载营销入口，如推荐附近餐厅、加油站等。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>车载场景的豆包可成为本地生活服务的新入口，商家可探索车载语音推荐、到店优惠等合作。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sMzRycFlkbzR0YkZEbjNBVTlxWdxTzgySzFvVEdpZko1ckg2NS1qLS1QelA3MkE5SWpXRzhiRWM4MXk1d3JBXw?oc=5" target="_blank" class="item-link">豆包做酒旅，一线酒店投了赞成票</a><span class="item-source">(品玩)</span></div><div class="item-explanation">豆包在酒旅领域获得一线酒店认可，酒店预订决策路径从搜索筛选转向对话即答案。豆包通过AI对话直接推荐酒店，提升预订效率，可能改变酒旅行业的流量分配。</div><ul class="analysis-points"><li>豆包从通用助手切入垂直行业，提供定制化酒旅服务。</li><li>对酒店商家而言，需优化在豆包中的信息，以获取AI推荐流量。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>豆包酒旅模式为本地生活商家提供新思路，可优化AI对话中的信息展示，争取AI推荐。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qd1AtLUF3bjBkTFB5d3I1UEh6OVpKdlNfZnV0dUQxdlNKb1VLajdhWWF1YWZnNkQzZkdHS0FrME5ZeXFFZkU2T182ak9wT3ZSOElPNA?oc=5" target="_blank" class="item-link">豆包开启付费订阅，三档定价68元起，免费服务不受影响</a><span class="item-source">(yicai.com)</span></div><div class="item-explanation">豆包正式开启付费订阅，提供三档定价，最低68元/月，免费服务不受影响，标志着C端AI商业化迈出重要一步。</div><ul class="analysis-points"><li>豆包从免费工具转向订阅制，提供更多高级功能。</li><li>对用户而言，付费可获得更强大能力，但需评估性价比。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可关注豆包付费用户群体，作为精准营销的目标受众。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9pSmxVOGgtejBzdjRFNm94c25oNWhjT0I4Z2YtNEZFWktYcUFHNm9JVURZNTJTb0VUNk5RUWNJUkVoMHJOeklFVzhQNWJkeDh0ajRTVXA2MzNydHJkcVpYQndkd3hNeXYtY3NiRHZB?oc=5" target="_blank" class="item-link">即梦Seedance 2.5上新，游戏开发圈心动</a><span class="item-source">(风闻)</span></div><div class="item-explanation">即梦Seedance 2.5性能再进阶，吸引游戏开发圈关注，AI视频生成在游戏开发中的应用潜力巨大。</div><ul class="analysis-points"><li>Seedance 2.5支持更长的视频生成，满足游戏CG制作需求。</li><li>对游戏开发者而言，AI视频生成可降低CG制作成本，加速内容生产。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借鉴AI视频生成技术制作宣传片，提升品牌形象。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9aTHhmSHVIcnRXQWpDekNGcDh2SW5iaTVSOXR5WGZGNWpjY2dTNGlieTJTZmFXR3lFYTdMaW8zMFdkc2xQbUpVdFdzVWVVeXRjcDBCLU01UWZvQVpHUlhNckl4eWVfNnRvTE9KOW56aW5FdklK?oc=5" target="_blank" class="item-link">豆包“工作任务”升级，支持手机远程操控电脑</a><span class="item-source">(雷峰网)</span></div><div class="item-explanation">豆包工作任务模式新增虚拟桌面功能，用户可通过手机远程操控Windows电脑，实现跨设备任务自动化。该功能基于通用GUI能力，无需API/插件，降低了使用门槛。</div><ul class="analysis-points"><li>豆包从单一对话升级为可执行复杂任务的智能体，提升自动化能力。</li><li>对远程办公和商家运营而言，可随时随地操控电脑，提高灵活性。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可远程管理门店电脑系统，如更新菜单、处理订单，提升运营效率。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-low" title="信息流"></span><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXTllZR0hTc0kwdmtVcm1iV0dxbFVncWFzRTI2akI0NU04Z2MzczZod1ZxQmU5MkNjSE1nal9JNFFkOVlUR0Z6TmYtMDB4X0lRUHRlS2RrVlQ0OEE?oc=5" target="_blank" class="item-link">豆包大模型上车，别克至境E7智能座舱体验升级</a><span class="item-source">(汽车之家)</span></div><div class="item-explanation">别克至境E7搭载豆包大模型，智能座舱更“聪明有人情味”。豆包大模型在汽车领域的应用不断扩展，提升车载交互的自然度和个性化。</div><ul class="analysis-points"><li>豆包大模型赋能汽车座舱，提供更自然的语音交互和个性化服务。</li><li>对汽车品牌而言，AI座舱成为差异化卖点，吸引年轻消费者。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>车载AI可推荐附近餐厅、加油站等，为本地生活商家带来新流量入口。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ybnRNUzlKa0NNeWxJd0g1V1kwWk83WEIyeVotaHpFYjFLTkRsQ2xrbHNDMXVSenVmTXcwX2ZZNzhGalBfLUVBcWlWeFVz?oc=5" target="_blank" class="item-link">豆包PC版变身Codex，编程代理能力凸显</a><span class="item-source">(华尔街见闻)</span></div><div class="item-explanation">有报道指出豆包PC版已进化成类似Codex的编程代理，能执行复杂任务，显示豆包从聊天助手向生产力工具转型，拓展企业级应用场景。</div><ul class="analysis-points"><li>要点1：豆包PC版能力升级，支持代码生成、执行和调试，可辅助开发工作，提升开发效率。</li><li>要点2：对广告技术团队而言，可利用豆包PC版自动化生成投放脚本或数据分析，加速营销技术迭代。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>豆包编程能力可辅助广告投放系统开发，提升外投技术效率。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qQTZxOFdKb1BqSTFYUkJkSnFVQldleDk5aWhFSGR5QWd6U1Q5UXJ1YkltTnktSFZmOGExODdXSFY4WVRqdFdyQS0xYWFGOUU?oc=5" target="_blank" class="item-link">豆包开启抽佣模式，AI商业化加速</a><span class="item-source">(新蓝网)</span></div><div class="item-explanation">豆包在收费后开始对AI交易抽佣，标志AI商业化进入独立定价时代，引发对AI流量变现模式的讨论，显示字节正探索多元化盈利路径。</div><ul class="analysis-points"><li>要点1：豆包对通过AI完成的交易抽取佣金，类似电商平台抽成，为AI服务创造新收入来源。</li><li>要点2：对商家而言，AI导流交易成本增加，需评估ROI；外投团队可关注豆包生态的广告机会。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>豆包抽佣可能影响本地生活交易成本，外投需关注AI导流效果与成本平衡。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1NOFEweHRRc09LejhYSmpjZGZqcVFSRHRoZDR4UnNwOTBBLWxtQ0dXaUNycXM5WGNYM2JTZzh4VjgtUEhHdUJyWDRxdXNqRXQ3VUl4N1Q4TlY0dDY2OVM1cm5yNEpydlJCNkhjQ0xR?oc=5" target="_blank" class="item-link">抖音电商GMV增速下降，给豆包输血引争议</a><span class="item-source">(中华网财经)</span></div><div class="item-explanation">报道指出抖音电商GMV增速放缓，正通过给豆包输血寻求新增长，但电商自身输血能力存疑，引发对字节AI商业化可持续性的讨论。</div><ul class="analysis-points"><li>要点1：抖音电商增速下降，字节将资源倾斜给AI业务，可能影响电商广告投入。</li><li>要点2：对本地生活商家而言，需关注抖音电商流量变化，调整投放策略；外投团队可探索AI驱动的营销新方式。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>抖音电商流量增速放缓，外投需更注重ROI，可结合AI工具优化投放。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1PUUYtVVdhb1pUWVU3MVFNdVZjdll5a3Nlc3pfNkJyTXZtN3RPenJSUlBkOElIeDBQQ3dJejZRTmU3WFJQYzRGTkowZjdkd3BxUnM5bE9BYXVwT3JYa3UyQ1Q1dWVEQ1JBQTNCLWdn?oc=5" target="_blank" class="item-link">Edu.AI上线Seedance 2.5，探索教学场景应用</a><span class="item-source">(中华网科技频道)</span></div><div class="item-explanation">Edu.AI平台上线Seedance 2.5，支持30秒AI视频生成，应用于教学场景，如课件制作、虚拟实验演示等。Seedance 2.5的加入为教育领域提供新的内容创作工具，可能推动AI在教育行业的落地。</div><ul class="analysis-points"><li>Edu.AI集成Seedance 2.5，教师可快速生成教学视频，丰富教学形式。</li><li>对教育机构，AI视频生成可降低内容制作成本，提升教学效率；对字节，拓展了Seedance在教育领域的应用场景。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活培训类商家可利用AI视频生成课程宣传素材，提升吸引力。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMimANBVV95cUxQaUdmcFppTnd2dTY0QTZaSFl5enBMYTFJNjA5Z1VqSFNqbnNFS3JDSWhjZ0lXT1g4ajdXT0ZIQWFsX2lIUEtqeXU2cXJIY0JHV0Q1am1PT1A0eDY4TlZBT0N4Ql9jQ1paeUQ5WjB1bDI5ZnJUNGlwVkxTVXIzTzVJYU5MeGFGWHhRYnN0ZWltTHo5QmJhc3Jya1hMdHVCelZUUF93NVFmM0FwaXU0TmIxQUIzczdZUG40ZzkyQkctckxIRkNUSkJHMjZVLWt2alNMY0xFeWJhLWVQc1lHdlkwQWxzNGFqb2ktRmxQVTI5ZGJrbDhvcWlzc1dnMTJwbGVCX1ZrZmpwRU91ei1DNWtKcVJ5WTBOMV9UOGh0ZS1HVnBsR0RxSG1zVHVUeUFEa1NfdG5xQ0pScGR3d3RlM25OU3JNSVgzQkNBZi1LTnlQUmNXQm5IRWhsTlBUTjU2OWhHTkV0TU1BU3R0WFNROENnaGZTTGhZWFBzMEJVeXZPOXl6d09wbFFaLUxjZlVTOVpMQkxCZzQxZzU?oc=5" target="_blank" class="item-link">TikTok Shop计划本月在墨西哥上线，卖家已开始布局</a><span class="item-source">(MediaPost)</span></div><div class="item-explanation">TikTok Shop宣布将于本月在墨西哥上线，当地卖家已开始在该区域开店。这是TikTok Shop在拉美市场的重要扩张，可能带来新的电商增长点。</div><ul class="analysis-points"><li>TikTok Shop进入墨西哥市场，为当地商家提供新的销售渠道。</li><li>对跨境商家，墨西哥市场潜力大，可提前入驻抢占先机；对字节，电商全球化布局再进一步。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可关注TikTok Shop墨西哥站，探索跨境本地生活服务。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE1tTVV3NU9FeWVVRjV0ODRUNmc5ZmphQUphWlhuUk1kUVBFaFVoS0V1RV9LWlFLMzdBWTZPZDItNVM4ZjlnalFWVQ?oc=5" target="_blank" class="item-link">豆包重塑酒店预订决策路径，从搜索筛选到对话即答案</a><span class="item-source">(品玩)</span></div><div class="item-explanation">豆包通过对话式交互重塑酒店预订决策路径，用户可直接与AI对话获取推荐，简化预订流程。这标志着AI在本地生活服务领域的应用深化。</div><ul class="analysis-points"><li>豆包提供对话式酒店预订，用户可自然语言查询、比价、下单。</li><li>对酒店商家，豆包可能成为新的预订渠道，需优化在AI平台上的信息展示和价格策略。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家应关注豆包等AI平台的流量入口，优化信息展示。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPaGd1R0VFSU5tX25rcTQ1ejFzcmFIaXl6b241djVKTUxBbDlaNEZDLXZkN2RRWEZIcmpNeFYzakJBTTZ0RnlIek5vSjgtTVZ1U3RyQ0lva3ZDZUd2MUpLc09LNW5TbUZ6UjJ4U0ZReHBfWmVwWnBwS2d2SUUtVlhwZW9rVzM?oc=5" target="_blank" class="item-link">豆包远程操作电脑功能实测，手机控电脑需满足条件</a><span class="item-source">(finance.sina.com.cn)</span></div><div class="item-explanation">豆包工作任务模式支持虚拟桌面操作Windows电脑，手机可远程操控电脑，实测显示需满足特定条件，协同办公能力再升级。</div><ul class="analysis-points"><li>豆包从对话助手升级为远程控制工具，实现手机对电脑的跨设备操作。</li><li>对商家，可远程管理店铺电脑，提升运营灵活性。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可远程管理店铺电脑，提升运营效率。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiMmZlTnljLXlaS0FJNjJxYzctX3o0UVNnRFFxVGFQVVhjamQwYjlSLU9kc3RMQVVBYnBDZGJnTW1FaVJEWmR5SU1YUFBQMkZXMExYck5LTzBpbFU5eFE?oc=5" target="_blank" class="item-link">豆包大模型上线特斯拉，副驾智能助手引热议</a><span class="item-source">(thepaper.cn)</span></div><div class="item-explanation">特斯拉接入豆包大模型，上线副驾智能助手，引发全民调侃，AI上车话题热度高。</div><ul class="analysis-points"><li>豆包成为特斯拉副驾智能助手，提供自然语言交互。</li><li>对商家，车载场景或成新流量入口，可探索车载语音推荐。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>车载场景为本地生活服务提供新入口。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://www.ithome.com/0/992/930.htm" target="_blank" class="item-link">豆包输入法鸿蒙版上架，语音识别再升级</a><span class="item-source">(IT之家)</span></div><div class="item-explanation">豆包输入法鸿蒙版0.9.1在App Gallery开启尝鲜，语音输入采用豆包同款语音大模型，支持多方言、中英混输，快速/轻声说话精准识别，无网弱网可用。这标志着豆包AI能力向系统级入口渗透，扩大用户触达。</div><ul class="analysis-points"><li>豆包输入法从基础键盘输入升级为AI语音输入，语音识别能力大幅提升，支持复杂场景。</li><li>对商家而言，豆包输入法作为高频入口，未来可能成为AI营销新触点，可关注其商业化潜力。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>豆包输入法语音识别能力增强，未来可能应用于本地生活场景的语音搜索和点餐，提升用户体验。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">初创动向</span></td><td class="col-content"><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE83WlM1ckdHMHltV3ZJcUxBVkZTTXU5R05EaExFM0JrZkVLeXJab3dOS2xpcFBfRDdPX3EtU2RKYXloYnJtQ2NYVDJLRVptcWEw?oc=5" target="_blank" class="item-link">字节前员工创业公司年入47亿，冲刺港股IPO</a><span class="item-source">(36氪)</span></div><div class="item-explanation">92年字节前员工创立的AI独角兽年入47亿，估值200亿，冲刺港股IPO，显示字节系人才创业成功，AI创业生态活跃。</div><ul class="analysis-points"><li>要点1：该公司由字节前员工创立，年营收47亿元，估值200亿元，即将港股上市。</li><li>要点2：字节系创业公司崛起，可能成为字节生态合作伙伴，外投团队可关注其AI产品在营销领域的应用。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>字节系创业公司可能提供新的营销工具，外投可关注其产品。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-low" title="信息流"></span><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsR0xjOXZILVAzOEU2aHl2TmlkeElFVFVYYXdNYU9WdWd0aUFUdnNOa0xXbmpsZ0V3T2JBUTFOR2tDanVadW8tNVRsNC1qMnhQcEEwc0RWWDVXa2c?oc=5" target="_blank" class="item-link">LibTV帮创作者学会Seedance 2.5，生态适配加速</a><span class="item-source">(风闻)</span></div><div class="item-explanation">Seedance 2.5上线后，LibTV等第三方工具帮助创作者快速上手新模型，显示AI视频生态的协同发展，第三方工具在模型普及中扮演重要角色。</div><ul class="analysis-points"><li>要点1：LibTV提供教程和工具，帮助创作者适应Seedance 2.5的新特性，提升创作效率。</li><li>要点2：对广告创作者而言，借助第三方工具可更快掌握新模型，制作高质量广告素材。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>第三方工具降低AI视频使用门槛，外投可快速生成本地生活场景广告。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5haTFUYnFaRVdYZ2hqeXlRaFk0QVM5Qmg2U1UwTm9EM1pfMkFxMGZBQTVybzJELUpxOGJqTlVXMTFJVm10a3k3YVBqbUNMUy1SYjhJcg?oc=5" target="_blank" class="item-link">AI CP账号批量崛起，抖音虚拟情侣实现百万销售额</a><span class="item-source">(虎嗅)</span></div><div class="item-explanation">抖音AI CP账号批量崛起，虚拟情侣实现百万销售额，但版权争议并存，商业化与合规平衡成焦点。</div><ul class="analysis-points"><li>AI CP账号通过虚拟情侣人设带货，实现百万销售额。</li><li>对商家，可借鉴AI人设营销，但需注意版权合规。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可借鉴AI人设营销，但需注意版权合规。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">生态动向</span></td><td class="col-content"><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPRlBqNTFRc1JCTjNoRkZna0x0aHNtZk1rbUdNazRjLVZBdUY1V1BqaWt5TXNXeDNseVlST3c2eVQ5NHJGTEpGT1A0OUpkMWpFbXNZUlJnekRNTzBwdHAwMWJRWFQ1YnVKM050d1IyUkluQWZ3ZXYyMkVrYm1TanBhYndOOHVWWjV2MDV4OQ?oc=5" target="_blank" class="item-link">即梦AI生成广告片声音侵权，公司回应将换真人配音</a><span class="item-source">(搜狐)</span></div><div class="item-explanation">某公司AI广告片因使用即梦AI生成声音侵权马正阳，公司回应称未能判断声音归属，将换为真人配音，凸显AI生成内容的版权风险。</div><ul class="analysis-points"><li>要点1：即梦AI生成的声音可能模仿真人，导致侵权纠纷，平台需加强声音版权保护。</li><li>要点2：对广告主而言，使用AI生成素材需注意版权风险，外投团队应确保素材合规。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>AI生成素材版权风险需警惕，外投应建立审核机制。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xa3Z0LWNzUnB1MEhJYTVBU21mbjFoVFRVWHpyaGhIeVdKc2tGZkdfazBhTXdsaGo0VVFvWUctbEpnQ3lpZjlvUlNSbVZJNmxCTGlIbm5KbERsR2Zsd2NMRg?oc=5" target="_blank" class="item-link">万兴科技接入Seedance 2.5，视频创意产品能力升级</a><span class="item-source">(东方财富)</span></div><div class="item-explanation">万兴科技旗下万兴剧厂、Media.io等视频创意产品已接入Seedance 2.5模型能力，生态合作加速。</div><ul class="analysis-points"><li>Seedance 2.5模型能力外溢，第三方产品接入，生态开放。</li><li>对商家，可通过第三方工具使用Seedance 2.5生成高质量视频素材。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可利用万兴产品生成视频素材，提升营销效率。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNXhITmhMWFkzdWR3Y0VBdm8yUkVEaEJxTTNWRmM2Nl9MV25QVGxodDRPcnNDMWZYWlJncUJ6Ym0xSjdsN0NIeVd1TkFmQ1IzbFB1Rmc5clJ5SVRocUJrT1dFcjc1WUlab21OQWdpYW1XV05qSE5vYXZ3Tmx5S24xNFhIOXA5UGdX?oc=5" target="_blank" class="item-link">来伊份×火山引擎：200+智能体跑进“货”与“店”</a><span class="item-source">(搜狐网)</span></div><div class="item-explanation">来伊份与火山引擎合作，200+智能体跑进“货”与“店”，AI重塑零售运营。</div><ul class="analysis-points"><li>火山引擎为零售企业提供智能体解决方案，覆盖货架与门店管理。</li><li>对商家，可借鉴智能体应用，提升零售运营效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借鉴智能体应用，提升运营效率。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏观点类</span></td><td class="col-category"><span class="cat-label">观点与深度</span></td><td class="col-content"><div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE93VlV5S1Y4WGYwZnhWZms1blNwVEQySWtUQlBhelNoWUluZkZMU2VwUTFxWnhncDZXQmQ2WU55WHpvMmJaTm9LTlBoOVlyUDJjS2VfSF9LcUZtLTZrbmFSVDVmUzEwM0ROOTZvbXhjTTI?oc=5" target="_blank" class="item-link">豆包收佣，AI时代的入口定价权究竟值多少？</a><span class="item-source">(新浪网)</span></div><div class="item-explanation">豆包开启抽佣模式，引发对AI入口定价权的讨论。豆包作为AI流量入口，通过抽佣变现，其定价权价值成为焦点。</div><ul class="analysis-points"><li>豆包抽佣模式类似应用商店，对交易收取佣金，体现AI入口的商业价值。</li><li>对商家，豆包抽佣可能增加成本，但若流量质量高，仍可接受；对字节，抽佣是AI商业化的重要一步。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家需评估豆包等AI平台的抽佣成本与流量价值。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sYTNrS2RtMjl4MWRjQ0NOemRUZVF2cUczWTUtdFU3WG8zZC1vYkx4cEdRSTh4NV9ldEQ4cmZhdkE2RHBmNHN1MGhHbTI3aE4ycXhj?oc=5" target="_blank" class="item-link">字节AI&#x27;先慢后快&#x27;战略重塑行业，36氪深度分析</a><span class="item-source">(36Kr)</span></div><div class="item-explanation">36氪发文分析字节AI的&#x27;先慢后快&#x27;战略，认为其通过稳健布局后加速追赶，正在重塑AI行业格局，引发行业关注。</div><ul class="analysis-points"><li>字节AI从谨慎投入转向快速商业化，战略节奏转变。</li><li>对行业而言，字节的入局加剧竞争，推动AI应用落地。</li></ul></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBJUG03Vi1ickpOSHBuTzVQSW13VFZMYWl5blJhRjdFam1fN3VhMG5fWE5SMTlPSmxfWVQxOWM4WEJEcVpyQS1BalBqZVY?oc=5" target="_blank" class="item-link">抖音的&#x27;携程梦&#x27;，豆包来实现？</a><span class="item-source">(钛媒体)</span></div><div class="item-explanation">钛媒体分析抖音通过豆包切入酒店预订市场，意图实现&#x27;携程梦&#x27;，AI入口成为本地生活服务的新入口。</div><ul class="analysis-points"><li>豆包从AI助手升级为交易平台，切入OTA市场。</li><li>对本地生活服务商而言，AI入口可能改变流量分发格局。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家应关注豆包等AI入口对本地生活服务的影响，提前布局。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE83ZWVEMElUZjhPS0F6MURKbV9ya1FwaTB4cXF1cGJ2V2taSFZaVV9DaEZRV213TzlvU29mQXdEVjhkOHhFWDVIUVlwVEppQkpFUWVvQnJDM1NGRHg5VWxjOWwybVJ1c0djaWRJNnJwc1JHQQ?oc=5" target="_blank" class="item-link">MiniMax H3低价竞争，Seedance 2.5安全身位受关注</a><span class="item-source">(t.cj.sina.cn)</span></div><div class="item-explanation">MiniMax H3以低价策略冲击视频生成市场，引发对Seedance 2.5竞争优势的讨论。分析认为，Seedance 2.5在画质和功能上仍具优势，但需警惕价格战影响。</div><ul class="analysis-points"><li>视频生成市场竞争加剧，价格战可能压缩利润空间。</li><li>对用户而言，低价选择增多，但需权衡质量与成本。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家在选择AI视频工具时，可对比不同平台性价比，选择最适合的。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZenpWaDZXczV3TzlGTkxkemF0OW9nNzNNbkhTdks4bFFpN1ZaUi11UlY1X2UtcXQtQ0pqLS1Ec1lmcWtiVkQ1QXR4NFdHWGV0UXE4?oc=5" target="_blank" class="item-link">Seedance 2.5七维实测：从片段到叙事的进阶</a><span class="item-source">(36Kr)</span></div><div class="item-explanation">36氪对Seedance 2.5进行七维实测，解析其在视频生成从片段到叙事能力的进阶。测试显示，Seedance 2.5在连贯性、逻辑性上显著提升，更接近专业视频制作。</div><ul class="analysis-points"><li>Seedance 2.5叙事能力增强，可生成更完整的视频故事，提升内容质量。</li><li>对广告营销而言，可生成更具吸引力的品牌故事视频，提升转化率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可用Seedance 2.5生成有故事性的品牌宣传视频，提升品牌形象。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPVlVhcDYySjl3SkR1X2VETl96VTV6Q0ZEMUFOcjBDbnozdWo1TFE4MEJFR2UtM3VNWDRPRkN1X0JpVGxTblVvRTl4bi1rWXFKZUczMTJkVC13ci0zdGV3MmxlVVJreHRBTnFpMUF1SFFTZVh6SUpTQm5TNDVpdURIR3BjaElKYm1SOEJWYTZ3bWlreGZZdnppWUVFbkpKNTR5aFcwN3NNaw?oc=5" target="_blank" class="item-link">豆包抽佣，千问招商：AI流量商业化按下快进键</a><span class="item-source">(新浪财经)</span></div><div class="item-explanation">豆包开启抽佣，阿里千问招商，标志AI流量商业化加速，AI应用进入变现时代，字节在AI商业化上走在前列。</div><ul class="analysis-points"><li>要点1：豆包对AI交易抽佣，千问推出招商计划，AI平台纷纷探索商业化路径。</li><li>要点2：对广告主而言，AI平台商业化可能带来新的广告位和投放方式，外投团队可关注AI广告产品。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>AI平台商业化可能改变流量分发，外投需关注AI广告生态。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaEczdnd6dDVVWUZyZmJtZ3ozYi14RjNqcTlITWUxelNXaVBKWGxPNnQwcUhPaTlBbWE0cnFFR2EzcHZDU3Q2MmxCbXRYakp4aDJCbXVXM1hYRU90ZjJ5QWdmQ3FYREdlQU1OWnFBREcwZ2h6TzZJY000cEViTHBFc3A1UU9ESmdj?oc=5" target="_blank" class="item-link">Seedance 2.5来了，但行业真的准备好了吗？</a><span class="item-source">(搜狐网)</span></div><div class="item-explanation">Seedance 2.5发布引发行业讨论，有观点认为行业尚未准备好应对如此强大的视频生成能力，应用落地仍需时间。Seedance 2.5在技术上的突破与行业应用之间存在鸿沟。</div><ul class="analysis-points"><li>Seedance 2.5在视频生成质量、时长上有显著提升，但行业应用场景和商业模式仍在探索。</li><li>对广告行业，Seedance 2.5可生成高质量视频素材，但需考虑版权、成本等因素。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>广告主可尝试用Seedance 2.5生成创意视频，但需评估成本与效果。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xdU1iQ2ozb2VFWVB3bjNmY0xfUjMxeWxPTnRwSm1VLTk4UllGS3VwcUVOZ0dxcUFDNW1mMFp1QTBFRHY0NUFGbFBLSEVtUFZma3pMVVJsTFUxTVU?oc=5" target="_blank" class="item-link">豆包抽佣，酒店为何不慌？</a><span class="item-source">(风闻)</span></div><div class="item-explanation">有观点认为豆包抽佣对酒店影响有限，AI入口定价权尚在博弈，酒店不慌因流量依赖度低。</div><ul class="analysis-points"><li>豆包抽佣模式引发讨论，但酒店认为影响有限，因流量依赖度低。</li><li>对商家，需评估AI入口的流量价值，合理布局。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家需评估AI入口的流量价值，合理布局。</div></div></td></tr></tbody></table><section class="insights-section"><h3 class="insights-title">外投团队的借鉴 · 技术底座视角</h3><p class="insights-intro">字节系AI在技术能力底座上的改造（如豆包抽佣、Seedance 2.5广告应用、飞书豆包整合），将深刻影响外投的素材生产、投放模式和成本结构，美团商业化需提前布局。</p><div class="takeaway-list"><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>豆包从免费AI助手升级为按成交抽佣的交易平台，在酒店预订场景收取12%佣金，成为国内首个AI对话入口抽佣案例。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>对美团商业化团队而言，可借鉴豆包按成交付费的模式，探索在AI入口按效果付费的广告产品，降低商家投放风险，提升转化率。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>即梦AI携手艾菲奖，使用Seedance 2.5为英特尔、阳狮等品牌打造广告大片，AI视频生成从工具升级为品牌广告制作解决方案。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>美团商业化可引入AI视频生成工具，为本地生活商家提供低成本、高效率的广告素材制作服务，降低商家内容生产成本。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>飞书与豆包整合，字节重构ToB版图，打造AI工作入口，将AI能力深度集成到企业协作工具中。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>美团商业化可借鉴字节的AI工作入口思路，将AI能力集成到商家管理后台，帮助商家实现营销自动化，提升运营效率。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>豆包虚拟桌面基于通用GUI能力，无需API/插件即可操作电脑，实现跨软件任务自动化。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>本地生活商家可借助豆包虚拟桌面自动化处理多平台运营任务，如自动更新菜单、批量回复评论，降低人力成本。</div></div></div></section></div><section class="archive-section"><h3 class="archive-title">历史归档</h3><div class="archive-tip">点击任意日期查看当天完整日报（已排版，非原始数据）</div><div class="archive-month"><h4>2026年08月</h4><div class="archive-week"><span class="week-label">08.17-08.23</span><a href="archive/2026-08-22.html" class="date-link date-link-active">08-22</a><a href="archive/2026-08-21.html" class="date-link">08-21</a><a href="archive/2026-08-20.html" class="date-link">08-20</a><a href="archive/2026-08-19.html" class="date-link">08-19</a><a href="archive/2026-08-18.html" class="date-link">08-18</a><a href="archive/2026-08-17.html" class="date-link">08-17</a></div><div class="archive-week"><span class="week-label">08.10-08.16</span><a href="archive/2026-08-16.html" class="date-link">08-16</a><a href="archive/2026-08-15.html" class="date-link">08-15</a><a href="archive/2026-08-14.html" class="date-link">08-14</a><a href="archive/2026-08-13.html" class="date-link">08-13</a><a href="archive/2026-08-12.html" class="date-link">08-12</a><a href="archive/2026-08-11.html" class="date-link">08-11</a><a href="archive/2026-08-10.html" class="date-link">08-10</a></div><div class="archive-week"><span class="week-label">08.03-08.09</span><a href="archive/2026-08-09.html" class="date-link">08-09</a><a href="archive/2026-08-08.html" class="date-link">08-08</a><a href="archive/2026-08-07.html" class="date-link">08-07</a><a href="archive/2026-08-06.html" class="date-link">08-06</a><a href="archive/2026-08-05.html" class="date-link">08-05</a><a href="archive/2026-08-04.html" class="date-link">08-04</a><a href="archive/2026-08-03.html" class="date-link">08-03</a></div><div class="archive-week"><span class="week-label">07.27-08.02</span><a href="archive/2026-08-02.html" class="date-link">08-02</a><a href="archive/2026-08-01.html" class="date-link">08-01</a></div></div><div class="archive-month"><h4>2026年07月</h4><div class="archive-week"><span class="week-label">07.27-08.02</span><a href="archive/2026-07-31.html" class="date-link">07-31</a><a href="archive/2026-07-30.html" class="date-link">07-30</a><a href="archive/2026-07-29.html" class="date-link">07-29</a><a href="archive/2026-07-28.html" class="date-link">07-28</a><a href="archive/2026-07-27.html" class="date-link">07-27</a></div><div class="archive-week"><span class="week-label">07.20-07.26</span><a href="archive/2026-07-26.html" class="date-link">07-26</a><a href="archive/2026-07-25.html" class="date-link">07-25</a><a href="archive/2026-07-24.html" class="date-link">07-24</a><a href="archive/2026-07-23.html" class="date-link">07-23</a><a href="archive/2026-07-22.html" class="date-link">07-22</a><a href="archive/2026-07-21.html" class="date-link">07-21</a><a href="archive/2026-07-20.html" class="date-link">07-20</a></div><div class="archive-week"><span class="week-label">07.13-07.19</span><a href="archive/2026-07-19.html" class="date-link">07-19</a><a href="archive/2026-07-18.html" class="date-link">07-18</a></div></div></section>
+</div>
+<div class="footer">
+每日自动更新 · 聚焦字节跳动全系 AI 商业化（豆包 / 火山引擎 / 扣子 Coze / 即梦 / 剪映 / 巨量引擎 / TikTok 等）<br>
+数据来源：Google News（中英）/ 36氪 / IT之家 / 爱范儿 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
+生成于 2026-08-22 07:12 UTC
+</div>
+<script>
+(function(){
+  var canvas = document.getElementById('particle-bg');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = false;
+  try {
+    reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch(e) {}
+
+  var dpr = Math.max(1, Math.min(window.devicePixelRatio || 1, 2));
+  var W = 0, H = 0, particles = [], raf = null;
+  // 浅色专业配色：靛蓝为主，少量美团黄点缀
+  var COLORS = ['99,102,241', '99,102,241', '99,102,241', '255,195,0'];
+
+  function isMobile(){ return window.innerWidth <= 768; }
+
+  function particleCount(){
+    var area = window.innerWidth * window.innerHeight;
+    var base = Math.round(area / 16000); // 密度
+    if (isMobile()) base = Math.round(base * 0.5);
+    return Math.max(28, Math.min(base, 90));
+  }
+
+  function rand(min, max){ return Math.random() * (max - min) + min; }
+
+  function makeParticle(){
+    return {
+      x: Math.random() * W,
+      y: Math.random() * H,
+      vx: rand(-0.18, 0.18),
+      vy: rand(-0.18, 0.18),
+      r: rand(1.1, 2.6),
+      c: COLORS[Math.floor(Math.random() * COLORS.length)],
+      a: rand(0.35, 0.75)
+    };
+  }
+
+  function build(){
+    W = canvas.clientWidth;
+    H = canvas.clientHeight;
+    canvas.width = Math.floor(W * dpr);
+    canvas.height = Math.floor(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = particleCount();
+    particles = [];
+    for (var i = 0; i < n; i++) particles.push(makeParticle());
+  }
+
+  var LINK_DIST = 128;
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    // 连线：邻近粒子间极淡靛蓝线，营造网络质感
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      for (var j = i + 1; j < particles.length; j++) {
+        var q = particles[j];
+        var dx = p.x - q.x, dy = p.y - q.y;
+        var d2 = dx * dx + dy * dy;
+        if (d2 < LINK_DIST * LINK_DIST) {
+          var alpha = (1 - Math.sqrt(d2) / LINK_DIST) * 0.16;
+          ctx.strokeStyle = 'rgba(99,102,241,' + alpha.toFixed(3) + ')';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(q.x, q.y);
+          ctx.stroke();
+        }
+      }
+    }
+    // 粒子点
+    for (var k = 0; k < particles.length; k++) {
+      var pt = particles[k];
+      ctx.beginPath();
+      ctx.fillStyle = 'rgba(' + pt.c + ',' + pt.a.toFixed(2) + ')';
+      ctx.arc(pt.x, pt.y, pt.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function step(){
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < -20) p.x = W + 20; else if (p.x > W + 20) p.x = -20;
+      if (p.y < -20) p.y = H + 20; else if (p.y > H + 20) p.y = -20;
+    }
+    draw();
+    raf = requestAnimationFrame(step);
+  }
+
+  var resizeTimer = null;
+  window.addEventListener('resize', function(){
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(build, 200);
+  });
+
+  build();
+  if (reduce) {
+    draw(); // 尊重减少动效偏好：只画一帧静态粒子
+  } else {
+    step();
+  }
+})();
+</script>
+<script>
+function switchView(m){
+  document.getElementById("daily-view").style.display=m==="daily"?"block":"none";
+  document.getElementById("weekly-view").style.display=m==="weekly"?"block":"none";
+  document.getElementById("btn-daily").className="tab"+(m==="daily"?" active":"");
+  document.getElementById("btn-weekly").className="tab"+(m==="weekly"?" active":"");
+}
+</script>
+
+</body>
+</html>
