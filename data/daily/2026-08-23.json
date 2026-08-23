@@ -1,181 +1,136 @@
 {
-  "generated_at": "2026-08-23T02:50:45.680152+00:00",
+  "generated_at": "2026-08-23T07:13:27.938776+00:00",
   "date_display": "2026年08月23日",
   "date_short": "2026-08-23",
   "weekday": "周日",
-  "editorial_summary": "今日字节系AI商业化多点开花：豆包大模型正式上车特斯拉，成为其中国市场的首个第三方AI合作，标志着豆包在车载场景的落地迈出关键一步；同时，字节与美国电影协会达成全球AI版权协议，为Seedance和Seedream的商用扫清版权障碍，但TikTok也为此推迟了AI视频工具发布，显示内容合规压力。此外，TikTok Shop为商家推出更多AI工具，并探索私信点对点支付，电商变现加速。巨量引擎则加强教培广告治理，封禁违规账户，平台生态治理趋严。整体看，字节正通过技术落地、版权合规和电商变现三线并进，AI商业化进入深水区。",
+  "editorial_summary": "今日字节系AI商业化多点开花：豆包大模型正式上车特斯拉，车载AI语音进入双模型协作时代，标志豆包在车端场景的标杆落地；同时字节与美国电影协会签署AI版权协议，为Seedance/Seedream等生成模型的商业化扫清版权障碍，但TikTok也为此推迟了AI视频工具发布，显示合规与创新的平衡。此外，TikTok Shop上半年GMV达500亿美元，并推出更多AI工具赋能商家，电商AI化提速。巨量引擎则在小游戏精品化与教培广告治理上双线推进，生态治理与商业化并重。整体看，字节正通过模型上车、版权合规、电商AI工具等，构建从技术到商业的闭环。",
   "overview": {
     "new_products": [
-      "豆包大模型正式接入特斯拉中国车机，成为特斯拉首个第三方AI合作，支持语音交互、导航、娱乐等功能，实现双模型协作，提升车载体验。",
-      "TikTok Shop为商家推出更多AI驱动工具，涵盖商品创建、营销优化等环节，帮助商家提升运营效率，降低内容制作门槛。",
-      "TikTok探索通过私信（DMs）实现点对点支付功能，若落地将打通社交与支付闭环，为电商交易提供新入口。"
+      "豆包大模型正式接入特斯拉中国车机，支持多轮对话、车辆控制等，车载AI语音交互进入双模型协作时代，豆包成为特斯拉首个第三方AI合作方。",
+      "TikTok Shop为商家推出更多AI驱动工具，涵盖商品推荐、客服自动化等，帮助商家提升运营效率，进一步强化电商AI化能力。"
     ],
     "opinions": [
-      "有观点认为，字节与美国电影协会的版权协议是输出端治理，输入端仍存争议，未来AI训练数据版权问题或需重新谈判，影响Seedance等模型的内容来源。",
-      "分析指出，字节跳动削减游戏和零售业务以聚焦AI投资，显示其战略重心向AI倾斜，但电商GMV增速放缓，输血豆包引发对电商自身造血能力的担忧。",
-      "行业观察认为，豆包上车特斯拉是AI大模型在车载场景的标杆案例，验证了第三方AI合作模式，或推动更多车企接入豆包。"
+      "有观点认为字节AI'先慢后快'，通过组织调整和资源聚焦，在视频生成、智能体等领域逐步建立优势，商业化节奏趋于稳健。",
+      "分析指出字节与美国电影协会的版权协议是'输出端治理'，输入端仍待讨论，显示AI版权治理框架正在形成，对生成式AI商业化有深远影响。"
     ],
     "ecosystem": [
-      "字节与美国电影协会达成全球版权协议，为AI视频和图像生成模型建立版权保护框架，行业合规门槛提升，利好头部玩家。",
-      "TikTok在美国面临监管压力，以4亿美元和解儿童隐私诉讼，并裁员75人，显示海外运营成本与合规风险上升。",
-      "字节跳动获得Nvidia H200芯片交付，算力基础设施加强，支撑AI模型训练与推理，巩固技术优势。"
+      "字节跳动通过版权协议、车端合作、电商AI工具等，加速AI技术在多场景落地，生态从技术输出向行业解决方案延伸。",
+      "TikTok Shop GMV高速增长，AI工具赋能商家，显示电商与AI融合成为平台商业化的重要引擎。"
     ]
   },
   "category_summaries": {
-    "大厂动向": "字节跳动AI商业化多点突破：豆包大模型上车特斯拉，开启车载场景合作；与美国电影协会签署版权协议，为Seedance/Seedream商用铺路；同时TikTok电商加码AI工具并探索支付功能，电商变现加速。",
-    "初创动向": "本期无字节系初创公司动态，主要聚焦大厂自身业务调整与生态合作。",
-    "生态动向": "字节通过版权协议、算力获取和监管应对，构建AI商业化生态：版权合规降低内容风险，H200芯片增强算力，TikTok和解与裁员显示海外运营调整。",
-    "观点与深度": "分析指出字节AI战略'先慢后快'，通过削减非核心业务聚焦AI；电商GMV增速放缓与豆包输血引发讨论；Seedance等视频模型辈分之争反映行业竞争加剧。"
+    "大厂动向": "字节跳动AI商业化多点推进：豆包上车特斯拉、与美国电影协会达成版权协议、TikTok Shop GMV达500亿美元并推出AI工具，同时组织调整聚焦AI业务，显示其AI战略从技术研发向商业落地全面加速。",
+    "初创动向": "今日无字节系初创公司相关动态，主要聚焦于字节跳动及旗下产品。",
+    "生态动向": "字节与美国电影协会的版权协议为AI生成内容设立版权护栏，TikTok Shop的AI工具赋能商家，巨量引擎在小游戏精品化与教培广告治理上双线推进，生态治理与商业化并重。",
+    "观点与深度": "有分析认为字节AI'先慢后快'，通过组织调整和资源聚焦建立优势；另有观点讨论视频生成模型辈分，Seedance 2.5的SOTA性能引发游戏开发圈关注，显示其技术影响力外溢。"
   },
   "local_life_insights": [
     {
-      "base": "豆包大模型从云端助手变为车载原生AI，支持自然语言交互和双模型协作，拓展了AI的应用场景。",
-      "borrow": "对美团商业化团队，可借鉴豆包上车模式，探索与车企合作，将本地生活服务嵌入车载场景，如语音推荐餐厅、加油站等，开辟新的广告触点。"
+      "base": "豆包大模型接入特斯拉车机，从云端API变为车机原生能力，支持多轮对话和车辆控制。",
+      "borrow": "本地生活外投可探索车载场景的语音广告，如语音推荐附近餐厅，与车企合作抢占新入口。"
     },
     {
-      "base": "TikTok Shop为商家推出更多AI工具，覆盖商品创建、营销优化等环节，降低内容制作门槛。",
-      "borrow": "美团商业化可参考TikTok Shop的AI工具矩阵，为本地生活商家提供一键生成营销素材、智能投放建议等工具，降低商家使用门槛，提升广告投放效率。"
+      "base": "TikTok Shop推出更多AI工具，从单一功能扩展为全链路电商AI，覆盖选品、营销、客服。",
+      "borrow": "美团商业化可借鉴TikTok Shop的AI工具模式，为本地生活商家提供智能选品、智能客服等工具，提升投放效率。"
     },
     {
-      "base": "字节跳动获得Nvidia H200芯片交付，算力增强，可支撑更复杂的AI模型训练和推理。",
-      "borrow": "算力提升将降低AI广告工具的边际成本，美团商业化可加大在AI创意生成、智能出价等方向的投入，利用更强大的算力优化广告投放效果，降低商家成本。"
+      "base": "Seedance 2.5视频生成模型性能SOTA，支持30秒长视频生成，成本降低。",
+      "borrow": "外投团队可利用Seedance 2.5低成本生成高质量视频素材，用于本地生活广告，降低素材制作成本。"
     }
   ],
-  "insights_intro": "字节系在车载AI、电商AI工具和算力底座上的升级，正重塑外投的素材生产与投放效率，美团商业化可借鉴其技术底座改造，提升广告效果与成本结构。",
-  "total_items": 9,
-  "new_vs_yesterday": 9,
+  "insights_intro": "字节系在车端、电商、视频生成等底座能力的改造，将让外投的素材生产更高效、投放更精准、成本结构更优，本地生活商业化需紧跟这些技术底座变化。",
+  "total_items": 6,
+  "new_vs_yesterday": 6,
   "compare_date": "2026-08-22",
-  "high_count": 1,
+  "high_count": 0,
   "category_counts": {
-    "大厂动向": 8,
+    "大厂动向": 5,
     "观点与深度": 1
   },
   "items": [
     {
-      "title": "TikTok Shop为商家推出更多AI工具，电商运营效率提升",
-      "explanation": "TikTok Shop宣布为商家提供更多AI驱动的工具，涵盖商品创建、营销优化等环节，帮助商家降低内容制作门槛，提升运营效率。此举将吸引更多中小商家入驻，扩大电商生态。",
+      "title": "字节跳动启动AI业务组织调整，聚焦资源加速商业化",
+      "explanation": "字节跳动启动面向AI业务的组织调整，旨在聚焦资源、优化架构，加速AI技术商业化落地，显示其AI战略从研发向商业全面倾斜。",
       "analysis_points": [
-        "AI工具从单一功能扩展到全链路，如自动生成商品描述、智能剪辑视频、优化投放策略，降低商家运营成本。",
-        "对本地生活商家，可利用AI工具快速生成短视频和直播内容，提升在TikTok的曝光和转化。"
+        "组织调整使AI业务更聚焦，资源向高价值场景倾斜，提升商业化效率。",
+        "对合作伙伴，字节AI组织调整可能带来更清晰的产品路线和合作接口，可关注后续动态。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "MediaPost",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzFUZVhvdmgzRmU0Y0h4RDFVUXhja3FFS2s0UUl4Z0dBVldZeWhCOVN2cnpDenNteTR5VHU1U25JQ21CajlVcmc2QkoxZC1XbktsQnRNNHhRWURwdmFRN3hpVmQ5cko5eXllY1NyZ0Y1Z2VuVVdlRWlnMXIyOGwxMkVHWE9PVl93Rm5xREMyeVpTSUNKWkQxTnRvNXpWVmhWTVJnYk9UUXg3T3p2ZkE?oc=5",
-      "local_life_hint": "本地生活商家可借助TikTok Shop的AI工具低成本制作营销内容，提升线上获客能力。"
-    },
-    {
-      "title": "TikTok探索私信点对点支付，社交电商闭环再进一步",
-      "explanation": "TikTok正在探索通过私信（DMs）实现点对点支付功能，若落地将打通社交与支付闭环，用户可直接在聊天中完成交易，为电商提供新入口。此举将增强平台交易粘性，利好商家。",
-      "analysis_points": [
-        "支付功能从购物车延伸到社交场景，用户可在私信中直接付款，减少跳转，提升转化率。",
-        "对本地生活商家，可通过私信与用户互动并完成预约、支付，形成私域运营闭环。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR1BCTWtHYTJnNWk2XzEwUnRab2FvS253RXByVkRpRVM0ejR2U0R5ei05VExzajB6OTlhand3OEJHczFlcGpfQVpKQUNVNlhGWXFJTVNWbHFHYUNFS3c3ZHJXY3NwUTVjUF9qT2lrSEZlVF95N2dIb3lYTkJEanVQS2lXa19XM0IwTzlwWXFPRkxhZFdYaVdZ?oc=5",
-      "local_life_hint": "私信支付为本地生活商家提供新的交易场景，可结合私域运营提升复购。"
-    },
-    {
-      "title": "字节跳动获Nvidia H200芯片交付，AI算力底座再加固",
-      "explanation": "首批Nvidia H200芯片已运抵中国，字节跳动和腾讯已接收，北京放宽进口限制。H200芯片将增强字节的AI训练和推理能力，支撑豆包、Seedance等模型的迭代，巩固技术优势。",
-      "analysis_points": [
-        "H200芯片相比前代性能大幅提升，可加速大模型训练，降低推理成本，提升AI服务响应速度。",
-        "对广告主，更强的算力意味着AI广告工具（如智能创意生成）更高效，成本可能下降。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRGJyRzdPWl9RRkJHR2lwVVVFRzBxaG5wWUNycEN6aEhsWTl6dERMa0VISEpCNUxYdERIV2xFMk43ZWdjeGp2d01CWUdnYUV3Uml2cDJhMkNNNkJETlBJS21VeDJqYWI2eTJudFpZUlJNSUFSb3lQYzR2Y3pDMi1reDRnTGpuX1c3WXp3N0RFcU9nbUtlNzhtNVp4TFZ5SEl2dEdMV1lWZDdqNGQxZzFMbWl3cHZRWUNzcmJXZTkwenhkQ0ZOX3ZVR1BoNlo5NTRoUG10eEJn?oc=5",
-      "local_life_hint": "算力提升将降低AI广告工具成本，本地生活商家可更频繁使用AI生成素材。"
-    },
-    {
-      "title": "TikTok以4亿美元和解儿童隐私诉讼，海外合规成本上升",
-      "explanation": "TikTok及其母公司字节跳动与美国司法部达成4亿美元和解协议，解决违反儿童在线隐私保护法的指控。此举虽消除法律风险，但巨额和解金和后续合规投入将增加运营成本，影响海外业务利润。",
-      "analysis_points": [
-        "和解金额巨大，反映平台在未成年人数据保护上的合规压力，未来需加强内容审核和年龄验证。",
-        "对广告主，平台合规性提升有助于品牌安全，但广告成本可能因合规投入而上升。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "cnBeta",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1574410.htm",
-      "local_life_hint": "平台合规性增强，本地生活广告投放环境更安全，但需关注广告成本变化。"
-    },
-    {
-      "title": "TikTok西雅图裁员75人，电商团队重组",
-      "explanation": "TikTok在西雅图地区裁员75人，主要影响电商团队，这是连续第二年裁员。裁员或为重组电商业务，聚焦核心市场，但短期可能影响商家服务稳定性。",
-      "analysis_points": [
-        "裁员涉及电商团队，可能调整运营策略，优化成本结构，但需关注服务连续性。",
-        "对商家，需关注平台政策变化，及时调整运营策略，避免依赖单一团队。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "GeekWire",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcTZaN3lTOHNHRWw3UEpFNk5LWmZyZlRJMUNFdTRmTXB2VVd2dHpiNFowa2UtNW4tRGNPdzJBYWlkNW9qSl9COUhtdFVJMERNOFR3cXhSZkM1ZE9xb09seXR6ZWxFZDhIMEhRTzVNWFM3LWNJWkgtZ3JXdXAwcTE2S252U25Ka1JEWUM1cWhia1diR2dYaVE?oc=5",
-      "local_life_hint": "电商团队调整可能影响TikTok Shop政策，本地生活商家需关注平台动态。"
+      "source": "科创板日报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UREFRVlZDeDhlRklIdW9heVVzYldhOTU3SGRsVmZLdkNscVJ1MUhXcU92bTBXTjd0VlNPTXdGazdDZ1VMNXUxRFVoUU9aRUwzUmVxeWZZNUhyeTFWU1pQS040ZVlEVThYZjBubFk3NS1rUDhobC1MdTlB?oc=5",
+      "local_life_hint": "字节AI组织调整可能带来更聚焦的行业解决方案，本地生活可关注其后续产品迭代。"
     },
     {
       "title": "豆包视频通话升级，火山引擎多模态传输系统提供技术支撑",
-      "explanation": "豆包视频通话功能升级，火山引擎多模态传输系统提供底层技术支持，提升通话质量和交互体验。此举增强豆包在实时交互场景的竞争力，为多模态AI应用奠定基础。",
+      "explanation": "豆包视频通话功能升级，依托火山引擎多模态传输系统，提升通话质量和交互体验，显示豆包在多模态交互上的技术积累。",
       "analysis_points": [
-        "多模态传输系统优化音视频同步和网络适应性，使豆包视频通话更流畅，支持更自然的交互。",
-        "对广告主，多模态交互能力可用于虚拟客服、直播互动等场景，提升用户体验。"
+        "豆包视频通话从单一语音升级为多模态交互，支持更自然的对话体验。",
+        "对商家，可探索豆包视频通话用于客户服务、远程导购等场景，提升用户体验。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "InfoQ-CN",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16WWlCNzdubkF5d1ItREtvUlpEVU5NUnUzanFoNGY1cjQ5dGFHRGxhZUF1M2lpSXpRNUtwNW8xZFBlSUtJbGFUd19iMVNyRGpsZ2NOLUJLYVI5TS1haGc?oc=5",
-      "local_life_hint": "多模态交互可用于本地生活商家的智能客服，提升咨询转化。"
+      "local_life_hint": "豆包视频通话可用于本地生活商家的远程客服或直播互动，提升服务体验。"
     },
     {
-      "title": "亚信×火山引擎：6000+席位用TRAE跑通企业级AI研发落地",
-      "explanation": "亚信科技与火山引擎合作，利用TRAE（AI编程工具）在6000+席位实现企业级AI研发落地，提升开发效率。此举展示TRAE在大型企业的规模化应用能力，为火山引擎ToB业务拓展提供标杆案例。",
+      "title": "TikTok试水私信转账，社交电商再进一步",
+      "explanation": "TikTok正在测试通过私信进行点对点转账功能，可能进一步打通社交与电商闭环，提升平台交易便利性。",
       "analysis_points": [
-        "TRAE从个人工具升级为企业级平台，支持大规模团队协作，提升代码生成和审查效率。",
-        "对本地生活商家，可借鉴AI研发工具提升自身数字化能力，但直接关联较小。"
+        "TikTok从内容平台向支付领域延伸，私信转账将简化交易流程。",
+        "对商家，支付闭环将提升转化率，可提前布局社交电商玩法。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "CSDN",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xdjh2ajFKSmRtcVVOZXg2OXdET0hqY0xFbjFtYzE1Y1oxYUJpR29SVTRvTkFFOXpIS0FubE16X0hkV2dmV3Y0Y2tUbE1xZHA1eFk1d3JSN3ktT01FQlE?oc=5",
-      "local_life_hint": ""
+      "source": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR1BCTWtHYTJnNWk2XzEwUnRab2FvS253RXByVkRpRVM0ejR2U0R5ei05VExzajB6OTlhand3OEJHczFlcGpfQVpKQUNVNlhGWXFJTVNWbHFHYUNFS3c3ZHJXY3NwUTVjUF9qT2lrSEZlVF95N2dIb3lYTkJEanVQS2lXa19XM0IwTzlwWXFPRkxhZFdYaVdZ?oc=5",
+      "local_life_hint": "TikTok支付功能若落地，本地生活商家可探索私信交易、团购直付等模式。"
     },
     {
       "title": "是时候来给Seedance在内的视频生成模型论论辈份了",
-      "explanation": "文章讨论Seedance等视频生成模型的代际划分，分析各模型的技术特点和市场定位。Seedance 2.5在长视频生成上领先，但竞争激烈，模型迭代速度加快。",
+      "explanation": "文章讨论视频生成模型的代际划分，Seedance 2.5的SOTA性能引发关注，显示其在行业中的领先地位。",
       "analysis_points": [
-        "Seedance 2.5在长视频生成上具有优势，但其他模型也在追赶，技术竞争白热化。",
-        "对广告主，选择视频生成工具时需关注模型更新频率和效果，以获取最佳性价比。"
+        "Seedance 2.5在视频生成领域达到新高度，性能领先。",
+        "对广告主，选择领先的视频生成工具可提升广告创意质量。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "low",
       "source": "QQ News",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83eE1WTlptZjNvV1NKRk1EVkdQd1ppeldfS3lyaEJZdEZ5b2FxUkt0VjRlaDlEQ01HMzFOc3RhRnN6MXJnMU9JcHRxRmhrT211NHAtM3Zn?oc=5",
-      "local_life_hint": "关注视频生成模型迭代，选择最新工具制作广告素材。"
+      "local_life_hint": "视频生成模型代际更迭，本地生活广告可优先采用最新模型提升素材质量。"
     },
     {
-      "title": "TikTok Shop与OMIE合作开学季活动，AI赋能商家",
-      "explanation": "TikTok Shop选择OMIE进行为期七天的开学季活动，OMIE利用AI工具优化商品推广。合作展示TikTok Shop对AI营销的重视，为商家提供更多增长机会。",
+      "title": "TikTok就儿童隐私诉讼与美国司法部达成4亿美元和解",
+      "explanation": "TikTok及其母公司字节跳动与美国司法部就儿童隐私诉讼达成4亿美元和解，显示平台在合规方面的成本增加，但有助于消除法律不确定性。",
       "analysis_points": [
-        "OMIE利用AI分析用户行为，精准推送商品，提升转化率。",
-        "对本地生活商家，可借鉴AI营销策略，在TikTok Shop上提升曝光和销售。"
+        "TikTok支付4亿美元和解，合规成本上升，但法律风险降低。",
+        "对广告主，平台合规性增强，投放环境更稳定。"
       ],
       "category": "大厂动向",
       "type": "fact",
-      "impact": "low",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSWJGRU1ILUx6Zjh5SFE1Z3Jtd1R1NFNkVlJEbkpsQ0otQ3ZXSnZabUlGN0dMOUpLWUFGUXNXdjBjVngwMGVWMHpZQjhzNVZ0SUg3WmxBbHBEQkhxazBCVnVzUDRqLS1ic3BteVRsM2JHMVctbEtIWG9TODZkQTNXT012QjM2N0hYcWNLc3FGR1VHVjlvcURqbE95c0taWmM?oc=5",
-      "local_life_hint": "本地生活商家可关注TikTok Shop的AI营销活动，提升参与度。"
+      "impact": "medium",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1574410.htm",
+      "local_life_hint": "平台合规性增强，本地生活商家在TikTok投放更安心。"
+    },
+    {
+      "title": "TikTok Shop为商家提供更多AI驱动工具",
+      "explanation": "TikTok Shop推出更多AI工具，帮助商家优化商品推荐、客服等，提升运营效率，显示电商AI化趋势。",
+      "analysis_points": [
+        "TikTok Shop的AI工具从单一功能扩展为全链路，覆盖选品、营销、客服。",
+        "对商家，利用AI工具可降低运营成本，提升转化率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "MediaPost",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzFUZVhvdmgzRmU0Y0h4RDFVUXhja3FFS2s0UUl4Z0dBVldZeWhCOVN2cnpDenNteTR5VHU1U25JQ21CajlVcmc2QkoxZC1XbktsQnRNNHhRWURwdmFRN3hpVmQ5cko5eXllY1NyZ0Y1Z2VuVVdlRWlnMXIyOGwxMkVHWE9PVl93Rm5xREMyeVpTSUNKWkQxTnRvNXpWVmhWTVJnYk9UUXg3T3p2ZkE?oc=5",
+      "local_life_hint": "本地生活商家可借鉴TikTok Shop的AI工具，优化团购推荐和客服。"
     }
   ],
   "mode": "ai"
