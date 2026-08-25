@@ -1,29 +1,30 @@
 {
-  "generated_at": "2026-08-25T02:45:43.618607+00:00",
+  "generated_at": "2026-08-25T07:28:09.176320+00:00",
   "week_range": "08.24-08.25",
   "date_display": "08.24 - 08.25",
-  "editorial_summary": "本周共汇总 21 条 AI 商业要闻，其中高影响 1 条。本周主线包括：抖音小游戏流水收入同比大增140%，DAU增长130%。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 24 条 AI 商业要闻，其中高影响 7 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
-      "豆包将推WorkBuddy类产品，飞书十年能力组件化",
-      "抖音小红书下场，在线生成AI小游戏卷疯了",
-      "荣威与火山引擎合作，AI原生第一车家越07全球首秀"
+      "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
+      "字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打通",
+      "字节跳动发布豆包工作 与飞书深度打通构建企业级智能体"
     ],
     "opinions": [
-      "豆包办公独立，飞书十年归零？"
+      "豆包办公独立，飞书十年归零？",
+      "豆包工作进入AI办公竞争，行业进入系统化对决阶段"
     ],
     "ecosystem": [
-      "抖音小游戏流水收入同比大增140%，DAU增长130%",
       "巨量引擎暑期教培广告专项治理，封禁违规账户1500余个",
+      "抖音小红书下场，在线生成AI小游戏卷疯了",
       "亚信×火山引擎：6000+席位用TRAE跑通企业级AI研发"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（16 条），高影响条目占比约 5%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（20 条），高影响条目占比约 29%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
+    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。"
   ],
   "local_life_insights": [
     {
@@ -39,27 +40,111 @@
       "borrow": "漫剧可作为本地生活内容营销的新形式，外投团队可帮助商家定制剧情化广告短剧，利用AI工具快速生成，提升内容吸引力。"
     },
     {
-      "base": "豆包工作整合TRAE和扣子，构建企业级Agent，与飞书深度打通，办公AI从工具集升级为统一平台。",
-      "borrow": "美团商业化可借鉴其整合思路，将内部AI工具统一为平台，为商家提供一站式营销智能体，降低使用门槛。"
+      "base": "字节将TRAE、扣子并入豆包，推出豆包工作，与飞书深度打通，使Agent能调用企业组织数据。",
+      "borrow": "对美团商业化团队而言，可借鉴其与内部系统深度集成的思路，将AI能力嵌入商家后台，实现营销自动化，如自动生成投放素材、分析投放效果。"
     }
   ],
   "insights_intro": "今天字节系在视频生成成本、车载AI入口、内容生产工具上的底座级改造，意味着外投的素材生产成本将大幅下降，投放场景向车载延伸，内容形式向AI短剧演进。",
-  "total_items": 21,
-  "high_count": 1,
+  "total_items": 24,
+  "high_count": 7,
   "items": [
     {
-      "title": "抖音小游戏流水收入同比大增140%，DAU增长130%",
-      "explanation": "巨量引擎陶晶晶透露，抖音小游戏流水收入同比大增140%，DAU增长130%。这显示抖音小游戏生态的爆发，为游戏广告主带来巨大流量红利。",
+      "title": "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
+      "explanation": "字节跳动正式发布独立办公Agent产品“豆包工作”，整合TRAE与扣子，与飞书深度打通，可自动操作电脑、生成文档表格，并支持定时任务。这标志着字节AI办公从单点工具转向统一平台，直接对标腾讯、阿里。",
       "analysis_points": [
-        "要点1：抖音小游戏从轻度娱乐升级为高增长赛道，用户规模和收入大幅提升。",
-        "要点2：对游戏广告主，可加大抖音小游戏投放，利用其高增长获取用户。"
+        "要点1：豆包工作整合TRAE与扣子，形成统一办公入口，支持自动操作电脑、生成PPT/文档/表格，并可定时执行任务。",
+        "要点2：与飞书深度打通，Agent可调用团队文档、消息、任务等组织数据，提升企业协作效率，对商家而言，可自动化处理营销报告、舆情监控等。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "womenofchina.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PX2FOLThYcGZCLU9ZRU12VXc1ZjY2cUJHVW93dUhoaDdEQVIta2ZVR0F4NWpDb2F3NTYtY0hGYWQ3ZVFEdkZGRFZILXpxRzdGbTNaa3JnMXgtZ25VUHRtR1hn?oc=5",
-      "local_life_hint": "本地生活可借鉴小游戏玩法，通过互动小游戏吸引用户到店。"
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1574866.htm",
+      "local_life_hint": "商家可利用豆包工作自动生成营销分析报告，监控竞品动态，提升运营效率。"
+    },
+    {
+      "title": "豆包工作实测：连上飞书后，Agent终于像个同事了",
+      "explanation": "爱范儿实测豆包工作，重点测试其与飞书的深度打通能力。基于飞书账号登录后，Agent可直接进入团队文档、消息、任务和组织关系，实现真正的协作式办公，而非孤立对话框。",
+      "analysis_points": [
+        "要点1：豆包工作与飞书深度打通，Agent能理解团队上下文，处理文档、表格、PPT等，交互更丝滑。",
+        "要点2：对商家而言，可让Agent自动整理会议纪要、跟进项目进度，甚至生成营销方案，降低人力成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1676539?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": "本地生活商家可借助豆包工作自动生成经营周报、分析顾客评价，辅助决策。"
+    },
+    {
+      "title": "字节整合AI办公产品，TRAE、扣子团队并入豆包",
+      "explanation": "据36氪独家报道，字节跳动将TRAE、扣子并入豆包，统一办公品牌“豆包工作”。这是字节AI业务组织调整的一部分，旨在聚焦资源，加速商业化。",
+      "analysis_points": [
+        "要点1：TRAE（AI编程工具）和扣子（AI应用开发平台）并入豆包，形成统一办公入口。",
+        "要点2：对开发者而言，可在豆包工作内直接调用扣子应用，降低开发门槛；对商家，可快速搭建定制化AI应用。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oUUtHUjdabVVISW8tVHZ6dmMyT05EN29lekl2RXFVMy1VcFNoRTRjb3BxRnlLeUU4MVo5d0dVbW9KUzd4STVQRkp6S0s0Zw?oc=5",
+      "local_life_hint": "商家可利用扣子快速搭建营销活动应用，如优惠券发放、客户问答机器人。"
+    },
+    {
+      "title": "字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打通",
+      "explanation": "新浪网报道，字节跳动正式发布豆包工作，具备AI办公能力，可围绕用户目标自主拆解任务、调用工具，并与飞书深度打通，构建企业级智能体。",
+      "analysis_points": [
+        "要点1：豆包工作可自主拆解任务，调用工具，如生成PPT、文档、表格，并支持定时任务。",
+        "要点2：与飞书深度打通，可访问团队文档、消息、任务，实现企业级协作。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWThxWW9oOWIzUVZETVpfbjBSSmtDdTdQY0huaWp0R3FDbTFHMjZLaGJpQmFUcDh6RXZXSGVuT19HemJCeHBrdHpGMXJZemw2VXQ1b0NxQkVGWXFsNFkybGNjNXhqM1lBNEtaSF9FVWhFNkRvZElIdG5EY0VRMS1Qa0syOFhWVWE2WGttcVk3NA?oc=5",
+      "local_life_hint": "商家可利用豆包工作自动生成营销报告，监控舆情。"
+    },
+    {
+      "title": "字节跳动发布豆包工作 与飞书深度打通构建企业级智能体",
+      "explanation": "新京报报道，字节跳动发布豆包工作，与飞书深度打通，构建企业级智能体。这标志着字节AI办公进入企业级市场。",
+      "analysis_points": [
+        "要点1：豆包工作与飞书深度打通，可调用企业组织数据，实现智能体协作。",
+        "要点2：对企业而言，可部署豆包工作作为数字员工，处理日常办公任务。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wQWxraktaU19wOXQzcTc0WXJBUkoyTXdLUFRtalc2ejFveHBCZ0N4aVk3dnlUeE15VHF6R2JWUDRfbU5oOXhIS3VBMzNiUENKeUpQam4wODdndDVGQmttUFR4X1A?oc=5",
+      "local_life_hint": "本地生活企业可部署豆包工作，用于客户服务、数据分析。"
+    },
+    {
+      "title": "字节跳动将AI工具整合进豆包超级应用，以对抗腾讯",
+      "explanation": "彭博社报道，字节跳动将AI工具整合进豆包超级应用，推出豆包工作，以对抗腾讯。豆包工作整合TRAE和扣子，与飞书打通。",
+      "analysis_points": [
+        "要点1：豆包工作整合TRAE和扣子，形成超级应用。",
+        "要点2：对商家而言，豆包工作提供一站式AI服务，提升效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdDZkbDY5ajhDQ3Z3a0RVaUpVaWFuVXN2MmhlZkxBY2pydVAxbGV3OGY5bFhfWDJ4aG9OSHJuUHU4ZlRHRUZiQXhRTXFsOVh3N1NxOHdBaDA0UjZYNnV0RVZwOVBlOHAyQWxmMk1GSnFyajBvODBCcUE5UmpWUkVIRXlYVEtyTWZXVWNHMWxqRUpIWWNzTElmRkFWNXd0dU5TVWZKbVBpMlVoNWRlTXhkUXlrT2E?oc=5",
+      "local_life_hint": "商家可关注豆包工作，用于营销自动化。"
+    },
+    {
+      "title": "CapCut集成Seedance 2.0，开启视频创作画布时代",
+      "explanation": "品玩报道，CapCut集成Seedance 2.0，开启视频创作画布时代。用户可在画布上自由组合素材，AI生成视频片段，提升创作效率。",
+      "analysis_points": [
+        "要点1：CapCut集成Seedance 2.0，提供画布式创作界面，支持AI生成视频。",
+        "要点2：对创作者而言，可快速生成视频素材，降低制作成本；对商家，可用于制作营销视频。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0QVZORGJIeUJ2RGxhek9Rb1gwOWNaS0hSUUc3dk54TmJUaGlCbDhOOGZ0Z3FObnlmNEdfYS0tOUpUSnhfa0ZieA?oc=5",
+      "local_life_hint": "本地生活商家可利用CapCut+Seedance快速生成菜品展示、门店宣传视频。"
     },
     {
       "title": "字节内测漫剧创作工具，搭载豆包大模型支持20万字剧本",
@@ -216,130 +301,88 @@
       "local_life_hint": "车载AI可推荐周边服务，外投团队可探索车载广告。"
     },
     {
-      "title": "CapCut集成Seedance 2.0，开启视频创作画布时代",
-      "explanation": "剪映（CapCut）集成Seedance 2.0，支持多模态AI视频生成，用户可在画布上自由组合素材，AI辅助生成视频。这标志着视频创作从剪辑工具向AI原生创作平台演进，降低创作门槛。",
+      "title": "豆包工作进入AI办公竞争，行业进入系统化对决阶段",
+      "explanation": "36氪发文分析，豆包工作进入AI办公竞争，标志着该领域从单点工具竞争转向系统化平台对决。字节、腾讯、阿里纷纷整合资源，构建完整办公生态。",
       "analysis_points": [
-        "要点1：CapCut从传统剪辑软件升级为AI视频生成平台，用户可通过文本、图片生成视频，实现从0到1的创作。",
-        "要点2：对本地生活商家，可快速生成探店、产品展示等视频素材，用于抖音投放，提升内容产出效率。"
+        "要点1：豆包工作整合TRAE、扣子，与飞书打通，形成从文档处理到应用开发的全链路能力。",
+        "要点2：对商家而言，选择AI办公平台时需考虑生态整合度，豆包工作与飞书的深度集成可能成为企业首选。"
       ],
-      "category": "大厂动向",
-      "type": "fact",
+      "category": "观点与深度",
+      "type": "opinion",
       "impact": "medium",
-      "source": "品玩",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0QVZORGJIeUJ2RGxhek9Rb1gwOWNaS0hSUUc3dk54TmJUaGlCbDhOOGZ0Z3FObnlmNEdfYS0tOUpUSnhfa0ZieA?oc=5",
-      "local_life_hint": "商家可利用CapCut的AI功能批量生成营销视频，降低制作成本，提高投放频次。"
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BaGI0cTZQM1ZHOUtPLTBqWWJUcDNFTmZjb0N6MHRXbXJ1RXFHUEZvVFBfMU0tYXhjcHgzSF96aFpQSTFKbGhhLVNUZEQ0TkhNSmhz?oc=5",
+      "local_life_hint": "本地生活企业可关注豆包工作与飞书的集成，用于内部管理和营销自动化。"
     },
     {
-      "title": "火山引擎副总裁：国内Top20具身智能企业中15家已深度合作",
-      "explanation": "火山引擎副总裁杨立伟透露，国内估值Top20的头部具身智能企业中，已有15家与火山引擎达成深度合作。这表明火山引擎在AI基础设施领域的影响力，具身智能成为其重要客户群。",
+      "title": "字节跳动收缩AI办公版图：TRAE、扣子并入豆包体系",
+      "explanation": "亿邦动力报道，字节跳动收缩AI办公版图，将TRAE、扣子并入豆包体系，形成统一入口。这有助于集中资源，提升产品协同效应。",
       "analysis_points": [
-        "要点1：火山引擎从提供算力、模型到解决方案，深度绑定具身智能企业，形成生态壁垒。",
-        "要点2：对本地生活，具身智能（如机器人）在餐饮、零售场景的应用，可能带来新的服务模式。"
+        "要点1：TRAE和扣子并入豆包，减少内部竞争，统一品牌认知。",
+        "要点2：对开发者而言，可在豆包工作内直接使用TRAE进行编程，提升开发效率。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "新浪财经",
+      "source": "亿邦动力网",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVWxDTjRuTGtwVmFYU2Q1dl94WF9MZFNmSDFsLXZmdnlBU2Z2bk9tTEVLbHJMUUlxc2xrUVQzNDhPeW5INjNERGswd2NXTlJYeF8tVXRn?oc=5",
+      "local_life_hint": "商家可关注豆包工作内集成的TRAE，用于快速开发内部工具。"
+    },
+    {
+      "title": "字节跳动AI办公“豆包工作”独立上线，整合TRAE和扣子",
+      "explanation": "新浪网报道，字节跳动AI办公“豆包工作”独立上线，整合TRAE和扣子，提供统一办公入口。这是字节AI商业化的重要一步。",
+      "analysis_points": [
+        "要点1：豆包工作独立客户端，整合TRAE和扣子，提供文档、表格、PPT等办公能力。",
+        "要点2：对商家而言，可一站式使用AI办公工具，降低学习成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SODVPZlZfd2Z0amhEMy1CR2pSdHZzZmF4aUxxbDFsLUNBQVhHMjh0amNpcGJXMHpYT000Y3c5MXh3YTI0NUtEU1VnaTlTQVRsSnRXbHFTR3ZYei03aGhwcWcwRzY5bzFudGY3Q2prSU0tSWpad2pCQXd1MlRfUXM?oc=5",
+      "local_life_hint": "商家可尝试豆包工作，用于日常办公和营销内容生成。"
+    },
+    {
+      "title": "字节跳动挑战腾讯，推出豆包工作AI办公Agent",
+      "explanation": "Free Malaysia Today报道，字节跳动推出豆包工作，挑战腾讯在AI办公领域的地位。豆包工作整合TRAE和扣子，与飞书打通，形成完整办公生态。",
+      "analysis_points": [
+        "要点1：豆包工作整合TRAE和扣子，提供编程和应用开发能力，与飞书集成。",
+        "要点2：对商家而言，豆包工作可作为一站式AI办公平台，提升效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Free Malaysia Today",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeFhncjFzOHlvaTN0OXBhMkhlZlJYR0tDVFlSVXZ2bUIyeWtKVHN3UkNhcFN6eURwajVfTW82d3hfcU5idmptUkZvYmNuekhBdUxPdEc1djBOMDJoVUtMamxaUW9kdFJDdXJFalpqSEJDb3pyUmNoR0VxN3hZd2lRVk1HNk91a3E0MnBPQ0x5Ny1JeTBkektvY0pCcklnZ1laRV8zNjZFS3kzVlByd0ZTTmdxWlJkcHJUNEloUWVpUnlCS2pL?oc=5",
+      "local_life_hint": "商家可关注豆包工作与飞书的集成，用于内部管理。"
+    },
+    {
+      "title": "字节跳动整合AI团队，与腾讯竞争",
+      "explanation": "Daily Tech News Show报道，字节跳动合并AI团队，将TRAE和扣子并入豆包，推出豆包工作，以与腾讯竞争。",
+      "analysis_points": [
+        "要点1：字节整合AI团队，聚焦豆包品牌，推出豆包工作。",
+        "要点2：对商家而言，豆包工作提供统一AI办公入口，降低使用门槛。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Daily Tech News Show",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU0c4SFd0ODdtU01teHgtcGxtQUc1OWoxanVGNlh3ZmY5eWFCZUlyN0VhSmxqdmlpS1JlNUhoYnUwSFF6Q3g5bmxHejB3WW5PNTR0ZkR3TmtsTUlDb2VyN0pHU0l5ZDlmRU03Wld6WnA0eU40VjlLVnVWZlFmWlowMUdpNHhrcHNUMkZRTVVRbkdzeHBvTTlRQzF0Q2hyOVRG0gGgAUFVX3lxTFBTRzhIV3Q4N21TTW14eC1wbG1BRzU5ajFqdUY2WHdmZjl5YUJlSXI3RWFKbGp2aWlLUmU1SGhidTBIUXpDeDlubEd6MHdZbk81NHRmRHdOa2xNSUNvZXI3SkdTSXlkOWZFTTdaV3pacDR5TjRWOUtWdVZmUWZaWjAxR2k0eGtwc1QyRlFNVVFuR3N4cG9NOVFDMXRDaHI5VEY?oc=5",
+      "local_life_hint": "商家可关注豆包工作，用于办公自动化。"
+    },
+    {
+      "title": "火山引擎副总裁：国内估值Top20具身智能企业中15家已合作",
+      "explanation": "新浪财经报道，火山引擎副总裁杨立伟表示，国内估值Top20的头部具身智能企业中，已有15家与火山引擎达成深度合作，显示其AI能力在垂直行业的渗透。",
+      "analysis_points": [
+        "要点1：火山引擎与15家头部具身智能企业合作，提供AI能力。",
+        "要点2：对具身智能企业而言，可借助火山引擎的模型和算力加速产品落地。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQdUVIekdEYWxMWDRDR1N6QkFKZVhaUHFnYUh3RTNMOVVsY0RoaVh0NHFBUFdFaHpFTF9iVkZ6eURIWDhUTzJWcG8wN0g1bHVDM1pOU3hxb05xZ0hZc3Z5NzR5Rno5enhLUzd5Z2x5RkZYNF9lek9Va0ctVEhjbTBQOVdSR2c3T2RBTU1DbTJVcHZ4ZDVhU1Q3bmt3T3NpcENwMGoxVFYtMDZobUswNGQwYXN6emdnMzg0VHF4dUVoR1R3cFJGQm9RWHc5NDV6VzZfdGh5YmwtVllWWHhQd01pamowQlZWRmd6SEhxN3ZZYXhNOTYzQnF1VXFVQ0VNMmxobUE?oc=5",
-      "local_life_hint": "本地生活可关注具身智能在配送、服务等场景的应用，提前布局。"
-    },
-    {
-      "title": "TikTok裁员75人，电商团队受冲击",
-      "explanation": "TikTok在西雅图地区裁员75人，主要影响电商团队。这是TikTok业务重组的一部分，反映其在电商领域的战略调整，可能影响商家合作政策。",
-      "analysis_points": [
-        "要点1：TikTok电商团队收缩，从扩张转向优化，可能调整商家扶持政策。",
-        "要点2：对依赖TikTok电商的商家，需关注平台政策变化，多元化渠道布局。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "GeekWire",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcTZaN3lTOHNHRWw3UEpFNk5LWmZyZlRJMUNFdTRmTXB2VVd2dHpiNFowa2UtNW4tRGNPdzJBYWlkNW9qSl9COUhtdFVJMERNOFR3cXhSZkM1ZE9xb09seXR6ZWxFZDhIMEpRTzVNWFM3LWNJWkgtZ3JXdXAwcTE2S252U25Ka1JEWUM1cWhia1diR2dYaVE?oc=5",
-      "local_life_hint": "本地生活商家若依赖TikTok电商，需关注团队变动带来的服务变化。"
-    },
-    {
-      "title": "豆包调用skill生图登上热搜，网友惊叹原来豆包就能做",
-      "explanation": "豆包通过调用skill实现生图功能，引发网友热议。这表明豆包在图像生成方面的能力被低估，其多模态能力正在扩展，可能吸引更多用户使用。",
-      "analysis_points": [
-        "要点1：豆包从文本助手升级为多模态创作工具，支持图像生成，能力边界扩大。",
-        "要点2：对商家，可利用豆包快速生成营销图片，降低设计成本。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "中国日报网",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mZ3UtMXNjeDJWNWxxWEdDTS16WHJZR0dzNG8tRDhZeHhJUDYyRlVTR1BPeXZGOTJZcUdiS05PR01YUFZmQmQ0MWZZQkdwc2gxZXZkNWtCeTB3SUtlcm9fd1JmVFo4QTBSSmhaVEg3UDN0VDdSd2lYd1hmb3c?oc=5",
-      "local_life_hint": "本地生活商家可用豆包生成菜品图、活动海报等，快速响应营销需求。"
-    },
-    {
-      "title": "字节跳动新一代视频模型30秒一次生成，去油腻感提升",
-      "explanation": "字节跳动新一代视频模型支持30秒一次生成，并优化了生成质量，去除“油腻感”。这提升了AI视频的自然度，为内容创作提供更逼真的工具。",
-      "analysis_points": [
-        "要点1：视频生成从短片段升级到30秒长视频，且画质更自然，接近实拍。",
-        "要点2：对广告制作，可生成更真实的场景，提升广告代入感。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "womenofchina.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nX3E4ZzNGMGZDWGhTX1Jsb2NXNXpFS0JuMEVFdUZ1RVI3MzRNV0p1Yjg4RldMaVd0bDRWLWR1TmtraW9BLWxvb0JRVDFJQTBvMmd0WkJQQ2dSc0p1WUE?oc=5",
-      "local_life_hint": "本地生活商家可用AI生成更真实的探店视频，增强用户信任。"
-    },
-    {
-      "title": "火山引擎“汽车局”：豆包大模型上车，车载AI生态加速",
-      "explanation": "火山引擎在汽车领域布局，豆包大模型已接入特斯拉等车型，车载AI生态加速。这为汽车厂商提供AI能力，也为本地生活带来车载场景的流量入口。",
-      "analysis_points": [
-        "要点1：火山引擎从提供模型到构建车载AI生态，整合语音、导航、推荐等服务。",
-        "要点2：对本地生活，车载场景可推荐沿途商家，实现场景化营销。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "汽车之家",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zOFpSREpuNFpmMm85eFZWbzY0OGxRbzcwamU2ZkJfc3dQMnZSRDh3WUg2eTNoQkM1OG9zOTlxQmJWSGttUjNtVGs3LXE1UjZiQWFpNXJpRm40X00?oc=5",
-      "local_life_hint": "本地生活商家可探索与车载系统合作，提供基于位置的推荐。"
-    },
-    {
-      "title": "Seedance 2.0用于地理空间可视化与城市规划，AI视频赋能垂直行业",
-      "explanation": "Seedance 2.0被用于地理空间可视化、城市规划演示和基于位置的内容生产，展示了AI视频生成在垂直行业的应用潜力，拓展了商业化场景。",
-      "analysis_points": [
-        "要点1：Seedance从娱乐内容扩展到专业领域，支持地理数据可视化，能力泛化。",
-        "要点2：对本地生活，可用于制作区域介绍、商圈导览等视频，提升信息传达效率。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "GIS user",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQcjVncVg4N1I4QlVxTklZemY3WktQV3Q0UDRLdGtkTEwyemNiZVM4cmo3SHRkeWY3QmNleTl5WGMwQzdsREgwYmJELWVCYlF2aHpSTFY3SnBYOF9paHdrenF4WnByYXg2V1JpNTRCVjdUX09ROWF3RmlKajdIaVBEeGgxeTZnZDV3SUdsRzBvUUE5aHZQSTRiQzVRTEhXYWs5bWlQb1g4aEEtTjJ1VnRxMC13VEF4ZTRVTHRoS3RFRjVOMk9wSE9YVGItR1RMdGxyenAzU0tMcGpWVVpVc0xXZUZ1Q2tsR1M4ZWwwb1cyanpxbGk3OVJFRnRIWGctYkVLRldtOA?oc=5",
-      "local_life_hint": "本地生活可用AI生成商圈导览视频，提升用户到店意愿。"
-    },
-    {
-      "title": "拍短剧的Seedance，怎样“教”智驾开车？",
-      "explanation": "文章探讨Seedance视频生成模型在智能驾驶领域的应用，如生成驾驶场景数据，用于训练智驾系统。这展示了AI视频生成在自动驾驶等新兴领域的潜力。",
-      "analysis_points": [
-        "要点1：Seedance从内容创作扩展到数据生成，为智驾提供训练数据，能力跨界。",
-        "要点2：对本地生活，智驾发展可能改变出行场景，带来新的营销机会。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yVExhMENJS3dKS1UzSE9Ud3FaRllHSmtFNEIteG1udHZiZkFsYjNSemJlcmhjSDRqbzlubUw5b0VpOWxQmlNclRtbXIyTEZDUVRr?oc=5",
-      "local_life_hint": "本地生活可关注智驾带来的车载场景，提前布局。"
-    },
-    {
-      "title": "TikTok Shop精选OMIE进行七天聚焦活动，备战返校季",
-      "explanation": "TikTok Shop选择OMIE进行七天聚焦活动，为返校季促销。这显示TikTok电商在特定品类上的运营策略，为商家提供流量扶持。",
-      "analysis_points": [
-        "要点1：TikTok Shop从泛品类运营转向精选商家扶持，提升转化效率。",
-        "要点2：对商家，可关注TikTok Shop的活动机会，参与聚焦活动获取流量。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSWJGRU1ILUx6Zjh5SFE1Z3Jtd1R1NFNkVlJEbkpsQ0otQ3ZXSnZabUlGN0dMOUpLWUFGUXNXdjBjVngwMGVWMHpZQjhzNVZ0SUg3WmxBbHBEQkhxazBCVnVzUDRqLS1ic3BteVRsM2JHMVctbEtIWG9TODZkQTNXT012QjM2N0hYcWNLc3FGR1VHVjlvcURqbE95c0taWmM?oc=5",
-      "local_life_hint": "本地生活商家可关注TikTok Shop的促销活动，参与获取流量。"
+      "local_life_hint": "本地生活商家可关注具身智能在服务场景的应用，如机器人配送。"
     }
   ],
   "mode": "ai"
