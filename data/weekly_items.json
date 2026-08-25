@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T07:41:32.273758+00:00",
-  "week_range": "08.24-08.24",
-  "date_display": "08.24 - 08.24",
-  "editorial_summary": "本周共汇总 11 条 AI 商业要闻，其中高影响 0 条。本周主线包括：字节内测漫剧创作工具，搭载豆包大模型支持20万字剧本；豆包将推WorkBuddy类产品，飞书十年能力组件化；巨量引擎小游戏精品化转型，聚焦长线经营；巨量引擎暑期教培广告专项治理，封禁违规账户1500余个；豆包办公独立，飞书十年归零？。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-25T02:45:43.618607+00:00",
+  "week_range": "08.24-08.25",
+  "date_display": "08.24 - 08.25",
+  "editorial_summary": "本周共汇总 21 条 AI 商业要闻，其中高影响 1 条。本周主线包括：抖音小游戏流水收入同比大增140%，DAU增长130%。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "豆包将推WorkBuddy类产品，飞书十年能力组件化",
@@ -13,16 +13,17 @@
       "豆包办公独立，飞书十年归零？"
     ],
     "ecosystem": [
+      "抖音小游戏流水收入同比大增140%，DAU增长130%",
       "巨量引擎暑期教培广告专项治理，封禁违规账户1500余个",
       "亚信×火山引擎：6000+席位用TRAE跑通企业级AI研发"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（8 条），高影响条目占比约 0%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（16 条），高影响条目占比约 5%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
-    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。"
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
   ],
   "local_life_insights": [
     {
@@ -36,12 +37,30 @@
     {
       "base": "字节内测漫剧创作工具，搭载豆包大模型支持20万字剧本，一键生成分镜与画面，推动漫剧工业化。",
       "borrow": "漫剧可作为本地生活内容营销的新形式，外投团队可帮助商家定制剧情化广告短剧，利用AI工具快速生成，提升内容吸引力。"
+    },
+    {
+      "base": "豆包工作整合TRAE和扣子，构建企业级Agent，与飞书深度打通，办公AI从工具集升级为统一平台。",
+      "borrow": "美团商业化可借鉴其整合思路，将内部AI工具统一为平台，为商家提供一站式营销智能体，降低使用门槛。"
     }
   ],
   "insights_intro": "今天字节系在视频生成成本、车载AI入口、内容生产工具上的底座级改造，意味着外投的素材生产成本将大幅下降，投放场景向车载延伸，内容形式向AI短剧演进。",
-  "total_items": 11,
-  "high_count": 0,
+  "total_items": 21,
+  "high_count": 1,
   "items": [
+    {
+      "title": "抖音小游戏流水收入同比大增140%，DAU增长130%",
+      "explanation": "巨量引擎陶晶晶透露，抖音小游戏流水收入同比大增140%，DAU增长130%。这显示抖音小游戏生态的爆发，为游戏广告主带来巨大流量红利。",
+      "analysis_points": [
+        "要点1：抖音小游戏从轻度娱乐升级为高增长赛道，用户规模和收入大幅提升。",
+        "要点2：对游戏广告主，可加大抖音小游戏投放，利用其高增长获取用户。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "womenofchina.com",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PX2FOLThYcGZCLU9ZRU12VXc1ZjY2cUJHVW93dUhoaDdEQVIta2ZVR0F4NWpDb2F3NTYtY0hGYWQ3ZVFEdkZGRFZILXpxRzdGbTNaa3JnMXgtZ25VUHRtR1hn?oc=5",
+      "local_life_hint": "本地生活可借鉴小游戏玩法，通过互动小游戏吸引用户到店。"
+    },
     {
       "title": "字节内测漫剧创作工具，搭载豆包大模型支持20万字剧本",
       "explanation": "字节内测漫剧创作工具，基于豆包大模型，支持上传20万字剧本自动生成分镜和画面，大幅降低漫剧制作门槛。此举推动漫剧工业化，对LibTV等第三方工具构成竞争压力。",
@@ -195,6 +214,132 @@
       "source": "新浪网",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Oc3MwMnlRTko4ZnUyaGJ4bjgwdzZoNlozcENvV0NoSmt1MnllUjI2V1ZWWDJkYmQybVRPN1dIaDZGaFdjUDBPd0RESGdhemVJUU01N0tmLXRyWGVuZzhEUWFkX0VibW5HODJBazEtTV9Ha2RjYzZzZzlKdF9pTXc?oc=5",
       "local_life_hint": "车载AI可推荐周边服务，外投团队可探索车载广告。"
+    },
+    {
+      "title": "CapCut集成Seedance 2.0，开启视频创作画布时代",
+      "explanation": "剪映（CapCut）集成Seedance 2.0，支持多模态AI视频生成，用户可在画布上自由组合素材，AI辅助生成视频。这标志着视频创作从剪辑工具向AI原生创作平台演进，降低创作门槛。",
+      "analysis_points": [
+        "要点1：CapCut从传统剪辑软件升级为AI视频生成平台，用户可通过文本、图片生成视频，实现从0到1的创作。",
+        "要点2：对本地生活商家，可快速生成探店、产品展示等视频素材，用于抖音投放，提升内容产出效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0QVZORGJIeUJ2RGxhek9Rb1gwOWNaS0hSUUc3dk54TmJUaGlCbDhOOGZ0Z3FObnlmNEdfYS0tOUpUSnhfa0ZieA?oc=5",
+      "local_life_hint": "商家可利用CapCut的AI功能批量生成营销视频，降低制作成本，提高投放频次。"
+    },
+    {
+      "title": "火山引擎副总裁：国内Top20具身智能企业中15家已深度合作",
+      "explanation": "火山引擎副总裁杨立伟透露，国内估值Top20的头部具身智能企业中，已有15家与火山引擎达成深度合作。这表明火山引擎在AI基础设施领域的影响力，具身智能成为其重要客户群。",
+      "analysis_points": [
+        "要点1：火山引擎从提供算力、模型到解决方案，深度绑定具身智能企业，形成生态壁垒。",
+        "要点2：对本地生活，具身智能（如机器人）在餐饮、零售场景的应用，可能带来新的服务模式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQdUVIekdEYWxMWDRDR1N6QkFKZVhaUHFnYUh3RTNMOVVsY0RoaVh0NHFBUFdFaHpFTF9iVkZ6eURIWDhUTzJWcG8wN0g1bHVDM1pOU3hxb05xZ0hZc3Z5NzR5Rno5enhLUzd5Z2x5RkZYNF9lek9Va0ctVEhjbTBQOVdSR2c3T2RBTU1DbTJVcHZ4ZDVhU1Q3bmt3T3NpcENwMGoxVFYtMDZobUswNGQwYXN6emdnMzg0VHF4dUVoR1R3cFJGQm9RWHc5NDV6VzZfdGh5YmwtVllWWHhQd01pamowQlZWRmd6SEhxN3ZZYXhNOTYzQnF1VXFVQ0VNMmxobUE?oc=5",
+      "local_life_hint": "本地生活可关注具身智能在配送、服务等场景的应用，提前布局。"
+    },
+    {
+      "title": "TikTok裁员75人，电商团队受冲击",
+      "explanation": "TikTok在西雅图地区裁员75人，主要影响电商团队。这是TikTok业务重组的一部分，反映其在电商领域的战略调整，可能影响商家合作政策。",
+      "analysis_points": [
+        "要点1：TikTok电商团队收缩，从扩张转向优化，可能调整商家扶持政策。",
+        "要点2：对依赖TikTok电商的商家，需关注平台政策变化，多元化渠道布局。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "GeekWire",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcTZaN3lTOHNHRWw3UEpFNk5LWmZyZlRJMUNFdTRmTXB2VVd2dHpiNFowa2UtNW4tRGNPdzJBYWlkNW9qSl9COUhtdFVJMERNOFR3cXhSZkM1ZE9xb09seXR6ZWxFZDhIMEpRTzVNWFM3LWNJWkgtZ3JXdXAwcTE2S252U25Ka1JEWUM1cWhia1diR2dYaVE?oc=5",
+      "local_life_hint": "本地生活商家若依赖TikTok电商，需关注团队变动带来的服务变化。"
+    },
+    {
+      "title": "豆包调用skill生图登上热搜，网友惊叹原来豆包就能做",
+      "explanation": "豆包通过调用skill实现生图功能，引发网友热议。这表明豆包在图像生成方面的能力被低估，其多模态能力正在扩展，可能吸引更多用户使用。",
+      "analysis_points": [
+        "要点1：豆包从文本助手升级为多模态创作工具，支持图像生成，能力边界扩大。",
+        "要点2：对商家，可利用豆包快速生成营销图片，降低设计成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "中国日报网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mZ3UtMXNjeDJWNWxxWEdDTS16WHJZR0dzNG8tRDhZeHhJUDYyRlVTR1BPeXZGOTJZcUdiS05PR01YUFZmQmQ0MWZZQkdwc2gxZXZkNWtCeTB3SUtlcm9fd1JmVFo4QTBSSmhaVEg3UDN0VDdSd2lYd1hmb3c?oc=5",
+      "local_life_hint": "本地生活商家可用豆包生成菜品图、活动海报等，快速响应营销需求。"
+    },
+    {
+      "title": "字节跳动新一代视频模型30秒一次生成，去油腻感提升",
+      "explanation": "字节跳动新一代视频模型支持30秒一次生成，并优化了生成质量，去除“油腻感”。这提升了AI视频的自然度，为内容创作提供更逼真的工具。",
+      "analysis_points": [
+        "要点1：视频生成从短片段升级到30秒长视频，且画质更自然，接近实拍。",
+        "要点2：对广告制作，可生成更真实的场景，提升广告代入感。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "womenofchina.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nX3E4ZzNGMGZDWGhTX1Jsb2NXNXpFS0JuMEVFdUZ1RVI3MzRNV0p1Yjg4RldMaVd0bDRWLWR1TmtraW9BLWxvb0JRVDFJQTBvMmd0WkJQQ2dSc0p1WUE?oc=5",
+      "local_life_hint": "本地生活商家可用AI生成更真实的探店视频，增强用户信任。"
+    },
+    {
+      "title": "火山引擎“汽车局”：豆包大模型上车，车载AI生态加速",
+      "explanation": "火山引擎在汽车领域布局，豆包大模型已接入特斯拉等车型，车载AI生态加速。这为汽车厂商提供AI能力，也为本地生活带来车载场景的流量入口。",
+      "analysis_points": [
+        "要点1：火山引擎从提供模型到构建车载AI生态，整合语音、导航、推荐等服务。",
+        "要点2：对本地生活，车载场景可推荐沿途商家，实现场景化营销。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zOFpSREpuNFpmMm85eFZWbzY0OGxRbzcwamU2ZkJfc3dQMnZSRDh3WUg2eTNoQkM1OG9zOTlxQmJWSGttUjNtVGs3LXE1UjZiQWFpNXJpRm40X00?oc=5",
+      "local_life_hint": "本地生活商家可探索与车载系统合作，提供基于位置的推荐。"
+    },
+    {
+      "title": "Seedance 2.0用于地理空间可视化与城市规划，AI视频赋能垂直行业",
+      "explanation": "Seedance 2.0被用于地理空间可视化、城市规划演示和基于位置的内容生产，展示了AI视频生成在垂直行业的应用潜力，拓展了商业化场景。",
+      "analysis_points": [
+        "要点1：Seedance从娱乐内容扩展到专业领域，支持地理数据可视化，能力泛化。",
+        "要点2：对本地生活，可用于制作区域介绍、商圈导览等视频，提升信息传达效率。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "GIS user",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQcjVncVg4N1I4QlVxTklZemY3WktQV3Q0UDRLdGtkTEwyemNiZVM4cmo3SHRkeWY3QmNleTl5WGMwQzdsREgwYmJELWVCYlF2aHpSTFY3SnBYOF9paHdrenF4WnByYXg2V1JpNTRCVjdUX09ROWF3RmlKajdIaVBEeGgxeTZnZDV3SUdsRzBvUUE5aHZQSTRiQzVRTEhXYWs5bWlQb1g4aEEtTjJ1VnRxMC13VEF4ZTRVTHRoS3RFRjVOMk9wSE9YVGItR1RMdGxyenAzU0tMcGpWVVpVc0xXZUZ1Q2tsR1M4ZWwwb1cyanpxbGk3OVJFRnRIWGctYkVLRldtOA?oc=5",
+      "local_life_hint": "本地生活可用AI生成商圈导览视频，提升用户到店意愿。"
+    },
+    {
+      "title": "拍短剧的Seedance，怎样“教”智驾开车？",
+      "explanation": "文章探讨Seedance视频生成模型在智能驾驶领域的应用，如生成驾驶场景数据，用于训练智驾系统。这展示了AI视频生成在自动驾驶等新兴领域的潜力。",
+      "analysis_points": [
+        "要点1：Seedance从内容创作扩展到数据生成，为智驾提供训练数据，能力跨界。",
+        "要点2：对本地生活，智驾发展可能改变出行场景，带来新的营销机会。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yVExhMENJS3dKS1UzSE9Ud3FaRllHSmtFNEIteG1udHZiZkFsYjNSemJlcmhjSDRqbzlubUw5b0VpOWxQmlNclRtbXIyTEZDUVRr?oc=5",
+      "local_life_hint": "本地生活可关注智驾带来的车载场景，提前布局。"
+    },
+    {
+      "title": "TikTok Shop精选OMIE进行七天聚焦活动，备战返校季",
+      "explanation": "TikTok Shop选择OMIE进行七天聚焦活动，为返校季促销。这显示TikTok电商在特定品类上的运营策略，为商家提供流量扶持。",
+      "analysis_points": [
+        "要点1：TikTok Shop从泛品类运营转向精选商家扶持，提升转化效率。",
+        "要点2：对商家，可关注TikTok Shop的活动机会，参与聚焦活动获取流量。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSWJGRU1ILUx6Zjh5SFE1Z3Jtd1R1NFNkVlJEbkpsQ0otQ3ZXSnZabUlGN0dMOUpLWUFGUXNXdjBjVngwMGVWMHpZQjhzNVZ0SUg3WmxBbHBEQkhxazBCVnVzUDRqLS1ic3BteVRsM2JHMVctbEtIWG9TODZkQTNXT012QjM2N0hYcWNLc3FGR1VHVjlvcURqbE95c0taWmM?oc=5",
+      "local_life_hint": "本地生活商家可关注TikTok Shop的促销活动，参与获取流量。"
     }
   ],
   "mode": "ai"
