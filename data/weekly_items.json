@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T07:28:09.176320+00:00",
-  "week_range": "08.24-08.25",
-  "date_display": "08.24 - 08.25",
-  "editorial_summary": "本周共汇总 24 条 AI 商业要闻，其中高影响 7 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-26T02:52:43.994033+00:00",
+  "week_range": "08.24-08.26",
+  "date_display": "08.24 - 08.26",
+  "editorial_summary": "本周共汇总 35 条 AI 商业要闻，其中高影响 8 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
@@ -20,7 +20,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（20 条），高影响条目占比约 29%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（24 条），高影响条目占比约 23%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
@@ -45,8 +45,8 @@
     }
   ],
   "insights_intro": "今天字节系在视频生成成本、车载AI入口、内容生产工具上的底座级改造，意味着外投的素材生产成本将大幅下降，投放场景向车载延伸，内容形式向AI短剧演进。",
-  "total_items": 24,
-  "high_count": 7,
+  "total_items": 35,
+  "high_count": 8,
   "items": [
     {
       "title": "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
@@ -145,6 +145,20 @@
       "source": "品玩",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0QVZORGJIeUJ2RGxhek9Rb1gwOWNaS0hSUUc3dk54TmJUaGlCbDhOOGZ0Z3FObnlmNEdfYS0tOUpUSnhfa0ZieA?oc=5",
       "local_life_hint": "本地生活商家可利用CapCut+Seedance快速生成菜品展示、门店宣传视频。"
+    },
+    {
+      "title": "字节与好莱坞达成全球AI版权保护协议",
+      "explanation": "字节跳动与好莱坞达成全球AI版权保护协议，显示AI内容出海需重视版权合规，行业版权意识增强。",
+      "analysis_points": [
+        "字节与好莱坞合作，为AI生成内容的版权使用提供规范，降低法律风险。",
+        "对AI内容创作者而言，版权合规成为必要条件，需关注授权机制。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Campaign Middle East",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU42dUJGdVRzR0VYYW1IR3F5bzNuVjFPWG9rOGNxLTNSWDQ0ejZVSV9iUTk2aVBmbzRqQVNhWnlhNDYzeFl4bzNuRWhoTnVVV09uVTJva2puaGNRS1ZpeFhKbzRGcmVEb0dqd1E4OGlrZGRJMUMtbUJfcDV1eUo0anYwWUcycWNubENXZjNxRDVDc3h4S0l1MQ?oc=5",
+      "local_life_hint": "本地生活商家使用AI生成内容时，需注意版权合规，避免侵权风险。"
     },
     {
       "title": "字节内测漫剧创作工具，搭载豆包大模型支持20万字剧本",
@@ -383,6 +397,146 @@
       "source": "finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQdUVIekdEYWxMWDRDR1N6QkFKZVhaUHFnYUh3RTNMOVVsY0RoaVh0NHFBUFdFaHpFTF9iVkZ6eURIWDhUTzJWcG8wN0g1bHVDM1pOU3hxb05xZ0hZc3Z5NzR5Rno5enhLUzd5Z2x5RkZYNF9lek9Va0ctVEhjbTBQOVdSR2c3T2RBTU1DbTJVcHZ4ZDVhU1Q3bmt3T3NpcENwMGoxVFYtMDZobUswNGQwYXN6emdnMzg0VHF4dUVoR1R3cFJGQm9RWHc5NDV6VzZfdGh5YmwtVllWWHhQd01pamowQlZWRmd6SEhxN3ZZYXhNOTYzQnF1VXFVQ0VNMmxobUE?oc=5",
       "local_life_hint": "本地生活商家可关注具身智能在服务场景的应用，如机器人配送。"
+    },
+    {
+      "title": "豆包对商家抽佣12%，AI推荐客观性引热议",
+      "explanation": "豆包开始对商家抽佣12%，引发对AI推荐是否还客观的讨论，显示AI商业化变现与中立性平衡成为焦点。",
+      "analysis_points": [
+        "豆包对商家抽佣，商业模式从免费转向抽佣，AI推荐可能受商业利益影响。",
+        "对商家而言，需评估豆包渠道的ROI，同时关注AI推荐公平性；对平台而言，需平衡变现与用户体验。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mSlpSekIyN1d2aS1tRG9MVEpIRVhIS0VsSVhIMUxMY2VoRHFwMVRLTVA3OG41eVpZakdGWWQxRXptYjk0WFk1STU0cGJnNkllVGJSSw?oc=5",
+      "local_life_hint": "豆包抽佣模式对本地生活商家是重要信号，需关注AI推荐渠道的成本与效果，合理分配营销预算。"
+    },
+    {
+      "title": "火山引擎谭待：Seedance 2.0收入没有传言那么高",
+      "explanation": "火山引擎谭待澄清Seedance 2.0收入没有传言那么高，暗示市场对视频生成模型商业化预期需理性，避免过度炒作。",
+      "analysis_points": [
+        "Seedance 2.0收入不及市场传言，说明视频生成模型商业化仍在早期，收入规模有限。",
+        "对行业而言，需理性看待AI视频生成技术的变现能力，避免高估短期回报。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzeFlkS2ZWMExxTHItc0RCLWpueUhDamVya0xnc29oWU5IMHpWLXVjVUdWcXFOVnY1MkxwR1FsSFlVYjNvSTNOYTVTMzJVVzdwYkZF?oc=5",
+      "local_life_hint": "对依赖AI视频生成的广告素材生产，需关注成本与效果，避免过度投入。"
+    },
+    {
+      "title": "前剪映负责人创业融资近亿，替代Figma，给AI Coding补审美",
+      "explanation": "前剪映负责人创业融资近亿，瞄准AI设计工具，替代Figma，为AI Coding补审美，显示字节系人才外溢催生新创企。",
+      "analysis_points": [
+        "前剪映负责人创业，聚焦AI设计工具，弥补AI编程在审美上的不足。",
+        "对设计行业而言，AI设计工具将提升效率，降低门槛。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUE5Qalp5UlJVczRfaVZYS1NobGFTUGtDbTBzY2ZVd0FRZWNVN3dhM2NlU2ZkLXR4Y0picGgyMENmWk1WdHpHeE05dlBCU0czdXhlYVpnWDNfSVlVU1IwY2dZOWtGcldMNjNUYmt2VlhGZGFzUWYwQ1U2V3p0NVVGWlpWY3lvVkhuVDdwc0dVZFlZV2Q1V2hyQmVnZjU1UUF1WlRyV05Iaw?oc=5",
+      "local_life_hint": "AI设计工具可帮助本地生活商家快速生成营销素材，降低设计成本。"
+    },
+    {
+      "title": "抖音创作者用AI实现沉浸式未来战场体验",
+      "explanation": "抖音作者利用AI技术实现沉浸式未来战场体验，显示AI在内容创作中的应用日益广泛，提升用户体验。",
+      "analysis_points": [
+        "抖音创作者使用AI生成沉浸式内容，提升视频吸引力。",
+        "对平台而言，AI创作工具降低内容生产门槛，丰富内容生态。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MR1JIa0Rzc3d5YjZFRDVPYTVGSWFxUWVGNHdkNWxJbHdLemU4VWdiM0RsRHBINUVrVWZsV2VsdDZqZURHVDFKTlBnN3RqWmNTT1hzeUx4bGhOeGFZeFZhRjlrUU56dy0xcWFQeXhvc3hMQQ?oc=5",
+      "local_life_hint": "本地生活商家可借鉴AI沉浸式内容，提升广告创意吸引力。"
+    },
+    {
+      "title": "抖音快手B站小红书集体押注AI互动内容，错位竞争",
+      "explanation": "抖音、快手、B站、小红书集体押注AI互动内容，但各自错位竞争，显示AI互动内容成为平台新战场。",
+      "analysis_points": [
+        "四大平台布局AI互动内容，但侧重点不同，抖音侧重短视频互动，快手侧重直播等。",
+        "对内容创作者而言，AI互动内容提供新玩法，可提升用户参与度。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "流媒体网",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhOUVYamJYMEs2NkNmeVJMNm41bkotUGxablNleVZIb2llNHBROGFPaV9pTU55eVRsMDRVR1EwU3NZR1EwMHc3cTE3YmdPcjRLdG9TMzN3VmE?oc=5",
+      "local_life_hint": "本地生活商家可利用AI互动内容提升用户参与，如互动广告、虚拟试妆等。"
+    },
+    {
+      "title": "火山引擎具身智能论坛：AIVA李博演讲全文",
+      "explanation": "火山引擎具身智能技术与应用论坛上，AIVA李博发表演讲，分享具身智能技术进展，显示字节在具身智能领域布局。",
+      "analysis_points": [
+        "火山引擎举办具身智能论坛，展示技术积累，推动行业交流。",
+        "具身智能与AI结合，可应用于机器人、自动驾驶等领域。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Jiemian.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lOXNwX19NY2xtZG9QYnFhX2pLVTNMQmhsSS1MR0FPYTZ1cGplZ3VJcUVVOGhNV2s4cEpRZDVUWXdNbk93ejZIdUdpUmxMMlgwX0MyZGo3dms?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "蔚来汽车×火山引擎：TRAE深入座舱研发，从个人提效走向组织智能",
+      "explanation": "蔚来汽车与火山引擎合作，TRAE深入座舱研发，从个人提效走向组织智能，显示TRAE在企业级应用中的价值。",
+      "analysis_points": [
+        "TRAE在蔚来座舱研发中应用，提升研发效率，从个人工具走向组织协同。",
+        "对车企而言，AI编程工具可加速软件开发，降低成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEpqRnFHd0hMZE92dU1UakRJTVpHMFF0STZzdzVtVEQ3TndDNDNOakp6ZjB0dXV1dThSbGlzNzRUTmdnNlJnU2FIS3dzTjR3QnNGTGFrbFpxZmhjSERBTFo5dDhUWG5PV0FoMzF1ZFZHSmhaWjNhSHd1MllYU1Qxdmt1OG5lbHd5?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "抖音围绕AI剪辑推进多款产品，多端适配",
+      "explanation": "抖音围绕AI剪辑推进多款产品，并做多端适配，显示抖音在AI剪辑领域的持续投入。",
+      "analysis_points": [
+        "抖音推出多款AI剪辑产品，覆盖不同场景，提升剪辑效率。",
+        "多端适配满足用户在不同设备上的创作需求。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "womenofchina.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yX3owMmpNTFFWc1JDYXF6VmZUNmlLNXJPSUkwbFVMS3UtckROcElOSmpxeDE0YzVHN3BuMlpPMWE0OHRKbC1iRWpuOXE4WEJVYTRzV0V5ZWtnQQ?oc=5",
+      "local_life_hint": "AI剪辑工具可帮助本地生活商家快速制作视频，用于广告投放。"
+    },
+    {
+      "title": "抖音作者用AI实现沉浸式未来战场体验",
+      "explanation": "抖音作者利用AI技术实现沉浸式未来战场体验，显示AI在内容创作中的应用日益广泛，提升用户体验。",
+      "analysis_points": [
+        "抖音创作者使用AI生成沉浸式内容，提升视频吸引力。",
+        "对平台而言，AI创作工具降低内容生产门槛，丰富内容生态。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObjh3SVcxME9Pa3JIa2sxMlItRXE5MDhqZmk1dC1VMGRrV2hRNnM5RmxSZ2tiUENhZnJiYzJydUItYmwtR3ZaUjlZanY1MXVmZmFJamNTbUFKcERXampqV0tKRlhfMXl0cjR0c2RrejlCZUlMdl93WHptamNMTFJwbzlYR1Y?oc=5",
+      "local_life_hint": "本地生活商家可借鉴AI沉浸式内容，提升广告创意吸引力。"
+    },
+    {
+      "title": "豆包工作是否免费使用？",
+      "explanation": "豆包工作发布后，用户关注其是否免费，显示定价策略影响用户采用。",
+      "analysis_points": [
+        "豆包工作的定价策略尚未明确，免费与否影响用户采用。",
+        "对企业客户而言，成本是采用AI办公工具的重要因素。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVNXkxUzQyR21MdzJTbm45Nlg0cWJ6Y1dGLUpWckVOcDBpOHBFX3hLd25WYTRmU09RN2IxR0xmTGdKSWRYQ2JGTnRFYlg2bW1qMHdfQjM5aFVRdUMzc2h2RFQ2OEhxR0ZYdGF3MFZUZHgwS1dneGx1Z29BT2RGSzA?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
