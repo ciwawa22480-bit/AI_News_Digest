@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-27T12:01:51.306413+00:00",
-  "week_range": "08.24-08.27",
-  "date_display": "08.24 - 08.27",
-  "editorial_summary": "本周共汇总 52 条 AI 商业要闻，其中高影响 12 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-27T17:53:59.108061+00:00",
+  "week_range": "08.24-08.28",
+  "date_display": "08.24 - 08.28",
+  "editorial_summary": "本周共汇总 60 条 AI 商业要闻，其中高影响 12 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（33 条），高影响条目占比约 23%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（34 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "今天字节系在视频生成成本、车载AI入口、内容生产工具上的底座级改造，意味着外投的素材生产成本将大幅下降，投放场景向车载延伸，内容形式向AI短剧演进。",
-  "total_items": 52,
+  "total_items": 60,
   "high_count": 12,
   "items": [
     {
@@ -776,6 +776,118 @@
       "source": "车家号",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuY29MM3hRZjIwOWg5RXNuS1d5U2VnM0JTTUFsV1VlRWhMN3YyVFlMQ2txZ29RNEs3NzN1Tm1NNVhDcld3OW1Ebnl0SG1MMS00Ml9wcjZrdVR4YVU?oc=5",
       "local_life_hint": "车载语音助手可推荐附近商家，本地生活商家可考虑与车企合作。"
+    },
+    {
+      "title": "Seedance 2.5上线一月，性能获认可但面临“平替”围攻",
+      "explanation": "Seedance 2.5发布一个月，面临Minimax等竞品的“平替”压力，但实测显示其性能仍具竞争力，尤其在去“油腻感”方面表现突出。文章分析其市场定位与挑战。",
+      "analysis_points": [
+        "产品能力：Seedance 2.5在视频生成质量、细节处理上优于部分竞品，30秒一次生成，能有效去除“油腻感”，提升真实度。",
+        "商业价值：对视频创作者和广告主，Seedance 2.5提供高质量视频生成工具，可降低广告素材制作成本，提升内容生产效率。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQalh0dElFQm1fR2dHQkNsTUY2QUdqMDVqOWFMck5SVEx0TXN5ZmRabEJOTGk3eHpaNmR4ZjI2eE12U3pmLVhGTVBoOUppNXBOQzVRYjVwSlNHOFRrMml0ZWxBcFBhaTBhc1RPT0ZFcWllVGtBVnpHQ3JTZHpXem93M3ZkR3ZzdHFLZEpsVl9sUFd0eUxfZlBNdmkySl9CalRadFdFS3Z3WQ?oc=5",
+      "local_life_hint": "本地生活商家可利用Seedance 2.5生成高质量视频素材，用于抖音广告投放，降低制作成本。"
+    },
+    {
+      "title": "字节与MPA合作，剪映国际版或上线正版IP素材库",
+      "explanation": "字节与MPA（美国电影协会）合作，可能为剪映国际版（CapCut）引入正版IP素材库，为创作者提供版权绿灯，降低侵权风险，丰富素材生态。",
+      "analysis_points": [
+        "产品功能：剪映国际版将集成正版IP素材，创作者可合法使用电影、剧集片段进行二次创作，提升创作自由度。",
+        "商业价值：对创作者和品牌，正版素材库降低法律风险，提升内容质量；对字节，增强剪映竞争力，吸引更多创作者，促进广告生态繁荣。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "360娱乐",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yQXYzMDBjcHVWaW9MWVB0QUtDMnNuQUVkaVlBSERENUQzaGZ0OGtZUGZGZGdkRXBBMVJCUzhNVXNqWjZoOXJOam9vUlZFY3M?oc=5",
+      "local_life_hint": "本地生活商家可利用正版IP素材制作营销内容，提升品牌调性，同时避免版权纠纷。"
+    },
+    {
+      "title": "青椒云上新：Seedance 2.5、Open API、Ubuntu系统三升级",
+      "explanation": "青椒云平台升级，支持Seedance 2.5视频生成、开放API及Ubuntu系统，提升开发集成便利性，为开发者提供更灵活的AI视频生成环境。",
+      "analysis_points": [
+        "产品功能：青椒云集成Seedance 2.5，提供Open API，支持Ubuntu系统，方便开发者调用视频生成能力。",
+        "商业价值：对开发者和企业，可快速集成AI视频生成，降低开发成本；对广告营销，可自动化生成视频素材。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "中华网科技频道",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GbTEzc19KUTYydXlZLXlTb241VWVzV19DTXdmYWtGWXgtMjRpNkNFaFZWdExkcktOS0lWMmVEWEp4allIYVlHRG9KSFFGNWhzUUFKazhHSDdKeVNzaHJJNnlJXzBORVRPdzVnd253?oc=5",
+      "local_life_hint": "开发者可利用青椒云API为本地生活商家定制视频生成工具，提升营销效率。"
+    },
+    {
+      "title": "Seedance 2.5实测：它真的值得你花大价钱去使用吗？",
+      "explanation": "36氪对Seedance 2.5进行实测，评估其性能与性价比，认为其在视频生成质量上表现优异，但价格较高，需权衡使用场景。",
+      "analysis_points": [
+        "产品能力：Seedance 2.5在细节、连贯性上表现突出，但成本较高，适合高价值内容制作。",
+        "商业价值：对广告主，需评估ROI，高预算项目可考虑，低预算可选用其他方案。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DSDExUndlMnFiRTdiNDFGSnFQRU1SRGdYM3lSODR1Ql9pZGFJQ3hPdE1DTkxZRXJZTGhyU0ttb2dCNTd2b242STlOR3o1dw?oc=5",
+      "local_life_hint": "本地生活商家在制作高质量广告视频时，可考虑Seedance 2.5，但需控制成本。"
+    },
+    {
+      "title": "拍短剧的Seedance，怎样“教”智驾开车？",
+      "explanation": "文章探讨Seedance视频生成模型在智驾领域的应用，通过生成驾驶场景数据，辅助智驾系统训练，拓展视频模型的应用边界。",
+      "analysis_points": [
+        "产品应用：Seedance可生成逼真的驾驶场景视频，用于智驾模型训练，降低数据采集成本。",
+        "商业价值：对智驾企业，AI生成数据可加速研发；对字节，拓展B端合作，提升模型价值。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yVExhMENJS3dKS1UzSE9Ud3FaRllHSmtFNEIteG1udHZiZkFsYjNSemJlcmhjSDRqbzlubUw5b0VpOWxQYmlNclRtbXIyTEZDUVRr?oc=5",
+      "local_life_hint": "视频生成技术可应用于本地生活场景模拟，如虚拟探店，但当前相关性较低。"
+    },
+    {
+      "title": "字节退出游戏资产，资本向AI集中",
+      "explanation": "报道指出，阿里和字节跳动退出游戏资产，资本转向AI领域，反映行业资源向AI集中，字节聚焦核心AI业务。",
+      "analysis_points": [
+        "战略调整：字节剥离游戏业务，集中资源投入AI，加速商业化。",
+        "商业价值：对行业，AI投资热度上升，字节AI产品有望获得更多资源支持。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeWVGU0dUZ3pxNjdENV90bkVacS1MVkRsREhOY21FSW93U21wNGdsRlgxZ3JfdjJBaHY1NFl0RnM3SmtHMDNDNGlaaVd3U0hhVmUwQ3hreVAwcmxhZXBHaFN3STFiYUtBaFNSOXFJaXhFaDlocGtKSGFiRFQ0czlidU1kdjJNVmxmdTFIREx0YWdNS25EeU9RbDdMVW5QNWVGX19zMGdPdmlnUQ?oc=5",
+      "local_life_hint": "字节聚焦AI，本地生活商家可期待更多AI工具赋能营销。"
+    },
+    {
+      "title": "巴西罚款TikTok母公司字节跳动，涉青少年数据处理",
+      "explanation": "巴西因TikTok非法处理青少年数据，对字节跳动处以罚款，显示全球监管趋严，平台需加强数据合规。",
+      "analysis_points": [
+        "监管风险：巴西罚款，反映各国对数据隐私的严格监管，平台需投入合规。",
+        "商业价值：对广告主，平台合规性影响广告投放稳定性，需关注监管动态。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "路透社",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWU9jT2RKYjFBamQwbHdlQnF4SkJaak4weUl0d2x1TXQybF83dHljWHJEaTlNcXg1QlBaQ0hDZ19HRG5XQ3pnWWh3Q1d3WVA5V2lvSlktUjM0T0cxVEx6RTM5cDlBWlJSSnJxUzllVnViNkNaQnV2VmpfMFpoMVhsR3Z6VllhemsxMkl3SmRMV0c3cnBqV2NNNjJGaVJHTU0ycm1XOEZiRGY1Tk11X0xWUzhvN1ZUZGVSOUl6MmdseVI?oc=5",
+      "local_life_hint": "广告投放需确保数据合规，避免法律风险。"
+    },
+    {
+      "title": "TikTok宕机影响用户，平台稳定性受关注",
+      "explanation": "TikTok发生宕机，影响用户使用，平台稳定性问题引发关注，可能影响广告投放效果。",
+      "analysis_points": [
+        "技术问题：宕机导致用户无法访问，影响广告展示和转化。",
+        "商业价值：对广告主，平台稳定性影响投放效果，需关注平台运维能力。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Asbury Park Press",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObFNSOENRVFZSYzdDRmFzYlZHM3JOOVlaeUJPNEo2dHFyMVZWUXFtbnZvOGVGZGgwUWpCQTlXQ1QzZm9MSWs5ZER2MUFHZ3dHcnViMFVQWEk0UUQtX0RqOUs4Q01LYVJReVM1VkJtSWhfVEVCVmFZZHBqUjdlYXBKWmRGY3hQLVdBREVEdzg3eHZ1Y01pZDNLcGczeFBBTzdacThJZVF5dkl1ZHc?oc=5",
+      "local_life_hint": "广告投放需考虑平台稳定性风险，可多平台布局。"
     }
   ],
   "mode": "ai"
