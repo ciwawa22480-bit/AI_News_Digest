@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T07:29:10.206645+00:00",
-  "week_range": "08.24-08.26",
-  "date_display": "08.24 - 08.26",
-  "editorial_summary": "本周共汇总 39 条 AI 商业要闻，其中高影响 9 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-27T12:01:51.306413+00:00",
+  "week_range": "08.24-08.27",
+  "date_display": "08.24 - 08.27",
+  "editorial_summary": "本周共汇总 52 条 AI 商业要闻，其中高影响 12 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
@@ -11,20 +11,21 @@
     ],
     "opinions": [
       "豆包办公独立，飞书十年归零？",
-      "豆包工作进入AI办公竞争，行业进入系统化对决阶段"
+      "豆包工作进入AI办公竞争，行业进入系统化对决阶段",
+      "豆包大模型上车特斯拉，马斯克为何破例？"
     ],
     "ecosystem": [
       "即梦AI推出影视厂牌“即梦片场”，打通AI影视商业化最后一公里",
-      "巨量引擎暑期教培广告专项治理，封禁违规账户1500余个",
-      "抖音小红书下场，在线生成AI小游戏卷疯了"
+      "字节激战好莱坞：版权成AI视频基石，AI剧出海加速",
+      "巨量引擎暑期教培广告专项治理，封禁违规账户1500余个"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（27 条），高影响条目占比约 23%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（33 条），高影响条目占比约 23%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。"
+    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
   ],
   "local_life_insights": [
     {
@@ -45,8 +46,8 @@
     }
   ],
   "insights_intro": "今天字节系在视频生成成本、车载AI入口、内容生产工具上的底座级改造，意味着外投的素材生产成本将大幅下降，投放场景向车载延伸，内容形式向AI短剧演进。",
-  "total_items": 39,
-  "high_count": 9,
+  "total_items": 52,
+  "high_count": 12,
   "items": [
     {
       "title": "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
@@ -173,6 +174,48 @@
       "source": "Campaign Middle East",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU42dUJGdVRzR0VYYW1IR3F5bzNuVjFPWG9rOGNxLTNSWDQ0ejZVSV9iUTk2aVBmbzRqQVNhWnlhNDYzeFl4bzNuRWhoTnVVV09uVTJva2puaGNRS1ZpeFhKbzRGcmVEb0dqd1E4OGlrZGRJMUMtbUJfcDV1eUo0anYwWUcycWNubENXZjNxRDVDc3h4S0l1MQ?oc=5",
       "local_life_hint": "本地生活商家出海时，可借助字节的AI版权保护，安全使用AI生成内容进行海外推广。"
+    },
+    {
+      "title": "字节计划2026年大幅增加AI投入，加速商业化进程",
+      "explanation": "据MediaPost报道，字节跳动计划在2026年大幅增加AI投入，显示其对AI商业化的坚定决心。此举或加剧行业竞争，推动AI技术在各场景的落地。",
+      "analysis_points": [
+        "字节加大AI投入，将加速豆包、火山引擎等产品的迭代，提升技术底座能力。",
+        "对广告主而言，字节AI能力的增强将带来更精准的投放工具和更丰富的广告形式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "MediaPost",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRE5icGM3M2lPRS16amtNQy02TEQ0ZC1ITklidHBDdW1OSVRVU0x3VU9RZkFib2t4eVlJcGJRN0lUWGFUQ0JSU1U0eDZ3ZzJ4YmVBYk5LRXRTVHZmdVI2WGNDSUZPUmFMUkx0WkpDckRab1c1dE5WS3pPWF9aWEQ0WC1iN0NybHU0UEZjRVRjc3lOMnhtWkEwYm5PR2JzTWZvRndFNG5wU1c?oc=5",
+      "local_life_hint": "字节AI投入增加，外投团队可期待更多AI驱动的广告优化工具。"
+    },
+    {
+      "title": "火山方舟上线Seedance 2.0 mini，单秒成本约0.5元",
+      "explanation": "火山方舟上线视频生成模型Seedance 2.0 mini，单秒成本约0.5元，大幅降低视频生成成本，推动AI视频在商业场景的普及。",
+      "analysis_points": [
+        "Seedance 2.0 mini以低成本提供高质量视频生成，适合广告素材批量生产。",
+        "本地生活商家可低成本制作短视频广告，提升投放效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1haXBmd0NvMXpIU3JzUkpoZnI2VVNVVDJ3SGlBZHM0YVB0TlJrVlJwRjViUHRjVlBZZWU3cXNlbFNFdkNqZjhDVXBRQWgtTDlBTl90d3lkQjRYZzV1aVowUE9PRXJTRlk?oc=5",
+      "local_life_hint": "低成本视频生成可让中小商家轻松制作广告素材，外投团队可推荐此工具。"
+    },
+    {
+      "title": "字节激战好莱坞：版权成AI视频基石，AI剧出海加速",
+      "explanation": "字节与好莱坞达成版权合作，为AI视频内容出海扫清障碍。版权成为AI视频商业化的基石，字节正加速AI剧出海。",
+      "analysis_points": [
+        "字节通过版权合作，确保AI生成内容的合法性，推动AI影视出海。",
+        "本地生活商家可关注AI视频出海趋势，探索海外营销。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "白鲸出海",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1XRTd0MWFVQWVnaGdYQTN5dGVrY2lqbXZYRW00TFJBUEhCWHZ2Nkw0dnpOWDRxTjg0cHJFSnJnd0JXYWo4ekZqOW5aWEI?oc=5",
+      "local_life_hint": "AI视频出海为本地生活商家提供海外营销新渠道。"
     },
     {
       "title": "字节内测漫剧创作工具，搭载豆包大模型支持20万字剧本",
@@ -593,6 +636,146 @@
       "source": "新浪网",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVNXkxUzQyR21MdzJTbm45Nlg0cWJ6Y1dGLUpWckVOcDBpOHBFX3hLd25WYTRmU09RN2IxR0xmTGdKSWRYQ2JGTnRFYlg2bW1qMHdfQjM5aFVRdUMzc2h2RFQ2OEhxR0ZYdGF3MFZUZHgwS1dneGx1Z29BT2RGSzA?oc=5",
       "local_life_hint": "本地生活商家可关注豆包工作的定价，评估是否采用。"
+    },
+    {
+      "title": "豆包大模型上车特斯拉，马斯克为何破例？",
+      "explanation": "特斯拉中国车机接入豆包大模型，与Grok形成双模型协作。分析认为，这是马斯克为适应中国市场需求而做出的妥协，也显示豆包在中文语音交互上的优势。",
+      "analysis_points": [
+        "豆包大模型在中文语境下的自然交互能力获特斯拉认可，成为其中国本地化策略的一部分。",
+        "对本地生活商家，车载语音交互是新的营销触点，可探索语音搜索广告。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jWTg5eDgwMUVGRFpLWjEzTFg1bGx1UmhnYkFBWEprSm9vQ2dQVGMyVhXUNWI5TDdIWW5aQlVXQXFsdlZZcF9MdEdLOU1SS0taUV93dDV3?oc=5",
+      "local_life_hint": "车载语音助手可推荐附近商家，本地生活商家可考虑与车企合作。"
+    },
+    {
+      "title": "豆包工作实测：8个使用技巧，Agent门槛最低",
+      "explanation": "实测显示，豆包工作是当前企业接入Agent门槛最低的路径，需用飞书账号登录解锁满血功能。支持远程控制多台设备、定时任务、自动读取本地skill等，且管理员看不到聊天记录。",
+      "analysis_points": [
+        "豆包工作通过飞书生态实现深度集成，降低企业使用Agent的门槛。",
+        "广告团队可利用其自动化能力，实现投放任务的定时执行和远程管理。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "AIHOT",
+      "url": "https://aihot.virxact.com/items/cmta7fyl104z5roj2ancsmx4g",
+      "local_life_hint": "本地生活商家可用豆包工作自动化处理客户咨询、订单管理。"
+    },
+    {
+      "title": "川航携手火山引擎，智能客服能听懂方言",
+      "explanation": "四川航空与火山引擎合作，升级智能客服，支持方言识别和自然对话，提升用户体验。",
+      "analysis_points": [
+        "火山引擎语音技术实现方言识别，增强客服系统的本地化能力。",
+        "本地生活商家可应用此技术，提供方言客服，提升服务满意度。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "中国民航网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JNzNKY0pJLXZWSEJjT2JKZi1NZHNjMUg0Rnc3dkZKT25lMEhnbnlTZ2hKNTR2RElZLXQ5SVF6TXA5X3N4djlaYkdfNE1NTnZKNDRHbEVOU0Z1QlFIbEFLX2Z6X2RqdF9BNTYtYQ?oc=5",
+      "local_life_hint": "本地生活商家可用火山引擎智能客服，支持方言，提升服务体验。"
+    },
+    {
+      "title": "蔚来汽车×火山引擎：TRAE深入座舱研发，从个人提效走向组织智能",
+      "explanation": "蔚来汽车与火山引擎合作，将TRAE用于座舱研发，从个人提效扩展到组织智能，提升研发效率。",
+      "analysis_points": [
+        "TRAE在汽车研发场景的应用，展示其代码生成能力在复杂行业的价值。",
+        "本地生活技术团队可借鉴TRAE提升开发效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEpqRnFHd0hMZE92dU1UakRJTVpHMFF0STZzdzVtVEQ3TndDNDNOakp6ZjB0dXV1dThSbGlzNzRUTmdnNlJnU2FIS3dzTjR3QnNGTGFrbFpxZmhjSERBTFo5dDhUWG5PV0FoMzF1ZFZHSmhaWjNhSHd1MllYU1Qxdmt1OG5lbHd5?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "抖音快手B站小红书集体押注“AI互动内容”，四大平台错位竞争",
+      "explanation": "抖音、快手、B站、小红书集体押注AI互动内容，但各自错位竞争。抖音侧重AI剪辑与互动玩法，探索新的内容形态。",
+      "analysis_points": [
+        "抖音推进多款AI剪辑与多端适配产品，强化内容创作工具。",
+        "本地生活商家可利用AI互动内容提升用户参与度，如AI试妆、AI探店。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "流媒体网",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhOUVYamJYMEs2NkNmeVJMNm41bkotUGxablNleVZIb2llNHBROGFPaV9pTU55eVRsMDRVR1EwU3NZR1EwMHc3cTE3YmdPcjRLdG9TMzN3VmE?oc=5",
+      "local_life_hint": "商家可创作AI互动内容，如虚拟试穿、互动游戏，提升用户停留。"
+    },
+    {
+      "title": "Seedance 2.5上线后，LibTV帮创作者“学会”新模型",
+      "explanation": "Seedance 2.5上线后，LibTV推出教程帮助创作者掌握新模型，提升AI视频创作效率。",
+      "analysis_points": [
+        "Seedance 2.5功能增强，LibTV提供学习资源，降低使用门槛。",
+        "本地生活创作者可快速上手，制作高质量视频。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsR0xjOXZILVAzOEU2aHl2TmlkeElFVFVYYXdNYU9WdWd0aUFUdnNOa0xXbmpsZ0V3T2JBUTFOR2tDanVadW8tNVRsNC1qMnhQcEEwc0RWWDVXa2c?oc=5",
+      "local_life_hint": "本地生活商家可借助LibTV教程快速生成营销视频。"
+    },
+    {
+      "title": "从Grok到豆包，特斯拉中国“换脑”",
+      "explanation": "特斯拉中国车机从Grok切换到豆包，显示豆包在中文场景的优势，也反映特斯拉本地化策略。",
+      "analysis_points": [
+        "豆包大模型在中文语音交互上优于Grok，成为特斯拉中国选择。",
+        "本地生活商家可关注车载语音生态，探索新营销场景。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "gasgoo.com",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBYdGJNOGZpVGNwVGFlMXY1SDExNGlyUGVSZF9zdE82QzFwdmRVbjRJSzJpbjVrTlo0akZuQ3BWZUxxZXROZTZTZEFUblREdWxx?oc=5",
+      "local_life_hint": "车载语音助手可推荐附近商家，本地生活商家可考虑与车企合作。"
+    },
+    {
+      "title": "豆包大模型相关企业1.46万家，多为资金密集型",
+      "explanation": "豆包大模型相关企业达1.46万家，多为资金密集型，显示AI产业链的繁荣。",
+      "analysis_points": [
+        "豆包生态吸引大量企业，形成产业链。",
+        "本地生活商家可借助豆包生态的AI服务提升运营效率。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYmp1QjU4YS1wV3VBWUY2OHJJQ1lLVk5RdlpVOW9ONHpWbURHRmpYc2hhWjEtV1ZYN1lhdHAxbi1HYVpvNU5EdFQxczZkSUYybWNpVVI0aVBtdGNqTzVaemQydm1FYjJkUWxTcjZfLVBnNnZ6cnBnZU5Od2o2eHVTOA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "抖音围绕AI剪辑推进多款产品，强化内容创作工具",
+      "explanation": "抖音推进多款AI剪辑与多端适配产品，强化内容创作工具，提升用户创作体验。",
+      "analysis_points": [
+        "抖音AI剪辑工具降低视频制作门槛，提升内容供给。",
+        "本地生活商家可利用AI剪辑快速生成营销视频。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "womenofchina.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yX3owMmpNTFFWc1JDYXF6VmZUNmlLNXJPSUkwbFVMS3UtckROcElOSmpxeDE0YzVHN3BuMlpPMWE0OHRKbC1iRWpuOXE4WEJVYTRzV0V5ZWtnQQ?oc=5",
+      "local_life_hint": "商家可用AI剪辑工具制作探店视频，提升内容吸引力。"
+    },
+    {
+      "title": "风云T7灵犀智舱2.0×豆包大模型，车载AI再下一城",
+      "explanation": "奇瑞风云T7搭载灵犀智舱2.0，集成豆包大模型，提升车载语音交互体验。",
+      "analysis_points": [
+        "豆包大模型在更多车型落地，扩大车载AI市场份额。",
+        "本地生活商家可关注车载场景的广告机会。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "车家号",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuY29MM3hRZjIwOWg5RXNuS1d5U2VnM0JTTUFsV1VlRWhMN3YyVFlMQ2txZ29RNEs3NzN1Tm1NNVhDcld3OW1Ebnl0SG1MMS00Ml9wcjZrdVR4YVU?oc=5",
+      "local_life_hint": "车载语音助手可推荐附近商家，本地生活商家可考虑与车企合作。"
     }
   ],
   "mode": "ai"
