@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-28T13:22:35.546601+00:00",
-  "week_range": "08.24-08.28",
-  "date_display": "08.24 - 08.28",
-  "editorial_summary": "本周共汇总 61 条 AI 商业要闻，其中高影响 12 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-08-28T18:59:10.796363+00:00",
+  "week_range": "08.24-08.29",
+  "date_display": "08.24 - 08.29",
+  "editorial_summary": "本周共汇总 63 条 AI 商业要闻，其中高影响 12 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（37 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（38 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "今天字节系在视频生成成本、车载AI入口、内容生产工具上的底座级改造，意味着外投的素材生产成本将大幅下降，投放场景向车载延伸，内容形式向AI短剧演进。",
-  "total_items": 61,
+  "total_items": 63,
   "high_count": 12,
   "items": [
     {
@@ -902,6 +902,34 @@
       "source": "Kansas City Star",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBVVHMxNzhzNF9aYnYwbDlmbUgxd0pQaGhadFVlTmlQQ3lrYzhqWWxVQmRCOERyd2xIcEprTm4yRmtRRXo5N3FOWXBoMU95clg2YTBtMVdOSlhIN2hUNGYtZk9QS0lOQdIBZkFVX3lxTE0tQzZwVVFxVFJKU05uRFlfNDlSTFVLM3dudmdkdXBIWWZkZXhEejdjSFVvcHFOTXdDUm82MHZaR2FSTENiVFVyYXpsMGlSWnUwN0xvV19Rc2xVQVJDNEtiY0pRUjJDQQ?oc=5",
       "local_life_hint": "本地生活商家可借鉴TikTok Shop的直播策略，在抖音本地生活频道开展直播，利用紧迫感和算法推荐提升转化。"
+    },
+    {
+      "title": "豆包跨越「临界点」后，字节AI下一步怎么走？",
+      "explanation": "文章分析豆包大模型跨越用户规模临界点后，字节AI商业化下一步将聚焦于应用场景拓展、生态构建和商业化变现，豆包工作、即梦片场等是重要布局。",
+      "analysis_points": [
+        "要点1：豆包用户规模突破临界点，字节AI重心转向商业化，通过产品整合和场景落地实现变现。",
+        "要点2：对广告主，豆包生态的完善意味着更多AI营销工具和触点，可提升投放精准度。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aWlZNcjRTNjlRZnlvZnRVdmg4dzF0YlIxUk9Kc1FiZnY4VVRWbWJieUZKbThQajd0OV9yNHZJajRVaUFTMXJRc28zWU5PZw?oc=5",
+      "local_life_hint": "豆包生态完善，本地生活商家可借助豆包AI能力优化营销内容生成和投放。"
+    },
+    {
+      "title": "抖音2056万元武汉买地，计划投资11亿建华中总部",
+      "explanation": "抖音以2056万元在武汉买地，计划投资11亿元建设华中总部，显示字节跳动对华中市场的重视，将带动当地数字经济发展，并可能强化本地生活服务布局。",
+      "analysis_points": [
+        "要点1：投资11亿建华中总部，将吸引人才和产业链，提升区域影响力。",
+        "要点2：对本地生活商家，抖音华中总部的建立可能带来更多本地化运营资源和政策支持。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UbHlfMUpfNDFOOUxBWEVUTjJiNDQ4dnZjcUotQzczc0MzRhLU1VOUM1TFRMdUtteUhxeW5hVUJjNkpXOFZZT19zdk9vUQ?oc=5",
+      "local_life_hint": "抖音华中总部可能加强本地生活服务，商家可关注区域合作机会。"
     }
   ],
   "mode": "ai"
