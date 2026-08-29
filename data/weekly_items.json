@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-29T08:19:24.507152+00:00",
+  "generated_at": "2026-08-29T12:50:28.932300+00:00",
   "week_range": "08.24-08.29",
   "date_display": "08.24 - 08.29",
-  "editorial_summary": "本周共汇总 69 条 AI 商业要闻，其中高影响 13 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 65 条 AI 商业要闻，其中高影响 12 条。本周主线包括：字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系；豆包工作实测：连上飞书后，Agent终于像个同事了；字节整合AI办公产品，TRAE、扣子团队并入豆包；字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打；字节跳动发布豆包工作 与飞书深度打通构建企业级智能体。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（41 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（37 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "今天字节系在视频生成成本、车载AI入口、内容生产工具上的底座级改造，意味着外投的素材生产成本将大幅下降，投放场景向车载延伸，内容形式向AI短剧演进。",
-  "total_items": 69,
-  "high_count": 13,
+  "total_items": 65,
+  "high_count": 12,
   "items": [
     {
       "title": "字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争",
@@ -216,20 +216,6 @@
       "source": "白鲸出海",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1XRTd0MWFVQWVnaGdYQTN5dGVrY2lqbXZYRW00TFJBUEhCWHZ2Nkw0dnpOWDRxTjg0cHJFSnJnd0JXYWo4ekZqOW5aWEI?oc=5",
       "local_life_hint": "AI视频出海为本地生活商家提供海外营销新渠道。"
-    },
-    {
-      "title": "豆包工作正式发布，赋能办公生产力提升",
-      "explanation": "证券时报报道，豆包工作正式发布，整合AI办公能力，赋能企业生产力提升，与飞书深度打通。",
-      "analysis_points": [
-        "豆包工作提供文档、会议、代码等全场景AI辅助，提升办公效率。",
-        "对广告主而言，可应用于营销方案撰写、数据分析等场景。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "证券时报",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HTi1oVEpjWS1Ib2NUYkVoRWJlaHZHc0hNTldnWXBTU1drX0ZNalgtOUVGMXZIVGJ6bkxneFNOcThRN2hObDFYR2c3QnJDX0Q4TFhhdVptTHdkbWZ0?oc=5",
-      "local_life_hint": "本地生活商家可用豆包工作生成营销文案、分析投放数据，提升运营效率。"
     },
     {
       "title": "字节内测漫剧创作工具，搭载豆包大模型支持20万字剧本",
@@ -919,10 +905,10 @@
     },
     {
       "title": "前字节“小云雀”负责人张心怡教育创业浮出水面",
-      "explanation": "前字节“小云雀”负责人张心怡的教育创业项目浮出水面，聚焦AI教育领域，延续字节系人才创业热潮。",
+      "explanation": "前字节“小云雀”负责人张心怡的教育创业项目浮出水面，显示字节系人才在AI教育领域的探索。",
       "analysis_points": [
-        "张心怡创业方向或结合AI技术，提供个性化教育解决方案。",
-        "对广告主而言，教育领域AI应用可探索精准营销，如智能推荐课程。"
+        "要点1：张心怡将字节AI能力应用于教育场景，能力从通用AI转向垂直教育。",
+        "要点2：对本地生活商家，可关注AI教育工具，用于员工培训或客户教育。"
       ],
       "category": "初创动向",
       "type": "fact",
@@ -932,53 +918,25 @@
       "local_life_hint": ""
     },
     {
-      "title": "抖音2056万元武汉买地，计划投资11亿建华中总部",
-      "explanation": "抖音以2056万元在武汉买地，计划投资11亿元建设华中总部，加码区域布局，强化本地化运营能力。",
+      "title": "Seedance 2.5实测：它真的值得你花大价钱去使用吗？",
+      "explanation": "36氪实测Seedance 2.5，认为其已成为生产力工具，但价格较高。Seedance 2.5在性能上进阶，但商业化定价引发讨论。",
       "analysis_points": [
-        "华中总部建设将带动当地就业与产业生态，提升抖音在华中地区的服务能力。",
-        "对本地生活商家而言，抖音区域投入或带来更多本地化资源与流量扶持。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UbHlfMUpfNDFOOUxBWEVUTjJiNDQ4dnZjcUotQzczRzc0MzRhLU1VOUM1TFRMdUtteUhxeW5hVUJjNkpXOFZZT19zdk9vUQ?oc=5",
-      "local_life_hint": "本地生活商家可关注抖音区域扶持政策，争取更多曝光机会。"
-    },
-    {
-      "title": "巴西对TikTok罚款2981万美元，数据合规成全球化必修课",
-      "explanation": "巴西因TikTok非法处理青少年数据，对字节跳动罚款2981万美元，凸显数据合规在海外扩张中的重要性。",
-      "analysis_points": [
-        "罚款金额较大，但相比美国和解案较小，反映监管趋严。",
-        "对广告主而言，TikTok数据合规问题可能影响广告投放的稳定性，需关注平台合规动态。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWU9jT2RKYjFBamQwbHdlQnF4SkJaak4weUl0d2x1TXQybF83dHljWHJEaTlNcXg1QlBaQ0hDZ19HRG5XQ3pnWWh3Q1d3WVA5V2lvSlktUjM0T0cxVEx6RTM5cDlBWlJSSnJxUzllVnViNkNaQnV2VmpfMFpoMVhsR3Z6VllhemsxMkl3SmRMV0c3cnBqV2NNNjJGaVJHTU0ycm1XOEZiRGY1Tk11X0xWUzhvN1ZUZGVSOUl6M2xseVI?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Seedance 2.5实测：生产力工具属性增强，性价比争议仍在",
-      "explanation": "多家媒体对Seedance 2.5进行实测，认为其性能进阶，已具备生产力工具属性，但价格较高，性价比争议仍在。",
-      "analysis_points": [
-        "Seedance 2.5在视频生成质量、一致性上提升明显，可应用于广告素材制作。",
-        "对广告主而言，高成本可能限制中小商家使用，但高质量素材可提升广告效果。"
+        "要点1：Seedance 2.5从玩具变成生产力工具，能力在视频生成质量上大幅提升。",
+        "要点2：对本地生活商家，可评估Seedance 2.5用于广告视频制作，但需考虑成本效益。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
       "source": "36 Kr",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DSDExUndlMnFiRTdiNDFGSnFQRU1SRGdYM3lSODR1Ql9pZGFJQ3hPdE1DTkxZRXJZTGhyU0ttb2dCNTd2a242STlOR3o1dw?oc=5",
-      "local_life_hint": "本地生活商家可评估Seedance 2.5用于广告视频制作，平衡成本与效果。"
+      "local_life_hint": "本地生活商家可尝试使用Seedance 2.5生成创意短视频，用于抖音投放，但需控制成本。"
     },
     {
-      "title": "豆包跨越临界点后，字节AI下一步怎么走？",
-      "explanation": "36氪发文分析豆包跨越用户增长临界点后，字节AI商业化下一步方向，包括办公、影视、汽车等场景的拓展。",
+      "title": "豆包跨越「临界点」后，字节AI下一步怎么走？",
+      "explanation": "36氪分析，豆包用户规模跨越临界点后，字节AI将聚焦商业化落地，从技术领先转向商业变现。",
       "analysis_points": [
-        "豆包用户规模突破临界点，商业化进入加速期，字节正多线布局。",
-        "对广告主而言，豆包生态的扩大意味着更多AI营销触点。"
+        "要点1：豆包从技术产品转向商业化产品，能力从用户增长转向收入增长。",
+        "要点2：对本地生活商家，豆包商业化可能带来更多AI工具，用于营销和运营。"
       ],
       "category": "观点与深度",
       "type": "opinion",
@@ -988,31 +946,17 @@
       "local_life_hint": ""
     },
     {
-      "title": "Flova和LibTV互呛，字节MiniMax已下场",
-      "explanation": "36氪报道，Flova和LibTV在AI视频领域竞争，字节旗下MiniMax已下场，加剧AI视频工具市场竞争。",
+      "title": "巴西对字节罚款2981万美元，涉及TikTok青少年数据处理",
+      "explanation": "巴西对TikTok母公司字节跳动罚款2981万美元，因非法处理青少年数据。这凸显了AI平台的数据合规挑战。",
       "analysis_points": [
-        "字节系AI视频工具竞争激烈，MiniMax入局或推动技术迭代。",
-        "对广告主而言，更多工具选择可降低制作成本，提升创意多样性。"
+        "要点1：字节面临全球数据监管压力，能力从快速扩张转向合规优先。",
+        "要点2：对本地生活商家，数据合规是广告投放的前提，需关注平台合规动态。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "low",
-      "source": "36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94clFjRFM3bUhrZU1iOHpzRDlGUmgyUDB2QzQwMWJsN05UVzVUSTBuN3VscE1rdnA5YWF2V3MzSkNQeXNYUUJteHNiZ09EUQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "赛力斯与火山引擎合作，AI汽车到底是个啥？",
-      "explanation": "赛力斯与火山引擎合作推出赛豆科技，探索AI汽车智能化，豆包大模型上车，提供智能座舱体验。",
-      "analysis_points": [
-        "赛豆科技整合火山引擎AI能力，提升汽车智能化水平。",
-        "对广告主而言，车载AI场景或成新营销入口。"
-      ],
-      "category": "大厂动向",
+      "category": "生态动向",
       "type": "fact",
       "impact": "medium",
-      "source": "车家号",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pRDlialA4M1ZrWUZsU1plVzNNeF9sSzBKcU9FcV8wUjI2SGxwbjEwaE9UR09iVE85NTU5TExVdWtpX2NzRXNhbW1mWUwyekJfc3pBalJpdEVPNzQ?oc=5",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWU9jT2RKYjFBamQwbHdlQnF4SkJaak4weUl0d2x1TXQybF83dHljWHJEaTlNcXg1QlBaQ0hDZ19HRG5XQ3pnWWh3Q1d3WVA5V2lvSlktUjM0T0cxVEx6RTM5cDlBWlJSSnJxUzllVnViNkNaQnV2VmpfMFpoMVhsR3Z6VllhemsxMkl3SmRMV0c3cnBqV2NNNjJGaVJHTU0ycm1XOEZiRGY1Tk11X0xWUzhvN1ZUZGVSOUl6MmdseVI?oc=5",
       "local_life_hint": ""
     }
   ],
