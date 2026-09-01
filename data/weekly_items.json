@@ -1,25 +1,29 @@
 {
-  "generated_at": "2026-08-31T14:21:24.986733+00:00",
-  "week_range": "08.31-08.31",
-  "date_display": "08.31 - 08.31",
-  "editorial_summary": "本周共汇总 7 条 AI 商业要闻，其中高影响 1 条。本周主线包括：TikTok欧洲拉美营收91亿美元，首次实现盈利。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-01T06:47:01.010471+00:00",
+  "week_range": "08.31-09.01",
+  "date_display": "08.31 - 09.01",
+  "editorial_summary": "本周共汇总 17 条 AI 商业要闻，其中高影响 3 条。本周主线包括：TikTok欧洲拉美营收91亿美元，首次实现盈利；豆包工作正式上线，字节整合办公AI产品推统一品牌；赛马终结者豆包，开始让Agent“独立办公”。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
-      "豆包大模型2.2推迟发布，原计划8月推出"
+      "豆包工作正式上线，字节整合办公AI产品推统一品牌",
+      "豆包大模型2.2推迟发布，原计划8月推出",
+      "巨量引擎「祝你今天愉快」IP探索疗愈营销新路径"
     ],
     "opinions": [
       "实测豆包工作：WorkBuddy迎来最强对手？",
       "豆包是蜜糖，也是砒霜？"
     ],
     "ecosystem": [
-      "火山引擎与贵州广电合作，布局智能体与算力产业"
+      "火山引擎与贵州广电合作，布局智能体与算力产业",
+      "巨量引擎持续治理AI违规营销，关停广告账户5万余个",
+      "火山引擎与荣威合作，全球首发CPP AI原生技术架构"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（3 条），高影响条目占比约 14%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（13 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
+    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。",
     "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。"
   ],
   "local_life_insights": [
@@ -34,11 +38,15 @@
     {
       "base": "抖音上AI生成动漫和剧集激增，前100名中89部为AI生成，显示AI视频生成技术成熟，内容创作门槛降低。",
       "borrow": "美团商业化团队可鼓励商家使用AI生成短视频广告，降低制作成本，同时利用AI批量生成多版本素材，进行A/B测试，优化投放效果。"
+    },
+    {
+      "base": "豆包工作整合TRAE和扣子，形成一体化AI办公平台，Agent能力从辅助变为独立办公。",
+      "borrow": "美团商业化可借鉴豆包工作，为商家提供AI驱动的营销自动化工具，如自动生成投放素材、优化出价，降低商家运营门槛。"
     }
   ],
   "insights_intro": "字节系在技术能力底座上的改造，如豆包整合办公AI、巨量引擎强化AI合规、抖音AI内容爆发，意味着外投的素材生产将更自动化、合规要求更高、内容形态更多样，美团商业化团队需紧跟这些变化，优化投放策略。",
-  "total_items": 7,
-  "high_count": 1,
+  "total_items": 17,
+  "high_count": 3,
   "items": [
     {
       "title": "TikTok欧洲拉美营收91亿美元，首次实现盈利",
@@ -53,6 +61,34 @@
       "source": "cnBeta",
       "url": "https://www.cnbeta.com.tw/articles/movie/1575636.htm",
       "local_life_hint": "TikTok海外盈利表明其电商和广告生态成熟，本地生活商家可借助TikTok Shop出海，利用直播带货模式。"
+    },
+    {
+      "title": "豆包工作正式上线，字节整合办公AI产品推统一品牌",
+      "explanation": "字节跳动正式推出统一办公品牌“豆包工作”，整合TRAE、扣子等AI产品，提供Agent式办公体验。这标志着字节AI应用从内部赛马走向体系化，商业化节奏提速，对企业办公市场形成冲击。",
+      "analysis_points": [
+        "豆包工作整合了TRAE代码工具和扣子Agent平台，从分散工具变为一体化AI办公平台，提供从代码生成到自动化流程的完整能力。",
+        "对商家和广告主而言，豆包工作可提升内部运营效率，如自动化生成营销文案、管理客户关系，降低人力成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "京报网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvVGp6WTJVekhVMjJLbURESHdzRlBXbUc3ODlYVnJrbmczek9UZi1DUEFqd3J6YndHZXUzS0Vrbnd4Q3hpdVFES1Q0NDlQSy11blFuc01mSHpXSXFyVnpfckw2V0hMNzZhZEFhTktER2lDUQ?oc=5",
+      "local_life_hint": "本地生活商家可利用豆包工作自动化处理客服咨询、生成营销内容，提升运营效率。"
+    },
+    {
+      "title": "赛马终结者豆包，开始让Agent“独立办公”",
+      "explanation": "豆包整合TRAE和扣子后，开始让Agent独立办公，标志字节AI从工具向自主智能体演进，提升自动化水平。",
+      "analysis_points": [
+        "Agent可自主完成复杂任务，如数据分析、内容生成，减少人工干预。",
+        "对本地生活商家，可部署Agent处理客户咨询、预订等，24小时在线。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObUEzZzhUNkRmRUVZQXJqVnU3SXh0VTV1dmJKdTZkc0VIM2NYN29scncwQ3BHOE5odTd3SXdHaXVLNHFqazY0akM2V1FwTUJLMmpMUEE1bzdCajBSclhWRWNlUWhOQ0V6ZUFSSFJ6TlZIVWNtdXJhV21pMU9rcV9EZVd0dG1MQ0FNMkhtSTlJVTBiN1IxdllaZjg3dXh1Zjl1UlBCQkFSaw?oc=5",
+      "local_life_hint": "本地生活商家可部署豆包Agent自动回复咨询、处理订单，降低人力成本。"
     },
     {
       "title": "豆包大模型2.2推迟发布，原计划8月推出",
@@ -137,6 +173,118 @@
       "source": "GIGAZINE",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rVlhZTmhOXzAwbURNZnBET1l3N05KcjdvMDk4OEE5TWxMWFlCZ0RuakdkRThFRWxnbjdmR0pYVkFVV25tZktXcl9Rd0xWWlcxRDE3RDZOS0JMWnRsazRPWVNnVDVDSDlUS2Nj?oc=5",
       "local_life_hint": "本地生活商家可利用AI生成短视频，快速制作宣传内容，降低视频制作门槛。"
+    },
+    {
+      "title": "字节上调豆包虚拟股价近15%，加码AI人才争夺",
+      "explanation": "字节跳动将豆包虚拟股价上调至17.02美元，较6月上涨约14.6%，旨在吸引和激励AI人才。此举显示字节对AI人才的重视，也反映其AI业务估值提升。",
+      "analysis_points": [
+        "虚拟股价上涨意味着员工持有的期权价值增加，有助于留住核心AI人才，增强团队稳定性。",
+        "对行业而言，字节加码人才争夺，可能加剧AI人才竞争，推动薪资水平上涨。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5FOEpDOVVZamNZMlYyZExOTmJFY0UxWFo0d29ua0tlRFFEa2x1RTVSVlh1UnJ3QmZtRF9PTHRJeWgxWWhYaGVmM3ZJSFZvQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "巨量引擎持续治理AI违规营销，关停广告账户5万余个",
+      "explanation": "巨量引擎持续治理AI违规营销，已关停广告账户5万余个，维护广告生态健康。这显示平台对AI生成内容的监管力度，保障广告主权益。",
+      "analysis_points": [
+        "巨量引擎通过技术手段识别AI违规内容，如虚假宣传、侵权素材，并采取关停账户等措施。",
+        "对广告主而言，合规经营至关重要，需确保AI生成素材符合平台规则，避免账户被封。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM0lTVXJ4dk5jYkJXQURBYmtSNEVuUUgtdkZFS2tJWk82QjNDb3BzTlN6U0RQb3l4MDNTNnFTeWpKVFJvWTdvUjd5YzUxblFpSVBwcm9xQUxIbVhocUZuQU1ITTdjY2F1dWFTbDZhbDdnb21RUTBnVjcxUHlmc0Y1UV9zeU5BMXVaREhyVVVaLTVRWFVzV0pvcg?oc=5",
+      "local_life_hint": "本地生活广告主使用AI生成素材时需注意合规，避免违规导致账户损失。"
+    },
+    {
+      "title": "豆包、千问同步下线智能体功能，网友不满“一刀切”",
+      "explanation": "豆包和千问同步下线智能体功能，引发网友不满。此举可能是出于合规或安全考虑，但也影响用户体验，显示AI应用在功能调整上的权衡。",
+      "analysis_points": [
+        "智能体功能下线可能涉及数据安全或内容审核问题，平台需平衡创新与监管。",
+        "对依赖智能体功能的用户，需寻找替代方案，或等待平台优化后重新上线。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "yicai.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1a3JpSmlhUXZXSVYxMm9CaFd6d3dVUlVyOG0xQ25VVlkwWldEVFNSUDFkSXBrNkdEOHhPTnJfTlJYSWJyOTRXaVhsNzFBU1dXNGdr?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "火山引擎与荣威合作，全球首发CPP AI原生技术架构",
+      "explanation": "荣威联合火山引擎，投入数百亿，全球首发CPP AI原生技术架构，将AI深度融入汽车座舱。这标志着火山引擎在智能座舱领域的领先地位。",
+      "analysis_points": [
+        "CPP架构将AI能力原生集成到车机系统，提供智能语音、场景推荐等功能，提升驾驶体验。",
+        "对本地生活商家，车载AI可成为新的营销入口，基于位置和场景推送附近服务。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1VHg2TGtubnd3NWFBM0pVNDlxazVvVG9TNGlzZFRqZWRfZTJsSDBwYlBFcDZCb2NWZ3FVVGlHTzJtOXFZZU40SjhnN2ZyeU1DTTk3c3laeEM3aFU?oc=5",
+      "local_life_hint": "车载AI可结合LBS推送本地生活服务，如餐厅、加油站优惠，实现场景化营销。"
+    },
+    {
+      "title": "AI座舱大战，火山引擎独开一桌",
+      "explanation": "火山引擎在AI座舱领域独树一帜，与多家车企合作，提供大模型驱动的智能座舱解决方案，成为行业标杆。",
+      "analysis_points": [
+        "火山引擎提供豆包大模型上车，实现语音交互、多模态理解，提升座舱智能化水平。",
+        "对车企而言，火山引擎方案可快速集成AI能力，降低研发成本，提升产品竞争力。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DYTBLTENsZG45VkwxdENCYUhHbS03eEdVOGdiTEJXajRNVk0xMjl2Qzk4TnprSmxxZ3hwOTA5VUFEQThFVENrbDZnTTFqX0NtTWVuX2lNQjhxNU0?oc=5",
+      "local_life_hint": "车载AI场景可结合本地生活服务，如自动推荐沿途餐厅、停车场，为商家带来流量。"
+    },
+    {
+      "title": "巨量引擎「祝你今天愉快」IP探索疗愈营销新路径",
+      "explanation": "巨量引擎推出「祝你今天愉快」IP，探索情绪消费时代的疗愈营销，通过情感共鸣提升品牌好感度，为广告主提供新营销思路。",
+      "analysis_points": [
+        "该IP通过情感化内容与用户建立连接，结合平台流量扶持，帮助品牌实现品效合一。",
+        "本地生活商家可借鉴疗愈营销，打造温馨品牌形象，吸引情感消费。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "中华网生活",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lbW42Y1doNVJ3T3lnNGU2eVo0VHNZNUludS1XOG93UWJCb0YzemNvTmFGZm5KaVE1d0poa2xGei1JVXFTSE9iakZLOWo4eVczdU8wUnpuMGlXeXdXNkdZdWhKQQ?oc=5",
+      "local_life_hint": "本地生活商家可参与巨量引擎情感IP活动，提升品牌温度，吸引用户。"
+    },
+    {
+      "title": "巨量引擎「小小野一夏」重塑暑期亲子营销新范本",
+      "explanation": "巨量引擎推出「小小野一夏」IP，聚焦暑期亲子场景，通过内容营销和互动玩法，为品牌提供亲子营销新范式。",
+      "analysis_points": [
+        "该IP结合亲子出游、教育等场景，通过短视频挑战赛、达人合作等方式，提升品牌曝光。",
+        "本地生活商家如亲子餐厅、乐园可参与此类IP，精准触达家庭用户。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "中国营销传播网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zS3hjUkJmTVJDekE0YmZZYmlKOU1BTjZQY200X2hyMnVpZmprdlJUeGFiVHA2eVhDOEZqVFQtNHV1ZWJ1bUh4Z3pCYjhHeDZLM0VVNVd2RXRvYmYwTmFXdUJjMDN5cURLaVBB?oc=5",
+      "local_life_hint": "本地生活商家可结合亲子IP活动，推出套餐或体验，吸引家庭客群。"
+    },
+    {
+      "title": "抖音推荐内容“误入中老年频道”，客服回应加急排查",
+      "explanation": "部分抖音用户反映推荐内容异常，被推送养生、AI短剧等不相关内容，疑似算法问题。抖音客服回应正在排查，显示平台对推荐质量的重视。",
+      "analysis_points": [
+        "推荐算法异常可能影响用户体验和广告投放效果，平台需优化算法。",
+        "对广告主而言，算法调整可能影响广告定向，需关注平台动态。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/996/887.htm",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
