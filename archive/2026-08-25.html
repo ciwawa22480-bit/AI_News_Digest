@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 商业日报 · 2026年08月25日</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #f7f9fc; color: #1a1a1a; line-height: 1.7; font-size: 14px; position: relative; overflow-x: hidden; }
+/* 浅色专业风底：柔和径向光晕做底，粒子由 #particle-bg canvas 叠加，无廉价网格 */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-color: #f7f9fc;
+  background-image:
+    radial-gradient(1200px 700px at 12% -5%, rgba(99,102,241,0.10) 0%, transparent 55%),
+    radial-gradient(1000px 620px at 100% 8%, rgba(56,189,248,0.08) 0%, transparent 55%),
+    radial-gradient(900px 560px at 88% 100%, rgba(255,195,0,0.07) 0%, transparent 55%);
+}
+/* 粒子背景 canvas：铺满视口、固定、置于内容下方 */
+#particle-bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  display: block;
+}
+.header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); backdrop-filter: blur(4px); position: relative; }
+.header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
+.header .subtitle { font-size: 13px; color: #4f46e5; font-weight: 500; margin-bottom: 6px; }
+.header .date-line { font-size: 14px; color: #666; }
+.header .mode-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: #f0f9ff; color: #0369a1; margin-left: 8px; }
+.header .back-link { display: inline-block; margin-top: 10px; font-size: 13px; color: #4f46e5; text-decoration: none; }
+.header .back-link:hover { text-decoration: underline; }
+/* 美团黄袋鼠吉祥物：header 右上角点缀，缓慢上下浮动 */
+.roo-mascot { position: absolute; top: 22px; right: 28px; width: 52px; height: 52px; animation: roo-hop 3.6s ease-in-out infinite; pointer-events: none; filter: drop-shadow(0 2px 4px rgba(255,195,0,0.28)); }
+@keyframes roo-hop {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+.toggle-bar { padding: 12px 40px 0; display: flex; gap: 0; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); }
+.tab { padding: 8px 24px; border: none; background: none; font-size: 14px; color: #666; cursor: pointer; border-bottom: 2px solid transparent; font-weight: 500; }
+.tab.active { color: #4f46e5; border-bottom-color: #4f46e5; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 40px; background: transparent; }
+.editorial { padding: 16px 20px; background: #f8fafc; border-left: 4px solid #4f46e5; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 15px; color: #1e293b; line-height: 1.85; }
+.editorial-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+.editorial-body { }
+.editorial-label { display: inline-block; font-weight: 700; color: #4f46e5; margin-right: 8px; }
+/* Overview 三维结论 */
+.overview-section { margin-bottom: 24px; padding: 20px 22px; background: linear-gradient(135deg,#eef2ff 0%,#f5f3ff 100%); border: 1px solid #e0e7ff; border-radius: 12px; }
+.overview-title { font-size: 16px; font-weight: 700; color: #3730a3; margin-bottom: 14px; display: flex; align-items: center; }
+.overview-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #6366f1; border-radius: 3px; margin-right: 10px; }
+.ov-block { margin-bottom: 14px; }
+.ov-block:last-child { margin-bottom: 0; }
+.ov-head { font-size: 14px; font-weight: 600; color: #4338ca; margin-bottom: 6px; }
+.ov-hint { font-size: 11px; font-weight: 400; color: #818cf8; margin-left: 8px; }
+.ov-list { margin: 0 0 0 20px; padding: 0; list-style: disc; }
+.ov-list li { font-size: 13.5px; color: #334155; line-height: 1.7; margin-bottom: 4px; }
+/* 共性提炼板块（周报）：低调的浅青底 */
+.commonality-section { margin-bottom: 24px; padding: 18px 22px; background: linear-gradient(135deg,#ecfeff 0%,#f0f9ff 100%); border: 1px solid #bae6fd; border-radius: 12px; }
+.commonality-title { font-size: 16px; font-weight: 700; color: #075985; margin-bottom: 4px; display: flex; align-items: center; }
+.commonality-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #0ea5e9; border-radius: 3px; margin-right: 10px; }
+.commonality-tip { font-size: 12px; color: #0369a1; margin-bottom: 10px; }
+.commonality-list { margin: 0 0 0 22px; padding: 0; list-style: disc; }
+.commonality-list li { font-size: 13.5px; color: #0c4a6e; line-height: 1.7; margin-bottom: 4px; }
+.signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
+.stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
+.new-badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; cursor: help; }
+.cat-summary { font-size: 13px; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 8px 12px; border-radius: 0 6px 6px 0; margin-bottom: 14px; line-height: 1.7; }
+.insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
+.insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
+.insights-title::before { content: ""; display: inline-block; width: 5px; height: 18px; background: #f59e0b; border-radius: 3px; margin-right: 10px; }
+.insights-intro { font-size: 13.5px; color: #92400e; line-height: 1.8; margin-bottom: 16px; }
+.takeaway-list { display: flex; flex-direction: column; gap: 12px; }
+.takeaway { background: #fffdf7; border: 1px solid #fde68a; border-radius: 8px; padding: 12px 14px; }
+.tw-base { font-size: 13px; color: #7c2d12; line-height: 1.7; margin-bottom: 6px; }
+.tw-borrow { font-size: 13.5px; color: #78350f; font-weight: 500; line-height: 1.75; }
+.tw-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 4px; margin-right: 8px; vertical-align: middle; }
+.tw-tag-base { background: #fef3c7; color: #b45309; }
+.tw-tag-borrow { background: #f59e0b; color: #fff; }
+.insights-list { list-style: none; padding: 0; margin: 0; }
+.insight-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #78350f; line-height: 1.7; }
+.insight-item:last-child { margin-bottom: 0; }
+.insight-num { flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #f59e0b; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.insight-text { flex: 1; font-weight: 500; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
+.dot-high { background: #ef4444; }
+.dot-medium { background: #f59e0b; }
+.dot-low { background: #cbd5e1; }
+.digest-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; }
+.category-row td { padding: 16px 12px; vertical-align: top; border-top: 1px solid #e5e7eb; }
+.col-type { width: 70px; text-align: center; }
+.col-category { width: 90px; text-align: center; }
+.col-content { padding-left: 20px !important; }
+.type-label { font-size: 12px; color: #64748b; font-weight: 500; white-space: nowrap; }
+.cat-label { font-size: 13px; font-weight: 600; color: #1e293b; white-space: nowrap; }
+.news-item { margin-bottom: 18px; }
+.news-item:last-child { margin-bottom: 0; }
+.item-main { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 4px; }
+.item-main .dot { margin-top: 6px; }
+.item-link { color: #1e40af; text-decoration: none; font-weight: 600; font-size: 14px; }
+.item-link:hover { text-decoration: underline; }
+.item-title-text { font-weight: 600; font-size: 14px; color: #1e293b; }
+.item-explanation { color: #374151; font-size: 13.5px; margin: 4px 0 0 14px; }
+.item-source { color: #94a3b8; font-size: 11px; }
+.analysis-points { margin: 6px 0 0 34px; padding: 0; list-style: disc; }
+.analysis-points li { font-size: 13px; color: #4b5563; line-height: 1.6; margin-bottom: 3px; }
+.local-hint { margin: 6px 0 0 34px; padding: 4px 10px; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 4px; font-size: 12px; color: #0f766e; }
+.local-tag { font-weight: 600; margin-right: 6px; color: #14b8a6; }
+.archive-section { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e5e7eb; }
+.archive-title { font-size: 15px; font-weight: 600; color: #374151; margin-bottom: 4px; }
+.archive-tip { font-size: 12px; color: #94a3b8; margin-bottom: 12px; }
+.archive-month { margin-bottom: 12px; }
+.archive-month h4 { font-size: 13px; color: #64748b; margin-bottom: 6px; }
+.archive-week { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+.week-label { font-size: 12px; color: #94a3b8; min-width: 80px; }
+.date-link { font-size: 12px; color: #6366f1; text-decoration: none; padding: 2px 8px; border-radius: 4px; background: #f5f3ff; }
+.date-link:hover { background: #ede9fe; }
+.date-link-active { background: #6366f1; color: #fff; }
+.footer { padding: 24px 40px; text-align: center; color: #94a3b8; font-size: 11px; border-top: 1px solid #f1f5f9; margin-top: 32px; background: rgba(255,255,255,0.6); }
+.empty { text-align: center; padding: 60px; color: #94a3b8; }
+@media (max-width: 768px) {
+  .header, .container, .footer { padding-left: 16px; padding-right: 16px; }
+  .toggle-bar { padding-left: 16px; }
+  .col-type, .col-category { display: none; }
+  .col-content { padding-left: 0 !important; }
+  .category-row td { padding: 12px 0; }
+  .roo-mascot { width: 40px; height: 40px; top: 16px; right: 12px; }
+  .editorial-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+</style>
+</head>
+<body>
+<canvas id="particle-bg" aria-hidden="true"></canvas>
+<div class="header">
+<svg class="roo-mascot" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="美团黄袋鼠">
+<defs>
+<linearGradient id="rooGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0" stop-color="#FFD100"/>
+<stop offset="1" stop-color="#FFC300"/>
+</linearGradient>
+</defs>
+<!-- 耳朵 -->
+<path fill="#FFC300" d="M35 7c1-1 3-1 3 1 0 3-1 6-3 8-2 1-3 0-3-2 0-2 1-5 3-7z"/>
+<path fill="#FFC300" d="M41 9c1-1 3 0 3 2 0 3-1 5-3 7-1 1-3 1-3-1 0-3 1-6 3-8z"/>
+<!-- 头 -->
+<circle cx="41" cy="20" r="7" fill="url(#rooGrad)"/>
+<!-- 眼睛 -->
+<circle cx="43" cy="19" r="1.4" fill="#222"/>
+<!-- 身体+尾巴（一笔剪影） -->
+<path fill="url(#rooGrad)" d="M36 26c-6 0-11 4-13 10-1 3-3 6-6 8-2 2-4 3-5 5-1 1 0 3 2 3h13c2 0 3-1 3-3 0-2 1-4 3-5 3-2 6-2 9-2 3 0 5-2 5-5 0-2-1-4-3-5l-3-1c-2-1-3-3-5-5z"/>
+<!-- 前爪 -->
+<path fill="#E6A800" d="M31 33c1-1 3-1 4 0 1 1 1 3 0 3l-4 1c-1 0-1-3 0-4z"/>
+</svg>
+<h1>AI 商业日报</h1>
+<div class="subtitle">字节系 AI 商业化动态 · DeepSeek 精选</div>
+<div class="date-line">2026年08月25日 周二 <span class="mode-badge">DeepSeek AI 精选</span></div>
+<a href="../index.html" class="back-link">← 返回今日日报</a>
+</div>
+
+<div class="container">
+<div class="editorial"><div class="editorial-head"><span class="editorial-label">编辑导读</span></div><div class="editorial-body">今日字节系AI商业化最大看点在于AI办公与视频生成两大方向。字节正式发布独立办公Agent产品“豆包工作”，整合TRAE与扣子，并与飞书深度打通，标志着其AI办公从单点工具走向系统化平台，直接对标腾讯、阿里。同时，Seedance 2.5持续扩展生态，CapCut集成Seedance 2.0开启画布式创作，万兴科技等第三方产品接入，视频生成能力加速向商业化落地。此外，火山引擎在具身智能领域渗透率提升，特斯拉接入豆包大模型，显示其AI能力向汽车等垂直行业输出。整体来看，字节正通过整合资源、强化平台能力，加速AI商业化闭环。</div></div><section class="overview-section"><h3 class="overview-title">本期要点概述</h3><div class="ov-block"><div class="ov-head">🚀 新产品功能<span class="ov-hint">哪个公司有什么新功能、具体怎么实现</span></div><ul class="ov-list"><li>字节发布独立办公Agent产品“豆包工作”，整合TRAE与扣子，支持自动操作电脑、生成PPT/文档/表格，并与飞书深度打通，可调用团队文档、消息、任务等组织数据。</li><li>CapCut集成Seedance 2.0，开启视频创作画布时代，用户可在画布上自由组合素材，AI生成视频片段，提升创作效率。</li><li>火山引擎秘密邀测独立AI视频产品，打造全流程AI影视工作台，覆盖从剧本到成片的完整流程。</li></ul></div><div class="ov-block"><div class="ov-head">💬 网上观点<span class="ov-hint">报道/分析师的新观点与论据</span></div><ul class="ov-list"><li>有观点认为，豆包工作与飞书的深度打通是其区别于其他办公Agent的关键，Agent能真正融入团队协作场景，而非孤立对话框。</li><li>分析指出，字节整合TRAE、扣子并入豆包，是收缩AI办公版图、聚焦核心入口的战略，旨在打造统一办公品牌，与腾讯、阿里展开系统化竞争。</li><li>Seedance 2.5在视频生成领域的应用引发创作者争议，有YouTube创作者因推广AI视频工具而遭粉丝批评，反映AI生成内容在创意行业的接受度仍存分歧。</li></ul></div><div class="ov-block"><div class="ov-head">🌐 行业生态<span class="ov-hint">基于这些文章看到的行业态势</span></div><ul class="ov-list"><li>字节通过整合AI办公产品，形成以豆包为核心的统一入口，与腾讯、阿里在AI办公领域形成三足鼎立格局。</li><li>Seedance 2.5生态快速扩张，CapCut、万兴科技等第三方产品接入，显示字节视频生成模型正成为行业基础设施。</li><li>火山引擎在具身智能领域渗透率提升，国内估值Top20的具身智能企业中已有15家合作，AI能力向垂直行业加速输出。</li></ul></div></section><div class="signal-legend">信号等级：<span class="dot dot-high"></span>高影响 / <span class="dot dot-medium"></span>中影响 / <span class="dot dot-low"></span>信息流</div><div class="stats">共 14 条精选 · 7 条高影响 · <span class="new-badge" title="对比 2026-08-24 日报去重后统计">▲ 较昨日新增 14 条</span></div><table class="digest-table"><tbody><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">大厂动向</span></td><td class="col-content"><div class="cat-summary">字节跳动正式发布“豆包工作”，整合TRAE与扣子，与飞书深度打通，构建企业级智能体，标志着其AI办公战略从单点工具转向系统化平台。同时，火山引擎宣布特斯拉接入豆包大模型，AI能力向汽车行业渗透。</div><div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://www.cnbeta.com.tw/articles/tech/1574866.htm" target="_blank" class="item-link">字节发布“豆包工作”，整合TRAE与扣子，AI办公进入系统化竞争</a><span class="item-source">(cnBeta)</span></div><div class="item-explanation">字节跳动正式发布独立办公Agent产品“豆包工作”，整合TRAE与扣子，与飞书深度打通，可自动操作电脑、生成文档表格，并支持定时任务。这标志着字节AI办公从单点工具转向统一平台，直接对标腾讯、阿里。</div><ul class="analysis-points"><li>要点1：豆包工作整合TRAE与扣子，形成统一办公入口，支持自动操作电脑、生成PPT/文档/表格，并可定时执行任务。</li><li>要点2：与飞书深度打通，Agent可调用团队文档、消息、任务等组织数据，提升企业协作效率，对商家而言，可自动化处理营销报告、舆情监控等。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可利用豆包工作自动生成营销分析报告，监控竞品动态，提升运营效率。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://www.ifanr.com/1676539?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=" target="_blank" class="item-link">豆包工作实测：连上飞书后，Agent终于像个同事了</a><span class="item-source">(爱范儿)</span></div><div class="item-explanation">爱范儿实测豆包工作，重点测试其与飞书的深度打通能力。基于飞书账号登录后，Agent可直接进入团队文档、消息、任务和组织关系，实现真正的协作式办公，而非孤立对话框。</div><ul class="analysis-points"><li>要点1：豆包工作与飞书深度打通，Agent能理解团队上下文，处理文档、表格、PPT等，交互更丝滑。</li><li>要点2：对商家而言，可让Agent自动整理会议纪要、跟进项目进度，甚至生成营销方案，降低人力成本。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借助豆包工作自动生成经营周报、分析顾客评价，辅助决策。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oUUtHUjdabVVISW8tVHZ6dmMyT05EN29lekl2RXFVMy1VcFNoRTRjb3BxRnlLeUU4MVo5d0dVbW9KUzd4STVQRkp6S0s0Zw?oc=5" target="_blank" class="item-link">字节整合AI办公产品，TRAE、扣子团队并入豆包</a><span class="item-source">(36氪)</span></div><div class="item-explanation">据36氪独家报道，字节跳动将TRAE、扣子并入豆包，统一办公品牌“豆包工作”。这是字节AI业务组织调整的一部分，旨在聚焦资源，加速商业化。</div><ul class="analysis-points"><li>要点1：TRAE（AI编程工具）和扣子（AI应用开发平台）并入豆包，形成统一办公入口。</li><li>要点2：对开发者而言，可在豆包工作内直接调用扣子应用，降低开发门槛；对商家，可快速搭建定制化AI应用。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可利用扣子快速搭建营销活动应用，如优惠券发放、客户问答机器人。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVWxDTjRuTGtwVmFYU2Q1dl94WF9MZFNmSDFsLXZmdnlBU2Z2bk9tTEVLbHJMUUlxc2xrUVQzNDhPeW5INjNERGswd2NXTlJYeF8tVXRn?oc=5" target="_blank" class="item-link">字节跳动收缩AI办公版图：TRAE、扣子并入豆包体系</a><span class="item-source">(亿邦动力网)</span></div><div class="item-explanation">亿邦动力报道，字节跳动收缩AI办公版图，将TRAE、扣子并入豆包体系，形成统一入口。这有助于集中资源，提升产品协同效应。</div><ul class="analysis-points"><li>要点1：TRAE和扣子并入豆包，减少内部竞争，统一品牌认知。</li><li>要点2：对开发者而言，可在豆包工作内直接使用TRAE进行编程，提升开发效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可关注豆包工作内集成的TRAE，用于快速开发内部工具。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1SODVPZlZfd2Z0amhEMy1CR2pSdHZzZmF4aUxxbDFsLUNBQVhHMjh0amNpcGJXMHpYT000Y3c5MXh3YTI0NUtEU1VnaTlTQVRsSnRXbHFTR3ZYei03aGhwcWcwRzY5bzFudGY3Q2prSU0tSWpad2pCQXd1MlRfUXM?oc=5" target="_blank" class="item-link">字节跳动AI办公“豆包工作”独立上线，整合TRAE和扣子</a><span class="item-source">(新浪网)</span></div><div class="item-explanation">新浪网报道，字节跳动AI办公“豆包工作”独立上线，整合TRAE和扣子，提供统一办公入口。这是字节AI商业化的重要一步。</div><ul class="analysis-points"><li>要点1：豆包工作独立客户端，整合TRAE和扣子，提供文档、表格、PPT等办公能力。</li><li>要点2：对商家而言，可一站式使用AI办公工具，降低学习成本。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可尝试豆包工作，用于日常办公和营销内容生成。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPWThxWW9oOWIzUVZETVpfbjBSSmtDdTdQY0huaWp0R3FDbTFHMjZLaGJpQmFUcDh6RXZXSGVuT19HemJCeHBrdHpGMXJZemw2VXQ1b0NxQkVGWXFsNFkybGNjNXhqM1lBNEtaSF9FVWhFNkRvZElIdG5EY0VRMS1Qa0syOFhWVWE2WGttcVk3NA?oc=5" target="_blank" class="item-link">字节跳动正式发布豆包工作：具备AI办公能力，与飞书深度打通</a><span class="item-source">(新浪网)</span></div><div class="item-explanation">新浪网报道，字节跳动正式发布豆包工作，具备AI办公能力，可围绕用户目标自主拆解任务、调用工具，并与飞书深度打通，构建企业级智能体。</div><ul class="analysis-points"><li>要点1：豆包工作可自主拆解任务，调用工具，如生成PPT、文档、表格，并支持定时任务。</li><li>要点2：与飞书深度打通，可访问团队文档、消息、任务，实现企业级协作。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可利用豆包工作自动生成营销报告，监控舆情。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wQWxraktaU19wOXQzcTc0WXJBUkoyTXdLUFRtalc2ejFveHBCZ0N4aVk3dnlUeE15VHF6R2JWUDRfbU5oOXhIS3VBMzNiUENKeUpQam4wODdndDVGQmttUFR4X1A?oc=5" target="_blank" class="item-link">字节跳动发布豆包工作 与飞书深度打通构建企业级智能体</a><span class="item-source">(新京报)</span></div><div class="item-explanation">新京报报道，字节跳动发布豆包工作，与飞书深度打通，构建企业级智能体。这标志着字节AI办公进入企业级市场。</div><ul class="analysis-points"><li>要点1：豆包工作与飞书深度打通，可调用企业组织数据，实现智能体协作。</li><li>要点2：对企业而言，可部署豆包工作作为数字员工，处理日常办公任务。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活企业可部署豆包工作，用于客户服务、数据分析。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQeFhncjFzOHlvaTN0OXBhMkhlZlJYR0tDVFlSVXZ2bUIyeWtKVHN3UkNhcFN6eURwajVfTW82d3hfcU5idmptUkZvYmNuekhBdUxPdEc1djBOMDJoVUtMamxaUW9kdFJDdXJFalpqSEJDb3pyUmNoR0VxN3hZd2lRVk1HNk91a3E0MnBPQ0x5Ny1JeTBkektvY0pCcklnZ1laRV8zNjZFS3kzVlByd0ZTTmdxWlJkcHJUNEloUWVpUnlCS2pL?oc=5" target="_blank" class="item-link">字节跳动挑战腾讯，推出豆包工作AI办公Agent</a><span class="item-source">(Free Malaysia Today)</span></div><div class="item-explanation">Free Malaysia Today报道，字节跳动推出豆包工作，挑战腾讯在AI办公领域的地位。豆包工作整合TRAE和扣子，与飞书打通，形成完整办公生态。</div><ul class="analysis-points"><li>要点1：豆包工作整合TRAE和扣子，提供编程和应用开发能力，与飞书集成。</li><li>要点2：对商家而言，豆包工作可作为一站式AI办公平台，提升效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可关注豆包工作与飞书的集成，用于内部管理。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQU0c4SFd0ODdtU01teHgtcGxtQUc1OWoxanVGNlh3ZmY5eWFCZUlyN0VhSmxqdmlpS1JlNUhoYnUwSFF6Q3g5bmxHejB3WW5PNTR0ZkR3TmtsTUlDb2VyN0pHU0l5ZDlmRU03Wld6WnA0eU40VjlLVnVWZlFmWlowMUdpNHhrcHNUMkZRTVVRbkdzeHBvTTlRQzF0Q2hyOVRG0gGgAUFVX3lxTFBTRzhIV3Q4N21TTW14eC1wbG1BRzU5ajFqdUY2WHdmZjl5YUJlSXI3RWFKbGp2aWlLUmU1SGhidTBIUXpDeDlubEd6MHdZbk81NHRmRHdOa2xNSUNvZXI3SkdTSXlkOWZFTTdaV3pacDR5TjRWOUtWdVZmUWZaWjAxR2k0eGtwc1QyRlFNVVFuR3N4cG9NOVFDMXRDaHI5VEY?oc=5" target="_blank" class="item-link">字节跳动整合AI团队，与腾讯竞争</a><span class="item-source">(Daily Tech News Show)</span></div><div class="item-explanation">Daily Tech News Show报道，字节跳动合并AI团队，将TRAE和扣子并入豆包，推出豆包工作，以与腾讯竞争。</div><ul class="analysis-points"><li>要点1：字节整合AI团队，聚焦豆包品牌，推出豆包工作。</li><li>要点2：对商家而言，豆包工作提供统一AI办公入口，降低使用门槛。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可关注豆包工作，用于办公自动化。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNdDZkbDY5ajhDQ3Z3a0RVaUpVaWFuVXN2MmhlZkxBY2pydVAxbGV3OGY5bFhfWDJ4aG9OSHJuUHU4ZlRHRUZiQXhRTXFsOVh3N1NxOHdBaDA0UjZYNnV0RVZwOVBlOHAyQWxmMk1GSnFyajBvODBCcUE5UmpWUkVIRXlYVEtyTWZXVWNHMWxqRUpIWWNzTElmRkFWNXd0dU5TVWZKbVBpMlVoNWRlTXhkUXlrT2E?oc=5" target="_blank" class="item-link">字节跳动将AI工具整合进豆包超级应用，以对抗腾讯</a><span class="item-source">(Bloomberg.com)</span></div><div class="item-explanation">彭博社报道，字节跳动将AI工具整合进豆包超级应用，推出豆包工作，以对抗腾讯。豆包工作整合TRAE和扣子，与飞书打通。</div><ul class="analysis-points"><li>要点1：豆包工作整合TRAE和扣子，形成超级应用。</li><li>要点2：对商家而言，豆包工作提供一站式AI服务，提升效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可关注豆包工作，用于营销自动化。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQU0c4SFd0ODdtU01teHgtcGxtQUc1OWoxanVGNlh3ZmY5eWFCZUlyN0VhSmxqdmlpS1JlNUhoYnUwSFF6Q3g5bmxHejB3WW5PNTR0ZkR3TmtsTUlDb2VyN0pHU0l5ZDlmRU03Wld6WnA0eU40VjlLVnVWZlFmWlowMUdpNHhrcHNUMkZRTVVRbkdzeHBvTTlRQzF0Q2hyOVRG0gGgAUFVX3lxTFBTRzhIV3Q4N21TTW14eC1wbG1BRzU5ajFqdUY2WHdmZjl5YUJlSXI3RWFKbGp2aWlLUmU1SGhidTBIUXpDeDlubEd6MHdZbk81NHRmRHdOa2xNSUNvZXI3SkdTSXlkOWZFTTdaV3pacDR5TjRWOUtWdVZmUWZaWjAxR2k0eGtwc1QyRlFNVVFuR3N4cG9NOVFDMXRDaHI5VEY?oc=5" target="_blank" class="item-link">字节跳动合并AI团队，推出豆包工作，与腾讯竞争</a><span class="item-source">(Daily Tech News Show)</span></div><div class="item-explanation">DTH报道，字节跳动合并AI团队，推出豆包工作，整合TRAE和扣子，与腾讯竞争。</div><ul class="analysis-points"><li>要点1：字节合并AI团队，推出豆包工作。</li><li>要点2：对商家而言，豆包工作提供AI办公能力。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>商家可关注豆包工作，用于办公自动化。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0QVZORGJIeUJ2RGxhek9Rb1gwOWNaS0hSUUc3dk54TmJUaGlCbDhOOGZ0Z3FObnlmNEdfYS0tOUpUSnhfa0ZieA?oc=5" target="_blank" class="item-link">CapCut集成Seedance 2.0，开启视频创作画布时代</a><span class="item-source">(品玩)</span></div><div class="item-explanation">品玩报道，CapCut集成Seedance 2.0，开启视频创作画布时代。用户可在画布上自由组合素材，AI生成视频片段，提升创作效率。</div><ul class="analysis-points"><li>要点1：CapCut集成Seedance 2.0，提供画布式创作界面，支持AI生成视频。</li><li>要点2：对创作者而言，可快速生成视频素材，降低制作成本；对商家，可用于制作营销视频。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可利用CapCut+Seedance快速生成菜品展示、门店宣传视频。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiggJBVV95cUxQdUVIekdEYWxMWDRDR1N6QkFKZVhaUHFnYUh3RTNMOVVsY0RoaVh0NHFBUFdFaHpFTF9iVkZ6eURIWDhUTzJWcG8wN0g1bHVDM1pOU3hxb05xZ0hZc3Z5NzR5Rno5enhLUzd5Z2x5RkZYNF9lek9Va0ctVEhjbTBQOVdSR2c3T2RBTU1DbTJVcHZ4ZDVhU1Q3bmt3T3NpcENwMGoxVFYtMDZobUswNGQwYXN6emdnMzg0VHF4dUVoR1R3cFJGQm9RWHc5NDV6VzZfdGh5YmwtVllWWHhQd01pamowQlZWRmd6SEhxN3ZZYXhNOTYzQnF1VXFVQ0VNMmxobUE?oc=5" target="_blank" class="item-link">火山引擎副总裁：国内估值Top20具身智能企业中15家已合作</a><span class="item-source">(finance.sina.com.cn)</span></div><div class="item-explanation">新浪财经报道，火山引擎副总裁杨立伟表示，国内估值Top20的头部具身智能企业中，已有15家与火山引擎达成深度合作，显示其AI能力在垂直行业的渗透。</div><ul class="analysis-points"><li>要点1：火山引擎与15家头部具身智能企业合作，提供AI能力。</li><li>要点2：对具身智能企业而言，可借助火山引擎的模型和算力加速产品落地。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可关注具身智能在服务场景的应用，如机器人配送。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏观点类</span></td><td class="col-category"><span class="cat-label">观点与深度</span></td><td class="col-content"><div class="cat-summary">行业分析认为，豆包工作与飞书的深度打通是其差异化优势，AI办公进入系统化竞争阶段。同时，Seedance 2.5在创作者中引发争议，反映AI生成内容的接受度仍需培养。</div><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BaGI0cTZQM1ZHOUtPLTBqWWJUcDNFTmZjb0N6MHRXbXJ1RXFHUEZvVFBfMU0tYXhjcHgzSF96aFpQSTFKbGhhLVNUZEQ0TkhNSmhz?oc=5" target="_blank" class="item-link">豆包工作进入AI办公竞争，行业进入系统化对决阶段</a><span class="item-source">(36氪)</span></div><div class="item-explanation">36氪发文分析，豆包工作进入AI办公竞争，标志着该领域从单点工具竞争转向系统化平台对决。字节、腾讯、阿里纷纷整合资源，构建完整办公生态。</div><ul class="analysis-points"><li>要点1：豆包工作整合TRAE、扣子，与飞书打通，形成从文档处理到应用开发的全链路能力。</li><li>要点2：对商家而言，选择AI办公平台时需考虑生态整合度，豆包工作与飞书的深度集成可能成为企业首选。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活企业可关注豆包工作与飞书的集成，用于内部管理和营销自动化。</div></div></td></tr></tbody></table><section class="insights-section"><h3 class="insights-title">外投团队的借鉴 · 技术底座视角</h3><p class="insights-intro">字节系今日在AI办公和视频生成上的底座改造，意味着外投素材将更易批量生成、投放更精准，成本结构有望重塑。</p><div class="takeaway-list"><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>字节将TRAE、扣子并入豆包，推出豆包工作，与飞书深度打通，使Agent能调用企业组织数据。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>对美团商业化团队而言，可借鉴其与内部系统深度集成的思路，将AI能力嵌入商家后台，实现营销自动化，如自动生成投放素材、分析投放效果。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>CapCut集成Seedance 2.0，开启画布式视频创作，AI生成视频能力大幅提升。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>外投团队可利用AI视频生成能力，快速批量制作本地生活商家的广告素材，降低素材生产成本，提升投放效率。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>火山引擎与15家头部具身智能企业合作，AI能力向垂直行业输出。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>美团商业化可探索与具身智能企业合作，在本地生活场景中引入机器人配送、智能导购等，提升服务体验，创造新的广告触点。</div></div></div></section><section class="archive-section"><h3 class="archive-title">历史归档</h3><div class="archive-tip">点击任意日期查看当天完整日报（已排版，非原始数据）</div><div class="archive-month"><h4>2026年09月</h4><div class="archive-week"><span class="week-label">08.31-09.06</span><a href="../archive/2026-09-05.html" class="date-link">09-05</a><a href="../archive/2026-09-04.html" class="date-link">09-04</a><a href="../archive/2026-09-03.html" class="date-link">09-03</a><a href="../archive/2026-09-02.html" class="date-link">09-02</a><a href="../archive/2026-09-01.html" class="date-link">09-01</a></div></div><div class="archive-month"><h4>2026年08月</h4><div class="archive-week"><span class="week-label">08.31-09.06</span><a href="../archive/2026-08-31.html" class="date-link">08-31</a></div><div class="archive-week"><span class="week-label">08.24-08.30</span><a href="../archive/2026-08-30.html" class="date-link">08-30</a><a href="../archive/2026-08-29.html" class="date-link">08-29</a><a href="../archive/2026-08-28.html" class="date-link">08-28</a><a href="../archive/2026-08-27.html" class="date-link">08-27</a><a href="../archive/2026-08-26.html" class="date-link">08-26</a><a href="../archive/2026-08-25.html" class="date-link date-link-active">08-25</a><a href="../archive/2026-08-24.html" class="date-link">08-24</a></div><div class="archive-week"><span class="week-label">08.17-08.23</span><a href="../archive/2026-08-23.html" class="date-link">08-23</a><a href="../archive/2026-08-22.html" class="date-link">08-22</a><a href="../archive/2026-08-21.html" class="date-link">08-21</a><a href="../archive/2026-08-20.html" class="date-link">08-20</a><a href="../archive/2026-08-19.html" class="date-link">08-19</a><a href="../archive/2026-08-18.html" class="date-link">08-18</a><a href="../archive/2026-08-17.html" class="date-link">08-17</a></div><div class="archive-week"><span class="week-label">08.10-08.16</span><a href="../archive/2026-08-16.html" class="date-link">08-16</a><a href="../archive/2026-08-15.html" class="date-link">08-15</a><a href="../archive/2026-08-14.html" class="date-link">08-14</a><a href="../archive/2026-08-13.html" class="date-link">08-13</a><a href="../archive/2026-08-12.html" class="date-link">08-12</a><a href="../archive/2026-08-11.html" class="date-link">08-11</a><a href="../archive/2026-08-10.html" class="date-link">08-10</a></div><div class="archive-week"><span class="week-label">08.03-08.09</span><a href="../archive/2026-08-09.html" class="date-link">08-09</a><a href="../archive/2026-08-08.html" class="date-link">08-08</a><a href="../archive/2026-08-07.html" class="date-link">08-07</a><a href="../archive/2026-08-06.html" class="date-link">08-06</a><a href="../archive/2026-08-05.html" class="date-link">08-05</a><a href="../archive/2026-08-04.html" class="date-link">08-04</a><a href="../archive/2026-08-03.html" class="date-link">08-03</a></div><div class="archive-week"><span class="week-label">07.27-08.02</span><a href="../archive/2026-08-02.html" class="date-link">08-02</a><a href="../archive/2026-08-01.html" class="date-link">08-01</a></div></div><div class="archive-month"><h4>2026年07月</h4><div class="archive-week"><span class="week-label">07.27-08.02</span><a href="../archive/2026-07-31.html" class="date-link">07-31</a><a href="../archive/2026-07-30.html" class="date-link">07-30</a><a href="../archive/2026-07-29.html" class="date-link">07-29</a><a href="../archive/2026-07-28.html" class="date-link">07-28</a><a href="../archive/2026-07-27.html" class="date-link">07-27</a></div><div class="archive-week"><span class="week-label">07.20-07.26</span><a href="../archive/2026-07-26.html" class="date-link">07-26</a><a href="../archive/2026-07-25.html" class="date-link">07-25</a><a href="../archive/2026-07-24.html" class="date-link">07-24</a><a href="../archive/2026-07-23.html" class="date-link">07-23</a><a href="../archive/2026-07-22.html" class="date-link">07-22</a><a href="../archive/2026-07-21.html" class="date-link">07-21</a><a href="../archive/2026-07-20.html" class="date-link">07-20</a></div><div class="archive-week"><span class="week-label">07.13-07.19</span><a href="../archive/2026-07-19.html" class="date-link">07-19</a><a href="../archive/2026-07-18.html" class="date-link">07-18</a></div></div></section>
+</div>
+<div class="footer">
+每日自动更新 · 聚焦字节跳动全系 AI 商业化（豆包 / 火山引擎 / 扣子 Coze / 即梦 / 剪映 / 巨量引擎 / TikTok 等）<br>
+数据来源：Google News（中英）/ 36氪 / IT之家 / 爱范儿 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
+生成于 2026-09-05 10:53 UTC
+</div>
+<script>
+(function(){
+  var canvas = document.getElementById('particle-bg');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = false;
+  try {
+    reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch(e) {}
+
+  var dpr = Math.max(1, Math.min(window.devicePixelRatio || 1, 2));
+  var W = 0, H = 0, particles = [], raf = null;
+  // 浅色专业配色：靛蓝为主，少量美团黄点缀
+  var COLORS = ['99,102,241', '99,102,241', '99,102,241', '255,195,0'];
+
+  function isMobile(){ return window.innerWidth <= 768; }
+
+  function particleCount(){
+    var area = window.innerWidth * window.innerHeight;
+    var base = Math.round(area / 16000); // 密度
+    if (isMobile()) base = Math.round(base * 0.5);
+    return Math.max(28, Math.min(base, 90));
+  }
+
+  function rand(min, max){ return Math.random() * (max - min) + min; }
+
+  function makeParticle(){
+    return {
+      x: Math.random() * W,
+      y: Math.random() * H,
+      vx: rand(-0.18, 0.18),
+      vy: rand(-0.18, 0.18),
+      r: rand(1.1, 2.6),
+      c: COLORS[Math.floor(Math.random() * COLORS.length)],
+      a: rand(0.35, 0.75)
+    };
+  }
+
+  function build(){
+    W = canvas.clientWidth;
+    H = canvas.clientHeight;
+    canvas.width = Math.floor(W * dpr);
+    canvas.height = Math.floor(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = particleCount();
+    particles = [];
+    for (var i = 0; i < n; i++) particles.push(makeParticle());
+  }
+
+  var LINK_DIST = 128;
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    // 连线：邻近粒子间极淡靛蓝线，营造网络质感
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      for (var j = i + 1; j < particles.length; j++) {
+        var q = particles[j];
+        var dx = p.x - q.x, dy = p.y - q.y;
+        var d2 = dx * dx + dy * dy;
+        if (d2 < LINK_DIST * LINK_DIST) {
+          var alpha = (1 - Math.sqrt(d2) / LINK_DIST) * 0.16;
+          ctx.strokeStyle = 'rgba(99,102,241,' + alpha.toFixed(3) + ')';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(q.x, q.y);
+          ctx.stroke();
+        }
+      }
+    }
+    // 粒子点
+    for (var k = 0; k < particles.length; k++) {
+      var pt = particles[k];
+      ctx.beginPath();
+      ctx.fillStyle = 'rgba(' + pt.c + ',' + pt.a.toFixed(2) + ')';
+      ctx.arc(pt.x, pt.y, pt.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function step(){
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < -20) p.x = W + 20; else if (p.x > W + 20) p.x = -20;
+      if (p.y < -20) p.y = H + 20; else if (p.y > H + 20) p.y = -20;
+    }
+    draw();
+    raf = requestAnimationFrame(step);
+  }
+
+  var resizeTimer = null;
+  window.addEventListener('resize', function(){
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(build, 200);
+  });
+
+  build();
+  if (reduce) {
+    draw(); // 尊重减少动效偏好：只画一帧静态粒子
+  } else {
+    step();
+  }
+})();
+</script>
+
+</body>
+</html>
