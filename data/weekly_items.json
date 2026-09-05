@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T11:39:38.941370+00:00",
-  "week_range": "08.31-09.04",
-  "date_display": "08.31 - 09.04",
-  "editorial_summary": "本周共汇总 41 条 AI 商业要闻，其中高影响 5 条。本周主线包括：TikTok欧洲拉美营收91亿美元，首次实现盈利；豆包大模型上线特斯拉中国，与Grok同台竞技；豆包工作新增多Agent并行与Mac操作电脑，办公AI再；豆包手机二代获入网许可，9月上市，全球首款AI智能体手机；字节跳动获近300亿美元贷款，刷新亚洲纪录。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-05T06:19:30.024282+00:00",
+  "week_range": "08.31-09.05",
+  "date_display": "08.31 - 09.05",
+  "editorial_summary": "本周共汇总 46 条 AI 商业要闻，其中高影响 7 条。本周主线包括：TikTok欧洲拉美营收91亿美元，首次实现盈利；豆包大模型上线特斯拉中国，与Grok同台竞技；豆包工作新增多Agent并行与Mac操作电脑，办公AI再；豆包手机二代获入网许可，9月上市，全球首款AI智能体手机；字节跳动获近300亿美元贷款，刷新亚洲纪录。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "豆包大模型上线特斯拉中国，与Grok同台竞技",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（25 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（28 条），高影响条目占比约 15%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
+    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系在技术能力底座上的改造，如豆包整合办公AI、巨量引擎强化AI合规、抖音AI内容爆发，意味着外投的素材生产将更自动化、合规要求更高、内容形态更多样，美团商业化团队需紧跟这些变化，优化投放策略。",
-  "total_items": 41,
-  "high_count": 5,
+  "total_items": 46,
+  "high_count": 7,
   "items": [
     {
       "title": "TikTok欧洲拉美营收91亿美元，首次实现盈利",
@@ -118,6 +118,34 @@
       "source": "Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDZ5TS16SGlnZnEwdVRGM3FQQXI4X3lmU21YUm9wSXpGWFdkYnlMQU9jNnEyRllQTkZJa3hRZ3lRZDRaV3VpMXZfYzhnNW10cnpkeFdncWZzZmJRM25URkhGR1pxYmctaGp5MkhhcDNRM0wyUTQxdmF6SHVlMWw1MTE1bk9udUZoWEtGNG5abk5CM2liVDlvWGdmVnQ1NG1xaWFIWGRYSjhUSnJpYjZfOFE5OA?oc=5",
       "local_life_hint": "字节AI能力增强，本地生活广告主可期待更智能的投放工具和更丰富的创意素材生成能力。"
+    },
+    {
+      "title": "豆包大模型加速上车，特斯拉、别克等车型接入",
+      "explanation": "豆包大模型相继入驻特斯拉、别克至境E7等车型，车载AI从'机械客服'向'智能交互'升级。这标志着豆包在车联网场景的规模化落地，为字节AI在出行领域的商业化打开新空间。",
+      "analysis_points": [
+        "要点1：豆包大模型上车，车载AI从'机械客服'向'智能交互'升级，提供更自然的语音交互与个性化服务。",
+        "要点2：对本地生活商家，车载场景是新的流量入口，可探索车内推荐附近餐饮、景点等本地服务。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vRzQzTDV5X19aN0IwTk5VN0l1LUo4WHViNFlJN1c3Um16WlpwX3hZMFh2VDFmQVN6dk1kb2QzRkdZb0JvTGNrVUFnaWZ2Z05fTjIzN3ZFVGJxLVlvcjRrcFlfb1NpOXc?oc=5",
+      "local_life_hint": "车载AI场景可探索本地生活服务推荐，如餐厅、加油站等。"
+    },
+    {
+      "title": "飞书与豆包将整合，字节重构ToB版图",
+      "explanation": "字节跳动重构ToB版图，飞书与豆包将整合，大厂激战'AI工作入口'。整合后，豆包的AI能力将深度融入飞书，打造统一的AI办公入口，提升企业服务竞争力。",
+      "analysis_points": [
+        "要点1：飞书与豆包整合，AI能力融入办公场景，打造统一AI工作入口。",
+        "要点2：对本地生活商家，AI办公工具可提升运营效率，如自动化报表、智能客服等。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
+      "local_life_hint": ""
     },
     {
       "title": "豆包大模型2.2推迟发布，原计划8月推出",
@@ -622,6 +650,48 @@
       "source": "新华报业网",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGNzZyU3phTEQ5MUFxM215azNJZ3VWLVZydzRRUWJzU29aN1htcTF1bENwakN2Q2hybTAzMlM4STc0dTNZeDc2cnBWWlJNVS1KOXlxODI1NEM5UVEwak9jWGxncUlhMURxWjBn?oc=5",
       "local_life_hint": "本地生活商家可策划剧情化直播，如探店连续剧，提升用户兴趣和到店转化。"
+    },
+    {
+      "title": "TikTok Shop直播电商爆发，单场销售额达4万美元",
+      "explanation": "TikTok Shop直播电商在美国快速增长，一位妈妈主播单晚卖出4万美元衬衫。案例显示直播电商潜力巨大，吸引更多商家与主播入局。",
+      "analysis_points": [
+        "要点1：TikTok Shop直播电商爆发，单场销售额达4万美元，案例激励更多商家。",
+        "要点2：对本地生活商家，可尝试直播带货本地服务，如餐饮团购、景区门票。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Miami Herald",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yMUpKb2h2MWNVWFFTM3QwenlFN1hHMlFxbnBJcFFUc1EyREIweDNkblJVR0lCZlNycUNhUGVwamw0dWZVanVFNjZnQXJaZ09wRzBXZ193Tm1tWXljOHk0LVVzRWRfNzTSAWdBVV95cUxQQVNwUGhqUUpPZGlaZWpMOFItbVQ4eldnYkZ4R0tyV3R4Y0tKYl9NRE5zbGRyLThXeFRaM29iVDczUW5kZk1XV1IybS1jdVlHNXhKRkwyQnNOMmlHRDFNYnEyT1VIc3RR?oc=5",
+      "local_life_hint": "直播电商案例可激励本地生活商家尝试直播带货。"
+    },
+    {
+      "title": "豆包工作加入混战，大厂争当打工人电子牛马",
+      "explanation": "豆包工作加入AI办公混战，大厂争相打造'电子牛马'。豆包工作整合多Agent并行与Mac操作电脑能力，提升办公自动化水平，竞争白热化。",
+      "analysis_points": [
+        "要点1：豆包工作加入AI办公混战，提供多Agent并行与电脑操作能力。",
+        "要点2：对本地生活商家，AI办公工具可提升运营效率，如自动化报表、智能客服。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGNUpmY19XNF9fV1NEYk9ETldaYkdZR1NwSWlWOGp0TVk2QzFCbXFnVXRHcmpIejJmZ083Skt1UUpEZ1FiWEtnN1U3R3RkZw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5上线后，LibTV帮创作者学会新模型",
+      "explanation": "Seedance 2.5上线后，LibTV先帮创作者'学会'新模型。LibTV提供教程与工具，帮助创作者快速上手Seedance 2.5，提升AI视频创作效率。",
+      "analysis_points": [
+        "要点1：Seedance 2.5上线，LibTV提供教程帮助创作者掌握新模型。",
+        "要点2：对广告销售，AI视频工具可快速生成广告素材，降低制作成本。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsR0xjOXZILVAzOEU2aHl2TmlkeElFVFVYYXdNYU9WdWd0aUFUdnNOa0xXbmpsZ0V3T2JBUTFOR2tDanVadW8tNVRsNC1qMnhQcEEwc0RWWDVXa2c?oc=5",
+      "local_life_hint": "AI视频工具可辅助本地生活广告素材制作。"
     }
   ],
   "mode": "ai"
