@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T10:53:48.485631+00:00",
-  "week_range": "08.31-09.05",
-  "date_display": "08.31 - 09.05",
-  "editorial_summary": "本周共汇总 46 条 AI 商业要闻，其中高影响 5 条。本周主线包括：TikTok欧洲拉美营收91亿美元，首次实现盈利；豆包大模型上线特斯拉中国，与Grok同台竞技；豆包工作新增多Agent并行与Mac操作电脑，办公AI再；豆包手机二代获入网许可，9月上市，全球首款AI智能体手机；字节跳动获近300亿美元贷款，刷新亚洲纪录。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-06T06:30:30.630931+00:00",
+  "week_range": "08.31-09.06",
+  "date_display": "08.31 - 09.06",
+  "editorial_summary": "本周共汇总 50 条 AI 商业要闻，其中高影响 6 条。本周主线包括：TikTok欧洲拉美营收91亿美元，首次实现盈利；豆包大模型上线特斯拉中国，与Grok同台竞技；豆包工作新增多Agent并行与Mac操作电脑，办公AI再；豆包手机二代获入网许可，9月上市，全球首款AI智能体手机；字节跳动获近300亿美元贷款，刷新亚洲纪录。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "豆包大模型上线特斯拉中国，与Grok同台竞技",
@@ -17,15 +17,15 @@
     "ecosystem": [
       "豆包手机二代获入网许可，9月上市，全球首款AI智能体手机",
       "字节跳动获近300亿美元贷款，刷新亚洲纪录",
-      "火山引擎与贵州广电合作，布局智能体与算力产业"
+      "字节跳动扩建内蒙古AI数据中心集群，支撑AI算力需求"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（27 条），高影响条目占比约 11%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（29 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
+    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
+    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系在技术能力底座上的改造，如豆包整合办公AI、巨量引擎强化AI合规、抖音AI内容爆发，意味着外投的素材生产将更自动化、合规要求更高、内容形态更多样，美团商业化团队需紧跟这些变化，优化投放策略。",
-  "total_items": 46,
-  "high_count": 5,
+  "total_items": 50,
+  "high_count": 6,
   "items": [
     {
       "title": "TikTok欧洲拉美营收91亿美元，首次实现盈利",
@@ -118,6 +118,20 @@
       "source": "Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDZ5TS16SGlnZnEwdVRGM3FQQXI4X3lmU21YUm9wSXpGWFdkYnlMQU9jNnEyRllQTkZJa3hRZ3lRZDRaV3VpMXZfYzhnNW10cnpkeFdncWZzZmJRM25URkhGR1pxYmctaGp5MkhhcDNRM0wyUTQxdmF6SHVlMWw1MTE1bk9udUZoWEtGNG5abk5CM2liVDlvWGdmVnQ1NG1xaWFIWGRYSjhUSnJpYjZfOFE5OA?oc=5",
       "local_life_hint": "字节AI能力增强，本地生活广告主可期待更智能的投放工具和更丰富的创意素材生成能力。"
+    },
+    {
+      "title": "字节跳动扩建内蒙古AI数据中心集群，支撑AI算力需求",
+      "explanation": "据南华早报，字节跳动将扩建内蒙古大规模AI数据中心集群，以支撑其AI算力需求，配合近300亿美元贷款，显示其重资产投入AI基础设施的决心。",
+      "analysis_points": [
+        "要点1：字节跳动扩建内蒙古AI数据中心集群，支撑AI算力需求。",
+        "要点2：对广告主而言，算力扩张将降低AI服务成本，提升广告投放的智能化水平。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQV9SbXQ1UWN0LUxfekRjYkxfc2t6aWM5ZWI0RmdfRzdFMi1yZGx3TFcwb0FhdU92SDFJczBXS25PYzh2MU9YcEtzWTVhVWJqOHYtR3dVd1FZRnNiS3hCczFJWFZ2WUtMR2lhTGdlNHNGSnpZWC12Q3JEc0dSZFEtX0lGZm1GbnJhamtVTlBMZXAwQm9hbTVMSDZCNmJTWXpWb0kxamRFWnEtazFKbUdXZ2N5WEt4WHE4Rk5vOVE1SDZEREHSAcMBQVVfeXFMT1BzMlktMWlLbHIySXFNeTZtUF9uZ2dvV2t3NUNCeFo0WnR1T3VpRUoxMDQtcThCWDZ5aXhfcGhvXzNHbGpRdnQ4VzUtQnZiU3EwaW9kb0hha3drenppcU5MYnk2U01nMl84QTRQNkk0X0FPUGF3WUdLNkdWOTRVMGRTaDJtdW5zWVI5MHloTkd5R056UHdMNVJDU3FMdTJaaC1FNUI1N1pGa19pSHlxQUVPRHRheWZsa0tiaFFUNS0yREhB?oc=5",
+      "local_life_hint": "算力扩张将降低AI服务成本，本地生活广告主可期待更智能的投放工具。"
     },
     {
       "title": "豆包大模型2.2推迟发布，原计划8月推出",
@@ -692,6 +706,48 @@
       "source": "汽车之家",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42eTAzOFhUTFg1bFpONDdtQjlDLWV5clVOcmRBbm5vU1ZkMVhzbkI1dDhHaFRGWTYycHJabVpwUUlDampGdmxOeF9EZzdOd2FSaWlUYkZReUg4WXM?oc=5",
       "local_life_hint": "车载AI可推荐沿途餐厅、景点，本地生活商家可考虑与车企合作，抢占车内场景。"
+    },
+    {
+      "title": "Pico神秘VR设备获FCC认证，预计为Space Pro头显，Q4上市",
+      "explanation": "字节跳动Pico旗下一款全新VR头显通过FCC认证，预计为Space Pro，搭载micro-OLED屏（4000 PPI）与双芯片架构，含自研协处理器，主打空间体验，计划Q4上市。",
+      "analysis_points": [
+        "要点1：Pico Space Pro头显获FCC认证，搭载micro-OLED屏与双芯片架构，含自研协处理器，性能大幅提升。",
+        "要点2：对广告主而言，VR头显作为新媒介，将开启沉浸式广告体验，本地生活商家可探索VR探店、虚拟商场等营销形式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/998/917.htm",
+      "local_life_hint": "VR头显将开启沉浸式广告体验，本地生活商家可探索VR探店、虚拟商场等营销形式。"
+    },
+    {
+      "title": "中央网信办强化AI内容标识，豆包等模型严格限制违规输出",
+      "explanation": "中央网信办要求豆包、元宝、千问、文心一言等严格限制违规内容输出，强化AI生成内容标识，第二阶段专项整治已累计清理561万余条信息，AI内容治理趋严。",
+      "analysis_points": [
+        "要点1：中央网信办强化AI内容标识，豆包等模型严格限制违规输出，第二阶段清理561万条信息，监管趋严。",
+        "要点2：对广告主而言，合规的AI内容生成环境降低了营销风险，但需注意内容标识要求，确保广告合规。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "澎湃新闻",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SWDhtbFAtRG4tWDQ5NFRPTXc2QjBnX25ITWNQaHMza25WX2VVdmszY3dXS3VmazJYUDd4SG9GM1NHdUNFRTJwbDRoN0l0dlU3TVdZd2ZCVjNiZ1JfVkE?oc=5",
+      "local_life_hint": "AI内容标识要求增加广告合规成本，本地生活广告主需确保AI生成内容符合监管要求。"
+    },
+    {
+      "title": "豆包跨越「临界点」后，字节AI下一步怎么走？",
+      "explanation": "文章分析豆包用户量跨越临界点后，字节AI下一步需在商业化与生态构建上发力，豆包工作等企业级Agent成为重点方向，探讨字节AI的长期路径。",
+      "analysis_points": [
+        "要点1：豆包跨越临界点后，字节AI需在商业化与生态构建上发力。",
+        "要点2：对广告主而言，字节AI商业化加速将带来更多营销工具与平台，本地生活商家可关注豆包生态的广告机会。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aWlZNcjRTNjlRZnlvZnRVdmg4dzF0YlIxUk9Kc1FiZnY4VVRWbWJieUZKbThQajd0OV9yNHZJajRVaUFTMXJRc28zWU5PZw?oc=5",
+      "local_life_hint": "字节AI商业化加速将带来更多营销工具，本地生活商家可关注豆包生态的广告机会。"
     }
   ],
   "mode": "ai"
