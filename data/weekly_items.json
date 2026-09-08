@@ -1,12 +1,18 @@
 {
-  "generated_at": "2026-09-07T12:59:41.962349+00:00",
-  "week_range": "09.07-09.07",
-  "date_display": "09.07 - 09.07",
-  "editorial_summary": "本周共汇总 7 条 AI 商业要闻，其中高影响 2 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-08T06:33:13.751096+00:00",
+  "week_range": "09.07-09.08",
+  "date_display": "09.07 - 09.08",
+  "editorial_summary": "本周共汇总 17 条 AI 商业要闻，其中高影响 5 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；字节跳动据悉开发实时空间视频模型，张一鸣亲自负责；传张一鸣复出督战字节'世界模型'：与Pico头显打通实时。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
-    "new_products": [],
+    "new_products": [
+      "张一鸣亲自督战，字节实时空间视频模型最快下月发布",
+      "字节跳动据悉开发实时空间视频模型，张一鸣亲自负责",
+      "豆包'杀回'手机"
+    ],
     "opinions": [
-      "GPT-6最佳拍档＝字节Seedance？视频生成新论调"
+      "GPT-6最佳拍档＝字节Seedance？视频生成新论调",
+      "豆包是蜜糖，也是砒霜？",
+      "豆包手机会泯然众人吗？"
     ],
     "ecosystem": [
       "字节跳动扩张内蒙古数据中心，算力版图再扩大",
@@ -15,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（4 条），高影响条目占比约 29%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（11 条），高影响条目占比约 29%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。"
+    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。",
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。"
   ],
   "local_life_insights": [
     {
@@ -33,11 +39,15 @@
     {
       "base": "豆包大模型密集上车（特斯拉、荣威等），从手机助手延伸至车载AI底座，提供自然对话与本地服务推荐能力。",
       "borrow": "美团可探索与车企合作，将本地生活服务接入车载AI，在用户行车途中推荐餐厅、加油站等，开辟新的外投场景。"
+    },
+    {
+      "base": "字节跳动开发实时空间视频模型，基于Seedance，由张一鸣负责，最快下月发布，并与Pico头显打通，实现实时生成3D空间视频。",
+      "borrow": "外投素材将从2D视频升级为3D空间体验，美团商业化可提前布局3D素材制作能力，未来广告可让用户沉浸式预览餐厅、景区，提升点击与转化。"
     }
   ],
   "insights_intro": "字节系今日在智能投放、3D内容生成与车载AI底座上的改造，意味着外投的素材生产将更沉浸、投放将更自动化，成本结构有望优化。",
-  "total_items": 7,
-  "high_count": 2,
+  "total_items": 17,
+  "high_count": 5,
   "items": [
     {
       "title": "字节跳动扩张内蒙古数据中心，算力版图再扩大",
@@ -66,6 +76,48 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
       "local_life_hint": ""
+    },
+    {
+      "title": "张一鸣亲自督战，字节实时空间视频模型最快下月发布",
+      "explanation": "据彭博社报道，字节跳动正在开发一款面向实时空间视频生成的AI模型，由创始人张一鸣亲自负责，最快下月发布。该模型基于Seedance构建，旨在与Meta、Google竞争，应用于机器人和自主系统领域。此举显示字节在AI前沿技术上的野心，可能开启空间智能新赛道。",
+      "analysis_points": [
+        "要点1：字节从静态视频生成向实时空间视频生成跨越，模型能力从'生成画面'升级为'生成可交互的3D世界'，技术门槛极高。",
+        "要点2：对本地生活商家而言，未来广告素材可能从2D视频升级为3D空间体验，用户可'走进'餐厅或景区预览，提升转化率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/movie/1576798.htm",
+      "local_life_hint": "实时空间视频模型可生成3D场景，未来本地生活广告或可让用户沉浸式预览餐厅环境、酒店房间，增强种草效果。"
+    },
+    {
+      "title": "字节跳动据悉开发实时空间视频模型，张一鸣亲自负责",
+      "explanation": "据彭博社报道，字节跳动正在开发实时空间视频生成AI模型，由张一鸣亲自负责，最快下月发布。该模型面向机器人和自主系统，与Meta、Google竞争，并计划与Pico头显打通，实时生成视频画面。",
+      "analysis_points": [
+        "要点1：字节从视频生成向空间智能延伸，模型能力从'生成2D视频'升级为'生成3D空间'，技术壁垒高。",
+        "要点2：对本地生活商家，未来广告可能以3D空间形式呈现，用户可沉浸式体验，提升广告效果。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "动点科技",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0RRNHJLbFhwX0dxSXhGOHBoSnRqR2FsekFyWE5ESU9JejFqZ3dXZUJpeEVTTVk5VzkzZnV1OTMxTkZzajdvc0dEZGZzcExsMFhidjhZbzh4aVVtc0RGSjBhNnh0STlMZFA3UjVySHp5aVFLTExJcmcybDlVOWFFaDV5WV9hNHJxNjFiVU9MYUVMV25IQmJoRg?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "传张一鸣复出督战字节'世界模型'：与Pico头显打通实时生成视频画面",
+      "explanation": "有消息称，张一鸣复出亲自督战字节'世界模型'项目，该模型与Pico头显打通，可实时生成视频画面，为用户提供沉浸式虚拟体验。这显示字节在空间计算领域的布局，意图抢占下一代计算平台。",
+      "analysis_points": [
+        "要点1：字节将世界模型与Pico头显结合，从'内容生成'走向'空间交互'，可能改变VR/AR应用生态。",
+        "要点2：对本地生活商家，未来可通过VR头显展示店铺3D环境，提供虚拟探店体验。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "high",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWjZhVm92dUpIMGplZnAwOWRrMjJHWURnaGlQc1otR3l5c0pnUFU2cGVRcXRMc0hET1hNalFsSk8tY3praFJzRWU1RHRfbzRSUUNDYWRJVEdiR1JRQXJPOFQxUUplWEk4WEFRWms0M0hmNVFnRmRCM0o0VzVVRVhhTWJDNFJZQlpvbkE?oc=5",
+      "local_life_hint": "Pico头显+世界模型可提供虚拟探店体验，本地生活商家可提前布局VR内容，吸引科技尝鲜用户。"
     },
     {
       "title": "Seedance 2.5新玩法：一张图生成可交互3D世界",
@@ -136,6 +188,104 @@
       "source": "36氪",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBmTU9zU1VGRHFBcmtLcm94VjRaU2FOYUU3bFZ0Tk1aUWJWb284NVdieTdIMDVrOHJod2pjczVQNllqR0N3aGQ1WEdkUEEzUQ?oc=5",
       "local_life_hint": "商家可利用Seedance生成视频素材，结合文本AI优化文案，提升广告效果。"
+    },
+    {
+      "title": "前剪映负责人张琪智创业，OJO获近亿元天使轮融资",
+      "explanation": "前剪映负责人张琪智离职创业，成立AI设计工具公司OJO，已获得顺为资本、联想创投近亿元天使轮融资。OJO旨在将一支设计团队装进AI工作台，利用AI辅助设计，提高效率。这显示字节AI人才外溢，带动AI应用层创业热潮。",
+      "analysis_points": [
+        "要点1：OJO将AI融入设计流程，从'单点工具'升级为'全流程协作平台'，可能颠覆传统设计行业。",
+        "要点2：对广告营销团队，类似AI设计工具可大幅降低素材制作成本，提升创意产出效率。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oUEpBVHZkM0gzLUM3YzBNUVNNOURDb2RLVHdUM2VLNk0yN0tJWm9UdElIeWF3V3cwQmxvczZLR1p2LUNUR0ZrUktIampYSTNYTmc?oc=5",
+      "local_life_hint": "AI设计工具可帮助本地生活商家快速生成营销素材，降低设计门槛，提升广告投放效率。"
+    },
+    {
+      "title": "豆包正式担任湖北省博物馆官方AI讲解员",
+      "explanation": "豆包正式担任湖北省博物馆官方AI讲解员，为游客提供智能导览服务。这是豆包在文旅场景的落地，展示其多模态交互能力，也为博物馆等公共文化场所提供了AI应用范例。",
+      "analysis_points": [
+        "要点1：豆包从'通用助手'变为'专业讲解员'，结合知识库和语音交互，提供个性化导览。",
+        "要点2：对本地生活商家，可借鉴豆包在博物馆的应用，在景区、商场部署AI导览，提升用户体验。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42LVdNS1V1MjdUTXdSS05yMVJWcDNzVFRfOUFyRzFzaHlhUnFrNHE2djJmcm9XRU1VWHZRS0NSUHdhZDB4dzMyZ0haaGU1UQ?oc=5",
+      "local_life_hint": "豆包AI讲解员模式可复制到本地生活场景，如商场导购、景区导览，商家可考虑接入豆包API提升服务智能化。"
+    },
+    {
+      "title": "豆包是蜜糖，也是砒霜？",
+      "explanation": "文章探讨豆包大模型的双刃剑效应：一方面为车企、手机厂商带来智能化升级，另一方面可能引发数据安全、用户依赖等问题。观点认为，豆包在快速扩张的同时，需平衡商业利益与用户体验。",
+      "analysis_points": [
+        "要点1：豆包作为AI底座，赋能各行业，但也带来数据隐私和算法控制权问题。",
+        "要点2：对商家，使用豆包等AI服务需关注数据合规，避免过度依赖单一供应商。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uUll1UjJ4emVKT3dvSFpEZXM4TV9TcENCR080M1FMbTY1YVQ4bW5SZlNhdzdNdUVIb0xnM0dJbm1VZlhadWNLbTdudm9wU3ViQ1JuenBzcmhMYjA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "实测豆包工作：从'写材料'到'管流程'，企业级AI Agent进入体系竞争期",
+      "explanation": "实测显示，豆包工作已从简单的文本生成升级为企业级AI Agent，能管理复杂工作流程，如自动处理审批、协调任务。这标志着企业级AI Agent从单点工具向体系化竞争转变，豆包正深入企业服务市场。",
+      "analysis_points": [
+        "要点1：豆包工作从'写材料'的辅助工具进化为'管流程'的智能体，能理解业务逻辑并自动执行。",
+        "要点2：对本地生活商家，豆包工作可帮助管理营销流程，如自动生成投放报告、优化预算分配。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LdUpkTjktdUpTUFhTRVktcVZWaHN6eld4RDIzM01yY3ZWNTF0RUh0eTFVT3hZeko1MVZ6WUlZckJ6NnpMcG5MWnlzS1hCWGppYXdySkJlaXdZS0xRdVhvYg?oc=5",
+      "local_life_hint": "豆包工作可帮助本地生活商家自动化营销流程，如根据销售数据自动调整广告投放策略，提升效率。"
+    },
+    {
+      "title": "豆包手机会泯然众人吗？",
+      "explanation": "文章质疑豆包手机能否在竞争激烈的手机市场脱颖而出，认为其AI功能虽强，但硬件同质化严重，且面临苹果、华为等巨头竞争。观点认为，豆包手机需在生态和体验上做出差异化。",
+      "analysis_points": [
+        "要点1：豆包手机面临'AI功能强但硬件无亮点'的困境，需在摄像头、屏幕等方面创新。",
+        "要点2：对本地生活商家，AI手机普及可能带来新的营销渠道，但需关注用户接受度。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aTkVLZGR4NXhGQi1rWDRzenl3LUk0WEhtVHV0Wl9TNFRmZFhTdE9aSmRORE0xY3FsUW5oYlE1emo3V2VQSlJTbWRUazdvWEZjdW5OOWd3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包'杀回'手机",
+      "explanation": "文章报道豆包手机二代即将发布，豆包以AI能力重新进入手机市场，与努比亚合作推出AI智能体手机，意图通过AI差异化竞争，挑战现有手机格局。",
+      "analysis_points": [
+        "要点1：豆包手机二代在AI能力上大幅升级，支持跨应用自主执行，从'被动响应'变为'主动服务'。",
+        "要点2：对本地生活商家，AI手机可能成为新的流量入口，需提前布局适配。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "京报网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE52WTY4bTRPX3BIdnp2ZEdTRXQzZUpQZUZQaTV4bU5idlhJMWJveFg0Z3p1NElNX19MRUZvSVk1UVJZQ0lZTHBrT0l5WkdRQzZNNHljRHlDRmQ4VUtJRVZjX29vdFpHT1I3ZXRYaGJCWE5XZw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包汽车来了？蓝电更名'赛豆'",
+      "explanation": "有消息称，赛力斯旗下蓝电品牌将更名为'赛豆'，或与豆包深度合作，打造AI汽车品牌。这显示豆包在汽车领域的渗透加深，可能从'技术供应商'走向'品牌合作'。",
+      "analysis_points": [
+        "要点1：蓝电更名'赛豆'可能意味着豆包品牌向汽车延伸，形成'豆包汽车'生态。",
+        "要点2：对本地生活商家，AI汽车品牌可能带来新的车载营销场景。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBzOWZ0bWFwWlRmRklfYTZpSWU0STBMM3d2QXROWFp2aGEzdnZHQ21GZlNoUGxNcmhCT0FINjZuZFpDYVJnN0RmbnVJeGpreHRwR095VFJ2OFl2NTFlVkRlbF9fU3RQU05wNElxX1YtZFJ0Zw?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
