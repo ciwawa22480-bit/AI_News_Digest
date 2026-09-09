@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-09-08T11:40:59.294688+00:00",
-  "week_range": "09.07-09.08",
-  "date_display": "09.07 - 09.08",
-  "editorial_summary": "本周共汇总 19 条 AI 商业要闻，其中高影响 3 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-09T06:40:17.471716+00:00",
+  "week_range": "09.07-09.09",
+  "date_display": "09.07 - 09.09",
+  "editorial_summary": "本周共汇总 27 条 AI 商业要闻，其中高影响 6 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；曹操出行与豆包联合推出AI打车服务，打通本地生活闭环；字节跳动加入世界模型竞赛，与Pico打通押注内容入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "张一鸣亲自督战，字节实时空间视频模型最快下月发布",
-      "火山引擎与荣威合作发布CPP架构，投入数百亿",
-      "Seedance 2.0乱杀后，豆包2.0终于来了！字节接近自己的Gemini "
+      "曹操出行与豆包联合推出AI打车服务，打通本地生活闭环",
+      "火山引擎与荣威合作发布CPP架构，投入数百亿"
     ],
     "opinions": [
-      "GPT-6最佳拍档＝字节Seedance？视频生成新论调"
+      "GPT-6最佳拍档＝字节Seedance？视频生成新论调",
+      "Seedance 2.0乱杀后，豆包2.0终于来了！字节接近自己的Gemini ",
+      "豆包手机能否避免泯然众人？市场存疑"
     ],
     "ecosystem": [
       "字节跳动扩张内蒙古数据中心，算力版图再扩大",
@@ -19,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（13 条），高影响条目占比约 16%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（17 条），高影响条目占比约 22%，商业化叙事仍由头部驱动。",
     "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
@@ -44,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系今日在智能投放、3D内容生成与车载AI底座上的改造，意味着外投的素材生产将更沉浸、投放将更自动化，成本结构有望优化。",
-  "total_items": 19,
-  "high_count": 3,
+  "total_items": 27,
+  "high_count": 6,
   "items": [
     {
       "title": "字节跳动扩张内蒙古数据中心，算力版图再扩大",
@@ -88,6 +90,48 @@
       "source": "彭博社",
       "url": "https://www.cnbeta.com.tw/articles/movie/1576798.htm",
       "local_life_hint": "实时空间视频生成技术未来可用于本地生活场景的虚拟探店、AR导航等，提升用户体验，但当前尚处早期。"
+    },
+    {
+      "title": "曹操出行与豆包联合推出AI打车服务，打通本地生活闭环",
+      "explanation": "曹操出行与豆包合作推出AI打车服务，首批在北京、杭州、苏州上线。用户可在豆包内咨询本地生活信息，系统主动生成出行方案，实现信息获取、行程规划和出行履约的连贯体验。",
+      "analysis_points": [
+        "要点1：豆包从信息助手升级为服务入口，能结合地点主动推荐出行方案，并支持一句话选车、设置空调等。",
+        "要点2：对本地生活商家，这意味着用户可通过豆包直接获取信息并完成出行，可合作推广到店优惠，形成闭环。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/000/067.htm",
+      "local_life_hint": "豆包成为本地生活服务入口，商家可考虑在豆包生态投放优惠券，引导用户到店。"
+    },
+    {
+      "title": "字节跳动加入世界模型竞赛，与Pico打通押注内容入口",
+      "explanation": "彭博社报道字节跳动正在开发实时空间视频模型，由张一鸣亲自负责，并与Pico头显打通，旨在创造虚拟世界，押注下一代内容入口。",
+      "analysis_points": [
+        "要点1：字节将世界模型视为通往AGI的关键，与Pico结合将带来沉浸式内容体验。",
+        "要点2：对内容创作者和广告商，未来可能产生全新的内容形态和广告形式，需提前布局。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY1VVUUo5ZnFvVFF2cDVQOEhlNDBucFJjTVJhS1ZyYWtGTV84UXBtaW1WeEF5TjNFWllKVUlZWWNBbGw1aHlwSk5XOENBUFlmVHhDNlVIY3Nka1pEbmV2SVlNWE5hOG96akJBM1FHcGM1eGN2ajdScWx4N0tUVEpwdEltSUZRWjRQMzV2ZlZsQ2dmaXJxUWN4YkV4NA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "传张一鸣复出督战字节世界模型，与Pico打通实时生成视频",
+      "explanation": "新浪网报道，张一鸣复出督战字节世界模型，与Pico头显打通实时生成视频画面，亲自调兵遣将，押注下一代内容入口。",
+      "analysis_points": [
+        "要点1：字节将世界模型与硬件结合，打造沉浸式内容体验。",
+        "要点2：对广告商，未来可能出现基于空间视频的广告形式，需提前布局。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQajRUNVR3OGdQT0hCeENoc3VkZUNLN0lYZllDMkJBek9zRDJrUWQxY0FTRzVabnlvMjRWUHZKZFdvc3A0ai1FazhnNlUyS0VuUTBKT1dwNjNhNXppcmR2Wm1idUxVOE9PYjNrMnQ2cUs4ZndGakIzWjdObm9ZWWVIZllpRG9KcHozLVRZMWlB?oc=5",
+      "local_life_hint": ""
     },
     {
       "title": "Seedance 2.5新玩法：一张图生成可交互3D世界",
@@ -311,6 +355,76 @@
       "impact": "medium",
       "source": "新浪网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBzOWZ0bWFwWlRmRklfYTZpSWU0STBMM3d2QXROWFp2aGEzdnZHQ21GZlNoUGxNcmhCT0FINjZuZFpDYVJnN0RmbnVJeGpreHRwR095VFJ2OFl2NTFlakVkbF9fU3RQU05wNElxX1YtZFJ0Zw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Sephora试点TikTok Shop，美妆巨头入局验证电商价值",
+      "explanation": "Sephora宣布在美国TikTok Shop试点，推出独家产品Drop Shop体验，标志着国际美妆零售巨头正式进入TikTok电商生态，验证了其商业价值。",
+      "analysis_points": [
+        "要点1：Sephora将利用TikTok Shop的直播和短视频带货能力，提供独家产品，吸引年轻消费者。",
+        "要点2：对品牌商家，TikTok Shop正成为不可忽视的渠道，可借鉴Sephora的独家Drop模式，结合内容营销提升转化。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Retail Dive",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObTd5UjQ0RTFxdllNajViNFFqUUNXcjdJSGNfa3FpN3FLNHlkRnlRRjNTQjlVWHozSDU5YWF3cFF1a3hxV090X2o3RGxicHpnQ0VYSTNWbHRZWFBNOEUybnU0QXBRaDRKdVJwTnRMd0RIbDF1UjlndnRsdGJYWkJ4NFF3?oc=5",
+      "local_life_hint": "TikTok Shop对美妆等品类吸引力增强，本地生活商家可关注TikTok电商的本地化机会。"
+    },
+    {
+      "title": "豆包手机能否避免泯然众人？市场存疑",
+      "explanation": "投资界发文讨论豆包手机的前景，认为在竞争激烈的手机市场，豆包手机需要差异化，AI能力是关键，但面临生态和渠道挑战。",
+      "analysis_points": [
+        "要点1：豆包手机的核心竞争力在于豆包AI的集成，但手机市场已饱和，需找到独特卖点。",
+        "要点2：对广告销售，若豆包手机成功，将扩大豆包生态的用户基础，带来更多广告库存。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aTkVLZGR4NXhGQi1rWDRzenl3LUk0WEhtVHV0Wl9TNFRmZFhTdE9aSmRORE0xY3FsUW5oYlE1emo3V2VQSlJTbWRUazdvWEZjdW5OOWd3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节要用世界模型重做PICO，押注下一代内容入口",
+      "explanation": "搜狐深度报道字节要用世界模型重做PICO，认为这是押注下一代内容入口，将改变内容消费方式。",
+      "analysis_points": [
+        "要点1：字节将世界模型与PICO结合，可能重塑VR内容生态。",
+        "要点2：对营销，VR广告可能成为新蓝海，商家可关注PICO生态的广告机会。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQczBud0pCUHQ0OS1KelgwdzhUZThsSGVTalJtWXl1VFE4TUl2MWFaYTZtZW9hYmNwMUpfUzFmeVNwa1RGM3I4RTU4R2N5Q0VGYW5jVy1QZ1hUWHJSa3U4WFZ4cXdMUDZfc3BacjlfZ3NrWEpFUlB0N0pFdUM0QXA2ZkFiWHBTUUc4Q25BUw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "通往AGI之路，字节要同时修两条",
+      "explanation": "36氪报道字节在通往AGI的路上同时推进两条路径，可能指世界模型和豆包大模型，显示其全面布局。",
+      "analysis_points": [
+        "要点1：字节在AI技术上多线并进，包括语言模型和世界模型。",
+        "要点2：对行业，字节的投入将加速AI商业化进程。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1nRG4xc2d2bEpPNnRfSVhLc1NXdHNha3hyVi1vLU9fM2FPX0JPOElpaVhUelhlS0JlVXQtbW11NjFvYnhSSVppTWt1TU5rQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Flova和LibTV互呛，字节MiniMax已下场",
+      "explanation": "风闻报道Flova和LibTV在视频生成领域竞争，字节的MiniMax已下场，显示字节在AI视频领域的布局。",
+      "analysis_points": [
+        "要点1：字节在AI视频生成领域积极布局，MiniMax等产品参与竞争。",
+        "要点2：对广告创意，字节的视频生成工具可提升素材生产效率。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Gc2JWWm9xdzllTjAycXRNZW9MbUFJeUowS3VGT3g5YlR4M2h1LXRmQ3BFcEhkeHlYRkRPSlZZUU9handwdXZHdjl2Rkt1MjhCTDJRbGZOR2xsaFk?oc=5",
       "local_life_hint": ""
     }
   ],
