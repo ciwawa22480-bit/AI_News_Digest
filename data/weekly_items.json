@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-09T11:47:19.035671+00:00",
-  "week_range": "09.07-09.09",
-  "date_display": "09.07 - 09.09",
-  "editorial_summary": "本周共汇总 25 条 AI 商业要闻，其中高影响 5 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；Sephora入驻TikTok Shop，美妆电商迎来巨；字节跳动拟用世界模型重做PICO，押注下一代内容入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-10T06:38:52.985612+00:00",
+  "week_range": "09.07-09.10",
+  "date_display": "09.07 - 09.10",
+  "editorial_summary": "本周共汇总 35 条 AI 商业要闻，其中高影响 8 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；Sephora入驻TikTok Shop，美妆电商迎来巨；字节跳动拟用世界模型重做PICO，押注下一代内容入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "张一鸣亲自督战，字节实时空间视频模型最快下月发布",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（19 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（23 条），高影响条目占比约 23%，商业化叙事仍由头部驱动。",
     "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。",
+    "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
-    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。"
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系今日在智能投放、3D内容生成与车载AI底座上的改造，意味着外投的素材生产将更沉浸、投放将更自动化，成本结构有望优化。",
-  "total_items": 25,
-  "high_count": 5,
+  "total_items": 35,
+  "high_count": 8,
   "items": [
     {
       "title": "字节跳动扩张内蒙古数据中心，算力版图再扩大",
@@ -118,6 +118,48 @@
       "source": "Sohu",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQczBud0pCUHQ0OS1KelgwdzhUZThsSGVTalJtWXl1VFE4TUl2MWFaYTZtZW9hYmNwMUpfUzFmeVNwa1RGM3I4RTU4R2N5Q0VGYW5jVy1QZ1hUWHJSa3U4WFZ4cXdMUDZfc3BacjlfZ3NrWEpFUlB0N0pFdUM0QXA2ZkFiWHBTUUc4Q25BUw?oc=5",
       "local_life_hint": "世界模型驱动的PICO可创造虚拟本地生活体验，外投广告可探索沉浸式广告形式。"
+    },
+    {
+      "title": "抖音总使用时长首次超过微信，字节系份额达40.9%",
+      "explanation": "数据显示抖音总使用时长首次超过微信，字节系整体时长份额达40.9%。这意味着字节已掌握国内最大的注意力分发池，豆包、红果等AI产品可借此快速获得用户和商业化空间，对广告主而言字节系流量价值进一步凸显。",
+      "analysis_points": [
+        "用户时长格局从'微信领先'变为'抖音反超'，字节系40.9%的份额意味着广告库存和推荐触达能力进一步增强。",
+        "对广告主意味着字节系是当前最高效的注意力获取渠道，本地生活商家应加大在抖音的投放权重，抢占时长红利。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PMU9FSXUtdEhOblQwVEtzY3JJWkJwZWpNMThxMHFzZFZFSzQ4SFdpN1o2SUZqR1J0TFZZMTVoaXROX0FXbElvZGVnUXlBbEVLZV9Cag?oc=5",
+      "local_life_hint": "字节系时长份额提升意味着本地生活商家在抖音的曝光机会增加，应加大短视频和直播投放预算。"
+    },
+    {
+      "title": "飞书与豆包整合，CEO谢欣称竞争远未结束",
+      "explanation": "字节跳动推进飞书与豆包整合，飞书CEO谢欣表示'竞争远未结束'。这是字节重构ToB版图的关键一步，把豆包的AI能力注入飞书办公场景，面向企业客户提供AI办公Agent，与腾讯、阿里在企业级市场正面竞争。",
+      "analysis_points": [
+        "产品形态从'独立办公工具+独立AI助手'变为'AI原生办公平台'，豆包能力嵌入飞书文档、会议、审批等流程。",
+        "对企业客户意味着可在一个平台内完成AI辅助办公，降低采购多套工具的成本，字节ToB商业化路径更清晰。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "观察者",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Kek9jcS1KT2Vod0tVb19lRWpPUFRzOFpSMWFIejFLR1g3UVB0ZFpMd3dmRDZfbjNzenJsNUpZOWFTVGpWRWVfNUJFZG1IYTBsTWFQSTN4SVpneW9vSzNFQ0VzbmI?oc=5",
+      "local_life_hint": "本地生活商家若使用飞书管理团队，可期待豆包AI能力嵌入日常运营流程，提升营销素材制作和数据分析效率。"
+    },
+    {
+      "title": "字节跳动贷款2000亿，只干AI这一件大事",
+      "explanation": "字节跳动贷款约2000亿人民币，明确只用于AI相关投入。这笔资金将集中投向算力采购、数据中心建设和模型研发，是字节在AI竞赛中'All in'姿态的体现，也反映其对AI商业化回报的强烈信心。",
+      "analysis_points": [
+        "资金用途从'多元化投资'聚焦为'单一AI方向'，2000亿规模相当于字节把未来数年的战略重心全部押在AI上。",
+        "对广告主意味着字节AI产品迭代将加速，豆包、即梦、Seedance等工具的商用能力会更快成熟。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "yeeyi",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TcEVpcnJiME1seHNlNGNVVjJJYk5tdjJBeGw5LXdYLWpNR09VLUQ5QUJXUnlMai04YnJjS3l5YUtWYWk3bUFTeXZsWHBmTW9QWkRIMkRR?oc=5",
+      "local_life_hint": "字节AI投入加码，本地生活广告主可期待更多AI营销工具和更低的投放成本。"
     },
     {
       "title": "Seedance 2.5新玩法：一张图生成可交互3D世界",
@@ -398,6 +440,104 @@
       "source": "风闻",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Gc2JWWm9xdzllTjAycXRNZW9MbUFJeUowS3VGT3g5YlR4M2h1LXRmQ3BFcEhkeHlYRkRPSlZZUU9handwdXZHdjl2Rkt1MjhCTDJRbGZOR2xsaFk?oc=5",
       "local_life_hint": "AI视频生成工具可帮助本地生活商家快速生成营销视频，外投广告素材生产将更高效。"
+    },
+    {
+      "title": "豆包输入法Windows版上线，主打语音输入跨设备互传",
+      "explanation": "豆包输入法Windows版正式上线，主打语音输入并支持跨设备互传。这是豆包AI能力从手机端向PC办公场景的关键延伸，面向需要高效文字输入和多设备协同的办公人群，进一步完善豆包的多端入口布局。",
+      "analysis_points": [
+        "产品形态从'手机端AI助手'扩展为'PC端输入工具'，通过语音输入降低打字门槛，跨设备互传打通手机与电脑的数据流转。",
+        "对广告主意味着豆包在办公场景的触达频次提升，未来可探索基于输入场景的AI服务推荐和品牌曝光位。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KUEx3N284eFhNVFlFTF9jU20yTmhsNGx1YXlMNHlDQnlqNVNzaE9SSjMyS1FVWFpWb2hrZ2k0azJpNVNPVkJ3REZuaUIxYjkyYlhXeFVYQkM?oc=5",
+      "local_life_hint": "PC端输入场景可承载本地生活商家的优惠信息推荐，语音输入降低商家运营人员的操作门槛。"
+    },
+    {
+      "title": "字节跳动确认进军智能边缘计算，对标英伟达Jetson",
+      "explanation": "字节跳动确认进军智能边缘计算市场，计划2026年内推出对标英伟达Jetson的智能边缘计算产品。这是字节从云端AI向边缘端AI延伸的重要信号，意味着其AI能力将覆盖从数据中心到终端设备的全链路。",
+      "analysis_points": [
+        "产品线从'云端大模型'扩展到'边缘计算硬件'，对标英伟达Jetson意味着字节要在AI推理芯片和边缘设备市场分一杯羹。",
+        "对本地生活意味着未来门店端可能部署字节的边缘AI设备，实现本地化的智能识别、客流分析等能力。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "体坛",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0ybVp6cW1iOGJSRXZxVGtkUm9UN19GUURiR3pKd3V3cjl1R2txb1pkOXZmUzNpNkc5ZGo0a0RGRGFQZE95amJwQVpfbVVSdHhBRzFFQzh0NnROT1ZWWWxaRGNIZw?oc=5",
+      "local_life_hint": "边缘AI设备若落地，本地生活门店可实现本地化智能分析，商家可关注字节边缘计算产品的商用节奏。"
+    },
+    {
+      "title": "字节跳动同时修两条路通往AGI，模型与流量双轮驱动",
+      "explanation": "分析指出字节跳动通往AGI要同时修两条路：一条是模型能力（世界模型、Seedance、豆包大模型），一条是流量变现（抖音、红果、豆包App）。这种'模型+流量'双轮驱动模式是字节区别于纯AI公司的核心优势，也是其商业化闭环的基础。",
+      "analysis_points": [
+        "战略路径从'单点突破'变为'模型能力+流量分发'双线并行，字节用抖音的流量反哺AI产品冷启动。",
+        "对广告主意味着字节AI产品天生具备商业化场景，新AI功能可快速接入广告体系实现变现。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1tWkhzQldLeHEwWlQtaGtjSlZIZFA5MEFqZUUwWGNpckU1OFp5ZlZFNzA0V0o2NmY4Qjl6b1d6T1o3U0pib1BIRVNoQmFhQVNsZEZNWVBjclpqMmx5Unc?oc=5",
+      "local_life_hint": "字节'模型+流量'模式意味着AI营销工具会快速接入抖音广告体系，本地生活广告主可第一时间使用新AI投放能力。"
+    },
+    {
+      "title": "红果与豆包双引擎，字节正在统治用户时间",
+      "explanation": "分析指出红果短剧和豆包AI正在成为字节统治用户时间的新引擎，叠加抖音的时长优势，字节系产品矩阵覆盖了从短视频、短剧到AI助手的全场景。这种多产品协同的时长占领策略，为字节AI商业化提供了庞大的用户基础。",
+      "analysis_points": [
+        "产品矩阵从'抖音单核'扩展为'抖音+红果+豆包多核'，不同产品覆盖不同场景和用户时长。",
+        "对广告主意味着字节系可提供跨产品的组合投放方案，本地生活商家可触达更广泛的用户群体。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPblN1R0ZUS0M2c0tjM0RIS0FWZG1NZE54dTloRWp1Y3NDbDJzY0xwS0RsUFAxZUhhYTR4bWg2aHFMdml4MUhVVTZlb096Yk9mcGlyYi1EQ214enN3Mm5jLXk2MkZMeGxEa3owVGRFREt2V3lERmh1dW1QZmcxUk8tMnA3Mng5SzBM?oc=5",
+      "local_life_hint": "字节多产品矩阵为本地生活商家提供跨场景投放机会，可在短剧、AI助手中植入本地服务推荐。"
+    },
+    {
+      "title": "Seedance宇宙与它的裂痕，字节视频模型生态深度解析",
+      "explanation": "36氪深度分析Seedance视频模型生态，指出其在快速扩张的同时也面临'裂痕'——包括创作者适应成本、模型能力边界和商业化路径等问题。文章认为Seedance已形成从模型到工具到创作者的生态，但生态内部的协同和利益分配仍需磨合。",
+      "analysis_points": [
+        "生态从'单一模型'扩展为'模型+工具+创作者'的完整链条，Seedance成为字节视频AI的核心底座。",
+        "对广告主意味着Seedance生态的成熟度直接影响AI视频素材的质量和产能，需关注其工具链的完善进度。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Zby1JQ05McWdDUHlVZlpkM2lVcFRRdlBwZ2dvU182WjlJOEpoazV5djl3Vk1FV1IzTnZrWGl5NEliSFNZSkpPVUtMWmp3Zw?oc=5",
+      "local_life_hint": "Seedance生态成熟后，本地生活广告主可用更低成本生成高质量视频素材，提升外投素材的产能和多样性。"
+    },
+    {
+      "title": "离开剪映后创业，她想把设计团队装进AI工作台",
+      "explanation": "前剪映负责人张琪智创业项目OJO获近亿元天使轮融资，方向是把设计团队装进AI工作台。这是字节系人才外溢创业的又一案例，聚焦AI+设计协作工具赛道，试图用AI重构设计团队的工作流程。",
+      "analysis_points": [
+        "创业方向从'视频剪辑工具'转向'AI设计工作台'，用AI替代设计团队中的重复性工作，面向中小设计团队。",
+        "对广告主意味着未来可能出现更高效的AI设计协作工具，降低营销素材的设计成本。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "砍柴网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5EQzhjSnU0d0ZEdGpsQ0FxWmZZNVlINVpCQ1psLU1MQzBzcmJmckhHZWsxNHg5MzRhSW9pVk5vR2VsSWpJeFh1U2thMzJFUQ?oc=5",
+      "local_life_hint": "AI设计工具若成熟，本地生活商家可低成本制作营销素材，减少对外部设计团队的依赖。"
+    },
+    {
+      "title": "豆包手机从概念到量产，更换路线能否避免泯然众人",
+      "explanation": "分析指出豆包手机从概念机走向量产，但更换路线后能否避免'泯然众人'存疑。文章认为豆包手机的核心挑战在于AI助手能否形成差异化体验，以及硬件厂商与字节的合作模式能否持续。这反映了AI手机赛道的竞争激烈和商业化不确定性。",
+      "analysis_points": [
+        "产品阶段从'概念展示'进入'量产销售'，豆包手机需要证明AI助手能带来真实的购买理由。",
+        "对本地生活意味着AI手机若普及，手机助手可能成为本地服务的新入口，但需观察其实际用户接受度。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "CBNData",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94bnRUQ1RsVVFHQnJDbl9YY0hGbk9FV0pzNVJEaFVsTGJxYWJwbnhfTE1RaDltdDFfY3FrdF9VWkhDV1k3ZW9nM2k2TFZBQ1NHY1lGXw?oc=5",
+      "local_life_hint": "豆包手机若成为本地服务入口，商家可探索通过手机助手实现'一句话下单'的转化路径。"
     }
   ],
   "mode": "ai"
