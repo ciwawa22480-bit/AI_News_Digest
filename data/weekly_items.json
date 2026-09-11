@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T11:44:51.487457+00:00",
-  "week_range": "09.07-09.10",
-  "date_display": "09.07 - 09.10",
-  "editorial_summary": "本周共汇总 40 条 AI 商业要闻，其中高影响 8 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；Sephora入驻TikTok Shop，美妆电商迎来巨；字节跳动拟用世界模型重做PICO，押注下一代内容入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-11T06:39:07.225626+00:00",
+  "week_range": "09.07-09.11",
+  "date_display": "09.07 - 09.11",
+  "editorial_summary": "本周共汇总 46 条 AI 商业要闻，其中高影响 9 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；Sephora入驻TikTok Shop，美妆电商迎来巨；字节跳动拟用世界模型重做PICO，押注下一代内容入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "张一鸣亲自督战，字节实时空间视频模型最快下月发布",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（25 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（26 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
     "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。",
     "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。",
-    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
+    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
+    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系今日在智能投放、3D内容生成与车载AI底座上的改造，意味着外投的素材生产将更沉浸、投放将更自动化，成本结构有望优化。",
-  "total_items": 40,
-  "high_count": 8,
+  "total_items": 46,
+  "high_count": 9,
   "items": [
     {
       "title": "字节跳动扩张内蒙古数据中心，算力版图再扩大",
@@ -160,6 +160,20 @@
       "source": "Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbTNscGYxNUFIUms5a0tuUG5scnBtam96SUNVVk14OUtIZFNzOGxQZnNUTWw5SERDdjBweldhWXA3SWxZRUgwYW1aTXFjeWtPSERWTU85cGJSV3lJY1hJRU1WUVc2V01PUEU5V0NEb1AzNkFpek82dUVTM1hGaUlJWWhRX0cwZGtSck1mWVRZOTRmOFVDaUJNWEh2SXJ4b2VfNGYtVTJsWkFmWXNUdVFxRFVLamxkUQ?oc=5",
       "local_life_hint": "本地生活品牌可提前关注虚拟门店形态，为未来'可交互空间广告'储备创意。"
+    },
+    {
+      "title": "抖音总使用时长首超微信，字节系份额达40.9%",
+      "explanation": "抖音总使用时长首次超过微信，字节系整体时长份额达40.9%。这意味着字节的流量底盘继续扩张，为AI产品导流与商业化提供更厚的土壤，也强化了其在广告市场的议价能力。",
+      "analysis_points": [
+        "这是用户注意力从社交向短视频与AI应用迁移的标志，字节系时长份额达40.9%，说明其内容生态粘性持续增强。",
+        "对广告主而言，字节系流量份额提升意味着投放预算可进一步向抖音、豆包等入口倾斜，本地生活商家可加大短视频与直播投入。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PMU9FSXUtdEhOblQwVEtzY3JJWkJwZWpNMThxMHFzZFZFSzQ4SFdpN1o2SUZqR1J0TFZZMTVoaXROX0FXbElvZGVnUXlBbEVLZV9Cag?oc=5",
+      "local_life_hint": "字节系时长份额提升，本地生活商家应加大抖音短视频与直播投入，抢占用户注意力红利。"
     },
     {
       "title": "Seedance 2.5新玩法：一张图生成可交互3D世界",
@@ -608,6 +622,76 @@
       "source": "凤凰网",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YM0NLVjZOWWU1dEY0Y3NZblRrNVlLWkdVZ1VhSUZLczFNVlFTQnE1cmpoNGVBYXlSYThBdkRuVHNqbVRMdmJpOHEwWS1aZlU?oc=5",
       "local_life_hint": "本地生活服务商可借鉴垂直行业AI营销打法，为餐饮、美业等做行业专属AI工具。"
+    },
+    {
+      "title": "火山引擎与体育彩票合作，共推本地生活数字化",
+      "explanation": "火山引擎与体育彩票达成合作，共同推进本地生活数字化升级。这是火山引擎在本地生活场景的又一落地，把AI能力接入彩票销售与线下运营，拓展ToB生态边界。",
+      "analysis_points": [
+        "这是火山引擎从通用云服务向本地生活垂直场景的延伸，通过AI能力帮助彩票销售实现数字化运营。",
+        "对本地生活商家而言，此类合作验证了火山引擎在本地场景的落地能力，广告销售可借鉴其数字化方案向商家推介。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "体坛网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLU3BLTVpBV2kxdEFOWkhWWjVZZHhESnNxR2JCcWU2SktwX3E0LTBZT2pYbk8xVUZWMTVCV2luTFcyRV9jbDBtVkRlNHVQQkdEWC0yMU5weDZUN2NySS1fVQ?oc=5",
+      "local_life_hint": "火山引擎本地生活数字化方案可复用到餐饮、零售等商家，广告销售可打包AI工具与投放服务。"
+    },
+    {
+      "title": "豆包手机会泯然众人吗，市场观点分化",
+      "explanation": "围绕豆包手机即将登场，市场出现分化观点：一方认为AI手机是下一代入口必争之地，另一方质疑其是否会泯然众人。关键看豆包能否跑出差异化场景与生态联动。",
+      "analysis_points": [
+        "这是对豆包手机前景的讨论，核心争议在于AI手机能否形成差异化体验，而非沦为普通硬件。",
+        "对本地生活商家而言，若豆包手机跑通，可能成为新的本地服务入口，广告销售可关注其预装与推荐合作。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zc3NPWEt2WXE5aHVDcHQ5OWVZN1NFdFJOVHpyUHU2UlUwYVd1bXFQV1JoazVqc2c1Qmc5dFBvd0JMVEgwTVpEbG8wekt1ZDdBMEpwR3VacUZLRGc1bEY4d1ZYVEQ3TnJZMml0M2xHaHMyWWMxbE93eTlPN3B0aU0?oc=5",
+      "local_life_hint": "豆包手机若成入口，本地商家可争取预装推荐位，广告销售应提前布局硬件端投放。"
+    },
+    {
+      "title": "TikTok Shop物流服务商PGS360助力品牌应对复杂履约",
+      "explanation": "PGS360帮助品牌应对TikTok Shop发货与假日包装等复杂物流。这反映TikTok Shop生态正从流量向履约与供应链纵深发展，配套服务商迎来机会。",
+      "analysis_points": [
+        "这是TikTok Shop生态的配套服务升级，物流服务商帮助品牌解决发货与包装难题，提升履约效率。",
+        "对商家而言，履约能力成为社交电商竞争关键，广告销售可推荐物流与投放一体化方案。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Beauty Independent",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVmJWbE9fVE9UbGF6SGp1amt3ZS0zUEE4QnhFSzdCYmdEbkhaanhMeVZiN2lIbnhVbGFZWkRYY3RKenNVcUI0SVk2Zk9TUktQNHR3bG5XRzBMeDdpdjRwLTY4cWxSb0laYm16VVVFdGhFZVZVUmltdWw1VEtfM0FzaTlET3JMUHoyeXpxTkJNUHZzeWVMLWVuQ0hONG5GZi1RNWF4UEhTZGc0bTNOMWZyRzZpdWhyLThaazhjNzc5X0hhckNTZFBJOEhZZzBaUjFxdm5zTTlqRkNtNkJfdnpKZkJJQQ?oc=5",
+      "local_life_hint": "本地商家做社交电商需重视履约，广告销售可推荐物流+投放打包服务。"
+    },
+    {
+      "title": "Mall of America借TikTok网红品牌吸引Z世代",
+      "explanation": "美国购物中心Mall of America引入TikTok网红品牌吸引Z世代客流。这显示TikTok的线上影响力正反向赋能线下商业，网红品牌成为线下引流新抓手。",
+      "analysis_points": [
+        "这是TikTok网红品牌从线上走向线下的案例，购物中心借其流量吸引年轻客群，形成线上线下联动。",
+        "对本地生活商家而言，可借鉴网红品牌线下开店引流模式，广告销售可推动本地商家与抖音网红合作。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb0U4d252NDJXa3pjRTl2RzEySmhNakpTUjljRjl6bkVWZmVxUHBnM1p1RmhGOFRMd2I3NWRoYTA4YU1IQTN3NjdQc2JTUHEwZ2ZqSWd4RE1oNmpNcGlZbFVVNl9LLUdhcmpIbXMycy03U19oTExMRnhSeEwyQ3ZfNUVyd3kzRk9jUzRVN0EtZnc2MlppWmhGQWs1Q1g5YU5vU0xzWUlFcWJzUTk3?oc=5",
+      "local_life_hint": "本地商家可与抖音网红合作引流到店，广告销售可设计网红探店+团购套餐组合。"
+    },
+    {
+      "title": "Happy Panda登陆TikTok Shop，开设印第安纳履约中心",
+      "explanation": "Happy Panda品牌登陆TikTok Shop，并开设印第安纳履约中心。这是品牌借TikTok Shop扩张并自建履约能力的案例，显示社交电商正走向重资产运营。",
+      "analysis_points": [
+        "这是品牌在TikTok Shop上的渠道扩张，同时自建履约中心提升发货效率，面向美国消费者。",
+        "对商家而言，社交电商需配套履约能力，广告销售可推荐投放+仓储一体化服务。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdjVlOU1VNnZZQ0ozcHhoMzZvajZZNFZHODl2RW5seGdqNTh1VHlUUzNheUhOV1Vqb0Z4ekU2eExkb3dtc0NwV1BjOFg4RFVHWHJMTVJwZXdEaklRaGhOc0pIYndkN2U4Q1c3VmNWdHhoczg2a0loVzdlamdTaVBKdk5LbDdPUGF3Q21NRFVDSGp6R2Z5WnRhREFFeERsaFp4aFpSaFNCeGp6N3psaXRnemd1b3FhN2cxdXV1Ylh3UnVOS1U?oc=5",
+      "local_life_hint": "本地商家做社交电商需重视履约，广告销售可推荐投放+仓储打包方案。"
     }
   ],
   "mode": "ai"
