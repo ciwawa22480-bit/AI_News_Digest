@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 商业日报 · 2026年09月10日</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { font-family: "Noto Sans SC", -apple-system, sans-serif; background: #f7f9fc; color: #1a1a1a; line-height: 1.7; font-size: 14px; position: relative; overflow-x: hidden; }
+/* 浅色专业风底：柔和径向光晕做底，粒子由 #particle-bg canvas 叠加，无廉价网格 */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-color: #f7f9fc;
+  background-image:
+    radial-gradient(1200px 700px at 12% -5%, rgba(99,102,241,0.10) 0%, transparent 55%),
+    radial-gradient(1000px 620px at 100% 8%, rgba(56,189,248,0.08) 0%, transparent 55%),
+    radial-gradient(900px 560px at 88% 100%, rgba(255,195,0,0.07) 0%, transparent 55%);
+}
+/* 粒子背景 canvas：铺满视口、固定、置于内容下方 */
+#particle-bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  display: block;
+}
+.header { padding: 32px 40px 20px; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); backdrop-filter: blur(4px); position: relative; }
+.header h1 { font-size: 22px; font-weight: 700; color: #111; margin-bottom: 4px; }
+.header .subtitle { font-size: 13px; color: #4f46e5; font-weight: 500; margin-bottom: 6px; }
+.header .date-line { font-size: 14px; color: #666; }
+.header .mode-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: #f0f9ff; color: #0369a1; margin-left: 8px; }
+.header .back-link { display: inline-block; margin-top: 10px; font-size: 13px; color: #4f46e5; text-decoration: none; }
+.header .back-link:hover { text-decoration: underline; }
+/* 美团黄袋鼠吉祥物：header 右上角点缀，缓慢上下浮动 */
+.roo-mascot { position: absolute; top: 22px; right: 28px; width: 52px; height: 52px; animation: roo-hop 3.6s ease-in-out infinite; pointer-events: none; filter: drop-shadow(0 2px 4px rgba(255,195,0,0.28)); }
+@keyframes roo-hop {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+.toggle-bar { padding: 12px 40px 0; display: flex; gap: 0; border-bottom: 1px solid #e5e7eb; background: rgba(255,255,255,0.72); }
+.tab { padding: 8px 24px; border: none; background: none; font-size: 14px; color: #666; cursor: pointer; border-bottom: 2px solid transparent; font-weight: 500; }
+.tab.active { color: #4f46e5; border-bottom-color: #4f46e5; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 40px; background: transparent; }
+.editorial { padding: 16px 20px; background: #f8fafc; border-left: 4px solid #4f46e5; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 15px; color: #1e293b; line-height: 1.85; }
+.editorial-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+.editorial-body { }
+.editorial-label { display: inline-block; font-weight: 700; color: #4f46e5; margin-right: 8px; }
+/* Overview 三维结论 */
+.overview-section { margin-bottom: 24px; padding: 20px 22px; background: linear-gradient(135deg,#eef2ff 0%,#f5f3ff 100%); border: 1px solid #e0e7ff; border-radius: 12px; }
+.overview-title { font-size: 16px; font-weight: 700; color: #3730a3; margin-bottom: 14px; display: flex; align-items: center; }
+.overview-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #6366f1; border-radius: 3px; margin-right: 10px; }
+.ov-block { margin-bottom: 14px; }
+.ov-block:last-child { margin-bottom: 0; }
+.ov-head { font-size: 14px; font-weight: 600; color: #4338ca; margin-bottom: 6px; }
+.ov-hint { font-size: 11px; font-weight: 400; color: #818cf8; margin-left: 8px; }
+.ov-list { margin: 0 0 0 20px; padding: 0; list-style: disc; }
+.ov-list li { font-size: 13.5px; color: #334155; line-height: 1.7; margin-bottom: 4px; }
+/* 共性提炼板块（周报）：低调的浅青底 */
+.commonality-section { margin-bottom: 24px; padding: 18px 22px; background: linear-gradient(135deg,#ecfeff 0%,#f0f9ff 100%); border: 1px solid #bae6fd; border-radius: 12px; }
+.commonality-title { font-size: 16px; font-weight: 700; color: #075985; margin-bottom: 4px; display: flex; align-items: center; }
+.commonality-title::before { content: ""; display: inline-block; width: 5px; height: 17px; background: #0ea5e9; border-radius: 3px; margin-right: 10px; }
+.commonality-tip { font-size: 12px; color: #0369a1; margin-bottom: 10px; }
+.commonality-list { margin: 0 0 0 22px; padding: 0; list-style: disc; }
+.commonality-list li { font-size: 13.5px; color: #0c4a6e; line-height: 1.7; margin-bottom: 4px; }
+.signal-legend { font-size: 12px; color: #64748b; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
+.stats { font-size: 12px; color: #94a3b8; margin-bottom: 16px; }
+.new-badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; cursor: help; }
+.cat-summary { font-size: 13px; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 8px 12px; border-radius: 0 6px 6px 0; margin-bottom: 14px; line-height: 1.7; }
+.insights-section { margin-top: 32px; padding: 24px 28px; background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; }
+.insights-title { font-size: 17px; font-weight: 700; color: #b45309; margin-bottom: 16px; display: flex; align-items: center; }
+.insights-title::before { content: ""; display: inline-block; width: 5px; height: 18px; background: #f59e0b; border-radius: 3px; margin-right: 10px; }
+.insights-intro { font-size: 13.5px; color: #92400e; line-height: 1.8; margin-bottom: 16px; }
+.takeaway-list { display: flex; flex-direction: column; gap: 12px; }
+.takeaway { background: #fffdf7; border: 1px solid #fde68a; border-radius: 8px; padding: 12px 14px; }
+.tw-base { font-size: 13px; color: #7c2d12; line-height: 1.7; margin-bottom: 6px; }
+.tw-borrow { font-size: 13.5px; color: #78350f; font-weight: 500; line-height: 1.75; }
+.tw-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 4px; margin-right: 8px; vertical-align: middle; }
+.tw-tag-base { background: #fef3c7; color: #b45309; }
+.tw-tag-borrow { background: #f59e0b; color: #fff; }
+.insights-list { list-style: none; padding: 0; margin: 0; }
+.insight-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #78350f; line-height: 1.7; }
+.insight-item:last-child { margin-bottom: 0; }
+.insight-num { flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #f59e0b; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.insight-text { flex: 1; font-weight: 500; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; flex-shrink: 0; }
+.dot-high { background: #ef4444; }
+.dot-medium { background: #f59e0b; }
+.dot-low { background: #cbd5e1; }
+.digest-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; }
+.category-row td { padding: 16px 12px; vertical-align: top; border-top: 1px solid #e5e7eb; }
+.col-type { width: 70px; text-align: center; }
+.col-category { width: 90px; text-align: center; }
+.col-content { padding-left: 20px !important; }
+.type-label { font-size: 12px; color: #64748b; font-weight: 500; white-space: nowrap; }
+.cat-label { font-size: 13px; font-weight: 600; color: #1e293b; white-space: nowrap; }
+.news-item { margin-bottom: 18px; }
+.news-item:last-child { margin-bottom: 0; }
+.item-main { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 4px; }
+.item-main .dot { margin-top: 6px; }
+.item-link { color: #1e40af; text-decoration: none; font-weight: 600; font-size: 14px; }
+.item-link:hover { text-decoration: underline; }
+.item-title-text { font-weight: 600; font-size: 14px; color: #1e293b; }
+.item-explanation { color: #374151; font-size: 13.5px; margin: 4px 0 0 14px; }
+.item-source { color: #94a3b8; font-size: 11px; }
+.analysis-points { margin: 6px 0 0 34px; padding: 0; list-style: disc; }
+.analysis-points li { font-size: 13px; color: #4b5563; line-height: 1.6; margin-bottom: 3px; }
+.local-hint { margin: 6px 0 0 34px; padding: 4px 10px; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 4px; font-size: 12px; color: #0f766e; }
+.local-tag { font-weight: 600; margin-right: 6px; color: #14b8a6; }
+.archive-section { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e5e7eb; }
+.archive-title { font-size: 15px; font-weight: 600; color: #374151; margin-bottom: 4px; }
+.archive-tip { font-size: 12px; color: #94a3b8; margin-bottom: 12px; }
+.archive-month { margin-bottom: 12px; }
+.archive-month h4 { font-size: 13px; color: #64748b; margin-bottom: 6px; }
+.archive-week { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+.week-label { font-size: 12px; color: #94a3b8; min-width: 80px; }
+.date-link { font-size: 12px; color: #6366f1; text-decoration: none; padding: 2px 8px; border-radius: 4px; background: #f5f3ff; }
+.date-link:hover { background: #ede9fe; }
+.date-link-active { background: #6366f1; color: #fff; }
+.footer { padding: 24px 40px; text-align: center; color: #94a3b8; font-size: 11px; border-top: 1px solid #f1f5f9; margin-top: 32px; background: rgba(255,255,255,0.6); }
+.empty { text-align: center; padding: 60px; color: #94a3b8; }
+@media (max-width: 768px) {
+  .header, .container, .footer { padding-left: 16px; padding-right: 16px; }
+  .toggle-bar { padding-left: 16px; }
+  .col-type, .col-category { display: none; }
+  .col-content { padding-left: 0 !important; }
+  .category-row td { padding: 12px 0; }
+  .roo-mascot { width: 40px; height: 40px; top: 16px; right: 12px; }
+  .editorial-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+</style>
+</head>
+<body>
+<canvas id="particle-bg" aria-hidden="true"></canvas>
+<div class="header">
+<svg class="roo-mascot" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="美团黄袋鼠">
+<defs>
+<linearGradient id="rooGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0" stop-color="#FFD100"/>
+<stop offset="1" stop-color="#FFC300"/>
+</linearGradient>
+</defs>
+<!-- 耳朵 -->
+<path fill="#FFC300" d="M35 7c1-1 3-1 3 1 0 3-1 6-3 8-2 1-3 0-3-2 0-2 1-5 3-7z"/>
+<path fill="#FFC300" d="M41 9c1-1 3 0 3 2 0 3-1 5-3 7-1 1-3 1-3-1 0-3 1-6 3-8z"/>
+<!-- 头 -->
+<circle cx="41" cy="20" r="7" fill="url(#rooGrad)"/>
+<!-- 眼睛 -->
+<circle cx="43" cy="19" r="1.4" fill="#222"/>
+<!-- 身体+尾巴（一笔剪影） -->
+<path fill="url(#rooGrad)" d="M36 26c-6 0-11 4-13 10-1 3-3 6-6 8-2 2-4 3-5 5-1 1 0 3 2 3h13c2 0 3-1 3-3 0-2 1-4 3-5 3-2 6-2 9-2 3 0 5-2 5-5 0-2-1-4-3-5l-3-1c-2-1-3-3-5-5z"/>
+<!-- 前爪 -->
+<path fill="#E6A800" d="M31 33c1-1 3-1 4 0 1 1 1 3 0 3l-4 1c-1 0-1-3 0-4z"/>
+</svg>
+<h1>AI 商业日报</h1>
+<div class="subtitle">字节系 AI 商业化动态 · DeepSeek 精选</div>
+<div class="date-line">2026年09月10日 周四 <span class="mode-badge">DeepSeek AI 精选</span></div>
+<a href="../index.html" class="back-link">← 返回今日日报</a>
+</div>
+
+<div class="container">
+<div class="editorial"><div class="editorial-head"><span class="editorial-label">编辑导读</span></div><div class="editorial-body">今天字节系最值得广告销售关注的三条主线：一是资本与算力底座，字节拿下约296亿美元银团贷款、并传出与三星洽谈自研AI芯片，同时火山引擎将推出基于Arm AGI CPU的智能体沙盒，说明字节正把&#x27;算力—芯片—智能体运行环境&#x27;这条底座链条自己攥在手里，未来AI能力的单位成本有望继续下探。二是流量与时长，抖音总使用时长首次超过微信、字节系时长份额达40.9%，叠加TikTok评论互动升级与返校季品牌投放上涨，字节系&#x27;注意力+互动&#x27;的广告库存仍在扩容。三是内容生产工具化，即梦AI以独家AI工具身份参与《末日盛夏》预告片并公开完整workflow，Seedance生态开始出现&#x27;裂痕&#x27;式讨论，说明AI视频正从炫技走向可复用的商业生产流程。</div></div><section class="overview-section"><h3 class="overview-title">本期要点概述</h3><div class="ov-block"><div class="ov-head">🚀 新产品功能<span class="ov-hint">哪个公司有什么新功能、具体怎么实现</span></div><ul class="ov-list"><li>字节跳动被曝正开发实时空间视频生成模型，基于Seedance构建、由张一鸣亲自负责，最快下月发布，目标是生成可交互的实时虚拟世界，对标Google Genie类世界模型。</li><li>火山引擎将推出基于Arm自研AGI CPU的智能体沙盒，为AI Agent提供隔离、可调度的运行环境，把&#x27;智能体跑在哪&#x27;从通用云主机变成专用底座。</li><li>TikTok评论功能升级，新增语音评论、投票等互动形式，把评论区从文字单向反馈变成可参与、可投票的互动场，为品牌做话题运营提供新入口。</li></ul></div><div class="ov-block"><div class="ov-head">💬 网上观点<span class="ov-hint">报道/分析师的新观点与论据</span></div><ul class="ov-list"><li>有分析指出字节正在&#x27;同时修两条通往AGI的路&#x27;：一条是Seedance/世界模型的多模态生成，一条是豆包/豆包工作的Agent化落地，两条线共用算力与数据底座，形成互相喂养的闭环。</li><li>36氪&#x27;Seedance宇宙，和它的裂痕&#x27;提出，Seedance生态在快速扩张的同时已出现工具链割裂、创作者迁移成本等隐忧，提示模型领先不等于生态稳固。</li><li>有观点认为抖音总使用时长首次超过微信、字节系时长份额达40.9%，意味着字节已从&#x27;内容平台&#x27;变成&#x27;时间基础设施&#x27;，广告主预算分配逻辑需要重新校准。</li></ul></div><div class="ov-block"><div class="ov-head">🌐 行业生态<span class="ov-hint">基于这些文章看到的行业态势</span></div><ul class="ov-list"><li>字节以约296亿美元银团贷款加码AI，并传出与三星洽谈自研AI芯片，显示头部平台正从&#x27;买算力&#x27;转向&#x27;控算力&#x27;，AI基础设施的资本门槛被进一步抬高。</li><li>火山引擎一边接入Arm AGI CPU做智能体沙盒，一边与慧聪买化塑等垂直行业共建AI营销生态，说明云厂商的竞争正从模型参数转向&#x27;行业场景+运行底座&#x27;的组合拳。</li><li>TikTok Shop持续吸引Sephora、Rugs USA等品牌做独家活动，返校季品牌投放上涨，社交电商与内容广告的预算正在同一池子里重新分配。</li></ul></div></section><div class="signal-legend">信号等级：<span class="dot dot-high"></span>高影响 / <span class="dot dot-medium"></span>中影响 / <span class="dot dot-low"></span>信息流</div><div class="stats">共 15 条精选 · 3 条高影响 · <span class="new-badge" title="对比 2026-09-09 日报去重后统计">▲ 较昨日新增 15 条</span></div><table class="digest-table"><tbody><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">大厂动向</span></td><td class="col-content"><div class="cat-summary">字节今天在资本、芯片、模型三条线同时出手：约296亿美元银团贷款为AI投入备足弹药，与三星洽谈自研AI芯片补齐硬件短板，实时空间视频模型由张一鸣亲自督战。同时抖音时长份额创新高、TikTok评论互动升级，说明&#x27;算力底座+注意力入口&#x27;的双轮仍在加速。</div><div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2N0QUdBQ0tEUF9iNnRSLVRlNnZ5MmFOUXhNeG5taU5mVDhFa3lVU3NMTlFiT0lDcXpkaTF0NVplVEZld2RtUjAwV282aWYta3Y2blNQMm04WTlEdkpNMmdLeTNHMmoyMm84RjZXWVZpNDNWTExaUUpmZXlOTllpMU9TdmQ2V3BPOW1lTlpUbXRObkFaNzhsUy1RWjBOVUVvOEM1TjlNdVdKQ2ppYXBj?oc=5" target="_blank" class="item-link">字节拿下296亿美元银团贷款，全力押注AI</a><span class="item-source">(Reuters / The Information / PYMNTS)</span></div><div class="item-explanation">多家外媒报道字节跳动获得约296亿美元银团贷款，用于支撑AI相关投入，银行踊跃参与。这是近年科技公司规模最大的融资之一，说明资本市场对字节AI叙事的信心，也意味着字节在算力、模型、芯片上的投入将进入更激进的阶段。</div><ul class="analysis-points"><li>能力变化：字节的AI资金池从&#x27;自有现金流滚动投入&#x27;变成&#x27;近300亿美元级银团杠杆&#x27;，可支撑更大规模的算力采购、芯片自研与模型训练。</li><li>对广告主价值：字节AI能力迭代速度有望加快，豆包、即梦、Seedance等工具的更新频率和效果上限提升，广告主可更早锁定新工具红利。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>字节资金充裕意味着其AI广告工具迭代更快，本地生活商家可关注豆包/即梦在素材生成上的新能力，提前测试降本。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxQVFFRNWR0a2ZfekxMOEJOdk5RSEN5YmlPTjdBN2UwdzcyaDFrMEdGclEzNElfMkYxMlhjTDFhZXJlTFBVS2U4Zy1CcHhYOGNrVVd0Q1NFeGRYOF9nTVlCWkRXakY0SUNGTnI1ZzFpZkl1V3U3NEpjZzd6SFBnYlNpWEcxV0VNWm1kUFRzM1JNOG1BbjVLMG5PRTNROURvamcwbENMSlBFM2o4OHdJZ2haT2V3c1QzQ05jaEUxbWEtODAtVXM1MjNUQjhoMzBUUQ?oc=5" target="_blank" class="item-link">字节传与三星洽谈自研AI芯片，补齐硬件底座</a><span class="item-source">(thestandard.com.hk)</span></div><div class="item-explanation">有消息称字节跳动正在开发自研AI芯片，并与三星就制造进行洽谈。继Arm自研CPU落地火山引擎后，字节进一步向芯片层延伸，目标是降低对英伟达等外部供应的依赖、控制推理成本。</div><ul class="analysis-points"><li>能力变化：字节从&#x27;采购GPU+租用云算力&#x27;向&#x27;自研AI芯片+代工&#x27;延伸，推理侧成本结构有望被重构。</li><li>对广告主价值：若自研芯片降低单位推理成本，豆包、即梦等AI功能的调用价格和响应速度都可能改善，广告主可期待更便宜的AI素材生成。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>推理成本下降会直接压低AI素材生成单价，本地生活商家可把&#x27;AI批量出图/出视频&#x27;纳入常规投放预算。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE94bDZ4LTNVaGkwZlpOdlhZbEEwcGVjOHYzZ1ViUE54alpXNmxjTHZBdnZOSm5wSjZHUHRQWHFBcmpkYVFpZ3AxVVN2VXFNbWVpdlJVeU5MZXZ4bXQ0MFVFQm5mRVNQSnNhQ3hHWFFMaFU?oc=5" target="_blank" class="item-link">即梦AI独家操刀《末日盛夏》预告片并公开workflow</a><span class="item-source">(新浪网)</span></div><div class="item-explanation">戚薇主演的《末日盛夏》预告片由即梦AI作为独家AI工具制作，全程影院级质感，且完整workflow已在站内上线。这标志着即梦从&#x27;单点生成工具&#x27;走向&#x27;可复用的影视级生产流程&#x27;。</div><ul class="analysis-points"><li>能力变化：即梦从生成单条视频，升级为可公开复用的完整影视制作workflow，创作者可照搬流程产出大片质感内容。</li><li>对广告主价值：品牌可借鉴该workflow制作高质感TVC或短剧式广告，降低实拍成本，提升素材的&#x27;电影感&#x27;。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活品牌可用即梦workflow批量产出高质感门店宣传片，替代部分实拍预算。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Kek9jcS1KT2Vod0tVb19lRWpPUFRzOFpSMWFIejFLR1g3UVB0ZFpMd3dmRDZfbjNzenJsNUpZOWFTVGpWRWVfNUJFZG1IYTBsTWFQSTN4SVpneW9vSzNFQ0VzbmI?oc=5" target="_blank" class="item-link">飞书与豆包整合，谢欣称竞争远未结束</a><span class="item-source">(观察者)</span></div><div class="item-explanation">观察者报道飞书与豆包整合，飞书CEO谢欣表示&#x27;竞争远未结束&#x27;。字节把ToB办公入口与豆包大模型能力打通，意在用AI Agent重构企业协作与工作流。</div><ul class="analysis-points"><li>能力变化：飞书从协作工具升级为&#x27;豆包大模型驱动的AI工作台&#x27;，文档、会议、流程可被Agent接管。</li><li>对广告主价值：企业客户可在飞书内直接调用豆包做营销文案、数据分析，降低AI落地门槛。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活团队可用飞书+豆包做投放日报、素材文案的自动化生成。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1WX25aUGIwYVpkMFd0T2xrRFNlaUdpbEZTTkVsa0s3c3RqWXAzVEdNa1AzVWVKRE1GXy1DZTNiOENlNWR1WjNsNThPWkJncFQzVGNOaE1WTnh2dW43TVFWNDJpZEc3MnpodjRvUXRqODgtVkpYMXpneg?oc=5" target="_blank" class="item-link">豆包工作连番升级，AI生产力进入分工时代</a><span class="item-source">(新浪网)</span></div><div class="item-explanation">新浪网报道豆包工作连番升级，AI生产力进入&#x27;分工&#x27;时代。豆包工作从单点助手向多Agent分工协作演进，企业可把不同任务分配给不同Agent执行。</div><ul class="analysis-points"><li>能力变化：豆包工作从&#x27;一个助手干所有事&#x27;变成&#x27;多Agent分工协作&#x27;，任务可拆解、可并行。</li><li>对广告主价值：营销团队可把素材生成、数据复盘、竞品监测分给不同Agent，提升日常运营效率。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活投放团队可用豆包工作拆分素材、投放、复盘任务，减少人工重复劳动。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-high" title="高影响"></span><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPbTNscGYxNUFIUms5a0tuUG5scnBtam96SUNVVk14OUtIZFNzOGxQZnNUTWw5SERDdjBweldhWXA3SWxZRUgwYW1aTXFjeWtPSERWTU85cGJSV3lJY1hJRU1WUVc2V01PUEU5V0NEb1AzNkFpek82dUVTM1hGaUlJWWhRX0cwZGtSck1mWVRZOTRmOFVDaUJNWEh2SXJ4b2VfNGYtVTJsWkFmWXNUdVFxRFVLamxkUQ?oc=5" target="_blank" class="item-link">字节跳动加入世界模型竞赛，对标Google Genie</a><span class="item-source">(Bloomberg)</span></div><div class="item-explanation">彭博社报道字节跳动加入世界模型竞赛，正在开发可生成实时虚拟世界的AI。结合张一鸣亲自督战的实时空间视频模型，字节把世界模型视为下一代内容与交互入口。</div><ul class="analysis-points"><li>能力变化：字节从&#x27;视频生成&#x27;向&#x27;可交互世界生成&#x27;升级，模型输出从被动观看变成可探索空间。</li><li>对广告主价值：未来品牌可做可交互的虚拟门店/虚拟展厅，用户能在AI生成空间里&#x27;逛&#x27;和&#x27;试&#x27;。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活品牌可提前关注虚拟门店形态，为未来&#x27;可交互空间广告&#x27;储备创意。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏fact类</span></td><td class="col-category"><span class="cat-label">生态动向</span></td><td class="col-content"><div class="cat-summary">火山引擎将推出基于Arm AGI CPU的智能体沙盒，并与慧聪买化塑等垂直行业共建AI营销生态，显示字节云正把&#x27;智能体运行环境+行业场景&#x27;打包输出。TikTok Shop侧Sephora、Rugs USA等品牌独家活动与返校季投放上涨，社交电商生态继续扩容。</div><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcU81OFc3U1hRZkdvUlZuMXhlbzkyb1Rvel9XenExVkdCSGJvd21EdlB1VUZrMFJPbzFkdW5UNGFRYTRqY3I3a2FfMDR6LW4ycnk0ZGd4Rm9XdnJCM0RkM3BNR3VHOTJyWElQX2lFb1BITXpVQ21Ma2tlYmVhYU1kUE82WnRRNEdY?oc=5" target="_blank" class="item-link">火山引擎将推基于Arm AGI CPU的智能体沙盒</a><span class="item-source">(动点科技 / 智源社区)</span></div><div class="item-explanation">火山引擎宣布将推出基于Arm自研AGI CPU的智能体沙盒，为AI Agent提供隔离、可调度的运行环境。这是继Arm自研CPU落地火山引擎后的进一步动作，把&#x27;智能体跑在哪&#x27;变成专用底座能力。</div><ul class="analysis-points"><li>能力变化：Agent运行环境从通用云主机变成基于Arm AGI CPU的专用沙盒，隔离性与调度效率提升。</li><li>对广告主价值：企业可在沙盒中安全测试营销Agent、客服Agent，降低把AI接入业务系统的门槛。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活服务商可关注沙盒能力，用于安全测试门店客服、预约类Agent。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQM2tNNWF2T0pBdjUxRXB2YzhyeE5VTENiLV82Um1IQUhOZFZPSHVjY3Z5NXdHVUlNOG84M3FtLUs1djllVEUtYlkxZUpXczA3VWNXSXpSaUVlVzFwdkpheElSLWtwWGFndWwxWXlyWWtsTnNlWFNIS0JUbkZJWTlUcVdlX3FZUFhQMXRnREpzR1A1MjRhZlduV09DMVltYWFOaVVPbm42MTZIZ182TUU2NnpZY0g?oc=5" target="_blank" class="item-link">TikTok评论升级语音与投票，互动广告位扩容</a><span class="item-source">(TechCrunch)</span></div><div class="item-explanation">TechCrunch报道TikTok评论功能升级，新增语音评论、投票等互动形式。评论区从文字单向反馈变成可参与、可投票的互动场，为品牌做话题运营和用户共创提供新入口。</div><ul class="analysis-points"><li>能力变化：TikTok评论从纯文字升级为语音+投票的多元互动，用户参与门槛降低、互动深度提升。</li><li>对广告主价值：品牌可在评论区发起投票做产品偏好调研，或用语音评论做UGC征集，提升互动率与话题热度。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可在TikTok评论区用投票做口味/服务偏好调研，低成本获取用户洞察。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxOWkljalRpVzctNy0zS29lUElONWd2LUpTQ2I0Ul9qSGxnT1RTMjJTWmZHaVl6UEtfZjNxcGk3NS1LWHpobkU2c0Jyc1lJYmhUbmI5NkFPNXk4VUFSRHJsbnIzb3pEUVpEWi1DRkZhcmVjaUo3dzR3bFBYWnNmSGVFZ09ucGEzeDFJVy1mUWNqS19xbXpJdTA1Ym5zbTJIcWJEbGx3?oc=5" target="_blank" class="item-link">返校季品牌TikTok投放上涨，社交电商预算扩容</a><span class="item-source">(Digiday)</span></div><div class="item-explanation">Digiday报道返校季品牌在TikTok上的投放支出上涨，社交电商成为品牌预算的重要去向。结合TikTok Shop持续吸引品牌做独家活动，TikTok正从&#x27;内容平台&#x27;变成&#x27;内容+交易&#x27;一体的投放场。</div><ul class="analysis-points"><li>能力变化：TikTok的广告价值从曝光向&#x27;曝光+直接成交&#x27;延伸，品牌投放可闭环到TikTok Shop。</li><li>对广告主价值：广告主可把返校季等节点预算更多倾斜到TikTok，用短视频+直播+店铺组合做品效合一。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可借节点做TikTok短视频+店铺联动，把内容流量直接转成到店或外卖订单。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNc04xZUNUeFc0V0tSc2k2M1Ywa0YxUFdvVGtraUZsSFJTUXBjMmZIU2VhcUZmQ3lDaE00SkJzLUl0Nnk3VHBTMTB1aW42QjdJczdrWjd2cUtqeHBqNWtTNUhxOUN6ZVJMRHZkWVpnVlBxTDRjTEFNdU9uZmVwNGQ1S2pfaTBSSjF3SWxBQ1RPcVpsbjdqbTVMSjY1ZE9YOU81ZEJ5OA?oc=5" target="_blank" class="item-link">Rugs USA在TikTok Shop办独家活动，品牌自造节点</a><span class="item-source">(Yahoo Finance)</span></div><div class="item-explanation">Rugs USA在TikTok Shop推出独家活动，通过平台专属促销拉动销售。品牌开始把TikTok Shop当作独立于官网的&#x27;独家发售渠道&#x27;，用稀缺性撬动平台流量。</div><ul class="analysis-points"><li>能力变化：TikTok Shop从&#x27;分销渠道之一&#x27;升级为品牌愿意做独家活动的首发阵地。</li><li>对广告主价值：广告主可设计平台独家款/独家折扣，配合达人短视频做集中爆发，提升单场活动ROI。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可设计&#x27;抖音/TikTok独家套餐&#x27;，用平台专属权益换取流量扶持。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-low" title="信息流"></span><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YM0NLVjZOWWU1dEY0Y3NZblRrNVlLWkdVZ1VhSUZLczFNVlFTQnE1cmpoNGVBYXlSYThBdkRuVHNqbVRMdmJpOHEwWS1aZlU?oc=5" target="_blank" class="item-link">慧聪买化塑携手火山引擎，共建制造业AI营销生态</a><span class="item-source">(凤凰网)</span></div><div class="item-explanation">凤凰网报道慧聪买化塑与火山引擎合作，共建制造业AI营销新生态。火山引擎把大模型能力输出到垂直B2B行业，帮助传统制造业做AI营销升级。</div><ul class="analysis-points"><li>能力变化：火山引擎从&#x27;通用云+模型&#x27;向&#x27;垂直行业AI营销解决方案&#x27;延伸，行业Know-how被封装进产品。</li><li>对广告主价值：垂直行业广告主可参考该模式，用火山引擎能力做行业专属的AI营销工具。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活服务商可借鉴垂直行业AI营销打法，为餐饮、美业等做行业专属AI工具。</div></div></td></tr><tr class="category-row"><td class="col-type"><span class="type-label">偏观点类</span></td><td class="col-category"><span class="cat-label">观点与深度</span></td><td class="col-content"><div class="cat-summary">围绕字节的深度讨论集中在两条：一是&#x27;同时修两条AGI之路&#x27;，多模态生成与Agent落地并行；二是&#x27;Seedance宇宙的裂痕&#x27;，提示模型领先与生态稳固之间存在张力。抖音时长超越微信则被解读为字节从内容平台升级为时间基础设施。</div><div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1tWkhzQldLeHEwWlQtaGtjSlZIZFA5MEFqZUUwWGNpckU1OFp5ZlZFNzA0V0o2NmY4Qjl6b1d6T1o3U0pib1BIRVNoQmFhQVNsZEZNWVBjclpqMmx5Unc?oc=5" target="_blank" class="item-link">字节同时修两条AGI之路：多模态生成与Agent落地</a><span class="item-source">(澎湃新闻)</span></div><div class="item-explanation">澎湃报道字节通往AGI要同时修两条路：一条是Seedance/世界模型的多模态生成，一条是豆包/豆包工作的Agent化落地。两条线共用算力与数据底座，形成互相喂养的闭环。</div><ul class="analysis-points"><li>能力变化：字节的AGI路径从&#x27;单点模型突破&#x27;变成&#x27;生成能力+Agent执行&#x27;双线并行。</li><li>对广告主价值：生成侧产出素材，Agent侧自动投放与优化，广告主未来可能获得端到端的AI营销闭环。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活团队可关注&#x27;生成+Agent&#x27;闭环，提前规划素材自动化与智能出价结合的投放方式。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Zby1JQ05McWdDUHlVZlpkM2lVcFRRdlBwZ2dvU182WjlJOEpoazV5djl3Vk1FV1IzTnZrWGl5NEliSFNZSkpPVUtMWmp3Zw?oc=5" target="_blank" class="item-link">Seedance宇宙出现裂痕，生态扩张隐忧显现</a><span class="item-source">(36氪)</span></div><div class="item-explanation">36氪&#x27;Seedance宇宙，和它的裂痕&#x27;指出，Seedance生态在快速扩张的同时出现工具链割裂、创作者迁移成本等隐忧。模型领先不等于生态稳固，字节需要在工具链统一和创作者留存上补课。</div><ul class="analysis-points"><li>能力变化：Seedance从&#x27;单一模型&#x27;扩张为&#x27;模型+工具+创作者&#x27;生态，但生态内部出现割裂。</li><li>对广告主价值：广告主在选择AI视频工具时需关注工具链稳定性，避免因生态变动导致素材生产中断。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家选AI视频工具时，可优先选工具链完整、workflow稳定的方案，降低试错成本。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPblN1R0ZUS0M2c0tjM0RIS0FWZG1NZE54dTloRWp1Y3NDbDJzY0xwS0RsUFAxZUhhYTR4bWg2aHFMdml4MUhVVTZlb096Yk9mcGlyYi1EQ214enN3Mm5jLXk2MkZMeGxEa3owVGRFREt2V3lERmh1dW1QZmcxUk8tMnA3Mng5SzBM?oc=5" target="_blank" class="item-link">字节系时长统治力显现，红果豆包共同占据用户时间</a><span class="item-source">(搜狐)</span></div><div class="item-explanation">搜狐报道红果、豆包等字节系产品正在共同占据用户时间，字节&#x27;统治你的时间&#x27;。从短视频到短剧到AI助手，字节用多产品矩阵把用户时长锁在体系内。</div><ul class="analysis-points"><li>能力变化：字节从&#x27;单一抖音&#x27;变成&#x27;抖音+红果+豆包&#x27;的多入口时长矩阵，用户在不同场景被反复触达。</li><li>对广告主价值：广告主可在字节系内做跨产品组合投放，用红果短剧种草、抖音转化、豆包承接咨询。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可在红果短剧做植入、抖音做转化，形成跨产品组合投放。</div></div>
+<div class="news-item"><div class="item-main"><span class="dot dot-medium" title="中影响"></span><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pZk5WSEtGQmdONVZmV0hrRFBtMkRxY09JZk93QUs2MURVelg4SHpiMjNBRkNfZVppS0JPUHA1VGM0YnRZZUtSZ2laTFhRUWM?oc=5" target="_blank" class="item-link">豆包品牌GEO优化方法出炉，AI搜索营销成新课题</a><span class="item-source">(凤凰网)</span></div><div class="item-explanation">凤凰网发布&#x27;2026年品牌豆包GEO优化实操步骤与方法&#x27;，教品牌如何让豆包在回答中推荐自己。这标志着AI助手正在成为新的品牌曝光入口，GEO（生成引擎优化）成为营销新课题。</div><ul class="analysis-points"><li>能力变化：品牌曝光从&#x27;搜索排名&#x27;延伸到&#x27;AI助手回答推荐&#x27;，豆包成为新的品牌信息分发节点。</li><li>对广告主价值：广告主可开始布局豆包GEO，优化品牌在AI回答中的提及率与推荐顺位。</li></ul><div class="local-hint"><span class="local-tag">营销启发</span>本地生活商家可尝试优化豆包回答中的门店推荐，抢占AI助手入口的品牌曝光。</div></div></td></tr></tbody></table><section class="insights-section"><h3 class="insights-title">外投团队的借鉴 · 技术底座视角</h3><p class="insights-intro">换个视角看，今天字节在算力贷款、自研芯片、Agent沙盒、即梦workflow上的底座改造，正把AI素材生产与智能体运行的成本和门槛同时压低——对拿商家预算做外投的团队来说，这意味着未来素材可以更便宜、更批量、更可复用，投放的成本结构将从&#x27;买流量&#x27;部分转向&#x27;买AI产能&#x27;。</p><div class="takeaway-list"><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>字节以约296亿美元银团贷款加码AI，并传出与三星洽谈自研AI芯片，算力与推理成本底座从&#x27;外部采购&#x27;向&#x27;自研+自控&#x27;迁移。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>外投团队可预判AI素材生成、智能出价的单位成本将持续下探，提前把&#x27;AI批量生成素材&#x27;纳入常规预算模型，用更低成本做更多A/B测试。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>火山引擎将推出基于Arm AGI CPU的智能体沙盒，Agent运行环境从通用云主机变成隔离、可调度的专用底座。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>外投团队可借鉴沙盒思路，为门店客服、预约、核销类Agent搭建隔离测试环境，先在沙盒里跑通再接入真实投放系统，降低试错风险。</div></div><div class="takeaway"><div class="tw-base"><span class="tw-tag tw-tag-base">技术底座变化</span>即梦AI以独家AI工具身份参与《末日盛夏》预告片并公开完整workflow，AI视频从单点生成升级为可复用的影视级生产流程。</div><div class="tw-borrow"><span class="tw-tag tw-tag-borrow">对外投的借鉴</span>外投团队可把即梦workflow封装成&#x27;门店宣传片模板&#x27;，让商家用同一套流程批量产出高质感素材，替代部分实拍预算并提升素材点击率。</div></div></div></section><section class="archive-section"><h3 class="archive-title">历史归档</h3><div class="archive-tip">点击任意日期查看当天完整日报（已排版，非原始数据）</div><div class="archive-month"><h4>2026年09月</h4><div class="archive-week"><span class="week-label">09.07-09.13</span><a href="../archive/2026-09-12.html" class="date-link">09-12</a><a href="../archive/2026-09-11.html" class="date-link">09-11</a><a href="../archive/2026-09-10.html" class="date-link date-link-active">09-10</a><a href="../archive/2026-09-09.html" class="date-link">09-09</a><a href="../archive/2026-09-08.html" class="date-link">09-08</a><a href="../archive/2026-09-07.html" class="date-link">09-07</a></div><div class="archive-week"><span class="week-label">08.31-09.06</span><a href="../archive/2026-09-06.html" class="date-link">09-06</a><a href="../archive/2026-09-05.html" class="date-link">09-05</a><a href="../archive/2026-09-04.html" class="date-link">09-04</a><a href="../archive/2026-09-03.html" class="date-link">09-03</a><a href="../archive/2026-09-02.html" class="date-link">09-02</a><a href="../archive/2026-09-01.html" class="date-link">09-01</a></div></div><div class="archive-month"><h4>2026年08月</h4><div class="archive-week"><span class="week-label">08.31-09.06</span><a href="../archive/2026-08-31.html" class="date-link">08-31</a></div><div class="archive-week"><span class="week-label">08.24-08.30</span><a href="../archive/2026-08-30.html" class="date-link">08-30</a><a href="../archive/2026-08-29.html" class="date-link">08-29</a><a href="../archive/2026-08-28.html" class="date-link">08-28</a><a href="../archive/2026-08-27.html" class="date-link">08-27</a><a href="../archive/2026-08-26.html" class="date-link">08-26</a><a href="../archive/2026-08-25.html" class="date-link">08-25</a><a href="../archive/2026-08-24.html" class="date-link">08-24</a></div><div class="archive-week"><span class="week-label">08.17-08.23</span><a href="../archive/2026-08-23.html" class="date-link">08-23</a><a href="../archive/2026-08-22.html" class="date-link">08-22</a><a href="../archive/2026-08-21.html" class="date-link">08-21</a><a href="../archive/2026-08-20.html" class="date-link">08-20</a><a href="../archive/2026-08-19.html" class="date-link">08-19</a><a href="../archive/2026-08-18.html" class="date-link">08-18</a><a href="../archive/2026-08-17.html" class="date-link">08-17</a></div><div class="archive-week"><span class="week-label">08.10-08.16</span><a href="../archive/2026-08-16.html" class="date-link">08-16</a><a href="../archive/2026-08-15.html" class="date-link">08-15</a><a href="../archive/2026-08-14.html" class="date-link">08-14</a><a href="../archive/2026-08-13.html" class="date-link">08-13</a><a href="../archive/2026-08-12.html" class="date-link">08-12</a><a href="../archive/2026-08-11.html" class="date-link">08-11</a><a href="../archive/2026-08-10.html" class="date-link">08-10</a></div><div class="archive-week"><span class="week-label">08.03-08.09</span><a href="../archive/2026-08-09.html" class="date-link">08-09</a><a href="../archive/2026-08-08.html" class="date-link">08-08</a><a href="../archive/2026-08-07.html" class="date-link">08-07</a><a href="../archive/2026-08-06.html" class="date-link">08-06</a><a href="../archive/2026-08-05.html" class="date-link">08-05</a><a href="../archive/2026-08-04.html" class="date-link">08-04</a><a href="../archive/2026-08-03.html" class="date-link">08-03</a></div><div class="archive-week"><span class="week-label">07.27-08.02</span><a href="../archive/2026-08-02.html" class="date-link">08-02</a><a href="../archive/2026-08-01.html" class="date-link">08-01</a></div></div><div class="archive-month"><h4>2026年07月</h4><div class="archive-week"><span class="week-label">07.27-08.02</span><a href="../archive/2026-07-31.html" class="date-link">07-31</a><a href="../archive/2026-07-30.html" class="date-link">07-30</a><a href="../archive/2026-07-29.html" class="date-link">07-29</a><a href="../archive/2026-07-28.html" class="date-link">07-28</a><a href="../archive/2026-07-27.html" class="date-link">07-27</a></div><div class="archive-week"><span class="week-label">07.20-07.26</span><a href="../archive/2026-07-26.html" class="date-link">07-26</a><a href="../archive/2026-07-25.html" class="date-link">07-25</a><a href="../archive/2026-07-24.html" class="date-link">07-24</a><a href="../archive/2026-07-23.html" class="date-link">07-23</a><a href="../archive/2026-07-22.html" class="date-link">07-22</a><a href="../archive/2026-07-21.html" class="date-link">07-21</a><a href="../archive/2026-07-20.html" class="date-link">07-20</a></div><div class="archive-week"><span class="week-label">07.13-07.19</span><a href="../archive/2026-07-19.html" class="date-link">07-19</a><a href="../archive/2026-07-18.html" class="date-link">07-18</a></div></div></section>
+</div>
+<div class="footer">
+每日自动更新 · 聚焦字节跳动全系 AI 商业化（豆包 / 火山引擎 / 扣子 Coze / 即梦 / 剪映 / 巨量引擎 / TikTok 等）<br>
+数据来源：Google News（中英）/ 36氪 / IT之家 / 爱范儿 / cnBeta / TechCrunch / VentureBeat / The Verge / The Rundown / HN / AI热点<br>
+生成于 2026-09-12 11:12 UTC
+</div>
+<script>
+(function(){
+  var canvas = document.getElementById('particle-bg');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = false;
+  try {
+    reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch(e) {}
+
+  var dpr = Math.max(1, Math.min(window.devicePixelRatio || 1, 2));
+  var W = 0, H = 0, particles = [], raf = null;
+  // 浅色专业配色：靛蓝为主，少量美团黄点缀
+  var COLORS = ['99,102,241', '99,102,241', '99,102,241', '255,195,0'];
+
+  function isMobile(){ return window.innerWidth <= 768; }
+
+  function particleCount(){
+    var area = window.innerWidth * window.innerHeight;
+    var base = Math.round(area / 16000); // 密度
+    if (isMobile()) base = Math.round(base * 0.5);
+    return Math.max(28, Math.min(base, 90));
+  }
+
+  function rand(min, max){ return Math.random() * (max - min) + min; }
+
+  function makeParticle(){
+    return {
+      x: Math.random() * W,
+      y: Math.random() * H,
+      vx: rand(-0.18, 0.18),
+      vy: rand(-0.18, 0.18),
+      r: rand(1.1, 2.6),
+      c: COLORS[Math.floor(Math.random() * COLORS.length)],
+      a: rand(0.35, 0.75)
+    };
+  }
+
+  function build(){
+    W = canvas.clientWidth;
+    H = canvas.clientHeight;
+    canvas.width = Math.floor(W * dpr);
+    canvas.height = Math.floor(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = particleCount();
+    particles = [];
+    for (var i = 0; i < n; i++) particles.push(makeParticle());
+  }
+
+  var LINK_DIST = 128;
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    // 连线：邻近粒子间极淡靛蓝线，营造网络质感
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      for (var j = i + 1; j < particles.length; j++) {
+        var q = particles[j];
+        var dx = p.x - q.x, dy = p.y - q.y;
+        var d2 = dx * dx + dy * dy;
+        if (d2 < LINK_DIST * LINK_DIST) {
+          var alpha = (1 - Math.sqrt(d2) / LINK_DIST) * 0.16;
+          ctx.strokeStyle = 'rgba(99,102,241,' + alpha.toFixed(3) + ')';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(q.x, q.y);
+          ctx.stroke();
+        }
+      }
+    }
+    // 粒子点
+    for (var k = 0; k < particles.length; k++) {
+      var pt = particles[k];
+      ctx.beginPath();
+      ctx.fillStyle = 'rgba(' + pt.c + ',' + pt.a.toFixed(2) + ')';
+      ctx.arc(pt.x, pt.y, pt.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function step(){
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < -20) p.x = W + 20; else if (p.x > W + 20) p.x = -20;
+      if (p.y < -20) p.y = H + 20; else if (p.y > H + 20) p.y = -20;
+    }
+    draw();
+    raf = requestAnimationFrame(step);
+  }
+
+  var resizeTimer = null;
+  window.addEventListener('resize', function(){
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(build, 200);
+  });
+
+  build();
+  if (reduce) {
+    draw(); // 尊重减少动效偏好：只画一帧静态粒子
+  } else {
+    step();
+  }
+})();
+</script>
+
+</body>
+</html>
