@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T06:29:03.268426+00:00",
+  "generated_at": "2026-09-12T11:12:19.798054+00:00",
   "week_range": "09.07-09.12",
   "date_display": "09.07 - 09.12",
-  "editorial_summary": "本周共汇总 62 条 AI 商业要闻，其中高影响 13 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；Sephora入驻TikTok Shop，美妆电商迎来巨；字节跳动拟用世界模型重做PICO，押注下一代内容入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 60 条 AI 商业要闻，其中高影响 13 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；Sephora入驻TikTok Shop，美妆电商迎来巨；字节跳动拟用世界模型重做PICO，押注下一代内容入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "张一鸣亲自督战，字节实时空间视频模型最快下月发布",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（37 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（38 条），高影响条目占比约 22%，商业化叙事仍由头部驱动。",
     "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。",
-    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
+    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
+    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。"
   ],
   "local_life_insights": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "字节系今日在智能投放、3D内容生成与车载AI底座上的改造，意味着外投的素材生产将更沉浸、投放将更自动化，成本结构有望优化。",
-  "total_items": 62,
+  "total_items": 60,
   "high_count": 13,
   "items": [
     {
@@ -204,32 +204,32 @@
       "local_life_hint": "AI应用分发入口意味着本地生活商家可借AI工具做门店获客，关注抖音内新广告形态。"
     },
     {
-      "title": "字节AI办公与腾讯阿里血拼下一代企业入口",
-      "explanation": "报道称腾讯、阿里、字节在AI办公赛道血拼，争夺下一代企业入口。豆包工作快速迭代，从写材料向管流程演进，企业级Agent进入体系竞争期。这显示AI办公成为大厂必争之地，字节以豆包+飞书整合应对竞争。",
+      "title": "抖音电商上半年支付GMV约2.4万亿，增速近20%",
+      "explanation": "传抖音电商上半年支付GMV约2.4万亿元，同比增速近20%。在整体电商增速放缓背景下，这一数据说明内容电商仍具强劲动能，是字节商业化最重要的现金牛之一。",
       "analysis_points": [
-        "这是什么：字节以豆包工作+飞书整合参与AI办公竞争，从单点工具升级为体系化企业Agent平台，与腾讯阿里争夺企业入口。",
-        "对商家/广告主价值：企业客户可关注豆包工作在营销流程自动化上的能力，广告主可探索用Agent管理投放流程，提升效率。"
-      ],
-      "category": "大厂动向",
-      "type": "opinion",
-      "impact": "high",
-      "source": "雪球",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nSU5iSlVQT0ZzNU5oNVdoOFBITkF1cDM1RFlSOWNnSUxza3NWZzlYZ2RwUkhoTFVxQ1g1MlNTQVlrSWdENTdIVlNZVDM1TzFr?oc=5",
-      "local_life_hint": "本地生活广告主可关注豆包工作在营销流程自动化上的能力，用Agent管理投放流程。"
-    },
-    {
-      "title": "字节开发AI创建虚拟世界，Bloomberg报道",
-      "explanation": "Bloomberg报道字节正在开发AI创建虚拟世界的能力，这是其世界模型战略的一部分。该技术可生成可交互的3D空间，为Pico头显提供内容，标志字节在空间计算领域的布局加速。",
-      "analysis_points": [
-        "这是什么：字节开发AI生成虚拟世界技术，从视频生成扩展至可交互3D世界创建，服务于Pico生态。",
-        "对商家/广告主价值：品牌可探索虚拟世界中的沉浸式营销，本地生活商家可关注Pico空间广告新形态。"
+        "规模与增速：2.4万亿GMV、近20%增速，体量已接近头部电商平台，增速仍显著高于行业平均。",
+        "对广告主价值：商家预算持续向抖音电商倾斜，广告投放与货架、直播的联动仍是ROI最优路径，建议加大内容场投放配比。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "Bloomberg / ua.news",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQakUtNURxUmljeTEtMmxvaTZWY0M2RFBEQXZta05fMTctM21JVG40MzUwQWt0NGNWY2taSDN0WEYyVnFVblg4UWtNUDR0ZEtzbDYxNGF5a1NYd080d0tWam5NU1JsTTJuTWlSWWdlMThCYzVRbDFKOFVpRE4tbC15NjhhR3BlVWZkMVNHbQ?oc=5",
+      "local_life_hint": "本地生活商家可参考电商内容场打法，加大短视频与直播投放以拉动到店转化。"
+    },
+    {
+      "title": "字节跳动开发虚拟世界AI，世界模型布局加速",
+      "explanation": "Bloomberg报道字节正开发可创建虚拟世界的AI。结合实时空间视频模型，字节在世界模型上的布局已形成从技术到产品的完整链条。",
+      "analysis_points": [
+        "技术布局：虚拟世界生成与实时空间视频形成互补，覆盖不同沉浸度场景。",
+        "商业前景：虚拟世界可承载游戏、社交与电商，为字节打开新变现空间。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "UA.NEWS",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY1VVUUo5ZnFvVFF2cDVQOEhlNDBucFJjTVJhS1ZyYWtGTV84UXBtaW1WeEF5TjNFWllKVUlZWWNBbGw1aHlwSk5XOENBUFlmVHhDNlVIY3Nka1pEbmV2SVlNWE5hOG96akJBM1FHcGM1eGN2ajdScWx4N0tUVEpwdEltSUZRWjRQMzV2ZlZsQ2dmaXJxUWN4YkV4NA?oc=5",
-      "local_life_hint": "本地生活商家可关注Pico空间广告新形态，提前储备3D场景素材。"
+      "local_life_hint": "本地生活可探索虚拟世界中的品牌空间与互动广告。"
     },
     {
       "title": "Seedance 2.5新玩法：一张图生成可交互3D世界",
@@ -779,143 +779,115 @@
     },
     {
       "title": "火山引擎发布AgentSentry智能体统一安全平台",
-      "explanation": "火山引擎发布AgentSentry智能体统一安全平台，面向企业级Agent提供统一安全管控，解决智能体在权限、数据、行为层面的合规与风控问题。这是字节在Agent大规模商用前补齐安全底座的关键动作，为火山方舟生态企业客户提供可信Agent运行环境。",
+      "explanation": "火山引擎推出AgentSentry智能体统一安全平台，面向企业级Agent提供统一安全防护与风控能力。这补齐了智能体在真实业务中落地的合规与安全短板，是字节ToB能力从「能跑」走向「敢用」的关键基础设施。",
       "analysis_points": [
-        "这是什么：火山引擎推出AgentSentry，从零散安全能力升级为统一安全平台，覆盖Agent权限管理、数据隔离、行为审计等，面向企业级Agent开发者与使用方。",
-        "对商家/广告主价值：企业客户可更放心将营销、客服等Agent接入火山方舟，广告主在投放自动化Agent时可满足合规要求，降低数据泄露与违规风险。"
+        "产品定位：从零散的模型安全能力升级为统一平台，覆盖智能体运行时的权限、数据与行为风控。",
+        "对广告主价值：企业客户在营销自动化、客服Agent等场景可更放心接入，降低合规风险，加速Agent在商业化场景的部署。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "DoNews",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5qS0R2dGx2Nlo4Y0lESHZWUEFxVG5rSlY4VnZadk5seklXYklUWWdxODJWVHdLNDg3dGxCNGF2M1NDUU14azM4WEJlVWp2TjZ2aHlBb3h1ampwZXBST0E?oc=5",
-      "local_life_hint": "本地生活广告主使用Agent自动化投放时，可优先选择具备安全合规认证的平台，降低数据风险。"
+      "local_life_hint": "本地生活商家在部署营销Agent时可优先选择具备安全底座的平台，降低数据合规风险。"
     },
     {
-      "title": "曹操出行接入豆包大模型，语音文字即可叫车",
-      "explanation": "曹操出行上线基于豆包大模型的AI打车功能，用户可通过语音或文字下单叫车。这是豆包大模型在出行场景的落地，标志AI助手从信息问答向实际交易履约延伸，为本地生活服务入口提供新范式。",
+      "title": "豆包打通曹操出行，语音文字即可叫车",
+      "explanation": "曹操出行上线通过豆包AI叫车功能，用户可用语音或文字直接下单。这是豆包从信息问答向本地生活服务履约延伸的标志性案例，AI助手开始承担真实交易闭环。",
       "analysis_points": [
-        "这是什么：曹操出行接入豆包大模型，用户从手动输入地址升级为语音/文字自然语言叫车，豆包负责意图理解与订单生成。",
-        "对商家/广告主价值：本地生活服务可借鉴此模式，将豆包作为交易入口，用户一句话完成下单，广告主可探索在AI对话中嵌入服务推荐与转化。"
+        "能力变化：豆包从「回答问题」升级为「执行服务」，用户一句话即可完成叫车，交互链路大幅缩短。",
+        "对本地生活价值：为出行、到店等服务类商家提供新的流量入口，未来可复制到外卖、酒旅等场景，形成AI助手内的服务分发。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "VOI.ID",
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBFV3hlTmNqRHhfaGFnWV9raEQ0U3huZXZwZ29LanMzYjNXS09sOWpGQTZKX3NGZ3lJbl9qOGhTZm9JeENx0gFCQVVfeXFMTTVzYWlSc1Y4UE1xam15TE1sZEp0SktscFJkbHEzM3JYb2JDd3dIbTJyNDBadjZMbG1kVE1CdVo1RXB3?oc=5",
-      "local_life_hint": "本地生活平台可探索豆包语音下单入口，将服务推荐嵌入AI对话，提升转化效率。"
+      "local_life_hint": "本地生活服务商可争取接入豆包服务分发，抢占AI助手内的履约入口。"
     },
     {
-      "title": "豆包、千问同步下线智能体功能，平台一刀切引不满",
-      "explanation": "豆包与千问同步下线智能体功能，网友不满平台一刀切。这反映大厂在Agent合规与用户体验间的平衡难题，智能体生态治理正成为行业共同课题，对依赖智能体的开发者与商家造成短期影响。",
+      "title": "抖音投15亿扶持真人短剧，AI短剧狂飙下押注真人",
+      "explanation": "在AI短剧快速扩张的背景下，抖音集团宣布投入15亿元扶持真人短剧。这一动作表明平台更看重真人内容的长期生态价值与用户粘性，而非单纯追求AI产能。",
       "analysis_points": [
-        "这是什么：豆包与千问同步下线智能体功能，从开放自定义智能体变为收紧管控，用户无法继续使用原有智能体。",
-        "对商家/广告主价值：依赖智能体做营销自动化的商家需寻找替代方案，可转向火山方舟等企业级Agent平台，确保合规与稳定性。"
+        "策略取向：15亿真金白银投向真人短剧，与AI短剧形成互补，强调内容质量与长效经营。",
+        "对品牌价值：短剧成为新的品牌植入与内容营销载体，广告主可借扶持政策获取更优的短剧合作资源与流量倾斜。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "yicai.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkUmRjZVBZR2doNGxSUjBsQVIwTUJaZDNjNmtYRmotQmxHVzF2NUc0cUh6NHBaWDJyelc3cHVwZmsyUEFyS3BWejZDRlZBRXFHWmlF?oc=5",
+      "local_life_hint": "本地生活品牌可尝试短剧植入，结合地域场景做定制化内容营销。"
+    },
+    {
+      "title": "抖音心动追剧盛典西安启幕，探索短剧长效经营",
+      "explanation": "抖音心动追剧盛典在西安启幕，聚焦短剧产业长效经营路径。这是抖音在短剧赛道从流量分发向产业运营升级的信号，意在把短剧做成可持续的商业生态。",
+      "analysis_points": [
+        "产业动作：通过盛典聚合制作方、品牌与平台资源，推动短剧从爆款逻辑转向长效经营。",
+        "对广告主价值：短剧营销从单次投放走向系列化合作，品牌可锁定优质IP做长周期植入。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZDlSZ1JJYjZXNEdLUUVtemRDU0hNa3FmNUVBUjQ5Z1V3LUx1VU1HVmphVFRGN3pSU2dvcHp4ZHJlTTdTT1BPREVBT01mN2hfU0F0VktSckJ6OTk3MlI0emwxUjF1eUY0RWljOUhUR1RwREh3SUdfU2hXbG5TYkw4dFNpUDkwMTJr?oc=5",
+      "local_life_hint": "本地生活品牌可借短剧IP做地域化植入，提升到店转化。"
+    },
+    {
+      "title": "豆包、千问同步下线智能体功能，平台治理收紧",
+      "explanation": "豆包与千问同步下线智能体功能，引发网友对平台「一刀切」的不满。这反映AI助手在开放生态与合规治理之间的张力，平台正收紧对第三方智能体的管控。",
+      "analysis_points": [
+        "治理变化：智能体功能从开放上线转为下线调整，平台在合规与安全压力下收紧生态口径。",
+        "对开发者影响：依赖豆包智能体做营销工具或客服的商家需评估替代方案，避免业务中断。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "yicai.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1a3JpSmlhUXZXSVYxMm9CaFd6d3dVUlVyOG0xQ25VVlkwWldEVFNSUDFkSXBrNkdEOHhPTnJfTlJYSWJyOTRXaVhsNzFBU1dXNGdr?oc=5",
-      "local_life_hint": "本地生活商家若使用智能体做客服或营销，需关注平台政策变化，及时迁移至合规企业级平台。"
+      "local_life_hint": "使用豆包智能体做营销的商家应尽快备份方案，关注平台后续开放政策。"
     },
     {
-      "title": "抖音心动追剧盛典西安启幕，探索短剧长效经营",
-      "explanation": "抖音心动追剧盛典在西安启幕，探索短剧产业长效经营路径。这是抖音在短剧内容商业化上的重要动作，通过线下盛典与产业联动，推动短剧从流量爆款向长效经营转型，为品牌植入与本地生活营销提供新场景。",
+      "title": "字节Seed发布HarnessDev，智能体自工程能力受关注",
+      "explanation": "字节Seed团队发布HarnessDev研究，探讨LLM能否自行工程化智能体框架，结果显示64项改动中仅34项可泛化。这为智能体自动化开发提供了重要的能力边界参考。",
       "analysis_points": [
-        "这是什么：抖音举办心动追剧盛典，从单纯短剧分发升级为产业长效经营探索，联动制作方、品牌与本地商家。",
-        "对商家/广告主价值：本地生活商家可借短剧植入实现到店引流，广告主可探索短剧+本地生活联动投放，提升转化。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGxSZ1JJYjZXNEdLUUVtemRDU0hNa3FmNUVBUjQ5Z1V3LUx1VU1HVmphVFRGN3pSU2dvcHp4ZHJlTTdTT1BPREVBT01mN2hfU0F0VktSckJ6OTk3MlI0emwxUjF1eUY0RWljOUhUR1RwREh3SUdfU2hXbG5TYkw4dFNpUDkwMTJr?oc=5",
-      "local_life_hint": "本地生活商家可尝试短剧植入+到店核销联动，借助抖音短剧流量实现精准引流。"
-    },
-    {
-      "title": "TikTok Shop珠宝新发现渠道，Vogue报道其种草力",
-      "explanation": "Vogue报道TikTok成为高级珠宝的新发现渠道，用户通过短视频种草并完成购买。这显示TikTok Shop在高客单价品类的渗透力，为珠宝品牌提供新的增长渠道，也为本地生活高端消费提供参考。",
-      "analysis_points": [
-        "这是什么：TikTok从娱乐平台升级为高级珠宝的发现与购买渠道，用户通过短视频种草并转化。",
-        "对商家/广告主价值：高客单价品牌可加大TikTok内容投放，本地生活高端服务可借鉴种草+转化路径，提升到店率。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Vogue",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVXROWUQ1R0dfWVY2REtGM3hPRzkxcmF0MG9rcHUzU3NEUkZPMW1rSHZPdnNjMUZoOXVUS3g1WDBQdzktNXl6a3lGLUF2dkVqRm12MXVmZFVsRFowT2liRFo4d2NuaVlJOW1ZM3RNXzU3aG5kcjA4MEhyQ3RlN2tqSQ?oc=5",
-      "local_life_hint": "本地生活高端服务可借鉴珠宝种草路径，通过短视频内容提升到店转化。"
-    },
-    {
-      "title": "TikTok Shop香氛卖家BellaVita获年度大奖",
-      "explanation": "BellaVita Luxury在TikTok Shop Awards中获2026年度香氛卖家奖，显示TikTok Shop在香氛品类的商业化能力。平台通过奖项激励卖家，推动品类生态繁荣，为广告主提供品类投放参考。",
-      "analysis_points": [
-        "这是什么：TikTok Shop举办年度卖家评选，BellaVita获香氛品类大奖，平台从交易渠道升级为品牌孵化与认证平台。",
-        "对商家/广告主价值：香氛品牌可借助TikTok Shop奖项背书提升信任度，本地生活香氛体验店可探索线上种草+到店体验联动。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "markets.businessinsider.com",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRjBpa015cDlGZHM3Nm81Z2RFZUh5MGhnaE1JRWZkd0d6UEN4MjZTZ1dyNVFULW1TWXJJRkNYcnJRaVBFeFJGeVh6WVloYUJUTEVkSFhiRmxUY2s0YWFzTGhPUUIwMFd3ZndZcDRQdE9FZFVqd0hoR0Y5WkpNRmpOU2w2QVRvdkZCRldKSDZUU2xpZ2M5cUZhbHFUNXlCcnVZUkI1eGNhZ0ZDODFQUERvbjUxbVIxZTYzV3A2QzJoYS1wbkU2WlA2MHJhVDNBM1VxVEE?oc=5",
-      "local_life_hint": "本地生活香氛体验店可探索TikTok Shop线上种草+到店体验联动。"
-    },
-    {
-      "title": "Happy Panda登陆TikTok Shop，开设印第安纳履约中心",
-      "explanation": "Happy Panda正式登陆TikTok Shop并开设印第安纳履约中心，显示TikTok Shop卖家加速本地化履约布局。这为品牌提供更快的物流体验，也为本地生活商家提供履约参考。",
-      "analysis_points": [
-        "这是什么：Happy Panda从传统渠道扩展至TikTok Shop，并自建履约中心，提升配送效率与用户体验。",
-        "对商家/广告主价值：品牌可借鉴自建履约中心模式，本地生活商家可关注TikTok Shop本地化履约对到店服务的补充。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdjVlOU1VNnZZQ0ozcHhoMzZvajZZNFZHODl2RW5seGdqNTh1VHlUUzNheUhOV1Vqb0Z4ekU2eExkb3dtc0NwV1BjOFg4RFVHWHJMTVJwZXdEaklRaGhOc0pIYndkN2U4Q1c3VmNWdHhoczg2a0loVzdlamdTaVBKdk5LbDdPUGF3Q21NRFVDSGp6R2Z5WnRhREFFeERsaFp4aFpSaFNCeGp6N3psaXRnemd1b3FhN2cxdXV1Ylh3UnVOS1U?oc=5",
-      "local_life_hint": "本地生活商家可关注TikTok Shop本地化履约对到店服务的补充，优化配送体验。"
-    },
-    {
-      "title": "TikTok Shop诱导青少年消费引荷兰银行关注",
-      "explanation": "荷兰银行ABN AMRO报告指出TikTok Shop进一步放大青少年购买诱惑，引发对社交电商消费者保护的讨论。这反映TikTok Shop在欧洲面临监管压力，平台需在增长与合规间平衡。",
-      "analysis_points": [
-        "这是什么：ABN AMRO报告称TikTok Shop通过个性化推荐与直播放大青少年消费冲动，监管关注度上升。",
-        "对商家/广告主价值：品牌在TikTok Shop投放需关注青少年保护合规，本地生活商家应避免诱导性营销，降低监管风险。"
-      ],
-      "category": "生态动向",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "ABN AMRO",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbWJQY2p1czljYjU0VE5oQlFWMkNGNlp1QUltTzBuZ0RNQ3V3RlFod3UwUGRVNFQ0ZTZaY19jMGRidlRmWHFSRDk2SkpxdURTN1dNYXR3WWYxOXA0YldtcXBpVzBydzZORnM2MWdCY0x2cGxhR3FqTjNrMkg1WDUtaWh3RUpWaHFObm5Ebk5EVFl6V2FMNGF5MFBHdDlIeDZ2QVc5YkNPZmo2WERtTEhXbnNsX0Jtdw?oc=5",
-      "local_life_hint": "本地生活商家在TikTok Shop投放应避免诱导青少年消费，关注合规风险。"
-    },
-    {
-      "title": "Mall of America借TikTok网红品牌吸引Z世代",
-      "explanation": "美国购物中心Mall of America引入TikTok网红品牌吸引Z世代客流，显示TikTok对线下零售的引流能力。这为本地生活商业体提供线上种草+线下到店的联动范本。",
-      "analysis_points": [
-        "这是什么：Mall of America从传统零售升级为引入TikTok网红品牌，借助社交热度吸引Z世代到店。",
-        "对商家/广告主价值：本地商业体可借鉴TikTok网红品牌招商+线上种草策略，提升到店客流与转化。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb0U4d252NDJXa3pjRTl2RzEySmhNakpTUjljRjl6bkVWZmVxUHBnM1p1RmhGOFRMd2I3NWRoYTA4YU1IQTN3NjdQc2JTUHEwZ2ZqSWd4RE1oNmpNcGlZbFVVNl9LLUdhcmpIbXMycy03U19oTExMRnhSeEwyQ3ZfNUVyd3kzRk9jUzRVN0EtZnc2MlppWmhGQWs1Q1g5YU5vU0xzWUlFcWJzUTk3?oc=5",
-      "local_life_hint": "本地商业体可借鉴TikTok网红品牌招商+线上种草策略，提升到店客流。"
-    },
-    {
-      "title": "从豆包工作快速迭代看AI办公赛道演进",
-      "explanation": "报道分析豆包工作的快速迭代，指出AI办公从写材料向管流程演进，企业级Agent进入体系竞争期。这显示字节在AI办公上的投入加速，为商家提供流程自动化新工具。",
-      "analysis_points": [
-        "这是什么：豆包工作从辅助写作升级为流程管理Agent，能力从单点任务扩展至端到端流程自动化。",
-        "对商家/广告主价值：本地生活商家可用豆包工作自动化营销流程，广告主可探索Agent管理投放与客服，降低人力成本。"
+        "研究结论：LLM自工程智能体框架的泛化率约53%，说明当前自动化能力仍有明显天花板。",
+        "对行业意义：为企业评估智能体自动化投入提供量化依据，避免过度乐观预期。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
-      "source": "新浪网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9idFJWdS1qTk5rMUtRQUJFMVNnV2w1TVdpd1hRbjQ4MlplWmpTajJCYWwteWFBWmxaTHNMUW9PMTJBUFhYWHFTVkxWV3picDlyS2s0UHdGMWFtcmN0UFM2NnBHVWx2YkFnYnN4SWRGYS1Rdw?oc=5",
-      "local_life_hint": "本地生活商家可用豆包工作自动化营销流程，降低人力成本。"
+      "source": "MarkTechPost",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUWdGMGZtME5ZakN4aHkzX3V4U2J6Rmp0ejB4U3VhV01BcGFDaTJOdENSRHRmekJSNmhsd1dvZ2Qzd1I5c3lfWUJDV28wVWE5c1hxdTVzV3Z0OTJVVm5qNUx5ZENNalFpOU5ubmVvdjMtZXYtSnltejZDTWlsODJOQmxPNDhQZUJqOFF2aFVkWTFmWHpGR3hHVkNOM0g1eTVBY19jRl81T3RudFh2SGxpLWtnVTFTb1pRajFMamNOb21DSkthakpVd2RndWJrVGpuZE5UNHRRTVZLWmJzMmkyR9IB5gFBVV95cUxQNTVSTlhHQzlPcHl1QnNHLWdJZ1dpMHZxLVFpZkJ3bXg4c3VxeG5BeXpkSFFBYnJhV3pUdDhsY1RmeGRtNFVESVE0Q0FWME1KdzlfRGlOU085bVFQMURoMVZnazl2MVZBRUFiY0twNy1CcEc4WWI0T2hQTE1LQkdtWFBaeFBYMlVPdGZZa20zZXJ5QW5ZWG5CdDhBWDRTQnk1dUNWbk1sRl9pSjFYRG9PZ3Z2UEV0S21FLTlBYjVEOXFmVnFEaDloR0V2YVZ1Um1hQWxVaVhoYXFuYXVLR1dlYXhIT0Nqdw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节AI办公与腾讯阿里血拼，争夺下一代企业入口",
+      "explanation": "报道指出腾讯、阿里、字节在AI办公赛道「血拼」，围绕下一代企业入口展开生死局。豆包工作的快速迭代被视为字节的关键落子，企业级AI办公竞争进入白热化。",
+      "analysis_points": [
+        "竞争格局：三家大厂同时押注AI办公，入口之争从C端助手延伸至B端工作流。",
+        "对商家价值：企业客户将获得更多AI办公工具选择，营销与运营流程的AI化改造加速。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "雪球",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nSU5iSlVQT0ZzNU5oNVdoOFBITkF1cDM1RFlSOWNnSUxza3NWZzlYZ2RwUkhoTFVxQ1g1MlNTQVlrSWdENTdIVlNZVDM1TzFr?oc=5",
+      "local_life_hint": "本地生活团队可关注AI办公工具与营销流程的结合，提升投放运营效率。"
+    },
+    {
+      "title": "字节买下时间，但AI正在抹掉时间",
+      "explanation": "36Kr评论指出字节通过短视频买下了用户时间，但AI正在重新定义时间价值。这一观点提示字节的时长优势可能被AI交互方式颠覆，需要新的内容与商业范式。",
+      "analysis_points": [
+        "核心论点：AI让信息获取更高效，用户停留时长逻辑可能被重构，冲击字节的时长护城河。",
+        "对广告启示：广告主需从「抢时长」转向「抢意图」，在AI交互中寻找新的触达方式。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCVWlVaGpnRWk0anAtUlFpS29xcXBmU2dPcmp4WnRnLThYeGVwV2R1aF8zOUIwVlllV0ZvNGdGY0VuYWhYMUc3ZmEyWTF0ZG5TRXBZ?oc=5",
+      "local_life_hint": "本地生活投放应从时长竞争转向意图捕捉，布局AI搜索与推荐场景。"
     }
   ],
   "mode": "ai"
