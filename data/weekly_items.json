@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T11:12:19.798054+00:00",
-  "week_range": "09.07-09.12",
-  "date_display": "09.07 - 09.12",
-  "editorial_summary": "本周共汇总 60 条 AI 商业要闻，其中高影响 13 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；Sephora入驻TikTok Shop，美妆电商迎来巨；字节跳动拟用世界模型重做PICO，押注下一代内容入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-13T06:46:29.216174+00:00",
+  "week_range": "09.07-09.13",
+  "date_display": "09.07 - 09.13",
+  "editorial_summary": "本周共汇总 66 条 AI 商业要闻，其中高影响 15 条。本周主线包括：字节跳动扩张内蒙古数据中心，算力版图再扩大；字节跳动重构ToB版图，飞书与豆包将整合；张一鸣亲自督战，字节实时空间视频模型最快下月发布；Sephora入驻TikTok Shop，美妆电商迎来巨；字节跳动拟用世界模型重做PICO，押注下一代内容入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "张一鸣亲自督战，字节实时空间视频模型最快下月发布",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（38 条），高影响条目占比约 22%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（40 条），高影响条目占比约 23%，商业化叙事仍由头部驱动。",
     "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。",
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
-    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。"
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "字节系今日在智能投放、3D内容生成与车载AI底座上的改造，意味着外投的素材生产将更沉浸、投放将更自动化，成本结构有望优化。",
-  "total_items": 60,
-  "high_count": 13,
+  "total_items": 66,
+  "high_count": 15,
   "items": [
     {
       "title": "字节跳动扩张内蒙古数据中心，算力版图再扩大",
@@ -230,6 +230,34 @@
       "source": "UA.NEWS",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY1VVUUo5ZnFvVFF2cDVQOEhlNDBucFJjTVJhS1ZyYWtGTV84UXBtaW1WeEF5TjNFWllKVUlZWWNBbGw1aHlwSk5XOENBUFlmVHhDNlVIY3Nka1pEbmV2SVlNWE5hOG96akJBM1FHcGM1eGN2ajdScWx4N0tUVEpwdEltSUZRWjRQMzV2ZlZsQ2dmaXJxUWN4YkV4NA?oc=5",
       "local_life_hint": "本地生活可探索虚拟世界中的品牌空间与互动广告。"
+    },
+    {
+      "title": "抖音体育商业化收入突破80亿，观看量激增210%",
+      "explanation": "字节跳动抖音体育商业化收入突破80亿元，相关观看量激增210%，显示体育垂类内容已成为抖音广告变现的重要增长极。对广告销售而言，这意味着体育赛事IP与内容型流量的商业化路径已被验证，可复制到更多垂类。",
+      "analysis_points": [
+        "抖音体育商业化收入从过往量级跃升至80亿元，观看量增长210%，说明体育内容在抖音生态内的用户粘性与广告承载能力显著提升。",
+        "对广告主而言，体育垂类提供了高关注度、强情绪的场景化投放位，适合品牌曝光与赛事节点营销，可作为外投预算的差异化选择。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "体坛加",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DeFZaVmhwcmhtTl9wQXJJNThydVFiZlUzNWVOZDNRUFdjY09Ra3c5bFp5YXpNUExZMnR5Yzl4U2QwN01CUVhWazRPWW5NS3RqRjB5cy1aVFNReS0zX0FaTA?oc=5",
+      "local_life_hint": "本地生活商家可借体育赛事节点做场景化投放，如赛事周边餐饮、观赛聚会套餐，利用高关注度流量提升转化。"
+    },
+    {
+      "title": "抖音生活服务上半年交易额超6000亿，字节战略转向AI",
+      "explanation": "抖音生活服务2026年上半年交易额超6000亿元，同时字节跳动战略重心明显向AI倾斜。这条资讯同时说明本地生活盘子仍在高速增长，以及字节正把资源向AI能力建设集中，对本地生活广告投放的长期供给有直接影响。",
+      "analysis_points": [
+        "抖音生活服务交易额从过往量级增长至超6000亿元，证明本地生活在抖音生态内已形成规模化交易闭环。",
+        "字节战略转向AI意味着本地生活的流量分发与商家工具将更多由AI驱动，商家需提前适应AI化的投放与运营方式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03WTVLanhmMTJNaTN1LXhwT3doTGdFRlVMdmpJbC1CeXNWWVRvaTh5RWc3ZkZrNzNZdFRFV0w1cVlzQU1ER1hiRHZsdW5RZjZ5VlRFSw?oc=5",
+      "local_life_hint": "本地生活商家应关注抖音生活服务AI化后的投放工具变化，提前布局AI驱动的素材与定向策略。"
     },
     {
       "title": "Seedance 2.5新玩法：一张图生成可交互3D世界",
@@ -888,6 +916,62 @@
       "source": "36Kr",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCVWlVaGpnRWk0anAtUlFpS29xcXBmU2dPcmp4WnRnLThYeGVwV2R1aF8zOUIwVlllV0ZvNGdGY0VuYWhYMUc3ZmEyWTF0ZG5TRXBZ?oc=5",
       "local_life_hint": "本地生活投放应从时长竞争转向意图捕捉，布局AI搜索与推荐场景。"
+    },
+    {
+      "title": "抖音登顶、红果凶猛：字节流量生意与下一道考题",
+      "explanation": "文章分析抖音登顶、红果凶猛，字节的流量生意已进入时长统治阶段，但下一道考题是如何把时长优势转化为可持续商业化收入。这对理解字节系广告库存与变现节奏有参考价值。",
+      "analysis_points": [
+        "字节系从抖音到红果形成多产品时长矩阵，流量统治力增强，但商业化转化成为下一阶段核心命题。",
+        "对广告主而言，时长优势意味着更多广告库存与更丰富的投放场景，但也需关注流量质量与转化效率。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "wallstreetcn.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvWkxpR0JQS092OXEtbjlvT2RxQUxRTVBhZ1ZJY3RLYzZibmF3SUdpbmJlWFFWcVByOU1VWGdfdUdqX0FBb2dhVUhxdGJoMDd6clpr?oc=5",
+      "local_life_hint": "本地生活商家可关注红果等新流量池的广告位，提前布局多产品投放组合。"
+    },
+    {
+      "title": "完美世界联手火山引擎护航诛仙IP新作开服",
+      "explanation": "完美世界与火山引擎合作，护航诛仙IP新作《梦幻新诛仙：轻享》稳定开服。这是火山引擎在游戏行业的又一落地案例，说明其云与AI能力在游戏开服等高并发场景中具备稳定性优势。",
+      "analysis_points": [
+        "火山引擎为游戏开服提供稳定支撑，能力从通用云服务延伸到游戏高并发场景的专项保障。",
+        "对游戏类广告主而言，稳定的开服体验直接影响买量转化，火山引擎的案例可作为技术选型参考。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "中国日报网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kV3pBTkpTMWdmWkI1VVd2MVEtb0pNaExCU05zd3hyTFhPUmJwYnc2bGJwTXBia0xsZE9iSTR3c3dmQXNHWlpyM1RsQWdRalM2S0xCam9PXy1NLXhmVG82MXJMWHNCVjFIVnFBS2pXSjJmOTNJclJ6RWRJZzQ?oc=5",
+      "local_life_hint": "本地生活服务商可借鉴火山引擎在高并发场景的稳定性方案，保障促销活动期间的投放与交易稳定。"
+    },
+    {
+      "title": "巨量引擎小游戏行业论坛在沪举行，聚焦精品化长线经营",
+      "explanation": "巨量引擎小游戏行业论坛在沪举行，聚焦精品化与长线经营。这反映巨量引擎在小游戏赛道的商业化策略从粗放买量转向精品化运营，对游戏广告主的投放策略有指导意义。",
+      "analysis_points": [
+        "巨量引擎小游戏策略从追求短期买量转向精品化与长线经营，强调内容质量与用户留存。",
+        "对游戏广告主而言，需调整投放策略，从单纯冲量转向关注LTV与长线ROI。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "体坛加",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBacjhaelBJZ1pUd0pYMndrdUZxN1o2NmExMm9aWnh1VzBWRmdhMWE5MzhyeVd6N2NGemdGMG16VjZOc2Exa0FBQ2JiRQ?oc=5",
+      "local_life_hint": "本地生活商家可借鉴小游戏精品化思路，用长线经营视角优化投放与用户留存策略。"
+    },
+    {
+      "title": "TikTok Shop品牌生态扩容，Ulta等入驻",
+      "explanation": "Ulta等品牌陆续入驻TikTok Shop，社交电商品牌生态持续扩容。这说明TikTok Shop正从白牌向品牌化演进，对品牌广告主与跨境电商有直接吸引力。",
+      "analysis_points": [
+        "TikTok Shop从白牌为主向品牌入驻演进，Ulta等美妆品牌加入，平台商家结构升级。",
+        "对品牌广告主而言，TikTok Shop提供了从种草到成交的闭环，适合做新品首发与品牌自造节点。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "MediaPost",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUFXeDJZbGRhNjFmdnk2UC12V0szU0M0NmVLS3QtVFV6VnFsOGpRclBaRnpBUHZ5dll1WmFQVGx1cFdIdzFLVDFoblRoTWYxVk95N2VibEdjN2pfcHJ6a081QnVpcjZZalZTSUQ1TVJIOGxEdzBKd1JsSTBJb0FpMTY2VHk5WHpZNmtONy1faE0yMmlsbmtkb01XRkZxUHNubERsMVBjQWs?oc=5",
+      "local_life_hint": "本地生活品牌可借鉴TikTok Shop的品牌自造节点玩法，在抖音生态内做类似的节点营销。"
     }
   ],
   "mode": "ai"
