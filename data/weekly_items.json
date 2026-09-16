@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T12:02:04.842236+00:00",
-  "week_range": "09.14-09.15",
-  "date_display": "09.14 - 09.15",
-  "editorial_summary": "本周共汇总 17 条 AI 商业要闻，其中高影响 3 条。本周主线包括：豆包手机助手消费者版发布，首款AI智能体手机9月16日开；豆包手机助手首发体验：智能手机正变成「行动终端」；飞书8.0全面拥抱Agent，豆包工作伙伴进群干活。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-16T06:43:13.974207+00:00",
+  "week_range": "09.14-09.16",
+  "date_display": "09.14 - 09.16",
+  "editorial_summary": "本周共汇总 39 条 AI 商业要闻，其中高影响 6 条。本周主线包括：豆包手机助手消费者版发布，首款AI智能体手机9月16日开；豆包手机助手首发体验：智能手机正变成「行动终端」；飞书8.0全面拥抱Agent，豆包工作伙伴进群干活；因加大AI投入 报道称字节跳动2026上半年净利润下降；ByteDance's first-half reven。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "豆包手机助手消费者版发布，首款AI智能体手机9月16日开售",
@@ -19,7 +19,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（7 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（29 条），高影响条目占比约 15%，商业化叙事仍由头部驱动。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
@@ -37,11 +37,15 @@
     {
       "base": "火山引擎将首批落地基于Arm AGI CPU的智能体沙箱，为Agent运行提供专用算力底座，降低Agent部署与并发成本。",
       "borrow": "美团商业化可关注用低成本智能体沙箱承载批量营销Agent（如自动生成投放文案、智能客服、素材批量测试），把外投中重复性人力环节替换为Agent，压缩投放运营成本。"
+    },
+    {
+      "base": "生成式视频底座升级：视频从'套模板'转向'自然语言直接生成 + 数字分身出镜'。",
+      "borrow": "外投团队可把'AI 批量生成商家口播/带货素材'纳入投放链路，用素材数量与快速迭代摊薄单条获客成本，而非继续依赖人工拍摄。"
     }
   ],
   "insights_intro": "换个视角看，今天字节把Agent从App下沉到手机系统入口、把生成能力从短视频推向实时空间视频、把算力底座换成Arm AGI CPU沙箱——这三件「底座级」改造，正在重写外投的素材形态、投放入口与运营成本结构。",
-  "total_items": 17,
-  "high_count": 3,
+  "total_items": 39,
+  "high_count": 6,
   "items": [
     {
       "title": "豆包手机助手消费者版发布，首款AI智能体手机9月16日开售",
@@ -84,6 +88,39 @@
       "source": "爱范儿/InfoQ/钛媒体",
       "url": "https://www.ifanr.com/1680138?utm_source=rss&utm_medium=rss&utm_campaign=",
       "local_life_hint": "本地生活连锁商家可用团队Agent统一管理多门店的营销素材与活动排期，降低总部到门店的执行损耗。"
+    },
+    {
+      "title": "因加大AI投入 报道称字节跳动2026上半年净利润下降",
+      "explanation": "ç±äºå å¤§äºå¨äººå·¥æºè½é¢åçæèµï¼å­èè·³å¨2026å¹´ä¸åå¹´åå©æ¶¦åæ¯åºç°ä¸éãåæ¶ï¼åTikTokç­æµ·å¤ä¸å¡æ¨å¨ï¼å­",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1578114.htm",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance's first-half revenue closely trailed Meta's, but profits fell to $20 billion due to heavy AI investments.",
+      "explanation": "ByteDance's first-half revenue closely trailed Meta's, but profits fell to $20 billion due to heavy AI investments.",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTDU0ZzZhRFZqOUFPRFctZmcySjdjNUJRN3FycEwwdXVJSEFLT3RSWnB6STlraDNNZUtZOVhIVkdEVTNJRE9vaHJPRUUwNFRMaDRGdE9qTG84X1FzenYyaUJITTgxRGQwWmpQcl9FOTE2V1BkazRKRnRudVE0bEl3V1JPRkxrRi16ZVpBUUpsTUp4Q1hYMGlFVlpLbU4xMjQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "前TikTok高管创立AI摄影应用Superpose 提供实时姿态指导",
+      "explanation": "æç§æ¶ä¸ç¥éæå¾åªæ¾ãé¢å¯¹éå¤´å§¿æåµç¡¬æ¯è®¸å¤æ®éç¨æ·çå±åçç¹ãéå¯¹è¿ä¸æ¥å¸¸ç¤¾äº¤å°æ°ï¼ç±åTikTokæ ¸å¿é«",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/movie/1578124.htm",
+      "local_life_hint": ""
     },
     {
       "title": "豆包手机助手通过信通院端云协同机密计算L5级评测",
@@ -280,7 +317,218 @@
       "source": "新浪财经",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS25WUl9UYm1sRXktcGljVENRMVRRREdReHlGWWRLOEJ1TGxNV2Izc3ZXeTJlYTk0d0tyUHQ5LXg5ZzV2SEJiOU5PVnlDWmg0WmUwNDhVVjFzUEFpQ1FPelRlTUttVDBPenltSjRzazJIMnc1UjlBV3BRZ3U1Mm9VaEh5Wm0?oc=5",
       "local_life_hint": "面向特斯拉车主的高端本地生活服务（餐饮、酒店）可探索车载语音推荐合作。"
+    },
+    {
+      "title": "ByteDance completes $290 million fundraising for AI drug unit after its spin-off, sources say",
+      "explanation": "ByteDance completes $290 million fundraising for AI drug unit after its spin-off, sources say",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVTBWclMtV0dROHVDX1Q5c3YzekE5ZnlaNGhGRDE0Q0NSZUZRS3pnRVdHWm41allDMnM3YlhXd1FvTG9LN0RCOGtrNkdkbjBLUlE2elVlaUxGOXcyRFhWdE1NaUdxME4xOWRLemJCdlg0NFJLY1N1cDkwRXgxMG9ldkFSbVdncnZQcGM4dU12Z0gzX0VfRWZ6WWJqQVlacE9iVkNxSFg2QmkzZTVYRDBlWnNqY0lrY1l0Vi1BTHl6ekJuaVlNRklSeE50aw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance’s First-Half Profit Drops to $20 Billion, Weighed Down by AI Spending",
+      "explanation": "ByteDance’s First-Half Profit Drops to $20 Billion, Weighed Down by AI Spending",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRkhPRjlFNWNtYmEtdGFFcmY0VVFTM1p5ZnYxNzlsMWhzQ1NvMVZSU01NNnNKcmhPRS1WT295d2dKeC1hSklnazB6cllWVTBMakVQS1dseUR2dEY1YUZLUGxvSEZkaHhBdkdGV1NyaU43Sm9hb055RmY1dHhxbDd5dnV5ME9pbk84VTFUaWJCOEhabUhpMU10bVVlN25ieUt1VkgxczJJZ2Q?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Adds AI Agents to Feishu in Enterprise Push",
+      "explanation": "ByteDance Adds AI Agents to Feishu in Enterprise Push",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcUZNakctZ216bDRDblRWZ0VJUUgxWkpxVkZ2UGw4TTk1SnBnQll2TzNIZi01am55NWticV84dkJlLVY2dzhpR3JEMnZCMlQtRkJNVHRqb1BjekV3ZlV0alZqRGllZ09JdkFfdk9OLVE3ay0tT1A5U3U3T05RQ2pYZVlMbkk5NzQ4MTdBTWhRanM1UDFZNFZKcTJNY19lcU9BM0xRMWNIUlVoOTNm?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok developer ByteDance arranges $29.6 billion loan as it builds AI ambitions",
+      "explanation": "TikTok developer ByteDance arranges $29.6 billion loan as it builds AI ambitions",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUkFMeURtVDVyVHlOM0swaDZtdEhPT1M2Wm42R0ZEaURwV0FYa2xHZ0NQd3phQl9fR2ZsNndBOUkxdnFNandoUDNtXzg4YnczUl90LVZZVkdYb1BLeUNST2RPamczdUZiV3JoV1JJaHNrcGdzQVVNbkJ6ZFdJbUVwMHp4RFd6Njk0OWtUU3JRdFpPM1hhNDQtQVRhUk9YVWhSQU00UkVrMVo3bjI3M3luZDRJQ2lTZElBSVRZaUxmTlVHaXdRZFE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ICBC, HSBC Among Major Lenders on $30 Billion ByteDance Loan",
+      "explanation": "ICBC, HSBC Among Major Lenders on $30 Billion ByteDance Loan",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdzhCdEd4d01Sel9ZOXNaX2NNU1gtb1l4MGxWdzB6bF8yTmhYVkl6dW9Kc21WM3ZhdURUd3JpVlV1WDY2VWRpcEw3bFpTRDJCMENBaFpLODBUX005OEs0TlluQmxJbGkzdTZUVmdWVUc5WDRvalhFcmRoX3JQeU1OamJsemtCZ2RjdzRQcngyRm1scUM0TU53MmFWcWFmTElqTEVGYUhMN0dzVE8tTUtyQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Revenue and Usage Statistics (2026)",
+      "explanation": "TikTok Revenue and Usage Statistics (2026)",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SN2dBN1ZMa2k3UFlWSmotZExYRHh3d0JoUDlobFYwWEpxVS1DbmZPLWhSeFlVaExYcm9fQUJMZm1ucHJFRjQyRFlOSFNtZDRqTHBlX0JsOHRKYkQ4X2o2WjU1TWpzUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Signed a $29.6 Billion Loan to Fund Its AI Buildout Abroad",
+      "explanation": "ByteDance Signed a $29.6 Billion Loan to Fund Its AI Buildout Abroad",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQXRKdFlhUmI1VXROM0h6eHFIT1hiMTRVdVJBeGRKcUZTT2h2Y3JFNllidHdScUtpcHZiT1J2a2VIQ3RZcGwwZ3BNVktkbnQ2U0dRSDF3QTVSTzd6OEJYSE1KaDlsQWdaWU1pLW1KaTc2R3NxUGZNVWRFMC1xRVN3SDktRDVDOFRxNGdUOW52RDVwdzE0aWI0UTdB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "对标谷歌Genie，字节最快下月推出实时空间视频AI模型，张一鸣亲自督战",
+      "explanation": "对标谷歌Genie，字节最快下月推出实时空间视频AI模型，张一鸣亲自督战",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1ZRWRaMFBrRmNCX3JNY1pzQTN4UU5ZeXR4NGF1bjNqenlqUlY2c0lwdmozYmJGb3RENFpjSUhRVE5BbFU?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节跳动上半年营收1200亿美元直追Meta，但受AI投入拖累，利润降至200亿",
+      "explanation": "字节跳动上半年营收1200亿美元直追Meta，但受AI投入拖累，利润降至200亿",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2M3huWkQzaWRQdnlrdWlUV1gwNnFDNGxYYjlCdWlOd2x0aXRBLUNpNnN4bXEyc2JVOGdNNFRrQ1EtU2lsU2hpZy03V0o4V1BNRS13?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "早报｜iOS27正式推送/比亚迪高管：燃油车在中国没有未来/iPhone 18 Pro渠道降价900元，苹果称不干预",
+      "explanation": "苹果六大系统正式版发布，Siri AI 先以英语推出 北京时间今天凌晨，苹果向所有用户发布 iOS 27、iPadOS 27、macOS 27、watchOS 27、visionOS 27 和 tvOS 27 正式版。iOS 与 iPadOS 的版本号为 24A437。 其中，iOS 27 带来全新",
+      "analysis_points": [
+        "苹果六大系统正式版发布，Siri AI 先以英语推出 北京时间今天凌晨，苹果向所有用户发布 iOS 27、iPadOS 27、macOS 27、watchOS 27、visionOS 27 和 tvOS 27 正式版。i"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1680097?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": ""
+    },
+    {
+      "title": "How ByteDance’s AI-enhanced short-drama app leapfrogged Chinese streaming giants",
+      "explanation": "How ByteDance’s AI-enhanced short-drama app leapfrogged Chinese streaming giants",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQUlQNnZuX191ZUJCeTFCdVJuTVpnT2h6djRiVGI3a0w5MjdyZUZ3VGFkbm9LQkEwU2pGZERUY04tcXVYQlhzbU5yam1wR2tIZ1Zma2dKb3pBVHhwNHNWX203clJkR1h3RW5OcERSamFRNk4xbG44emdwb3B3S2h5bVRpaWdWUXJLMjhvZ1RJUUFNd00zWS13bTlVaUh6LUVwek5LVGFiVExIbW53ZlVabkV3Vno2R0RJcUtyeDBITVBIektXb2Y5Vm56WmvSAcwBQVVfeXFMTkx4Zk52SHF3NlFCTWw2VHo2RlJzQW5DUzB4VER4bnctMl9va1ZLMENkeUhCM3R4T1p0aHlRWGhLdVoyRXRQVGZEbGdjN243bWM0YktXbHh2U25telVDWjNibERONzBwQ2xNZnM3dXVKaEZMdTNiZVJPeE4zbGVPV1gwOUN4OEg1NU4tNDJrWU1DemxjMzN6MU5vdUE1Y1NXWHVKUEZTQVN5NklfZmowRzdCM200a3VPU0k1M05iX3hwREJEMjVwbzNTRS1o?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "North Carolina Supreme Court hears TikTok appeal",
+      "explanation": "North Carolina Supreme Court hears TikTok appeal",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYU0yanRoSXViWl82b3VmSmZtQkRkNU96VjJabkpGc0o3WDFlMTBfWHFOSzFFMGNybmlnLTB0aVQxcmJrQ2Frc1otaHFpbHRzTW5xd3o3eGdXUFFTY0I1anJka1p0SXZqR1BhWnJidlktcnlOUzhDd2drUDlxcGxUZm81WXBZMGM10gGOAUFVX3lxTE5GVG5sRUtGX0g3MnFabVNsZndsQzc4TXFXSzAtdTZtSXdrdkNFZzhFRDhsVFpIX0ZseU8xRV9tZUtOX3RMN1BnVVJKZ1FnVWpiU2RMQmt0MkhIY3ZSbTNLb1k2UEdXVExZVjNSZEtYWHEyV1Uzb1BuODVwM1VQYUFsXzhza3dZTFZMdEd2VVE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Is free music making a ByteDance-assisted comeback in China?",
+      "explanation": "Is free music making a ByteDance-assisted comeback in China?",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM3JSNUdXTWx0bnpEbTltd2o2cWd4MWNhajE2bzE5VElBMUVJaDFWSWEwU2dZa3hqU0pYaU5YQXhjaXFmRFg1VnRkUkJ2eHlhTTJmUkZDYzVMMEhsZVdUdktRaXZlM0Y4Uy11aGdBVVhUM3V0WGRSMmk0LVQwVHl5OFhMZjBtTUtfaHJvMkFfY19hZUExZTNUcA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "The Booming Business of Beauty on TikTok Shop",
+      "explanation": "The Booming Business of Beauty on TikTok Shop",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Brand Control on TikTok Shop (Webinar)",
+      "explanation": "Brand Control on TikTok Shop (Webinar)",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xM0tucTJuNWlVWUFtRjZuYzQ4ZWtPMGJjUXRkZVJXQkNIR1A4RnRpWC1qX204cmNuSWNIdUpSNnY3eE5tVW9seS1FR3B0Vnk0YTgtNVA2bTVpcm5MdzVMNmpQeDRkeFV1RGRPSHZHdkNPQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Nearly all luxury resale transactions on TikTok Shop US now come from livestreams",
+      "explanation": "Nearly all luxury resale transactions on TikTok Shop US now come from livestreams",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVm1DMGw0Njh5eTZoRUswNk9aLUZCVmdkbzJ0dTBMNVVKRm9yRVI0NGxOUGhLQVRsUkMxdFQweDFkWE9KbzRhMDF5cVN3U1FQV0FRQ2pIN1pYSkItcDZ6QUY0QkVBbzhmcEFiSnlNNE8tT3pSNmZEbHM1ZHBIcXh3bjJBaXBwNlFBNU5CVk0zMjBfbXBhVzVySF9MYkdHRG9sTWxEUlN2eG5wNXB3QkZYLWVKZlFfNDhuZHNXMV9B?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "PrintKK's Los Angeles Production Powers TikTok Shop Sellers Through Viral Demand Surges",
+      "explanation": "PrintKK's Los Angeles Production Powers TikTok Shop Sellers Through Viral Demand Surges",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORVZkVmxaUURZd3VGWmc1T25GZXRYV2xKUDUzQ0NJeGR3MEgyYmZhSnhIYW05S3R1MEpLankxNW1jRDdya1FpMEN6elliNnBpUU5kaFFnZ0FtSWRpV2JIMUlrY0ZlV19BYWR3T0V4bFRxdzVFelA3dXExdzlzRzNEZ2NEZ1NCaldXZms3UGhEekVYeUxxcHptODY1cFhwTWhvRkxRaElVLXUyOEFMOTZSeVY3ay1VcWh5SnVIRjQxdWkzNUl4TEpzQ3NMMkk1Z2lNMzRRcnRHdGhCeGxLeDRoUFBn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "2026 TikTok News: The Definitive Timeline for Creators",
+      "explanation": "2026 TikTok News: The Definitive Timeline for Creators",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1INzVTemxqcUZVb2lMQWVSeXVVYmlwU080NmptelgwcnJ1ZGpDazJKcHlnOWxaaWVzbml0RDFtc21yUTRZdlJIdE1R?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Love The Pink Stuff? Shop exclusive TikTok deals under $30 this week",
+      "explanation": "Love The Pink Stuff? Shop exclusive TikTok deals under $30 this week",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdVByVnVYT21HYWMzLUR1N185dkZrQW95eVg5MmFYQTlIcHR2R1hCQnNDUnNqQlg3S0FQZUJJT1VXTFZZSUtzZHV6cTc4ZTFHaXlzQmRhVGlJbUVVZGxUNzIwOWllTURuVlNlczhwWG1NSkZvUVVja2JBZEtRQUJvcnJBZThIN0Zhb3p4azhVb2s1NHgtTzRyVXhTTkFYY3FkbXN3OW1oa0ZyZzRwZDRBSTZBWW1qUk95RFhF?oc=5",
+      "local_life_hint": ""
     }
   ],
-  "mode": "ai"
+  "mode": "rule"
 }
