@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T12:01:13.645013+00:00",
-  "week_range": "09.14-09.17",
-  "date_display": "09.14 - 09.17",
-  "editorial_summary": "本周共汇总 30 条 AI 商业要闻，其中高影响 8 条。本周主线包括：豆包手机助手消费者版发布，首款AI智能体手机9月16日开；豆包手机助手首发体验：智能手机正变成「行动终端」；飞书8.0全面拥抱Agent，豆包工作伙伴进群干活；字节上半年营收1200亿美元直追Meta，AI投入致净利；豆包2.1 Pro更新0915版本，API全量上线火山方。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-18T06:38:38.513665+00:00",
+  "week_range": "09.14-09.18",
+  "date_display": "09.14 - 09.18",
+  "editorial_summary": "本周共汇总 50 条 AI 商业要闻，其中高影响 9 条。本周主线包括：豆包手机助手消费者版发布，首款AI智能体手机9月16日开；豆包手机助手首发体验：智能手机正变成「行动终端」；飞书8.0全面拥抱Agent，豆包工作伙伴进群干活；字节上半年营收1200亿美元直追Meta，AI投入致净利；豆包2.1 Pro更新0915版本，API全量上线火山方。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "豆包手机助手消费者版发布，首款AI智能体手机9月16日开售",
@@ -10,7 +10,9 @@
       "飞书8.0全面拥抱Agent，豆包工作伙伴进群干活"
     ],
     "opinions": [
-      "豆包跨越临界点，字节AI下一步怎么走"
+      "豆包跨越临界点，字节AI下一步怎么走",
+      "ByteDance’s AI drug unit Anew Labs raise",
+      "ByteDance founder Zhang Yiming’s ascent "
     ],
     "ecosystem": [
       "美国购物中心借TikTok网红品牌吸引Z世代",
@@ -19,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（16 条），高影响条目占比约 27%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（35 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
     "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。",
@@ -44,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节把Agent从App下沉到手机系统入口、把生成能力从短视频推向实时空间视频、把算力底座换成Arm AGI CPU沙箱——这三件「底座级」改造，正在重写外投的素材形态、投放入口与运营成本结构。",
-  "total_items": 30,
-  "high_count": 8,
+  "total_items": 50,
+  "high_count": 9,
   "items": [
     {
       "title": "豆包手机助手消费者版发布，首款AI智能体手机9月16日开售",
@@ -158,6 +160,17 @@
       "source": "华尔街见闻",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MTVFKMjJhQllscExHUTdoc2RIeUpUOXhHdG1qamdzU3MweGY2Q2hIUDdPVlJNWGxCdWFtMC16eWUwU1g0RnBRZTZuZjliRkF2V2lv?oc=5",
       "local_life_hint": "豆包手机若普及，本地生活商家可通过豆包智能体实现语音点单、到店推荐等新入口，需关注字节系AI助手的分发规则。"
+    },
+    {
+      "title": "Nearly all luxury resale transactions on TikTok Shop US now come from livestreams",
+      "explanation": "Nearly all luxury resale transactions on TikTok Shop US now come from livestreams",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVm1DMGw0Njh5eTZoRUswNk9aLUZCVmdkbzJ0dTBMNVVKRm9yRVI0NGxOUGhLQVRsUkMxdFQweDFkWE9KbzRhMDF5cVN3U1FQV0FRQ2pIN1pYSkItcDZ6QUY0QkVBbzhmcEFiSnlNNE8tT3pSNmZEbHM1ZHBIcXh3bjJBaXBwNlFBNU5CVk0zMjBfbXBhVzVySF9MYkdHRG9sTWxEUlN2eG5wNXB3QkZYLWVKZlFfNDhuZHNXMV9B?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
     },
     {
       "title": "豆包手机助手通过信通院端云协同机密计算L5级评测",
@@ -466,7 +479,216 @@
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1680580?utm_source=rss&utm_medium=rss&utm_campaign=",
       "local_life_hint": "AI视频制作仍需专业工作流，本地生活商家可评估用Seedance做高质量门店宣传片的成本与周期。"
+    },
+    {
+      "title": "抖音万博APP20客户端下载大盘再涨：DAU增长130%，流水增长140%",
+      "explanation": "抖音万博APP20客户端下载大盘再涨：DAU增长130%，流水增长140%",
+      "analysis_points": [],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85YXFLTmJHdmE4andTYk8zdGhiSDlDN2Rfd0YwNnFkMERmeUZybnJPY3kydUhvN1J1LWx1ZzhPbXVGcXprQVFWVU5UWGdXTjB0LTFz?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Billionaire TikTok founder is now the richest person in all of Asia, with a $105 billion net worth",
+      "explanation": "Billionaire TikTok founder is now the richest person in all of Asia, with a $105 billion net worth",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQM1ptMnhqc0ZQY3pocTBxQ2R3UzlQanNzVUdTQldNdFZJaTdiemtNc0k5SGYwbjllSng0UDNNcE82cEVyUUJrcDdLMmpvLWJRMko3b3RjOVd4SHBGMUtIRkZQcUtTbUFabkZwM3JiNHl2YTIzRDd0a3c3ZTBZVktXaXhscHJiNUZicTRmbWlCUnpyM3V1OGRpY2MtemNIUVdPcWVUM0pjRU5XNkFRSEhUbmRybzY5bkN1N29oY2YyS1lvWGdUU21HMm14TlhOVFRyTkxyQVQ2OEhtZDNvaTQ1RUdB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance completes $290 million fundraising for AI drug unit after its spin-off, sources say",
+      "explanation": "ByteDance completes $290 million fundraising for AI drug unit after its spin-off, sources say",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVTBWclMtV0dROHVDX1Q5c3YzekE5ZnlaNGhGRDE0Q0NSZUZRS3pnRVdHWm41allDMnM3YlhXd1FvTG9LN0RCOGtrNkdkbjBLUlE2elVlaUxGOXcyRFhWdE1NaUdxME4xOWRLemJCdlg0NFJLY1N1cDkwRXgxMG9ldkFSbVdncnZQcGM4dU12Z0gzX0VfRWZ6WWJqQVlacE9iVkNxSFg2QmkzZTVYRDBlWnNqY0lrY1l0Vi1BTHl6ekJuaVlNRklSeE50aw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance’s First-Half Profit Drops to $20 Billion, Weighed Down by AI Spending",
+      "explanation": "ByteDance’s First-Half Profit Drops to $20 Billion, Weighed Down by AI Spending",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRkhPRjlFNWNtYmEtdGFFcmY0VVFTM1p5ZnYxNzlsMWhzQ1NvMVZSU01NNnNKcmhPRS1WT295d2dKeC1hSklnazB6cllWVTBMakVQS1dseUR2dEY1YUZLUGxvSEZkaHhBdkdGV1NyaU43Sm9hb055RmY1dHhxbDd5dnV5ME9pbk84VTFUaWJCOEhabUhpMU10bVVlN25ieUt1VkgxczJJZ2Q?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance’s AI drug unit Anew Labs raises $290M at $1.5B valuation, Reuters reports",
+      "explanation": "ByteDance’s AI drug unit Anew Labs raises $290M at $1.5B valuation, Reuters reports",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5JNjZsVDBFY1NTVlRFbUNITzFITFhITGZ5YkVESXk2VkkwZFVrN2RaTXZESDJ5OXU4SDZVOE1rQkNWVkJvMUVsLUg2WjRqcVZYVjdhVk1Ea1pfcW5HOUcyT096emZkLVhDUnc1T291WEdBd196ajRKUjBB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Adds AI Agents to Feishu in Enterprise Push",
+      "explanation": "ByteDance Adds AI Agents to Feishu in Enterprise Push",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcUZNakctZ216bDRDblRWZ0VJUUgxWkpxVkZ2UGw4TTk1SnBnQll2TzNIZi01am55NWticV84dkJlLVY2dzhpR3JEMnZCMlQtRkJNVHRqb1BjekV3ZlV0alZqRGllZ09JdkFfdk9OLVE3ay0tT1A5U3U3T05RQ2pYZVlMbkk5NzQ4MTdBTWhRanM1UDFZNFZKcTJNY19lcU9BM0xRMWNIUlVoOTNm?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok developer ByteDance arranges $29.6 billion loan as it builds AI ambitions",
+      "explanation": "TikTok developer ByteDance arranges $29.6 billion loan as it builds AI ambitions",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUkFMeURtVDVyVHlOM0swaDZtdEhPT1M2Wm42R0ZEaURwV0FYa2xHZ0NQd3phQl9fR2ZsNndBOUkxdnFNandoUDNtXzg4YnczUl90LVZZVkdYb1BLeUNST2RPamczdUZiV3JoV1JJaHNrcGdzQVVNbkJ6ZFdJbUVwMHp4RFd6Njk0OWtUU3JRdFpPM1hhNDQtQVRhUk9YVWhSQU00UkVrMVo3bjI3M3luZDRJQ2lTZElBSVRZaUxmTlVHaXdRZFE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "PrintKK's Los Angeles Production Powers TikTok Shop Sellers Through Viral Demand Surges",
+      "explanation": "PrintKK's Los Angeles Production Powers TikTok Shop Sellers Through Viral Demand Surges",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOXV6UE1BYXdfZXh4MU4yYUZGX2tHaFFoTDFXM3pFRE5WNXAydjRtYndSTXJFUHd1Rkh2bGRvek9rZjBTbjRWeFNpbDh3QXdpeWF2Zk5hQnRTUk80OGtpZVZBeThkNGdrMm9lQzgxZ1RBNjNiTlQ2dlBQMC02WWM0d2JIbGVHczYwNlpHbU1lYzBzQlJfbUNjU0xqbHY5Ql95TXoxV1ZhbEJsSXJ0OWJiZ0NHdVB3aFFOVFBGMTFmM29nbEw2TG1mLU9VN0tOZUVJa2tkWFhHSQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节跳动暂停Seedance 2.0全球发布，深陷版权争议",
+      "explanation": "字节跳动暂停Seedance 2.0全球发布，深陷版权争议",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55WGs4R091NFJnV1FpR3NxbTBkRFc3MDBTdzktMUpaM3dxYi1DMzlJRTBza2NqcUZRV3JyblBZR3NvRDFzbG9TLQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "‘No Grass Growing Under Their Feet’ in China AI. ByteDance, Huawei & Manus. ARD #165",
+      "explanation": "‘No Grass Growing Under Their Feet’ in China AI. ByteDance, Huawei & Manus. ARD #165",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zNjZqWjB6djdfc0w1M2tZWk85c2xIWTBLOWJfbDNnZUhsMllwSmh3d0Rsb2FtRGxvLURjSE9oakxLRk1HX3hfOUExSWxtSm1acFhYdmJXYjdFRTBJOF9PZWtjdGFmUHZoWDFmcjhNR3hPVkJlTnpnQWVB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance spin-off Anew Labs raises US$290m amid AI drug design fundraising boom",
+      "explanation": "ByteDance spin-off Anew Labs raises US$290m amid AI drug design fundraising boom",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMHBMaU54WkJtRXZHdlZTM0pueUZOLU4xQmFUR0JzYy1IMTREbEJ0R3M3aGMyRnRyQmM3VVRqMG9LMks0clZIUl9rYkVJNmwydkxZRWRGUHBCeEZxRkN4c1ZfdnJ0SWViUDRhQzF0cl9Bcl8tSW0zcDRLbXVMaWdFeGxITHRJMVJiUGZYVXhCNVNsRHNYM0plRm0teWZjbzdIRll4b0hXTUJXTEZvYkJ6bTJEYzA2SnMtaFhGRXRCN1BMZkdha0xWMzBqWG9xb3ZkUDJBQmhtbjPSAdgBQVVfeXFMUG5EUk93NmdVTDVUbkxoQkRoVkhNWjNqeXd2aVAtQVB6ekxuMVhwaWh5dGloSl84cTBjR1JlVXhjWDdvQUs3RloxQ0lqMWNEc1RzbDA5a1l5aUsySVRKYXljYTVqZlc0b0JYanFkQzlHVzQ3Y3ExSTJSeFFkRlZ3bzF2eXdrNzVNaUQyM09yY0FabjM1WW1rNEQxcHFDQ0dDbEtRS09rSmw2bGNDY1lrdWpPSnNCX3I1M2poTnY4ZE5CT2h4d3pyOEZZLXh0N3dwV282WXNmWVlx?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok parent ByteDance raises cash for drug AI spinout Anew",
+      "explanation": "TikTok parent ByteDance raises cash for drug AI spinout Anew",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS0NlWTNDc3NQWEx0b1g2eVU0clpGS2FKYnZkU0tBalpEYXJQU2pFYWl2eG9EVkE1eWNXWUNMQ2loSDFtSkZuYlloMjZzVWNUdUdqdlU2Uk9IbE51SGFEVENXel8taVJnc2dwQ2dVdE9DR3pzS2JNam5McEozSS16Mk53Z19xT3VUb3AxSjZyVQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok developer ByteDance profit drops as AI spending weighs",
+      "explanation": "TikTok developer ByteDance profit drops as AI spending weighs",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3pHV05DQUVGRWdSdy01cEN5TTA3TWtYSE5tcE9uMHpuVDJYcHBCejFrX3V4c3dPMVprLWx0cVBsZzNISUJFR3Z3NWxnS1dqeDR4eUV0blBfUjJBdWt5dEo4MmFoeVRmS0ZaQ0NUTm1qNTJHSzdBcnlPMVkyOFdMTTlyVUZObFhjektPVzZhRTJUcjJRYjViMHVyejRZdWoxUldZek53?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance founder Zhang Yiming’s ascent to Asia’s richest reflects China’s AI monetization edge: analysts",
+      "explanation": "ByteDance founder Zhang Yiming’s ascent to Asia’s richest reflects China’s AI monetization edge: analysts",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DRWpXV3BtMnJPak1Jc2tpQ1FUS3FfaDEzNTViVjVBSkhocndIeW5zX1lsTGppZzN1dUtxYldoeGlnZmJiUmYtWGF2dml6ZzlLa25LRnIxMEVvOXEzcXpDSWh3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Trip.com Group’s Trip.Biz brings travel AI to ByteDance's Doubao Work",
+      "explanation": "Trip.com Group’s Trip.Biz brings travel AI to ByteDance's Doubao Work",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0SmF1LWg1aWFyUmt5b3ZaNlFqb2lTTVo5VzlndnR5U3BGRTZ3VldhNVMwdHZ2WXUwSGJjeVZTSEFsQ3NJcHl0T21xa3Z3bU4xcWF5aGxmcUZOQ3M?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Billionaire Overtakes Adani to Become Asia’s Richest Person",
+      "explanation": "TikTok Billionaire Overtakes Adani to Become Asia’s Richest Person",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcHNqc0ZZMG04VjVxZENVcGhEMGlQREJOdlFIeUduSzE3WnI0NkszanhKcm1OYWhOZ3BXRlVYdHF4TENwUWZqZGIzUTRfU0IwbTZhX0ptYkFRbVV6NjRiVGVVLVNwSjE2ZVRYZzJJdHpTQkd6ay1zRnQ4QnVkOVZQY25oM1pvdlpzZUVUWVlyRHU4RmVocC1wdDZoZTNjVWMzRDBOb1NFUUtBLWpqb004OUFwZ1BvQVN3UlZEXzMya3o2VzJOSHB5bGRBRHctQjRn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance hires new head of financial investment team",
+      "explanation": "ByteDance hires new head of financial investment team",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdklyLWFyYWlpSlFGai1fSGtiSG45Vko3VlZzanpzQXJ0SG9jakRnZUNySFpnZk1jaThYQmpnT2NxYmFXb2N4aGlqRlZrWV94YlZmVkFPZTEtQ25kNVcxWkJhOEloSWVJOUhDaW52MnVJN2MwWVdvZUpMVWUtMmlJd25oMVpaVEZvdlVFMl9OdmZXY3NJN3pjaFNNTlFIaHBh?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "How ByteDance’s AI-enhanced short-drama app leapfrogged Chinese streaming giants",
+      "explanation": "How ByteDance’s AI-enhanced short-drama app leapfrogged Chinese streaming giants",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQUlQNnZuX191ZUJCeTFCdVJuTVpnT2h6djRiVGI3a0w5MjdyZUZ3VGFkbm9LQkEwU2pGZERUY04tcXVYQlhzbU5yam1wR2tIZ1Zma2dKb3pBVHhwNHNWX203clJkR1h3RW5OcERSamFRNk4xbG44emdwb3B3S2h5bVRpaWdWUXJLMjhvZ1RJUUFNd00zWS13bTlVaUh6LUVwek5LVGFiVExIbW53ZlVabkV3Vno2R0RJcUtyeDBITVBIektXb2Y5Vm56WmvSAcwBQVVfeXFMTkx4Zk52SHF3NlFCTWw2VHo2RlJzQW5DUzB4VER4bnctMl9va1ZLMENkeUhCM3R4T1p0aHlRWGhLdVoyRXRQVGZEbGdjN243bWM0YktXbHh2U25telVDWjNibERONzBwQ2xNZnM3dXVKaEZMdTNiZVJPeE4zbGVPV1gwOUN4OEg1NU4tNDJrWU1DemxjMzN6MU5vdUE1Y1NXWHVKUEZTQVN5NklfZmowRzdCM200a3VPU0k1M05iX3hwREJEMjVwbzNTRS1o?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "The Booming Business of Beauty on TikTok Shop",
+      "explanation": "The Booming Business of Beauty on TikTok Shop",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
+      "local_life_hint": ""
     }
   ],
-  "mode": "ai"
+  "mode": "rule"
 }
