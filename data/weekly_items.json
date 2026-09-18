@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T06:38:38.513665+00:00",
+  "generated_at": "2026-09-18T11:42:56.586449+00:00",
   "week_range": "09.14-09.18",
   "date_display": "09.14 - 09.18",
-  "editorial_summary": "本周共汇总 50 条 AI 商业要闻，其中高影响 9 条。本周主线包括：豆包手机助手消费者版发布，首款AI智能体手机9月16日开；豆包手机助手首发体验：智能手机正变成「行动终端」；飞书8.0全面拥抱Agent，豆包工作伙伴进群干活；字节上半年营收1200亿美元直追Meta，AI投入致净利；豆包2.1 Pro更新0915版本，API全量上线火山方。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 49 条 AI 商业要闻，其中高影响 8 条。本周主线包括：豆包手机助手消费者版发布，首款AI智能体手机9月16日开；豆包手机助手首发体验：智能手机正变成「行动终端」；飞书8.0全面拥抱Agent，豆包工作伙伴进群干活；字节上半年营收1200亿美元直追Meta，AI投入致净利；豆包2.1 Pro更新0915版本，API全量上线火山方。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "豆包手机助手消费者版发布，首款AI智能体手机9月16日开售",
@@ -11,8 +11,7 @@
     ],
     "opinions": [
       "豆包跨越临界点，字节AI下一步怎么走",
-      "ByteDance’s AI drug unit Anew Labs raise",
-      "ByteDance founder Zhang Yiming’s ascent "
+      "ByteDance’s AI drug unit Anew Labs raise"
     ],
     "ecosystem": [
       "美国购物中心借TikTok网红品牌吸引Z世代",
@@ -21,7 +20,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（35 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（34 条），高影响条目占比约 16%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
     "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。",
@@ -46,8 +45,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节把Agent从App下沉到手机系统入口、把生成能力从短视频推向实时空间视频、把算力底座换成Arm AGI CPU沙箱——这三件「底座级」改造，正在重写外投的素材形态、投放入口与运营成本结构。",
-  "total_items": 50,
-  "high_count": 9,
+  "total_items": 49,
+  "high_count": 8,
   "items": [
     {
       "title": "豆包手机助手消费者版发布，首款AI智能体手机9月16日开售",
@@ -160,17 +159,6 @@
       "source": "华尔街见闻",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MTVFKMjJhQllscExHUTdoc2RIeUpUOXhHdG1qamdzU3MweGY2Q2hIUDdPVlJNWGxCdWFtMC16eWUwU1g0RnBRZTZuZjliRkF2V2lv?oc=5",
       "local_life_hint": "豆包手机若普及，本地生活商家可通过豆包智能体实现语音点单、到店推荐等新入口，需关注字节系AI助手的分发规则。"
-    },
-    {
-      "title": "Nearly all luxury resale transactions on TikTok Shop US now come from livestreams",
-      "explanation": "Nearly all luxury resale transactions on TikTok Shop US now come from livestreams",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVm1DMGw0Njh5eTZoRUswNk9aLUZCVmdkbzJ0dTBMNVVKRm9yRVI0NGxOUGhLQVRsUkMxdFQweDFkWE9KbzRhMDF5cVN3U1FQV0FRQ2pIN1pYSkItcDZ6QUY0QkVBbzhmcEFiSnlNNE8tT3pSNmZEbHM1ZHBIcXh3bjJBaXBwNlFBNU5CVk0zMjBfbXBhVzVySF9MYkdHRG9sTWxEUlN2eG5wNXB3QkZYLWVKZlFfNDhuZHNXMV9B?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
     },
     {
       "title": "豆包手机助手通过信通院端云协同机密计算L5级评测",
@@ -492,14 +480,14 @@
       "local_life_hint": ""
     },
     {
-      "title": "Billionaire TikTok founder is now the richest person in all of Asia, with a $105 billion net worth",
-      "explanation": "Billionaire TikTok founder is now the richest person in all of Asia, with a $105 billion net worth",
+      "title": "ByteDance's second AI-agent phone drops forced automation for permission — yet app wall still up",
+      "explanation": "ByteDance's second AI-agent phone drops forced automation for permission — yet app wall still up",
       "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQM1ptMnhqc0ZQY3pocTBxQ2R3UzlQanNzVUdTQldNdFZJaTdiemtNc0k5SGYwbjllSng0UDNNcE82cEVyUUJrcDdLMmpvLWJRMko3b3RjOVd4SHBGMUtIRkZQcUtTbUFabkZwM3JiNHl2YTIzRDd0a3c3ZTBZVktXaXhscHJiNUZicTRmbWlCUnpyM3V1OGRpY2MtemNIUVdPcWVUM0pjRU5XNkFRSEhUbmRybzY5bkN1N29oY2YyS1lvWGdUU21HMm14TlhOVFRyTkxyQVQ2OEhtZDNvaTQ1RUdB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUTQ4RjVpa00ydnBHR3BJdkFZSFMwN1lZOFBzQ21zUFNxMXRybnJkcnE2NFBjYTE5cU5yZ1YwcHQwT21fMXpEZEQ2VjUwMllyLVJrOHZqT3VPTW4teTlHdngtSWhBSUpwZW5mZnRWQ2lLN29rTUpwLWRhUEZieVd6cjhpR1ptcG8?oc=5",
       "local_life_hint": ""
     },
     {
@@ -511,6 +499,17 @@
       "impact": "medium",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVTBWclMtV0dROHVDX1Q5c3YzekE5ZnlaNGhGRDE0Q0NSZUZRS3pnRVdHWm41allDMnM3YlhXd1FvTG9LN0RCOGtrNkdkbjBLUlE2elVlaUxGOXcyRFhWdE1NaUdxME4xOWRLemJCdlg0NFJLY1N1cDkwRXgxMG9ldkFSbVdncnZQcGM4dU12Z0gzX0VfRWZ6WWJqQVlacE9iVkNxSFg2QmkzZTVYRDBlWnNqY0lrY1l0Vi1BTHl6ekJuaVlNRklSeE50aw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Billionaire TikTok founder is now the richest person in all of Asia, with a $105 billion net worth",
+      "explanation": "Billionaire TikTok founder is now the richest person in all of Asia, with a $105 billion net worth",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQM1ptMnhqc0ZQY3pocTBxQ2R3UzlQanNzVUdTQldNdFZJaTdiemtNc0k5SGYwbjllSng0UDNNcE82cEVyUUJrcDdLMmpvLWJRMko3b3RjOVd4SHBGMUtIRkZQcUtTbUFabkZwM3JiNHl2YTIzRDd0a3c3ZTBZVktXaXhscHJiNUZicTRmbWlCUnpyM3V1OGRpY2MtemNIUVdPcWVUM0pjRU5XNkFRSEhUbmRybzY5bkN1N29oY2YyS1lvWGdUU21HMm14TlhOVFRyTkxyQVQ2OEhtZDNvaTQ1RUdB?oc=5",
       "local_life_hint": ""
     },
     {
@@ -536,14 +535,14 @@
       "local_life_hint": ""
     },
     {
-      "title": "ByteDance Adds AI Agents to Feishu in Enterprise Push",
-      "explanation": "ByteDance Adds AI Agents to Feishu in Enterprise Push",
+      "title": "ByteDance Is Burning $5.5 Billion a Day on AI—and It Just Cut Its Own Profit Margin to Prove It",
+      "explanation": "ByteDance Is Burning $5.5 Billion a Day on AI—and It Just Cut Its Own Profit Margin to Prove It",
       "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcUZNakctZ216bDRDblRWZ0VJUUgxWkpxVkZ2UGw4TTk1SnBnQll2TzNIZi01am55NWticV84dkJlLVY2dzhpR3JEMnZCMlQtRkJNVHRqb1BjekV3ZlV0alZqRGllZ09JdkFfdk9OLVE3ay0tT1A5U3U3T05RQ2pYZVlMbkk5NzQ4MTdBTWhRanM1UDFZNFZKcTJNY19lcU9BM0xRMWNIUlVoOTNm?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1JnWGRNWTY5bDhCU3h1aFpUMWx3ZFBHcnBQbEpRNGlndzBfSnNUNExsVngtU1dMckJPOFNNTWd4NUFxLTFQXzJSOTBPZ3psbldKc1hjYkRQb2duXzFPN3REaUEwcTNGaUNyV2dnWDE0Y0hSdVJCRFlCdXpyV1ZpeTdUcU1SME0zV2Y5VGhxdHBiRndqeTJHbkZmdUNYWGw2VlFWaURXQXFXaExpWEVURTBmTE15Sk8tYVZF?oc=5",
       "local_life_hint": ""
     },
     {
@@ -580,6 +579,17 @@
       "local_life_hint": ""
     },
     {
+      "title": "TikTok Billionaire Overtakes Adani to Become Asia’s Richest Person",
+      "explanation": "TikTok Billionaire Overtakes Adani to Become Asia’s Richest Person",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcHNqc0ZZMG04VjVxZENVcGhEMGlQREJOdlFIeUduSzE3WnI0NkszanhKcm1OYWhOZ3BXRlVYdHF4TENwUWZqZGIzUTRfU0IwbTZhX0ptYkFRbVV6NjRiVGVVLVNwSjE2ZVRYZzJJdHpTQkd6ay1zRnQ4QnVkOVZQY25oM1pvdlpzZUVUWVlyRHU4RmVocC1wdDZoZTNjVWMzRDBOb1NFUUtBLWpqb004OUFwZ1BvQVN3UlZEXzMya3o2VzJOSHB5bGRBRHctQjRn?oc=5",
+      "local_life_hint": ""
+    },
+    {
       "title": "‘No Grass Growing Under Their Feet’ in China AI. ByteDance, Huawei & Manus. ARD #165",
       "explanation": "‘No Grass Growing Under Their Feet’ in China AI. ByteDance, Huawei & Manus. ARD #165",
       "analysis_points": [],
@@ -588,17 +598,6 @@
       "impact": "medium",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zNjZqWjB6djdfc0w1M2tZWk85c2xIWTBLOWJfbDNnZUhsMllwSmh3d0Rsb2FtRGxvLURjSE9oakxLRk1HX3hfOUExSWxtSm1acFhYdmJXYjdFRTBJOF9PZWtjdGFmUHZoWDFmcjhNR3hPVkJlTnpnQWVB?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance spin-off Anew Labs raises US$290m amid AI drug design fundraising boom",
-      "explanation": "ByteDance spin-off Anew Labs raises US$290m amid AI drug design fundraising boom",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMHBMaU54WkJtRXZHdlZTM0pueUZOLU4xQmFUR0JzYy1IMTREbEJ0R3M3aGMyRnRyQmM3VVRqMG9LMks0clZIUl9rYkVJNmwydkxZRWRGUHBCeEZxRkN4c1ZfdnJ0SWViUDRhQzF0cl9Bcl8tSW0zcDRLbXVMaWdFeGxITHRJMVJiUGZYVXhCNVNsRHNYM0plRm0teWZjbzdIRll4b0hXTUJXTEZvYkJ6bTJEYzA2SnMtaFhGRXRCN1BMZkdha0xWMzBqWG9xb3ZkUDJBQmhtbjPSAdgBQVVfeXFMUG5EUk93NmdVTDVUbkxoQkRoVkhNWjNqeXd2aVAtQVB6ekxuMVhwaWh5dGloSl84cTBjR1JlVXhjWDdvQUs3RloxQ0lqMWNEc1RzbDA5a1l5aUsySVRKYXljYTVqZlc0b0JYanFkQzlHVzQ3Y3ExSTJSeFFkRlZ3bzF2eXdrNzVNaUQyM09yY0FabjM1WW1rNEQxcHFDQ0dDbEtRS09rSmw2bGNDY1lrdWpPSnNCX3I1M2poTnY4ZE5CT2h4d3pyOEZZLXh0N3dwV282WXNmWVlx?oc=5",
       "local_life_hint": ""
     },
     {
@@ -624,36 +623,14 @@
       "local_life_hint": ""
     },
     {
-      "title": "ByteDance founder Zhang Yiming’s ascent to Asia’s richest reflects China’s AI monetization edge: analysts",
-      "explanation": "ByteDance founder Zhang Yiming’s ascent to Asia’s richest reflects China’s AI monetization edge: analysts",
+      "title": "ByteDance spin-off Anew Labs raises US$290m amid AI drug design fundraising boom",
+      "explanation": "ByteDance spin-off Anew Labs raises US$290m amid AI drug design fundraising boom",
       "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DRWpXV3BtMnJPak1Jc2tpQ1FUS3FfaDEzNTViVjVBSkhocndIeW5zX1lsTGppZzN1dUtxYldoeGlnZmJiUmYtWGF2dml6ZzlLa25LRnIxMEVvOXEzcXpDSWh3?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Trip.com Group’s Trip.Biz brings travel AI to ByteDance's Doubao Work",
-      "explanation": "Trip.com Group’s Trip.Biz brings travel AI to ByteDance's Doubao Work",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0SmF1LWg1aWFyUmt5b3ZaNlFqb2lTTVo5VzlndnR5U3BGRTZ3VldhNVMwdHZ2WXUwSGJjeVZTSEFsQ3NJcHl0T21xa3Z3bU4xcWF5aGxmcUZOQ3M?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Billionaire Overtakes Adani to Become Asia’s Richest Person",
-      "explanation": "TikTok Billionaire Overtakes Adani to Become Asia’s Richest Person",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcHNqc0ZZMG04VjVxZENVcGhEMGlQREJOdlFIeUduSzE3WnI0NkszanhKcm1OYWhOZ3BXRlVYdHF4TENwUWZqZGIzUTRfU0IwbTZhX0ptYkFRbVV6NjRiVGVVLVNwSjE2ZVRYZzJJdHpTQkd6ay1zRnQ4QnVkOVZQY25oM1pvdlpzZUVUWVlyRHU4RmVocC1wdDZoZTNjVWMzRDBOb1NFUUtBLWpqb004OUFwZ1BvQVN3UlZEXzMya3o2VzJOSHB5bGRBRHctQjRn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMHBMaU54WkJtRXZHdlZTM0pueUZOLU4xQmFUR0JzYy1IMTREbEJ0R3M3aGMyRnRyQmM3VVRqMG9LMks0clZIUl9rYkVJNmwydkxZRWRGUHBCeEZxRkN4c1ZfdnJ0SWViUDRhQzF0cl9Bcl8tSW0zcDRLbXVMaWdFeGxITHRJMVJiUGZYVXhCNVNsRHNYM0plRm0teWZjbzdIRll4b0hXTUJXTEZvYkJ6bTJEYzA2SnMtaFhGRXRCN1BMZkdha0xWMzBqWG9xb3ZkUDJBQmhtbjPSAdgBQVVfeXFMUG5EUk93NmdVTDVUbkxoQkRoVkhNWjNqeXd2aVAtQVB6ekxuMVhwaWh5dGloSl84cTBjR1JlVXhjWDdvQUs3RloxQ0lqMWNEc1RzbDA5a1l5aUsySVRKYXljYTVqZlc0b0JYanFkQzlHVzQ3Y3ExSTJSeFFkRlZ3bzF2eXdrNzVNaUQyM09yY0FabjM1WW1rNEQxcHFDQ0dDbEtRS09rSmw2bGNDY1lrdWpPSnNCX3I1M2poTnY4ZE5CT2h4d3pyOEZZLXh0N3dwV282WXNmWVlx?oc=5",
       "local_life_hint": ""
     },
     {
@@ -687,6 +664,17 @@
       "impact": "medium",
       "source": "Google News中文",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Brand Control on TikTok Shop (Webinar)",
+      "explanation": "Brand Control on TikTok Shop (Webinar)",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xM0tucTJuNWlVWUFtRjZuYzQ4ZWtPMGJjUXRkZVJXQkNIR1A4RnRpWC1qX204cmNuSWNIdUpSNnY3eE5tVW9seS1FR3B0Vnk0YTgtNVA2bTVpcm5MdzVMNmpQeDRkeFV1RGRPSHZHdkNPQQ?oc=5",
       "local_life_hint": ""
     }
   ],
