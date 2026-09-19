@@ -1,182 +1,151 @@
 {
-  "generated_at": "2026-09-19T06:35:50.797479+00:00",
+  "generated_at": "2026-09-19T11:24:50.002516+00:00",
   "date_display": "2026年09月19日",
   "date_short": "2026-09-19",
   "weekday": "周六",
-  "editorial_summary": "今天字节系最值得广告销售关注的一条主线，是豆包大模型2.1 Pro的密集更新与落地：模型在多Agent任务、多模态Coding、图像推理上明显升级，幻觉减少、图像推理成本降约三成，并已接入豆包工作与火山方舟，意味着企业侧调用门槛和成本都在下降。第二条主线是字节ToB组织重构，豆包、飞书、火山引擎合三为一，梁汝波明确加码企业AI赛道，飞书aily与豆包工作融合后还将调整计费方式，办公入口的争夺从'谁更聪明'转向'谁更懂企业'。第三条主线是商业化侧的真实数据，巨量引擎披露上半年短剧消耗增长118%，抖音心动追剧盛典把短剧IP与文旅消费场景绑定，说明内容型投放仍是字节广告最硬的现金牛。此外即梦AI网页版上线、豆包座舱助手与特斯拉等车型持续上车，显示字节正把模型能力铺向创作与车机等新场景。",
+  "editorial_summary": "今天字节系最值得广告销售关注的是「豆包2.1 Pro」的密集更新：模型在幻觉抑制、多模态Coding、图像推理成本上同步优化，并已接入豆包工作与火山方舟，意味着企业侧Agent交付能力再上一个台阶。与此同时，飞书与豆包工作融合后的计费方式将调整，叠加梁汝波明确加码企业AI赛道，字节ToB商业化路径正从「卖工具」转向「卖可交付的AI工作入口」。在消费端，即梦AI网页版上线、豆包手机持续热销，说明字节正用C端流量反哺B端模型迭代。对本地生活广告主而言，豆包座舱助手、特斯拉上车等场景扩张，正在把AI助手变成新的品牌触达入口。",
   "overview": {
     "new_products": [
-      "字节更新豆包大模型2.1 Pro，强化多Agent任务与多模态Coding能力，幻觉显著减少、Agent任务交付更可靠，并已接入豆包工作与火山方舟，面向企业与开发者提供更稳的智能体底座。",
-      "即梦AI网页版正式上线，同步上线戚薇《末日盛夏》预告片内容，把AI视频创作从移动端扩展到浏览器端，降低创作者使用门槛。",
-      "豆包座舱助手发布，首搭荣威家越07，并持续在特斯拉等车型上通过OTA上车，把大模型能力从手机延伸到车机交互场景。"
+      "字节更新豆包2.1 Pro大模型，幻觉显著减少、多模态Coding能力强化，图像推理成本降约三成，已接入豆包工作与火山方舟，面向企业Agent与开发者开放API调用。",
+      "即梦AI网页版正式上线，同步发布戚薇《末日盛夏》预告片，把AI视频生成从移动端扩展到PC浏览器，降低专业创作者的使用门槛。",
+      "飞书aily与豆包工作融合后调整计费方式，字节把办公协作与AI Agent打包成统一的企业级产品，按新的用量或席位模式收费。"
     ],
     "opinions": [
-      "有分析认为字节把豆包、飞书、火山引擎合三为一后，AI办公竞争焦点从'模型谁更强'转向'谁更懂企业'，飞书aily与豆包工作融合后调整计费方式，说明字节正用组织与定价双手段抢企业入口。",
-      "第三方数据显示豆包月活出现首次下滑，同时字节计划推出豆包付费版，市场观点认为这标志着豆包从纯拉新转向商业化变现，付费墙与留存将成为下一阶段关键指标。",
-      "有报道指出字节已从'流量模式'转向'算力模式'，张一鸣登顶亚洲首富背后是AI基础设施投入的规模化，短剧等业务成为支撑算力投入的现金牛。"
+      "梁汝波公开表示豆包、飞书、火山引擎整合后将加大企业市场投入，认为ToC三个月能跑通、飞书却用了三年，暗示字节ToB需要更长的组织耐心与投入周期。",
+      "多家媒体分析字节AI办公大重组，认为竞争焦点已从「谁的模型强」转向「谁更懂企业」，飞书与豆包合体是字节争夺AI工作入口的关键一步。"
     ],
     "ecosystem": [
-      "字节ToB侧把豆包、飞书、火山引擎整合，并加大企业市场投入，反映大厂AI办公入口之争已从单点产品竞争升级为组织与生态级整合。",
-      "巨量引擎披露上半年短剧消耗增长118%，抖音心动追剧盛典推动短剧IP与文旅消费结合，显示内容型广告仍是字节商业化最确定的增长引擎。",
-      "豆包大模型持续上车荣威、特斯拉等车型，火山引擎深耕车企供应链，说明大模型正加速向汽车等实体行业渗透，成为新的分发与商业化渠道。"
+      "字节把豆包、飞书、火山引擎三线合一，标志国内AI办公赛道从单点工具竞争进入「模型+协作+云」一体化生态竞争阶段。",
+      "豆包大模型持续上车特斯拉、荣威等车型，火山引擎深耕车企供应链，显示AI大模型正加速向智能座舱等硬件场景渗透。"
     ]
   },
   "category_summaries": {
-    "大厂动向": "字节今天的主线是豆包2.1 Pro的密集更新与落地，模型在多Agent、多模态Coding、图像推理上全面升级并接入豆包工作与火山方舟；同时豆包、飞书、火山引擎合三为一，梁汝波明确加码企业AI，ToB版图被重新划分。即梦AI网页版上线、豆包座舱助手与特斯拉等车型上车，则显示字节正把模型能力铺向创作与车机等新场景。",
-    "初创动向": "今天字节系初创相关线索较少，主要集中在豆包生态的第三方应用与内容侧，如AI偶像、AI互动空间等新形态在抖音生态内探索爆款逻辑，但缺乏独立融资或商业化硬数据，暂不构成独立看点。",
-    "生态动向": "字节ToB整合与火山引擎车企供应链布局，显示大模型正从通用能力走向行业解决方案；巨量引擎短剧消耗增长118%、抖音心动追剧盛典绑定文旅，说明内容生态与广告变现的耦合在加深，短剧成为平台与商家共同的长线经营抓手。",
-    "观点与深度": "围绕字节的讨论集中在两点：一是豆包月活首次下滑叠加将推付费版，被视为从拉新转向变现的信号；二是字节从流量模式转向算力模式，张一鸣登顶亚洲首富背后是AI基础设施的规模化投入，短剧等业务成为支撑算力的现金牛。"
+    "大厂动向": "字节今天动作集中在ToB与模型层：豆包2.1 Pro完成多模态Coding与成本优化并接入豆包工作和火山方舟，飞书与豆包工作融合后调整计费，梁汝波定调加码企业AI。同时即梦AI网页版上线、豆包手机持续热销，C端与B端双线推进，字节正把AI能力从模型层向办公、创作、硬件全场景铺开。",
+    "初创动向": "本批候选资讯中字节系初创相关动态较少，主要体现为围绕TikTok Shop生态的第三方服务商（如Euka AI）获得融资并把TikTok Shop打法复制到Instagram，反映字节电商生态的外溢效应仍在吸引资本。",
+    "生态动向": "字节AI生态呈现明显的「整合+渗透」态势：内部豆包、飞书、火山引擎三线合一，外部豆包大模型持续上车特斯拉、荣威等车型，火山引擎深耕车企供应链，AI能力正从软件向智能座舱等硬件场景延伸。",
+    "观点与深度": "媒体与分析师普遍把字节这轮调整解读为AI办公入口之争的升级，核心观点是竞争焦点从模型能力转向企业理解力，梁汝波关于组织速度的表态也被视为字节ToB战略耐心的信号。"
   },
   "local_life_insights": [
     {
-      "base": "豆包2.1 Pro图像推理成本下降约三成，并支持'看图写代码'的多模态能力，图像理解与生成的单次调用成本显著降低。",
-      "borrow": "外投团队可把商品图、门店图、菜品图的批量理解与优化从人工外包转为API自动处理，用更低的单素材成本做大规模素材A/B测试，把省下的预算投向更多投放实验。"
+      "base": "豆包2.1 Pro把图像推理成本降低约三成，并支持多模态Coding与看图写代码，模型从纯文本推理升级为低成本多模态生成底座。",
+      "borrow": "外投团队可把商品图、门店图批量喂给多模态模型自动生成落地页与广告素材，把素材制作从人工外包转为低成本批量生成，压缩单条素材成本。"
     },
     {
-      "base": "巨量引擎上半年短剧消耗增长118%，抖音把短剧IP与文旅消费场景绑定，形成内容到线下的转化链路。",
-      "borrow": "外投团队可借鉴短剧'内容种草+投流放大'的组合，为本地生活商家设计系列化短视频素材，用持续内容沉淀替代一次性促销投放，降低单次获客成本。"
+      "base": "豆包座舱助手发布并首搭荣威，特斯拉等车型也接入豆包大模型，AI助手从手机延伸到车载语音入口。",
+      "borrow": "本地生活外投可提前布局车载语音场景的到店、加油、充电等服务推荐，把车主行程场景纳入定向投放的潜在入口。"
     },
     {
-      "base": "豆包大模型持续上车荣威、特斯拉等车型，座舱助手成为车机交互入口，火山引擎同步深耕车企供应链。",
-      "borrow": "外投团队可提前研究车机端到店推荐与导航联动的广告形态，为本地生活商家储备车载场景的投放素材与定向策略，抢占新流量入口。"
+      "base": "飞书与豆包工作融合后调整计费方式，字节把办公协作与AI Agent打包成统一企业产品。",
+      "borrow": "外投团队可关注企业客户在AI办公工具上的预算迁移，把原本投在协作软件上的预算引导到本地生活广告投放，做跨品类预算争夺。"
     }
   ],
-  "insights_intro": "换个视角看，今天字节把豆包2.1 Pro的图像推理成本降了三成、把模型接进办公与车机、又用短剧把内容与线下消费打通——这些底座级改造意味着外投的素材生产会更便宜、投放场景会更多元、成本结构会被重新定义。",
-  "total_items": 9,
-  "new_vs_yesterday": 9,
+  "insights_intro": "换个视角看，今天字节把豆包2.1 Pro的多模态推理成本压降三成、把座舱助手装进车机、把飞书与豆包工作打包计费，这些底座级改造意味着外投的素材生产会更便宜、投放入口会从手机扩到车内、企业预算池也会重新分配。",
+  "total_items": 7,
+  "new_vs_yesterday": 7,
   "compare_date": "2026-09-18",
-  "high_count": 2,
+  "high_count": 3,
   "category_counts": {
-    "大厂动向": 5,
-    "生态动向": 1,
-    "观点与深度": 3
+    "大厂动向": 6,
+    "生态动向": 1
   },
   "items": [
     {
-      "title": "豆包2.1 Pro图像推理成本降三成",
-      "explanation": "报道称豆包2.1 Pro开始'看图写代码'，图像推理成本下降约三成。成本下降直接决定多模态能力能否被大规模商用，对需要批量处理图片、视频素材的广告与电商场景尤为关键。",
+      "title": "豆包2.1 Pro图像推理成本降三成，看图写代码",
+      "explanation": "豆包2.1 Pro新增「看图写代码」能力，图像推理成本下降约三成。成本下降意味着企业可以更大规模地把多模态AI用于实际生产，对广告素材生成、商品图处理等高频场景是直接利好。",
       "analysis_points": [
-        "能力变化：豆包2.1 Pro在图像理解与代码生成结合上取得进展，图像推理成本较此前下降约三成。",
-        "对广告主价值：素材审核、图片理解、自动生成投放文案等高频图像任务的单次成本下降，可支撑更大规模的自动化投放实验。"
+        "能力变化：模型从纯文本推理扩展到图像理解并直接生成代码，图像推理成本降低约30%。",
+        "商业价值：广告主和商家可用更低成本批量处理商品图、生成落地页代码，提升素材生产效率。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "21财经",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTm8wbm9yWDNtVjEtekxOX044aU5xc2RtdWx5dWVNNTZZaDlOdzhQOUIzSHdHSS0zSmFpTEtiYW5JR25jVmJyMmllcXJ3NUthdmpMN2ZJLTN5T1pudG9fclpDNnFnVkhpX2tsUExUZlFGdXA1TnVNUWp6VjZxNTFvNVpaMTRObkdiQ1gySEVybGVmeHlz?oc=5",
-      "local_life_hint": "图像推理成本下降后，本地生活商家可批量用AI处理门店图片、菜品图，降低素材制作与优化成本。"
-    },
-    {
-      "title": "飞书aily与豆包工作融合后将调整计费方式",
-      "explanation": "独家报道称飞书aily与豆包工作融合后将调整计费方式。计费模式变化直接影响企业采购成本与使用习惯，是字节AI办公商业化从'免费拉新'转向'按价值收费'的关键一步。",
-      "analysis_points": [
-        "产品变化：飞书aily与豆包工作从并行走向融合，计费方式随之调整。",
-        "对企业价值：企业需重新评估AI办公工具的成本结构，提前测算按量或按席位计费下的投入产出。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "界面新闻",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOdXZEN0M2UFpodG01VkdYTGpoSTZ6WWtZOUh5RHdaeXVqNk1XelVQRTRmRGlkNVFSb0hERDJ3eWNiT0M4VGdmcGZodkVUaHc4eXAxTERn?oc=5",
-      "local_life_hint": "使用飞书/豆包工作的商家需关注计费调整，提前规划AI办公预算。"
+      "local_life_hint": "本地生活广告主可借图像推理降本，批量生成门店海报、菜品图，降低素材制作成本。"
     },
     {
       "title": "即梦AI网页版上线，戚薇预告片同步登陆",
-      "explanation": "即梦AI网页版正式上线，戚薇《末日盛夏》预告片同步登陆。即梦从移动端扩展到网页端，降低专业创作者使用门槛，同时用明星内容做示范，强化其在AI视频创作领域的品牌认知。",
+      "explanation": "即梦AI网页版正式上线，同步发布戚薇《末日盛夏》预告片。即梦从移动端扩展到PC浏览器，降低专业创作者使用门槛，是字节AI视频生成能力向专业内容生产场景的延伸。",
       "analysis_points": [
-        "产品变化：即梦AI从移动端扩展到网页版，覆盖更专业的桌面创作场景。",
-        "对创作者价值：广告与内容团队可在浏览器端批量生成AI视频素材，提升制作效率。"
+        "产品变化：即梦AI从移动端App扩展到网页版，支持PC浏览器直接使用。",
+        "商业价值：品牌方可借即梦网页版在PC端高效制作AI视频素材，用于营销短片与预告片生产。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0eWlqZVdWUEEwcnJscEhKN3BmWERxY1dYZkJEMVJBdHdsQ1VDY3JOY3Z1NjdoZ1JfSkZqeFhFMkM5QVIyRkxYeDRRWGVEN1NBQlZIbU1iX2ZpckJoZDRCTFZBU21yR05DUHp4XzJZWGhBM3o1dFdpOEdEMmhESms?oc=5",
-      "local_life_hint": "本地生活商家可用即梦网页版快速生成门店宣传短视频，降低素材制作门槛。"
+      "local_life_hint": "本地生活品牌可用即梦网页版快速生成门店宣传短片，降低视频素材外包成本。"
     },
     {
-      "title": "特斯拉推送更新：豆包大模型上车",
-      "explanation": "特斯拉推送2026.26.200.11更新，豆包大模型上车，智驾感知与交互能力升级。豆包进入特斯拉车机，意味着字节大模型在高端车型上获得规模化分发，是模型能力向实体场景渗透的重要案例。",
+      "title": "特斯拉推送更新，豆包大模型正式上车",
+      "explanation": "特斯拉推送2026.26.200.11更新，豆包大模型上车，智驾感知与交互能力升级。豆包进入特斯拉车机，是字节大模型在头部车企的标杆落地，验证其车载场景的通用性。",
       "analysis_points": [
-        "能力变化：豆包大模型接入特斯拉车机，参与智驾感知与交互升级。",
-        "对商家价值：车载语音助手可能成为本地服务推荐的新入口，商家可关注车机端营销机会。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "网通社",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzWGFlQTdnM18zZnM2Ykl0TVJKNEZXZ0Y1VXdraGlKM2U1dHJiUWZFN2R4SEQ1R0pxUzM2WjVWclZvSHpWemZLNXNhaV9XUXVseWRscXo1dXR0WVE?oc=5",
-      "local_life_hint": "本地生活服务可探索与车机导航结合的到店推荐，抢占车载场景流量。"
-    },
-    {
-      "title": "火山引擎深耕车企供应链，赋能国产替代",
-      "explanation": "火山引擎深耕车企供应链，用AI解决方案赋能主机厂国产替代提速。这表明火山引擎正把大模型能力打包成行业解决方案，切入汽车这一高价值B端市场，是字节ToB商业化的重要落地方向。",
-      "analysis_points": [
-        "业务变化：火山引擎从通用云服务延伸为车企供应链AI解决方案提供商。",
-        "对服务商价值：可借鉴火山引擎的行业打法，把AI能力封装成垂直行业方案对外输出。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "网通社",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFMREd2cHRuMU1YUjFqczU0ejJ4dUJKYmNfLWlJUWVFYXZrQTRCRWNlZGs2UDhmMjlUR0VILWdvQ1dDSXQ3ZV80T3c1WWNSZG1pam9UUm5rUmEzeFU?oc=5",
-      "local_life_hint": "本地生活服务商可参考火山引擎行业方案思路，把AI能力封装成商家可采购的标准化产品。"
-    },
-    {
-      "title": "豆包将推付费版，第三方称月活首次下滑",
-      "explanation": "报道称豆包将推出付费版，同时第三方数据显示其月活首次下滑。这标志着豆包从纯免费拉新阶段进入商业化变现阶段，付费墙与留存将成为衡量其商业价值的关键指标。",
-      "analysis_points": [
-        "商业模式变化：豆包从免费工具转向推出付费版，探索订阅或增值收费。",
-        "对广告主价值：付费用户画像可能更精准，广告主可关注豆包付费生态内的营销机会。"
+        "能力变化：豆包大模型接入特斯拉车机，提升语音交互与场景理解能力。",
+        "商业价值：豆包上车头部车企提升品牌背书，为火山引擎拓展更多车企客户提供案例。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15QnlsZFpfdnJLa3lSaU5xRFcycklKbTFadi1HX2R2WmJvVFFHdnBoblB1RmphekxTaWZUN1Z0N05VQ2ZKeWFMY2VxR1lWVERHYk1v?oc=5",
-      "local_life_hint": "本地生活商家可关注豆包付费版是否提供商家营销工具，评估投放价值。"
+      "source": "网通社",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzWGFlQTdnM18zZnM2Ykl0TVJKNEZXZ0Y1VXdraGlKM2U1dHJiUWZFN2R4SEQ1R0pxUzM2WjVWclZvSHpWemZLNXNhaV9XUXVseWRscXo1dXR0WVE?oc=5",
+      "local_life_hint": "本地生活服务可关注车载语音入口，未来加油、充电、餐饮推荐或可通过豆包触达车主。"
     },
     {
-      "title": "从流量到算力：张一鸣登顶亚洲首富背后",
-      "explanation": "报道分析张一鸣登顶亚洲首富背后，是字节从流量模式转向算力模式的深层变化。这一视角把字节的AI投入与商业成功联系起来，说明算力基础设施已成为其核心竞争力与估值支撑。",
+      "title": "火山引擎深耕车企供应链，赋能国产替代",
+      "explanation": "火山引擎深耕车企供应链，用AI解决方案赋能主机厂国产替代提速。这表明火山引擎正把AI能力打包成行业解决方案，切入汽车这一高价值垂直行业。",
       "analysis_points": [
-        "模式变化：字节从依赖流量变现转向以算力与AI基础设施为核心资产。",
-        "对行业价值：说明AI投入虽短期压利润，但长期构成竞争壁垒与估值支撑。"
+        "业务变化：火山引擎从通用云服务转向车企供应链垂直解决方案。",
+        "商业价值：车企客户可借火山引擎AI方案加速国产替代，火山引擎借此锁定长期行业客户。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
+      "category": "大厂动向",
+      "type": "fact",
       "impact": "medium",
-      "source": "手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hSU82STVUX3MxZXNZX3cxay1haFJJTE0wcF84Vk1xb2FxM201TGxpd1RwSXhvX3lzaHhzekg2TmNtZmRxTzBZNjBLZ1FJd3ZZMThVMmd4Sm1ldXEzNkk2WEZ3?oc=5",
+      "source": "网通社",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RRTd2cHRuMU1YUjFqczU0ejJ4dUJKYmNfLWlJUWVFYXZrQTRCRWNlZGs2UDhmMjlUR0VILWdvQ1dDSXQ3ZV80T3c1WWNSZG1pam9UUm5rUmEzeFU?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "通吃短剧：字节被称最恐怖的赚钱机器",
-      "explanation": "报道称字节通吃短剧赛道，成为最恐怖的赚钱机器。短剧从内容到投流再到变现几乎都在字节生态内闭环，这解释了为何短剧消耗能高速增长，也说明字节在内容型广告上的护城河。",
+      "title": "字节重构ToB版图：飞书与豆包将整合",
+      "explanation": "财联社报道字节重构ToB版图，飞书与豆包将整合，大厂激战AI工作入口。这是字节ToB组织架构的实质性调整，把协作工具与AI模型合并，直接对标企业办公市场。",
       "analysis_points": [
-        "生态变化：字节在短剧的内容生产、分发、投流、变现上形成闭环。",
-        "对广告主价值：短剧投放可一站式在字节生态完成，效率与规模优势明显。"
+        "组织变化：飞书与豆包从独立产品走向整合，形成统一AI工作入口。",
+        "商业价值：企业客户采购AI办公工具时可获得模型+协作一体化方案，减少多产品拼接成本。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "yeeyi",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GbGZXODVxQjlyeEIzNDVFc0xiZFN0ZWZ0aHRTcmVSS0pyNm4tSlJYMUZHRkphUjN6NXZ3RVV4eWlmSmF2Y2RUcGtNNVNPMFFYSktGeW1R?oc=5",
-      "local_life_hint": "本地生活商家可借短剧闭环做门店引流，把内容热度直接转化为到店转化。"
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFMobDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "抖音们做AI互动空间，能否重写爆款逻辑",
-      "explanation": "报道探讨抖音等平台都在做的AI互动空间能否重写爆款逻辑。这反映字节在内容形态上持续探索AI原生互动玩法，若跑通可能带来新的用户时长与广告库存增长点。",
+      "title": "豆包2.1 Pro多模态Coding能力强化",
+      "explanation": "豆包大模型2.1 Pro更新，多模态Coding能力强化。这意味着模型不仅能写代码，还能结合图像等多模态输入生成代码，对需要图文混合开发的企业场景价值提升。",
       "analysis_points": [
-        "产品探索：抖音等平台尝试AI互动空间，把被动观看变为可交互内容。",
-        "对广告主价值：新互动形态可能带来新的广告位与营销玩法，值得提前关注。"
+        "能力变化：豆包2.1 Pro从文本Coding扩展到多模态Coding，支持图像输入生成代码。",
+        "商业价值：企业可用其快速把设计稿转成网页或小程序代码，缩短开发周期。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "low",
-      "source": "虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tRUR3dXFRdTJBZ251cTVHdTdaeUFlOHA3b3NYWWFCOTFQNFJPTzNCeVJDVGtFUExHOHBZb09WeUphWnRqWUtCRVVNNXVyVkNRNjVxRQ?oc=5",
-      "local_life_hint": "本地生活商家可关注AI互动内容形态，探索互动式促销与到店玩法。"
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFVX3lxTE5Qc3lDanhJOUlLaXNnQ0VfYnRPTXF1VXljOFR2OWNpRjBENlpnTktSQ3BjazVYZkZDVFpMcUJ4TmVQa1BCX3JJMjJ5ODVxZ0RZLUc3V2tMMTQ2LU9CSENCeVBrVEtoWlpvbVFNZnB6cENRdkxWV3JqQWhKRkgwSDJoUHZXME04YnNtYXUxVw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包大模型持续上车，多款车型搭载",
+      "explanation": "媒体梳理搭载豆包大模型的车型，显示豆包已进入多款量产车。这反映字节大模型在汽车行业的渗透速度，车载场景正成为豆包重要的落地渠道。",
+      "analysis_points": [
+        "生态变化：豆包大模型从单车型扩展到多款量产车搭载。",
+        "商业价值：车企可借豆包提升智能化卖点，字节借此扩大车载场景的数据与用户触达。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wV2RWZ3JNWXl5bEpKVEkzNFV4MVFoYUdPR1VaRnN3M08yX0VoNlZDelZZM2RhSUJNX3pJdlFiT2hudndkWHpDTzZzNnZFZDVBeWF2THlVWm5VblB5RGdUWTFIbUpuZGxhRVRGRmROV0U4dw?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
