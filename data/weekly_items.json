@@ -1,0 +1,780 @@
+{
+  "generated_at": "2026-09-19T11:24:50.017223+00:00",
+  "week_range": "09.14-09.19",
+  "date_display": "09.14 - 09.19",
+  "editorial_summary": "本周共汇总 56 条 AI 商业要闻，其中高影响 11 条。本周主线包括：豆包手机助手消费者版发布，首款AI智能体手机9月16日开；豆包手机助手首发体验：智能手机正变成「行动终端」；飞书8.0全面拥抱Agent，豆包工作伙伴进群干活；字节上半年营收1200亿美元直追Meta，AI投入致净利；豆包2.1 Pro更新0915版本，API全量上线火山方。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "overview": {
+    "new_products": [
+      "豆包手机助手消费者版发布，首款AI智能体手机9月16日开售",
+      "豆包手机助手首发体验：智能手机正变成「行动终端」",
+      "飞书8.0全面拥抱Agent，豆包工作伙伴进群干活"
+    ],
+    "opinions": [
+      "豆包跨越临界点，字节AI下一步怎么走",
+      "ByteDance’s AI drug unit Anew Labs raise"
+    ],
+    "ecosystem": [
+      "美国购物中心借TikTok网红品牌吸引Z世代",
+      "CapCut与The One Club达成全球AI创意合作",
+      "市场监管总局约谈在线酒店预订平台，抖音在列"
+    ]
+  },
+  "commonality": [
+    "本周内容重心在「大厂动向」（40 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
+    "监管与合规议题浮出水面，版权 / 数据 / 内容安全成为大厂产品发布之外必须回应的议程。",
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
+  ],
+  "local_life_insights": [
+    {
+      "base": "豆包手机助手消费者版把Agent能力下沉到系统级入口，新增独立AI键，可跨应用自动执行下载、分类、打包、发送等操作，手机从「信息终端」变为「行动终端」。",
+      "borrow": "美团商业化可评估把到店核销、外卖下单、预约等本地生活服务封装成可被系统级Agent调用的能力，让用户通过豆包助手一句话完成交易，抢占系统入口的流量分发权。"
+    },
+    {
+      "base": "字节基于Seedance开发实时空间视频生成模型，由张一鸣亲自负责，多模态生成能力从短视频/图像延伸到实时空间视频。",
+      "borrow": "外投团队可提前储备空间视频/沉浸式素材的创意与制作能力，一旦能力开放，用可漫游的门店、菜品、场景素材替代传统图文，提升本地生活广告的点击与到店转化。"
+    },
+    {
+      "base": "火山引擎将首批落地基于Arm AGI CPU的智能体沙箱，为Agent运行提供专用算力底座，降低Agent部署与并发成本。",
+      "borrow": "美团商业化可关注用低成本智能体沙箱承载批量营销Agent（如自动生成投放文案、智能客服、素材批量测试），把外投中重复性人力环节替换为Agent，压缩投放运营成本。"
+    },
+    {
+      "base": "豆包大模型2.1 Pro更新0915版本并全量上线火山方舟，Agent交付更可靠、多模态Coding进化，模型调用门槛与成本进一步下降。",
+      "borrow": "外投团队可把豆包2.1 Pro接入素材生产链路，用Agent自动生成多版本本地生活广告创意并做A/B测试，降低单条素材的制作与迭代成本。"
+    }
+  ],
+  "insights_intro": "换个视角看，今天字节把Agent从App下沉到手机系统入口、把生成能力从短视频推向实时空间视频、把算力底座换成Arm AGI CPU沙箱——这三件「底座级」改造，正在重写外投的素材形态、投放入口与运营成本结构。",
+  "total_items": 56,
+  "high_count": 11,
+  "items": [
+    {
+      "title": "豆包手机助手消费者版发布，首款AI智能体手机9月16日开售",
+      "explanation": "字节正式发布豆包手机助手消费者版，依托最新豆包大模型，新增独立AI键，保留「操作手机」Beta能力，可跨应用自动下载、分类、打包文件。首款AI智能体手机定档9月16日开售，标志字节把Agent能力从App层下沉到系统级入口。",
+      "analysis_points": [
+        "产品能力：从「语音助手」升级为可跨应用执行任务的系统级Agent，新增独立AI键一键调用，能钻进群聊自动下载、分类、打包文件再发送。",
+        "对商家价值：系统级Agent入口一旦规模化，品牌可通过豆包助手直接触达用户操作链路，为本地生活、电商的「对话即服务」提供新投放位。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "上观新闻/搜狐/OSCHINA",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUeHlJcUFCM0ZQcnZzZG5hM1ZfM1NmT1VaTnBqZWZBbUFoc21IV09rd0h3d0ZVYmViWGJVVk9WQjM3MTFpYmptdFpDZG9FUEF3WWxQVDhIeEpwQQ?oc=5",
+      "local_life_hint": "本地生活商家可关注豆包助手「操作手机」能力开放后，能否把到店核销、外卖下单等动作接入对话式Agent，抢占系统级入口的流量红利。"
+    },
+    {
+      "title": "豆包手机助手首发体验：智能手机正变成「行动终端」",
+      "explanation": "爱范儿发布豆包手机助手消费者版首发体验，指出智能手机正从「信息终端」变成「行动终端」，Agent能横跨不同应用替用户操作，如自动下载、分类、打包群文件。",
+      "analysis_points": [
+        "能力变化：手机从被动响应变为主动执行，Agent可跨应用完成多步骤任务，新增独立AI键提升调用效率。",
+        "对商家价值：当手机能替用户「行动」，本地生活服务的下单、预约、核销等动作可能被Agent直接完成，商家需适配Agent调用接口。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1679983?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": "本地生活商家应提前思考服务如何被Agent调用，例如开放预约、下单API，抢占「行动终端」时代的入口。"
+    },
+    {
+      "title": "飞书8.0全面拥抱Agent，豆包工作伙伴进群干活",
+      "explanation": "飞书8.0发布并推出豆包工作伙伴，Agent可被拉进工作群、接收不同成员任务、在授权范围内调用文档会议工具，目前处于企业共创阶段。这标志着办公Agent从个人提效工具升级为有组织身份的「团队同事」。",
+      "analysis_points": [
+        "Agent能力从「我自己怎么更快工作」变成「我们怎么一起把事情做完」，具备独立组织身份、可进群、可接任务、可交付结果。",
+        "对企业客户意味着协同办公的付费逻辑从「按人头买席位」可能转向「按Agent产能买服务」，销售侧可关注Agent席位与广告投放预算的联动。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿/InfoQ/钛媒体",
+      "url": "https://www.ifanr.com/1680138?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": "本地生活连锁商家可用团队Agent统一管理多门店的营销素材与活动排期，降低总部到门店的执行损耗。"
+    },
+    {
+      "title": "字节上半年营收1200亿美元直追Meta，AI投入致净利降至200亿",
+      "explanation": "字节跳动2026上半年营收约1200亿美元，同比增30%，海外收入占比创新高，但受AI投入拖累净利降至200亿美元、净利率16.7%。这是理解字节AI商业化节奏的核心财务背景。",
+      "analysis_points": [
+        "营收从追赶Meta到接近持平，海外收入占比创新高，说明TikTok等海外业务是增长主引擎。",
+        "净利与净利率双降，意味着字节把利润大规模投入AI基础设施与模型，广告主可预期字节系流量与AI工具将持续加码。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2M3huWkQzaWRQdnlrdWlUV1gwNnFDNGxYYjlCdWlOd2x0aXRBLUNpNnN4bXEyc2JVOGdNNFRrQ1EtU2lsU2hpZy03V0o4V1BNRS13?oc=5",
+      "local_life_hint": "字节利润承压但营收高增，说明其更依赖广告与电商变现，本地生活商家可争取字节系流量红利窗口。"
+    },
+    {
+      "title": "豆包2.1 Pro更新0915版本，API全量上线火山方舟",
+      "explanation": "豆包大模型2.1 Pro更新至0915版本，API已全量上线火山方舟，主打Agent交付更可靠、多模态Coding进化。这是字节模型底座的一次实质升级，直接服务企业与开发者。",
+      "analysis_points": [
+        "Agent交付更可靠意味着智能体从演示走向可交付生产，多模态Coding强化则提升图文视频与代码混合任务能力。",
+        "API全量上线火山方舟，广告主与开发者可直接调用，用于素材生成、智能客服与投放自动化。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "凤凰网科技",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5XaHNaSzFPRjMtMFFQNVZKdU56MFlYM2FkekxTaTFhd1BIcjZ4dmp0NVpIVUdJRVh1X0tINENVSGR5WEhyOU1oQXQ3SEI?oc=5",
+      "local_life_hint": "广告主可用豆包2.1 Pro的Agent能力自动生成多版本投放素材，降低本地生活广告创意成本。"
+    },
+    {
+      "title": "豆包手机首销一秒破亿，31.6万人抢购",
+      "explanation": "努比亚NaviX Ultra（第二代豆包手机）正式发售，512GB定价5999元起，首销销售额一秒破亿，预约抢购达31.6万人。AI智能体手机从概念走向量产，为字节系应用打开新入口。",
+      "analysis_points": [
+        "手机可调用字节全系列产品，豆包手机助手主导AI体验，实现跨应用执行任务。",
+        "31.6万人抢购与一秒破亿说明消费者对AI智能体手机接受度高，字节系应用获得新的系统级分发入口。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/003/227.htm",
+      "local_life_hint": "豆包手机系统级调用字节系应用，本地生活服务可争取成为手机助手默认推荐入口。"
+    },
+    {
+      "title": "梁汝波：豆包飞书火山引擎整合后加大企业市场投入",
+      "explanation": "字节跳动CEO梁汝波公开表态，豆包、飞书与火山引擎整合后将加大企业市场投入，飞书上半年ARR增速创新高。字节正把C端模型能力与B端办公、云底座打包，争夺AI工作入口。",
+      "analysis_points": [
+        "豆包、飞书、火山引擎从分散产品整合为AI办公栈，面向企业提供模型+办公+云的一体化方案。",
+        "飞书ARR增速创新高说明企业付费意愿提升，广告主可关注企业级AI营销与办公场景的投放机会。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "bjnews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pUjFrUG1idmw3bnhHTEJKdEJiSlRzblhvaVM3MEkzZ0JudjdUZWI3Vm9rcnlzSlg1TzdIWUtQVVlOYkF1UG1RSnZVNWdNR3poUkZjZlRGR05SODBwWWwtclhPUHA?oc=5",
+      "local_life_hint": "企业AI办公整合后，本地生活商家可通过飞书生态触达企业客户，拓展团餐、福利等B端场景。"
+    },
+    {
+      "title": "豆包手机正式发售，512GB定价5999元起",
+      "explanation": "豆包手机今日正式发售，512GB版本定价5999元起，可优先调用字节全系列产品。这是字节从软件跨入AI智能体硬件入口的标志性动作，把豆包能力直接绑定到终端，抢占用户日常交互入口。",
+      "analysis_points": [
+        "产品从纯App形态变为「硬件+助手」一体化终端，可优先调用字节全系产品，交互入口从手机桌面转向AI智能体。",
+        "对商家而言，豆包手机若形成规模，将成为新的本地生活服务分发入口，值得提前布局字节系AI助手中的商家卡片与推荐位。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MTVFKMjJhQllscExHUTdoc2RIeUpUOXhHdG1qamdzU3MweGY2Q2hIUDdPVlJNWGxCdWFtMC16eWUwU1g0RnBRZTZuZjliRkF2V2lv?oc=5",
+      "local_life_hint": "豆包手机若普及，本地生活商家可通过豆包智能体实现语音点单、到店推荐等新入口，需关注字节系AI助手的分发规则。"
+    },
+    {
+      "title": "豆包2.1 Pro图像推理成本降三成，看图写代码",
+      "explanation": "豆包2.1 Pro新增「看图写代码」能力，图像推理成本下降约三成。成本下降意味着企业可以更大规模地把多模态AI用于实际生产，对广告素材生成、商品图处理等高频场景是直接利好。",
+      "analysis_points": [
+        "能力变化：模型从纯文本推理扩展到图像理解并直接生成代码，图像推理成本降低约30%。",
+        "商业价值：广告主和商家可用更低成本批量处理商品图、生成落地页代码，提升素材生产效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTm8wbm9yWDNtVjEtekxOX044aU5xc2RtdWx5dWVNNTZZaDlOdzhQOUIzSHdHSS0zSmFpTEtiYW5JR25jVmJyMmllcXJ3NUthdmpMN2ZJLTN5T1pudG9fclpDNnFnVkhpX2tsUExUZlFGdXA1TnVNUWp6VjZxNTFvNVpaMTRObkdiQ1gySEVybGVmeHlz?oc=5",
+      "local_life_hint": "本地生活广告主可借图像推理降本，批量生成门店海报、菜品图，降低素材制作成本。"
+    },
+    {
+      "title": "特斯拉推送更新，豆包大模型正式上车",
+      "explanation": "特斯拉推送2026.26.200.11更新，豆包大模型上车，智驾感知与交互能力升级。豆包进入特斯拉车机，是字节大模型在头部车企的标杆落地，验证其车载场景的通用性。",
+      "analysis_points": [
+        "能力变化：豆包大模型接入特斯拉车机，提升语音交互与场景理解能力。",
+        "商业价值：豆包上车头部车企提升品牌背书，为火山引擎拓展更多车企客户提供案例。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "网通社",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzWGFlQTdnM18zZnM2Ykl0TVJKNEZXZ0Y1VXdraGlKM2U1dHJiUWZFN2R4SEQ1R0pxUzM2WjVWclZvSHpWemZLNXNhaV9XUXVseWRscXo1dXR0WVE?oc=5",
+      "local_life_hint": "本地生活服务可关注车载语音入口，未来加油、充电、餐饮推荐或可通过豆包触达车主。"
+    },
+    {
+      "title": "字节重构ToB版图：飞书与豆包将整合",
+      "explanation": "财联社报道字节重构ToB版图，飞书与豆包将整合，大厂激战AI工作入口。这是字节ToB组织架构的实质性调整，把协作工具与AI模型合并，直接对标企业办公市场。",
+      "analysis_points": [
+        "组织变化：飞书与豆包从独立产品走向整合，形成统一AI工作入口。",
+        "商业价值：企业客户采购AI办公工具时可获得模型+协作一体化方案，减少多产品拼接成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFMobDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包手机助手通过信通院端云协同机密计算L5级评测",
+      "explanation": "中国信通院依据《端云协同机密计算技术规范》对豆包手机助手开展专项测评，其通过端侧业务系统安全、端云协同安全、云云协同安全三大项共15个子项检测，获评L5级，成为国内首批通过该评测的产品之一。",
+      "analysis_points": [
+        "能力变化：豆包助手在端云协同场景下具备可信执行环境、远程证明、密钥管理、透明日志等安全能力，隐私保护达到国内最高等级。",
+        "对商家价值：Agent处理用户数据时的合规与安全背书增强，品牌在接入豆包助手做营销触达时，用户信任门槛与合规风险同步降低。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/002/138.htm",
+      "local_life_hint": "涉及用户位置、订单等敏感数据的本地生活投放，可借豆包助手的安全合规能力作为卖点，降低商家对数据安全的顾虑。"
+    },
+    {
+      "title": "TikTok Shop与亚马逊头部卖家重合度低，新势力崛起",
+      "explanation": "Marketplace Pulse报道TikTok Shop的头部卖家与亚马逊头部卖家重合度低，说明TikTok Shop正在孕育一批原生新卖家，而非简单承接亚马逊存量商家。",
+      "analysis_points": [
+        "生态变化：TikTok Shop形成独立的卖家生态，内容驱动型新品牌更容易跑出，与货架电商逻辑不同。",
+        "对商家价值：中小商家在TikTok Shop有更大机会凭内容能力突围，不必与亚马逊大卖正面竞争。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Marketplace Pulse",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQzlOcG5rSjkySmhXYTZFMkZBSkhBZjlFa2lGck5jbzlIX0hMUk1OY3REN2Z1X1R6Yjd3T3ZJTnZUOHNKUmhkZ0dJaHdGN1Q1MjdCVmhFRmp2VVZ4T3FRcEh4TzVCZEg1dFZ0VENzYnhOVjhmdUJGb2lGRnFFTzZNaGZZMjU0dFk?oc=5",
+      "local_life_hint": "本地生活商家可借鉴TikTok Shop内容驱动逻辑，用短视频/直播内容而非单纯货架陈列来获客。"
+    },
+    {
+      "title": "美国购物中心借TikTok网红品牌吸引Z世代",
+      "explanation": "Axios报道Mall of America正借助TikTok上的网红品牌吸引Z世代消费者，把线上爆红的品牌引入线下实体商业。显示TikTok内容生态对线下零售的引流价值。",
+      "analysis_points": [
+        "生态变化：TikTok网红品牌从线上走向线下实体，社交电商与线下商业形成联动。",
+        "对本地生活价值：本地商业体可引入抖音/TikTok网红品牌做线下快闪，用线上流量反哺到店客流。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb0U4d252NDJXa3pjRTl2RzEySmhNakpTUjljRjl6bkVWZmVxUHBnM1p1RmhGOFRMd2I3NWRoYTA4YU1IQTN3NjdQc2JTUHEwZ2ZqSWd4RE1oNmpNcGlZbFVVNl9LLUdhcmpIbXMycy03U19oTExMRnhSeEwyQ3ZfNUVyd3kzRk9jUzRVN0EtZnc2MlppWmhGQWs1Q1g5YU5vU0xzWUlFcWJzUTk3?oc=5",
+      "local_life_hint": "本地商业体可尝试引入抖音网红品牌做线下快闪或联名，把线上内容热度转化为到店客流。"
+    },
+    {
+      "title": "CapCut与The One Club达成全球AI创意合作",
+      "explanation": "剪映国际版CapCut与The One Club宣布重大全球AI合作，把AI视频创作能力引入创意行业赛事与教育。显示剪映正通过行业合作扩大AI创作工具的专业影响力。",
+      "analysis_points": [
+        "能力变化：CapCut从消费级剪辑工具向专业创意行业渗透，AI能力被纳入创意评审与教育体系。",
+        "对广告主价值：品牌可借助CapCut AI工具与创意社群，更低成本产出高质量广告素材。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "produ",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPam1uQ2tDOGQyXzdkeXdhbi1odUVXdWRoTGRuQ3VnRjJLQmVVcmF4UHh3SUZfVk9iVnZpdURVbHd0ZjZpb3dIWU1BemdENTJHQjZEUGw2U1FKOHozRWNoUWxGM01ITDI5VHMxYlRIOExHdVgtbGdUcVRDQmc5VDVGWGNJNjl0MTZVMnFwOE5xakMxa2ZkRHdSaWxtNkJvWm1GNWozUA?oc=5",
+      "local_life_hint": "本地生活商家可关注CapCut AI创意工具的专业化进展，用其批量产出符合平台调性的投放素材。"
+    },
+    {
+      "title": "TikTok新功能为AI重制短剧开闸，内容供给扩容",
+      "explanation": "TikTok新功能为「AI重制短剧」大开方便之门，引发谁吃肉谁挨打的讨论。这降低了短剧内容的二次创作门槛，可能大幅扩容平台短剧内容供给与广告库存。",
+      "analysis_points": [
+        "内容生产从「原创拍摄」扩展到「AI重制已有短剧」，创作者可用AI快速生成多语言、多版本短剧内容。",
+        "对广告主意味着短剧投放素材供给增加、成本可能下降，品牌可关注AI重制短剧中的植入与定制合作机会。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "流媒体网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Ed0hZTEJia1Yzem9Tb2VRdU44b2J6ZkVEQ0swa19rX0NveEJrWnNkOWRoVmZoR1J4NkVsWHAyblRNNjBadFhGbTcwSTFVUFlJcjAySGxibHhZOE5CV0wyMEtYdVNORGFQZG1r?oc=5",
+      "local_life_hint": "本地生活商家可借AI重制短剧的低成本素材，制作门店剧情化短视频用于同城投放。"
+    },
+    {
+      "title": "抖音发布可信友善社区计划，严控AIGC滥用",
+      "explanation": "抖音启动可信社区守护计划与友善社区共建计划，优化自主声明机制、打造AI求真辟谣入口、严控AIGC滥用并打击恶意营销号与虚假摆拍。平台治理收紧将影响内容营销的合规边界。",
+      "analysis_points": [
+        "治理从「事后处罚」升级为「AI+体系治理」，通过生成痕迹判断AI内容，引导创作者主动标记内容来源。",
+        "对广告主意味着AI生成素材需明确标注、虚假摆拍营销风险上升，品牌投放应提前审查素材合规性。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/002/674.htm",
+      "local_life_hint": "本地生活商家投放的探店、测评类素材需避免虚假摆拍，AI生成内容应主动标注以规避限流风险。"
+    },
+    {
+      "title": "市场监管总局约谈在线酒店预订平台，抖音在列",
+      "explanation": "市场监管总局会同文旅部约谈美团、抖音、京东、携程等在线酒店预订平台，要求防范化解「全网最低价」等竞争风险。这直接影响抖音本地生活酒旅业务的定价与补贴策略。",
+      "analysis_points": [
+        "监管要求平台严守反垄断法、反不正当竞争法等，防范「全网最低价」式竞争，平台补贴与比价玩法将受限。",
+        "对本地生活商家意味着酒旅类目的价格战空间收窄，商家应转向服务差异化与内容种草而非单纯低价引流。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/002/624.htm",
+      "local_life_hint": "酒旅商家应减少对「全网最低价」标签的依赖，转向内容种草与套餐差异化提升转化。"
+    },
+    {
+      "title": "字节ADrive独立智能云盘上线，云存储竞争升温",
+      "explanation": "字节推出独立智能云盘ADrive，被视为其在云存储与AI办公基础设施上的新布局。云盘作为个人与企业数据的入口，可与豆包、飞书形成数据协同。",
+      "analysis_points": [
+        "产品从「无独立云盘」变成「独立智能云盘ADrive」，强调智能化能力，面向个人与企业存储场景。",
+        "对广告主意味着字节办公生态的数据入口更完整，企业客户的文档与素材可能沉淀在字节体系内，利于后续AI服务变现。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91RlB1dUVjQkxBVTlIYm9lV0RWX3F0TUdNbzlUQ2lkNUFRLTd0aXhOc3N4Q1B0cUlSTDVuWlZPeHJ0VVB0UkpfN1VzaHNrMV94X1l3?oc=5",
+      "local_life_hint": "本地生活服务商可将门店素材统一沉淀在云盘，便于多门店复用与AI素材生成。"
+    },
+    {
+      "title": "火山引擎把ASR做成懂业务的入口",
+      "explanation": "火山引擎将语音识别ASR能力做成真正懂业务的入口，强调行业化与场景化。语音作为智能体交互的核心入口，其行业适配能力直接影响Agent在客服、营销等场景的落地效果。",
+      "analysis_points": [
+        "ASR能力从「通用语音转文字」升级为「懂业务的行业化语音入口」，可适配不同行业的术语与场景。",
+        "对广告主意味着智能客服、语音外呼等营销场景的识别准确率提升，可降低人工成本并提高转化。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MeUt3dDIxamVpNkZOd3QxSlFEN25YRTBLRXA4QUsxdnhGT3VHVlIzU1F4aXJjV0RsLTFOX3kxTnR2NkFIZ2tZZklsaDdfbzR6aE5mX3VLeDg2UEpfaDJncUVWc0ItUjZybHNjazBVZG9IT0I4d21ORVpzTWs?oc=5",
+      "local_life_hint": "本地生活商家可用火山ASR搭建智能语音客服，处理门店预订、咨询等高频电话场景。"
+    },
+    {
+      "title": "飞书CEO谢欣：飞书与豆包工作是AI时代最优解",
+      "explanation": "飞书CEO谢欣公开表示飞书与豆包工作是AI时代的最优解，为字节企业AI战略站台。这一表态强化了字节在办公Agent赛道的整合叙事，也回应了外界对三合一后协同效果的疑问。",
+      "analysis_points": [
+        "战略叙事从「独立产品竞争」转为「飞书+豆包工作组合最优解」，强调协同而非单点能力。",
+        "对企业客户意味着采购决策可参考一体化方案，销售侧可用「协同+Agent」组合价值打动客户。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新华网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Hb3BHSHpmTUFjVFVfazdPY1NtemFBbGhZTVZPRjBtMTVnU0RNS2lkbGUxRk05VjNzY2EtazdjblZJT1ZpUlVGSEhGN1RjVnlVYVJ2U1QxbEs3eGFwWkIxRzVLQVVQYWNfbjdlNzBva0p3dWtHX0ZFSkNrQm4?oc=5",
+      "local_life_hint": "本地生活连锁品牌可关注飞书+豆包工作的组合方案，用于总部与门店的协同管理。"
+    },
+    {
+      "title": "豆包跨越临界点，字节AI下一步怎么走",
+      "explanation": "36氪分析豆包跨越「临界点」后字节AI的下一步走向，讨论焦点从模型能力转向分发与商业化闭环。这为理解字节AI战略重心迁移提供了外部视角。",
+      "analysis_points": [
+        "分析认为豆包用户规模已过临界点，下一步关键是分发渠道与商业化闭环而非单纯模型迭代。",
+        "对广告主意味着豆包生态的营销价值将逐步释放，可关注豆包内广告位与品牌智能体的合作机会。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36氪",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aWlZNcjRTNjlRZnlvZnRVdmg4dzF0YlIxUk9Kc1FiZnY4VVRWbWJieUZKbThQajd0OV9yNHZJajRVaUFTMXJRc28zWU5PZw?oc=5",
+      "local_life_hint": "本地生活商家可关注豆包内的品牌智能体与推荐位，提前布局AI入口的品牌曝光。"
+    },
+    {
+      "title": "梁汝波谈组织速度：ToC三个月，飞书用了三年",
+      "explanation": "梁汝波公开对比内部ToC产品立项到发布一般3个月、飞书用了3年，揭示字节做C端与B端的组织节奏差异。这一表态为理解字节为何此时整合企业AI资源提供了组织逻辑。",
+      "analysis_points": [
+        "组织节奏从「C端快速试错」到「B端长周期打磨」，飞书三年周期说明企业产品的复杂度与投入门槛。",
+        "对广告主意味着字节企业AI产品将更注重长期打磨，B端客户可获得更成熟的服务体系。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vRWlsWHNMRzg4dmJXbktkcWpoclZtRGxHQ01tQWhEa2lpaDdGOFFSbDM0eHQzcjAzRTM4dUVCUDRDdGtSS19Bem1vVzRKanMxeU9yWVd6WUFyX3NwZmNrZHE0T2o?oc=5",
+      "local_life_hint": "本地生活服务商可据此判断字节B端产品的成熟节奏，合理安排合作与采购时间点。"
+    },
+    {
+      "title": "比亚迪腾势N8L首搭迪迪虾，豆包大模型成合作伙伴",
+      "explanation": "比亚迪腾势N8L纯电全球首搭「迪迪虾」AI超级智能体，官宣支付宝、豆包大模型等合作伙伴。这显示豆包大模型正加速进入汽车智能座舱场景，拓展车载语音交互入口。",
+      "analysis_points": [
+        "豆包大模型从手机、办公扩展到汽车座舱，成为车载AI智能体的底层能力之一。",
+        "对本地生活意味着车载语音入口可连接导航、餐饮、充电等场景，商家可关注车机端的位置服务与推荐。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2UHVLU1FvSFplSTRXa1JYR1ZiUDNQSkw4SldSbGZTQjZLM0IzM1k1LS01YTZMbm1GVzlTenRCMDlrcE14dnJ0S0FwQ1lVcXk3ZlVKc0o1T25NOU1xdVIyUkd3a0tHQ2FVei1paWVCRS1nWm5zVnVUNTlpTXZOZjg?oc=5",
+      "local_life_hint": "本地生活商家可关注车机端语音推荐入口，提前优化门店在车载导航与语音搜索中的信息。"
+    },
+    {
+      "title": "特斯拉Model Y更新，FSD V15叠加豆包大模型",
+      "explanation": "特斯拉Model Y最新版本更新，FSD V15叠加豆包大模型，老车主也能免费升级。豆包大模型进入特斯拉车机，进一步扩大其在车载语音交互场景的覆盖面。",
+      "analysis_points": [
+        "豆包大模型从国产车企扩展到特斯拉车机，车载语音助手能力升级，老车主可免费获得。",
+        "对本地生活意味着特斯拉车主的语音交互入口接入豆包，商家可关注高净值车主群体的车载场景营销。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS25WUl9UYm1sRXktcGljVENRMVRRREdReHlGWWRLOEJ1TGxNV2Izc3ZXeTJlYTk0d0tyUHQ5LXg5ZzV2SEJiOU5PVnlDWmg0WmUwNDhVVjFzUEFpQ1FPelRlTUttVDBPenltSjRzazJIMnc1UjlBV3BRZ3U1Mm9VaEh5Wm0?oc=5",
+      "local_life_hint": "面向特斯拉车主的高端本地生活服务（餐饮、酒店）可探索车载语音推荐合作。"
+    },
+    {
+      "title": "字节拆分AI制药公司Anew Labs，融资2.9亿美元估值超百亿",
+      "explanation": "字节跳动拆分AI制药公司Anew Labs，完成2.9亿美元融资，估值超15亿美元。这是字节系AI能力向垂直行业外溢并独立融资的标志性案例。",
+      "analysis_points": [
+        "Anew Labs从字节内部孵化到独立融资，说明字节AI能力可跨行业复制并获资本市场认可。",
+        "估值超15亿美元、融资2.9亿美元，显示AI制药赛道资本热度高，字节系生态边界持续扩张。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkcGljUldXSkVjLUctYXo0TUZzVzVIOGtPRHFGdDJyUEE4aUZEVXVqUVVkcEJPVjg5NldDMVRFekp3Z1pXYzBEVHpsZTFubmU3WjV2ZHIxUWdaX2tXV2JB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "前TikTok高管创立AI摄影应用Superpose，提供实时姿态指导",
+      "explanation": "前TikTok核心高管与计算机视觉专家创立的Superpose Labs推出首款AI摄影应用Superpose，定位口袋里的私人AI摄影教练，利用端侧视觉与实时AI交互指导用户摆姿。",
+      "analysis_points": [
+        "应用从普通拍照变成实时姿态指导，通过端侧视觉与AI交互帮助用户和帮拍者调整姿势。",
+        "定位日常社交场景，说明字节系人才正把短视频时代的视觉能力迁移到独立AI工具创业。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/movie/1578124.htm",
+      "local_life_hint": "本地生活商家可借鉴实时姿态指导思路，用于门店打卡、探店内容的AI拍摄辅助。"
+    },
+    {
+      "title": "飞书上半年ARR增速创新高，字节加大企业市场投资",
+      "explanation": "财新报道飞书上半年ARR增速创新高，字节跳动同步加大企业市场投资。飞书作为字节ToB核心入口，其增长验证了AI办公商业化的可行性。",
+      "analysis_points": [
+        "飞书ARR增速创新高，说明企业客户对AI办公套件付费意愿增强。",
+        "字节加大企业市场投资，意味着飞书生态内的营销与广告机会将增多。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "财新",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFNYbm1rMmpBdG9aTkFoVllNY0VxSG0tWHhYNllMa1kyOUVOX24wcE5aaDN0Y3VDZFpNSWFOOGM2QVZRcGZFUGJmaVFaU2xNNERrRVhBZFBVRGsySGtySjVySjJ5Umk4d3M?oc=5",
+      "local_life_hint": "飞书企业客户资源可成为本地生活B端拓客渠道，如企业团建、餐饮福利等场景。"
+    },
+    {
+      "title": "深度：Seedance宇宙和它的裂痕",
+      "explanation": "品玩深度报道Seedance宇宙及其裂痕，剖析字节视频生成模型生态的机遇与挑战。对理解字节AI视频商业化路径有参考价值。",
+      "analysis_points": [
+        "Seedance生态从快速扩张到出现裂痕，反映AI视频生成在质量、成本与版权上的挑战。",
+        "对广告主而言，需关注Seedance能力边界，合理规划AI视频素材的使用场景。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1vNGVqMW1pLW9ta1M4ckMydm5CTUplaS1VZnZuX2tnRlBXRVJOVGlzTTBJdW12emtnNE1IX1F2MWg2eUloUjItMQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包与火山引擎发布座舱助手，首搭荣威家越07",
+      "explanation": "豆包与火山引擎发布座舱助手，联动App实现「手车互联」，首搭车型荣威家越07即将预售。这是豆包大模型加速上车的又一落地，把AI助手从手机延伸到汽车座舱场景。",
+      "analysis_points": [
+        "座舱助手从单一语音交互升级为联动App的「手车互联」，可在车内调用手机端服务与数据。",
+        "对本地生活商家而言，车载场景可延伸出加油、充电、餐饮、停车等服务的语音推荐与到店转化机会。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "凤凰网科技",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBjMkI5NTFGV0tNalJ5V0E4N1diaktDOElNRGNSQmFNMC1RdTdQMnNoSFNmcnF0ZFZUUXlzcXVJVkJLWUt6bDVPal9ZTHo?oc=5",
+      "local_life_hint": "车载座舱助手可成为本地生活到店服务的新入口，商家可关注荣威等车型的语音推荐位与车机端投放机会。"
+    },
+    {
+      "title": "豆包2.1 Pro接入豆包工作与火山引擎",
+      "explanation": "豆包2.1 Pro模型更新后已接入豆包工作与火山引擎，实现模型能力向办公与云平台的快速分发。这标志着字节模型迭代与产品落地的协同效率提升。",
+      "analysis_points": [
+        "模型从独立发布升级为同步接入豆包工作与火山引擎，企业客户可第一时间调用最新能力。",
+        "对企业客户而言，模型与平台同步更新意味着无需自行集成即可使用最新能力，降低使用门槛。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPejVrQUtBNVFYazhlODdkR2VGYlQxdWJrQU5vdVFzbW5NeTVMSmh2N0ltX0VaNzRhLXFjaUhnTHBWcm55UmR0ZWVnT1N4eWFGMExjUUJTcmsyS1dIV1VnMXZBbW5waDR4QTdqLWllT1dVYWlmdWVmN25HWGNUdzlieU9KekxHYVNFNWVnRHFZYzFBdC1pN2VoWldxNWdxOWktUEN2Q3kzNA?oc=5",
+      "local_life_hint": "模型与平台同步接入，本地生活商家可通过火山引擎快速调用豆包最新能力做营销自动化。"
+    },
+    {
+      "title": "豆包手机发售，优先支持字节系产品调用",
+      "explanation": "豆包AI手机发售，优先支持字节系产品调用。这强化了字节「硬件+生态」的闭环，用户通过豆包手机可更顺畅地使用抖音、豆包等字节系服务。",
+      "analysis_points": [
+        "手机从通用硬件变为字节生态专属入口，优先调用字节系产品形成软硬协同。",
+        "对商家而言，字节生态闭环增强意味着抖音、豆包内的商业流量价值可能进一步提升。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "观察者网",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HQ1BFYmdFczZGaDkxam1odXdwTmwwekpRZHVjamp3TTlsNHN6U1RFcFBzR21zSmEzMjNzT1Zvd0NNQ3g5RUljWFlMRkNiUEgwNW1qZW1YOUV2ZUZJelM3YUczaWg?oc=5",
+      "local_life_hint": "字节生态闭环增强，本地生活商家可关注豆包手机内抖音、豆包服务的到店推荐与优惠分发。"
+    },
+    {
+      "title": "用Seedance 2.5拍《沙丘3》：6分钟短片耗3000元积分",
+      "explanation": "作者用Seedance 2.5制作6分钟《沙丘3》风格AI短片，累计消耗3000多元积分，且并非一键生成，需剧本、分镜、剪辑等完整流程。这揭示了AI视频生成的真实成本与工作流复杂度。",
+      "analysis_points": [
+        "AI短片制作从「一键生成」变为需要剧本、资产、剪辑的完整工作流，6分钟耗3000多元积分。",
+        "对广告主而言，AI视频仍需要专业工作流与成本投入，短期难以完全替代传统制作，但可显著提效。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1680580?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": "AI视频制作仍需专业工作流，本地生活商家可评估用Seedance做高质量门店宣传片的成本与周期。"
+    },
+    {
+      "title": "抖音万博APP20客户端下载大盘再涨：DAU增长130%，流水增长140%",
+      "explanation": "抖音万博APP20客户端下载大盘再涨：DAU增长130%，流水增长140%",
+      "analysis_points": [],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85YXFLTmJHdmE4andTYk8zdGhiSDlDN2Rfd0YwNnFkMERmeUZybnJPY3kydUhvN1J1LWx1ZzhPbXVGcXprQVFWVU5UWGdXTjB0LTFz?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance's second AI-agent phone drops forced automation for permission — yet app wall still up",
+      "explanation": "ByteDance's second AI-agent phone drops forced automation for permission — yet app wall still up",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUTQ4RjVpa00ydnBHR3BJdkFZSFMwN1lZOFBzQ21zUFNxMXRybnJkcnE2NFBjYTE5cU5yZ1YwcHQwT21fMXpEZEQ2VjUwMllyLVJrOHZqT3VPTW4teTlHdngtSWhBSUpwZW5mZnRWQ2lLN29rTUpwLWRhUEZieVd6cjhpR1ptcG8?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance completes $290 million fundraising for AI drug unit after its spin-off, sources say",
+      "explanation": "ByteDance completes $290 million fundraising for AI drug unit after its spin-off, sources say",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVTBWclMtV0dROHVDX1Q5c3YzekE5ZnlaNGhGRDE0Q0NSZUZRS3pnRVdHWm41allDMnM3YlhXd1FvTG9LN0RCOGtrNkdkbjBLUlE2elVlaUxGOXcyRFhWdE1NaUdxME4xOWRLemJCdlg0NFJLY1N1cDkwRXgxMG9ldkFSbVdncnZQcGM4dU12Z0gzX0VfRWZ6WWJqQVlacE9iVkNxSFg2QmkzZTVYRDBlWnNqY0lrY1l0Vi1BTHl6ekJuaVlNRklSeE50aw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Billionaire TikTok founder is now the richest person in all of Asia, with a $105 billion net worth",
+      "explanation": "Billionaire TikTok founder is now the richest person in all of Asia, with a $105 billion net worth",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQM1ptMnhqc0ZQY3pocTBxQ2R3UzlQanNzVUdTQldNdFZJaTdiemtNc0k5SGYwbjllSng0UDNNcE82cEVyUUJrcDdLMmpvLWJRMko3b3RjOVd4SHBGMUtIRkZQcUtTbUFabkZwM3JiNHl2YTIzRDd0a3c3ZTBZVktXaXhscHJiNUZicTRmbWlCUnpyM3V1OGRpY2MtemNIUVdPcWVUM0pjRU5XNkFRSEhUbmRybzY5bkN1N29oY2YyS1lvWGdUU21HMm14TlhOVFRyTkxyQVQ2OEhtZDNvaTQ1RUdB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance’s First-Half Profit Drops to $20 Billion, Weighed Down by AI Spending",
+      "explanation": "ByteDance’s First-Half Profit Drops to $20 Billion, Weighed Down by AI Spending",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRkhPRjlFNWNtYmEtdGFFcmY0VVFTM1p5ZnYxNzlsMWhzQ1NvMVZSU01NNnNKcmhPRS1WT295d2dKeC1hSklnazB6cllWVTBMakVQS1dseUR2dEY1YUZLUGxvSEZkaHhBdkdGV1NyaU43Sm9hb055RmY1dHhxbDd5dnV5ME9pbk84VTFUaWJCOEhabUhpMU10bVVlN25ieUt1VkgxczJJZ2Q?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance’s AI drug unit Anew Labs raises $290M at $1.5B valuation, Reuters reports",
+      "explanation": "ByteDance’s AI drug unit Anew Labs raises $290M at $1.5B valuation, Reuters reports",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5JNjZsVDBFY1NTVlRFbUNITzFITFhITGZ5YkVESXk2VkkwZFVrN2RaTXZESDJ5OXU4SDZVOE1rQkNWVkJvMUVsLUg2WjRqcVZYVjdhVk1Ea1pfcW5HOUcyT096emZkLVhDUnc1T291WEdBd196ajRKUjBB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Is Burning $5.5 Billion a Day on AI—and It Just Cut Its Own Profit Margin to Prove It",
+      "explanation": "ByteDance Is Burning $5.5 Billion a Day on AI—and It Just Cut Its Own Profit Margin to Prove It",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1JnWGRNWTY5bDhCU3h1aFpUMWx3ZFBHcnBQbEpRNGlndzBfSnNUNExsVngtU1dMckJPOFNNTWd4NUFxLTFQXzJSOTBPZ3psbldKc1hjYkRQb2duXzFPN3REaUEwcTNGaUNyV2dnWDE0Y0hSdVJCRFlCdXpyV1ZpeTdUcU1SME0zV2Y5VGhxdHBiRndqeTJHbkZmdUNYWGw2VlFWaURXQXFXaExpWEVURTBmTE15Sk8tYVZF?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok developer ByteDance arranges $29.6 billion loan as it builds AI ambitions",
+      "explanation": "TikTok developer ByteDance arranges $29.6 billion loan as it builds AI ambitions",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUkFMeURtVDVyVHlOM0swaDZtdEhPT1M2Wm42R0ZEaURwV0FYa2xHZ0NQd3phQl9fR2ZsNndBOUkxdnFNandoUDNtXzg4YnczUl90LVZZVkdYb1BLeUNST2RPamczdUZiV3JoV1JJaHNrcGdzQVVNbkJ6ZFdJbUVwMHp4RFd6Njk0OWtUU3JRdFpPM1hhNDQtQVRhUk9YVWhSQU00UkVrMVo3bjI3M3luZDRJQ2lTZElBSVRZaUxmTlVHaXdRZFE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "PrintKK's Los Angeles Production Powers TikTok Shop Sellers Through Viral Demand Surges",
+      "explanation": "PrintKK's Los Angeles Production Powers TikTok Shop Sellers Through Viral Demand Surges",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOXV6UE1BYXdfZXh4MU4yYUZGX2tHaFFoTDFXM3pFRE5WNXAydjRtYndSTXJFUHd1Rkh2bGRvek9rZjBTbjRWeFNpbDh3QXdpeWF2Zk5hQnRTUk80OGtpZVZBeThkNGdrMm9lQzgxZ1RBNjNiTlQ2dlBQMC02WWM0d2JIbGVHczYwNlpHbU1lYzBzQlJfbUNjU0xqbHY5Ql95TXoxV1ZhbEJsSXJ0OWJiZ0NHdVB3aFFOVFBGMTFmM29nbEw2TG1mLU9VN0tOZUVJa2tkWFhHSQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节跳动暂停Seedance 2.0全球发布，深陷版权争议",
+      "explanation": "字节跳动暂停Seedance 2.0全球发布，深陷版权争议",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55WGs4R091NFJnV1FpR3NxbTBkRFc3MDBTdzktMUpaM3dxYi1DMzlJRTBza2NqcUZRV3JyblBZR3NvRDFzbG9TLQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Billionaire Overtakes Adani to Become Asia’s Richest Person",
+      "explanation": "TikTok Billionaire Overtakes Adani to Become Asia’s Richest Person",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcHNqc0ZZMG04VjVxZENVcGhEMGlQREJOdlFIeUduSzE3WnI0NkszanhKcm1OYWhOZ3BXRlVYdHF4TENwUWZqZGIzUTRfU0IwbTZhX0ptYkFRbVV6NjRiVGVVLVNwSjE2ZVRYZzJJdHpTQkd6ay1zRnQ4QnVkOVZQY25oM1pvdlpzZUVUWVlyRHU4RmVocC1wdDZoZTNjVWMzRDBOb1NFUUtBLWpqb004OUFwZ1BvQVN3UlZEXzMya3o2VzJOSHB5bGRBRHctQjRn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "‘No Grass Growing Under Their Feet’ in China AI. ByteDance, Huawei & Manus. ARD #165",
+      "explanation": "‘No Grass Growing Under Their Feet’ in China AI. ByteDance, Huawei & Manus. ARD #165",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zNjZqWjB6djdfc0w1M2tZWk85c2xIWTBLOWJfbDNnZUhsMllwSmh3d0Rsb2FtRGxvLURjSE9oakxLRk1HX3hfOUExSWxtSm1acFhYdmJXYjdFRTBJOF9PZWtjdGFmUHZoWDFmcjhNR3hPVkJlTnpnQWVB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok parent ByteDance raises cash for drug AI spinout Anew",
+      "explanation": "TikTok parent ByteDance raises cash for drug AI spinout Anew",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS0NlWTNDc3NQWEx0b1g2eVU0clpGS2FKYnZkU0tBalpEYXJQU2pFYWl2eG9EVkE1eWNXWUNMQ2loSDFtSkZuYlloMjZzVWNUdUdqdlU2Uk9IbE51SGFEVENXel8taVJnc2dwQ2dVdE9DR3pzS2JNam5McEozSS16Mk53Z19xT3VUb3AxSjZyVQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok developer ByteDance profit drops as AI spending weighs",
+      "explanation": "TikTok developer ByteDance profit drops as AI spending weighs",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3pHV05DQUVGRWdSdy01cEN5TTA3TWtYSE5tcE9uMHpuVDJYcHBCejFrX3V4c3dPMVprLWx0cVBsZzNISUJFR3Z3NWxnS1dqeDR4eUV0blBfUjJBdWt5dEo4MmFoeVRmS0ZaQ0NUTm1qNTJHSzdBcnlPMVkyOFdMTTlyVUZObFhjektPVzZhRTJUcjJRYjViMHVyejRZdWoxUldZek53?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance spin-off Anew Labs raises US$290m amid AI drug design fundraising boom",
+      "explanation": "ByteDance spin-off Anew Labs raises US$290m amid AI drug design fundraising boom",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMHBMaU54WkJtRXZHdlZTM0pueUZOLU4xQmFUR0JzYy1IMTREbEJ0R3M3aGMyRnRyQmM3VVRqMG9LMks0clZIUl9rYkVJNmwydkxZRWRGUHBCeEZxRkN4c1ZfdnJ0SWViUDRhQzF0cl9Bcl8tSW0zcDRLbXVMaWdFeGxITHRJMVJiUGZYVXhCNVNsRHNYM0plRm0teWZjbzdIRll4b0hXTUJXTEZvYkJ6bTJEYzA2SnMtaFhGRXRCN1BMZkdha0xWMzBqWG9xb3ZkUDJBQmhtbjPSAdgBQVVfeXFMUG5EUk93NmdVTDVUbkxoQkRoVkhNWjNqeXd2aVAtQVB6ekxuMVhwaWh5dGloSl84cTBjR1JlVXhjWDdvQUs3RloxQ0lqMWNEc1RzbDA5a1l5aUsySVRKYXljYTVqZlc0b0JYanFkQzlHVzQ3Y3ExSTJSeFFkRlZ3bzF2eXdrNzVNaUQyM09yY0FabjM1WW1rNEQxcHFDQ0dDbEtRS09rSmw2bGNDY1lrdWpPSnNCX3I1M2poTnY4ZE5CT2h4d3pyOEZZLXh0N3dwV282WXNmWVlx?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance hires new head of financial investment team",
+      "explanation": "ByteDance hires new head of financial investment team",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdklyLWFyYWlpSlFGai1fSGtiSG45Vko3VlZzanpzQXJ0SG9jakRnZUNySFpnZk1jaThYQmpnT2NxYmFXb2N4aGlqRlZrWV94YlZmVkFPZTEtQ25kNVcxWkJhOEloSWVJOUhDaW52MnVJN2MwWVdvZUpMVWUtMmlJd25oMVpaVEZvdlVFMl9OdmZXY3NJN3pjaFNNTlFIaHBh?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "How ByteDance’s AI-enhanced short-drama app leapfrogged Chinese streaming giants",
+      "explanation": "How ByteDance’s AI-enhanced short-drama app leapfrogged Chinese streaming giants",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQUlQNnZuX191ZUJCeTFCdVJuTVpnT2h6djRiVGI3a0w5MjdyZUZ3VGFkbm9LQkEwU2pGZERUY04tcXVYQlhzbU5yam1wR2tIZ1Zma2dKb3pBVHhwNHNWX203clJkR1h3RW5OcERSamFRNk4xbG44emdwb3B3S2h5bVRpaWdWUXJLMjhvZ1RJUUFNd00zWS13bTlVaUh6LUVwek5LVGFiVExIbW53ZlVabkV3Vno2R0RJcUtyeDBITVBIektXb2Y5Vm56WmvSAcwBQVVfeXFMTkx4Zk52SHF3NlFCTWw2VHo2RlJzQW5DUzB4VER4bnctMl9va1ZLMENkeUhCM3R4T1p0aHlRWGhLdVoyRXRQVGZEbGdjN243bWM0YktXbHh2U25telVDWjNibERONzBwQ2xNZnM3dXVKaEZMdTNiZVJPeE4zbGVPV1gwOUN4OEg1NU4tNDJrWU1DemxjMzN6MU5vdUE1Y1NXWHVKUEZTQVN5NklfZmowRzdCM200a3VPU0k1M05iX3hwREJEMjVwbzNTRS1o?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "The Booming Business of Beauty on TikTok Shop",
+      "explanation": "The Booming Business of Beauty on TikTok Shop",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Brand Control on TikTok Shop (Webinar)",
+      "explanation": "Brand Control on TikTok Shop (Webinar)",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xM0tucTJuNWlVWUFtRjZuYzQ4ZWtPMGJjUXRkZVJXQkNIR1A4RnRpWC1qX204cmNuSWNIdUpSNnY3eE5tVW9seS1FR3B0Vnk0YTgtNVA2bTVpcm5MdzVMNmpQeDRkeFV1RGRPSHZHdkNPQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "即梦AI网页版上线，戚薇预告片同步登陆",
+      "explanation": "即梦AI网页版正式上线，同步发布戚薇《末日盛夏》预告片。即梦从移动端扩展到PC浏览器，降低专业创作者使用门槛，是字节AI视频生成能力向专业内容生产场景的延伸。",
+      "analysis_points": [
+        "产品变化：即梦AI从移动端App扩展到网页版，支持PC浏览器直接使用。",
+        "商业价值：品牌方可借即梦网页版在PC端高效制作AI视频素材，用于营销短片与预告片生产。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0eWlqZVdWUEEwcnJscEhKN3BmWERxY1dYZkJEMVJBdHdsQ1VDY3JOY3Z1NjdoZ1JfSkZqeFhFMkM5QVIyRkxYeDRRWGVEN1NBQlZIbU1iX2ZpckJoZDRCTFZBU21yR05DUHp4XzJZWGhBM3o1dFdpOEdEMmhESms?oc=5",
+      "local_life_hint": "本地生活品牌可用即梦网页版快速生成门店宣传短片，降低视频素材外包成本。"
+    },
+    {
+      "title": "火山引擎深耕车企供应链，赋能国产替代",
+      "explanation": "火山引擎深耕车企供应链，用AI解决方案赋能主机厂国产替代提速。这表明火山引擎正把AI能力打包成行业解决方案，切入汽车这一高价值垂直行业。",
+      "analysis_points": [
+        "业务变化：火山引擎从通用云服务转向车企供应链垂直解决方案。",
+        "商业价值：车企客户可借火山引擎AI方案加速国产替代，火山引擎借此锁定长期行业客户。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "网通社",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RRTd2cHRuMU1YUjFqczU0ejJ4dUJKYmNfLWlJUWVFYXZrQTRCRWNlZGs2UDhmMjlUR0VILWdvQ1dDSXQ3ZV80T3c1WWNSZG1pam9UUm5rUmEzeFU?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包2.1 Pro多模态Coding能力强化",
+      "explanation": "豆包大模型2.1 Pro更新，多模态Coding能力强化。这意味着模型不仅能写代码，还能结合图像等多模态输入生成代码，对需要图文混合开发的企业场景价值提升。",
+      "analysis_points": [
+        "能力变化：豆包2.1 Pro从文本Coding扩展到多模态Coding，支持图像输入生成代码。",
+        "商业价值：企业可用其快速把设计稿转成网页或小程序代码，缩短开发周期。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFVX3lxTE5Qc3lDanhJOUlLaXNnQ0VfYnRPTXF1VXljOFR2OWNpRjBENlpnTktSQ3BjazVYZkZDVFpMcUJ4TmVQa1BCX3JJMjJ5ODVxZ0RZLUc3V2tMMTQ2LU9CSENCeVBrVEtoWlpvbVFNZnB6cENRdkxWV3JqQWhKRkgwSDJoUHZXME04YnNtYXUxVw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包大模型持续上车，多款车型搭载",
+      "explanation": "媒体梳理搭载豆包大模型的车型，显示豆包已进入多款量产车。这反映字节大模型在汽车行业的渗透速度，车载场景正成为豆包重要的落地渠道。",
+      "analysis_points": [
+        "生态变化：豆包大模型从单车型扩展到多款量产车搭载。",
+        "商业价值：车企可借豆包提升智能化卖点，字节借此扩大车载场景的数据与用户触达。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wV2RWZ3JNWXl5bEpKVEkzNFV4MVFoYUdPR1VaRnN3M08yX0VoNlZDelZZM2RhSUJNX3pJdlFiT2hudndkWHpDTzZzNnZFZDVBeWF2THlVWm5VblB5RGdUWTFIbUpuZGxhRVRGRmROV0U4dw?oc=5",
+      "local_life_hint": ""
+    }
+  ],
+  "mode": "ai"
+}

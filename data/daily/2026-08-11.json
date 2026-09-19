@@ -1,0 +1,211 @@
+{
+  "generated_at": "2026-08-11T09:47:19.395410+00:00",
+  "date_display": "2026年08月11日",
+  "date_short": "2026-08-11",
+  "weekday": "周二",
+  "editorial_summary": "今日字节系AI商业化动态密集：豆包在酒店推荐场景开启按成交收费模式，回应称非广告费，标志着AI流量从免费导流转向交易分佣，为本地生活商业化提供了新范式；字节成立AI数据与安全一级部门，强化数据底座与安全合规，为AI商业化铺路；SeedRealtime全双工大模型在豆包App全量上线，交互体验从文本升级为音视频实时对话，拓展了AI应用场景；同时，字节被曝预训练10万亿参数大模型，彰显其自研决心，但短期或难落地；此外，即梦AI接入Seedance 2.5并上线Maya/Blender插件，推动AI视频生成进入专业创作流程，为广告素材生产提效。整体看，字节正从模型能力、数据安全、商业化模式多线并进，加速AI在本地生活与营销领域的渗透。",
+  "overview": {
+    "new_products": [
+      "字节推出SeedRealtime音视频全双工大模型，已在豆包App全量上线，支持边看边听边聊天，交互从文本升级为实时音视频对话，提升AI助手自然度。",
+      "即梦AI接入Seedance 2.5模型，并上线Maya/Blender插件等专业工具，推动AI视频生成进入专业创作流程，适配影视、广告等场景。",
+      "字节成立AI数据与安全一级部门，与Seed、Flow平行，负责人王赢磊，前身为TikTok数据团队，强化数据治理与安全合规。"
+    ],
+    "opinions": [
+      "豆包回应酒店推荐收费：不收取广告费，主要按成交收费，商家不能影响推荐排序，仅支付渠道服务费，强调公平性，但业界认为AI流量商业化开启。",
+      "字节被曝预训练10万亿参数大模型，接近Anthropic Mythos规模，体现张一鸣拒绝蒸馏、坚持自研的战略，但预训练需3-6个月，短期难落地。",
+      "有观点认为字节AI战略已变，从追赶到自研，通过成立新部门、加大投入，试图在下一代模型上实现超越。"
+    ],
+    "ecosystem": [
+      "字节通过成立AI数据与安全部门，强化数据治理，为AI商业化提供合规底座，同时豆包开启交易分佣模式，探索AI流量变现路径。",
+      "即梦AI与艾菲奖合作，用Seedance 2.5为英特尔、阳狮等品牌打造广告大片，推动AI视频生成在广告行业的落地，生态合作加深。",
+      "字节预训练超大模型，显示其加大自研投入，与国内其他大厂形成差异化竞争，但算力与数据成本高企，生态竞争加剧。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节跳动在AI商业化上多线推进：豆包开启酒店订单抽佣，回应称非广告费，探索AI流量变现；成立AI数据与安全一级部门，强化数据底座；预训练10万亿参数大模型，彰显自研决心；SeedRealtime全双工大模型上线豆包，提升交互体验。",
+    "初创动向": "今日无字节系初创公司动态，但即梦AI作为字节旗下产品，接入Seedance 2.5并上线专业工具，推动AI视频生成在专业场景落地，可视为内部创业生态的进展。",
+    "生态动向": "字节系AI生态加速开放：即梦AI与艾菲奖合作，用Seedance 2.5为品牌打造广告大片；中文在线与火山引擎合作探索AI与IP融合；字节加入Open Invention Network社区，强化开源与专利保护。",
+    "观点与深度": "业界关注字节AI战略转变：从追赶到自研，张一鸣拒绝蒸馏，预训练超大模型；豆包酒店抽佣引发对AI流量商业化的讨论，认为机遇与拷问并存。"
+  },
+  "local_life_insights": [
+    {
+      "base": "豆包在酒店推荐场景开启按成交收费模式，综合费率约12%，从免费导流转向交易分佣，AI流量商业化模式确立。",
+      "borrow": "对美团商业化等外投团队，可借鉴豆包按成交收费的模式，探索AI渠道的CPS合作，降低商家前期投放风险，提升预算吸引力。"
+    },
+    {
+      "base": "字节Seedance 2.5 API上线，视频生成成本低至0.4元/秒，且原生支持30秒视频直出，大幅降低视频素材生产成本。",
+      "borrow": "外投团队可利用Seedance API批量生成高质量视频素材，降低素材制作成本，提升广告创意产出效率，尤其适合本地生活商家的探店、促销视频。"
+    },
+    {
+      "base": "即梦AI接入Seedance 2.5并上线Maya/Blender插件，推动AI视频生成进入专业创作流程，适配影视、广告等场景。",
+      "borrow": "外投团队可借助即梦的专业插件，为本地生活商家制作电影级广告大片，提升品牌调性，同时降低对专业制作团队的依赖。"
+    }
+  ],
+  "insights_intro": "字节系在AI视频生成成本、AI流量商业化模式上的底座级改造，将让外投团队在素材生产上更便宜、更高效，在流量采买上出现按成交付费的新选项，成本结构从固定制作费+CPM转向可变CPS+低素材成本。",
+  "total_items": 11,
+  "new_vs_yesterday": 11,
+  "compare_date": "2026-08-10",
+  "high_count": 3,
+  "category_counts": {
+    "大厂动向": 5,
+    "生态动向": 5,
+    "观点与深度": 1
+  },
+  "items": [
+    {
+      "title": "豆包回应酒店推荐收费：非广告费，按成交抽佣12%",
+      "explanation": "豆包在酒店推荐场景开始对订单收取渠道服务费，综合费率约12%，引发市场关注。豆包公关回应称不收取广告费，商家不能影响推荐排序，仅按成交收费。这标志着AI流量从免费导流转向交易分佣，是AI商业化的重要一步。",
+      "analysis_points": [
+        "豆包生活服务业务对酒店订单收取11.4%软件服务费及0.6%支付手续费，综合约12%，但明确非广告费，与推荐排序无关。",
+        "对本地生活商家而言，豆包作为AI入口开始变现，商家需评估获客成本与转化率，未来或需为AI流量支付佣金，类似OTA模式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1572648.htm",
+      "local_life_hint": "豆包开启酒店订单抽佣，表明AI流量商业化已启动，本地生活商家应关注AI渠道的ROI，并探索与豆包的合作模式。"
+    },
+    {
+      "title": "字节成立AI数据与安全一级部门，强化数据底座",
+      "explanation": "字节跳动近期成立新一级部门“AI数据与安全”，与Seed、Flow平行，负责人为王赢磊。该部门前身为TikTok数据团队，将负责AI数据治理与安全合规，为AI商业化提供数据底座。",
+      "analysis_points": [
+        "新部门整合原有Global Data团队，规模百人左右，未来将支撑Seed模型训练及TikTok等业务的数据需求。",
+        "对广告主而言，数据安全与合规是投放的基础，字节强化数据治理有助于提升广告投放的精准性与安全性。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/0/988/429.htm",
+      "local_life_hint": "数据安全部门成立，意味着字节对数据合规的重视，本地生活平台在数据合作时需关注合规风险。"
+    },
+    {
+      "title": "即梦AI携手艾菲奖，用Seedance 2.5为英特尔、阳狮打造广告大片",
+      "explanation": "即梦AI与艾菲奖合作发起行业内测，使用Seedance 2.5为英特尔、阳狮等品牌打造广告大片，验证AI视频生成在广告行业的应用价值。",
+      "analysis_points": [
+        "即梦AI与艾菲奖合作，邀请品牌参与内测，用Seedance 2.5生成广告素材，展示AI在创意制作中的潜力。",
+        "对广告行业而言，AI视频生成可大幅降低制作成本，提升创意效率，品牌方应关注此类工具。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "rmzxw.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yRkktc0pOOU5VWHAyRGZiQXYyYTdGRGpoRE5YR0FkdHRiQjA5bFpXUXFPdTZMVy1jWFhxWjB1WWVaempvVnZaUEt1Uk1weHgxQUpDSU5MaTVSVXdDeWJkR0lnb1MyUmdZ?oc=5",
+      "local_life_hint": "本地生活品牌可尝试用AI视频生成广告素材，降低营销成本。"
+    },
+    {
+      "title": "中文在线与火山引擎达成合作，探索AI与IP内容融合",
+      "explanation": "中文在线与火山引擎达成深度业务合作，共同探索AI与IP内容的融合，火山引擎将提供AI能力，助力中文在线IP内容的智能化开发与运营。",
+      "analysis_points": [
+        "合作将火山引擎的AI能力（如豆包大模型）应用于中文在线的IP内容创作、分发和变现。",
+        "对内容产业而言，AI可提升IP开发效率，降低创作成本，火山引擎借此拓展ToB市场。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kTHJMaVgxaVp5c3lWLUdncy1VU3dNQnBrRHhNQk1MNzl2UzRPMWd3NDYzeWdpampJekVhNHFobjMxTUthQ1hVZTJsUk4yb0JSbWdHaDd0WVktOHZMcVhPVg?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节加入Open Invention Network社区，强化专利保护",
+      "explanation": "字节跳动加入Open Invention Network（OIN）社区，承诺不侵犯Linux系统相关专利，此举有助于减少专利诉讼风险，促进开源生态合作。",
+      "analysis_points": [
+        "OIN是开源专利保护组织，字节加入后，其专利将用于保护Linux生态系统，降低法律风险。",
+        "对字节而言，加入OIN有助于其开源项目（如豆包、Seedance）的推广，吸引开发者。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "The AI Journal",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOY1lWd25iZ1dRWkVBbG81UzJ0SDgwRnVfSktBcGdsNDhWWWxxaFlxc3gxMjVkaWh4bGhaeThrVk43eF9PelE5SHpDSEZZRk92Uk5NSGdPbzBoU2JqdVQ0OXp3bHNTdFU2cFo5MFgza3lWbzMyNjc0M1hTVGo0RUl3QWRhZw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包酒店抽佣12%引发热议，AI流量商业化开启",
+      "explanation": "豆包对酒店订单收取约12%的佣金，引发市场对AI流量商业化的讨论。豆包回应称非广告费，按成交收费，商家不能影响排序。这标志着AI助手从免费导流转向交易分佣。",
+      "analysis_points": [
+        "豆包生活服务对酒店订单收取11.4%软件服务费+0.6%支付手续费，综合约12%，与OTA佣金相当。",
+        "对商家而言，AI渠道的流量成本开始显现，需评估ROI；对平台而言，AI商业化模式初步跑通。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQbHdWWDk0TXVTX19DelJSOXI5RWdzTDZCWGhnOF9UQ3lLN200amJMR2xyb3JPdjhmSGlfYmdHYlhjUktSOWZ6WDJBN1JQT3VnTERiWGQ1clI5NFlOSmhtcnNzTDc2Vl9FVFZxNEpWSTVTQmJJYkl0N0R2V3RieDg?oc=5",
+      "local_life_hint": "AI流量开始收费，本地生活商家应关注豆包等AI渠道的投放效果，调整预算分配。"
+    },
+    {
+      "title": "字节AI战略转变：从追赶到自研，预训练超大模型",
+      "explanation": "字节AI战略被指已变，从早期追赶转向自研，张一鸣拒绝蒸馏，预训练10万亿参数模型，试图在下一代模型上实现超越，但短期或难落地。",
+      "analysis_points": [
+        "字节预训练超大模型，体现自研决心，但预训练周期长，商业化需时间。",
+        "对行业而言，字节加大投入可能加剧竞争，但短期对市场影响有限。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi4wpBVV95cUxNMDZaVmR3dF91ZWZjLTdjNHIzRjlfMFNNVnloeEhtbFpmQmVWSWgyNlA2ZWZWLWNFeEVTY05sZVdLZG1uNmYzMTNwN0F4ZGtSWHhyeVR1MlNSYVg2Um1jY054bWMyUmZkY3Zfd2N1Yjd2ZGdYV2w2TmxrZDhteDAxTzJfU1g0bm1iYnZqWjdFbWxjMjVJRE1RVi1mODB4ZDJxNExma0V6UmJuNVF4ZndKWVZWa3JDTDdnRzNVS0s4QjVGUVJPS2pBNUZaNWRrRlJyYW1nY1ZtM25BNGtTSTk1alZSZ1lKa2h3UjVaZW5MU3hBUHNVRGlWdEpTT2xyRVhKRG8wOEU1c1RSMDhBZkgtaUVTUzRhMlpPLWs3MWFiV3VPZFdtbDBsdkFHOU5RTVNEdGlQYTl6WVUtUUJrSFcya0ptU2lqUmJRZ3FsVnd0RmxldnpUWFQ1b25iRlVXRTAxMGxwcmFOZGRGQVBQeFhpTzFtZW4tT0lkQkxJdXcyaWRxaE1od1Ric0IzNklXS1pDNkVoRV83NDBmVEphVDhVYzZBT0VQb0FGWFlsekFFUHdNdEFzdTc5T3p2V0xtYTl5ZDVBNUwtVy1DbmJZeW5nZExWbGdJVE9ra1huVW40aFprVGFDVHpfb0l0MklIVjNjUkF5SkV5OVM5YkhlUEV0RHlISEQ1UUx0aHQxYUVhZG9maUJ3R2hINmhDdmJ1NmpkZFpkU3J4amNGdWdQYm15SkhtRXVpdEdveURWWVU3dGJDUnNlTzdfUXdEN3c0WnktN3FIbjBSMDJYdnJ2cDctRU1md1R4MEtGa0Jtem5YMzlUT0loS3ZiOVUyRkc2SGtPdUZhN01aSlBoUFNhWGo0UGxpWXlvMHZoRVNHbXJyRnA0ZF9qc2M0M1JjdGFseUNoWWRXcUY4OTN6WjhGX0ltajdRandCRFQ3QmpXdXN2LWRiVGYwVFN4cV9DcWZOdUMyMnRzUWlTRkpIQWFJczFLQVJmNzFfenBEVkpuYVMybUpub0F3UFNXSGJ6TzBOSjg4MWQzbU4wQ1AyckUxVG1EVVZPQ2FQSkZnWlY4aWVLbjFWNWxjMnNqSHRiV2lmTE42UGc3eWM1SUpqdEVlUm1MMk1CMmJWZDZWSmMzbnNSSjVyY3VFUmYzTVk4NUdRd0tRbmhiRzF0cjhnTml6aHB0aGhDcEFQb1Q4WWxVUzJrQTRUNlUtbS00RmxfYjZPZlhKX3RER2ZhWnc0a2tPY19lYmphSDdXNERzY3pYVHRxSzgweGZ3WTVua2FlX1NwMFNwcm5ld3Z6RkRYalFEVHdyQl9LQ1RzbS1qRnYxaWstUUc4TnpQaWdwVmhxYTRuT2ZyUGxzZkRaR3BOaExFN2piaTA2VGNOM093N0pSMmpkQy1rRGZScUIxdmdjZE5DV2pUdDRmY1ZYVTMzdnBvT3RkekVKQUZpY1AtQk43UnIwMlRyWFk3MVN5V00zYWJFc2pMMXVTSUFiNmoxTnpyX2hHa3N2MTlQNG1TMXFQcHhwbmtMZjY3X0dmTmVSNlpPZjY5NHlFVEU2US1UOFZuQVM5Z3NoNm1sZi16Smk2eWhNVEp4S0VSOHBpUHp2eDhwanNZTGhoMVNLZzV1ZXMtR2EzZFUxZ2I0d29kMVNZLXlvcnZWdmxxV0JBbnA4Z29DN0RzLXNrNWl2dU9NR2tvQmJhYWR3ZVNJMkc0WnVxR0x5VDNjbkF0T1ZoMTdLbTEzNEY3TFpxajR3WEhSNE9qYjZSZEN1NnAwVjF5TXFzVmF4MUNHZHhGNER1Vlo5SVJhTlNIQzQ5ZEtkSXozaE5FTTV1UWtPQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包回应推荐酒店收费：不收取广告费，主要按成交收费",
+      "explanation": "豆包公关负责人回应“推荐酒店要收费”传闻，称不收取广告费，商家不能影响推荐排序，仅在订单成交后支付渠道服务费，强调公平性。",
+      "analysis_points": [
+        "豆包明确不卖广告位，推荐排序不受付费影响，仅按成交抽佣，类似OTA模式。",
+        "对商家而言，豆包渠道的流量质量可能较高，但需支付佣金，需评估ROI。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1572656.htm",
+      "local_life_hint": "豆包模式或成AI流量商业化范本，本地生活平台可借鉴其按成交收费的模式。"
+    },
+    {
+      "title": "字节Coze CLI被吐槽像病毒，安装技能劫持Codex或Claude Code工作流",
+      "explanation": "字节跳动Coze CLI（扣子）被开发者吐槽安装过程像病毒，且其安装技能可能劫持Codex或Claude Code的工作流，引发对AI工具安全性的担忧。",
+      "analysis_points": [
+        "Coze CLI在安装时可能修改环境变量或注入脚本，被误认为恶意软件，影响开发者信任。",
+        "对开发者而言，使用AI工具时需注意安全，字节需优化安装流程，提升体验。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "蓝点网",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lRDlXZ0tJSHY5ZFlIazZaajFjNE9wYXIzemZZV0M4c1ZSaHVaeG1qanZhSDBFTkpUUnY0elI1dEpUTXBRaV81Zk05YVRwNzN5ZzNsc1JDZVU?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节跳动Seedance 2.5上线后，LibTV帮创作者学会新模型",
+      "explanation": "Seedance 2.5上线后，LibTV平台帮助创作者学习使用新模型，提供教程和工具，加速AI视频生成在创作者中的普及。",
+      "analysis_points": [
+        "LibTV提供Seedance 2.5的教程和模板，帮助创作者快速上手。",
+        "对创作者而言，学习新模型可提升内容质量，但需投入时间。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "geekpark.net",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBrZTFvSERRcjNIU1h0dEVYX1pQdnZJWEpnMGNrM2hFMkVXMjAxYTAyM1RnY1h3S01RQi1FMURDa1MtdHVZb0w0enhhalE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包酒店推荐抽佣12%！AI商业变现第一枪",
+      "explanation": "豆包在酒店推荐场景开启抽佣模式，综合费率约12%，被视为AI商业变现的第一枪，引发对AI流量价值的讨论。",
+      "analysis_points": [
+        "豆包对酒店订单收取12%佣金，与OTA相当，表明AI流量具备商业价值。",
+        "对本地生活平台而言，AI助手可能成为新的流量入口，需关注其商业化模式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQbHdWWDk0TXVTX19DelJSOXI5RWdzTDZCWGhnOF9UQ3lLN200amJMR2xyb3JPdjhmSGlfYmdHYlhjUktSOWZ6WDJBN1JQT3VnTERiWGQ1clI5NFlOSmhtcnNzTDc2Vl9FVFZxNEpWSTVTQmJJYkl0N0R2V3RieDg?oc=5",
+      "local_life_hint": "AI流量开始收费，本地生活商家需评估AI渠道的ROI，并探索合作。"
+    }
+  ],
+  "mode": "ai"
+}
