@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22T06:46:47.493418+00:00",
+  "generated_at": "2026-09-22T12:00:48.875099+00:00",
   "week_range": "09.21-09.22",
   "date_display": "09.21 - 09.22",
-  "editorial_summary": "本周共汇总 20 条 AI 商业要闻，其中高影响 2 条。本周主线包括：字节推出Dramagic短剧全流程AI生产平台；剪映发布全新AI能力打通生视频与剪辑。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 24 条 AI 商业要闻，其中高影响 3 条。本周主线包括：剪映发布全新AI能力，打通生视频与剪辑壁垒；Seedance 2.5上线Draft模式，480P验证；豆包大模型已搭载超700万辆智能汽车。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
-      "字节推出Dramagic短剧全流程AI生产平台",
-      "剪映发布全新AI能力打通生视频与剪辑",
+      "剪映发布全新AI能力，打通生视频与剪辑壁垒",
+      "Seedance 2.5上线Draft模式，480P验证再出1080P",
       "Euka AI把TikTok Shop打法复制到Instagram"
     ],
     "opinions": [
@@ -15,17 +15,17 @@
       "TikTok Shop成Crocs等品牌头部销售渠道"
     ],
     "ecosystem": [
+      "豆包大模型已搭载超700万辆智能汽车",
       "字节AI芯片推进遇基板短缺，算力扩张受制",
-      "AXA携手BytePlus，AI规模化落地保险价值链",
-      "巨量引擎披露小游戏精品化转型成果"
+      "AXA携手BytePlus，AI规模化落地保险价值链"
     ]
   },
   "commonality": [
-    "本周内容重心在「生态动向」（9 条），高影响条目占比约 10%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（8 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
   ],
   "local_life_insights": [
     {
@@ -41,41 +41,55 @@
       "borrow": "美团商业化可把投放数据问答、素材文案批量生成、周报自动汇总等重复性工作交给Agent处理，降低运营人力成本，把人力集中到策略与商家沟通上。"
     },
     {
-      "base": "豆包2.1 Pro更新0915版后幻觉显著减少、Agent任务交付更可靠，并全量上线火山方舟API。",
-      "borrow": "外投团队可基于更稳的Agent搭建自动投放优化流程，例如自动生成多版本文案、自动分析投放数据并给出调价建议，把人工优化环节压缩，降低投放运营人力成本。"
+      "base": "Seedance 2.5上线Draft模式，把视频生成从一次性高成本出片改为480P草稿验证+1080P终版的两段式流程，单条创意的试错成本大幅下降。",
+      "borrow": "外投团队可把素材生产改为「草稿批量试投—数据筛选—高清终版放量」的两段式流程，用低成本草稿扩大测试面，再对高转化创意追加高清制作预算，提升素材ROI。"
     }
   ],
   "insights_intro": "换个视角看，今天字节在「素材生产链路」和「生成成本」上的底座改造最值得外投团队关注：剪映打通生成与剪辑、Seedance价格下探、豆包Agent更可靠，这三件事共同指向外投素材的生产成本与迭代速度将被重写。",
-  "total_items": 20,
-  "high_count": 2,
+  "total_items": 24,
+  "high_count": 3,
   "items": [
     {
-      "title": "字节推出Dramagic短剧全流程AI生产平台",
-      "explanation": "字节跳动推出Dramagic，一个从剧本到成片的短剧全流程AI平台，覆盖编剧、分镜、生成与剪辑。短剧是抖音生态内高增长的内容与投流品类，全流程AI化将大幅降低短剧制作成本、提高产能，直接改变短剧投流的素材供给结构。",
+      "title": "剪映发布全新AI能力，打通生视频与剪辑壁垒",
+      "explanation": "剪映发布全新AI能力，推进多端智能提效并支持一站式创作，核心是打破AI生视频与AI剪辑之间的壁垒，让生成与后期在同一工作流内完成。对内容创作者和营销团队来说，这意味着从创意到成片的链路被压缩，视频产能有望显著提升。",
       "analysis_points": [
-        "产品形态：把短剧生产从「人工编剧+拍摄+后期」变成「AI剧本+AI分镜+AI生成+AI剪辑」的流水线，制作周期与成本被压缩。",
-        "对广告主与投流方：短剧素材产能提升后，投流侧可更快测试更多剧情钩子，本地生活品牌也可用同类能力批量生产剧情化种草内容。"
+        "能力变化：从「生成归生成、剪辑归剪辑」的分段工具，变为生视频与剪辑打通的一站式创作流，多端智能提效。",
+        "商业价值：广告主与本地生活商家可更快批量产出短视频素材，缩短从创意到投放的周期，适合高频测试素材的投放场景。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "the-decoder.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNzdScjBDWGhJVXg1Wko3d1k5RlF5cnBJWkhPd3VBd3ZnOTFrRnlFcHFkRERDWlR1d0lyQzNmcGZjNGpFbm83Uko2Nk5RMktUaWozRUNkTDRtcGY2MlBMMmwyOUdBSUZJcFRJdVlFTXAzdXI0YzN0Qy1rSDZ1TDg1UnpDV3ZvUGc2WTlRbUhwVk9pXzNTT2JnSDU3OVRmSmlrck80QkdsSHBhVUFQMjRUYURrMUYzcV81LXh1TzVzai1NYVNRb2ZfZw?oc=5",
-      "local_life_hint": "本地生活商家可借短剧化内容做门店故事化种草，用AI批量产出剧情短视频投流，降低单条素材成本。"
+      "source": "雷峰网/智源社区",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQUUVOZGZFR2lDTHplUWcyZlc0TTdyMWR1U3hfd2c5dXlialJjbUxOTkI5bTRBb0IzSm0xUVdMZXdrQjhVRXNNdkM5VHNQODR5cFFnWmNTWndDcWNBVVczRmJ0NDBhZ21STHVzbjUwSUFSZHVIdHZJ?oc=5",
+      "local_life_hint": "本地生活投放团队可用剪映一站式AI流程批量生产门店短视频，提升素材更新频率。"
     },
     {
-      "title": "剪映发布全新AI能力打通生视频与剪辑",
-      "explanation": "剪映发布全新AI能力，推进多端智能提效，支持一站式创作，被评价为「AI生视频和AI剪辑的壁被打破」。这意味着创作者可在同一工具内完成从AI生成素材到成片剪辑的闭环，对内容生产效率和投流素材供给影响直接。",
+      "title": "Seedance 2.5上线Draft模式，480P验证再出1080P",
+      "explanation": "Seedance 2.5上线Draft模式，允许先用480P低成本验证创意，满意后再用1080P生成终版。这把视频生成从「一次性高成本出片」改为「分阶段试错」，直接降低创意验证成本，对需要大量测试素材的营销团队尤其有价值。",
       "analysis_points": [
-        "能力变化：从「生成归生成、剪辑归剪辑」变成一站式闭环，AI生成的视频片段可直接进入剪辑时间线，多端同步提效。",
-        "对广告主与创作者：投流素材的生产门槛进一步降低，中小商家也能用剪映快速产出可投放的短视频，素材迭代速度加快。"
+        "能力变化：从直接生成终版视频，变为480P草稿验证+1080P终版两段式流程，创意试错成本大幅下降。",
+        "商业价值：广告主可先用低成本草稿快速筛选创意方向，再对胜出方案出高清终版，提升素材测试的投入产出比。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "leiphone.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQUUVOZGZFR2lDTHplUWcyZlc0TTdyMWR1U3hfd2c5dXlialJjbUxOTkI5bTRBb0IzSm0xUVdMZXdrQjhVRXNNdkM5VHNQODR5cFFnWmNTWndDcWNBVVczRmJ0NDBhZ21STHVzbjUwSUFSZHVIdHZJ?oc=5",
-      "local_life_hint": "本地生活商家可用剪映一站式AI能力批量生产门店短视频，把素材制作从外包转为自产，压缩投流素材成本。"
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZDlmLVFNaHZyendfRnA1a0Q5a2RtS2VrUlJRS1U4WnFrT0hsVW11QXBGdV91M0VzWlRaRnJLUG5FOFA0OTZ2OG05NUd0cHk5eTdPdm1pME01bm5ieldTeHd3YXRQTDZLRm12cnhiQklTQVdLdlc0WUdMdVVaRGp6UjdRdklFRlQtemJ5MEVodWRPdVlULWt2S3pUUmNZZnV5SjgtT0JEQ1hOWHAyTzNDUXlaMnRuWGpfNzdtajNuZ2FadjBPekRocm9tTEtTWEUxa1JHVWhpRk5MSGE3c05HNHhTUkJ3QXZLM2JGa0R2SGFhaEZL?oc=5",
+      "local_life_hint": "本地生活素材测试可先用Draft模式批量出草稿，再对高转化创意出高清版，控制制作预算。"
+    },
+    {
+      "title": "豆包大模型已搭载超700万辆智能汽车",
+      "explanation": "火山引擎披露豆包大模型已搭载超700万辆智能汽车，显示其在车载场景的规模化落地已形成体量。对字节而言，这是大模型ToB最确定的收入与数据来源之一，也为后续座舱服务、OTA升级与生态合作提供基础。",
+      "analysis_points": [
+        "能力变化：豆包大模型从单车型试点扩展到超700万辆车的规模化搭载，车载AI从尝鲜变为标配。",
+        "商业价值：规模化上车带来稳定的模型调用与生态合作收入，车企可借豆包能力提升智能化卖点与用户粘性。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNV1RrQkpSS25ndVlWTW5UTkdVb2x2TUdnTFQtNGpFZmNnU3dMQTZOeDlILUdBcHZYLUZRSzVEQjh6MldHZEdId2Rob01Qcy1ETnNFRW9QeDVOS3M?oc=5",
+      "local_life_hint": "车载场景规模化后，本地生活服务可探索与车机导航、充电、餐饮推荐结合的投放形式。"
     },
     {
       "title": "字节26.13亿元摘得北京奥体商业用地",
@@ -260,74 +274,116 @@
       "local_life_hint": "本地生活投放可用低价视频生成批量产出多版本素材，做低成本A/B测试。"
     },
     {
-      "title": "豆包大模型已搭载超700万辆智能汽车",
-      "explanation": "火山引擎披露豆包大模型已搭载超700万辆智能汽车，显示其在车端的大模型装机规模已形成量级。对字节而言，这是模型能力从互联网场景向汽车产业渗透的规模化证据，也是ToB商业化的重要背书。",
+      "title": "字节推出Dramagic，短剧从剧本到成片全流程AI化",
+      "explanation": "字节推出Dramagic，一个覆盖从剧本到成片的全流程AI短剧生产平台。这标志着字节把AI能力系统化地嵌入短剧工业，短剧作为其内容与广告的重要载体，生产效率与产能有望被显著放大。",
       "analysis_points": [
-        "规模数据：700万辆的搭载量说明豆包在车端已不是试点，而是批量交付，车企采购意愿得到验证。",
-        "对商业化：车端规模为后续车内服务、语音广告、场景化推荐等变现方式提供用户基数，字节可向车企收取模型授权与云服务费用。"
+        "能力变化：短剧生产从分散工具拼接，变为剧本到成片的全流程AI平台，制作环节被系统化整合。",
+        "商业价值：短剧产能提升后，品牌植入与投流素材供给增加，广告主可更低成本测试短剧营销。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "汽车之家",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNV1RrQkpSS25ndVlWTW5UTkdVb2x2TUdnTFQtNGpFZmNnU3dMQTZOeDlILUdBcHZYLUZRSzVEQjh6MldHZEdId2Rob01Qcy1ETnNFRW9QeDVOS3M?oc=5",
-      "local_life_hint": "本地生活平台可关注车机端到店场景，与车企合作把导航、充电、停车等需求与本地商家优惠打通。"
+      "source": "the-decoder.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNzdScjBDWGhJVXg1Wko3d1k5RlF5cnBJWkhPd3VBd3ZnOTFrRnlFcHFkRERDWlR1d0lyQzNmcGZjNGpFbm83Uko2Nk5RMktUaWozRUNkTDRtcGY2MlBMMmwyOUdBSUZJcFRJdVlFTXAzdXI0YzN0Qy1rSDZ1TDg1UnpDV3ZvUGc2WTlRbUhwVk9pXzNTT2JnSDU3OVRmSmlrck80QkdsSHBhVUFQMjRUYURrMUYzcV81LXh1TzVzai1NYVNRb2ZfZw?oc=5",
+      "local_life_hint": "本地生活品牌可借短剧全流程AI化，低成本定制门店故事化内容用于投流。"
     },
     {
-      "title": "火山引擎与AMD助力砹脉营销用Seedance重塑汽车营销",
-      "explanation": "火山引擎与AMD助力砹脉营销（A.M.A）以Seedance重塑汽车营销新范式。这是Seedance视频生成能力在垂直行业营销中的落地案例，说明字节的视频模型正通过代理商与算力伙伴进入品牌营销预算。",
+      "title": "字节与Runway、Luma瓜分OpenAI留下的AI视频市场",
+      "explanation": "有报道指出，字节、Runway与Luma正在瓜分OpenAI留下的AI视频市场。字节凭借Seedance系列在生成质量与价格上同时施压，视频生成竞争焦点已从模型能力转向单位成本与工作流整合，这对依赖视频素材的广告行业影响直接。",
       "analysis_points": [
-        "合作模式：火山引擎提供Seedance视频生成能力，AMD提供算力，代理商砹脉营销负责汽车行业落地，形成「模型+算力+服务」的组合。",
-        "对广告主：汽车等高客单价行业可用AI视频批量生成不同卖点素材，降低实拍成本，加快投放测试节奏。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlR3N2JyNG9WdUFrRFB2WV9CSXNaYm1KcFRpQU5QRzBxLVFmQUpTT1NXdGlEcmJSSVBkbVlJOTZtLVNUWVRxX19EZktxU3RRSEtROUFCbDFUSng5S01ZTXpvSHR3YjJlR2VEUk90ckRMTlRQRG50T205Q21Pa19pRE9fTHN3QmtK?oc=5",
-      "local_life_hint": "本地生活汽车、家居等高客单价商家可借Seedance批量生成场景化素材，用AI视频测试不同卖点组合。"
-    },
-    {
-      "title": "剪映杀入AI视频赛道冲击LibTV等工具",
-      "explanation": "报道指出剪映杀入AI视频赛道，LibTV等工具将迎来冲击波。剪映凭借字节生态与免费策略，把AI生视频能力直接嵌入剪辑工具，对独立AI视频工具形成降维竞争，也改变了创作者的工具选择。",
-      "analysis_points": [
-        "竞争格局：剪映把AI生视频与剪辑合并，独立工具若只做单点生成，容易被剪映的免费+生态优势挤压。",
-        "对创作者：工具选择向剪映集中后，创作者可更低成本获得AI视频能力，但也更依赖字节生态分发。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "thepaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EMUJ5X3psR1ZURXA4ODg0Z18wUEF1TXN0XzhtQ1JiTjRxaFUyRzFPNEdtenFPZG4xS01ReUc5dDNJQW1Kcmhpdzg1UTBHR0pZN3o5YzR4LXB4bW5YMm5pc3AteVZBX3EyZUkyNEp3UTlBUQ?oc=5",
-      "local_life_hint": "本地生活商家可优先使用剪映免费AI能力，减少对外部视频制作工具的付费，把预算留给投流。"
-    },
-    {
-      "title": "字节系AI视频与Runway、Luma三分市场",
-      "explanation": "报道称字节、Runway与Luma正在瓜分OpenAI留下的AI视频市场。字节凭借Seedance等模型在视频生成领域占据一席，说明其视频模型已进入全球第一梯队竞争，对内容生产与广告素材供给有直接影响。",
-      "analysis_points": [
-        "市场格局：AI视频从OpenAI一家独大变为多家分食，字节是其中重要一极，模型能力与价格成为竞争焦点。",
-        "对广告主：多强竞争下视频生成价格与质量持续优化，品牌方可用更低成本获取高质量AI视频素材。"
+        "格局变化：AI视频市场从OpenAI主导预期，转为字节、Runway、Luma多方分食，字节以Seedance系列占据重要位置。",
+        "商业价值：竞争转向单位成本与工作流整合，广告主可期待更低价的视频生成与更顺滑的创作链路。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
       "source": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMjJsSWYxUUhia0JJNW9vRG94dXRmd19LbWNaSGdRTkg2ZEZ3WUctNUtHdzU4OGJ4YVVLNjVGVDhNRExCYkhBSTF0Si01TlVBU1NHMkVLNEF5YmFOcXJTbThmR1V5bjVuc3lIeDRnTXpsMkV6ZkVQT0pOTWZZOWlMcjdoT2J6akszOEJpakJIbUg1Sk5ValprSzVscWlMZ3M2RjRCTQ?oc=5",
-      "local_life_hint": "本地生活品牌可关注字节视频模型的价格与质量变化，在素材制作上更多采用AI生成替代实拍。"
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMjJsSWYxUUhia0JJNW9vRG94dXRmd19LbWNaSGdRTkg2ZEZ3WUctNUtHdzU4OGJ4YVVLNjVGVDhNRExCYkhBSTF0Si01OU1BU1NHMkVLNEF5QmFOcXJTbThmR1V5bjVuc3lIeDRnTXpsMkV6ZkVQT0pOTWZZOWlMcjdoT2J6akszOEJpakJIbUg1Sk5ValprSzVscWlMZ3M2RjRCTQ?oc=5",
+      "local_life_hint": "视频生成成本下行，本地生活投放可加大短视频素材的测试数量与频次。"
     },
     {
-      "title": "美妆品牌在TikTok Shop的制胜要点",
-      "explanation": "BeautyMatter发文总结美妆品牌在TikTok Shop的制胜要点，涉及内容、达人、直播与货架运营的组合打法。美妆是TikTok Shop的核心品类，其方法论对本地生活美业商家也有参考价值。",
+      "title": "实测豆包AI工作流：视频借Seedance形成办公差异化",
+      "explanation": "有实测指出豆包AI工作流各项能力达标，尤其视频环节借助Seedance形成办公场景的差异化优势，但Prompt需足够多且细，token消耗偏高。这说明字节办公Agent已具备可用性，但经济性仍是规模化推广的关键变量。",
       "analysis_points": [
-        "方法论：美妆品牌需把短视频种草、达人分销与直播转化组合使用，单一渠道难以跑通。",
-        "对本地生活美业：美容、美甲等门店可借鉴达人探店+直播团购的组合，把线上流量导入到店核销。"
+        "能力变化：豆包AI工作流在办公场景中各项能力达标，视频生成借Seedance形成差异化，但依赖精细Prompt。",
+        "商业价值：企业可用其自动化生成汇报视频、营销素材，但需评估token成本，适合高价值、低频次的内容生产。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNk1BNVZ0U1FxSHM5UkxlOWxZT3NGdkVkVzdYVHFWdVV3QUZjR0lsU0FUNWEzY2kyQVdMOXBpQVhGdzZac3ZId0NEbE1oRGVvU0ZXRV82R2o0TWg3X3BnQ1lfV1U4WklWZk5rSXRiZ0tOd01rbUFxYkgwckhPQWltOEd5LWtESTZudG9vMw?oc=5",
+      "local_life_hint": "本地生活团队可试点用豆包工作流生成门店宣传视频，但需控制Prompt复杂度以平衡token成本。"
+    },
+    {
+      "title": "Seedance 2.5一张图生成可交互3D世界",
+      "explanation": "有报道展示Seedance 2.5的新玩法：只需一张图即可生成一个可随意摆弄的3D世界。这显示视频生成模型的能力正从二维视频向可交互三维场景延伸，为商品展示、空间预览等营销场景提供新可能。",
+      "analysis_points": [
+        "能力变化：从生成平面视频，扩展到由单张图生成可交互3D世界，模型输出维度提升。",
+        "商业价值：商家可用其生成可交互的商品或门店3D展示，提升线上看货与空间预览体验。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "爱范儿",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE55MVNBQThzRmhfZEJtZkhaUHljSmVsYjd6TXM5YUFZT0kxUmI5UkdsWEVCekVyaDJTbVNmMFlFTVFNSkk?oc=5",
+      "local_life_hint": "本地生活商家可探索用3D生成做门店空间预览或菜品立体展示，增强线上转化。"
+    },
+    {
+      "title": "火山引擎刘欣龙：车企AI转型从生产力与产品力落地",
+      "explanation": "火山引擎刘欣龙提出车企AI转型可从生产力与产品力两个维度落地。这一框架把大模型在车企的价值拆成内部效率与外部产品体验两条线，为火山引擎在汽车行业的ToB打法提供了清晰的方法论。",
+      "analysis_points": [
+        "观点内容：车企AI转型分生产力（内部研发、供应链、营销提效）与产品力（座舱、智驾体验）两个维度。",
+        "商业价值：火山引擎借此框架向车企销售模型与云服务，广告主可关注车企营销提效带来的投放需求。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JdzhVcUFFbmpRRDd2YmFCbEEySGFnRGdxTzUyX1BLMVpnZ2NYcnRSM1RkTnNNLWs5SHg2S2hzQjZGb3kyRUhZSmJYek44VWVaQ3ZtV0VudGlQTk0?oc=5",
+      "local_life_hint": "车企营销提效需求上升，本地生活可关注汽车品牌在抖音的到店试驾类投放机会。"
+    },
+    {
+      "title": "火山引擎联手AMD，用Seedance重塑汽车营销",
+      "explanation": "火山引擎与AMD助力砹脉营销，以Seedance重塑汽车营销新范式。这是Seedance在垂直行业营销中的落地案例，说明视频生成模型正被整合进代理商的实际生产流程，用于汽车广告素材的规模化制作。",
+      "analysis_points": [
+        "能力变化：Seedance从通用视频生成工具，进入汽车营销代理商的素材生产流程，形成行业化落地。",
+        "商业价值：代理商可借Seedance批量产出汽车广告视频，降低实拍成本，广告主可获得更多可测试素材。"
       ],
       "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUi00eTdhZ04xWXU1SVBOb1VrUUZDYnA4a3VvS2RwXy12Q3FmeXFablpaTUpoLUFQZUg5d0NzYk1oclhqdEpfQk9aYVByMUdJb2NjWXJkQTdDdlBadm9XcWVXVzZhbGJkTGlXaW5VaVVhWkFENEVwakczd3NQUzJqZFh6WXRlMDFBZjVMTw?oc=5",
+      "local_life_hint": "本地生活代理商可复制该模式，用Seedance为餐饮、零售客户批量生成广告视频。"
+    },
+    {
+      "title": "剪映杀入AI视频赛道，LibTV等平台面临冲击",
+      "explanation": "有报道指出剪映杀入AI视频赛道，LibTV等平台将迎来冲击波。剪映凭借庞大的用户基础与一站式创作能力，可能重塑AI视频工具的市场格局，对依赖视频素材的广告与内容行业影响深远。",
+      "analysis_points": [
+        "格局变化：剪映从剪辑工具扩展为AI视频创作平台，对既有AI视频工具形成直接竞争压力。",
+        "商业价值：广告主与创作者可在一站式平台内完成生成与剪辑，降低工具切换成本与制作门槛。"
+      ],
+      "category": "观点与深度",
       "type": "opinion",
-      "impact": "low",
-      "source": "BeautyMatter",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNm1vakpJZmNKQVFIYlRhY09maVZnbi1oQmoya3M4V1V0MlJEWUxLcXVNV3F6bUNoYVU5NmpwX1M3YWQyMEFFMGkxLWVJVC1lcmtvVnNKRUNHc0d4emlFUkgzTTU1S1k2VkdJRXM1eWRQaU1TNi15SWF4ZzZyMVJtemdldm9EcUFEUWU3RXlTSXhuOWVTZTQyaA?oc=5",
-      "local_life_hint": "本地美业门店可参考美妆打法，用达人探店短视频+直播团购组合提升到店核销率。"
+      "impact": "medium",
+      "source": "thepaper.cn/36kr",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EMUJ5X3psR1ZURXA4ODg0Z18wUEF1TXN0XzhtQ1JiTjRxaFUyRzFPNEdtenFPZG4xS01ReUc5dDNJQW1Kcmhpdzg1UTBHR0pZN3o5YzR4LXB4bW5YMm5pc3AteVZBX3EyZUkyNEp3UTlBUQ?oc=5",
+      "local_life_hint": "本地生活投放团队可优先采用剪映一站式AI流程，压缩素材制作外包成本。"
+    },
+    {
+      "title": "特斯拉OTA升级，更多车型接入豆包大模型",
+      "explanation": "特斯拉推送最新OTA升级，更多车型接入豆包大模型。这显示豆包在车载场景的合作范围持续扩大，从国内车企延伸到特斯拉，进一步巩固其作为车载大模型重要供应商的地位。",
+      "analysis_points": [
+        "能力变化：豆包大模型接入特斯拉更多车型，车载AI覆盖范围从国内品牌扩展到外资品牌。",
+        "商业价值：覆盖车型增加意味着模型调用量与数据场景扩大，为字节车载生态商业化提供更多入口。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QdlZBYUsyZjVDem1ISUw0NENEaUZFNklRSDdfaHdUNnRxZVhMUWliS0pneFVWVDVCeVlxTXlMUV93Z2lMOTFpT0VnOVA?oc=5",
+      "local_life_hint": "车载场景扩大后，本地生活可探索车机端推荐加油、充电、餐饮等到店服务。"
     }
   ],
   "mode": "ai"
