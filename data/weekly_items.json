@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-23T06:39:12.765618+00:00",
+  "generated_at": "2026-09-23T12:02:16.878476+00:00",
   "week_range": "09.21-09.23",
   "date_display": "09.21 - 09.23",
-  "editorial_summary": "本周共汇总 44 条 AI 商业要闻，其中高影响 5 条。本周主线包括：剪映发布全新AI能力，打通生视频与剪辑壁垒；Seedance 2.5上线Draft模式，480P验证；豆包大模型已搭载超700万辆智能汽车；Nvidia-backed Nscale buried ；腾讯混元发布Hy Image3.5 preview 支持。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 35 条 AI 商业要闻，其中高影响 4 条。本周主线包括：剪映发布全新AI能力，打通生视频与剪辑壁垒；Seedance 2.5上线Draft模式，480P验证；豆包大模型已搭载超700万辆智能汽车；TikTok Creator Marketplace关闭。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "剪映发布全新AI能力，打通生视频与剪辑壁垒",
       "Seedance 2.5上线Draft模式，480P验证再出1080P",
-      "腾讯混元发布Hy Image3.5 preview 支持文生图和图生图"
+      "Euka AI把TikTok Shop打法复制到Instagram"
     ],
     "opinions": [
       "大摩：AI放大赢家而非重置格局，抖音抢份额",
@@ -21,9 +21,9 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（28 条），高影响条目占比约 11%，商业化叙事仍由头部驱动。",
-    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+    "本周内容重心在「大厂动向」（12 条），高影响条目占比约 11%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
   ],
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在「素材生产链路」和「生成成本」上的底座改造最值得外投团队关注：剪映打通生成与剪辑、Seedance价格下探、豆包Agent更可靠，这三件事共同指向外投素材的生产成本与迭代速度将被重写。",
-  "total_items": 44,
-  "high_count": 5,
+  "total_items": 35,
+  "high_count": 4,
   "items": [
     {
       "title": "剪映发布全新AI能力，打通生视频与剪辑壁垒",
@@ -92,26 +92,18 @@
       "local_life_hint": "车载场景规模化后，本地生活服务可探索与车机导航、充电、餐饮推荐结合的投放形式。"
     },
     {
-      "title": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
-      "explanation": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
-      "analysis_points": [],
-      "category": "大厂动向",
+      "title": "TikTok Creator Marketplace关闭，AI化TikTok One接棒",
+      "explanation": "TikTok Creator Marketplace将关闭，由AI化的TikTok One取代。这意味着达人营销工具链从「人工撮合」升级为「AI驱动的一体化平台」，品牌可在一个平台完成达人筛选、内容生成与投放管理，对广告主的投放效率是实质提升。",
+      "analysis_points": [
+        "产品变化：Creator Marketplace被AI化的TikTok One取代，达人营销从人工撮合升级为AI一体化平台。",
+        "商业价值：品牌可在TikTok One内完成达人匹配、内容生成与投放管理，降低跨工具协作成本。"
+      ],
+      "category": "生态动向",
       "type": "fact",
       "impact": "high",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNld4dlFSSk9hcTVZR0xMV1hRYkk5NFlLOUprcmIxcHZvbEh4cVZrLWlqM3E1dkJTbDBvYzJCQVhTajZZVG9rYy1OT05tc3dXdUxKQjA2eC13TzRsVmk5eU93Uk9hcTFRTW1CRVEzY2JnTFBkUC16RmV3Q3RkeVRPNHJWX1U?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "腾讯混元发布Hy Image3.5 preview 支持文生图和图生图",
-      "explanation": "9æ22æ¥ï¼è¾è®¯æ··åæ­£å¼åå¸å¾åçææ¨¡åHy Image3.5 previewï¼æ¯ææçå¾ãå¾çå¾åå¤è½®å¯¹è¯åä½ãæ®å®æ¹ä»ç»ï¼è¯¥æ¨",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "cnBeta",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1579132.htm",
-      "local_life_hint": ""
+      "source": "Mashable",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT292OFVaMmhVb2tncU5yM1hqZnlmcm05R3VCUWNvWXNVU2R4bzlRX1plS0pTOWc5R1AyMGR0aDBMS1hwa3dyTy11X0dWX1RBOHFleVA3MGdELXNYeU1BVktqa1VDblREVWlFT0VMdWJvS0lvTVJHd1RQTUNqRlB2eU96Ukx6NlluNWRGRkJzTzV0YmV2Z3Y4?oc=5",
+      "local_life_hint": "本地生活品牌可借AI化达人平台更高效地匹配本地探店达人，提升投放ROI。"
     },
     {
       "title": "字节26.13亿元摘得北京奥体商业用地",
@@ -408,205 +400,145 @@
       "local_life_hint": "车载场景扩大后，本地生活可探索车机端推荐加油、充电、餐饮等到店服务。"
     },
     {
-      "title": "U.S. judge signals rejection of part of TikTok $400 million privacy settlement",
-      "explanation": "U.S. judge signals rejection of part of TikTok $400 million privacy settlement",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT2UtcHN0c0EweW5ZdnhBeThuSlJ6eTUwWjZLQ3BDNkZpb193dDFHSEV3YUs3Q0RNSnAzcUp3Q2VyaURCX0dFamEzYTM3RG44X0xjOERvVXZPalZVZ2lfUjdHRUFCODVHcFNJUllaN3g1ZXlCWUp0OUR2NW9HdjFGX2tMUVhGM0ktMU9JcFdqZHFSaHFRZXdLaEN4Y0xpT0RXN3fSAacBQVVfeXFMTktNRU1KcHM3WmV2MWM3RUxacUJPM1g2SV9SLWZzQS1Gb0FzRHJCYXR4VTdMY3FDOTlxX2s3Ymg3SlRqYVRMNW81bk1hQkxvaWxRdnlfRjAtNnJjYWp0anFLX3pKS3dDUzNhTE1MX2dpUkpmQ1preC1RcjBJS3Zqcms0V1B1UmhsZlN4SVNXN1RJYjVtV0NBd1NtZ3pSalBVckU2YmZEa3c?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布AI 手机全栈解决方案| 极客早知道",
-      "explanation": "OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布AI 手机全栈解决方案| 极客早知道",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBfdThFTElPa2x6VmhDbzZrSTVxS2RMM1ZwQk8xdkx4M3haSzFJZWcxYktGdUtJZ21kRzFfMTRWRGoyTDJYcEVhWlY3elE?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "字节在海外推出AI短剧制作平台Dramagic，AI工具加速出海：让外币变成中国AI积分",
-      "explanation": "字节在海外推出AI短剧制作平台Dramagic，AI工具加速出海：让外币变成中国AI积分",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5PV2lFVldvS0E4SlhZUTJwa1A4WUVhakN4dHFNdll1ZW9HdFJwdFBjRXp5Z3o4VW9WV0dNZXZicTBSZ283NlJtQzNpODY?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok美国业务加入跨平台儿童安全计划Lantern 与多家科技公司共享风险信号",
-      "explanation": "TikTokç¾å½ä¸å¡é¨é¨TikTok USDS Joint Ventureè¿æ¥å®£å¸å å¥Lanternï¼è¿æ¯ä¸ä¸ªç±å¤å®¶ç§æå¬å¸å±ååä¸çè·¨å¹³å°å¿ç«¥å®å¨é¡¹ç",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "cnBeta",
-      "url": "https://www.cnbeta.com.tw/articles/movie/1579230.htm",
-      "local_life_hint": ""
-    },
-    {
-      "title": "全新深蓝 S07 AI 激光版搭载豆包大模型：支持自然语言输入、车外语音操控",
-      "explanation": "IT之家 9 月 23 日消息，深蓝汽车宣布与火山引擎达成合作，双方将围绕豆包大模型与智能座舱展开深度共创，相关成果将率先落地于全新深蓝 S07 AI 激光版。 自然语言输入，轻松规划最优路线 车外语音操控，站在车外也能控车 告别生硬指令，表达“感觉”即可调控车机 30+ 场景积木自由组合，自定义专",
+      "title": "豆包工作上线目标模式：先出方案再执行",
+      "explanation": "豆包工作推出「目标模式」，AI先提供执行方案、用户确认后再开始工作，把过去「反复返工」的流程改为「先对齐再执行」。这对办公场景意义重大，意味着AI从被动响应转向可协商的任务交付，提升了结果的可控性与确定性。",
       "analysis_points": [
-        "IT之家 9 月 23 日消息，深蓝汽车宣布与火山引擎达成合作，双方将围绕豆包大模型与智能座舱展开深度共创，相关成果将率先落地于全新深蓝 S07 AI 激光版。 自然语言输入，轻松规划最优路线 车外语音操控，站在车外也能"
+        "交互变化：从「直接执行」变为「先给方案、确认后执行」，用户可在开工前校准目标，减少无效返工。",
+        "商业价值：企业可把目标模式嵌入营销策划、投放排期等流程，让AI先出方案再执行，降低试错成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "news.aibase.com",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9sNEZRUnlUalM1UFJXVEUyYzdSTS1lS2tRcUhkLWs3MWViU1hiaGNocWVmU0dQQUFjcmtDeTdtM0lISG5OMktKa0Vn?oc=5",
+      "local_life_hint": "本地生活投放团队可让AI先出投放方案再执行，把预算分配与素材方向提前对齐。"
+    },
+    {
+      "title": "深蓝S07搭载豆包大模型，火山引擎共建AI座舱",
+      "explanation": "深蓝汽车与火山引擎达成合作，全新深蓝S07首发搭载豆包大模型，支持自然语言输入，共建AI智能座舱。这是豆包座舱能力在车企中的又一次规模化落地，说明火山引擎正沿车企供应链把大模型能力标准化输出。",
+      "analysis_points": [
+        "合作内容：深蓝S07搭载豆包大模型，支持自然语言输入，座舱交互从指令式升级为对话式。",
+        "商业价值：车企借豆包快速补齐AI座舱能力，火山引擎则扩大车端装机，形成可复制的ToB合作模板。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BczdubkNHN0ZPZkVyU2hteWhpYVFiT1MxOUNlbWw5VDFKMUtxV0dJSl96THJFWmw4UlloT2ZtWGxnUUZJVUtfalhyT0o5ZGpSMzFGU2pMS1FEQzNqSWlJVTE2ZUhTQQ?oc=5",
+      "local_life_hint": "车机端自然语言交互可承接本地餐饮、停车、充电等场景化推荐，为本地生活导流。"
+    },
+    {
+      "title": "别克至境E7首发新一代豆包大模型及S2S语音",
+      "explanation": "别克至境E7焕新版上市，首发搭载新一代豆包大模型及行业首个S2S端到端语音大模型，并配备Momenta R6强化学习大模型。S2S端到端语音意味着语音交互从「分段处理」变为「端到端直出」，响应更自然，是豆包在车端语音能力的重要升级。",
+      "analysis_points": [
+        "能力变化：首发S2S端到端语音大模型，语音交互从分段式升级为端到端，响应更快、更自然。",
+        "商业价值：车企可借豆包语音能力提升座舱体验，字节则通过首发合作强化车端AI供应链地位。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/006/240.htm",
-      "local_life_hint": ""
+      "url": "https://www.ithome.com/1/006/337.htm",
+      "local_life_hint": "端到端语音让车内语音点单、导航到店等本地生活场景体验更顺滑。"
     },
     {
-      "title": "Tencent Releases AI Image Model to Catch ByteDance, Alibaba",
-      "explanation": "Tencent Releases AI Image Model to Catch ByteDance, Alibaba",
-      "analysis_points": [],
+      "title": "豆包通用Session团队减员约一半，C端助手聚焦",
+      "explanation": "据报道，字节跳动豆包通用Session团队减员，规模预计缩减约一半。这反映字节在C端助手业务上做聚焦取舍，把资源向更高确定性的方向集中，而非全面铺开。对行业而言，这是大厂在AI助手赛道从「广撒网」转向「精耕」的信号。",
+      "analysis_points": [
+        "组织变化：豆包通用Session团队规模缩减约一半，显示字节对C端助手业务做聚焦与资源重配。",
+        "商业价值：资源集中意味着豆包在核心场景的迭代可能加速，商家可关注其主力功能的稳定性提升。"
+      ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbldnaVZKLWR6cHhLb3pvUUQtWW51Nnp4c2h0YkpId05EMHE3cEtDc3E2ak5odlVEOHB2aEFzNHFhcHB3eHp6XzJmdW1kdVE5a3dZVWhFbG1vak9Rc2VlU2F3QUVnRVNhOF9UcjVDdHBQdHBYSmd4WVRNWDNKT1BLTU5hRTVXa2RJeUtrUlZERDFaV0NrbUFOMjFTMA?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "SAIC ROEWE Launches JIAYUE 07, Mass-Production SUV Powered by ByteDance Volcano Engine Doubao AI Model",
-      "explanation": "SAIC ROEWE Launches JIAYUE 07, Mass-Production SUV Powered by ByteDance Volcano Engine Doubao AI Model",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZWRvVkhrQnpHWXJWUkxNNlhLa2JqdFZfTV94QWN1MHNmcFFCOHpjSTZvdFlfcGNlQTRnaUdsNjU4UEVMaDd0LW9CY2JEZnJscDF0TF9VSmVSVkdILWVaSGVscEZUOS1naW5DeGFtQ0pJUGNEalBqeklUZlFuQXJHVnREYVY1bmNvMFJNLTlpZ1dkU2tWUlItLVhSY2hVT2VyVlNXNWVRTkpFemxGSTN4U1V1cG1nMC1TWGxNNXJDVzdDQUc1SEtrbTBEYlNqdV9RQ05PaGxYMklKSG9YOThpSXROMmZhX281bUw5NEFB?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Tencent unveils AI image model to narrow gap with ByteDance, Alibaba; shares rise (TCEHY:OTCMKTS)",
-      "explanation": "Tencent unveils AI image model to narrow gap with ByteDance, Alibaba; shares rise (TCEHY:OTCMKTS)",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeXBRaE1uTEZXbmpUYlBpSVlRNVFrd29NVDJLWHgwMXZ5enB6Z0pJNHZDU1ZJWDk1Q3psMUdHS3l6aGQ1S3VJRGJvODk2eGVGOXlkZUJQa0tSYlA2S3JQa19xcEwzdWk4cWd0R0RzaTFWZTRoenFfWjVIQ3VZT1BHTUZRb1UxRl9TWWpHeDVjaktqbGZQREZYS1J5eXZ3V0tCY1FsdHNQZXZ0c3FZbTBDa3JxTVYwTGtC?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "SAIC ROEWE Unveils JIAYUE 07 SUV With ByteDance Doubao AI Cockpit",
-      "explanation": "SAIC ROEWE Unveils JIAYUE 07 SUV With ByteDance Doubao AI Cockpit",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONHZHaFhNanhiRDdaRlFpczdkZ3hFVDBxYUF1OExXNk5VYU5iYWowRVhGUU93ZFhlajFZR25FUHJvMjdTZjRMWTdoS2RjNXMyZjNxWHlmNVZGSlJybklWTUFQbWNXbXRoaDlhbjNZYWhRTkJ0UUFmSlRPcnV5Zmt2M1MyRXhfTHkxNi00QzRuemE?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Tencent Jumps as New Hunyuan Image Model Takes Aim at ByteDance, Alibaba",
-      "explanation": "Tencent Jumps as New Hunyuan Image Model Takes Aim at ByteDance, Alibaba",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QU2RrTkIyZHpjY3RHdHFVeWI2Z2pRWk9Ydm9pNGNtclVVRG1iOWRHRjAzbnRkaUFtWE5mXzB6QnRGNlRWSVhURTU1Wi1LWW5mSFhkTUN4THZkaVJhOVIzS1Ytam1JNWdkUFNidlZ5TFhLcFc3anc?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance | Apps, Controversies, & Facts",
-      "explanation": "ByteDance | Apps, Controversies, & Facts",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43QVRCdnA5d1FOblR4VXlUbHN6NEEtY0txUV96dG1ZS1BiYnNULTBXQ0NzSWU4QTNha1dKNm50RVNvRThiSXc4TFNrTWNFMlM2NUg0eQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Best Buy to debut on TikTok Shop, introducing new way for customers to discover and shop",
-      "explanation": "Best Buy to debut on TikTok Shop, introducing new way for customers to discover and shop",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45UGR4ZVB4UC1nbHZGWmtmTFdwMjV1a29VbTZ5c0F1QjMyeXZpQlp3TVhmcGFPdGhDcjF2S1k2REV2LUNvQXA2S0xST0NZdHJQamhpbFRycXkzOGRydEhEUFhtV3oyMjROZUY0anlRdmJkbVRHalow?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Statistics: 15 Facts for Marketers in 2026",
-      "explanation": "TikTok Statistics: 15 Facts for Marketers in 2026",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YU0N3bVVYOWRDanZULTJIYTZ5c2pIZGFZako5QlVuQTRVRmhyT1NyMGNBTTlzVEhlVEhGSVBXVXBKbEVCd2Z1bE5XUWpGZ2hSQUN4WFowcVVJUQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Shop’s luxury goods glow-up is happening on live streams",
-      "explanation": "TikTok Shop’s luxury goods glow-up is happening on live streams",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcTVaWmNxNzQzOWppOXFWSTdNV3J5MkpNbEQ2RHlrNGNBb3MzR3Z5U3dvd1RuNWdHb3hITmM0M09vY2FIV3lYQ0Q5LVRsNUJLVUhxR1k5eFVYVVJsMmk3bERSRFE0U3ZwMjgycDZOd1JWS3psUzVzdW1JdmRDVlpNT1ktTDlaTTEzWVNjMGZyWdIBlAFBVV95cUxNdExTMHZzekVzTmlBdGx0RDh6TTZLX2p5UzZlXzZtYzY1Z1hGemZDZ0tFUHhlRGVKaVpJQ1lHOEVtSC1KcEVnSGRvRVc1SExwajZkRnBTdHFORU1fVmUzUWQ0SzNMc2JOZ2xXUWhuQ0E4aF84R3VvQm5oQVNaT29MLWxuOXQ3bDBKTFBNeXB3Tlh4RjNW?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "With Sephora joining TikTok Shop, is the social shopping platform becoming too big to ignore?",
-      "explanation": "With Sephora joining TikTok Shop, is the social shopping platform becoming too big to ignore?",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0pHelZSeDZveU1oUGxVWElDY1RLM0w5a1kwUng5YzRQQ3RxdVEzcmxnR19hUlhQSWR4a2tKVHc1SEZDMzN2aW5SOUJOVEtHQV9GbHZydkh1RC00VWN1YTJYTXAxNFU4YlhsTFVyTlI0d0Y0T2tQbVNJV2VXbWYtbTZwM0pDOEhsdkNhUjRkQ3N4eDV1TXRpel9scXI3aUxuemhrUXBwOHh0QVNQazdGOGRTSGdQcUQ1cF9IVXNn?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "What Beauty Brands Need to Know to Win on TikTok Shop",
-      "explanation": "What Beauty Brands Need to Know to Win on TikTok Shop",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNm1vakpJZmNKQVFIYlRhY09maVZnbi1oQmoya3M4V1V0MlJEWUxLcXVNV3F6bUNoYVU5NmpwX1M3YWQyMEFFMGkxLWVJVC1lcmtvVnNKRUNHc0d4emlFUkgzTTU1S1k2VkdJRXM1eWRQaU1TNi15SWF4ZzZyMVJtemdldm9EcUFEUWU3RXlTSXhuOWVTZTQyaA?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Celebrates MILEY’s New Album Bass Persuades With Exclusive In-App Experience",
-      "explanation": "TikTok Celebrates MILEY’s New Album Bass Persuades With Exclusive In-App Experience",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcDE3Ukh6U29uU3JZM29ZQjU0ajZLS2VBWDRianRzWVJVal9obHNYRTZQVHBhM1lNLVQ3OUl2SkVhSmlNb3lmNmlCRXFrR0Q3VXBaXzZYVlc5OWNybVR2dHFwU1FuanNYaDdwaVNuLXozUi1jOXBMNGJFa3dET1V6OFRRWERtQW9RSzY0RFo2dUU5SDd2cFBVeFM3U2hKRmZpemQ0b3Fad2QtNThFVnRGT0Y2TEtfeF94M3c?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "字节跳动豆包通用Session团队减员 规模预计缩减约一半",
-      "explanation": "字节跳动豆包通用Session团队减员 规模预计缩减约一半",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
+      "source": "观点网",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5KN09rUk1PdXBTYWtvNmhURTNhQ3Z3YzVTbzJVYWJzT3hzVmI5anlqSXBJeWtoRFJmUWtRRmJneWg1c1d5YkxHX2t5ZjQ3Zw?oc=5",
-      "local_life_hint": ""
+      "local_life_hint": "C端助手聚焦后，本地生活商家可关注豆包主力功能的更新节奏，择机接入。"
+    },
+    {
+      "title": "Best Buy入驻TikTok Shop，大牌加速进场",
+      "explanation": "Best Buy宣布入驻TikTok Shop，为消费者提供新的发现与购物方式。这是继Sephora等品牌后又一大型零售商进场，说明TikTok Shop正从「新兴渠道」变为「必选渠道」，对品牌而言，社交电商的规模效应已难以忽视。",
+      "analysis_points": [
+        "生态变化：Best Buy等大型零售商入驻TikTok Shop，平台从新兴渠道升级为品牌必选渠道。",
+        "商业价值：品牌可借TikTok Shop的发现式购物逻辑，把内容种草与交易闭环打通，缩短转化路径。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Best Buy Corporate",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45UGR4ZVB4UC1nbHZGWmtmTFdwMjV1a29VbTZ5c0F1QjMyeXZpQlp3TVhmcGFPdGhDcjF2S1k2REV2LUNvQXA2S0xST0NZdHJQamhpbFRycXkzOGRydEhEUFhtV3oyMjROZUY0anlRdmJkbVRHalow?oc=5",
+      "local_life_hint": "本地零售与连锁品牌可参考Best Buy的入驻策略，用短视频+直播做本地化交易闭环。"
+    },
+    {
+      "title": "Sephora入驻TikTok Shop，社交购物规模难忽视",
+      "explanation": "Sephora加入TikTok Shop，引发「社交购物平台是否已大到无法忽视」的讨论。美妆品牌在TikTok Shop的打法正被系统化总结，说明平台已形成可复制的增长方法论，对美妆及本地生活品牌的投放策略有直接参考价值。",
+      "analysis_points": [
+        "生态变化：Sephora入驻TikTok Shop，社交购物平台规模效应凸显，品牌难以忽视。",
+        "商业价值：美妆品牌可借鉴TikTok Shop的内容+直播打法，把种草与转化压缩在同一平台完成。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "glossy.co",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0pHelZSeDZveU1oUGxVWElDY1RLM0w5a1kwUng5YzRQQ3RxdVEzcmxnR19hUlhQSWR4a2tKVHc1SEZDMzN2aW5SOUJOVEtHQV9GbHZydkh1RC00VWN1YTJYTXAxNFU4YlhsTFVyTlI0d0Y0T2tQbVNJV2VXbWYtbTZwM0pDOEhsdkNhUjRkQ3N4eDV1TXRpel9scXI3aUxuemhrUXBwOHh0QVNQazdGOGRTSGdQcUQ1cF9IVXNn?oc=5",
+      "local_life_hint": "本地美妆与生活服务品牌可参考Sephora的TikTok Shop打法，用直播+短视频做本地转化。"
+    },
+    {
+      "title": "字节入局AI游戏赛道，多家公司获数千万融资",
+      "explanation": "36氪报道字节入局AI游戏赛道，多家公司获数千万融资，但该赛道仍陷盈利困局。这说明字节在AI应用层的投资逻辑偏向卡位与生态布局，而非短期变现，对理解字节AI商业化的资本节奏有参考意义。",
+      "analysis_points": [
+        "投资动向：字节入局AI游戏赛道，多家公司获数千万融资，但赛道整体尚未盈利。",
+        "商业价值：显示字节在AI应用层偏向卡位投资，广告主可关注其生态内新流量入口的孵化。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "eu.36kr.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zRVVoUzQzLVk3VW92WU1kZ1FTTExodU1BMkptb1p4cXNXWVdTMW9tRkc4Nm85YnZhb1FZZk5menRyMk5zS2Y1b2dJYTAtYlFNZ0xN?oc=5",
+      "local_life_hint": "AI游戏若形成新流量池，本地生活品牌可关注其内嵌广告与场景化营销机会。"
+    },
+    {
+      "title": "TikTok美国加入Lantern跨平台儿童安全计划",
+      "explanation": "TikTok美国业务加入跨平台儿童安全计划Lantern，与多家科技公司共享风险信号，以识别跨平台转移的恶意用户。这显示TikTok在监管压力下主动加强合规合作，对广告主而言，平台安全合规提升有助于品牌投放环境的稳定。",
+      "analysis_points": [
+        "合规动作：TikTok加入Lantern计划，跨平台共享风险信号，加强儿童安全联合打击。",
+        "商业价值：平台合规性提升有助于品牌投放环境稳定，降低广告主在青少年内容上的合规风险。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/movie/1579230.htm",
+      "local_life_hint": "本地生活品牌在TikTok投放时，可借平台合规提升更放心地触达家庭用户。"
+    },
+    {
+      "title": "TikTok Shop美妆品牌制胜指南发布",
+      "explanation": "BeautyMatter发布美妆品牌在TikTok Shop的制胜要点，系统总结内容、直播与达人协作打法。对美妆及本地生活品牌而言，这是可复制的平台运营方法论，说明TikTok Shop已从流量红利期进入精细化运营期。",
+      "analysis_points": [
+        "方法论：报道总结美妆品牌在TikTok Shop的内容、直播与达人协作打法。",
+        "商业价值：品牌可据此优化TikTok Shop运营，把内容种草与交易转化系统化。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "BeautyMatter",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNm1vakpJZmNKQVFIYlRhY09maVZnbi1oQmoya3M4V1V0MlJEWUxLcXVNV3F6bUNoYVU5NmpwX1M3YWQyMEFFMGkxLWVJVC1lcmtvVnNKRUNHc0d4emlFUkgzTTU1S1k2VkdJRXM1eWRQaU1TNi15SWF4ZzZyMVJtemdldm9EcUFEUWU3RXlTSXhuOWVTZTQyaA?oc=5",
+      "local_life_hint": "本地美妆与生活服务品牌可参考该指南，优化TikTok Shop的内容与直播运营。"
+    },
+    {
+      "title": "TikTok 2026营销数据：15条广告主必知事实",
+      "explanation": "Shopify发布TikTok 2026年营销统计，列出15条广告主必知事实。这类数据汇总对广告主理解TikTok用户规模、互动率与转化特征有直接参考价值，是制定投放预算与内容策略的基础依据。",
+      "analysis_points": [
+        "数据内容：汇总TikTok 2026年用户与营销关键数据，供广告主参考。",
+        "商业价值：广告主可据此校准TikTok投放预算与内容策略，提升投放效率。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "Shopify",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YU0N3bVVYOWRDanZULTJIYTZ5c2pIZGFZako5QlVuQTRVRmhyT1NyMGNBTTlzVEhlVEhGSVBXVXBKbEVCd2Z1bE5XUWpGZ2hSQUN4WFowcVVJUQ?oc=5",
+      "local_life_hint": "本地生活品牌可据TikTok数据校准海外投放策略，评估是否加码TikTok渠道。"
     }
   ],
-  "mode": "rule"
+  "mode": "ai"
 }
