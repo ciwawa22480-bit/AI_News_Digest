@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-09-24T06:44:24.781822+00:00",
+  "generated_at": "2026-09-24T12:08:21.979167+00:00",
   "date_display": "2026年09月24日",
   "date_short": "2026-09-24",
   "weekday": "周四",
-  "editorial_summary": "今日共精选 24 条 AI 商业动态，其中高影响 4 条。核心看点集中在：豆包公关负责人刘星回应“裁员、对话团队砍掉一半”传闻：不实，；Nest Commerce and TikTok partn；Nvidia-backed Nscale buried By；Nscale’s $35 billion IPO is he。头部大厂在产品、营收与生态合作上持续加码，建议重点关注其能力更新对广告/营销与本地生活场景的可迁移性。",
+  "editorial_summary": "今日共精选 24 条 AI 商业动态，其中高影响 5 条。核心看点集中在：赌博模拟器游戏_买量_抖音小游戏“狂飙”！巨量陶晶晶：抖小流；Nvidia-backed Nscale buried By；Nscale’s $35 billion IPO is he；“豆包工作”满月、豆包Session团队调整：字节跳动将2亿。头部大厂在产品、营收与生态合作上持续加码，建议重点关注其能力更新对广告/营销与本地生活场景的可迁移性。",
   "overview": {
     "new_products": [
-      "Nest Commerce and TikTok partner to laun",
+      "摩尔线程官宣：MTT S5000 适配字节跳动 Protenix-v2 开源生物",
       "Best Buy to launch TikTok storefront wit",
       "【网经社AI科普】豆包：字节跳动推出的全能型AI智能助手"
     ],
     "opinions": [
-      "Nvidia-backed Nscale downplayed ByteDanc",
       "深蓝汽车与火山引擎官宣合作 豆包大模型首搭S07 AI激光版9月28日上市",
-      "豆包与火山引擎发布座舱助手 首搭车型荣威家越07即将预售"
+      "巨量引擎&CTR：2026短剧行业趋势洞察报告-好剧入心向新而行"
     ],
     "ecosystem": [
       "Nscale’s $35 billion IPO is heavily depe",
@@ -22,8 +21,9 @@
     ]
   },
   "category_summaries": {
-    "观点与深度": "本期观点与深度共 3 条，涵盖：豆包公关负责人刘星回应“裁员、对、抖音欧博体育在线大盘再涨：DAU、抖音EASYBETS真人登录大盘 等。",
-    "大厂动向": "本期大厂动向共 21 条，涵盖：Nest Commerce an、Nvidia-backed Ns、Nscale’s $35 bil 等。"
+    "观点与深度": "本期观点与深度共 3 条，涵盖：赌博模拟器游戏_买量_抖音小游戏、抖音欧博体育在线大盘再涨：DAU、抖音EASYBETS真人登录大盘 等。",
+    "大厂动向": "本期大厂动向共 20 条，涵盖：Nvidia-backed Ns、Nscale’s $35 bil、“豆包工作”满月、豆包Sessi 等。",
+    "生态动向": "本期生态动向共 1 条，涵盖：摩尔线程官宣：MTT S5000 等。"
   },
   "local_life_insights": [
     {
@@ -31,48 +31,24 @@
       "borrow": "外投团队可把'AI 批量生成商家口播/带货素材'纳入投放链路，用素材数量与快速迭代摊薄单条获客成本，而非继续依赖人工拍摄。"
     },
     {
-      "base": "AI 广告/自动投放底座在推进，但全自动投放的效果与品牌安全仍受质疑。",
-      "borrow": "外投当前宜'AI 提效 + 人工兜底'：AI 做素材生产与初筛，把预算分配与品牌把关留给人，替商家守住 ROI。"
+      "base": "模型底座更大更便宜：调用成本持续下探，'千商千面'的定制生成在成本上开始可行。",
+      "borrow": "外投可从'一套素材投所有人'转向按商家、按人群定制创意与文案，用精细化投放提升 ROI。"
     },
     {
-      "base": "Agent/智能体底座成熟：从'单点问答'走向'能自己跑流程'的多步自动化。",
-      "borrow": "外投可试点用 Agent 串起'选品-生成素材-建计划-看数据-调预算'的投放闭环，减少人工重复操作。"
+      "base": "AI 广告/自动投放底座在推进，但全自动投放的效果与品牌安全仍受质疑。",
+      "borrow": "外投当前宜'AI 提效 + 人工兜底'：AI 做素材生产与初筛，把预算分配与品牌把关留给人，替商家守住 ROI。"
     }
   ],
   "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
-  "total_items": 19,
-  "new_vs_yesterday": 19,
+  "total_items": 17,
+  "new_vs_yesterday": 17,
   "compare_date": "2026-09-23",
-  "high_count": 4,
+  "high_count": 3,
   "category_counts": {
-    "观点与深度": 1,
-    "大厂动向": 18
+    "大厂动向": 16,
+    "生态动向": 1
   },
   "items": [
-    {
-      "title": "豆包公关负责人刘星回应“裁员、对话团队砍掉一半”传闻：不实，系分工组织调整",
-      "explanation": "IT之家 9 月 24 日消息，豆包公关负责人刘星今日（9 月 24 日）发文：有媒体报道豆包 Session 团队组织调整，部分自媒体将其解读为豆包裁员、豆包对话团队砍掉一半， 相关信息不实。实际上只是分工的组织调整 。 刘星表示，豆包通用 Session 团队的部分职能拆到了豆包的交易和豆包工作",
-      "analysis_points": [
-        "IT之家 9 月 24 日消息，豆包公关负责人刘星今日（9 月 24 日）发文：有媒体报道豆包 Session 团队组织调整，部分自媒体将其解读为豆包裁员、豆包对话团队砍掉一半， 相关信息不实。实际上只是分工的组织调整"
-      ],
-      "category": "观点与深度",
-      "type": "fact",
-      "impact": "high",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/006/610.htm",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Nest Commerce and TikTok partner to launch AI creative platform Hummingbird on TikTok",
-      "explanation": "Nest Commerce and TikTok partner to launch AI creative platform Hummingbird on TikTok",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOGZ0bVBSRkVQYTBrVWlHUWF6ZUYtR01zdTNoUFhDRzhoZG14MFJFV183TXRwckM2cUVvTTZzZ2wxVmphTEJDQ2tsc3gzUk41R1BkVEFfWXhSMGJWU21QSGxTYUZ6QWFzZFJSOWMtaXNxeWc1WC0xNTFWU01kU0hWbGJsNHhBSXFINnJGRlo1LVNpSllSSm5HdFNLVkJXRnYt?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
-    },
     {
       "title": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
       "explanation": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
@@ -91,19 +67,21 @@
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "Google News中文",
+      "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaW1CZWswQzJGbXBORk12RlhMdVlQMGlkNVFPWVJrdWNoQXZqTHRFbjNWNnFoY3YwNnN1VGQ5bWJzVGk4RHNkOWNDdl9qejJWS2pvQk1pVG1wZFJ4ZzU1U0twTmF6ZTVsM3lOQWM4Wl9TdF9nWHhscEdzcmI2Njd6ekdB?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "ByteDance, Tencent, Alibaba & Baidu Take On Heavy Debt to Bet on AI: The Survival Multiple-Choice Question Facing Top Chinese Tech Giants",
-      "explanation": "ByteDance, Tencent, Alibaba & Baidu Take On Heavy Debt to Bet on AI: The Survival Multiple-Choice Question Facing Top Chinese Tech Giants",
-      "analysis_points": [],
-      "category": "大厂动向",
+      "title": "摩尔线程官宣：MTT S5000 适配字节跳动 Protenix-v2 开源生物分子结构预测模型",
+      "explanation": "IT之家 9 月 24 日消息，摩尔线程今天宣布，旗下训推一体智算卡 MTT S5000 正式完成了开源生物分子结构预测模型 Protenix-v2 的全链路推理支持。 据IT之家了解，Protenix-v2 开源模型由字节跳动 Seed 团队研发，发布于 2026 年 4 月，在多项核心基准测试中",
+      "analysis_points": [
+        "IT之家 9 月 24 日消息，摩尔线程今天宣布，旗下训推一体智算卡 MTT S5000 正式完成了开源生物分子结构预测模型 Protenix-v2 的全链路推理支持。 据IT之家了解，Protenix-v2 开源模型由"
+      ],
+      "category": "生态动向",
       "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAtNi1wcVl6Rm1LcDBYOXBTMFhPM2dwYVlSdXJJRVd0blR4UmNWTHdBQlVZVkN4blp4emR5dHFvclR3U3NQUUczei02NlJ0by1QV2VV?oc=5",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/006/989.htm",
       "local_life_hint": ""
     },
     {
@@ -118,6 +96,17 @@
       "local_life_hint": ""
     },
     {
+      "title": "ByteDance, Tencent, Alibaba & Baidu Take On Heavy Debt to Bet on AI: The Survival Multiple-Choice Question Facing Top Chinese Tech Giants",
+      "explanation": "ByteDance, Tencent, Alibaba & Baidu Take On Heavy Debt to Bet on AI: The Survival Multiple-Choice Question Facing Top Chinese Tech Giants",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAtNi1wcVl6Rm1LcDBYOXBTMFhPM2dwYVlSdXJJRVd0blR4UmNWTHdBQlVZVkN4blp4emR5dHFvclR3U3NQUUczei02NlJ0by1QV2VV?oc=5",
+      "local_life_hint": ""
+    },
+    {
       "title": "U.S. judge signals rejection of part of TikTok $400 million privacy settlement",
       "explanation": "U.S. judge signals rejection of part of TikTok $400 million privacy settlement",
       "analysis_points": [],
@@ -126,17 +115,6 @@
       "impact": "medium",
       "source": "Google News中文",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT2UtcHN0c0EweW5ZdnhBeThuSlJ6eTUwWjZLQ3BDNkZpb193dDFHSEV3YUs3Q0RNSnAzcUp3Q2VyaURCX0dFamEzYTM3RG44X0xjOERvVXZPalZVZ2lfUjdHRUFCODVHcFNJUllaN3g1ZXlCWUp0OUR2NW9HdjFGX2tMUVhGM0ktMU9JcFdqZHFSaHFRZXdLaEN4Y0xpT0RXN3fSAacBQVVfeXFMTktNRU1KcHM3WmV2MWM3RUxacUJPM1g2SV9SLWZzQS1Gb0FzRHJCYXR4VTdMY3FDOTlxX2s3Ymg3SlRqYVRMNW81bk1hQkxvaWxRdnlfRjAtNnJjYWp0anFLX3pKS3dDUzNhTE1MX2dpUkpmQ1preC1RcjBJS3Zqcms0V1B1UmhsZlN4SVNXN1RJYjVtV0NBd1NtZ3pSalBVckU2YmZEa3c?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Nvidia-backed Nscale downplayed ByteDance ties ahead of U.S. IPO, FT reports",
-      "explanation": "Nvidia-backed Nscale downplayed ByteDance ties ahead of U.S. IPO, FT reports",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObWtVMEtfbXoyc0xEV3QySzZoTTJFXzdNbGhLbVY4Zkh1VkN1NWYzeVd1WENsZW5XaVZjeEVkUWZCT3JTYzM2TUFRSlZ1MEFkT2M2YXNWM3Z3b2lxdjI3cjFyVzh4WmVKbWhDT0xJRjdGZzFlX1JwNDFjc3c5bmQwYWI0cmRNQ2VMZ3RjUkIyLW5IbFpZdncyeXdKNG1PSUFmbzZZc1JWWlJoWGFHSFFsbFhEakt0aHR1bFRLR083MnJKMV85Qmw5T1Y2T21qSWs?oc=5",
       "local_life_hint": ""
     },
     {
