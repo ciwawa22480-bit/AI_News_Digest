@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T12:08:21.986038+00:00",
-  "week_range": "09.21-09.24",
-  "date_display": "09.21 - 09.24",
-  "editorial_summary": "本周共汇总 52 条 AI 商业要闻，其中高影响 7 条。本周主线包括：剪映发布全新AI能力，打通生视频与剪辑壁垒；Seedance 2.5上线Draft模式，480P验证；豆包大模型已搭载超700万辆智能汽车；TikTok Creator Marketplace关闭；Nvidia-backed Nscale buried 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-25T06:36:14.184761+00:00",
+  "week_range": "09.21-09.25",
+  "date_display": "09.21 - 09.25",
+  "editorial_summary": "本周共汇总 67 条 AI 商业要闻，其中高影响 8 条。本周主线包括：剪映发布全新AI能力，打通生视频与剪辑壁垒；Seedance 2.5上线Draft模式，480P验证；豆包大模型已搭载超700万辆智能汽车；TikTok Creator Marketplace关闭；Nvidia-backed Nscale buried 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "剪映发布全新AI能力，打通生视频与剪辑壁垒",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（28 条），高影响条目占比约 13%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（43 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在「素材生产链路」和「生成成本」上的底座改造最值得外投团队关注：剪映打通生成与剪辑、Seedance价格下探、豆包Agent更可靠，这三件事共同指向外投素材的生产成本与迭代速度将被重写。",
-  "total_items": 52,
-  "high_count": 7,
+  "total_items": 67,
+  "high_count": 8,
   "items": [
     {
       "title": "剪映发布全新AI能力，打通生视频与剪辑壁垒",
@@ -139,6 +139,17 @@
       "source": "IT之家",
       "url": "https://www.ithome.com/1/006/989.htm",
       "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Shop adds big names like Best Buy in push to become a mainstream marketplace",
+      "explanation": "TikTok Shop adds big names like Best Buy in push to become a mainstream marketplace",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQazZ5ckVDQ2RwY05zX0xhbWt5NVUwNVIxSkVUYUxDZ2tEaUlEYjlacm1hVmJ0VVlzQVZYQmZZaVZJeEJYejFlSThlX05fNlNGUUJqa2F2NGpLa2xVdVh3c3FHOWRwaFAwemFPZDBhM2NySnBVZ0Vmcy05RmdsQVNuUUo0NHg4Y21nUk95RDIyQTB0TnRLajdiMmhoNTg4cXFMa2ZDRHp4ZE5ucmtvWGJLYXA0b1BOR3BIU3c?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
     },
     {
       "title": "字节26.13亿元摘得北京奥体商业用地",
@@ -726,6 +737,162 @@
       "impact": "medium",
       "source": "Google News中文",
       "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQUElMc0ZnRzhCanRhdUpuT0pTQTdXRDZhaVF6ZEJvNDdUdGhYOGFHZ1lkeEdleEJEV1huVDdlTTdmWGk2Qjdib0hvcUt5Z3l5TElQSkxHNU9KYUpUZVJtZXBwX1NQRXA5ZWhiSlVXQ05XRXVxVWI1eGRVQnBabjNNanN4U2Vzc2tacDVPRlNSZVhPdmtTSkVfMFRmb3R1LVlKR0IzUUNzckdDMUNQbVo1M0pCRU9raGtNR3c0NE90czljbUlHOXNWWjJXRlhQYzhaaXB5N3ZtdDM5LXdxekdWYUUtQWRVakJzdldkQm9WTHUyMkMwVm1FbnZSSmozNjRYdl9rc2RMbFZ4MWNzWDRvMXkzSVdJbmo2eWxleFlMUTFYUXRIazBMOTdBcHNMQ1IyQmNTR21XWHFKTnh4Y2ZSeDlGSzVoU1pSN2huWGZBaTJlZTF5NVNFLXlHN0M3Ui1hTGIyTERR?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Enters the Arena: Why the Red-Hot AI Game Track – Backed by Tens of Millions in Corporate Financing – Remains Entirely Unprofitable",
+      "explanation": "ByteDance Enters the Arena: Why the Red-Hot AI Game Track – Backed by Tens of Millions in Corporate Financing – Remains Entirely Unprofitable",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5NSnRlcTVXZDRfWExKc1hOVi1hQWE1YS1LOHh4b05vQzFxS0RMOXZmVHhqVGR4dVR0N3htQlk5bTJPR2hGWjMtWFl4OW9IbmFwdGE4?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Founder Becomes Asia's Richest, Trip.com Sells a US$760K Space Trip, Pinduoduo Cuts iPhone Price",
+      "explanation": "ByteDance Founder Becomes Asia's Richest, Trip.com Sells a US$760K Space Trip, Pinduoduo Cuts iPhone Price",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN0JvV0hXcTJ4ajE0MXZLWUVXTWR2N3M4THIydkFwSUgxSmdzVUpMVWhNeXR6N1p5TnlDQllOaWlXMTRCZG5HM2lnQjRuVHZvMS1JS0s2TlNaMUJ3V001eFVPOVRJNHYzcFFOQ09VRlV2MHB6LXlCRnBWbm40bXZmMzBR?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Unlikely to Beat YouTubers’ Scraping Suit, Judge Hints",
+      "explanation": "ByteDance Unlikely to Beat YouTubers’ Scraping Suit, Judge Hints",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0l0TG9DTWhKTmx3dHoxOEVzNWg3X2U2SGV0bi1MZTNIM2RKc0FYbzRVeERMR213YUxfWDctUDVKQnlXZi1Ldy1WSWxuTl9uUEFVQTFsWFg3YktRMkU4Tjl2YVJSNUdXTjlXd1FDbWVmZERjUWM5LXg2a2dNZXRjZG1PQkk5bkNTM1B2SmNzTXpJVnc1UGpnaDZDLU5raUZv?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "The TikTok Shop Strategy That Helped LaLa Milan Build Income Beyond Brand Deals",
+      "explanation": "The TikTok Shop Strategy That Helped LaLa Milan Build Income Beyond Brand Deals",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNWlqWkI3a2Rhc1VwdUtXU0NvYS1EOEUzdTNkX04zbUpJZ1JDa2pTcGNMay1EM3JxUm9GYUxjNFdINTlULTF5RDZEWVVEQnk4aGZWbVRYaVdGdU5Hcl9HeWFNM2V3VjlROW1sSEhsOHliYmc0SlNSMmNmaWZGNjhEZS1ja2hZdWRaUlB2RUxQSTVyV2gtc1RlS3Iyejl0Y1F1X2dTRHRYeVY5NTlBVzk3bklTYjd4S25EVzd0elNfc3ptZw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "PANINI AMERICA EXPANDS INTO TIKTOK SHOP",
+      "explanation": "PANINI AMERICA EXPANDS INTO TIKTOK SHOP Panini America",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wR0NIRVhSOU93OC1aNEpPOXJtTklKSTFwWUhSNDM4WnNUT3NiMW9laW5aanZOZmNnZlpJYk9DQm1tWVA4MWFGVjdvbFIxWWp1US1SZjh3SkJTUUN6MW5BOTlDZzZJTWdVYnMxSENLeDdEamxIVXMtT2tXRQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Love The Pink Stuff? Shop exclusive TikTok deals under $30 this week",
+      "explanation": "Love The Pink Stuff? Shop exclusive TikTok deals under $30 this week",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR1ZuTElGM2NWeFYxS3EwZklVcnI0R1RUbl92T2kwUGR5c2dOeVU4eUI1ZW01TGh3WlBkenprQXlabWkzOFBxaGlUazJKUWJtSmxlTVF4dFNYdkNTMDNwZS05VHF3UXRJU2lDdlduZ2pNQlJkc1lYS09hTFpRRmlxSDAwUFhuV3AyME1RMnV4YWIwbzJ0bHF3c21HV1lKdUNWZUVxbw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "The 10 Beauty Sellers Dominating TikTok Shop Livestreaming",
+      "explanation": "The 10 Beauty Sellers Dominating TikTok Shop Livestreaming",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdmFWeUtua0w5QV9lQm5FdVBYZDJ5RVdIdUJjV3dhalZKU0toaHJQQTQwNVlOV25wdC1iQ3VNQnZMN0lKYUZldkFWNnVCZHBDc2RlMzRjWjgtV0RkWWxzX1FPS1BUN1NPaTllWURRNFJkM0syNEhsVTlMeHFIYXEzUTQ1cDVWVDVTY3NUd3RVSDhDSU0?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Best Buy Adds TikTok Shop in Time for the Holiday Shopping Season",
+      "explanation": "Best Buy Adds TikTok Shop in Time for the Holiday Shopping Season",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNHg3NG5Cd2JVZDF3Zm9PZmdFeGI4bkd4X0lWX2hyQVRrZXU5XzMxUTJSNllZY2ZYaUg0VndlUGtuNG0yS2d3dlFyQjJzYWlpcUhrMFJMX19lbHlvd0xXUXJSOFhnX252cXd4TWRUcVVjSjZqZHFSRmVBNmxBbHhJcmpTNjRPMHpzZm9RRlI3RW56dDZhNnVEdzFpWUMwUGdlTjUyX1FSekVDSVZ4M0FvXw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "华为之后，字节也在深入汽车圈：荣威抢先落地豆包座舱助手",
+      "explanation": "华为之后，字节也在深入汽车圈：荣威抢先落地豆包座舱助手",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWXZsSXZuQUFnRGE3eXhpLTlDTTY3V1BmQWNBU0xjTUJpX2I2MnlWR1ZKOWtEbVV2WFZIY1N6Wi1Qd1lSNHY1U3ZvWExwU2YwWXYtRHFVV2FSeUJkYURIUWozNUFOcVJMdDNyT0lGbEVPaFk2bncybXJNQWJMek9uSGhPMA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "大模型上车进入交付竞速期！字节豆包座舱助手首搭量产车落地上汽荣威",
+      "explanation": "大模型上车进入交付竞速期！字节豆包座舱助手首搭量产车落地上汽荣威",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU3JnaHVfVDVPSGVheEduaUZuMlYwOGhqWkdEZVI5ai02RkxIMU01SmoyQmRqeWZ2UWRESnc4M2FxS05vaTh3d0ltM1BtdU9wRXJZZmN6bEhyZmJ4bHJtMjJmY09xbW5hOFFZbG5tTGJGT291QmluME1uc1V0SE5TdGpB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "阿里千问平板即将亮相，字节豆包手机先行探路。",
+      "explanation": "阿里千问平板即将亮相，字节豆包手机先行探路。",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wR1BKUlpidThwWWVBckFVUVBTQ19sNEZiSlVtd0RrSVhzcGRfQ0pMSXRnU0pZX1FxM3V5Q016Sm1UMEljU1VzVmZ6SjlIM1R3SWp3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "拥有最好的视频AI，抖音为什么反而焦虑起了“好内容”？|字节跳动|客户|价值|信用|设备_手机新浪网",
+      "explanation": "拥有最好的视频AI，抖音为什么反而焦虑起了“好内容”？|字节跳动|客户|价值|信用|设备_手机新浪网",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WNkt1emFWQVJaTTdxM1RXRXhWM3c1T016Q3dUYnIzMjhLUHBzSlpwdG9PVVFkVzdLZnVxWXR3QnBpS2J2b3U5amtJdU10TklQRTBNN2xWUFVLTHlJQWc3ejQyM25SQzFhR2szQlE1TXRQZDZ1ekxEQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "深蓝汽车与火山引擎官宣合作 豆包大模型首搭S07 AI激光版9月28日上市",
+      "explanation": "深蓝汽车与火山引擎官宣合作 豆包大模型首搭S07 AI激光版9月28日上市",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBET3ZKRWFBTWJVMTByQ0lITC1tUElTSGtzQXJ3SmE2YkdDYjVPUVVFYk9kdnpkcE5TUFk1b1BUOTVZMzBDak45YWwyYnRfd09yY2NKaTNibnp6N29lQ1I4M2dB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "火山引擎对话《后西游记》主创，揭秘首部AI长剧登陆湖南卫视黄金档",
+      "explanation": "国内首部AI长剧《后西游记》8月31日登陆湖南卫视黄金档，60集规划、每集约40分钟，全剧无摄影机拍摄，视频生成100%由 Seedance 实现，上线一周芒果TV正片播放量突破1.5亿次。剧集由芒果TV出品、伯璟文化承制，依托芒果灵创平台，5月立项到播出仅半年、制作周期3个月；总导演李东珅以一场动",
+      "analysis_points": [
+        "国内首部AI长剧《后西游记》8月31日登陆湖南卫视黄金档，60集规划、每集约40分钟，全剧无摄影机拍摄，视频生成100%由 Seedance 实现，上线一周芒果TV正片播放量突破1.5亿次。剧集由芒果TV出品、伯璟文化承"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "AI热点",
+      "url": "https://aihot.news/items/cmuf9jirw05xurocspb64l7np",
       "local_life_hint": ""
     }
   ],
