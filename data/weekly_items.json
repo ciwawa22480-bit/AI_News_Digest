@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T12:07:43.979016+00:00",
-  "week_range": "09.21-09.25",
-  "date_display": "09.21 - 09.25",
-  "editorial_summary": "本周共汇总 62 条 AI 商业要闻，其中高影响 9 条。本周主线包括：剪映发布全新AI能力，打通生视频与剪辑壁垒；Seedance 2.5上线Draft模式，480P验证；豆包大模型已搭载超700万辆智能汽车；TikTok Creator Marketplace关闭；Nvidia-backed Nscale buried 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-09-26T06:36:59.862591+00:00",
+  "week_range": "09.21-09.26",
+  "date_display": "09.21 - 09.26",
+  "editorial_summary": "本周共汇总 68 条 AI 商业要闻，其中高影响 12 条。本周主线包括：剪映发布全新AI能力，打通生视频与剪辑壁垒；Seedance 2.5上线Draft模式，480P验证；豆包大模型已搭载超700万辆智能汽车；TikTok Creator Marketplace关闭；Nvidia-backed Nscale buried 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "剪映发布全新AI能力，打通生视频与剪辑壁垒",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（32 条），高影响条目占比约 15%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（35 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在「素材生产链路」和「生成成本」上的底座改造最值得外投团队关注：剪映打通生成与剪辑、Seedance价格下探、豆包Agent更可靠，这三件事共同指向外投素材的生产成本与迭代速度将被重写。",
-  "total_items": 62,
-  "high_count": 9,
+  "total_items": 68,
+  "high_count": 12,
   "items": [
     {
       "title": "剪映发布全新AI能力，打通生视频与剪辑壁垒",
@@ -167,6 +167,48 @@
       "source": "封面新闻",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWXZsSXZuQUFnRGE3eXhpLTlDTTY3V1BmQWNBU0xjTUJpX2I2MnlWR1ZKOWtEbVV2WFZIY1N6Wi1Qd1lSNHY1U3ZvWExwU2YwWXYtRHFVV2FSeUJkYURIUWozNUFOcVJMdDNyT0lGbEVPaFk2bncybXJNQWJMek9uSGhPMA?oc=5",
       "local_life_hint": "车内AI座舱若开放本地服务推荐，餐饮、加油、充电等本地生活场景可成为新的投放触点。"
+    },
+    {
+      "title": "豆包工作满月：字节把2亿日活与B端订阅放上同一架天平",
+      "explanation": "报道称「豆包工作」上线满月，与豆包Session团队调整同步发生，字节正把2亿日活的C端流量与B端订阅商业化放在同一套账上算。这标志着豆包从流量产品向可收费企业工具延伸。",
+      "analysis_points": [
+        "产品变化：豆包工作从「个人助手」扩展为「面向企业的工作流工具」，通过订阅制把免费日活转化为付费席位。",
+        "对商家价值：中小商家可用豆包工作承接文案、客服、数据整理等重复劳动，降低人力成本，也为字节打开B端订阅收入。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "News.QQ.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YZG5jSGN0NjRKTGYySmpDVTRmOG1zNm42ZC1vWWRtMTFtZWc0TUYteVZuMnNmTU1qc1NLcERUTThWSWVXeHpjM0ZZWFc3TWZRbHNVYXJn?oc=5",
+      "local_life_hint": "本地生活服务商可尝试用豆包工作做门店文案与评价回复的批量生产，把省下的人力投向线下转化。"
+    },
+    {
+      "title": "BytePlus推出短剧平台Dramagic，AI出海延伸到内容产线",
+      "explanation": "亿邦动力报道，字节BytePlus推出短剧制作平台Dramagic，把AI出海布局从工具延伸到内容产线。短剧是当前海外增长最快的品类之一，Dramagic把剧本到成片全流程AI化，直接服务内容生产者。",
+      "analysis_points": [
+        "产品变化：Dramagic把短剧制作从「人工编剧+拍摄+后期」变成「AI全流程生成」，大幅压缩制作周期与人力成本。",
+        "对出海商家价值：品牌可借短剧形态做海外内容营销，用更低成本批量测试剧情化广告，适配TikTok等平台的短剧流量红利。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "亿邦动力网",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xT1lrX0RDUkdjcTAzM0lrVVk4S3NJM0ltWUYxTXhxT2Y2eDlKTzU1TmQtLWNMUVp6MzNhczJWakc1ak1lT3hnaEZqbHE5R3ZuZ3JUVHdsclM?oc=5",
+      "local_life_hint": "本地生活品牌出海或做剧情化投放时，可借Dramagic低成本产出短剧式广告素材，测试海外用户偏好。"
+    },
+    {
+      "title": "Anew Labs以15亿美元估值浮出水面，字节系AI制药成新变量",
+      "explanation": "Endpoints与NAI500报道，字节分拆的生物科技公司Anew Labs以15亿美元估值亮相，成为AI药物发现领域新的中国竞争者。这是字节技术外溢从内容走向生命科学的标志性事件。",
+      "analysis_points": [
+        "公司变化：Anew Labs从字节内部项目变成独立公司，以15亿美元估值进入AI制药赛道，验证字节AI能力的跨行业复用。",
+        "对行业价值：AI制药多了一个有算力与模型背景的玩家，可能加速药物发现环节的效率竞争与资本关注。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Endpoints News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkh0QWNNQkxIWF9XTzNnQVNVd2tSRVBRbVlnTzdrdWpYYkRDOXdhYmJYWDhLd1d0U01WUDBkVk9IcW1GcHpBWklfZnNsREd0TUhKLUQ1UGxGemNla1ROR216alV2V09wUjAtWE1zdlR2enZuMVQyM3kxU2lEa2NaOEhYNnNfYWZVQzgzWl9UazFYcXRqQlFqMlg2OG4?oc=5",
+      "local_life_hint": ""
     },
     {
       "title": "字节26.13亿元摘得北京奥体商业用地",
@@ -867,6 +909,48 @@
       "source": "封面新闻",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ob01IM0lWMWcxM1drWnhES3VlS1hGRmFyOXdjR0hBV0FCd1p1ajI1LU0tY0FqbXlBQ2ZMYUJZeFN3MzBGME53eFJDRi0wbk1uWHdWUVF5WFJ3MVFFdVhUODY4Vm1LeXJOb3U2RmluSnYzbC1uN1pr?oc=5",
       "local_life_hint": "座舱认知能力提升后，车内本地服务推荐或成为新的商家触达场景。"
+    },
+    {
+      "title": "巨量星图发布八大内容类型，达人营销迈向标准化",
+      "explanation": "广州日报报道，巨量星图发布八大内容类型，推动达人营销从经验驱动走向标准化。这为广告主提供了可复用的内容分类框架，是巨量引擎在达人营销基础设施上的一次产品化升级。",
+      "analysis_points": [
+        "产品变化：达人内容从「模糊标签」变成「八大标准类型」，广告主可按类型精准匹配达人与内容形式。",
+        "对广告主价值：投放前可依据内容类型预估效果、做组合排期，减少试错成本，提升达人预算的确定性。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "广州日报新花城",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaTNxRlJvQmt4ZWlVQUxPaVp6c25SSEFSWTNWWkVDZC1Eb2UzM0U1ZExtNjRrSWx4Q0JUdjI5S2tGR05USVFOUUZiN2hnSTFZUDQ4NlZWWklBOFBMQjFsQV9USk1pMWp4UEtDOWs2azhZR21naVFxS2c0OFoxOGlheXF0S0g4d3cxRmc?oc=5",
+      "local_life_hint": "本地生活商家做达人探店投放时，可按八大内容类型筛选匹配门店调性的达人，提高到店转化效率。"
+    },
+    {
+      "title": "TikTok与字节同意向阿拉巴马州支付至少1亿美元和解",
+      "explanation": "媒体报道TikTok与字节跳动同意向美国阿拉巴马州支付至少1亿美元达成和解。这是字节在美合规成本的又一笔大额支出，反映其海外扩张与监管压力并行的现实。",
+      "analysis_points": [
+        "事件性质：和解金额至少1亿美元，属于隐私/合规类支出，直接影响字节在美运营的财务与声誉成本。",
+        "对广告主价值：平台合规投入增加，长期看有助于稳定广告主对TikTok投放环境的信心，但短期政策不确定性仍在。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zWFRNZzlmZnZPMm9hRGE5OFNKbG82RU9pVGdEZjhrRE9rblRjQTF2dVo4ZmlMTzdWSWE3WjJBcGRWU2hRbHhBWWMtenQ3OVpoVWN1Z3BTTDlpZHhjRlpOVDBaTE5wc2Ru?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "法官暗示字节难胜YouTuber数据抓取诉讼",
+      "explanation": "Bloomberg Law报道，法官暗示字节跳动在YouTuber提起的数据抓取诉讼中难以胜诉。案件涉及内容抓取与平台数据边界，可能影响字节在内容生态中的合规操作空间。",
+      "analysis_points": [
+        "事件性质：诉讼聚焦数据抓取合法性，法官倾向不利于字节，可能带来赔偿或行为限制。",
+        "对广告主价值：内容抓取若受限，依赖跨平台数据的内容策略需调整，广告主应关注平台数据合规边界。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Bloomberg Law News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0l0TG9DTWhKTmx3dHoxOEVzNWg3X2U2SGV0bi1MZTNIM2RKc0FYbzRVeERMR213YUxfWDctUDVKQnlXZi1Ldy1WSWxuTl9uUEFVQTFsWFg3YktRMkU4Tjl2YVJSNUdXTjlXd1FDbWVmZERjUWM5LXg2a2dNZXRjZG1PQkk5bkNTM1B2SmNzTXpJVnc1UGpnaDZDLU5raUZv?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
