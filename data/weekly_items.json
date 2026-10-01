@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T12:57:12.099773+00:00",
-  "week_range": "09.28-09.30",
-  "date_display": "09.28 - 09.30",
-  "editorial_summary": "本周共汇总 30 条 AI 商业要闻，其中高影响 7 条。本周主线包括：火山引擎发布Seedance影视合作计划，单项目最高激励；豆包大模型1.8发布，通用Agent模型成AI行业新叙事；字节或获批采购百万颗英伟达芯片，算力瓶颈有望缓解；SemiAnalysis：字节跳动占中国数据中心容量五分；豆包被曝将推个人助理Spell，4月已内测。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-10-01T07:47:12.836840+00:00",
+  "week_range": "09.28-10.01",
+  "date_display": "09.28 - 10.01",
+  "editorial_summary": "本周共汇总 51 条 AI 商业要闻，其中高影响 11 条。本周主线包括：火山引擎发布Seedance影视合作计划，单项目最高激励；豆包大模型1.8发布，通用Agent模型成AI行业新叙事；字节或获批采购百万颗英伟达芯片，算力瓶颈有望缓解；SemiAnalysis：字节跳动占中国数据中心容量五分；豆包被曝将推个人助理Spell，4月已内测。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "火山引擎发布Seedance影视合作计划，单项目最高激励百万",
@@ -11,7 +11,8 @@
     ],
     "opinions": [
       "豆包输入法补齐五大平台，AI入口回到键盘",
-      "爱优腾芒AI剧集布局与抖音的爆款突围"
+      "爱优腾芒AI剧集布局与抖音的爆款突围",
+      "ByteDance’s Doubao reportedly preparing "
     ],
     "ecosystem": [
       "字节或获批采购百万颗英伟达芯片，算力瓶颈有望缓解",
@@ -20,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（17 条），高影响条目占比约 23%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（38 条），高影响条目占比约 22%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
+    "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。"
   ],
   "local_life_insights": [
     {
@@ -45,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在视频生成试错成本、影视合作激励、输入法跨端入口这三处底座上的改造，意味着未来外投的素材生产会更便宜、更快、更贴近用户日常场景，投放成本结构有望被重构。",
-  "total_items": 30,
-  "high_count": 7,
+  "total_items": 51,
+  "high_count": 11,
   "items": [
     {
       "title": "火山引擎发布Seedance影视合作计划，单项目最高激励百万",
@@ -145,6 +146,52 @@
       "source": "手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10TV9lUThBaEN4Y1dwSUI0WnNyVlVFMmtwei1BajZjMzgtaXJFOWFkYUVqWVNnSWZVXzdIbm9FM0ZyVTVubnQ4U3dKXzRXTzlfaFRHWFJzSWlJQTZpUE5LZHBTci1pS19IWFpyN0hNUWIxQQ?oc=5",
       "local_life_hint": "特斯拉车主是高消费力人群，若车机开放本地服务推荐，将成为本地生活高价值流量的新入口。"
+    },
+    {
+      "title": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
+      "explanation": "据彭博社 Mark Gurman 9 月 30 日报道，苹果计划于 10 月 13 日推出智能家居产品线，核心是代号 J490 的家庭控制中枢，同时更新 HomePod mini 和 Apple TV。新品将用于展示新版 Siri AI 的能力，苹果对此拒绝置评。 家庭中枢据报配备约 6 英寸方形屏",
+      "analysis_points": [
+        "据彭博社 Mark Gurman 9 月 30 日报道，苹果计划于 10 月 13 日推出智能家居产品线，核心是代号 J490 的家庭控制中枢，同时更新 HomePod mini 和 Apple TV。新品将用于展示新版"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1682780?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Best Buy to launch on TikTok Shop",
+      "explanation": "Best Buy to launch on TikTok Shop Retail Dive",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83TG1NYnhBdkY5WlMtdTBGRC1MNl90MFYtakgyamd2bHNPd0o4SWo4MWRHd3doWXFHLWVPZmpPQm5SUjNJdllXUWQ4R1o5QWlETHBwRDEwUjROa2RvcVdCT2J1Q28xU0t5MGVKNFE4cmthY052SWc?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "字节或将加速推出personal agent产品",
+      "explanation": "字节或将加速推出personal agent产品",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pa19VakhxQUVDSlRRcGozSGZSU2ZfSHBFSGZvUms1MXJCdV9fOG9qQjYzVDEzdmJIUDFDWnNvdWxzbUpqVjI4X2VyaXV4QW9PX1FsLTFneWxWd0p6bTIyc3M5dXlua1dlbFNtbV96Q29iR2NvN2s3ZU1xM1RRUUE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包App上线\"出行用豆包\"入口 接入抖音生活服务探索AI商业化",
+      "explanation": "豆包App上线\"出行用豆包\"入口 接入抖音生活服务探索AI商业化",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11ZHZPTE5HeXlobnZESzMxYkN5T1pyWVBxWWM4UGYyUWNOeEVsaGlhUEJ2NU82TGFXRjVBamVZNWk2Zk1rSVFZZTczS1NpeUZ0X3E4Wg?oc=5",
+      "local_life_hint": ""
     },
     {
       "title": "豆包输入法补齐五大平台，AI入口回到键盘",
@@ -467,7 +514,194 @@
       "source": "极客公园",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBaYkZNQWFRM2lTM19hYzNSeC1xb2R6VlpDS0JWdWxnaHg1ZGdzblZaSG92bDEyV1k2ZXJYdUZrcW1Hd3ZDU2p6NTRjWHc?oc=5",
       "local_life_hint": "推理模型落地实践可为企业客户提供参考，本地生活服务商可关注推理模型在客服、推荐等场景的应用。"
+    },
+    {
+      "title": "ByteDance’s Doubao reportedly preparing personal AI agent, codenamed Spell and tested since April",
+      "explanation": "ByteDance’s Doubao reportedly preparing personal AI agent, codenamed Spell and tested since April",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLVY1cl9VZGRKTDI5SE1XUHhGeVVjQW4wang5Y1hrV0tCNzVwcE81R1dGV2ZDYkJEWWlqdnlQVDFGQUdNSmVfWlMwVkEzazZodkJXV25jUmZ4RG80M1ZBZ1plOGIwTlFzWV9McWw4TDQzZnFpR0VZeWk4Yjc2a2FSaHlGTjN6OFpkczdkd0tBc0RBYWVacXdVbVVsQ093SXZWR2k5Y21jUE5VUW5rZTVzRzVXN2QybldDMlRPQXpFQ3hTOFlNWjVR?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Tencent, ByteDance, Alibaba Bet Collectively on Personal AI Assistants; Costs and Ecosystem Pose Biggest Uncertainties",
+      "explanation": "Tencent, ByteDance, Alibaba Bet Collectively on Personal AI Assistants; Costs and Ecosystem Pose Biggest Uncertainties",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aZTBXZWFDOXphSkp1d2xUUmhZamN3Mk54OGtNeFBZMWl1eVE5eXlHTFhsWHFhbmkxMXgwb3NWODNmZ0NoZEd1ZnB5WElLV18yNFJOLTB4dXFYZnl0M1RDbEh4UmRJdHVKczZOTkhqYWNldlBrYmc?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "快手可灵发布Kling 4.0：最长生成30秒，加速追赶字节Seedance",
+      "explanation": "快手可灵发布Kling 4.0：最长生成30秒，加速追赶字节Seedance wallstreetcn.com",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5URGRIUEd4LVhxcWQ2ZE5zMW1UNG92OXdIeWZyZGhyMFpfVU9iVXczUEdtVlFjOFhOeDhJbTk5aVBSd3VHcW9OX1kzeDg0MjFBY24w?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance occupies one-fifth of China’s data centre capacity: SemiAnalysis",
+      "explanation": "ByteDance occupies one-fifth of China’s data centre capacity: SemiAnalysis",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ1AxSGFLRnViWDlIX1MzU25OME5DRG9VWTRYdC1hOGxRSEhYUTlxZ3AtU1JTUHl0Qkt4eFM1X0x0V2pLODBtb20xdS1mb3lybnZkTjI1UmRfR1pzVG9XRnNraEFKQVZmLWVKdk81dG1yNWFVQUlYYUx3RmlFTnhBT1hoNko1T1hIOURyZDktQ0x6MzNURUhWTTRjaDNGNkEyZ2ZKVGM0cm9Fc2k2T2k2Qy1URXlraERrdEJZOS1mQVNKaXFrRG9iMUlPUkczYVHSAc8BQVVfeXFMTWE5X21qVFZuWFJpX1RaUmVvc3NoNWlIazdPWFhqU1BhNEhvWEVMOUg0SmZBa3l5ZTBfQi15cUFVZ2RhV1p1SS1Eam1ZREw1Q1phRE9TYlFsM2F5WmlFVzFIV012SmotdWt5V1NlU0c1Z2w4MHZZX3FtTENMMUtwM2FJZFE1NklId1g4SWFUUEZrNXFhR0lCOUtGVTlSZGpid3U2U0VyU0hoS25iVThFbXc3Z0swNDhhdUR3c2tOMnRvWUE2eExkZkoybFgtU0l3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "China may allow ByteDance, Alibaba to buy Nvidia RTX PRO 5500 chips",
+      "explanation": "China may allow ByteDance, Alibaba to buy Nvidia RTX PRO 5500 chips",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wVEtKdlAwTW1jQmJ4TDZ5NXA0TVVMX3BzdmRBT05sVzZDUmxkeFNtWFlZYzZQby00cV9ITk83LVpRRWJKMVJFUDBrbnhvamktcW1VQlJhMXZKNjA2NXB2cFZid1JUYlpUU3RHMk40dGJaOVVMOC1oaG1tRQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "NVDA Stock In Focus: China Reportedly Weighs Letting ByteDance, Alibaba Buy Some Nvidia AI Chips",
+      "explanation": "NVDA Stock In Focus: China Reportedly Weighs Letting ByteDance, Alibaba Buy Some Nvidia AI Chips",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOel84ZmZOdEs3MTdCb1J0Z0Vrb3NXMURUSTMyQ1oyOUVpMVA5UllzX0F1RFJFNTVoMUZ0SEwwWFoyRjBweHc3Q2s2MlNDYTc2R01tUmd6VkpYeDB2T2RMSk9lVEkxdE9OQ2M3cTZOU2c1WXNIUW5nVnIzNmhRQmczemFhX0hGZC1wWjZnN1lLaWM2M1BRNER1aE5DT09BeGc?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance makes up a fifth of China's AI data center capacity amid growing buildout",
+      "explanation": "ByteDance makes up a fifth of China's AI data center capacity amid growing buildout",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNamJMV0NJbTRWUVYycVI1Rkw1Yktqa2R5eW1UMkxwdXMtTHd6a1RnTTljUV9BVmVUSVpzaFhvQkFTdHotSzgtd01lb0hlVDNHZmtDdlNKeXFfNmdTMlA4TUpGbmRBdHVfRXdyWHVZYUN0VmlJNDUzcUpRNmV6Z2VjNDdFOWktbjJCRExibGZLWGx2MHUzZjF1OU1feHE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Kuaishou’s AI Video Spinoff Unveils New Model in ByteDance Chase",
+      "explanation": "Kuaishou’s AI Video Spinoff Unveils New Model in ByteDance Chase",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPam9mSmNwUFQ1UldJSHh6cUFSbGY0dmdVZU5nazBtajVFU1MxYWZpeHl2dzd6MkFOMVh2ZHk0V0NCZ2hFUnhESkxOT00tcTBVZjFseVl2R1FDV3NwUUJsdV9XNFJXSXJFWkFEclJYNXlRdVduYUtubkM4SjZtT1hUVFZVTFpiT1R1TlhMOTNmV0t1bGR4UnpYYWdBWVh1bWtDWGZfSmc0bUFFaWdoSnJnSVZJU09NUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Ecosystem AI Education Strategy: From \"Tool-Focused\" Phase to \"Classroom-Centric\" Evolution",
+      "explanation": "ByteDance Ecosystem AI Education Strategy: From \"Tool-Focused\" Phase to \"Classroom-Centric\" Evolution",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuMFBrN3M2Tk05TEk4b21lelNqdlllc2pra0p0LWxwYmphVklGRlk0bmRZVEJHUnhDa3I5QzBfLU45UW9zcFUxaVN3WXhkNzRSX0U0?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Nvidia Stock: China May Reopen AI Chip Sales to ByteDance and Alibaba",
+      "explanation": "Nvidia Stock: China May Reopen AI Chip Sales to ByteDance and Alibaba",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQnMyZWlFS0dPS0hBYk9VZG1XMy05YUpqRm1IdmlPUHlFVm15N2RBZFhZV3FENzQxY2pDbkpNQlUxTDBYanVsdXpaOFByUDhXcDQ5RWFYanNRYXVSV1JCaEthbzFLSjJvN29lRGx6YTFaU2tQY3lQZXlrTlpTVy1uMFg0dlpFdEVfaW1ELUYwUlIteGhSQ212LXRIWHdOVnRmWmxzaFVqQTVRQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "China reportedly may let Alibaba and ByteDance buy new Nvidia chips",
+      "explanation": "China reportedly may let Alibaba and ByteDance buy new Nvidia chips",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTNGFXc3ZHSTNIRHdzdmo2empqMkNHOTVxeWV4VTZPRW9CWUhOVVl2RExRNVZxeUR5WS10UXktd2EtQ1F2dEpGY3Z3ekVqN3FWYk5MTlN4ekRYZk9yVkl3WXJjaktmVl9jWTNsWnB1OUlVWW9hTjBEcVpaQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "The Booming Business of Beauty on TikTok Shop",
+      "explanation": "The Booming Business of Beauty on TikTok Shop",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Shop Is Poised For Holiday Gift Buying As Platform Interest Continues to Grow",
+      "explanation": "TikTok Shop Is Poised For Holiday Gift Buying As Platform Interest Continues to Grow",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQk56UW5oYkc3LUtfb0NOZUlHenBiWHpPVUNZaHotRmIybTNMMHp6a1p4V3ZIdnBBNHdLeVYtbk1mb0FKaE8xWFc1X3NQUmdaS1dRelBxTTgwVTFYc0VTSWNXRmN2LTFqbDMyLU1mb0VFWGlUS0g2OU5Oa2pfY1Z5WXlqZmdxdF9BVER1TFJfampfZm1maVZFemE5T1lIb1ZsN2pPbXA3WDViVlo5WjRj?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "UPS Partners With TikTok Shop for No-Box, No-Label Returns Service",
+      "explanation": "UPS Partners With TikTok Shop for No-Box, No-Label Returns Service",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeHFVSTUxdThyOWhQQnFrTWRWX293azJ5SVkyOGhsOWNBOUJXaWJLM1ZjdzBnN2lIcTQwLTAzMUN5d2cySFZxLWhSVHUzWE5lNGZBSnRncEZKQ05PZ1FqYm9sUEpqUEdFcVB6ZlVYWWZRLS0zdnZaYk1Jd0x1RkpVeG9tSlMxX25xMVB3MWVhdHM3eE5MSHQ2T2I3aw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Sellers can now manage sales across Amazon, eBay, Shopify, TikTok, and Walmart from Seller Central",
+      "explanation": "Sellers can now manage sales across Amazon, eBay, Shopify, TikTok, and Walmart from Seller Central",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ3lUWUszZ0lhaXRhM0FRb2hvTjA2QlBINWhKbEcydkpSRW5uak1jeUZfVGYxUzcyRE55SDNfZHQ0UHF3OW1ab0h4TExxTG5zMmF3YTQyZlA4NWZOVXJmNnhUZC1hb1cySzdyY0NMcURIc0JoQnRKU1puYnhULXRpbkdQLUd3R1h4WDdiSlp6THBWX2doTmFQRUgxX3U?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "一个入口装下“吃住行游”：豆包聚合第三方履约 字节跳动加速冲刺个人智能体",
+      "explanation": "一个入口装下“吃住行游”：豆包聚合第三方履约 字节跳动加速冲刺个人智能体 finance.eastmoney.com",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ld19BeWU2dndaSXlHR1dNWEUzUDh3TGg2d3Nna0xlbDF6TVBkbjVVTGlpakNTMTdBemtWLU92djAtM2VGUlNMMG5Pblo0V0I0eV8tRFJINjZIRDJtV1E2Z3lWanBndw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "MCN在抖音还有新故事",
+      "explanation": "MCN在抖音还有新故事 thepaper.cn",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBob0VOeUJvejVBNjlaaGstOXdEdlVnNkZ4WkFiOXVkb0hyQVJCSmNySHQtZTNCZ1RTT1pXSFZOS3h2YWZ2QUpoejJUbkxhR1p5VVZaNW12Ymx2S3VleEE?oc=5",
+      "local_life_hint": ""
     }
   ],
-  "mode": "ai"
+  "mode": "rule"
 }
