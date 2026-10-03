@@ -1,0 +1,243 @@
+{
+  "generated_at": "2026-09-24T12:08:21.979167+00:00",
+  "date_display": "2026年09月24日",
+  "date_short": "2026-09-24",
+  "weekday": "周四",
+  "editorial_summary": "今日共精选 24 条 AI 商业动态，其中高影响 5 条。核心看点集中在：赌博模拟器游戏_买量_抖音小游戏“狂飙”！巨量陶晶晶：抖小流；Nvidia-backed Nscale buried By；Nscale’s $35 billion IPO is he；“豆包工作”满月、豆包Session团队调整：字节跳动将2亿。头部大厂在产品、营收与生态合作上持续加码，建议重点关注其能力更新对广告/营销与本地生活场景的可迁移性。",
+  "overview": {
+    "new_products": [
+      "摩尔线程官宣：MTT S5000 适配字节跳动 Protenix-v2 开源生物",
+      "Best Buy to launch TikTok storefront wit",
+      "【网经社AI科普】豆包：字节跳动推出的全能型AI智能助手"
+    ],
+    "opinions": [
+      "深蓝汽车与火山引擎官宣合作 豆包大模型首搭S07 AI激光版9月28日上市",
+      "巨量引擎&CTR：2026短剧行业趋势洞察报告-好剧入心向新而行"
+    ],
+    "ecosystem": [
+      "Nscale’s $35 billion IPO is heavily depe",
+      "China's ByteDance gained access to over ",
+      "深蓝汽车官宣合作豆包大模型，全新深蓝S07首发搭载"
+    ]
+  },
+  "category_summaries": {
+    "观点与深度": "本期观点与深度共 3 条，涵盖：赌博模拟器游戏_买量_抖音小游戏、抖音欧博体育在线大盘再涨：DAU、抖音EASYBETS真人登录大盘 等。",
+    "大厂动向": "本期大厂动向共 20 条，涵盖：Nvidia-backed Ns、Nscale’s $35 bil、“豆包工作”满月、豆包Sessi 等。",
+    "生态动向": "本期生态动向共 1 条，涵盖：摩尔线程官宣：MTT S5000 等。"
+  },
+  "local_life_insights": [
+    {
+      "base": "生成式视频底座升级：视频从'套模板'转向'自然语言直接生成 + 数字分身出镜'。",
+      "borrow": "外投团队可把'AI 批量生成商家口播/带货素材'纳入投放链路，用素材数量与快速迭代摊薄单条获客成本，而非继续依赖人工拍摄。"
+    },
+    {
+      "base": "模型底座更大更便宜：调用成本持续下探，'千商千面'的定制生成在成本上开始可行。",
+      "borrow": "外投可从'一套素材投所有人'转向按商家、按人群定制创意与文案，用精细化投放提升 ROI。"
+    },
+    {
+      "base": "AI 广告/自动投放底座在推进，但全自动投放的效果与品牌安全仍受质疑。",
+      "borrow": "外投当前宜'AI 提效 + 人工兜底'：AI 做素材生产与初筛，把预算分配与品牌把关留给人，替商家守住 ROI。"
+    }
+  ],
+  "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
+  "total_items": 17,
+  "new_vs_yesterday": 17,
+  "compare_date": "2026-09-23",
+  "high_count": 3,
+  "category_counts": {
+    "大厂动向": 16,
+    "生态动向": 1
+  },
+  "items": [
+    {
+      "title": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
+      "explanation": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNld4dlFSSk9hcTVZR0xMV1hRYkk5NFlLOUprcmIxcHZvbEh4cVZrLWlqM3E1dkJTbDBvYzJCQVhTajZZVG9rYy1OT05tc3dXdUxKQjA2eC13TzRsVmk5eU93Uk9hcTFRTW1CRVEzY2JnTFBkUC16RmV3Q3RkeVRPNHJWX1U?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Nscale’s $35 billion IPO is heavily dependent on ByteDance’s access to Nvidia’s chips",
+      "explanation": "Nscale’s $35 billion IPO is heavily dependent on ByteDance’s access to Nvidia’s chips",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaW1CZWswQzJGbXBORk12RlhMdVlQMGlkNVFPWVJrdWNoQXZqTHRFbjNWNnFoY3YwNnN1VGQ5bWJzVGk4RHNkOWNDdl9qejJWS2pvQk1pVG1wZFJ4ZzU1U0twTmF6ZTVsM3lOQWM4Wl9TdF9nWHhscEdzcmI2Njd6ekdB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "摩尔线程官宣：MTT S5000 适配字节跳动 Protenix-v2 开源生物分子结构预测模型",
+      "explanation": "IT之家 9 月 24 日消息，摩尔线程今天宣布，旗下训推一体智算卡 MTT S5000 正式完成了开源生物分子结构预测模型 Protenix-v2 的全链路推理支持。 据IT之家了解，Protenix-v2 开源模型由字节跳动 Seed 团队研发，发布于 2026 年 4 月，在多项核心基准测试中",
+      "analysis_points": [
+        "IT之家 9 月 24 日消息，摩尔线程今天宣布，旗下训推一体智算卡 MTT S5000 正式完成了开源生物分子结构预测模型 Protenix-v2 的全链路推理支持。 据IT之家了解，Protenix-v2 开源模型由"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/006/989.htm",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Nvidia-backed Nscale keeps its biggest customer, Bytedance, out of its IPO filing - the-decoder.com",
+      "explanation": "Nvidia-backed Nscale keeps its biggest customer, Bytedance, out of its IPO filing - the-decoder.com",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWkczTUZYbU9pbDBVSndJLUgxZ21IMk5FOVEwY3VRUVk1UVVrZVgxdGNzUUE4QV8yRXowVmJaR0tybXh5S0VDOE9ZZjJ4M0ZtcFlCNU9JN29aVVVUYXNJMGdRQURPRlhIaHd6eGNEZnh5Umc3VV9NMjhXT3VKODM4UjlfdkdjcWlVWWcwWFoyM3JDNndOblkweHdDY19RTlhrRjM2OV9OVQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance, Tencent, Alibaba & Baidu Take On Heavy Debt to Bet on AI: The Survival Multiple-Choice Question Facing Top Chinese Tech Giants",
+      "explanation": "ByteDance, Tencent, Alibaba & Baidu Take On Heavy Debt to Bet on AI: The Survival Multiple-Choice Question Facing Top Chinese Tech Giants",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAtNi1wcVl6Rm1LcDBYOXBTMFhPM2dwYVlSdXJJRVd0blR4UmNWTHdBQlVZVkN4blp4emR5dHFvclR3U3NQUUczei02NlJ0by1QV2VV?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "U.S. judge signals rejection of part of TikTok $400 million privacy settlement",
+      "explanation": "U.S. judge signals rejection of part of TikTok $400 million privacy settlement",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT2UtcHN0c0EweW5ZdnhBeThuSlJ6eTUwWjZLQ3BDNkZpb193dDFHSEV3YUs3Q0RNSnAzcUp3Q2VyaURCX0dFamEzYTM3RG44X0xjOERvVXZPalZVZ2lfUjdHRUFCODVHcFNJUllaN3g1ZXlCWUp0OUR2NW9HdjFGX2tMUVhGM0ktMU9JcFdqZHFSaHFRZXdLaEN4Y0xpT0RXN3fSAacBQVVfeXFMTktNRU1KcHM3WmV2MWM3RUxacUJPM1g2SV9SLWZzQS1Gb0FzRHJCYXR4VTdMY3FDOTlxX2s3Ymg3SlRqYVRMNW81bk1hQkxvaWxRdnlfRjAtNnJjYWp0anFLX3pKS3dDUzNhTE1MX2dpUkpmQ1preC1RcjBJS3Zqcms0V1B1UmhsZlN4SVNXN1RJYjVtV0NBd1NtZ3pSalBVckU2YmZEa3c?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Best Buy to launch TikTok storefront with creator and advertiser links",
+      "explanation": "Best Buy to launch TikTok storefront with creator and advertiser links",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUV8zQXZYVm1jLXRodFhZLVp4eE9iT1Vic2pveENwY2FiYlZ4ZWU1T2dJcjVKM0xsUDNsY2RnMzBuSnF4Tm84aFlhTEx4SmtFbXVoc29wYXp2RmtLaE9iam5RRV8xSW9PaHdIOFR4czRHV1k0VWlrVjBBSmw3NWdjeXJnUFJmLTVPRGhtM1N5VkxVUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布AI 手机全栈解决方案| 极客早知道",
+      "explanation": "OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布AI 手机全栈解决方案| 极客早知道",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBfdThFTElPa2x6VmhDbzZrSTVxS2RMM1ZwQk8xdkx4M3haSzFJZWcxYktGdUtJZ21kRzFfMTRWRGoyTDJYcEVhWlY3elE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节在海外推出AI短剧制作平台Dramagic！AI工具加速出海：让外币变成中国AI积分",
+      "explanation": "字节在海外推出AI短剧制作平台Dramagic！AI工具加速出海：让外币变成中国AI积分",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jbFlQdWN5VUdGU2N5UWhpRjJEdFRmWkwtbkRRdXFQT1M4V29GUVFDbFgycUVNZlltb2JJb25kQ2lZT25TSlpSamNUQXN5eW4xT0FwMmNCYnkzUW9Fdnc?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Tencent Releases AI Image Model to Catch ByteDance, Alibaba",
+      "explanation": "Tencent Releases AI Image Model to Catch ByteDance, Alibaba",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWmRtVDFiaVhtOFdwQS1fZ0xCaU1RZ0dTMWYtcWRrR3R3VjdUMmdWWHRNTWtBbTFpVG9PdXdRbF9WaVdsZlFNWV9rSFlQLUpJM2NNQUtRY2RtQjlkV3NtNEJmZFZpVm9Pb0RtM1lYa2hWN0JVc3MzRUM0blpBV0pQOUNsXzhaU3AydnBrc2k1OVpFV3hJUlNmQkExTTMtbEtYOHdwdXE3NDBPQzQ3SFE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Nscale's biggest customer: a Singapore unit with US$1,000 in capital, owned by ByteDance's AI brand holder",
+      "explanation": "Nscale's biggest customer: a Singapore unit with US$1,000 in capital, owned by ByteDance's AI brand holder",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQWVzalZaWjhDTFdVRkJaVU9sc2tvMVpUNFNkcUVVZmx2ano2QXd5Vml1SllwdFRFUDhQODQtVll6RVlYbVdSa2lHMTRnZUlycW5NZEdHcndhSjBWXzZKazdpc2dxTEU4WnRMeFNFblhQN2N1Uk5LUEZELXhFNjZJQ1NQS3VRMHc?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "AI Video 'The Race for AGI' Showcases ByteDance's Seedance 2.5",
+      "explanation": "AI Video 'The Race for AGI' Showcases ByteDance's Seedance 2.5",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80V3c0REFSdnVseDlRVkx3LXhla2RZUkhsSTVudExLaFVGWFQyRkhwRzBWNmM0d3ljb2lzdjRTYm80S2U5dEkzc1ZRTmFIQU81blltNEdQVQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Tencent unveils AI image model to narrow gap with ByteDance, Alibaba; shares rise (TCEHY:OTCMKTS)",
+      "explanation": "Tencent unveils AI image model to narrow gap with ByteDance, Alibaba; shares rise (TCEHY:OTCMKTS)",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeXBRaE1uTEZXbmpUYlBpSVlRNVFrd29NVDJLWHgwMXZ5enB6Z0pJNHZDU1ZJWDk1Q3psMUdHS3l6aGQ1S3VJRGJvODk2eGVGOXlkZUJQa0tSYlA2S3JQa19xcEwzdWk4cWd0R0RzaTFWZTRoenFfWjVIQ3VZT1BHTUZRb1UxRl9TWWpHeDVjaktqbGZQREZYS1J5eXZ3V0tCY1FsdHNQZXZ0c3FZbTBDa3JxTVYwTGtC?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "SAIC ROEWE Launches JIAYUE 07, Mass-Production SUV Powered by ByteDance Volcano Engine Doubao AI Model",
+      "explanation": "SAIC ROEWE Launches JIAYUE 07, Mass-Production SUV Powered by ByteDance Volcano Engine Doubao AI Model",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZWRvVkhrQnpHWXJWUkxNNlhLa2JqdFZfTV94QWN1MHNmcFFCOHpjSTZvdFlfcGNlQTRnaUdsNjU4UEVMaDd0LW9CY2JEZnJscDF0TF9VSmVSVkdILWVaSGVscEZUOS1naW5DeGFtQ0pJUGNEalBqeklUZlFuQXJHVnREYVY1bmNvMFJNLTlpZ1dkU2tWUlItLVhSY2hVT2VyVlNXNWVRTkpFemxGSTN4U1V1cG1nMC1TWGxNNXJDVzdDQUc1SEtrbTBEYlNqdV9RQ05PaGxYMklKSG9YOThpSXROMmZhX281bUw5NEFB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Expands 'Symphony,' Offers AI Video For Brands, Creators 04/15/2026",
+      "explanation": "TikTok Expands 'Symphony,' Offers AI Video For Brands, Creators 04/15/2026",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmxtUTFXNjR4X0l0QnhZU1RiQlVQa2JOMzN4UnpXMjZtQUp0dV9ESFpqa3FYWjhRWl80NDBXNlp2RU5DRGp2NWNFaU0yR2g0am5kSFh6NWZNOFpfUEZnRG53NDYwWklTdnZUOEFJOU1DbUkxSDVXUEo2UkFScnh1UXJsSGlxSzhWa3JCcmRvMk0tUHZNMEJyYW1FNE9tX3FFXzV3SmxfUGpMZw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance | Apps, Controversies, & Facts",
+      "explanation": "ByteDance | Apps, Controversies, & Facts",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43QVRCdnA5d1FOblR4VXlUbHN6NEEtY0txUV96dG1ZS1BiYnNULTBXQ0NzSWU4QTNha1dKNm50RVNvRThiSXc4TFNrTWNFMlM2NUg0eQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "China's ByteDance gained access to over 2,000 Nvidia B200 chips through Norway data center",
+      "explanation": "China's ByteDance gained access to over 2,000 Nvidia B200 chips through Norway data center",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQUElMc0ZnRzhCanRhdUpuT0pTQTdXRDZhaVF6ZEJvNDdUdGhYOGFHZ1lkeEdleEJEV1huVDdlTTdmWGk2Qjdib0hvcUt5Z3l5TElQSkxHNU9KYUpUZVJtZXBwX1NQRXA5ZWhiSlVXQ05XRXVxVWI1eGRVQnBabjNNanN4U2Vzc2tacDVPRlNSZVhPdmtTSkVfMFRmb3R1LVlKR0IzUUNzckdDMUNQbVo1M0pCRU9raGtNR3c0NE90czljbUlHOXNWWjJXRlhQYzhaaXB5N3ZtdDM5LXdxekdWYUUtQWRVakJzdldkQm9WTHUyMkMwVm1FbnZSSmozNjRYdl9rc2RMbFZ4MWNzWDRvMXkzSVdJbmo2eWxleFlMUTFYUXRIazBMOTdBcHNMQ1IyQmNTR21XWHFKTnh4Y2ZSeDlGSzVoU1pSN2huWGZBaTJlZTF5NVNFLXlHN0M3Ui1hTGIyTERR?oc=5",
+      "local_life_hint": ""
+    }
+  ],
+  "mode": "rule"
+}
