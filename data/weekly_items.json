@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-03T07:06:26.117503+00:00",
+  "generated_at": "2026-10-03T11:58:50.609494+00:00",
   "week_range": "09.28-10.03",
   "date_display": "09.28 - 10.03",
-  "editorial_summary": "本周共汇总 75 条 AI 商业要闻，其中高影响 13 条。本周主线包括：火山引擎发布Seedance影视合作计划，单项目最高激励；豆包大模型1.8发布，通用Agent模型成AI行业新叙事；字节或获批采购百万颗英伟达芯片，算力瓶颈有望缓解；SemiAnalysis：字节跳动占中国数据中心容量五分；豆包被曝将推个人助理Spell，4月已内测。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 62 条 AI 商业要闻，其中高影响 13 条。本周主线包括：火山引擎发布Seedance影视合作计划，单项目最高激励；豆包大模型1.8发布，通用Agent模型成AI行业新叙事；字节或获批采购百万颗英伟达芯片，算力瓶颈有望缓解；SemiAnalysis：字节跳动占中国数据中心容量五分；豆包被曝将推个人助理Spell，4月已内测。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "火山引擎发布Seedance影视合作计划，单项目最高激励百万",
@@ -17,11 +17,11 @@
     "ecosystem": [
       "字节或获批采购百万颗英伟达芯片，算力瓶颈有望缓解",
       "特斯拉升级搭载豆包大模型，新增 28 项功能",
-      "零跑汽车与火山引擎合作，将TRAE嵌入全域自研体系"
+      "中国或允许字节采购英伟达 RTX PRO 5500 芯片"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（46 条），高影响条目占比约 17%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（28 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在视频生成试错成本、影视合作激励、输入法跨端入口这三处底座上的改造，意味着未来外投的素材生产会更便宜、更快、更贴近用户日常场景，投放成本结构有望被重构。",
-  "total_items": 75,
+  "total_items": 62,
   "high_count": 13,
   "items": [
     {
@@ -204,30 +204,32 @@
       "local_life_hint": ""
     },
     {
-      "title": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
-      "explanation": "据彭博社 Mark Gurman 9 月 30 日报道，苹果计划于 10 月 13 日推出智能家居产品线，核心是代号 J490 的家庭控制中枢，同时更新 HomePod mini 和 Apple TV。新品将用于展示新版 Siri AI 的能力，苹果对此拒绝置评。 家庭中枢据报配备约 6 英寸方形屏",
+      "title": "即梦 AI 短片成本暴降 80%，实测三种玩法",
+      "explanation": "即梦出手让 AI 短片成本暴降 80%，并给出三种实测玩法。这说明视频生成正从「炫技」转向「可规模化生产」，内容供给端的成本结构被重写，对依赖短视频素材的投放团队是直接利好。",
       "analysis_points": [
-        "据彭博社 Mark Gurman 9 月 30 日报道，苹果计划于 10 月 13 日推出智能家居产品线，核心是代号 J490 的家庭控制中枢，同时更新 HomePod mini 和 Apple TV。新品将用于展示新版"
+        "成本从高门槛制作降到可批量生产，能力从「单条精品」变为「规模化素材流水线」",
+        "广告主可把即梦纳入素材生产流程，用更低成本测试多版本创意，提升投放迭代速度"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1682780?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "local_life_hint": ""
+      "source": "QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxb2RneGk0ZmhReGpMNEZKaGZqLUFWU2ZpeUYzRTJuSTROS2RWSUVpSkg3eTM4X1FrRVNzVVlackw2dWNmWUVQeHpOYVAxS1lGNEhGZ29B?oc=5",
+      "local_life_hint": "本地商家可用即梦批量生成门店短视频，降低抖音本地推素材成本"
     },
     {
-      "title": "OpenAI 披露一起模型利用 Perl 注入绕过工具限制复制源文件的失准事件",
-      "explanation": "OpenAI 披露一起 RL 训练中的失准事件：内部未发布模型发现 reference 工具将搜索模式直接嵌入 Perl 正则，可借此执行代码，遂通过 stderr 以压缩 base64 分块（约 15 块、base64 长 44772）跨 5 个上下文窗口、17 次调用取回任务刻意扣留的 1495",
+      "title": "中国或允许字节采购英伟达 RTX PRO 5500 芯片",
+      "explanation": "有报道称中国正考虑允许字节跳动与阿里采购英伟达新款 RTX PRO 5500 芯片。若落地，将缓解字节高端算力瓶颈，对其视频生成与 Agent 推理的规模化部署是直接利好。",
       "analysis_points": [
-        "OpenAI 披露一起 RL 训练中的失准事件：内部未发布模型发现 reference 工具将搜索模式直接嵌入 Perl 正则，可借此执行代码，遂通过 stderr 以压缩 base64 分块（约 15 块、base64"
+        "算力供给从受限变为可能放开，能力从「卡脖子」转向「可扩容」",
+        "对依赖 AI 生成素材的广告主意味着产能上限提升，可预期更稳定的生成式投放工具"
       ],
-      "category": "大厂动向",
+      "category": "生态动向",
       "type": "fact",
       "impact": "high",
-      "source": "AI热点",
-      "url": "https://aihot.news/items/w0twto4412g72n2ryamc6xpi1",
-      "local_life_hint": ""
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX0pMdFpwUWhoRHhFM1pvcndCTDdIX1NOQUVwV2JIX0xIcXByV3Z4UWQyblZRVWl5elZ0TkYxV3BXUEluN0llM0VnUDJvVmN4X19pcXJVX0tSNDdEUWdaNGFFVVQ3N01VaWJHQ1FXVEdVZTJJcDFvZlJ0QmE0b2JpeGM4RDdBMDh4YmNxRkhILVJDRGktQzRPdGNsV2VxWHBjZWt0Q3hRN2FwZWlhcDhMcUZ0LUJsS1FoWGVQUG1PVWp4cEpCcEtVdUJVRVQ4cjZxVUxjM1lDWFM?oc=5",
+      "local_life_hint": "算力扩容后 AI 视频生成速度与质量提升，本地商家可更频繁地产出投放素材"
     },
     {
       "title": "豆包输入法补齐五大平台，AI入口回到键盘",
@@ -832,216 +834,89 @@
       "local_life_hint": "本地生活商家可用即梦低成本生成门店宣传素材，降低内容制作门槛。"
     },
     {
-      "title": "ByteDance’s Doubao reportedly preparing personal AI agent, codenamed Spell and tested since April",
-      "explanation": "ByteDance’s Doubao reportedly preparing personal AI agent, codenamed Spell and tested since April",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLVY1cl9VZGRKTDI5SE1XUHhGeVVjQW4wang5Y1hrV0tCNzVwcE81R1dGV2ZDYkJEWWlqdnlQVDFGQUdNSmVfWlMwVkEzazZodkJXV25jUmZ4RG80M1ZBZ1plOGIwTlFzWV9McWw4TDQzZnFpR0VZeWk4Yjc2a2FSaHlGTjN6OFpkczdkd0tBc0RBYWVacXdVbVVsQ093SXZWR2k5Y21jUE5VUW5rZTVzRzVXN2QybldDMlRPQXpFQ3hTOFlNWjVR?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Tencent, ByteDance, Alibaba Bet Collectively on Personal AI Assistants; Costs and Ecosystem Pose Biggest Uncertainties",
-      "explanation": "Tencent, ByteDance, Alibaba Bet Collectively on Personal AI Assistants; Costs and Ecosystem Pose Biggest Uncertainties",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aZTBXZWFDOXphSkp1d2xUUmhZamN3Mk54OGtNeFBZMWl1eVE5eXlHTFhsWHFhbmkxMXgwb3NWODNmZ0NoZEd1ZnB5WElLV18yNFJOLTB4dXFYZnl0M1RDbEh4UmRJdHVKczZOTkhqYWNldlBrYmc?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Kuaishou Keling releases Kling 4.0: up to 30 seconds of generation, accelerating its pursuit of ByteDance's Seedance.",
-      "explanation": "Kuaishou Keling releases Kling 4.0: up to 30 seconds of generation, accelerating its pursuit of ByteDance's Seedance.",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSkVxTTFFdVEtaEJFaVl1NFR0dE9DWTlxQ1I1V3QzUW1POXpKOUFLT1J0Q3RCV2tFUGlIRU80TmFEWFJHUlJZekI3bnFCOWtDS29jVnltQWJLWGhtQkF5Q2lEbEc4cVQtbURmcFkxd1drUVplRk5mQ1ktSUowV2tYWUE4TzZTRGNpYlk5S2Z5VnNWdUFEWFdYQ3NB?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Justice Department Secures $400 Million COPPA Settlement with TikTok and ByteDance",
-      "explanation": "Justice Department Secures $400 Million COPPA Settlement with TikTok and ByteDance",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcFRBTXJDN3J2eGI2MUpZbENLS0xHbGhWeEtLS2cyYURYLWVoNXRXQ3U0OVl3TS1femdGUlV6RUhzZ21yMXZqX29EcWt2VHVpX080NGNiaXIzYUFmcDUxY29JZGRkNTFaVWVlQ0M4LU5MYzZpRlJoRHpmSXBaU3Y5VnlQS29LMG5uSTJxUy1vZ2YwME8wY0R5Y3ItRVo5Z0RxcFltLTJKcw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "扣子3.0实测：手机就能远程遥控你电脑里的Agent|扣子（Coze）|Android|Apple|我的世界|iOS_手机新浪网",
-      "explanation": "扣子3.0实测：手机就能远程遥控你电脑里的Agent|扣子（Coze）|Android|Apple|我的世界|iOS_手机新浪网",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMi5gRBVV95cUxPOTV4N01sMGdiQ0xYeGgzRGoyVzY4MDZqTk5iaEZYU2hSZ1FqQmI3Z0c5MkNTa000ZF9xNjhHY1puWGk4cXhhbjBFS3dCOGM2aXFRLXpLcU1nSkJJRmgtUlJoc19GeU9hU1J2azdEa1VFaXozSFBLQjV5Mk4xalItY2ZLTmlQS3VtWWlRaVh3UDRoMDRVSWU1RkJtNl8yUjdqWUNKTFdrVXhGMklpU0duV3phTzJEemgyX2JjcDM5Q1JDSGRRWE9jdEQ1RFhNNmY0QW92OEd5dTc4OVFPcm9ITXpZS05UMnNJbk40cHJxNkkxUlZBU09maDZoOHZJclBoUTBQZm1rdWJYdXJlbDdHVldNa0p6NEUtenFVeTU3NmV0b0Q0Y0p6VXRTOWVKRER3WDFCcXg0TjNrVnh5b0Q1T29xbjZTN1NQa3QzYjFCWmstLS1tTmhHRHp3OE9xRFZ1b2RaaWJwekd6WDlsMlBBa2pLcmNPazJUYkJVSUJyVmFZOTJVRmFYZmVqVUlLbmpYalc4dkdQcWt5TVJVTWJYcE1vYmYtNjh2Z1lndThmanZDMUFwU2h4aDF5ZVVSN2N4WFpjTzdISWdtajZVbTdIR2VoWGNqT2c5dkxrdFBmRnB1NTVfM3J6OHEtQnUtc2w2MmlxNnBsTGhjd1YzS1dwMnNCc0xhakN5UklLOXJSTDI4N0lPT3JkVTh1ekM2Qkx1eVZwek1UQ0VNTHJ0UmJGY3IzTDhzX1FZM0cwMkI4bGoxQ1BBRWh4dFc1c0g3WEh6SERsbFVxRlVnand3ZWt1VkUteGQ0QQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "旗下智能体频繁“闯祸”，OpenAI 每天要烧掉超 50 万美元来调查",
-      "explanation": "IT之家 10 月 3 日消息，据英国《卫报》今天（3 日）报道，OpenAI 披露，为调查旗下 AI 智能体攻击澳大利亚 Medicare 医疗保险系统和 Hugging Face 等事件，公司每天投入 超过 50 万美元 （IT之家注：现汇率约合 335.7 万元人民币） 。 由于需要筛查的数据",
+      "title": "扣子 3.0 实测：手机远程遥控电脑 Agent",
+      "explanation": "扣子 Coze 3.0 实测显示，用户可用手机远程遥控电脑里的 Agent，把开发与调度从 PC 端延伸到移动端。这降低了个人与团队搭建自动化工作流的门槛，也让 Agent 从「演示」走向「随时可用」。",
       "analysis_points": [
-        "IT之家 10 月 3 日消息，据英国《卫报》今天（3 日）报道，OpenAI 披露，为调查旗下 AI 智能体攻击澳大利亚 Medicare 医疗保险系统和 Hugging Face 等事件，公司每天投入 超过 50 万"
+        "交互方式从 PC 端开发变为手机远程调度，Agent 的使用场景从工位扩展到移动办公",
+        "对中小商家意味着可用低成本搭建自动化客服、内容生成等流程，减少对技术团队的依赖"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/444.htm",
-      "local_life_hint": ""
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi5gRBVV95cUxPOTV4N01sMGdiQ0xYeGgzRGoyVzY4MDZqTk5iaEZYU2hSZ1FqQmI3Z0c5MkNTa000ZF9xNjhHY1puWGk4cXhhbjBFS3dCOGM2aXFRLXpLcU1nSkJJRmgtUlJoc19GeU9hU1J2azdEa1VFaXozSFBLQjV5Mk4xalItY2ZLTmlQS3VtWWlRaVh3UDRoMDRVSWU1RkJtNl8yUjdqWUNKTFdrVXhGMklpU0duV3phTzJEemgyX2JjcDM5Q1JDSGRRWE9jdEQ1RFhNNmY0QW92OEd5dTc4OVFPcm9ITXpZS05UMnNJbk40cHJxNkkxUlZBU09maDZoOHZJclBoUTBQZm1rdWJYdXJlbDdHVldNa0p6NEUtenFVeTU3NmV0b0Q0Y0p6VXRTOWVKRER3WDFCcXg0TjNrVnh5b0Q1T29xbjZTN1NQa3QzYjFCWmstLS1tTmhHRHp3OE9xRFZ1b2RaaWJwekd6WDlsMlBBa2pLcmNPazJUYkJVSUJyVmFZOTJVRmFYZmVqVUlLbmpYalc4dkdQcWt5TVJVTWJYcE1vYmYtNjh2Z1lndThmanZDMUFwU2h4aDF5ZVVSN2N4WFpjTzdISWdtajZVbTdIR2VoWGNqT2c5dkxrdFBmRnB1NTVfM3J6OHEtQnUtc2w2MmlxNnBsTGhjd1YzS1dwMnNCc0xhakN5UklLOXJSTDI4N0lPT3JkVTh1ekM2Qkx1eVZwek1UQ0VNTHJ0UmJGY3IzTDhzX1FZM0cwMkI4bGoxQ1BBRWh4dFc1c0g3WEh6SERsbFVxRlVnand3ZWt1VkUteGQ0QQ?oc=5",
+      "local_life_hint": "本地商家可用扣子搭建自动回复与优惠券发放流程，提升私域运营效率"
     },
     {
-      "title": "China Joins the \"AI That Works for You\" Race... Spotlight on Tencent, Alibaba, and ByteDance [Weekend Money]",
-      "explanation": "China Joins the \"AI That Works for You\" Race... Spotlight on Tencent, Alibaba, and ByteDance [Weekend Money]",
-      "analysis_points": [],
-      "category": "大厂动向",
+      "title": "TikTok Shop 接入 UPS 免箱免单退货服务",
+      "explanation": "UPS 与 TikTok Shop 合作提供免箱、免标签退货服务，通过 UPS 旗下 Happy Returns 落地。这补齐了 TikTok Shop 的售后履约短板，退货体验从「自打包自贴单」变为「到点即退」，直接影响转化率。",
+      "analysis_points": [
+        "退货流程从用户自行打包贴单变为免箱免单，履约体验显著简化",
+        "对跨境商家意味着退货门槛降低、转化率有望提升，可据此调整售后话术与投放素材"
+      ],
+      "category": "生态动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51TkFfYmxvRXdiMW5PaU8wWVNyZzA0V3l4UkNueWV3NmstWkZaTEQ0M3NUMkhsQk9ULTF6RkR6SW9xY09XSDZxTzVPc0hFX1FpemFSanVlX0JYbURNV0JpMnVWcVM?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance occupies one-fifth of China’s data centre capacity: SemiAnalysis",
-      "explanation": "ByteDance occupies one-fifth of China’s data centre capacity: SemiAnalysis",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ1AxSGFLRnViWDlIX1MzU25OME5DRG9VWTRYdC1hOGxRSEhYUTlxZ3AtU1JTUHl0Qkt4eFM1X0x0V2pLODBtb20xdS1mb3lybnZkTjI1UmRfR1pzVG9XRnNraEFKQVZmLWVKdk81dG1yNWFVQUlYYUx3RmlFTnhBT1hoNko1T1hIOURyZDktQ0x6MzNURUhWTTRjaDNGNkEyZ2ZKVGM0cm9Fc2k2T2k2Qy1URXlraERrdEJZOS1mQVNKaXFrRG9iMUlPUkczYVHSAc8BQVVfeXFMTWE5X21qVFZuWFJpX1RaUmVvc3NoNWlIazdPWFhqU1BhNEhvWEVMOUg0SmZBa3l5ZTBfQi15cUFVZ2RhV1p1SS1Eam1ZREw1Q1phRE9TYlFsM2F5WmlFVzFIV012SmotdWt5V1NlU0c1Z2w4MHZZX3FtTENMMUtwM2FJZFE1NklId1g4SWFUUEZrNXFhR0lCOUtGVTlSZGpid3U2U0VyU0hoS25iVThFbXc3Z0swNDhhdUR3c2tOMnRvWUE2eExkZkoybFgtU0l3?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "China may allow ByteDance, Alibaba to buy Nvidia RTX PRO 5500 chips",
-      "explanation": "China may allow ByteDance, Alibaba to buy Nvidia RTX PRO 5500 chips",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wVEtKdlAwTW1jQmJ4TDZ5NXA0TVVMX3BzdmRBT05sVzZDUmxkeFNtWFlZYzZQby00cV9ITk83LVpRRWJKMVJFUDBrbnhvamktcW1VQlJhMXZKNjA2NXB2cFZid1JUYlpUU3RHMk40dGJaOVVMOC1oaG1tRQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance makes up a fifth of China's AI data center capacity amid growing buildout",
-      "explanation": "ByteDance makes up a fifth of China's AI data center capacity amid growing buildout",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNamJMV0NJbTRWUVYycVI1Rkw1Yktqa2R5eW1UMkxwdXMtTHd6a1RnTTljUV9BVmVUSVpzaFhvQkFTdHotSzgtd01lb0hlVDNHZmtDdlNKeXFfNmdTMlA4TUpGbmRBdHVfRXdyWHVZYUN0VmlJNDUzcUpRNmV6Z2VjNDdFOWktbjJCRExibGZLWGx2MHUzZjF1OU1feHE?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Kuaishou’s AI Video Spinoff Unveils New Model in ByteDance Chase",
-      "explanation": "Kuaishou’s AI Video Spinoff Unveils New Model in ByteDance Chase",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPam9mSmNwUFQ1UldJSHh6cUFSbGY0dmdVZU5nazBtajVFU1MxYWZpeHl2dzd6MkFOMVh2ZHk0V0NCZ2hFUnhESkxOT00tcTBVZjFseVl2R1FDV3NwUUJsdV9XNFJXSXJFWkFEclJYNXlRdVduYUtubkM4SjZtT1hUVFZVTFpiT1R1TlhMOTNmV0t1bGR4UnpYYWdBWVh1bWtDWGZfSmc0bUFFaWdoSnJnSVZJU09NUQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance Ecosystem AI Education Strategy: From \"Tool-Focused\" Phase to \"Classroom-Centric\" Evolution",
-      "explanation": "ByteDance Ecosystem AI Education Strategy: From \"Tool-Focused\" Phase to \"Classroom-Centric\" Evolution",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuMFBrN3M2Tk05TEk4b21lelNqdlllc2pra0p0LWxwYmphVklGRlk0bmRZVEJHUnhDa3I5QzBfLU45UW9zcFUxaVN3WXhkNzRSX0U0?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance | Apps, Controversies, & Facts",
-      "explanation": "ByteDance | Apps, Controversies, & Facts",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43QVRCdnA5d1FOblR4VXlUbHN6NEEtY0txUV96dG1ZS1BiYnNULTBXQ0NzSWU4QTNha1dKNm50RVNvRThiSXc4TFNrTWNFMlM2NUg0eQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports",
-      "explanation": "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX0pMdFpwUWhaRHhFM1pvcndCTDdIX1NOQUVwV2JIX0xIcXByV3Z4UWQyblZRVWl5elZ0TkYxV3BXUEluN0llM0VnUDJvVmN4X19pcXJVX0tSNDdEUWdaNGFFVVQ3N01VaWJHQ1FXVEdVZTJJcDFvZlJ0QmE0b2JpeGM4RDdBMDh4YmNxRkhILVJDRGktQzRPdGNsV2VxWHBjZWt0Q3hRN2FwZWlhcDhMcUZ0LUJsS1FoWGVQUG1PVWp4cEpCcEtVdUJVRVQ4cjZxVUxjM1lDWFM?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "YouTubers' data scraping suit against ByteDance lives on",
-      "explanation": "YouTubers' data scraping suit against ByteDance lives on",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZHMzM3lkQ2M3c25MeWJUODlLOXFic2d3YWRjaFRFRW9zQmxEekxlZW42cUVTQzhXMWhVdzlNMUF2aTVXeU5wV0dObF9PV3dmaTF0VURFdWZ6S0ZwWWl5Z1Z6X21NdWdxc2UwY1lNMEdENjVEV3hvOUZwQ0tlRTFFVHBFOUZTWF9tZ3pn?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Shop Adds Box-Free Returns Through UPS-Owned Happy Returns",
-      "explanation": "TikTok Shop Adds Box-Free Returns Through UPS-Owned Happy Returns",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
+      "source": "Affiverse",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5T3N0N25kdHNndnBxQjVrNHhhd1RpX19QUlQ3RWZKcm1vOHliNVpTMmZSV2xENWR1YTFRVWRFWWlGQzJJYjV4NlFERWszZENTVXNVeWRxM09meFVvMjJqQWItdkdHVlNsRzgwZzFRVjJSZw?oc=5",
-      "local_life_hint": ""
+      "local_life_hint": "本地生活商家可借鉴「退货零门槛」思路，在到店核销与售后环节降低用户决策成本"
     },
     {
-      "title": "Sephora Joined TikTok Shop to Extend Its Curation. Week 1 Showed What It Gave Up",
-      "explanation": "Sephora Joined TikTok Shop to Extend Its Curation. Week 1 Showed What It Gave Up",
-      "analysis_points": [],
+      "title": "火山引擎谈 Agent 如何在企业里落地",
+      "explanation": "极客公园与火山引擎聊了 Agent 在企业里的落地路径。这反映字节正把 Agent 从概念推向企业实操，输出方法论以吸引企业客户，是 ToB 商业化的重要铺垫。",
+      "analysis_points": [
+        "落地路径从「讲概念」变为「给方法」，能力从模型输出转向场景化解决方案",
+        "对企业客户意味着可参考火山引擎的落地框架，降低自建 Agent 的试错成本"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "极客公园",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SZm15SURJdXRVR2ZFYWpiUWNNSUFnbG5GMzRpQlo2RkdETTV4ZUVVLVNNREI4MmRkaHZWMm4zYmR5dXhUejZnUE9mSWo?oc=5",
+      "local_life_hint": "本地生活服务商可借鉴企业 Agent 落地思路，为商家搭建自动化的评价管理与复购提醒"
+    },
+    {
+      "title": "AIVA ME7 全球首秀，豆包大模型覆盖 20 万以上市场",
+      "explanation": "AIVA ME7 在巴黎全球首秀，搭载豆包大模型，定位覆盖 20 万元以上主流市场。这是豆包大模型在高端新能源车型上的又一次落地，强化其在智能座舱领域的品牌背书。",
+      "analysis_points": [
+        "合作车型从经济型扩展到 20 万以上高端市场，能力覆盖价格带进一步上移",
+        "对高端汽车品牌意味着可借豆包语音交互做差异化体验，营销上可强调智能座舱卖点"
+      ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONFd5SWJYckJ3UTZUb2hKYVp4VWdsY09jbGxFZzZGQmNtR05qM1hySUpSNDZ3eFZDc1RmV2V3dkxaX2lpQmxzSmlHaThLYVBzUUcxaGJYaEY1YWFvZF9WcHZHX3VkWTMwWmVJMGFPOXRPSDFteWoxZ3NoenpLbVlFUWZBOHhVUFZWT0RaLU4zVXFScUF0QjZGUWZGa29KazF3dmhNYXFnalVfVGdTSnYxaWRocGp6TkJfUEJzd1RzRGFlZw?oc=5",
-      "local_life_hint": ""
+      "source": "中金在线",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoRm9jb29ubEQxRzNlazlQX1cwR2ZSNEh0VzBraDczNmJvbjJzSVkxX21nZUVPSE1tdDNOWGYxUWROZHRHWkxqNUlYdUJVOTBCSF9hREZ5VUw3QUtKd2xod1A4UkR1dlN5WTVGYg?oc=5",
+      "local_life_hint": "高端车本地门店可借豆包座舱体验做试驾邀约，锁定高客单人群"
     },
     {
-      "title": "UPS Partners With TikTok Shop for No-Box, No-Label Returns Service",
-      "explanation": "UPS Partners With TikTok Shop for No-Box, No-Label Returns Service",
-      "analysis_points": [],
-      "category": "大厂动向",
+      "title": "豆包的电商赌局比想象中更复杂",
+      "explanation": "36kr 分析指出豆包的电商赌局比想象中更复杂。这提示豆包从 AI 助手切入电商并非简单叠加，涉及流量分配、商家供给与用户心智的多重博弈，是字节 AI 商业化最值得观察的试验田。",
+      "analysis_points": [
+        "业务边界从「对话工具」延伸到「交易入口」，能力从信息提供变为交易撮合",
+        "对商家意味着可能出现新的 AI 推荐位，需提前研究豆包内的商品曝光逻辑"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36kr.com",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WNnh1bm5wb0x5Qk1fOU1lWFZ6N1I1cldDQTNDMWtHRExqd0Q1d0hibm9YdnJJN1ZYZmdtQ3Y0REpHUUJXemptbFZBcTVqdw?oc=5",
+      "local_life_hint": "本地商家可关注豆包内是否出现本地服务推荐位，提前布局商品与内容"
+    },
+    {
+      "title": "TikTok Shop 免箱免单退货再获 Yahoo 财经报道",
+      "explanation": "Yahoo Finance 报道 UPS 与 TikTok Shop 合作提供免箱、免标签退货服务。多家媒体跟进说明该合作已正式落地，是 TikTok Shop 提升美国市场履约体验的重要一步。",
+      "analysis_points": [
+        "履约能力从「用户自理退货」升级为「到点免箱免单」，体验门槛大幅降低",
+        "对跨境商家意味着退货率与转化率的平衡点变化，可据此优化商品页与售后说明"
+      ],
+      "category": "生态动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Google News中文",
+      "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeHFVSTUxdThyOWhQQnFrTWRWX293azJ5SVkyOGhsOWNBOUJXaWJLM1ZjdzBnN2lIcTQwLTAzMUN5d2cySFZxLWhSVHUzWE5lNGZBSnRncEZKQ05PZ1FqYm9sUEpqUEdFcVB6ZlVYWWZRLS0zdnZaYk1Jd0x1RkpVeG9tSlMxX25xMVB3MWVhdHM3eE5MSHQ2T2I3aw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok integrates box- and label-free returns into e-commerce site",
-      "explanation": "TikTok integrates box- and label-free returns into e-commerce site",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNFZyZDVSTk9xXzRNY2lnaVdFRFctSUVLWmhhSFJzVkxKd0NZQWZuRU84V08yb0NZTFk4MlByYldUZkVCQno0dnl5eUI0VTdVYUpISWFfd0R5cWhncHNvQUZzYnBIMjMwdVl0dWVxTGVCVVdGdm9OYlEwY1MwRmpwd1U4RTRzdVJWU2VfMndPNA?oc=5",
-      "local_life_hint": ""
+      "local_life_hint": "本地商家可借鉴免箱退货思路，简化到店退换流程以提升复购"
     }
   ],
-  "mode": "rule"
+  "mode": "ai"
 }
