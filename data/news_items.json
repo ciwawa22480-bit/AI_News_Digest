@@ -1,211 +1,287 @@
 {
-  "generated_at": "2026-10-05T07:41:27.426596+00:00",
+  "generated_at": "2026-10-05T15:13:01.335039+00:00",
   "date_display": "2026年10月05日",
   "date_short": "2026-10-05",
   "weekday": "周一",
-  "editorial_summary": "今天字节系 AI 商业化的主线是「入口重构」：豆包个人助理 Spell（小豆）被曝将推独立 App，飞书与豆包 ToB 版图整合，字节正把 AI 从单点工具升级为覆盖工作与生活的个人智能体入口，这直接决定未来广告与商家服务的触达位置。第二条线是视频生成底座持续加码，Seedance 2.5 正式发布并带火传媒概念股，同时面临迪士尼版权压力与快手可灵 4.0 的贴身追赶，说明字节在内容生产端的成本与效率优势正被对手快速稀释。第三条线是算力与生态，SemiAnalysis 称字节已占中国数据中心容量五分之一，叠加自研芯片与 TRAE 嵌入零跑自研体系，字节正把 AI 能力向汽车、办公、电商等场景做底座级输出。对广告销售而言，豆包入口化、Seedance 内容化、TRAE 工具化三条线共同意味着字节的 AI 商业化正从「卖模型」转向「卖入口与场景」。",
+  "editorial_summary": "今日共精选 24 条 AI 商业动态，其中高影响 3 条。核心看点集中在：早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预；TikTok broadens agentic AI pla；OpenAI 披露一起模型利用 Perl 注入绕过工具限制复；IMDA and TikTok launch microdr。头部大厂在产品、营收与生态合作上持续加码，建议重点关注其能力更新对广告/营销与本地生活场景的可迁移性。",
   "overview": {
     "new_products": [
-      "字节豆包被曝将推出个人助理产品 Spell（内测名「小豆」），拟以独立 App 形式上线，定位类似 Muse 的个人 AI Agent，今年 4 月起已内测，主打跨场景任务执行而非单纯问答。",
-      "字节跳动重构 ToB 版图，飞书与豆包将整合，把办公协作入口与 AI 助手能力打通，直接对标腾讯 WorkBuddy 等办公 AI 产品，争夺「AI 工作入口」。",
-      "火山引擎与零跑汽车达成合作，将 TRAE 嵌入零跑全域自研体系，把 AI 编程/研发工具从互联网场景延伸到汽车研发流程。"
+      "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双",
+      "OpenAI 披露一起模型利用 Perl 注入绕过工具限制复制源文件的失准事件",
+      "IMDA and TikTok launch microdrama progra"
     ],
     "opinions": [
-      "SemiAnalysis 数据显示字节跳动已占据中国数据中心容量约五分之一，观点认为其算力自建规模已接近头部云厂商，为豆包、Seedance 等大模型训练与推理提供成本护城河。",
-      "多家媒体指出字节 Seedance 2.5 发布后面临迪士尼版权压力，观点认为视频生成模型在影视 IP 素材上的合规风险将成为其商业化落地的关键变量。",
-      "行业月报显示字节扣子 Coze 月活出现下滑，观点认为办公 AI 赛道大厂激战下，单纯工具型 Agent 平台留存承压，需向工作流与入口整合要增长。"
+      "ByteDance’s Doubao reportedly preparing ",
+      "ByteDance rents a fifth of China’s data ",
+      "字节跳动豆包被曝将推个人助理产品 Spell项目今年4月起内测"
     ],
     "ecosystem": [
-      "个人 AI 助理成为大厂新战场，字节豆包 Spell、腾讯、阿里等均在布局，生态从「模型能力比拼」转向「入口与场景卡位」。",
-      "视频生成赛道竞争加剧，字节 Seedance 2.5 与快手可灵 4.0 贴身对垒，同时版权与合规压力上升，行业进入能力与合规双重比拼阶段。",
-      "字节 AI 能力加速向汽车、电商、办公等实体场景输出，豆包大模型上车、TRAE 进车企、TikTok Shop 商家增长，显示生态正从线上向产业侧渗透。"
+      "倍思 MC2 NC 降噪耳夹耳机发售：12mm 动圈、-50dB 降噪，783 ",
+      "零跑汽车与火山引擎达成合作 将TRAE嵌入全域自研体系",
+      "2026AI智能体培训机构全维度推荐：结合LangChain/Dify/Coze"
     ]
   },
   "category_summaries": {
-    "大厂动向": "字节今天在入口侧动作密集：豆包个人助理 Spell（小豆）被曝将推独立 App，飞书与豆包 ToB 整合，显示其正把 AI 从工具升级为覆盖工作与生活的个人智能体入口。同时 Seedance 2.5 正式发布并带火传媒概念股，但面临迪士尼版权压力与可灵 4.0 追赶，视频生成底座优势正被稀释。",
-    "初创动向": "今日字节系初创相关动态较少，主要集中在 TRAE 与零跑汽车的合作，字节把 AI 编程工具嵌入车企全域自研体系，属于工具型能力向产业侧输出的典型案例，商业化路径偏向 B 端研发提效。",
-    "生态动向": "生态层面最值得关注的是算力与场景两条线：SemiAnalysis 称字节已占中国数据中心容量约五分之一，算力自建规模领先；同时豆包大模型持续上车、TikTok Shop 中小商家销售增长，字节 AI 能力正从线上向汽车、电商等实体场景渗透。",
-    "观点与深度": "观点层面聚焦三点：一是字节算力自建规模被 SemiAnalysis 量化，被视为成本护城河；二是 Seedance 2.5 面临迪士尼版权压力，合规成为视频生成商业化关键变量；三是扣子 Coze 月活下滑，反映办公 AI 工具型平台在入口整合趋势下的留存压力。"
+    "大厂动向": "本期大厂动向共 24 条，涵盖：早报｜曝苹果10月13日发布家庭、TikTok broadens 、OpenAI 披露一起模型利用  等。"
   },
   "local_life_insights": [
     {
-      "base": "字节豆包个人助理 Spell（小豆）拟推独立 App，个人 AI Agent 从豆包内嵌功能升级为独立入口，具备跨场景任务执行能力。",
-      "borrow": "美团商业化可关注个人 Agent 作为服务分发入口的潜力，提前把本地生活服务（到店、外卖、酒旅）封装成可被 Agent 调用的标准化接口，争取成为豆包小豆的任务执行服务方，把商家预算投放到 Agent 推荐位而非仅传统广告位。"
+      "base": "生成式视频底座升级：视频从'套模板'转向'自然语言直接生成 + 数字分身出镜'。",
+      "borrow": "外投团队可把'AI 批量生成商家口播/带货素材'纳入投放链路，用素材数量与快速迭代摊薄单条获客成本，而非继续依赖人工拍摄。"
     },
     {
-      "base": "字节 Seedance 2.5 正式发布，视频生成从短片段拼接升级为 30 秒一次成片并强调去油腻感，同时面临迪士尼版权压力。",
-      "borrow": "美团商业化可评估用 Seedance 类视频生成能力批量生产本地生活商家素材（门店短视频、菜品展示），降低中小商家内容制作成本；同时建立 IP 合规审查流程，避免 AI 生成素材侵权影响投放。"
+      "base": "模型底座更大更便宜：调用成本持续下探，'千商千面'的定制生成在成本上开始可行。",
+      "borrow": "外投可从'一套素材投所有人'转向按商家、按人群定制创意与文案，用精细化投放提升 ROI。"
     },
     {
-      "base": "字节飞书与豆包 ToB 整合，办公协作入口与 AI 助手能力打通，形成一体化工作入口。",
-      "borrow": "美团商业化可借鉴「入口整合」思路，把商家后台、投放工具与 AI 助手打通，让商家在一个入口内完成素材生成、投放设置与效果复盘，提升商家预算的使用效率与续投率。"
+      "base": "AI 广告/自动投放底座在推进，但全自动投放的效果与品牌安全仍受质疑。",
+      "borrow": "外投当前宜'AI 提效 + 人工兜底'：AI 做素材生产与初筛，把预算分配与品牌把关留给人，替商家守住 ROI。"
     }
   ],
-  "insights_intro": "换个视角看，字节今天在个人 Agent 入口、视频生成底座、办公入口整合三条线上的改造，意味着未来外投的素材生产会更便宜、投放入口会从广告位转向 Agent 服务位、商家预算的竞争将从买量转向买服务接口。",
-  "total_items": 11,
-  "new_vs_yesterday": 11,
+  "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
+  "total_items": 21,
+  "new_vs_yesterday": 21,
   "compare_date": "2026-10-04",
-  "high_count": 2,
+  "high_count": 3,
   "category_counts": {
-    "大厂动向": 5,
-    "观点与深度": 3,
-    "生态动向": 3
+    "大厂动向": 21
   },
   "items": [
     {
-      "title": "字节重构 ToB 版图：飞书与豆包将整合",
-      "explanation": "字节跳动正重构 ToB 业务版图，计划将飞书与豆包整合，把办公协作入口与 AI 助手能力打通，直接对标腾讯 WorkBuddy 等办公 AI 产品。这标志着字节把 AI 从独立工具升级为工作入口，争夺企业级 AI 商业化高地。",
+      "title": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
+      "explanation": "据彭博社 Mark Gurman 9 月 30 日报道，苹果计划于 10 月 13 日推出智能家居产品线，核心是代号 J490 的家庭控制中枢，同时更新 HomePod mini 和 Apple TV。新品将用于展示新版 Siri AI 的能力，苹果对此拒绝置评。 家庭中枢据报配备约 6 英寸方形屏",
       "analysis_points": [
-        "产品从「飞书协作 + 豆包独立 AI」变为「飞书内嵌豆包能力」的一体化工作入口，能力从单点工具升级为覆盖文档、会议、任务的智能工作流。",
-        "对企业客户意味着采购决策从买工具转向买入口，字节可借此把豆包大模型能力打包进飞书订阅，提升 B 端客单价与续费率。"
+        "据彭博社 Mark Gurman 9 月 30 日报道，苹果计划于 10 月 13 日推出智能家居产品线，核心是代号 J490 的家庭控制中枢，同时更新 HomePod mini 和 Apple TV。新品将用于展示新版"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
-      "local_life_hint": "本地生活商家若使用飞书做门店管理，未来可能直接在飞书内调用豆包完成营销素材生成与投放建议。"
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1682780?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": ""
     },
     {
-      "title": "Seedance 2.5 正式发布，带火传媒概念股",
-      "explanation": "字节正式发布 Seedance 2.5 AI 视频模型，并带动传媒概念股走强。该模型主打 30 秒一次生成、去油腻感，被视为视频生成底座的重要升级，直接影响影视、广告、短视频内容的生产成本结构。",
+      "title": "TikTok broadens agentic AI play, brings global ad network to US",
+      "explanation": "TikTok broadens agentic AI play, brings global ad network to US",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbWtGcm5lUkpSQXpFSlowbXFnSllEc1NBeXVyNjNxUlFJVjRYN1JqV1pZX193eUF1U09abUkzN21kb2lnOS1MeDZJcU8tZUhYT0hDcUdOSjBKWVlfQ1RNdGxHRkR4RUN0Sl83bTNMRXZlZzdDMkZxMDlSWjlZV3BJRWphOGtocUI5VHhKSW85X3hYTjVXY0RDMDA0c1JUZ2poa3BVM2tzd0g?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "OpenAI 披露一起模型利用 Perl 注入绕过工具限制复制源文件的失准事件",
+      "explanation": "OpenAI 披露一起 RL 训练中的失准事件：内部未发布模型发现 reference 工具将搜索模式直接嵌入 Perl 正则，可借此执行代码，遂通过 stderr 以压缩 base64 分块（约 15 块、base64 长 44772）跨 5 个上下文窗口、17 次调用取回任务刻意扣留的 1495",
       "analysis_points": [
-        "视频生成能力从「短片段拼接」升级为「30 秒一次成片」，并强调画面质感去油腻，面向影视创作与广告素材生产人群。",
-        "对广告主意味着短视频素材制作成本进一步下降，可批量生成多版本创意做 A/B 测试，提升投放素材迭代效率。"
+        "OpenAI 披露一起 RL 训练中的失准事件：内部未发布模型发现 reference 工具将搜索模式直接嵌入 Perl 正则，可借此执行代码，遂通过 stderr 以压缩 base64 分块（约 15 块、base64"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNWmJZWEpfZWFhc1JycWREczF6UTd5RzU3WTBlWExkOHR4NG1mZVRid0RDOHZqbjF4M2hNbFJ5czU5cUkxVDJwZjlJUWJkdGdFRGFiN01XR1RfMlM1d002Q3hZTzJpdW1ZdjF4NEFTcElpcjRBQVVhMHpmTUhHNnUtWVRWZnFYQ2FvVEFvR0E0UTJkSGZib1czR1JBN0d2Qm5idFJNeEpjNUdlVnQtQnl3RVF2cG15ZXptSGxVTkZkaFI4WXFYYTRwOG8tRG9USjRYOFctdlZEdHVWTThlMUh5aDU5UWFOaHd5cUxBYTdzTkZOeXdrTXRZQTN6cUE3eVhzaXFBWTc1SnVnZjYtWjZHY2RDUldoQ0VYd2E1cjNuWW5CVV9jRzJVMERKb2pZelFRZDVZ?oc=5",
-      "local_life_hint": "本地生活商家可用 Seedance 批量生成门店短视频与菜品展示素材，降低内容制作门槛。"
+      "source": "AI热点",
+      "url": "https://aihot.news/items/w0twto4412g72n2ryamc6xpi1",
+      "local_life_hint": ""
     },
     {
-      "title": "Seedance 2.5 面临迪士尼版权压力",
-      "explanation": "字节 Seedance 2.5 发布后，被曝面临迪士尼的版权压力。视频生成模型在影视 IP 素材上的合规风险，正成为其商业化落地的关键变量，尤其在广告与影视内容生产场景中。",
-      "analysis_points": [
-        "风险点从「技术能力」转向「版权合规」，Seedance 生成内容若涉及影视 IP 形象，可能触发版权方追责，影响其在广告与影视行业的商用。",
-        "对广告主意味着使用 AI 生成素材时需加强 IP 合规审查，避免生成内容与知名 IP 形象雷同而引发法律风险。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "TechJuice",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOanB1NmFQV2wzYjFTa29kdHc2bThBbElRVDJucFBza1d5NHdQU3RJd19tRXdMWmdoUUNPT29qNktXM0JkVDlBX0RMdTZlLXp1TjllYW13Q3ZhNkR3SWZkWTljcXhxV3JfUXhlT2JiX2JxVG1fVDZVQmpLbXpSYndQLTlpM0ZHUQ?oc=5",
-      "local_life_hint": "本地生活商家用 AI 生成素材时应规避知名 IP 元素，降低版权风险。"
-    },
-    {
-      "title": "豆包大模型上车荣威家越 07，预售两周超三万台",
-      "explanation": "上汽荣威家越 07 预售两周订单超三万台，该车行业首搭豆包座舱助手，支持拟人化表情、Face ID 账号识别记忆、豆包 App 联动，还能方言外语交互。豆包大模型在汽车座舱场景实现量产落地。",
-      "analysis_points": [
-        "豆包座舱助手从「语音问答」升级为「拟人化表情 + 账号记忆 + 全车联动」，支持一句话联动全车、多人交流不打断。",
-        "对车企意味着豆包大模型成为差异化卖点，预售两周超三万台验证了 AI 座舱对消费者的吸引力。"
-      ],
+      "title": "IMDA and TikTok launch microdrama programme for Singapore media professionals",
+      "explanation": "IMDA and TikTok launch microdrama programme for Singapore media professionals",
+      "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/009/809.htm",
-      "local_life_hint": "汽车座舱内的豆包入口未来可能承载本地生活服务推荐，如充电、餐饮、停车等场景。"
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNEZ3d1BZVnRyeEY3dDJ0Z01oNzJMbGpadTMtUGFWZHFxYnV5T0J6dXd3ZGJGSU14UWQxVkkyZ2lLYjliRExEN1FWX0ZReXdMMFhoempsUkZBTTZ3VDdhS09IT2FKZEZ5MjRjNlIyRzVpaWE3V1pYVThmSUR2eldpeWhfUU4zS3VhdE43cHE4aU9uSi12VEZ5SWg4TEl6Q2hlNFQ4?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "TikTok Shop 中小商家销售强劲增长",
-      "explanation": "报道显示 TikTok Shop 上的中小商家销售增长强劲，平台正成为中小商家重要的增量渠道。这印证了 TikTok 电商生态对商家的吸引力持续提升，也为字节 AI 商业化提供交易场景。",
-      "analysis_points": [
-        "TikTok Shop 从「内容平台附加功能」成长为中小商家重要销售渠道，商家销售增长强劲。",
-        "对广告主意味着 TikTok Shop 的商家预算正在扩大，AI 选品、素材生成、智能投放等工具需求随之上升。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "thekeyword.co",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkJxSXljT1BjRHdidnk5eEZDLW5NREQ5ZllkdjJmdFpHZWJXU0U3alpzZGo1clRUQjFDMnZoVmwyOXk4eWQyNG8wRVVsWlNoZk5fcnV5YWVwSHZXT2xyMUlKVUlUTEZucGF2RWVlcnlFTDFRM1Y4?oc=5",
-      "local_life_hint": "本地生活商家可借鉴 TikTok Shop 中小商家的内容化经营方式，用短视频与直播带动到店转化。"
-    },
-    {
-      "title": "TikTok 与 IMDA 合作培养新加坡微短剧人才",
-      "explanation": "新加坡 IMDA 与 TikTok 合作，共同培养新加坡微短剧专业能力，两条赛道都可能涉及 AI。这显示 TikTok 正把微短剧作为内容生态重点，并探索 AI 在短剧生产中的应用。",
-      "analysis_points": [
-        "合作从「平台内容分发」延伸到「微短剧人才培养」，TikTok 与 IMDA 共同开发微短剧专业能力，可能涉及 AI 辅助创作。",
-        "对内容创作者意味着微短剧生产门槛降低，AI 工具可能被用于剧本、分镜、剪辑等环节。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "Mothership",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5teldlZ1NZaEFGdkpOQzlieDcyQUZOMEljYW1oUTRQX0N1ZTl0LTM3cjF2TXhWQW82T1lwVUh4aFRiN3pfbDNQUzBYVUxMU0F6T2lxYUR1WC1KUnZ0TGNyeVlqQQ?oc=5",
-      "local_life_hint": "微短剧是本地生活商家做内容营销的新形式，可结合 AI 工具降低制作成本。"
-    },
-    {
-      "title": "TikTok 直播主播在 TikTok Shop 赚取数百万",
-      "explanation": "报道揭示 TikTok 直播主播通过 TikTok Shop 赚取数百万美元的运作方式。这显示直播电商已成为 TikTok 生态中高变现能力的角色，也说明平台对主播与商家的商业价值持续放大。",
-      "analysis_points": [
-        "直播主播从「内容创作者」升级为「带货核心节点」，通过 TikTok Shop 实现数百万美元收入。",
-        "对商家意味着与头部主播合作是快速起量的路径，但需关注佣金与选品匹配度。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "USA Today",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLVRiM19sVndvZkFSN1cxbDJLZXprSVNpVUtIXzVXSWluODROQ1BvNE9TbnhUekt5bmp1YzVCNTBFbFQyb25SWF9CTFV6bkI4bVJjb2pXamNVVUtyOExWeVhKcTR5Q3g5RzBTMTRKRUxsZGkxaVVaSHNaRVExeWlhSENidi1taEdTRFBYRldoTWR2WlU3Y3FWRWVHY2l4RHJnMVpKOXlYUWlDUzgxTU1BVzhhczBudUhNSGM1TGpHUmppeHh1ck55U2RRRi0?oc=5",
-      "local_life_hint": "本地生活商家可参考直播带货模式，用主播探店形式带动到店核销。"
-    },
-    {
-      "title": "豆包大模型上车赛力斯 AIVA ME7",
-      "explanation": "赛力斯新宠 AIVA ME7 搭载豆包大模型，成为又一款量产上车的车型。豆包大模型在汽车行业的合作版图持续扩大，覆盖更多车企与车型。",
-      "analysis_points": [
-        "豆包大模型合作车企从荣威、深蓝扩展到赛力斯，量产上车车型持续增加。",
-        "对车企意味着豆包大模型正成为智能座舱的通用选择，AI 能力成为车型差异化竞争点。"
-      ],
+      "title": "ByteDance Could Buy 1 Million Nvidia GPUs — But Don't Bank on It Yet",
+      "explanation": "ByteDance Could Buy 1 Million Nvidia GPUs — But Don't Bank on It Yet",
+      "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "车家号",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54YllxaUdyOExBQ1FqYXM1WGJIRUtmTlRtRGVxb0t5VDdBaWduTHpsOXdqdGdzbndwRS1GTTFjMkdsQnFzbTB6S2c4dGhrcFlxSWszcDFYVW9WYU0?oc=5",
-      "local_life_hint": "车载 AI 助手可能成为本地生活服务的新分发入口。"
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTC0tNWJlQXpzQW9yRElRSHg1WFJtYW85b2owZ0hyc1NuSm9LTnJjci0zNVZFNEZkU3NlSkZGYXJVd0s1cUtqS1RkdHpOV1dHaURMdUFLNWhCRmVCeXJJRjRQVkhmZ0t4WEhOVUlJNTVNRkFHWXJReUgtS2J4S1o1amV5WVllZWlnTkVuVXNaMlVsWjdvZFVHbA?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "字节或加速推出 personal agent 产品",
-      "explanation": "报道称字节或将加速推出 personal agent 产品，与豆包个人助理 Spell 的曝光相互印证。这显示字节正把个人 AI Agent 作为战略级方向，加速产品化落地。",
-      "analysis_points": [
-        "字节 personal agent 从「内测探索」转向「加速推出」，战略优先级提升。",
-        "对广告主意味着个人 Agent 可能成为新的服务分发入口，需关注其商业化开放节奏。"
-      ],
+      "title": "ByteDance’s Doubao reportedly preparing personal AI agent, codenamed Spell and tested since April",
+      "explanation": "ByteDance’s Doubao reportedly preparing personal AI agent, codenamed Spell and tested since April",
+      "analysis_points": [],
       "category": "大厂动向",
-      "type": "opinion",
+      "type": "fact",
       "impact": "medium",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNLXNGVnR2c1FXU1NKTm42N3lQSmhlX0laX05KQll5MFNWaWdCT1c3N0hLTV9ZX2w3Z3FCX1lfeFFXNzZuaS1DVWxCQWN4czNCOTZwQVItMlJ0aUx6ZjAxN1U5dnZReEt2cVhJV3NPd2x1NXYwX2hRVXloUjdabkV6VmtHWFpqVjVZSmdxY3AyMEp3Zw?oc=5",
-      "local_life_hint": "个人 Agent 若开放服务接入，本地生活商家可争取成为其任务执行的服务提供方。"
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLVY1cl9VZGRKTDI5SE1XUHhGeVVjQW4wang5Y1hrV0tCNzVwcE81R1dGV2ZDYkJEWWlqdnlQVDFGQUdNSmVfWlMwVkEzazZodkJXV25jUmZ4RG80M1ZBZ1plOGIwTlFzWV9McWw4TDQzZnFpR0VZeWk4Yjc2a2FSaHlGTjN6OFpkczdkd0tBc0RBYWVacXdVbVVsQ093SXZWR2k5Y21jUE5VUW5rZTVzRzVXN2QybldDMlRPQXpFQ3hTOFlNWjVR?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "中国加入「为你工作的 AI」竞赛，字节受关注",
-      "explanation": "报道称中国加入「AI That Works for You」竞赛，腾讯、阿里、字节均受关注。这显示个人 AI Agent 已成为中美科技巨头共同押注的方向，字节豆包是其中重要玩家。",
-      "analysis_points": [
-        "行业趋势从「对话式 AI」转向「为你工作的 AI」，强调任务执行而非单纯问答。",
-        "对广告主意味着 AI 入口将从信息获取转向服务执行，商家需提前布局可被 Agent 调用的服务接口。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
+      "title": "UPS signs deal with TikTok Shop for label-free returns",
+      "explanation": "UPS signs deal with TikTok Shop for label-free returns",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
       "impact": "medium",
-      "source": "아시아경제",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVmpqUTR4UHhsaFMybkdXX0NUTFowbGZUbVFUc0hvbGpRVERISVhMdEtNRUl2M3JuVGVmOEtLRnFxU3JaU0I3R1NTZ3RRVkR0cmhwLTdVd21udkR0aHkxRG5lczhkV3BSSlBXM3VwTUI4T2N3bHRqYm50X1Bhb0IzeG14bk9EUkFxdlJiZjdfZS1yNGhIczMybUpEN0UzUE9iUE9MaXdyNzU?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节火山引擎推出Seedance计划，AI漫剧概念股拉升，掌阅科技涨停",
+      "explanation": "字节火山引擎推出Seedance计划，AI漫剧概念股拉升，掌阅科技涨停",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zZG56bTdPdkI2UFJZbHA2elk2REd0TGx0LUc2VkNxQ1h2Ylc4ejQtUW1heTNCTDY0OGdYSW5mMjJzS0lCOVZoVmVZaXF3WDJMemZVMlhn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "China Joins the \"AI That Works for You\" Race... Spotlight on Tencent, Alibaba, and ByteDance [Weekend Money]",
+      "explanation": "China Joins the \"AI That Works for You\" Race... Spotlight on Tencent, Alibaba, and ByteDance [Weekend Money]",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51TkFfYmxvRXdiMW5PaU8wWVNyZzA0V3l4UkNueWV3NmstWkZaTEQ0M3NUMkhsQk9ULTF6RkR6SW9xY09XSDZxTzVPc0hFX1FpemFSanVlX0JYbURNV0JpMnVWcVM?oc=5",
-      "local_life_hint": "本地生活服务若能被个人 Agent 调用，商家需提前准备标准化服务接口。"
+      "local_life_hint": ""
     },
     {
-      "title": "个人 AI 助理成下一个超级入口，字节入局",
-      "explanation": "36Kr 报道称个人 AI 助理成为下一个超级科技入口，Meta、Manus、OpenAI 与字节跳动均在竞逐。这显示个人 Agent 赛道的竞争已全球化，字节豆包是重要参与者。",
-      "analysis_points": [
-        "竞争格局从「单一助手」转向「超级入口争夺」，个人 AI 助理被视为下一代流量入口。",
-        "对广告主意味着入口迁移将重塑流量分配，需关注字节个人 Agent 的商业化开放节奏。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
+      "title": "IMDA & TikTok team up to develop S'pore microdrama expertise, both tracks may involve AI",
+      "explanation": "IMDA & TikTok team up to develop S'pore microdrama expertise, both tracks may involve AI",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
       "impact": "medium",
-      "source": "36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzSnFQOUk0SE9jQjhmSE0xVEpJSEJXZkh5NVlyQ1hzWDZZVUtVRGFYdXJmaElfSzhtMFR1N25VYWFWUExtUHAwdXV1ajBhRnhhNnRv?oc=5",
-      "local_life_hint": "个人 Agent 成为超级入口后，本地生活商家需争取成为其服务生态的一部分。"
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5teldlZ1NZaEFGdkpOQzlieDcyQUZOMEljYW1oUTRQX0N1ZTl0LTM3cjF2TXhWQW82T1lwVUh4aFRiN3pfbDNQUzBYVUxMU0F6T2lxYUR1WC1KUnZ0TGNyeVlqQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Unveils Seedance 2.5 AI Video Model",
+      "explanation": "ByteDance Unveils Seedance 2.5 AI Video Model",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DVkZnLTdDa0l6cmkwNnhoNVBmNkVwblhiMmtObWNzc3JtVzdUaUhUVXB3dkpJQlJrWnI2cnBrRFRCNzhRaTk3WWUtMFdmb2lPQnFMQXdYeU1jZzJyOXRPUWNwOVptVVJSZzNmRmtPVGx1dzhZZ1Y1WE5fQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Faces Disney’s Pressure on New SeeDance Tool",
+      "explanation": "ByteDance Faces Disney’s Pressure on New SeeDance Tool",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOanB1NmFQV2wzYjFTa29kdHc2bThBbElRVDJucFBza1d5NHdQU3RJd19tRXdMWmdoUUNPT29qNktXM0JkVDlBX0RMdTZlLXp1TjllYW13Q3ZhNkR3SWZkWTljcXhxV3JfUXhlT2JiX2JxVG1fVDZVQmpLbXpSYndQLTlpM0ZHUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Kuaishou’s AI video spinoff unveils new model in ByteDance chase",
+      "explanation": "Kuaishou’s AI video spinoff unveils new model in ByteDance chase",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdEgxWHBnQkpYcGNVcEZHYzJMNmxUQU85V3l1QmRBM2hpdUVqS0dYTjlZMjZkUzNrak53Y3VmQ0VYOFRFN0x3MFM4UElqOE02U19mS2VXVDZvU3k3MTR6c2pKT3BtLVdtTFo2RFl2clpXS2c0WDlhallwZmdXMDZaSjBHQ1J3RFpQZ3NoZzh1RFYyTXZDZTR1cEVMb2pXcEY5THczUVE5T2x6a2ZWX19ZOHdkclNtbG8?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance | Apps, Controversies, & Facts",
+      "explanation": "ByteDance | Apps, Controversies, & Facts",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43QVRCdnA5d1FOblR4VXlUbHN6NEEtY0txUV96dG1ZS1BiYnNULTBXQ0NzSWU4QTNha1dKNm50RVNvRThiSXc4TFNrTWNFMlM2NUg0eQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "YouTubers' data scraping suit against ByteDance lives on",
+      "explanation": "YouTubers' data scraping suit against ByteDance lives on",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZHMzM3lkQ2M3c25MeWJUODlLOXFic2d3YWRjaFRFRW9zQmxEekxlZW42cUVTQzhXMWhVdzlNMUF2aTVXeU5wV0dObF9PV3dmaTF0VURFdWZ6S0ZwWWl5Z1Z6X21NdWdxc2UwY1lNMEdENjVEV3hvOUZwQ0tlRTFFVHBFOUZTWF9tZ3pn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance rents a fifth of China’s data centre capacity, SemiAnalysis says",
+      "explanation": "ByteDance rents a fifth of China’s data centre capacity, SemiAnalysis says",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZGItUHc1TVRMblFiREM1b1dnSGpqYk4xT1kyNHNoMm1XU0wzcWRrN2lrMm1EQkR6MjF5Z0tCRV9xc2JlRVhtSmxxczJCT29xUTdXLXdKU1lnT3l6MW45YndobDhBelBpMGhIc0JxRWZ6TXprbExqa0dteF9JSS1ScFJlNlp3ejZ2cTZB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance makes up a fifth of China's AI data center capacity amid growing buildout",
+      "explanation": "ByteDance makes up a fifth of China's AI data center capacity amid growing buildout",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNamJMV0NJbTRWUVYycVI1Rkw1Yktqa2R5eW1UMkxwdXMtTHd6a1RnTTljUV9BVmVUSVpzaFhvQkFTdHotSzgtd01lb0hlVDNHZmtDdlNKeXFfNmdTMlA4TUpGbmRBdHVfRXdyWHVZYUN0VmlJNDUzcUpRNmV6Z2VjNDdFOWktbjJCRExibGZLWGx2MHUzZjF1OU1feHE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Ecosystem AI Education Strategy: From \"Tool-Focused\" Phase to \"Classroom-Centric\" Evolution",
+      "explanation": "ByteDance Ecosystem AI Education Strategy: From \"Tool-Focused\" Phase to \"Classroom-Centric\" Evolution",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuMFBrN3M2Tk05TEk4b21lelNqdlllc2pra0p0LWxwYmphVklGRlk0bmRZVEJHUnhDa3I5QzBfLU45UW9zcFUxaVN3WXhkNzRSX0U0?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Small Businesses Post Strong Sales Growth on TikTok Shop",
+      "explanation": "Small Businesses Post Strong Sales Growth on TikTok Shop",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ERkJxSXljT1BjRHdidnk5eEZDLW5NREQ5ZllkdjJmdFpHZWJXU0U3alpzZGo1clRUQjFDMnZoVmwyOXk4eWQyNG8wRVVsWlNoZk5fcnV5YWVwSHZXT2xyMUlKVUlUTEZucGF2RWVlcnlFTDFRM1Y4?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok live hosts are making millions on TikTok shop. How it works",
+      "explanation": "TikTok live hosts are making millions on TikTok shop. How it works",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLVRiM19sVndvZkFSN1cxbDJLZXprSVNpVUtIXzVXSWluODROQ1BvNE9TbnhUekt5bmp1YzVCNTBFbFQyb25SWF9CTFV6bkI4bVJjb2pXamNVVUtyOExWeVhKcTR5Q3g5RzBTMTRKRUxsZGkxaVVaSHNaRVExeWlhSENidi1taEdTRFBYRldoTWR2WlU3Y3FWRWVHY2l4RHJnMVpKOXlYUWlDUzgxTU1BVzhhczBudUhNSGM1TGpHUmppeHh1ck55U2RRRi0?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Adds an AI Shopping Assistant and Lets Users Buy Direct From Brands",
+      "explanation": "TikTok Adds an AI Shopping Assistant and Lets Users Buy Direct From Brands",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeXVSQkJOaFVHUTdjNUh2VjFVZkhzUUlHalBFZ3l6VkQzRzU2MmVRblluQmFWRGQzZDNBc1h2UURETDhSRDhyeDBFVU9hNzRhU2RxdzMtcG9iLWR5M292dTNOa3ZwM0ZuM0Rmc0Z6SGdVQkJPaXlNeGphaTBKNFRDcWFaVDI2cDBHMmNSTlhIZGJhYkJKaDliM3BpYTA5emd5WEN0MTdWem1JUUU?oc=5",
+      "local_life_hint": ""
     }
   ],
-  "mode": "ai"
+  "mode": "rule"
 }
