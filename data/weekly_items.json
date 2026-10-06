@@ -1,24 +1,30 @@
 {
-  "generated_at": "2026-10-05T15:13:01.340251+00:00",
-  "week_range": "10.05-10.05",
-  "date_display": "10.05 - 10.05",
-  "editorial_summary": "本周共汇总 21 条 AI 商业要闻，其中高影响 3 条。本周主线包括：早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车；TikTok broadens agentic AI p；OpenAI 披露一起模型利用 Perl 注入绕过工具限。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-10-06T08:06:33.845547+00:00",
+  "week_range": "10.05-10.06",
+  "date_display": "10.05 - 10.06",
+  "editorial_summary": "本周共汇总 30 条 AI 商业要闻，其中高影响 8 条。本周主线包括：早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车；TikTok broadens agentic AI p；OpenAI 披露一起模型利用 Perl 注入绕过工具限；字节重构ToB版图：飞书与豆包将整合；TikTok为广告主推出AI驱动更新。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双",
       "OpenAI 披露一起模型利用 Perl 注入绕过工具限制复制源文件的失准事件",
-      "IMDA and TikTok launch microdrama progra"
+      "TikTok为广告主推出AI驱动更新"
     ],
     "opinions": [
       "ByteDance’s Doubao reportedly preparing ",
       "ByteDance rents a fifth of China’s data "
     ],
-    "ecosystem": []
+    "ecosystem": [
+      "字节占中国AI数据中心容量约五分之一",
+      "字节前高管创业3年干出30亿独角兽",
+      "豆包与ChatGPT同陷亏损，盈利路径不同"
+    ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（21 条），高影响条目占比约 14%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（25 条），高影响条目占比约 27%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
+    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
   ],
   "local_life_insights": [
     {
@@ -32,11 +38,15 @@
     {
       "base": "AI 广告/自动投放底座在推进，但全自动投放的效果与品牌安全仍受质疑。",
       "borrow": "外投当前宜'AI 提效 + 人工兜底'：AI 做素材生产与初筛，把预算分配与品牌把关留给人，替商家守住 ROI。"
+    },
+    {
+      "base": "豆包个人助理「小豆」拟推独立 App，从对话工具升级为可独立承载任务的生活助理入口。",
+      "borrow": "美团商业化可关注对话式入口的广告形态，提前测试在 AI 助理中嵌入本地服务推荐与优惠券，抢占新流量位。"
     }
   ],
   "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
-  "total_items": 21,
-  "high_count": 3,
+  "total_items": 30,
+  "high_count": 8,
   "items": [
     {
       "title": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
@@ -74,6 +84,76 @@
       "source": "AI热点",
       "url": "https://aihot.news/items/w0twto4412g72n2ryamc6xpi1",
       "local_life_hint": ""
+    },
+    {
+      "title": "字节重构ToB版图：飞书与豆包将整合",
+      "explanation": "字节跳动正重构 ToB 版图，将飞书与豆包整合，大厂激战「AI 工作入口」。此举把 AI 能力嵌入企业协作与办公场景，是字节在企业服务市场对抗阿里、腾讯的关键落子。",
+      "analysis_points": [
+        "飞书从协作工具升级为「AI 工作入口」，豆包大模型能力被嵌入文档、会议、审批等办公流程。",
+        "对企业客户意味着可在飞书内直接调用豆包能力，降低 AI 落地门槛，广告主可关注企业办公场景的投放机会。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
+      "local_life_hint": "本地生活服务商可关注飞书+豆包是否开放商家侧 API，用于客服与营销自动化。"
+    },
+    {
+      "title": "TikTok为广告主推出AI驱动更新",
+      "explanation": "TikTok 发布面向广告主的 AI 驱动更新，聚焦发现、行动与可衡量商业成果。这是 TikTok 在广告产品上持续加码 AI 能力，帮助广告主提升投放效率与效果衡量。",
+      "analysis_points": [
+        "广告产品从传统定向升级为 AI 驱动的发现与转化，覆盖从曝光到成交的全链路。",
+        "广告主可借助新工具优化素材与出价，提升 ROI，尤其适合跨境与电商投放。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNDU0empjOFZuUUpyb3h4WC1DWjVsNG1XMFdaeUdGa21zcFRLaklIcnRncUF5WG5oR1dZVC14VEdJa2RqdXFpdEtqZG4ybUhWejh6NF9LTVpyZTEtTWtKM3lSYjdUUXdvYUQxaWF0Y0Uxb25XdW5aX1BENjN1a05tb3FZaFhTQlppcEZVR1NWNzVxN3YwTURGdnZiNFZ6dzF3WDBKRHV3cGdmcFRPcWlZdndycEQwaFNxSlJ5WmpuTWRBZngwMGZDem5TMG96MFg2bjAxZWsyaGZfR2M?oc=5",
+      "local_life_hint": "本地生活广告主可借鉴 TikTok 的 AI 投放工具思路，优化抖音端素材与定向策略。"
+    },
+    {
+      "title": "TikTok推出AI购物助手与一键结账",
+      "explanation": "TikTok 推出 AI 购物助手并支持一键结账，正式启动代理式商务（Agentic Commerce）布局。用户可在 TikTok 内直接完成从发现到购买的全流程，缩短转化链路。",
+      "analysis_points": [
+        "购物体验从「跳转外链」变为「站内一键结账」，AI 助手负责推荐与导购。",
+        "对商家意味着更高的转化率与更短的决策路径，本地生活类商家可关注类似闭环玩法。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNkNjRGNCZTFjNDFKc2J5aWgtX092bDFDOV9FTlpPUUUzUUxzMXpvMTJhd3ZEbDNnR2JnbTM2N1MyWll4NmxqNVh5OHQtSTZhR3l1aUNWeWRvcFdkY19Xb2Nrb1lnLU95dXlzRDZiVC1LaE1XR2F3WjB0YW1JWmRLTGN0RXAzZndKNVpBU2hCS1ZpSFgySHE4TXJ3elB1TlhH?oc=5",
+      "local_life_hint": "本地生活可借鉴「AI 导购+一键核销」闭环，缩短从种草到到店的路径。"
+    },
+    {
+      "title": "字节占中国AI数据中心容量约五分之一",
+      "explanation": "SemiAnalysis 指出字节跳动租用中国约五分之一的数据中心容量，反映其在 AI 基础设施上的巨额投入。这为其大模型与视频模型的持续迭代提供了算力底座。",
+      "analysis_points": [
+        "字节从应用公司向算力重资产公司延伸，数据中心容量占比达五分之一。",
+        "对广告主意味着字节 AI 产品迭代速度有保障，投放工具与模型能力将持续升级。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "SemiAnalysis",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNHlVNTQzdUs3Q0FXVUZfckpfRkZZRmk0MlhxMEVEV1JBVGtjaklhclV0V2tabk1ESnZtT0Nkc2g3T2hleDZyeGdIdzFuWXhNMW1XUW1Bam5nLVlVcV9WS0ZhOThpdUUyOG02ZU0zbkl5UU9YZW5HWjdPMkJaZWhER0pJazFMeENpeFhaYVZuTHg4SW1PZ3Z1ZHBMVFl2QW9HeWxKSU1sVVFxSVVPcEE4LW1nTnBLbDEzTElSMXVmN0w?oc=5",
+      "local_life_hint": "算力投入保障了豆包与即梦的生成速度，本地生活商家可期待更低成本的素材生成。"
+    },
+    {
+      "title": "豆包大模型密集上车，覆盖深蓝、AIVA、红旗、特斯拉",
+      "explanation": "豆包大模型近期密集上车，覆盖深蓝 S07、AIVA ME7、红旗 HS5、特斯拉中国等多款车型，成为座舱标配。这显示字节正通过汽车场景扩大大模型的落地边界。",
+      "analysis_points": [
+        "豆包从手机 App 扩展到车载座舱，能力从对话延伸到车控与出行服务。",
+        "对广告主意味着车载场景可能成为新的本地生活服务入口，如加油、充电、餐饮推荐。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "车家号",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6Q1ZWQ0ZlMUF6Y3VERDdSN0pybE0xbk42ek5wNnQyNjlSajZJeUhCSUZnRlQ5WHRZc25WMlRlVVhPMmVBbFNvZGdSbjJNUFdpV3pERGFZYlF4ZUk?oc=5",
+      "local_life_hint": "本地生活可探索车载场景的到店推荐，如导航途中推送附近餐饮优惠。"
     },
     {
       "title": "IMDA and TikTok launch microdrama programme for Singapore media professionals",
@@ -272,7 +352,63 @@
       "source": "Google News中文",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeXVSQkJOaFVHUTdjNUh2VjFVZkhzUUlHalBFZ3l6VkQzRzU2MmVRblluQmFWRGQzZDNBc1h2UURETDhSRDhyeDBFVU9hNzRhU2RxdzMtcG9iLWR5M292dTNOa3ZwM0ZuM0Rmc0Z6SGdVQkJPaXlNeGphaTBKNFRDcWFaVDI2cDBHMmNSTlhIZGJhYkJKaDliM3BpYTA5emd5WEN0MTdWem1JUUU?oc=5",
       "local_life_hint": ""
+    },
+    {
+      "title": "字节前高管创业3年干出30亿独角兽",
+      "explanation": "一位 90 后字节前高管创业 3 年做出 30 亿估值独角兽，反映字节系人才外溢正成为 AI 初创的重要来源。其商业化路径与字节生态存在潜在协同。",
+      "analysis_points": [
+        "字节前高管创业项目估值达 30 亿，显示字节系人才在 AI 赛道受资本追捧。",
+        "对广告主而言，此类初创可能成为字节生态的补充服务商，值得关注合作机会。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "yeeyi",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96X0NfNDdUa3FRYXpIYWJsdWJjZGV1YzEzd04yR2tRb1ROLTFNY3BSWHpOOW9sTTRnNVIyZUtYWUdCRmZCdDJXcXlpY2FpWEZoSUJpT2NR?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包与ChatGPT同陷亏损，盈利路径不同",
+      "explanation": "虎嗅报道豆包与 ChatGPT 同陷亏损困境，但盈利路径不同。豆包更依赖字节生态内的流量与广告变现，而非单纯订阅，这对其商业化节奏有重要影响。",
+      "analysis_points": [
+        "豆包亏损但路径依赖字节生态广告变现，与 ChatGPT 订阅模式形成对比。",
+        "对广告主意味着豆包可能更早开放广告位，投放机会值得关注。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVSFgwTVBmZG1Kd3FtWk1Wa2htSlZ3cUFENWt3X2hlOG9FLUliLTBIQ2dNSTNwWG5HWjc2Sm1mSWQ0NjI5dXdxMmFKOHR0VF9EMUE3QQ?oc=5",
+      "local_life_hint": "豆包若开放广告位，本地生活商家可优先测试对话式广告形态。"
+    },
+    {
+      "title": "Seedance带火传媒概念股，影视创作未被判死刑",
+      "explanation": "Seedance 带火传媒概念股，新浪财经指出影视创作行业还没被判「死刑」。这说明 AI 视频模型更多是创作工具而非替代者，商业化空间被市场认可。",
+      "analysis_points": [
+        "Seedance 从技术模型变为资本市场概念，带动传媒板块走强。",
+        "对广告主意味着 AI 视频素材生产门槛降低，可低成本制作高质量广告片。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNWmJZWEpfZWFhc1JycWREczF6UTd5RzU3WTBlWExkOHR4NG1mZVRid0RDOHZqbjF4M2hNbFJ5czU5cUkxVDJwZjlJUWJkdGdFRGFiN01XR1RfMlM1d002Q3hZTzJpdW1ZdjF4NEFTcElpcjRBQVVhMHpmTUhHNnUtWVRWZnFYQ2FvVEFvR0E0UTJkSGZib1czR1JBN0d2Qm5idFJNeEpjNUdlVnQtQnl3RVF2cG15ZXptSGxVTkZkaFI4WXFYYTRwOG8tRG9USjRYOFctdlZEdHVWTThlMUh5aDU5UWFOaHd5cUxBYTdzTkZOeXdrTXRZQTN6cUE3eVhzaXFBWTc1SnVnZjYtWjZHY2RDUldoQ0VYd2E1cjNuWW5CVV9jRzJVMERKb2pZelFRZDVZ?oc=5",
+      "local_life_hint": "本地生活商家可用 Seedance 低成本制作到店短视频，提升投放素材产能。"
+    },
+    {
+      "title": "AI应用月报：字节扣子月活双降",
+      "explanation": "新浪财经 AI 应用月报显示，大厂激战办公 AI，字节扣子、讯飞听见月活双降。这提示扣子在办公 AI 竞争中面临压力，需关注其后续调整。",
+      "analysis_points": [
+        "扣子月活下降，反映办公 AI 赛道竞争激烈，用户留存成挑战。",
+        "对广告主意味着扣子生态的流量价值需重新评估，投放策略应更谨慎。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaUEyai12TUtzTlllcTJISXQtWFdtRVJrcFFZVWVhUFJYd2NrQUpCcmhlbVVkbTNUVkp3anBwSnhtV3BwV0dySXRzbHhuTVpSZlZFYU5WdGxORk1RSFplcnhPTmVGZ2FHT2V0TzhWMTh6WGx1ZFFDQTUtWllqMGlQRVEwSHVfcFVDeGNzdTNUR3dBSHNuRER2V3YxUHptWXp5Sm9yMU81U1JvRHRBVk0yNFFB?oc=5",
+      "local_life_hint": ""
     }
   ],
-  "mode": "rule"
+  "mode": "ai"
 }
