@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T07:59:43.491367+00:00",
+  "generated_at": "2026-10-08T13:56:20.801990+00:00",
   "week_range": "10.05-10.08",
   "date_display": "10.05 - 10.08",
-  "editorial_summary": "本周共汇总 52 条 AI 商业要闻，其中高影响 10 条。本周主线包括：早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车；TikTok broadens agentic AI p；OpenAI 披露一起模型利用 Perl 注入绕过工具限；TikTok上线AI购物助手与一键结账，电商Agent化；字节重构ToB版图：飞书与豆包整合，激战AI工作入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 56 条 AI 商业要闻，其中高影响 10 条。本周主线包括：早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车；TikTok broadens agentic AI p；OpenAI 披露一起模型利用 Perl 注入绕过工具限；TikTok上线AI购物助手与一键结账，电商Agent化；字节重构ToB版图：飞书与豆包整合，激战AI工作入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（34 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（36 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
-    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
   ],
   "local_life_insights": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
-  "total_items": 52,
+  "total_items": 56,
   "high_count": 10,
   "items": [
     {
@@ -171,18 +171,18 @@
       "local_life_hint": ""
     },
     {
-      "title": "剪映发布 ICG Studio，打通 AI 视频生成与互动影游链路",
-      "explanation": "字节跳动剪映推出 AI 互动影游平台 ICG Studio，把 AI 视频生成与剪辑链路打通，面向互动影游和短剧创作者。这是剪映从「剪辑工具」向「可交互内容生产平台」的关键升级，意味着字节在 AI 内容形态上开始押注互动分支叙事，而不只是单向视频生成。",
+      "title": "剪映发布ICG Studio，打通AI视频生成与剪辑链路",
+      "explanation": "剪映推出 AI 互动影游平台 ICG Studio，把 AI 视频生成与剪辑能力整合到同一链路中，让创作者可以产出可交互的影游内容。这是字节在内容生产工具侧从「单点生成」向「可交互内容形态」的关键升级，对短剧、互动剧和品牌定制内容都是新供给。",
       "analysis_points": [
-        "产品能力从「AI 生成单条视频 + 手动剪辑」升级为「生成—剪辑—互动分支」一体化工作流，创作者可在同一平台完成互动影游内容制作。",
-        "对短剧、影游和品牌互动素材团队而言，可探索分支剧情、互动广告等新形态，降低多版本素材的制作门槛。"
+        "能力变化：从「AI 生成单条视频」升级为「生成+剪辑+可交互影游」的一体化平台，创作者可在同一工具内完成从素材到互动内容的闭环。",
+        "对商家/广告主价值：品牌可基于 ICG Studio 制作互动式广告或短剧植入，提升用户停留与参与度，为本地生活类商家提供新的内容营销形态。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wcUQ2T0VlMmtEZV9TZUJ0OHdOZDYzMW5jMG1wZVBTd0FqU3lsMWt1RENvRUkzQVMyd3pFbHo3N014RjFXM3ltbkp5V21GUDR5bTZNUA?oc=5",
-      "local_life_hint": "本地生活商家可关注互动影游形态用于门店活动或品牌短剧，用分支剧情提升用户停留与转化。"
+      "local_life_hint": "本地生活商家可用互动影游形式做门店探店或套餐剧情化内容，提升点击与到店转化。"
     },
     {
       "title": "IMDA and TikTok launch microdrama programme for Singapore media professionals",
@@ -607,53 +607,53 @@
       "local_life_hint": ""
     },
     {
-      "title": "TikTok 联手 Salesforce 推进 Agentic Commerce 合作",
-      "explanation": "TikTok 与 Salesforce 达成 Agentic Commerce 合作，把「刷 TikTok」转化为销售线索与成交。这意味着 TikTok 正把 AI Agent 能力开放给第三方 CRM 与营销服务商，让品牌可以在自有营销体系中调用 TikTok 的电商与广告能力，生态接口化趋势明显。",
+      "title": "Shapermint靠35-65岁女性客群冲击千万美元TikTok Shop销售",
+      "explanation": "Shapermint 通过精准定位 35-65 岁女性客群，在 TikTok Shop 上冲击 1000 万美元销售额。这个案例说明 TikTok Shop 并非只适合年轻客群，中高龄女性消费力同样可观，为商家提供了新的选品与人群定向参考。",
       "analysis_points": [
-        "合作把 TikTok 的内容流量与 Salesforce 的客户数据、营销自动化打通，品牌可在 CRM 侧直接管理来自 TikTok 的转化。",
-        "对广告主而言，可把 TikTok 投放纳入统一的客户旅程管理，用 Agent 自动跟进线索，提升复购与留存。"
+        "人群价值：35-65 岁女性在 TikTok Shop 上展现出强购买力，打破「TikTok 只适合年轻人」的刻板印象。",
+        "可做动作：商家可针对中高龄女性设计内容与选品，用真实使用场景替代潮流化表达，提升转化。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Salesforce",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jLXdVanE5cDJPM2RCMEN0a1c1aGRFenU3LWE5Wm9aZ090aEI2cXJHajMzYWkxOHhMYjg2OVhzTnFpQ3BicXZMUTNzbDF0YWRRR3JBaW5zUlZ4MTV5NTlzWUEtclJQVTN3WHRSMUpNX21ndUFm?oc=5",
-      "local_life_hint": "本地生活团队可关注把外投数据接入商家 CRM 的玩法，用 Agent 自动跟进到店线索，提升核销率。"
+      "source": "Modern Retail",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNlNiSjI0WHBYeEw2a095U2ZTMm5PaThMdjBxOGxFb2pOTEdUZ1pSRkFRVHQxQ2piOW5tRHgyWTVISjB3U19mZVFRN1VqdWl5Ykdfa1RXSXhjVFI1UGZyQzktaXJzdVJqbW5wNWx6d0NIczZRc3RrS0d6R1E1TGMtWXgxdE9nOTdIVUtwZEFmQnRNRGZ0YkdUa2Ftd3A3MUZuRzhEcHQ1TzhrSXZlZFpVaTMxRnBBeTlKdVRTbXJ2TEc?oc=5",
+      "local_life_hint": "本地生活商家可参考中高龄女性客群的内容偏好，设计更贴近生活场景的种草素材。"
     },
     {
-      "title": "字节位列 SCMP Plus 出海百强榜第一",
-      "explanation": "南华早报 SCMP Plus 首次发布 Going Global 100 榜单，字节跳动位列第一。该榜单以出海表现衡量中国企业全球化能力，字节登顶反映其 TikTok 等海外产品在收入与用户规模上的领先，也为其海外 AI 商业化提供品牌背书。",
+      "title": "字节登顶SCMP Plus首届出海百强榜",
+      "explanation": "字节跳动在 SCMP Plus 首届 Going Global 100 榜单中排名第一，反映其在全球化布局上的综合实力被外部机构认可。对广告销售而言，这意味着字节系平台的海外商业化能力具备背书，可作为向品牌客户推介出海投放的依据。",
       "analysis_points": [
-        "字节在出海百强榜中排名第一，体现 TikTok 等产品在全球市场的收入与影响力。",
-        "对广告主而言，字节的全球化能力意味着可借助其海外流量做跨境投放与品牌出海。"
+        "榜单价值：字节在出海百强中登顶，说明其内容、电商、广告三线全球化能力被机构量化认可。",
+        "对广告主价值：品牌客户可把字节系平台作为出海投放首选渠道，借助其全球化流量做跨境生意。"
       ],
-      "category": "生态动向",
+      "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "South China Morning Post",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQUthdTU0d2NGVlREejltN2Z6SzZFbnJ3MGlVSzJENVJQY2FnMFZoOXE4bVBzT29fMDZ5SGw1a2tpR2NNdGFPMGs4ZHljekt6cW1xQWZ5YzZPZ3hzUnZhX05iZVpmNDRGSGgwUGtzRnBfdnZCX2pUd0xHUFc5ek9iaGpTS0x2UjhfR2Yzc2RQbXZpclV5RzNObDNNRlBSYmRFdkJsNkk2WDJvdV9JM0JZR1EtTzFTVFZi0gG4AUFVX3lxTE1rM0FUclZvWHRvNTR6cWVoYllybVFyTVlfOTZLWEhCdGx4UTcxTE9QS0xOcXJGQjJsdXNnbUdBeF9WT1ZZNlNiTUtzeGMySF80bmUtYjM4Sk9Ncy04WlFGaFptM1djcE93Q2tTYTJzTnV4M2F6WHM2ZXBmbWcxV0dQaGNaWjUxeXA0ZDVMSlBWd3NqcDIwbFlFeW5YNkdwSXpjWHFtczBiaUhqdVoydXkwYUtSWEV0ODA?oc=5",
-      "local_life_hint": "本地生活品牌若有出海计划，可优先考虑字节海外流量做跨境种草与转化。"
+      "local_life_hint": "本地生活品牌若有出海计划，可优先考虑字节系平台的跨境流量资源。"
     },
     {
-      "title": "前字节实习生创办 AI 实验室，融资 3000 万美元",
-      "explanation": "前字节跳动实习生创办的中国 AI 初创获得 3000 万美元融资，并以 2 亿美元规模对标李飞飞团队。这反映字节系人才外溢正在形成新的创业叙事，也说明资本对中国基础模型与垂直 AI 团队仍保持较高热情。",
+      "title": "前字节实习生AI实验室融资2亿美元，对标李飞飞",
+      "explanation": "一位前字节实习生创办的 AI 实验室融资 2 亿美元，直接对标李飞飞团队，另有报道称其融资 3000 万美元。这说明字节培养的 AI 人才在一级市场极具号召力，也侧面印证字节技术体系的溢出价值。",
       "analysis_points": [
-        "该实验室由前字节实习生创办，融资 3000 万美元，定位对标李飞飞团队，聚焦 AI 基础能力。",
-        "对字节而言，人才外溢既是竞争压力也是生态影响力，可能加剧高端 AI 人才争夺。"
+        "人才价值：字节系 AI 人才成为资本争抢对象，融资规模达 2 亿美元，显示市场对字节技术背景的高度认可。",
+        "生态意义：字节技术体系外溢正在催生新的 AI 创业公司，长期看会反哺字节生态的人才与资本循环。"
       ],
       "category": "初创动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdF9PQzdWZmxrS0MzVmdURTFWa2ZaVFhwLW1WTDNTZHliVXJpenhGRTUxVVh6WGtDWVFBeEp3andBZnpmWWJCaUU2Mkd6VVdXQWZ2Z3VxaGNkdk5PeFJveXJOTGlfbTFlWHliSy10TzVSUUk2YnpXTVVRcTd4RDJIdzh0VG9IUmE3TldR?oc=5",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYmxNSDJKd291YV9NdF92WklnaEZlcExmeVQzdWtlczVIcGRZXzRkZU9XUDdDZkNpb0JnUkYtNGxHdmtWbDdoODRmeTRuVF9YT1Y1MFRZNzhnSUlhbjVtbFU2dzhXcW5aemNHb0ladkhvY3ZMRlRnTi0wMmhsVEZlZFRRS1VKS2MzMmo1ODVmM2pMMk5PQXlZNHRtTUg5dDlfS3FzUUFudi1weTdLM21aZQ?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "纽约州指控 TikTok 向青少年提供安慰剂安全功能",
-      "explanation": "纽约州检方在诉状中指控 TikTok 曾向数千名试图启用安全功能的用户提供「安慰剂」版本，其中包括青少年和儿童，用户以为功能已生效但实际未改变推荐内容。这加剧了 TikTok 在青少年保护方面的监管与合规压力。",
+      "title": "纽约州指控TikTok向青少年提供安慰剂安全功能",
+      "explanation": "纽约州诉状指控 TikTok 曾向数千名试图启用安全功能的用户提供「安慰剂」版本，用户以为功能已生效但实际未改变推荐内容，其中涉及青少年和儿童。这加剧了 TikTok 在青少年保护方面的合规风险，可能影响其广告主信心。",
       "analysis_points": [
-        "指控核心是安全功能「名义开启、实际无效」，涉及青少年与儿童用户。",
-        "对 TikTok 而言，监管风险可能带来整改成本与广告主品牌安全顾虑。"
+        "合规风险：指控涉及青少年与儿童保护，若成立可能带来罚款与更严格的监管审查。",
+        "对广告主影响：品牌方在 TikTok 投放时需关注平台治理风险，避免因合规事件波及品牌形象。"
       ],
       "category": "生态动向",
       "type": "fact",
@@ -663,60 +663,116 @@
       "local_life_hint": ""
     },
     {
-      "title": "飞书与豆包亮相 AIIC，重塑办公模式",
-      "explanation": "2026 AIIC 大会上飞书与豆包展示办公场景能力，强调重塑办公模式。这延续了字节把豆包大模型与飞书协同办公整合的思路，指向 AI 工作入口的争夺，对 B 端商业化与企业服务生态有直接意义。",
+      "title": "通用AI跨界做视频，Seedance护城河受质疑",
+      "explanation": "有观点指出 Claude、GPT 等通用 AI 跨界做视频，Seedance 的护城河是否还牢固引发讨论。这反映出视频生成赛道竞争加剧，字节需要在成本、生态与工具链上持续加固优势。",
       "analysis_points": [
-        "飞书与豆包结合，把 AI 助手嵌入文档、会议、日程等办公流程。",
-        "对企业客户而言，可借助豆包能力提升办公自动化，字节则借此切入 B 端订阅与生态。"
+        "竞争态势：通用大模型跨界视频生成，对专用视频模型形成挤压。",
+        "对字节启示：Seedance 需通过工具链整合与创作者生态建立差异化壁垒。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "凤凰网科技",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE16OEZkZExGNWZsVVlxbThHYTdwbjZwYXdNcXJFeTlNSXBFdzNSYTNIanJtV01HeUpaNzBXejV4d3daM000THFDMnRyVEQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "美妆在TikTok Shop高速增长，成电商新引擎",
+      "explanation": "WWD 报道美妆品类在 TikTok Shop 上呈现爆发式增长，成为内容电商的重要增长引擎。这说明美妆品牌在 TikTok Shop 的转化模型已跑通，为其他品类提供了可复制的经营参考。",
+      "analysis_points": [
+        "品类验证：美妆在 TikTok Shop 上跑出高增长，证明内容电商对高毛利、强展示品类尤其有效。",
+        "可做动作：美妆及本地生活类商家可加大在 TikTok Shop 的内容投入，用短视频+直播组合提升转化。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "WWD",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
+      "local_life_hint": "本地生活美业商家可参考美妆内容打法，用前后对比、使用场景提升到店转化。"
+    },
+    {
+      "title": "欧逸文化携手火山引擎亮相平遥电影展",
+      "explanation": "欧逸文化携手火山引擎参加第十届平遥电影展，展示 AI 在影视内容制作中的应用。这是火山引擎在影视行业落地的又一案例，说明其 AI 能力正从技术层向内容创作层渗透。",
+      "analysis_points": [
+        "落地场景：火山引擎 AI 能力进入影视制作环节，与内容公司合作展示应用成果。",
+        "对行业价值：影视公司可借助火山引擎的 AI 工具降低制作成本，提升内容产出效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "飞象网",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5tUElPdDBBendPcE5SdldzbTB3VnU3dkNoYzVucWF3Nk1oM0owWVE1T1pxbi1rd3dkWXFBLWJub0VqQS1XbUxueXVUNA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包大模型上车别克，语音交互可聊哲学",
+      "explanation": "别克车型搭载豆包大模型，语音交互能力升级到可进行哲学话题对话。这显示豆包大模型在车载场景的语义理解与多轮对话能力持续提升，为车企提供更自然的座舱交互体验。",
+      "analysis_points": [
+        "能力升级：车载语音从指令式交互升级为可进行开放式话题对话，体验更自然。",
+        "对车企价值：车企可用豆包大模型打造差异化座舱卖点，提升用户粘性。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XU1hhOGJVLWNXeGF1aktSZlJ6YlJtY0JpRXRDVEF5NkxTbHNSbW5TUHdjcmdWRThIaVg1dHVmWnpKVmdFeldENzFUMU40LUhiOHROQkJQLWljeGVpU2FlX3AxTDlKUkd2SDlN?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "三大AI底牌曝光：豆包赢用户，千问赢场景，文心赢底座",
+      "explanation": "有分析指出三大 AI 产品的差异化底牌：豆包赢在用户规模，千问赢在场景，文心赢在底座。这一观点为理解字节豆包的竞争优势提供了外部视角，即用户规模是其核心壁垒。",
+      "analysis_points": [
+        "竞争格局：豆包的核心优势被归结为用户规模，说明其 C 端渗透率领先。",
+        "对商业化启示：用户规模优势可转化为广告与电商的流量基础，支撑商业化变现。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "潮起网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rZ1NTNUlHNXJjcFNNTlpvSUZkdl9mMDRJX1RmWTVtdmJOeG1kWThKZ2Z2cVVhUGdjWXhnX3A2anBkdVhqSzJLUXNFbG54Mkp1RWJ2NkFMMUtHLVBPTG1QbzRn?oc=5",
+      "local_life_hint": "本地生活商家可关注豆包用户规模带来的流量入口价值。"
+    },
+    {
+      "title": "飞书与豆包亮相AIIC，重塑办公模式",
+      "explanation": "飞书与豆包在 2026 AIIC 大会上展示协同办公的 AI 能力，推动办公模式重塑。这是字节在 ToB 办公场景的持续整合，豆包作为 AI 能力底座嵌入飞书工作流。",
+      "analysis_points": [
+        "产品整合：豆包 AI 能力嵌入飞书办公场景，从工具协同升级为 AI 驱动的办公模式。",
+        "对企业价值：企业可借助飞书+豆包组合提升办公效率，降低 AI 落地门槛。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "搜狐网",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS2YyMVVvN2xkakNXQ0phZlJrbXc3YXNEOHk0SldzWFBVZG5aOWxWV2tTNHdjSl9lVFdFbjU0UEI2dzVicTgxRV85WGFiVHFkaTBabWNVdFVMalAwT0E2RXF2ZFZBVUV5UjhUTFhDdkRZbWo3UUpQS3loYW05cGdWbHB3bzBsbFRjY3V4Qw?oc=5",
-      "local_life_hint": "本地生活团队可关注飞书 + 豆包在商家运营后台的自动化潜力，用于投放报表与素材管理。"
-    },
-    {
-      "title": "豆包赢用户、千问赢场景、文心赢底座：三大 AI 底牌对比",
-      "explanation": "有分析将豆包、千问、文心三大 AI 的底牌概括为「豆包赢用户、千问赢场景、文心赢底座」。该观点认为豆包的优势集中在 C 端用户规模与分发能力，这对理解字节 AI 商业化的路径选择有参考价值。",
-      "analysis_points": [
-        "观点认为豆包的核心资产是 C 端用户规模与抖音等分发入口。",
-        "对广告主而言，豆包的用户规模意味着更大的触达池，但场景深度可能弱于对手。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "low",
-      "source": "潮起网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rZ1NTNUlHNXJjcFNNTlpvSUZkdl9mMDRJX1RmWTVtdmJOeG1kWThKZ2Z2cVVhUGdjWXhnX3A2anBkdVhqSzJLUXNFbG54Mkp1RWJ2NkFMMUtHLVBPTG1QbzRn?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "通用 AI 杀进视频圈，Seedance 们还守得住吗",
-      "explanation": "搜狐网分析通用 AI 进入视频生成领域后，Seedance 等专用视频模型是否还能守住市场。文章聚焦通用模型能力上探对专用模型的冲击，是今天关于字节视频生成护城河的第二篇讨论，反映行业对该赛道竞争格局的普遍关注。",
+      "title": "扣子Coze赋能内容创作，养路工故事走红",
+      "explanation": "新浪新闻报道养路工老王的故事内容中提及扣子（Coze），显示扣子正在被用于内容创作场景。这反映字节的 AI Agent 平台正从技术工具向大众内容生产渗透。",
       "analysis_points": [
-        "通用模型向视频生成延伸，专用视频模型的技术差异化被压缩。",
-        "字节的应对在于把 Seedance 与剪映、抖音的分发和变现闭环绑定，而非单拼模型。"
+        "应用场景：扣子被用于内容创作，帮助非技术用户生成故事化内容。",
+        "对创作者价值：内容创作者可借助扣子降低创作门槛，提升产出效率。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRXpCS0FIUWNQQXlXbVRlclVVdmNuaTNuNmtpem1pd0NaRnRGRlViTmJyRGg5NmJscXd1eV93TWhIY0I3VHc0ak5xbkYzX2RWMjhPNGFjcHdmUEpGZWpXWm0xY3NFOGtWeVI0VVpkbE9OSktfQW5NOGVNM1RGbVRmTVJWelNaNDdOVGZ6WA?oc=5",
-      "local_life_hint": "本地生活素材团队可关注视频生成成本与质量变化，择机引入 AI 视频降低投放制作成本。"
-    },
-    {
-      "title": "扣子 Coze 出现在生活化内容中，Agent 走向大众场景",
-      "explanation": "新浪新闻报道中出现扣子（Coze）相关内容，虽为生活化叙事，但反映扣子作为字节 Agent 平台正逐步进入大众视野。扣子的价值在于让非技术用户也能搭建 Agent，是字节 AI 能力向长尾场景渗透的载体。",
-      "analysis_points": [
-        "扣子作为 Agent 搭建平台，降低非技术用户创建 AI 应用的门槛。",
-        "对商家而言，可用扣子搭建客服、预约、内容生成等轻量 Agent，低成本试水 AI 运营。"
-      ],
-      "category": "大厂动向",
+      "category": "生态动向",
       "type": "fact",
       "impact": "low",
       "source": "新浪新闻",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaVRMZFpaVzdqajFSWlRzRnFnRjhUSjlPdWhKSGZJd1dYazRfaUNNVklHUTNQWmtYbTVZYjFtbmtSa2otVUxkNVhoZ1pPSzg3RG9Da3Iyc1JFcUpNR25zeXlKZnBORUR6SngzMl9qUTBnTEVFWkROSnRzNXZRSHFYME8zSQ?oc=5",
-      "local_life_hint": "本地生活商家可用扣子搭建预约、客服类 Agent，降低人工运营成本。"
+      "local_life_hint": ""
+    },
+    {
+      "title": "MiniMax低价偷袭Seedance 2.5，视频模型竞争加剧",
+      "explanation": "界面新闻报道 MiniMax H3 以低价策略冲击 Seedance 2.5，指出其需要更长远布局。这反映视频生成模型赛道价格战加剧，字节 Seedance 面临成本与生态的双重竞争压力。",
+      "analysis_points": [
+        "竞争态势：竞品以低价策略切入视频生成市场，对 Seedance 形成价格压力。",
+        "对字节启示：Seedance 需在成本控制与生态整合上建立壁垒，避免陷入单纯价格战。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "界面新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2T1VRSWViRzRMTXo3LWpuamw1eXR3QTNjTl84RnJKR2xfc09UWXRfUGJfSFNobldDY2pjSmdzQWxwUG5Sa2NYUko2OEhkOFdqZE0ta3dRN1M?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
