@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T08:00:14.542270+00:00",
+  "generated_at": "2026-10-09T13:42:32.433429+00:00",
   "week_range": "10.05-10.09",
   "date_display": "10.05 - 10.09",
-  "editorial_summary": "本周共汇总 65 条 AI 商业要闻，其中高影响 14 条。本周主线包括：早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车；TikTok broadens agentic AI p；OpenAI 披露一起模型利用 Perl 注入绕过工具限；TikTok上线AI购物助手与一键结账，电商Agent化；字节重构ToB版图：飞书与豆包整合，激战AI工作入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 57 条 AI 商业要闻，其中高影响 11 条。本周主线包括：早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车；TikTok broadens agentic AI p；OpenAI 披露一起模型利用 Perl 注入绕过工具限；TikTok上线AI购物助手与一键结账，电商Agent化；字节重构ToB版图：飞书与豆包整合，激战AI工作入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双",
@@ -15,13 +15,13 @@
       "ByteDance rents a fifth of China’s data "
     ],
     "ecosystem": [
-      "即梦把AI影视厂牌推向海外，A级剧集每集最高1万美元",
       "新红旗HS5搭载豆包大模型，燃油车也上智能座舱",
-      "豆包与ChatGPT同陷亏损，但盈利路径不同"
+      "豆包与ChatGPT同陷亏损，但盈利路径不同",
+      "即梦AI创作者计划产出聊斋改编短片"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（43 条），高影响条目占比约 22%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（37 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
-  "total_items": 65,
-  "high_count": 14,
+  "total_items": 57,
+  "high_count": 11,
   "items": [
     {
       "title": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
@@ -185,60 +185,18 @@
       "local_life_hint": "本地生活商家可用互动影游形式做门店探店或套餐剧情化内容，提升点击与到店转化。"
     },
     {
-      "title": "Meta七国封禁字节系广告投放，海外获客通道收窄",
-      "explanation": "Meta自即日起在美国、加拿大、埃及、印尼、日本、泰国、越南7国禁止字节跳动及其关联第三方在Facebook、Instagram投放广告和付费营销。这是竞争对手层面的渠道封锁，直接影响TikTok系海外买量与品牌推广路径。",
+      "title": "豆包工作上线无限画布，任务模式可逐步编辑",
+      "explanation": "豆包工作宣布任务模式新增画布功能，支持无限画布与逐步编辑设计，用户可将素材、方案和创作成果铺在同一张画布上随时查看、对比和整理，生成后还能继续调整文字、配色与布局。这意味着AI办公从一次性输出转向可反复打磨的工作台，对需要批量产出方案的商家与创作者价值明显。",
       "analysis_points": [
-        "能力变化：字节系在上述7国失去Meta系社媒的付费投放资格，海外获客从'多平台采买'被迫收缩为'自有生态内循环'。",
-        "对广告主价值：投放TikTok及字节资产的品牌方需重新评估跨平台预算分配，把更多资源转向TikTok站内与抖音生态，避免渠道断档。"
+        "能力变化：从「一次性生成结果」变为「无限画布+逐步编辑」，素材、方案、成果同屏对比，生成后仍可改文字、配色与布局，复杂任务操作更快捷。",
+        "对商家/广告主价值：可把多版投放素材、文案方案铺在同一画布上快速对比筛选，减少反复切换工具的成本，提升素材迭代与交付效率。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/010/953.htm",
-      "local_life_hint": "本地生活商家若依赖海外社媒引流需警惕渠道风险，应加速把预算沉淀到TikTok/抖音站内闭环。"
-    },
-    {
-      "title": "豆包接入水电费缴纳，AI助手迈向替人办事",
-      "explanation": "豆包新增水电费缴纳能力，并已接入机票、火车票预订，标志其从信息问答向任务执行型Agent升级。对字节而言，这是把高频生活服务嵌入对话入口、争夺交易与本地生活场景的关键一步。",
-      "analysis_points": [
-        "能力变化：豆包从'能聊'变成'能办事'，用户可在对话内完成缴费、订票等闭环操作，交互从问答转向任务代办。",
-        "对商家价值：生活服务类商家可关注豆包任务入口的流量分发机会，提前布局可被Agent调用的服务与商品供给。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "全天候科技",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ZZEZyR2hJV0pjTEN1M2lzalVTc005LWtBLUxOMkhINFZtb1pBdVlyclhyX2JTSTdXd2Zvd29Fak5JWjM4U3k1YnFB?oc=5",
-      "local_life_hint": "本地生活平台应评估豆包任务入口是否成为新的服务分发渠道，提前接入可被Agent调用的缴费、票务、到店服务。"
-    },
-    {
-      "title": "即梦把AI影视厂牌推向海外，A级剧集每集最高1万美元",
-      "explanation": "字节即梦将AI影视厂牌推向海外，对A级剧集提供每集最高1万美元推广支持。这是字节用补贴撬动AI内容供给、把即梦从工具变成内容生态平台的打法，直接服务于短剧与影视内容的规模化生产。",
-      "analysis_points": [
-        "能力变化：即梦从AI视频生成工具升级为带资金扶持的影视厂牌平台，创作者可获得推广支持，内容供给从自发走向被激励。",
-        "对广告主价值：品牌方可关注即梦生态内AI短剧的植入与定制机会，用低成本内容触达海外受众。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "BlockBeats",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9USVg1VE1xb05KOUUxU0UwYy1sT0xzOUFKZjEwWHNNOXNjV0VoXzVERjFQMk5ZWVRucC1qVTQtQl95dThBWDg4c2pKNmxHbm5jVjNSemJB?oc=5",
-      "local_life_hint": "本地生活品牌可借即梦AI短剧生态做低成本内容营销，用剧情化素材替代硬广。"
-    },
-    {
-      "title": "抖音流量逻辑生变，从普惠算法转向优质内容倾斜",
-      "explanation": "报道称抖音流量底层逻辑发生变化，从普惠算法转向对优质内容倾斜。这直接影响内容分发规则与广告投放效果，商家需重新理解自然流量与付费流量的关系。",
-      "analysis_points": [
-        "能力变化：抖音分发从普惠式曝光转向优质内容加权，内容质量对流量获取的影响上升。",
-        "对广告主价值：商家需提升内容质量以获取自然流量，付费投放与优质内容的协同效应增强。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMWHpiZGJudlV2RVlRWVJiNjdMcFJNc2s3d2JFS3VCUVdwWFB4dWtDQVBjUEFpOUFSajl2Z3lQRW1nejNnbnMxbEdmZFFSdWtwOWc?oc=5",
-      "local_life_hint": "本地生活商家应加大优质内容投入，用内容质量撬动抖音自然流量，降低对付费流量的依赖。"
+      "url": "https://www.ithome.com/1/011/068.htm",
+      "local_life_hint": "本地生活商家可用画布把多套门店活动方案、海报与文案并排对比，快速选出可投放版本，缩短素材准备周期。"
     },
     {
       "title": "IMDA and TikTok launch microdrama programme for Singapore media professionals",
@@ -829,76 +787,6 @@
       "source": "界面新闻",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2T1VRSWViRzRMTXo3LWpuamw1eXR3QTNjTl84RnJKR2xfc09UWXRfUGJfSFNobldDY2pjSmdzQWxwUG5Sa2NYUko2OEhkOFdqZE0ta3dRN1M?oc=5",
       "local_life_hint": ""
-    },
-    {
-      "title": "豆包工作上线无限画布，图片视频HTML同屏创作",
-      "explanation": "豆包工作推出'无限画布'功能，图片、视频、HTML自动汇入同一创作空间，把分散的AI生成能力整合为一体化工作台。这直接服务于内容创作者与营销素材生产，提升多模态内容的组织与复用效率。",
-      "analysis_points": [
-        "能力变化：从单点生成工具变为统一画布，图片、视频、代码内容可在同一空间自动汇入与编排，创作流程从割裂走向连贯。",
-        "对广告主价值：营销团队可在同一画布快速产出多形态素材，缩短从创意到投放的链路，适合批量测试不同素材组合。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1MSzBPTk5CbUJXNWNNQmNJM0JDMlZXVFkzdV9peS13SFdGcFdBc0FITURXMzd6SW9GSEgzWGFhdFZtMmlhb2hWVUwzMTdrdw?oc=5",
-      "local_life_hint": "本地生活广告团队可用无限画布批量生产图文、短视频、落地页素材，提升外投素材的测试与迭代效率。"
-    },
-    {
-      "title": "TRAE全面升级双端融合，原负责人石扬离职",
-      "explanation": "字节TRAE全面升级为双端融合的全链路开发平台，同时原负责人石扬离职。产品升级与人事变动同步发生，反映字节在AI编程工具赛道持续投入但组织仍在调整。",
-      "analysis_points": [
-        "能力变化：TRAE从单端工具升级为双端融合的全链路开发平台，覆盖开发全流程，面向开发者与企业。",
-        "对商家价值：企业技术团队可评估TRAE作为AI辅助开发工具，降低内部工具与投放系统开发成本。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "雷峰网",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBJV1JkTjZuRjNCRUJQZFk5cVJFOEVZYkk1eWI2Sm1UVTlrZlJ2elZHZU5zaW5UUjUzdzVMajlvbXQ5UFVvUEZObmZGelhHVGkwcVJVbjJvS21ZX2F3akV2QnQ4dUZPOG43SHRjMHplTC1fb21pQ1c4?oc=5",
-      "local_life_hint": "本地生活技术团队可关注TRAE降低投放系统与数据工具开发门槛的机会。"
-    },
-    {
-      "title": "字节Seed团队揭秘AI性能波动，长文本异常有解",
-      "explanation": "字节Seed团队发布研究，解释DeepSeek长文本突然表现异常的原因，揭示AI性能波动的机制。这类基础研究虽不直接变现，但有助于提升豆包等模型稳定性，间接影响商业化体验。",
-      "analysis_points": [
-        "能力变化：Seed团队从机制层面解释大模型长文本性能波动，为模型稳定性优化提供依据。",
-        "对广告主价值：模型稳定性提升意味着豆包在长文本任务上更可靠，适合处理复杂商家咨询与内容生成。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9mMTlUQlFfS2ZDM19PdFB3YTRCcmYtMjlJeklVbDdLVkdWUDMtYXdsekwySDV1QURVMm1vYXF1bV83d1ItMXYwRGR3?oc=5",
-      "local_life_hint": "模型稳定性提升有助于本地生活客服与内容生成场景的可靠性。"
-    },
-    {
-      "title": "别克全新君越首发豆包大模型，合资燃油车智能化",
-      "explanation": "别克全新君越将上线豆包AI大模型，成为合资燃油轿车首发案例。这标志豆包座舱能力从新能源扩展到燃油车，覆盖更广的存量车型市场。",
-      "analysis_points": [
-        "能力变化：豆包大模型首次进入合资燃油轿车，智能座舱能力从电车向油车普及。",
-        "对广告主价值：燃油车用户规模庞大，豆包座舱可成为触达下沉市场用户的潜在服务入口。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbk0zcWtGQ0hRSjQtYl90SmxqNXlwSENNX2pZcXYzZkx2eE5XenNQSndBSkZZdng0NkxyWk1PUldVQ1VKRVJBZ0VxZjM5Uk5wbk40S0VrblNpZlI0cUVsaGlzd01oMGJnV2lWd2xJRjhPTlNqMHVnSHFyUFJ0M0I1dVVZQzVZeDNM?oc=5",
-      "local_life_hint": "燃油车座舱智能化扩大豆包触达面，本地生活服务可探索油车用户的车机入口。"
-    },
-    {
-      "title": "OTA的黄昏，豆包的黎明：AI助手重构出行预订",
-      "explanation": "文章以'OTA的黄昏，豆包的黎明'为题，讨论豆包接入票务预订后对传统OTA模式的冲击。这反映AI助手正从信息查询切入交易环节，可能重构出行与本地服务的分发格局。",
-      "analysis_points": [
-        "观点核心：豆包以对话式Agent切入票务与出行预订，可能绕过传统OTA入口，重构用户决策路径。",
-        "对商家价值：酒店、票务等商家需评估是否接入豆包等AI助手入口，避免被新分发渠道边缘化。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxcFp4ZVpEZ3Fhanp6WE5LdndzdGhiTkRaWTBDWFJBRXVsVHh6MVJNZ3ZuWW54dklEaWNnRS1adTM1bnZ4dDl0Sm1vbkxpOWZnTWpr?oc=5",
-      "local_life_hint": "本地生活与酒旅商家应关注豆包Agent入口对OTA的分流，提前布局对话式预订供给。"
     }
   ],
   "mode": "ai"
