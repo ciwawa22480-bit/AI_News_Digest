@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T07:49:09.897105+00:00",
+  "generated_at": "2026-10-11T13:22:32.845299+00:00",
   "week_range": "10.05-10.11",
   "date_display": "10.05 - 10.11",
-  "editorial_summary": "本周共汇总 81 条 AI 商业要闻，其中高影响 15 条。本周主线包括：早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车；TikTok broadens agentic AI p；OpenAI 披露一起模型利用 Perl 注入绕过工具限；TikTok上线AI购物助手与一键结账，电商Agent化；字节重构ToB版图：飞书与豆包整合，激战AI工作入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 78 条 AI 商业要闻，其中高影响 16 条。本周主线包括：早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车；TikTok broadens agentic AI p；OpenAI 披露一起模型利用 Perl 注入绕过工具限；TikTok上线AI购物助手与一键结账，电商Agent化；字节重构ToB版图：飞书与豆包整合，激战AI工作入口。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（52 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（50 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
+    "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
-  "total_items": 81,
-  "high_count": 15,
+  "total_items": 78,
+  "high_count": 16,
   "items": [
     {
       "title": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
@@ -241,18 +241,32 @@
       "local_life_hint": "本地生活广告主应提升短视频素材质量，避免低质铺量，顺应优质内容倾斜趋势。"
     },
     {
-      "title": "TikTok全球广告网络登陆美国，同步上线AI代理投放工具",
-      "explanation": "TikTok将其全球广告网络正式引入美国市场，并推出Agentic AI广告工具，广告主可借助AI代理自动完成投放优化与转化管理。这是字节广告技术从流量变现向AI代理投放升级的关键一步，对跨境与本地广告主都意味着投放效率的重新定义。",
+      "title": "TikTok把全球广告网络引入美国并推Agentic工具",
+      "explanation": "TikTok将全球广告网络带到美国市场，并发布Agentic AI投放工具，广告主可用AI代理自动完成受众发现、素材生成与转化优化。这是TikTok广告产品向Agent化升级的重要信号，直接影响外投效率。",
       "analysis_points": [
-        "产品能力：TikTok广告网络从区域化投放升级为全球网络+AI代理工具，广告主可让AI自动执行出价、素材优化与转化追踪，减少人工操作环节。",
-        "对广告主价值：跨境卖家可借此用一套系统覆盖多市场投放，本地商家则能通过AI代理降低投放门槛，把预算更多花在素材与创意而非人工调优上。"
+        "投放能力从「人工设置定向与出价」变成「AI代理自动发现受众并优化转化」，降低跨境与中小广告主的操作门槛。",
+        "对广告主意味着可用更少人力跑更多测试，把预算集中在AI代理筛选出的高转化人群与素材上。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "Music Business Worldwide",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN3BHLWNqQUdFZVVPYnJvTldmRVhZNktaVHpidlJ4NENSYmJvdklzSTR0NVZDY21YLWp4Q19oVUpzU01VZjdMNVB1WUVSZ1BidUg4SGpQazBvN2s5N2FHZDh0alBjZ3FKcHVaNzFNMkU0UVdUU1Rqb1pjTWIyb0N2ZjNuVHZoQ0ZLVGVCRDBPaU1yZ1A2VTg1SzhkU1R5UXFNXzZrSVFkV2pCRjVsRTR6d1BZZ3o?oc=5",
-      "local_life_hint": "本地生活广告主可关注TikTok AI代理投放工具的低门槛特性，评估是否将部分跨境或本地投放预算迁移至该网络，用AI代理替代人工调优。"
+      "local_life_hint": "外投团队可关注Agentic投放对素材批量生成与自动出价的影响，提前储备可被AI代理调用的结构化素材与转化目标。"
+    },
+    {
+      "title": "字节腾讯加速个人AI智能体研发追赶Meta Muse",
+      "explanation": "有消息称字节、腾讯正加速个人AI智能体研发以追赶Meta Muse，字节的路径是把豆包从对话助手升级为可跨应用执行任务的智能体。个人智能体被视为下一代入口，直接影响用户与广告的交互方式。",
+      "analysis_points": [
+        "产品形态从「问答式助手」变成「可跨应用执行任务的个人智能体」，能替用户完成订票、比价、下单等操作。",
+        "对广告主意味着未来投放对象可能从「人」变成「替人决策的Agent」，需要让服务与商品可被Agent识别和调用。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "high",
+      "source": "财新",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kYUdFZ2taR3ZlZk1GNlZtMkFFa1AtZExodVpkQ1A2NHl5M2JmajZkd2FuNEhENlNsU2I0YVdOTWVMZ1J3TzVjakVtVVJiZlZSdkJfZldxU1hUdmY4OEZBelFyM2NpbEE?oc=5",
+      "local_life_hint": "本地生活商家应提前把门店服务、价格与库存结构化，便于未来被个人AI智能体检索与代下单。"
     },
     {
       "title": "IMDA and TikTok launch microdrama programme for Singapore media professionals",
@@ -957,172 +971,116 @@
       "local_life_hint": "本地生活服务可开发MCP工具接入扣子，让AI助手直接调用天气、排队等本地服务能力。"
     },
     {
-      "title": "字节重返电影产业，单项目激励达百万级",
-      "explanation": "字节跳动重新进入电影产业，单个项目激励可达数百万元。结合其在AI短剧价值链的主导地位，这一动作说明字节正用资本与流量双重手段强化内容供给端控制力，为AI内容商业化铺路。",
+      "title": "字节单项目百万激励重返电影业",
+      "explanation": "字节跳动以单项目百万级激励重返电影行业，通过资金与流量扶持吸引内容供给。这显示字节正把AI视频工具与内容生态结合，从分发端向内容生产端延伸。",
       "analysis_points": [
-        "战略变化：字节从单纯的流量分发平台变成内容生产的出资方，用百万级激励绑定优质制作方，强化对上游内容的掌控。",
-        "对广告主价值：优质影视内容将带来新的品牌植入与内容营销位，广告主可提前布局与字节系影视项目的合作，抢占高关注度内容场景。"
+        "策略从「单纯流量分发」变成「资金激励+流量扶持」双轮驱动，直接介入电影项目的内容生产环节。",
+        "对内容方意味着可借助字节的AI工具与分发资源降低制作与宣发成本，广告主也可借电影IP做内容营销。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "36Kr",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5fc1VWQzNkbkVTQkhCZVNuQWVkeFpDYWVoOHlxR2ZzLUhicHNTc0RKMGxzYVRXc0s0Y1FkRklBVnFSMV95UVlHU2RHVVYwUQ?oc=5",
-      "local_life_hint": "本地生活品牌可关注字节系影视内容中的植入与联名机会，借助高热度内容提升区域品牌曝光。"
+      "local_life_hint": "本地生活品牌可关注字节电影IP与AI视频工具的结合，探索用短剧/电影内容做区域营销与品牌曝光。"
     },
     {
-      "title": "努比亚NaviX Ultra开启内测，豆包手机助手主导智能体体验",
-      "explanation": "被称为\"第二代豆包手机\"的努比亚NaviX Ultra开启内测实验室计划，10月14日直播。该机由中兴努比亚主导，搭载Seed最新全双工语音大模型与独立AI按键，主打一句话跨应用执行复杂任务，是豆包智能体在硬件端的重要落地。",
+      "title": "火山引擎东南总部项目落户福州报建",
+      "explanation": "字节跳动火山引擎东南总部项目落户福州并进入报建阶段，显示火山引擎正加速区域化布局，把云与AI能力向东南沿海产业带渗透。这对区域企业客户获取与本地化服务能力是直接补强。",
       "analysis_points": [
-        "产品能力：从普通语音助手升级为可跨应用执行复杂任务的智能体，配备独立AI按键与方言识别，交互从\"问答\"变成\"代办\"。",
-        "对商家价值：智能体手机若普及，用户可通过语音直接完成下单、比价、预约等动作，本地生活商家需提前优化在AI助手内的服务可发现性。"
+        "布局从「总部集中服务」变成「东南区域总部落地」，可更贴近本地企业提供云与AI解决方案。",
+        "对区域商家意味着火山引擎的AI能力（如豆包、方舟）将更易获得本地化支持，降低接入门槛。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcTg4QW5MQVZaRkZUbHJIYTJQMzNqekVBSTA4NE5DX3k2VFVKa1llbmk5VVBCVUt3amJVUmUwOVM5b0UyQlRtU2lZMzJkZUc1LS1mZE8ya01ra0lLaV9UVDlEeXdnc01jUGQwT19Pbk1kMzJnNTdNVVlNVU5VTTA1aVMzcVViWmV4?oc=5",
+      "local_life_hint": "本地生活服务商可关注火山引擎区域总部带来的本地化AI工具与支持，降低接入豆包/方舟做智能客服与营销的成本。"
+    },
+    {
+      "title": "字节小云雀与即梦部分业务传合并",
+      "explanation": "字节跳动小云雀与即梦部分业务传出合并，预计10月启动。这显示字节正整合AI创作工具矩阵，把分散的图像/视频生成能力收拢，提升与剪映、Seedream的协同效率。",
+      "analysis_points": [
+        "业务从「多个独立AI创作工具并行」变成「合并整合」，减少重复投入并统一技术底座。",
+        "对创作者与商家意味着工具链更集中，素材生成与编辑流程可能被打通，降低多平台切换成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iTlZJNEE5TzNqdnRVejB6Ukc5eGNIUkVLZUMxcmlLTUJxRTNlamw0alpVVU8tWHdrVUZEOGlHeS1uWjNMVHg4QVJSR3JpQ0thN3E4UEF6Mmg0N2w0REkyY0JB?oc=5",
+      "local_life_hint": "本地生活商家可关注整合后即梦/剪映工具链的素材生成能力，用于批量产出外投视频素材。"
+    },
+    {
+      "title": "努比亚NaviX Ultra内测实验室开启，豆包手机助手升级",
+      "explanation": "努比亚NaviX Ultra「内测实验室」计划即将开启，10月14日直播，号称全球首款AI智能体手机，由豆包手机助手主导AI体验并内置Seed全双工语音大模型。这显示豆包正通过硬件载体扩大智能体入口。",
+      "analysis_points": [
+        "交互从「打开App操作」变成「一句话让AI跨应用执行复杂任务」，独立AI按键与方言识别降低使用门槛。",
+        "对商家意味着手机侧智能体可成为新的服务分发入口，本地生活服务可被语音直接调用。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "IT之家",
       "url": "https://www.ithome.com/1/011/617.htm",
-      "local_life_hint": "本地生活商家应关注AI智能体手机带来的\"语音直达服务\"入口，提前布局在豆包助手内的门店信息与可预约能力。"
+      "local_life_hint": "本地生活商家可关注AI手机智能体入口，提前优化门店信息以便被语音助手直接检索与下单。"
     },
     {
-      "title": "别克全新君越上线豆包大模型，合资燃油车首发",
-      "explanation": "别克全新君越将上线豆包AI大模型，成为合资燃油车中首个搭载该模型的车型，限时14.99万元起并含50项升级。这标志着豆包大模型从新能源车向燃油车市场渗透，覆盖人群进一步扩大。",
+      "title": "赛力斯AIVA ME7首秀搭豆包大模型",
+      "explanation": "赛力斯AIVA ME7全球首秀，搭载豆包大模型与元戎智驾，冲击20万级市场。这是豆包大模型在汽车座舱领域的又一落地，显示其车载商业化持续扩张。",
       "analysis_points": [
-        "能力变化：燃油车从传统车机升级为搭载豆包大模型的智能座舱，语音交互能力向新能源车看齐。",
-        "对广告主价值：燃油车用户基数庞大，豆包随车渗透意味着车载场景的语音入口扩大，汽车与本地生活广告可探索车内场景营销。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbk0zcWtGQ0hRSjQtYl90SmxqNXlwSENNX2pZcXYzZkx2eE5XenNQSndBSkZZdng0NkxyWk1PUldVQ1VKRVJBZ0VxZjM5Uk5wbk40S0VrblNpZlI0cUVsaGlzd01oMGJnV2lWd2xJRjhPTlNqMHVnSHFyUFJ0M0I1dVVZQzVZeDNM?oc=5",
-      "local_life_hint": "车载语音入口扩大后，本地生活服务可探索与车机导航、语音助手的场景联动，如语音订餐、预约到店。"
-    },
-    {
-      "title": "赛力斯AIVA ME7首秀，豆包大模型上车冲击20万级市场",
-      "explanation": "赛力斯新品牌AIVA ME7全球首秀，搭载豆包大模型与元戎智驾，冲击20万级以上市场。这是豆包大模型在又一主流车企的落地，显示其在智能座舱领域的合作版图持续扩张。",
-      "analysis_points": [
-        "产品能力：AIVA ME7将豆包大模型作为座舱AI核心，配合智驾系统形成\"智能座舱+智能驾驶\"组合。",
-        "对广告主价值：新车上市期是营销预算集中释放的窗口，汽车品牌与本地生活服务可围绕新车场景做联合投放。"
+        "座舱能力从「基础语音控制」变成「大模型驱动的自然对话与场景服务」，提升车内交互体验。",
+        "对车企意味着可借豆包快速补齐智能座舱能力，对豆包则扩大车载数据与场景入口。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "汽车之家",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mQVFMRXRvZmlQbVBvNDJodDM0U0dIWmsybk1MVW1GVzVOT2tnYUFleXVrU3BqaGJhQ1ZKeHByM25laWN4X2M0YlBYOU4wWWo5SmpNUldsUzZLYzQ?oc=5",
-      "local_life_hint": "新车上市期营销预算集中，本地生活服务可围绕车主场景（充电、餐饮、出行）做联合投放。"
+      "local_life_hint": "本地生活商家可关注车载场景的语音服务分发，如加油、充电、餐饮推荐等被座舱助手直接调用。"
     },
     {
-      "title": "字节AI调整内幕：两个关键人物与新方向",
-      "explanation": "报道梳理字节AI组织调整，聚焦两个关键人物与一个新方向，涉及豆包、火山引擎、飞书等业务线。这类组织层面的调整往往预示资源重新分配，对判断字节AI商业化的优先级有参考意义。",
+      "title": "14.99万合资燃油车用上豆包大模型",
+      "explanation": "有报道称14.99万的合资燃油车也用上豆包大模型，显示豆包座舱能力正从新能源车向燃油车下沉。这扩大了豆包在汽车行业的覆盖面与数据入口。",
       "analysis_points": [
-        "组织变化：字节AI业务在人事与方向上做出调整，资源向特定业务线集中，反映其对AI商业化路径的重新排序。",
-        "对合作方价值：广告主与合作伙伴可据此判断字节未来重点扶持的产品线，提前调整合作与预算分配。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVjB0S1RhTl9ibmpiVFFMUEdSdm9wWDZJd1BBTnA5bEt2V3RTbURjbjJQVzlaTExaVHN5TG9maVVqSXFtcGRmZ0ViMFJXVGdpTGNZMGp6aE5OUVJ1NnloWVBYUDBQM2Q0VlEwRVdfdGFYdGFBcHhXWDMzX2tIaUZyeWNObEI1QQ?oc=5",
-      "local_life_hint": "关注字节AI资源倾斜方向，若豆包或火山引擎获重点扶持，本地生活广告主可优先在这些产品上做投放测试。"
-    },
-    {
-      "title": "字节、腾讯加速个人AI智能体研发，追赶Meta Muse",
-      "explanation": "消息称字节与腾讯正加速个人AI智能体研发，追赶Meta Muse。字节在个人智能体方向的投入，与其豆包助手向\"替人办事\"演进的路径一致，是AI入口争夺的关键布局。",
-      "analysis_points": [
-        "产品方向：个人AI智能体从被动应答升级为主动执行任务，能跨应用完成用户委托，是下一代入口形态。",
-        "对广告主价值：智能体若成为用户主要入口，广告将从\"展示\"变为\"被智能体推荐\"，商家需优化自身在智能体决策中的可被推荐性。"
+        "覆盖范围从「新能源/高端车型」变成「合资燃油车主流价位」，豆包座舱能力加速普及。",
+        "对车企意味着智能化不再是高端专属，对豆包则意味着更大规模的用户触达与场景数据。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "财新",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kYUdFZ2taR3ZlZk1GNlZtMkFFa1AtZExodVpkQ1A2NHl5M2JmajZkd2FuNEhENlNsU2I0YVdOTWVMZ1J3TzVjakVtVVJiZlZSdkJfZldxU1hUdmY4OEZBelFyM2NpbEE?oc=5",
-      "local_life_hint": "若智能体成为入口，本地生活商家需确保门店信息、评价、可预约状态在智能体可读取的数据源中完整准确。"
+      "source": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN08tdTFYNnhxdDdkVVVidWVwVGZFVFRKNUpDLS1BS2tTUzhjX2hBamQ2LTBJN0FaVFNRQnRPamZDSTZBUmRuUVJQMG5fbGRETTBDODNlU2JXS2EyWmNqZFFvWWhpQy1IbnhreEFVM3lwTkdFSmJPUGpCcnJrOFRZbW1GQ2FZbE4zM25EVQ?oc=5",
+      "local_life_hint": "本地生活服务可探索与车载豆包助手的场景联动，如语音推荐附近餐饮、加油站等。"
     },
     {
-      "title": "飞书并入豆包，字节AI时代组织解法引讨论",
-      "explanation": "报道讨论飞书并入豆包后，字节是否找到AI时代的最优解。这一整合把协同办公与AI助手能力打通，目标是抢占AI工作入口，对B端商业化路径有直接影响。",
+      "title": "豆包大模型上车品牌梳理，座舱生态持续扩张",
+      "explanation": "有媒体梳理哪些品牌车型使用了豆包AI，显示豆包大模型在汽车座舱领域的合作品牌与能力持续扩张。这为判断豆包车载商业化的广度提供了参考。",
       "analysis_points": [
-        "组织与产品变化：飞书从独立业务线并入豆包体系，协同办公与AI助手能力整合，形成统一的AI工作入口。",
-        "对B端客户价值：企业客户可在一个入口内同时获得办公协同与AI能力，采购决策更集中，字节的B端销售效率有望提升。"
+        "合作范围从「个别品牌试点」变成「多品牌多车型覆盖」，豆包成为车载AI的重要供应商。",
+        "对广告主意味着车载语音场景可能成为新的本地服务分发入口，值得提前布局。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uLXZWR2NHVm9nSEF1NEllOXNZdFI4akszUU5VY0RjLThudl9ua0cta1NVQW8xM3ZiM2pyR1NBWDBBQ1EzVlhZTTlTcF90THJoZVh3?oc=5",
-      "local_life_hint": "本地生活商家若使用飞书做门店管理，可关注豆包AI能力整合后带来的自动化运营工具。"
-    },
-    {
-      "title": "字节AI爆款在电商圈大杀四方",
-      "explanation": "报道称字节打造的AI产品在电商圈表现突出，成为商家运营的重要工具。这反映字节AI能力正从内容侧向电商交易侧渗透，形成从种草到转化的闭环。",
-      "analysis_points": [
-        "能力变化：字节AI工具从内容生成扩展到电商运营环节，帮助商家提升选品、素材与转化效率。",
-        "对商家价值：电商商家可借助字节AI工具降低运营成本，本地生活商家也可借鉴其素材生成与投放优化思路。"
-      ],
-      "category": "大厂动向",
+      "category": "生态动向",
       "type": "fact",
-      "impact": "medium",
-      "source": "加拿大新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB4b1FxTmtjdnFPRmszLW5YdkFSUXBDem9JS3JRUGVnbldEZjh1TzNxbENoMFY2ZkJGOV9Ob3Y5eEI2Vmtt?oc=5",
-      "local_life_hint": "本地生活商家可借鉴字节AI电商工具在素材生成与转化优化上的做法，用于门店推广素材的批量生产。"
+      "impact": "low",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EOGVETDRnLXozcXZzV19fZDNzNWlLTWFFYnk1WmRVV2tUS05LYzh3ZFF5cEdSUDRJZm1mYmo2Y01TQkVTSVd0ZkdJaU55UFN3WDlWWUk5WHFfNjg?oc=5",
+      "local_life_hint": "本地生活商家可关注车载助手场景下的服务分发机会，如语音搜索附近门店。"
     },
     {
-      "title": "SaaS品牌如何提升豆包AI可见度",
-      "explanation": "报道讨论SaaS品牌如何提升在豆包AI中的可见度，给出2026年的方法。这反映一个新趋势：品牌开始把\"被AI助手推荐\"作为新的营销目标，AI可见度成为新的流量入口。",
+      "title": "SaaS品牌如何提升豆包AI可见度成新课题",
+      "explanation": "有文章讨论SaaS品牌如何提升在豆包AI中的可见度，反映企业开始把AI助手视为新的流量与品牌入口。这标志着AI搜索/助手正在成为品牌营销的新阵地。",
       "analysis_points": [
-        "新营销目标：品牌从争夺搜索排名转向争夺AI助手推荐位，豆包成为新的品牌曝光渠道。",
-        "对商家价值：本地生活商家可提前优化自身信息结构，提升在豆包回答中被提及与推荐的几率。"
+        "营销阵地从「传统搜索与信息流」扩展到「AI助手回答」，品牌需要优化被豆包引用的内容。",
+        "对广告主意味着可提前布局结构化内容与权威信源，提升在豆包回答中的曝光与推荐概率。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
       "source": "手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SV012Rko3SXVJNUFMSjJiMURHT2p6XzZwZU5mc3JzYXhTRXptdXVrWjNJek1DWFd3cjlQUDlka2txLWEtdVh1UExFQUdkYnRzSDYxSWFMTHVFUXVPcE5oZk1pM3VNUHE3Nmw5ZlgzLUJmdw?oc=5",
-      "local_life_hint": "本地生活商家可优化门店信息与评价内容，提升在豆包AI回答中被推荐的概率，这是新的免费曝光入口。"
-    },
-    {
-      "title": "抖音品牌科技力表达：从实验室到江野的内容营销",
-      "explanation": "报道展示品牌如何在抖音上表达科技力，从实验室到江野的场景化内容获得关注。这说明抖音正成为科技品牌做内容营销的重要阵地，内容形式从硬广转向场景化叙事。",
-      "analysis_points": [
-        "内容趋势：品牌在抖音上的科技力表达从参数罗列转向场景化故事，更易获得用户共鸣与传播。",
-        "对广告主价值：本地生活与科技品牌可借鉴场景化内容思路，用真实场景替代硬广提升转化。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "TOM",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fTElkRTFPTGVNVFFZSGIxX2xIeUJENlk4M0ZyejM4d3NEd3A1LTdnWF9ielNYT2hMMGRDVFJkTDJBY18tYXJpak90am9kcENFNFI3ag?oc=5",
-      "local_life_hint": "本地生活商家可借鉴场景化内容思路，用真实门店场景替代硬广，提升抖音内容转化率。"
-    },
-    {
-      "title": "剪映负责人张楠的职位变动与业务坚持",
-      "explanation": "报道回顾剪映负责人张楠此前未出任抖音集团CEO的经历，强调其不气馁继续投入。这类人事故事侧面反映剪映在字节体系中的定位与团队稳定性，对判断剪映AI视频工具走向有参考意义。",
-      "analysis_points": [
-        "人事背景：张楠继续负责剪映业务，团队保持稳定，有利于剪映AI视频工具的持续迭代。",
-        "对创作者价值：剪映作为字节视频创作入口，其团队稳定意味着创作者可预期工具能力的持续升级。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "搜狐",
-      "url": "https://news.google.com/rss/articles/CBMijAFVX3lxTE9PdmxfaG1XSUhRc3JvTllMZDJVazJuZ3RFajQ2bk9XcHBWaTlUMS1LQ1VOb3c2OFRESGRBeTVXRVYtZm9kckJmbGFjci1QRDVhYVh3ZnpFTkttOS1yVEJyLWUtTUVET2RIbjE4aE5FQkFaalYyTGcwQWc4SUc1UUdoMmNjU04zYjhLald5dg?oc=5",
-      "local_life_hint": "剪映工具稳定迭代对本地生活商家制作门店短视频素材有直接帮助，可关注其AI功能更新。"
-    },
-    {
-      "title": "豆包大模型密集上车，智能座舱合作版图扩张",
-      "explanation": "综合报道显示豆包大模型在别克、赛力斯等多个汽车品牌密集落地，覆盖燃油车与新能源车。这标志着豆包在车载场景的渗透进入规模化阶段，成为其用户增长的重要来源。",
-      "analysis_points": [
-        "规模变化：豆包大模型从个别车型试点扩展到多品牌多车型，车载场景成为其重要落地渠道。",
-        "对广告主价值：车载语音入口扩大后，本地生活服务可探索与车机场景联动的语音下单、预约等营销形式。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "汽车之家",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zcGtPbm00MXVUSU1WM1hwRkpMWHdibGVDOGhXMWpPR2pOQ2xvQWpMUlhaRGE5UkVmY0tReFY5QlZJdE5hclRFdTNNazdlazFaMXU1Z3p1SlM1RFk?oc=5",
-      "local_life_hint": "车载语音入口规模化后，本地生活服务可探索语音订餐、预约到店等车内场景营销。"
+      "local_life_hint": "本地生活商家可优化门店在豆包回答中的可见度，如完善点评、菜单与营业信息，争取被AI推荐。"
     }
   ],
   "mode": "ai"
