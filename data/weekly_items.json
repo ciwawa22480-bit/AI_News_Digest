@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-13T08:25:43.639990+00:00",
+  "generated_at": "2026-10-13T14:32:04.984771+00:00",
   "week_range": "10.12-10.13",
   "date_display": "10.12 - 10.13",
-  "editorial_summary": "本周共汇总 20 条 AI 商业要闻，其中高影响 2 条。本周主线包括：飞书并入豆包，字节AI组织再调整；字节PineDrama下载破亿，A股开始为AI内容供给定。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 25 条 AI 商业要闻，其中高影响 3 条。本周主线包括：飞书并入豆包，字节AI组织再调整；TikTok扩展AI搜索、创意与商家广告格式；字节PineDrama下载破亿，A股为AI内容定价。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "TikTok加拿大发布AI品牌解决方案",
@@ -11,19 +11,21 @@
     ],
     "opinions": [
       "TikTok CEO：AI三年内推动科学突破",
-      "字节AI调整：两个关键人物与新方向"
+      "字节AI调整：两个关键人物与新方向",
+      "字节腾讯押注互动内容，尽头是游戏"
     ],
     "ecosystem": [
       "即梦AI影视厂牌出海，单集最高1万美元",
-      "字节Seed成立模型安全与对齐部门"
+      "字节Seed实验室新设模型安全与对齐部门",
+      "字节系AI创业者融资遇冷，天使轮额度腰斩"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（13 条），高影响条目占比约 10%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（16 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
   ],
   "local_life_insights": [
     {
@@ -39,13 +41,13 @@
       "borrow": "算力成本下降有望传导至AI素材生成与投放工具定价，美团商业化可关注第三方AI素材工具成本变化，优化外投素材生产的单位成本。"
     },
     {
-      "base": "剪映SVIP年卡降至180元、豆包工作新增画布并支持Seedream 5.0 Flash，AI视频与图文素材的生产成本与门槛被大幅压低。",
-      "borrow": "外投团队可把AI素材生产纳入常规流程：用剪映批量生成多版本短视频、用豆包工作画布快速产出活动图文，降低单条素材成本，把预算更多留给定向与出价测试。"
+      "base": "即梦AI被美妆品牌用于双11电商海报批量生图，把传统设计外包流程替换为AI直出，素材生产周期与成本被压缩。",
+      "borrow": "美团商业化外投团队可将即梦AI纳入素材生产流程，批量生成多门店、多节庆的促销海报与短视频封面，降低素材制作成本并加快投放测试节奏。"
     }
   ],
   "insights_intro": "换个视角，对像美团商业化这类'拿商家预算做外投'的团队来说，今天字节把TikTok交易链路压进信息流、把豆包创作工具画布化、并在内蒙古压低算力成本，意味着未来外投的素材生产更快更便宜、投放链路更短、成本结构更可控。",
-  "total_items": 20,
-  "high_count": 2,
+  "total_items": 25,
+  "high_count": 3,
   "items": [
     {
       "title": "飞书并入豆包，字节AI组织再调整",
@@ -62,18 +64,30 @@
       "local_life_hint": "本地生活商家可关注豆包统一入口后企业服务与营销能力的整合，提前布局豆包生态内的品牌触点。"
     },
     {
-      "title": "字节PineDrama下载破亿，A股开始为AI内容供给定价",
-      "explanation": "字节旗下PineDrama下载量突破一亿，21世纪经济报道指出A股市场开始为AI内容供给定价。这说明字节的AI短剧/内容产品已形成规模化用户基础，并开始影响资本市场对内容生产成本的估值逻辑。",
+      "title": "TikTok扩展AI搜索、创意与商家广告格式",
+      "explanation": "TikTok在广告侧扩展AI搜索、AI创意生成与商家专属广告格式，把AI能力从内容推荐延伸到广告投放全链路。这意味着广告主可以用AI自动生成素材、自动匹配搜索意图，降低创意与投放的人力成本。",
       "analysis_points": [
-        "产品能力：PineDrama以AI生成内容为核心，下载破亿意味着AI内容从实验走向大众消费级规模。",
-        "对行业价值：AI内容供给成本被重新定价，传统内容制作方的成本优势被削弱，广告主可关注AI内容带来的新流量位。"
+        "广告格式从'人工上传素材+手动定向'变为'AI生成创意+AI搜索意图匹配'，投放效率与素材迭代速度提升。",
+        "对本地生活商家意味着可以用更低成本批量测试素材，适合多门店、多SKU的广告主做规模化投放。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "MediaPost",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbU9GV1Q5Y245NW5Ob2FBUHpXTkQ5OU5HNk1wVDUwQU9xd2EtdC10Y29jZnBqcWZ4QVgwNXltNmQzaEx2bE9iRnhFdWhUbENWQ3lWbWNkbmVZV1dFOC1KVTkxWWJrM0lyT0dMVTR6TGZEdlM0djZFcm9xM0xTUnFlbWNEdWhPcXhyM09UY3BFdVNsZGRVaTNLZXRHOEExRERGajJKZkhCX0MzVmM?oc=5"
+    },
+    {
+      "title": "字节PineDrama下载破亿，A股为AI内容定价",
+      "explanation": "字节旗下PineDrama下载量突破1亿，A股市场开始为AI内容供给定价。这说明字节在AI短剧/内容赛道的分发能力已形成规模效应，资本市场开始把AI内容供给视为可定价的资产类别。",
+      "analysis_points": [
+        "用户规模从'千万级'跃升至'亿级'，AI内容分发能力被验证，字节在短剧赛道的护城河进一步加深。",
+        "对广告主意味着AI短剧成为新的品牌植入与投放场景，适合本地生活品牌做剧情化种草。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "21财经",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT3RRTFM4ekJBOFJNalhtbkZ5NW1XQlVFMGlVcUlIVmt6NlJ6U0o0QXdzLURFeTYtOXh2WHY5VkoxZ2sxS1NsTE1PQjdUbmxEVlp1UjRxdVNZeHFQQkcxYVg0RjRoX2FTQ0dCeEhvTl93TnN1eGVGWUVjRHUxSkEwNEV6ZkFlRERPNGpz?oc=5",
-      "local_life_hint": "AI短剧的高流量可成为本地品牌植入新场景，商家可关注PineDrama类内容位的广告合作机会。"
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT3RRTFM4ekJBOFJNalhtbkZ5NW1XQlVFMGlVcUlIVmt6NlJ6U0o0QXdzLURFeTYtOXh2WHY5VkoxZ2sxS1NsTE1PQjdUbmxEVlp1UjRxdVNZeHFQQkcxYVg0RjRoX2FTQ0dCeEhvTl93TnN1eGVGWUVjRHUxSkEwNEV6ZkFlRERPNGpz?oc=5"
     },
     {
       "title": "TikTok加拿大发布AI品牌解决方案",
@@ -230,102 +244,147 @@
       "local_life_hint": "本地生活广告主可关注官方保障标识对转化的提升，评估在投放中突出保障信息。"
     },
     {
-      "title": "TikTok扩展AI搜索、创意与商家广告格式",
-      "explanation": "TikTok在广告侧扩展AI驱动的搜索广告、创意生成与商家广告格式，把AI能力嵌入投放的素材生产与定向环节。对广告主而言，这意味着平台正在用AI降低素材制作门槛并提升搜索场景的广告库存变现效率。",
+      "title": "字节期权回购价241.35美元，离职员工不打折",
+      "explanation": "字节跳动启动新一轮期权回购，价格税前每股241.35美元，离职员工不打折，因业务调整离开的员工与在职员工同价。这反映字节在AI投入期仍保持对人才的强激励，稳定核心团队预期。",
       "analysis_points": [
-        "产品能力：广告格式从传统信息流扩展为AI搜索广告+AI创意+商家专属格式，覆盖更多意图场景。",
-        "对广告主价值：可用AI批量生成多版本素材做A/B测试，搜索广告则能承接高意图流量，适合预算有限的中小商家。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "MediaPost",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbU9GV1Q5Y245NW5Ob2FBUHpXTkQ5OU5HNk1wVDUwQU9xd2EtdC10Y29jZnBqcWZ4QVgwNXltNmQzaEx2bE9iRnhFdWhUbENWQ3lWbWNkbmVZV1dFOC1KVTkxWWJrM0lyT0dMVTR6TGZEdlM0djZFcm9xM0xTUnFlbWNEdWhPcXhyM09UY3BFdVNsZGRVaTNLZXRHOEExRERGajJKZkhCX0MzVmM?oc=5",
-      "local_life_hint": "本地商家可优先测试AI搜索广告，承接「附近+品类」高意图查询，配合AI创意快速铺量。"
-    },
-    {
-      "title": "字节Seed成立模型安全与对齐部门",
-      "explanation": "字节Seed AI实验室成立专门的模型安全与对齐部门，TechNode报道。这标志着字节在大模型竞争中把安全合规提升到组织级投入，对出海产品和监管敏感场景（如广告、电商）是必要前置条件。",
-      "analysis_points": [
-        "组织变化：从分散的安全研究变为专门的模型安全与对齐部门，投入级别提升。",
-        "对商业化价值：安全对齐能力是豆包、TikTok等产品在国内外合规运营的底座，降低监管风险。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "TechNode",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDdESW84bjZiSVdQR1YzcURmX2ZSWG1TbUFGd1RwUEV4YlU3RUFyOVpMci1BelVHUllQMDZLaFZMblpLTEZBNDFnMnlYTFNPd1Eza1JlU05IWUxUSk13b2F5bm5iU2VVem9xZTQzNmc3R2VQUHpodmNQY3B6M05OMzFHMktFTTc3XzU2UDhHeGgzM3NfWWczQWhScGVjUXdyWURjdUVEcWY3SjZNYXJ5Tw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "字节系AI创业者融资遇冷，天使轮额度腰斩",
-      "explanation": "虎嗅报道字节系AI创业者融资遇冷，天使轮额度较一年前腰斩，资本转向硬科技。这说明「字节背景」对早期融资的溢价正在消退，投资人更看重技术壁垒而非大厂履历。",
-      "analysis_points": [
-        "资本变化：字节系创业者天使轮额度腰斩，融资难度上升，资本偏好转向硬科技。",
-        "对行业价值：应用层AI创业门槛提高，创业者需更强调差异化技术与商业化验证。"
-      ],
-      "category": "初创动向",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wX1dwbm5HYWxPc0RKZUtqaDlodW94a1ctMkxoOHV1NzNBQlMxV1BWY0J6dVdCT2FjcG84Tm9iTXFwWWdlWmlCNlU1bjJIenlsZVJxXw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "剪映SVIP年卡降至180元，AI剪辑能力大幅下探",
-      "explanation": "剪映SVIP超级会员年卡降至180元（约15元/月），三端通用并含1TB云空间与AI积分。这是剪映把专业剪辑与AI生成能力大幅下探到中小创作者和商家自运营团队的价格动作，直接降低AI视频生产门槛。",
-      "analysis_points": [
-        "价格变化：SVIP年卡从599元降至180元，手机/平板/电脑三端通用，含1TB云空间与AI积分。",
-        "对商家价值：中小商家可用低成本获得AI剪辑与云协作能力，自建短视频素材产能。"
+        "回购机制从'离职打折'变为'离职同价'，对核心人才保留是明确信号，尤其在AI人才争夺激烈的当下。",
+        "对广告销售团队意味着组织稳定性较高，可预期字节系AI商业化产品线的迭代节奏不会因人事波动而中断。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/012/350.htm",
-      "local_life_hint": "本地生活商家可借低价SVIP批量生产探店/团购短视频，降低外投素材成本。"
+      "url": "https://www.ithome.com/1/012/539.htm"
     },
     {
-      "title": "字节AI游戏赛道全面发力，百万Token押注",
-      "explanation": "36Kr报道字节在AI游戏赛道全面发力，投入百万级Token资源。这是字节把AI生成能力向游戏内容生产延伸的动作，意在用AI降低游戏内容制作成本并探索新的互动娱乐形态。",
+      "title": "字节Seed实验室新设模型安全与对齐部门",
+      "explanation": "字节Seed AI实验室成立专门的模型安全与对齐部门，负责大模型价值观对齐、风险评测与合规。这是字节在AI商业化加速背景下补齐合规底座的动作，对豆包、Seedance等对外模型的品牌合作有直接背书价值。",
       "analysis_points": [
-        "投入方式：以百万级Token资源押注AI游戏内容生产，降低游戏素材制作门槛。",
-        "对行业价值：AI游戏内容可能成为新的流量与广告载体，值得关注其商业化路径。"
+        "组织能力从'先做产品后补合规'变为'安全对齐前置'，模型对外商业化时的合规风险被提前管控。",
+        "对广告主意味着使用豆包、Seedance等模型做营销素材时，合规审核链路更清晰，品牌方投放顾虑降低。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "TechNode",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDdESW84bjZiSVdQR1YzcURmX2ZSWG1TbUFGd1RwUEV4YlU3RUFyOVpMci1BelVHUllQMDZLaFZMblpLTEZBNDFnMnlYTFNPd1Eza1JlU05IWUxUSk13b2F5bm5iU2VVem9xZTQzNmc3R2VQUHpodmNQY3B6M05OMzFHMktFTTc3XzU2UDhHeGgzM3NfWWczQWhScGVjUXdyWURjdUVEcWY3SjZNYXJ5Tw?oc=5"
+    },
+    {
+      "title": "字节系AI创业者融资遇冷，天使轮额度腰斩",
+      "explanation": "报道指出字节系AI创业者融资遇冷，天使轮额度较一年前腰斩，资本转向硬科技。这说明'字节背景'不再是融资溢价，投资人更看重技术壁垒而非大厂履历，对字节生态内的创业者是明确警示。",
+      "analysis_points": [
+        "融资环境从'大厂背景即溢价'变为'技术壁垒才定价'，字节系创业者需要拿出更硬的技术差异化。",
+        "对广告主意味着字节生态内的AI工具供给可能更集中于字节自有产品，第三方工具的选择面收窄。"
+      ],
+      "category": "初创动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2SzU2RFBJZjJma0pSWTlQeWkxNnk1NTZHNzlpbDM2U1lfeUFVQ3ZWN0NJVXExZzBHLVVDVFNZWW9pc0psU3gycVlDMExQY2Z4Wnc?oc=5"
+    },
+    {
+      "title": "字节AI游戏赛道全面加注，百万Token投入",
+      "explanation": "报道称字节在AI游戏赛道全面加注，投入百万级Token推动行业变革。这说明字节把AI能力从内容、广告延伸到游戏互动场景，AI游戏成为其AI商业化的新试验田。",
+      "analysis_points": [
+        "投入规模从'试水'变为'百万Token级'，AI游戏成为字节AI能力落地的重要场景，互动内容与游戏边界模糊。",
+        "对广告主意味着游戏化互动广告可能成为新形态，本地生活品牌可探索AI互动内容做用户留存。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85NlhuclV4cjhadEkyREJOcVFSdWlNZTJRR010bFJpMDRmTlluTHN2TTh0NHgyMHMyZGFaN3pJc2hEWEpXbDNIR09wak9LdUJkQXQ0?oc=5",
-      "local_life_hint": ""
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85NlhuclV4cjhadEkyREJOcVFSdWlNZTJRR010bFJpMDRmTlluTHN2TTh0NHgyMHMyZGFaN3pJc2hEWEpXbDNIR09wak9LdUJkQXQ0?oc=5"
     },
     {
-      "title": "剪映与腾讯快手竞逐AI互动影游工具",
-      "explanation": "Pandaily报道剪映与腾讯、快手竞相打造AI互动影游工具。剪映作为字节系视频工具，正把AI能力从剪辑延伸到互动内容制作，与竞品争夺AI内容生产工具市场。",
+      "title": "即梦AI成美妆品牌双11海报生图主力",
+      "explanation": "报道推荐即梦AI作为美妆品牌电商海报AI生图工具，主打低成本、快出图、可批量。这显示即梦AI正从创意工具走向电商素材生产基础设施，直接替代传统设计外包流程。",
       "analysis_points": [
-        "产品方向：剪映从视频剪辑工具扩展为AI互动影游内容制作平台，覆盖更复杂的内容形态。",
-        "对行业价值：AI内容工具竞争加剧，创作者可低成本制作互动内容，广告形式可能随之创新。"
+        "素材生产从'设计外包+人工修图'变为'AI批量直出'，电商海报的生产周期与成本被大幅压缩。",
+        "对本地生活商家意味着可以用即梦AI批量生成门店促销海报，适合多门店、多节庆的素材快速迭代。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Pandaily",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc0RPOWtPLUJETnRYWTBBRGE5b3JFRGVybU9FY2o5dDdGSjBFOWg3T0owb1RGc28wbkM1MF9nbnlWbjRvdXZlakdVSlB5NVZ6cjNXRTk3UVdYbmt6RTZ5UWgwSTctOW8zdnFKZ3R2V3RyYjFEN2tGQ3BSeGl3bTMwbUs1dERmUHFWYjQ4UjdveTBFQ0ZtdVJpVlNlU3d0Q0ZiOEp3?oc=5",
-      "local_life_hint": ""
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE04NDVmT1Y0V0Nsb0hNZW5VMTFncEpqdnM0MWRPSG1rZzBtQVZGZC1PYTdMRUF1SFpyNHh4OU01cFV6QjNaYXdMWG1iTVc?oc=5"
     },
     {
-      "title": "字节凶猛：从招聘看字节AI战略战术逻辑",
-      "explanation": "36Kr从招聘视角剖析字节AI战略战术，指出字节在AI岗位上的布局反映其资源倾斜方向。招聘结构是观察大厂战略优先级的前置指标，对判断字节AI商业化节奏有参考价值。",
+      "title": "字节赛豆合作品牌第二款车型预计为SUV",
+      "explanation": "独家报道称字节赛豆合作品牌第二款车型预计为SUV，并考虑采用换电方案。这是字节AI能力（豆包大模型）向汽车硬件延伸的又一动作，说明豆包上车正从单车型合作走向品牌化。",
       "analysis_points": [
-        "战略信号：招聘岗位结构反映字节AI资源投入方向，集中在模型、应用与商业化岗位。",
-        "对行业价值：字节AI人才扩张速度影响其产品迭代节奏，广告主可据此预判新广告产品上线时间。"
+        "合作模式从'单车型搭载豆包'变为'联合品牌+多车型规划'，豆包在汽车场景的渗透从点到面。",
+        "对广告主意味着汽车品牌与豆包的联合营销空间扩大，本地生活可探索车机场景的到店引流。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GdnFMcnJGSEYyZ3VDR3VSeXJVYlpiT1RreEVHTnZVckk1T19SWnloc2lSeWVTVlR1ak9KdnJEcWtlc2xUV3p5Ulpnc2R0V2wzd01Fb0pBekh4eUE2S19vQXhyVVZsbmM5a0dJNzhLUjJCb19Hd3dXUW1yay1pYWc?oc=5"
+    },
+    {
+      "title": "扣子接入OpenAI，普通人可零门槛搭AI应用",
+      "explanation": "扣子（Coze）接入OpenAI模型后，普通人也能零门槛搭建AI应用。这降低了AI应用开发门槛，扩大了扣子生态的开发者基数，对字节AI生态的繁荣有直接推动作用。",
+      "analysis_points": [
+        "开发门槛从'需要编程能力'变为'零门槛拖拽搭建'，扣子生态的开发者与智能体数量有望快速增长。",
+        "对广告主意味着可以低成本搭建品牌专属AI智能体，用于客服、导购等场景，提升用户互动效率。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VQnB5S1JIVjNHaklQTW5LTXpXRXU5V1dUN3dObUZTeDNVc3NTVDhISGxKanN5d1ROLTNVMnVzcFdiUjAwSHZRSzZfdkYtRjE1eVNDa3lmWHZoMGVfdEE?oc=5"
+    },
+    {
+      "title": "剪映负责人张楠谈组织调整，坚持内容创作",
+      "explanation": "报道称剪映负责人张楠在前年未出任抖音集团CEO后仍坚持内容创作方向。这反映字节在AI视频工具（剪映、即梦）上的组织稳定性，对剪映AI商业化路线的连续性有正面意义。",
+      "analysis_points": [
+        "组织状态从'人事变动传闻'变为'负责人稳定带队'，剪映与即梦的AI视频工具迭代节奏可预期。",
+        "对广告主意味着剪映系AI视频工具的产品路线不会频繁摇摆，适合作为长期素材生产工具纳入投放流程。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT3ZsX2htV0lIUXNyb05ZTGQyVUsybmd0RWo0Nm5PV3BwVmk5VDEtS0NVTm93NjhUREhkQXk1V0VWLWZvZHJCZmxhY3ItUEQ1YWFYd2Z6RU5LbTktclRCci1lTUVET2RIbjE4aE5FQkFaalYyTGcwQWc4SUc1UUdoMmNjU04zYjhLald5dg?oc=5"
+    },
+    {
+      "title": "字节腾讯押注互动内容，尽头是游戏",
+      "explanation": "报道讨论字节与腾讯押注互动内容新风口，认为互动内容的尽头是游戏。字节在AI互动内容上的布局，可能把短剧、视频与游戏融合，形成新的用户时长与变现场景。",
+      "analysis_points": [
+        "内容形态从'单向观看'变为'可互动、可选择'，用户参与度与停留时长有望提升。",
+        "对广告主意味着互动内容可承载更深的品牌植入，本地生活品牌可探索分支剧情式广告。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
-      "source": "36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85SmJsam5xcW5ZY2ROR01iMXZQUEJnZ1AwSzhveWRTNTNmRlE4U0M5Wk45Q0FBQk9VbVJSUEV3c0dWV2lsd3RGMmd0Uzl2UQ?oc=5",
-      "local_life_hint": ""
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KQVZ0dGFpM1hGeXVWaXNvdmJhMERBd0RhZnhHTkFhRWQyVG5xX0gtMHp1MnpDbmt2TVg4allJeTN6ZTIyNHdqM3lwcHFBS05MVVJlLUJmTEhyaGdjQXpLTkhVS2NGM25OaGlhNGRQTXQ?oc=5"
+    },
+    {
+      "title": "TikTok Shop西班牙上线，直播购物与站内购买",
+      "explanation": "TikTok Shop在西班牙上线，支持直播购物与站内购买。这是TikTok电商在欧洲市场的进一步扩张，配合AI购物助手与一键结账，欧洲市场的电商闭环正在成型。",
+      "analysis_points": [
+        "市场覆盖从'英美为主'扩展到'西班牙等欧洲市场'，TikTok电商的全球化布局加速。",
+        "对广告主意味着欧洲市场的本地生活与电商投放机会增加，可提前布局西班牙语素材与直播团队。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "thekeyword.co",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVlpqcjhYZWtsU28wT3RDcXVqdlg3eU9lNEhfRk5nbHFYa1R5cXM2VExOUy1WekZwMXJzVkNpb2QtOW93SzVZWmc0YjNSMTF1Mnc0Mi1udk9hOXJoQ1BHd01pZGlsWTBvQ1hod093MzFZRVlWTWF3eHVHdGNjTHpVeG9xQklhZjZGT195UDF0akU5M0h5T01aNXZoWE1MdFpJNGc?oc=5"
+    },
+    {
+      "title": "AI科幻短片《沙幕之下》抖音点赞超278万",
+      "explanation": "AI科幻短片《沙幕之下》在抖音点赞超278万，创作者坚持手搓创作。这说明AI视频内容在抖音已能获得大规模用户认可，AI创作正在从实验走向主流内容供给。",
+      "analysis_points": [
+        "内容供给从'专业团队制作'变为'个人AI创作'，优质AI内容的传播效率被验证。",
+        "对广告主意味着AI短片可作为品牌内容营销的新形式，本地生活品牌可尝试AI剧情短片做种草。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1NHdnSUxBWDdGVVJBT3ktRl9DSnBWVmYzWmZld2taRUtTZWlyT2pSLTU0M3RBaS0temVOUFBBVmtfY2xKaU1MdVY5dEtfMkpVZFMyZA?oc=5"
     }
   ],
   "mode": "ai"
