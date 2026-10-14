@@ -1,0 +1,303 @@
+{
+  "generated_at": "2026-10-14T06:42:19.594824+00:00",
+  "date_display": "2026年10月14日",
+  "date_short": "2026-10-14",
+  "weekday": "周三",
+  "editorial_summary": "今日共精选 24 条 AI 商业动态，其中高影响 8 条。核心看点集中在：早报｜对话库克：Apple Watch要做「个人守护者」/华；Meta Bans TikTok Owner ByteDan；Meta bans TikTok parent ByteDa；ByteDance's Seed Lab Creates F。头部大厂在产品、营收与生态合作上持续加码，建议重点关注其能力更新对广告/营销与本地生活场景的可迁移性。",
+  "overview": {
+    "new_products": [
+      "豆包工作上线数据导入与同步功能：支持从 ChatGPT 等一键导入对话与记忆",
+      "别克全新君越将上线豆包AI大模型！合资燃油车首发"
+    ],
+    "opinions": [
+      "字节跳动火山引擎东南总部项目通过备案报建 落户福建福州鼓楼",
+      "野村报告：字节系占中国网民41.8%上网时长，AI短剧与Seedance推动内容"
+    ],
+    "ecosystem": []
+  },
+  "category_summaries": {
+    "大厂动向": "本期大厂动向共 24 条，涵盖：早报｜对话库克：Apple Wa、Meta Bans TikTok、Meta bans TikTok 等。"
+  },
+  "local_life_insights": [
+    {
+      "base": "生成式视频底座升级：视频从'套模板'转向'自然语言直接生成 + 数字分身出镜'。",
+      "borrow": "外投团队可把'AI 批量生成商家口播/带货素材'纳入投放链路，用素材数量与快速迭代摊薄单条获客成本，而非继续依赖人工拍摄。"
+    },
+    {
+      "base": "模型底座更大更便宜：调用成本持续下探，'千商千面'的定制生成在成本上开始可行。",
+      "borrow": "外投可从'一套素材投所有人'转向按商家、按人群定制创意与文案，用精细化投放提升 ROI。"
+    },
+    {
+      "base": "AI 广告/自动投放底座在推进，但全自动投放的效果与品牌安全仍受质疑。",
+      "borrow": "外投当前宜'AI 提效 + 人工兜底'：AI 做素材生产与初筛，把预算分配与品牌把关留给人，替商家守住 ROI。"
+    }
+  ],
+  "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
+  "total_items": 23,
+  "new_vs_yesterday": 23,
+  "compare_date": "2026-10-13",
+  "high_count": 8,
+  "category_counts": {
+    "大厂动向": 23
+  },
+  "items": [
+    {
+      "title": "早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能",
+      "explanation": "10 月 12 日，在北京接受爱范儿采访时，库克被问及 Apple Watch 在未来十年会如何发展。库克表示，Apple Watch 要成为每个人健康的「个人守护者」，帮助用户过上更健康的一天。 库克表示，苹果希望把用户原本无法获得的信息交到他们手中，帮助他们睡得更好、多运动、多站立、消耗更多热量",
+      "analysis_points": [
+        "10 月 12 日，在北京接受爱范儿采访时，库克被问及 Apple Watch 在未来十年会如何发展。库克表示，Apple Watch 要成为每个人健康的「个人守护者」，帮助用户过上更健康的一天。 库克表示，苹果希望把用"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1683909?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Meta Bans TikTok Owner ByteDance From Advertising in 7 Countries: “We Don’t Have to Run Ads From a Competitor”",
+      "explanation": "Meta Bans TikTok Owner ByteDance From Advertising in 7 Countries: “We Don’t Have to Run Ads From a Competitor”",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTmNldHdzSEdzaW0yV1RzN2FrN0tUMHhoLTZTM2k4Y1plbHNFMXNoLTdxZ0pTWE1jVUt6VkNLNDRmbWV3elJ6UW41SDZDeDhvZ08xbThJVkNrZ3lnalBlRG1ZcDZnTVZ5WllXd1dobXJHQllrTkZRNWRRRHdfWUNMUGU0MzBqVS14TS1ZNWNESlNDUk1PQmxKMERhYXh1UjNZelE?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "Meta bans TikTok parent ByteDance from advertising on its apps in the US and six other countries",
+      "explanation": "Meta bans TikTok parent ByteDance from advertising on its apps in the US and six other countries",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeUo0SmQ2X0FpQXRZS2lIV3p3LUF1em12bG9DaXpCSUU1WEtIV0VtX0pPNjlpbnN4QVRjblpva21pVGtBaWVfYnFEbGhIb1hNVkp6UG1qLTdDUFAtb0VRZzNmQXQ4ZGt2dDdEUXFlQVZ3RmZRXzNDUElPV1I5bXY1RlN0aUpzbWdlVUt2OWJCYnVVQ0h6ZWt3eEFyS3JTUGEzb1A0ckdwWk5ZLTZ4UzN4a1gxd0NVVVZBOEJvYVIxYXJ6cFdrcGlqdXFHRnY0NW5feHc?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "ByteDance's Seed Lab Creates First Dedicated AI Safety & Alignment Unit in China, Led by Yan Lin to Address Agent and CBRN Risks",
+      "explanation": "ByteDance's Seed Lab Creates First Dedicated AI Safety & Alignment Unit in China, Led by Yan Lin to Address Agent and CBRN Risks",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFU3EyWURIY2xvMWZVeGpabGtrbUFxaGd1cUh3VFJYS3BISDZUUnNJcnJfaUZFZmlxcmt3QlVXYkM2NFNxV1JHV0J3OE95RDBnaHVFUlFTVGk3eU94Q2JvOUhHeGU0VnpZU0UwR3lHMGktODBpbHc?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok to add AI-powered discovery and one-click checkout",
+      "explanation": "TikTok to add AI-powered discovery and one-click checkout",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWXVTbm5zS054TXcteHhkTzhXb3VIUWZIV05JM1B5cWhIRTVkTWFFUnkwT1lMUV9idE5vYV9BNmNwWW5jeWxxdUVaTk0xb2YxSEM1U2NKbDNpTzJiWEFUZmlfdTNpY2xIQnM0cU43MzF4cFp5UzR1SlBMSnpWdmNnZklOUnhtdW1zdG83cWQ5RQ?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "TikTok Shop Roles Are the Hottest Jobs in Marketing Right Now. Why So Many Brands Are Building In-House Teams",
+      "explanation": "TikTok Shop Roles Are the Hottest Jobs in Marketing Right Now. Why So Many Brands Are Building In-House Teams",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZG9jLXc5Nm16V2wtLUY3bThNZzIyTDV4eGw5MVM5ZlVGbHJZZWUwNXM1d1NJUFJwWmRUM0RMZlVnaXdIaDNZZEpjUldjVWh2eV9qWXY4akhweWZTVFQ5djBlNE1weUJ5TzRUUWxlcXZmV2lTNlJsbGVMNWdHOUFTTW5jM0J1OENNS3d3?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "AI Transforms Advertising Into Shopping With Fewer Clicks: TikTok’s David Kaufman",
+      "explanation": "AI Transforms Advertising Into Shopping With Fewer Clicks: TikTok’s David Kaufman",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcUpRSlZ0d0pPMC1ydEd0aWF4NDJGYS1yMXMxSGtiS0I5RFpwTkdsc2pOOXc5ZXZEQy1UMURiakhrZEpNcWJZdF9vQTJqNG5VWEZMV2JlT0p2STJ4SU10bUp6Tks0RzhyY0pITjhfUnlTRDdocDZxWnIzRy1FOXo0UWs0YmItTW9mTndUdlJ3MjNyZFBxeUZJbm90LXRoNlB5WE9zTjVXcURybHVnNG1YSHRn?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+    },
+    {
+      "title": "豆包工作上线数据导入与同步功能：支持从 ChatGPT 等一键导入对话与记忆",
+      "explanation": "IT之家 10 月 14 日消息，今日豆包工作宣布上线数据导入与同步功能，支持用户将已有对话、技能和记忆迁移至豆包工作继续使用。 用户可一键导入任务偏好指令、技能、连接器、工作记忆、项目及历史会话，支持从 ChatGPT、Claude Code、Trae Work 等产品迁移。导入内容将自动归档至对",
+      "analysis_points": [
+        "IT之家 10 月 14 日消息，今日豆包工作宣布上线数据导入与同步功能，支持用户将已有对话、技能和记忆迁移至豆包工作继续使用。 用户可一键导入任务偏好指令、技能、连接器、工作记忆、项目及历史会话，支持从 ChatGPT"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/012/807.htm",
+      "local_life_hint": ""
+    },
+    {
+      "title": "He Was Fired for Sabotaging AI Training at ByteDance. Two Years Later, VCs Gave Him $30 million.",
+      "explanation": "He Was Fired for Sabotaging AI Training at ByteDance. Two Years Later, VCs Gave Him $30 million.",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRVhRNlFqZjhXR29lSTB2cDhmY1JZUm5RdEE5aDEzSWE2MllBQ1B4Wll0b1J6dUR0c0xDTlJoUjN1em96aW9ONzJudENmeEoxUnZmT19tQ2JKMlRyM09tdzBIWlRMQ2RjODA1YWtka05ycmNyR1hjQk51V2ZkQ28xRmw4TGdja0p2ZjNSdXBPRFBqX0VWbnpXYk92RWxnVV85LXJsQ0JkdUJaaGhfb2pJc25sSXhSQQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "New AI Short Drama Industry War: Tencent & Kuaishou's Two-Pronged Surprise Attack – Who Breaks ByteDance's Market Barriers?",
+      "explanation": "New AI Short Drama Industry War: Tencent & Kuaishou's Two-Pronged Surprise Attack – Who Breaks ByteDance's Market Barriers?",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HSkdLQ0JHa1hiUl9WWkNTMkVLamh6R0FFQW4xWmM4NVNsRkVXc1IzNFpPdjdubEhVVnQ4dHlvMDE3N1VSSEdJLUcxRF82bGo0MjFF?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok World Canada 2026: Turning Discovery Into Business Growth with AI-Powered Innovations, Vertical Experiences and High Impact Brand Solutions",
+      "explanation": "TikTok World Canada 2026: Turning Discovery Into Business Growth with AI-Powered Innovations, Vertical Experiences and High Impact Brand Solutions",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVVpWbzZIRkh1VWx0ZFRZUkhjN1RGN184Q2tCQmhESjFSRTBvcE9iaEVZLUtfZjVDMTIwendLejEtbTVydXplODRGNl9HMk5uUkQ5d0tjSE1ZTkVSNDZGenhDcEd4TElyd1hXNjVFMXdOd2dPZHZxajZlWnJzblQ1T3ZNeUxxalZOSTFB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "从TikTok到PineDrama：字节AI出海矩阵再下一城，亿级流量闯关变现与合规深水区",
+      "explanation": "从TikTok到PineDrama：字节AI出海矩阵再下一城，亿级流量闯关变现与合规深水区",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ab2EzZGtPcEotVEJXTWJZYXluYnYyb3dJS1dxOWFlWG5Ud1pwWjRmM3lXZGUtd0psVm1xTU1QdXRiUXJPVFdfMnVtdm5wU1h6Tk9wUG0ySTlSTGh0d3RUMkRlbFRpdw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节凶猛：从招聘看字节AI战略战术背后的逻辑与细节",
+      "explanation": "字节凶猛：从招聘看字节AI战略战术背后的逻辑与细节",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85SmJsam5xcW5ZY2ROR01iMXZQUEJnZ1AwSzhveWRTNTNmRlE4U0M5Wk45Q0FBQk9VbVJSUEV3c0dWV2lsd3RGMmd0Uzl2UQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "抖音鸿蒙版被指屏蔽《人民日报》涉尊界报道 实测系适配问题 华为同步回应",
+      "explanation": "è¿æ¥ç½ä¸æµä¼ åºä¸åè¯´æ³ï¼ç§°ä½¿ç¨é¸¿èç³»ç»çææºçä¸å°ãäººæ°æ¥æ¥ãæé³è´¦å·åå¸çæ¶åå°çV800å¶å¨è¸æ¿æ­è£ç",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582086.htm",
+      "local_life_hint": ""
+    },
+    {
+      "title": "The Expanding AI Graveyard of Tencent, ByteDance and Alibaba: A Growingly Crowded Tech Phenomenon",
+      "explanation": "The Expanding AI Graveyard of Tencent, ByteDance and Alibaba: A Growingly Crowded Tech Phenomenon",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUQTdjSVBSZ1l5dXo0bGphMS1iVFBaRkU4czI1WlFIX0NJOEpSUWh3OGNQVmUyTkJ0YWNJNlhkc1RWek5vUmRiRG9mdVl0cldLN0U0?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Sets Up Dedicated AI Safety Unit to Manage Model Risks",
+      "explanation": "ByteDance Sets Up Dedicated AI Safety Unit to Manage Model Risks",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMVVpZDA5RE90Nkx6eTg1SVVPeTV4SGlTREJ3M0hmM1JOemlyNE1aWnlVVVZXOWpTLXFldUUxcndKeHVyZEJNaGZGckl4czBMNllOWFg1eDMzOWptc2VHT3RpTjZqcGNwTmRFWExXSVlsM2U0c2NPejF1azNoQXNEMnRtSXJmRElnZ2E4WjQ4ZTVnNW5HOFhCTUxMd3htdHQxSEw3TDFjQkVQYldLcF9GcDlldzI0T1FIQk5F?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok CEO sees major scientific breakthroughs from AI within three years",
+      "explanation": "TikTok CEO sees major scientific breakthroughs from AI within three years",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTW12Y2w2X2Y4TjV2SVZENTdwXzhtVFctYkhvUU1WOWdjMzVnSUNsMnYzMDFQYkZEeG9PVVh6M3BwZjQwTkVLZXdIUDhMNnNhNlJWWG1uSGFvaHc4Nk5pa0RnMDVxMVd3MEtBSHNlNjZFT2lCdXpNMDlRTjJHVHZIVHJJNmlrd085VFZSUlZB0gGTAUFVX3lxTFBzSXAzMTA5TGVZdHNtMWsyZ3FfeE95UmRfaGYzTFFCQ1pRN3pZM1B1MUNDTlV1MXNpampFYUwzbG5KWkFyWk1heFlwU1FiQ3BlXzFobTZXS001ZDJUT05QVTBESWQza0ZlOGt3Ym42WWp4QzhqbVlwVGR6OFBlX1VTM1FpZ2tXMEVBVC1PdVI1N29JYw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "AI Portal Battle 2.0: Tencent, Alibaba, ByteDance, Who Is the Hidden Champion in the AI Office Track?",
+      "explanation": "AI Portal Battle 2.0: Tencent, Alibaba, ByteDance, Who Is the Hidden Champion in the AI Office Track?",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1odlhmemJiZW5fNkhaMHQyNkdnQkhLbG1HV3dZSVJQT0M0bzVpbWFmQXNKV1Rmbkp4VTB4UzEtbUpJT2IydjJRXzFCRWpqdW52Qm5J?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5: What ByteDance's Video Model Actually Is",
+      "explanation": "Seedance 2.5: What ByteDance's Video Model Actually Is",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2aWNCYlFjdFdDR015WHp6dWZrcTdHdWt6VFU5bm9SdzAtY2tXTzl4RG5CTWVrTkFaam9sRzNfZ2hwdFMzcFRQeURULTVSR2NCQ3BnLWpB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Huawei Goes Deep, Alibaba Broad, ByteDance Focused, Tencent Clever: The Fight to Own the AI Phone",
+      "explanation": "Huawei Goes Deep, Alibaba Broad, ByteDance Focused, Tencent Clever: The Fight to Own the AI Phone",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWGFOTWt4bXBfMG5CTGpZVzJENjNiOFhPazZXc0Z6clg0c3JSazByWFMwbGs1SlctQTEzUW1VOS1ULWFzZVpDYjh3MlFfRmtjSndCR0ptZVN2R3JESjR3bFRzS2tuYU5jNFIwOTJYcHpCck9ob3pqYnZPaTFidkRXVE1taVg1dC1SQ1lubEFWdS1DR3V6QzVrZ3JXTEVjV1U?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok CEO sees AI breakthroughs in 3 years",
+      "explanation": "TikTok CEO sees AI breakthroughs in 3 years",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYUNPSDVMaEpnMDY3cDNoQ2tLbDNkc1pnb1hSaEJQcy1aU2dZUzY0SEVSZlF3UTUwVGhGRVpmS3otckpGR1pOUnpJOXY2ay1TZEVQMWhQZEc2WDBCVWNWNUFWcHFqUkMtVFBZRjhyMFl5RlJpbG9nTmZmcHZFNDk1TlJ6Z1NDZnpTMXB0bWIyYUJ6QQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "CapCut, Tencent and Kuaishou Race to Build AI Tools for Interactive Film Games",
+      "explanation": "CapCut, Tencent and Kuaishou Race to Build AI Tools for Interactive Film Games",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc0RPOWtPLUJETnRYWTBBRGE5b3JFRGVybU9FY2o5dDdGSjBFOWg3T0owb1RGc28wbkM1MF9nbnlWbjRvdXZlakdVSlB5NVZ6cjNXRTk3UVdYbmt6RTZ5UWgwSTctOW8zdnFKZ3R2V3RyYjFEN2tGQ3BSeGl3bTMwbUs1dERmUHFWYjQ4UjdveTBFQ0ZtdVJpVlNlU3d0Q0ZiOEp3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Meta bans TikTok ads on its platforms in US",
+      "explanation": "Meta bans TikTok ads on its platforms in US",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcFlfTjhMRWZPWEhDVF9mcGQ1VEY2aWVLMThVLUJaVmNWUzdwV09KTWlDN0E4Rm5IRHFyME1QN01fczZFSGdDbVBsYnh3dDJTdFlfTkczM1NreS11VjJ2QWVFbnV2eU1EMDNWZHl5X2h4WV9SN3FFRUJBaHpzUng2VlhKemtnUnJEblBpajF5U0FCWmdFLWR6azJ0aDB5bEhUdVJHc0g1dVNYY0NZYVdyaU9UOE12SUFDQmpB?oc=5",
+      "local_life_hint": ""
+    }
+  ],
+  "mode": "rule"
+}
