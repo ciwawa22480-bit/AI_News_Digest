@@ -1,303 +1,183 @@
 {
-  "generated_at": "2026-10-14T06:42:19.594824+00:00",
+  "generated_at": "2026-10-14T12:18:15.586198+00:00",
   "date_display": "2026年10月14日",
   "date_short": "2026-10-14",
   "weekday": "周三",
-  "editorial_summary": "今日共精选 24 条 AI 商业动态，其中高影响 8 条。核心看点集中在：早报｜对话库克：Apple Watch要做「个人守护者」/华；Meta Bans TikTok Owner ByteDan；Meta bans TikTok parent ByteDa；ByteDance's Seed Lab Creates F。头部大厂在产品、营收与生态合作上持续加码，建议重点关注其能力更新对广告/营销与本地生活场景的可迁移性。",
+  "editorial_summary": "今天字节系AI商业化最值得关注的是「入口与生态」两条主线同时推进。一方面，豆包手机助手的屏幕自动化协议公示期满，但微信、淘宝等超150款App明确拒绝智能体操作，说明字节想用豆包做「替人办事」的系统级入口，正撞上其他大厂的生态墙，这直接决定未来AI入口的流量分配权。另一方面，豆包工作密集迭代：新增无限画布、接入Seedream 5.0 Flash图片模型、支持一键导入其他AI历史数据，把办公场景做成跨AI互通的聚合入口。海外侧，TikTok把AI购物助手与一键下单塞进信息流，TikTok Shop角色成营销圈最热岗位，电商闭环继续加深。此外野村报告显示字节系占中国网民41.8%上网时长，Seedance推动内容供给闭环，字节的内容-模型-变现飞轮仍在加速。",
   "overview": {
     "new_products": [
-      "豆包工作上线数据导入与同步功能：支持从 ChatGPT 等一键导入对话与记忆",
-      "别克全新君越将上线豆包AI大模型！合资燃油车首发"
+      "豆包工作新增无限画布功能并接入Seedream 5.0 Flash图片模型，用户可在画布上逐步编辑任务、生成图片，把AI办公从对话式问答升级为可视化协作空间，面向内容与营销团队。",
+      "豆包工作支持一键导入其他AI的历史对话数据，实现跨AI平台数据互通，降低用户迁移成本，把豆包工作做成聚合型AI办公入口。",
+      "TikTok在信息流内上线AI购物助手与一键下单，用户可在浏览视频时直接完成购买，把内容发现与交易闭环压缩到同一条信息流里。"
     ],
     "opinions": [
-      "字节跳动火山引擎东南总部项目通过备案报建 落户福建福州鼓楼",
-      "野村报告：字节系占中国网民41.8%上网时长，AI短剧与Seedance推动内容"
+      "野村报告指出字节系占据中国网民41.8%的上网时长，AI短剧与Seedance推动内容供给闭环，说明字节的流量护城河正被AI内容生产能力进一步加固。",
+      "有分析认为豆包手机助手被微信、淘宝等超150款App拒绝，暴露AI智能体在跨应用操作上的生态墙难题，入口之争本质是权限与数据之争。",
+      "TikTok Shop相关岗位成为营销圈最热招聘方向，越来越多品牌自建in-house团队，反映AI电商闭环正在重塑品牌营销的组织结构。"
     ],
-    "ecosystem": []
+    "ecosystem": [
+      "字节系AI入口扩张遭遇其他大厂生态封锁，豆包手机助手屏幕自动化协议公示期满后，阿里腾讯系App集体拒绝，AI智能体跨应用操作面临监管与商业博弈双重阻力。",
+      "字节AI出海矩阵从TikTok到PineDrama持续扩张，亿级流量进入变现与合规深水区，内容出海正从流量竞争转向商业化与合规能力竞争。",
+      "字节社招岗位中AI相关占比达42.8%，资源全面向AI倾斜，反映头部公司正以组织与人才结构调整押注AI商业化。"
+    ]
   },
   "category_summaries": {
-    "大厂动向": "本期大厂动向共 24 条，涵盖：早报｜对话库克：Apple Wa、Meta Bans TikTok、Meta bans TikTok 等。"
+    "大厂动向": "字节今天在AI入口与办公两条线同时发力：豆包手机助手屏幕自动化协议公示期满却遭超150款App拒绝，暴露系统级入口的生态阻力；豆包工作则密集迭代画布、Seedream 5.0 Flash与跨AI数据导入，把办公场景做成聚合入口。海外侧TikTok把AI购物助手与一键下单塞进信息流，电商闭环继续加深。",
+    "初创动向": "今天字节系初创相关动态较少，主要围绕字节自身AI组织与人才结构调整，社招AI岗位占比42.8%显示资源全面倾斜，但缺乏独立初创融资或新品信息。",
+    "生态动向": "字节AI出海矩阵从TikTok到PineDrama持续扩张，亿级流量进入变现与合规深水区；同时豆包手机助手遭遇阿里腾讯系App集体拒绝，AI智能体跨应用操作面临生态墙与监管博弈，入口之争从产品竞争升级为生态权限之争。",
+    "观点与深度": "野村报告显示字节系占中国网民41.8%上网时长，AI短剧与Seedance推动内容供给闭环，为字节的内容-模型-变现飞轮提供了数据支撑；同时关于豆包被腾讯阿里拒之门外的讨论，揭示了AI入口争夺背后的生态壁垒与商业博弈逻辑。"
   },
   "local_life_insights": [
     {
-      "base": "生成式视频底座升级：视频从'套模板'转向'自然语言直接生成 + 数字分身出镜'。",
-      "borrow": "外投团队可把'AI 批量生成商家口播/带货素材'纳入投放链路，用素材数量与快速迭代摊薄单条获客成本，而非继续依赖人工拍摄。"
+      "base": "豆包手机助手屏幕自动化协议公示期满，但微信、淘宝等超150款App拒绝智能体操作，字节试图用豆包做系统级跨App操作入口。",
+      "borrow": "美团商业化团队应关注豆包若打通跨App操作，用户在微信、淘宝内的消费行为可能被豆包截流或导流，需提前评估豆包作为新流量入口的投放价值，并准备豆包内的商家服务卡片与到店推荐位。"
     },
     {
-      "base": "模型底座更大更便宜：调用成本持续下探，'千商千面'的定制生成在成本上开始可行。",
-      "borrow": "外投可从'一套素材投所有人'转向按商家、按人群定制创意与文案，用精细化投放提升 ROI。"
+      "base": "豆包工作新增无限画布并接入Seedream 5.0 Flash图片模型，把AI办公从对话式问答升级为可视化协作空间，图片生成效率与质量提升。",
+      "borrow": "美团商业化团队可用豆包工作画布批量生成商家海报、团购套餐图与投放素材，把物料制作周期从数天压缩到当天，降低外投素材生产成本。"
     },
     {
-      "base": "AI 广告/自动投放底座在推进，但全自动投放的效果与品牌安全仍受质疑。",
-      "borrow": "外投当前宜'AI 提效 + 人工兜底'：AI 做素材生产与初筛，把预算分配与品牌把关留给人，替商家守住 ROI。"
+      "base": "TikTok在信息流内上线AI购物助手与一键下单，把内容发现与交易闭环压缩到同一条信息流里。",
+      "borrow": "美团商业化团队可借鉴TikTok信息流内直接下单模式，探索在抖音信息流内直接完成到店团购核销，缩短从种草到成交的转化路径。"
     }
   ],
-  "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
-  "total_items": 23,
-  "new_vs_yesterday": 23,
+  "insights_intro": "换个视角，对像美团商业化这类拿商家预算做外投的团队来说，今天字节在豆包跨App操作、豆包工作画布与TikTok信息流内下单上的底座改造，意味着未来外投的素材生产会更依赖AI画布、投放入口可能被豆包截流、成交链路会进一步压缩到信息流内。",
+  "total_items": 9,
+  "new_vs_yesterday": 9,
   "compare_date": "2026-10-13",
-  "high_count": 8,
+  "high_count": 2,
   "category_counts": {
-    "大厂动向": 23
+    "大厂动向": 2,
+    "观点与深度": 4,
+    "生态动向": 3
   },
   "items": [
     {
-      "title": "早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能",
-      "explanation": "10 月 12 日，在北京接受爱范儿采访时，库克被问及 Apple Watch 在未来十年会如何发展。库克表示，Apple Watch 要成为每个人健康的「个人守护者」，帮助用户过上更健康的一天。 库克表示，苹果希望把用户原本无法获得的信息交到他们手中，帮助他们睡得更好、多运动、多站立、消耗更多热量",
+      "title": "豆包工作支持一键导入其他AI历史数据，跨AI互通来了",
+      "explanation": "豆包工作上线一键导入其他AI历史对话数据功能，用户可将其他AI平台的历史记录迁移到豆包工作。这降低了用户迁移成本，把豆包工作做成聚合型AI办公入口，对习惯多平台切换的用户有吸引力。",
       "analysis_points": [
-        "10 月 12 日，在北京接受爱范儿采访时，库克被问及 Apple Watch 在未来十年会如何发展。库克表示，Apple Watch 要成为每个人健康的「个人守护者」，帮助用户过上更健康的一天。 库克表示，苹果希望把用"
+        "豆包工作从「封闭的AI办公工具」变成「可导入外部AI数据的聚合入口」，用户无需重新积累上下文即可切换平台。",
+        "对广告主而言，若豆包工作能聚合多平台数据，未来可能成为跨平台营销素材与策略的统一管理入口。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "京报网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5aV2FWbFVKVmhfTWs3RkFmekcxZVRwVzgtQndBbHFuZnJHZWhaeTJaT0l6bllla25QOXdObzlvWW5iZ2hYMVBONWJrbUdfeXRxVGM2ZjBidFp3R2VoOUtZQm9FdnBJSGZIWDNpeVVKV0RDZw?oc=5",
+      "local_life_hint": "本地生活团队可将其他AI平台积累的商家素材导入豆包工作，统一管理投放物料。"
+    },
+    {
+      "title": "TikTok信息流上线AI购物助手与一键下单",
+      "explanation": "TikTok在信息流内上线AI购物助手与一键下单功能，用户可在浏览视频时直接完成购买。这把内容发现与交易闭环压缩到同一条信息流里，进一步缩短转化路径，对品牌和商家意味着更高效的种草到成交链路。",
+      "analysis_points": [
+        "TikTok从「内容平台+跳转购买」变成「内容内直接AI导购+一键下单」，购物助手可主动推荐商品并完成支付。",
+        "对商家而言，视频内容可直接转化为交易，广告投放的ROI衡量将从点击率转向直接成交率，素材需更强调商品卖点与购买冲动。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1683909?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "local_life_hint": ""
+      "source": "Retail Dive",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWXVTbm5zU054TXcteHhkTzhXb3VIUWZIV05JM1B5cWhIRTVkTWFFUnkwT1lMUV9idE5vYV9BNmNwWW5jeWxxdUVaTk0xb2YxSEM1U2NKbDNpTzJiWEFUZmlfdTNpY2xIQnM0cU43MzF4cFp5UzR1SlBMSnpWdmNnZklOUnhtdW1zdG83cWQ5RQ?oc=5",
+      "local_life_hint": "本地生活商家可关注TikTok信息流内直接下单模式，未来抖音可能复制该能力，到店团购或可在视频流内直接核销。"
     },
     {
-      "title": "Meta Bans TikTok Owner ByteDance From Advertising in 7 Countries: “We Don’t Have to Run Ads From a Competitor”",
-      "explanation": "Meta Bans TikTok Owner ByteDance From Advertising in 7 Countries: “We Don’t Have to Run Ads From a Competitor”",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
+      "title": "野村报告：字节系占中国网民41.8%上网时长，Seedance推动内容闭环",
+      "explanation": "野村报告指出字节系占据中国网民41.8%的上网时长，AI短剧与Seedance推动内容供给闭环。这说明字节的流量护城河正被AI内容生产能力进一步加固，内容-模型-变现飞轮持续加速，对广告主意味着字节系仍是最高效的投放阵地。",
+      "analysis_points": [
+        "字节系从「流量平台」升级为「AI内容生产+分发+变现闭环」，Seedance降低视频制作成本，AI短剧提升内容供给量。",
+        "对广告主而言，字节系时长占比越高，投放触达效率越强，但内容供给过剩也意味着素材竞争更激烈，需更依赖AI工具提效。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
       "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTmNldHdzSEdzaW0yV1RzN2FrN0tUMHhoLTZTM2k4Y1plbHNFMXNoLTdxZ0pTWE1jVUt6VkNLNDRmbWV3elJ6UW41SDZDeDhvZ08xbThJVkNrZ3lnalBlRG1ZcDZnTVZ5WllXd1dobXJHQllrTkZRNWRRRHdfWUNMUGU0MzBqVS14TS1ZNWNESlNDUk1PQmxKMERhYXh1UjNZelE?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xRUtJbHBZTXkwNDF1OW9LWU9qdkdNWXIxVk9UNkRrZTBHVVVEMUxSMFBKU0NYTGQ2bGtVUjVtNE5rWjlDZmxDV3JxR3VBR2FrT3JESQ?oc=5",
+      "local_life_hint": "本地生活商家应加大在字节系的投放比重，同时用AI工具批量生产短视频素材以应对内容竞争。"
     },
     {
-      "title": "Meta bans TikTok parent ByteDance from advertising on its apps in the US and six other countries",
-      "explanation": "Meta bans TikTok parent ByteDance from advertising on its apps in the US and six other countries",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeUo0SmQ2X0FpQXRZS2lIV3p3LUF1em12bG9DaXpCSUU1WEtIV0VtX0pPNjlpbnN4QVRjblpva21pVGtBaWVfYnFEbGhIb1hNVkp6UG1qLTdDUFAtb0VRZzNmQXQ4ZGt2dDdEUXFlQVZ3RmZRXzNDUElPV1I5bXY1RlN0aUpzbWdlVUt2OWJCYnVVQ0h6ZWt3eEFyS3JTUGEzb1A0ckdwWk5ZLTZ4UzN4a1gxd0NVVVZBOEJvYVIxYXJ6cFdrcGlqdXFHRnY0NW5feHc?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
-    },
-    {
-      "title": "ByteDance's Seed Lab Creates First Dedicated AI Safety & Alignment Unit in China, Led by Yan Lin to Address Agent and CBRN Risks",
-      "explanation": "ByteDance's Seed Lab Creates First Dedicated AI Safety & Alignment Unit in China, Led by Yan Lin to Address Agent and CBRN Risks",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFU3EyWURIY2xvMWZVeGpabGtrbUFxaGd1cUh3VFJYS3BISDZUUnNJcnJfaUZFZmlxcmt3QlVXYkM2NFNxV1JHV0J3OE95RDBnaHVFUlFTVGk3eU94Q2JvOUhHeGU0VnpZU0UwR3lHMGktODBpbHc?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok to add AI-powered discovery and one-click checkout",
-      "explanation": "TikTok to add AI-powered discovery and one-click checkout",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWXVTbm5zS054TXcteHhkTzhXb3VIUWZIV05JM1B5cWhIRTVkTWFFUnkwT1lMUV9idE5vYV9BNmNwWW5jeWxxdUVaTk0xb2YxSEM1U2NKbDNpTzJiWEFUZmlfdTNpY2xIQnM0cU43MzF4cFp5UzR1SlBMSnpWdmNnZklOUnhtdW1zdG83cWQ5RQ?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
-    },
-    {
-      "title": "TikTok Shop Roles Are the Hottest Jobs in Marketing Right Now. Why So Many Brands Are Building In-House Teams",
-      "explanation": "TikTok Shop Roles Are the Hottest Jobs in Marketing Right Now. Why So Many Brands Are Building In-House Teams",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
+      "title": "TikTok Shop岗位成营销圈最热，品牌加速自建in-house团队",
+      "explanation": "TikTok Shop相关岗位成为营销圈最热招聘方向，越来越多品牌自建in-house团队。这反映AI电商闭环正在重塑品牌营销的组织结构，品牌不再依赖代运营，而是把TikTok Shop能力内化，对广告投放服务商意味着客户结构变化。",
+      "analysis_points": [
+        "品牌从「外包代运营」转向「自建TikTok Shop团队」，说明电商闭环的利润空间足够大，值得品牌投入固定人力。",
+        "对广告服务商而言，客户自建团队后，服务需求将从执行转向策略与AI工具支持，需提供更高效的投放工具。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Inc.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZG9jLXc5Nm16V2wtLUY3bThNZzIyTDV4eGw5MVM5ZlVGbHJZZWUwNXM1d1NJUFJwWmRUM0RMZlVnaXdIaDNZZEpjUldjVWh2eV9qWXY4akhweWZTVFQ5djBlNE1weUJ5TzRUUWxlcXZmV2lTNlJsbGVMNWdHOUFTTW5jM0J1OENNS3d3?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+      "local_life_hint": "本地生活商家可借鉴品牌自建TikTok Shop团队思路，培养内部短视频与直播运营能力。"
     },
     {
-      "title": "AI Transforms Advertising Into Shopping With Fewer Clicks: TikTok’s David Kaufman",
-      "explanation": "AI Transforms Advertising Into Shopping With Fewer Clicks: TikTok’s David Kaufman",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcUpRSlZ0d0pPMC1ydEd0aWF4NDJGYS1yMXMxSGtiS0I5RFpwTkdsc2pOOXc5ZXZEQy1UMURiakhrZEpNcWJZdF9vQTJqNG5VWEZMV2JlT0p2STJ4SU10bUp6Tks0RzhyY0pITjhfUnlTRDdocDZxWnIzRy1FOXo0UWs0YmItTW9mTndUdlJ3MjNyZFBxeUZJbm90LXRoNlB5WE9zTjVXcURybHVnNG1YSHRn?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
-    },
-    {
-      "title": "豆包工作上线数据导入与同步功能：支持从 ChatGPT 等一键导入对话与记忆",
-      "explanation": "IT之家 10 月 14 日消息，今日豆包工作宣布上线数据导入与同步功能，支持用户将已有对话、技能和记忆迁移至豆包工作继续使用。 用户可一键导入任务偏好指令、技能、连接器、工作记忆、项目及历史会话，支持从 ChatGPT、Claude Code、Trae Work 等产品迁移。导入内容将自动归档至对",
+      "title": "字节AI出海矩阵再下一城，PineDrama闯关变现与合规深水区",
+      "explanation": "字节AI出海矩阵从TikTok到PineDrama持续扩张，亿级流量进入变现与合规深水区。这说明字节的内容出海正从流量竞争转向商业化与合规能力竞争，对广告主意味着海外投放渠道更丰富，但合规风险也需关注。",
       "analysis_points": [
-        "IT之家 10 月 14 日消息，今日豆包工作宣布上线数据导入与同步功能，支持用户将已有对话、技能和记忆迁移至豆包工作继续使用。 用户可一键导入任务偏好指令、技能、连接器、工作记忆、项目及历史会话，支持从 ChatGPT"
+        "字节从「TikTok单一出海产品」扩展为「TikTok+PineDrama等多产品矩阵」，AI短剧成为新的流量增长点。",
+        "对广告主而言，PineDrama等新渠道提供增量流量，但需评估其变现能力与合规风险，避免投放效果不稳定。"
       ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/012/807.htm",
-      "local_life_hint": ""
-    },
-    {
-      "title": "He Was Fired for Sabotaging AI Training at ByteDance. Two Years Later, VCs Gave Him $30 million.",
-      "explanation": "He Was Fired for Sabotaging AI Training at ByteDance. Two Years Later, VCs Gave Him $30 million.",
-      "analysis_points": [],
-      "category": "大厂动向",
+      "category": "生态动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRVhRNlFqZjhXR29lSTB2cDhmY1JZUm5RdEE5aDEzSWE2MllBQ1B4Wll0b1J6dUR0c0xDTlJoUjN1em96aW9ONzJudENmeEoxUnZmT19tQ2JKMlRyM09tdzBIWlRMQ2RjODA1YWtka05ycmNyR1hjQk51V2ZkQ28xRmw4TGdja0p2ZjNSdXBPRFBqX0VWbnpXYk92RWxnVV85LXJsQ0JkdUJaaGhfb2pJc25sSXhSQQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "New AI Short Drama Industry War: Tencent & Kuaishou's Two-Pronged Surprise Attack – Who Breaks ByteDance's Market Barriers?",
-      "explanation": "New AI Short Drama Industry War: Tencent & Kuaishou's Two-Pronged Surprise Attack – Who Breaks ByteDance's Market Barriers?",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HSkdLQ0JHa1hiUl9WWkNTMkVLamh6R0FFQW4xWmM4NVNsRkVXc1IzNFpPdjdubEhVVnQ4dHlvMDE3N1VSSEdJLUcxRF82bGo0MjFF?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok World Canada 2026: Turning Discovery Into Business Growth with AI-Powered Innovations, Vertical Experiences and High Impact Brand Solutions",
-      "explanation": "TikTok World Canada 2026: Turning Discovery Into Business Growth with AI-Powered Innovations, Vertical Experiences and High Impact Brand Solutions",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVVpWbzZIRkh1VWx0ZFRZUkhjN1RGN184Q2tCQmhESjFSRTBvcE9iaEVZLUtfZjVDMTIwendLejEtbTVydXplODRGNl9HMk5uUkQ5d0tjSE1ZTkVSNDZGenhDcEd4TElyd1hXNjVFMXdOd2dPZHZxajZlWnJzblQ1T3ZNeUxxalZOSTFB?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "从TikTok到PineDrama：字节AI出海矩阵再下一城，亿级流量闯关变现与合规深水区",
-      "explanation": "从TikTok到PineDrama：字节AI出海矩阵再下一城，亿级流量闯关变现与合规深水区",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
+      "source": "每日经济新闻",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ab2EzZGtPcEotVEJXTWJZYXluYnYyb3dJS1dxOWFlWG5Ud1pwWjRmM3lXZGUtd0psVm1xTU1QdXRiUXJPVFdfMnVtdm5wU1h6Tk9wUG0ySTlSTGh0d3RUMkRlbFRpdw?oc=5",
-      "local_life_hint": ""
+      "local_life_hint": "本地生活商家出海可关注PineDrama等新渠道的流量红利，但需评估合规与变现稳定性。"
     },
     {
-      "title": "字节凶猛：从招聘看字节AI战略战术背后的逻辑与细节",
-      "explanation": "字节凶猛：从招聘看字节AI战略战术背后的逻辑与细节",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
+      "title": "TikTok Shop美妆GM预测假日销售增长，品牌直播加码",
+      "explanation": "TikTok Shop美妆品类总经理预测假日销售将大幅增长，品牌直播场次增加。这说明TikTok Shop的美妆品类正在成为品牌假日营销主阵地，对美妆商家意味着需提前备货并加大直播投入。",
+      "analysis_points": [
+        "TikTok Shop美妆从「日常销售」转向「假日爆发」，品牌直播场次增加，说明直播带货在美妆品类的转化效率被验证。",
+        "对美妆商家而言，应提前规划假日直播排期与达人合作，利用AI工具批量生成直播素材。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
       "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85SmJsam5xcW5ZY2ROR01iMXZQUEJnZ1AwSzhveWRTNTNmRlE4U0M5Wk45Q0FBQk9VbVJSUEV3c0dWV2lsd3RGMmd0Uzl2UQ?oc=5",
-      "local_life_hint": ""
+      "source": "Beauty Independent",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcWRPMFhHMFR2bDJhVXRNMVlDMC1VUHU5eGFVU0NyaU1fQUxSYWt5LVhpZjU4aHRzci10a1ZaVldSSzBPXzEzNWlYTXYza2kzaUtmLWpBcWVHdXdnQVYyUHlldi1FeTNJRXUxLTNDellLMXRuOVdOalNPdG9hbi1WbzM4UFE1eTlwYlY0VDVaTzdhRDA4X09uTVpQdXpBRHFrVEpkTko2a3BYT09ISUw4?oc=5",
+      "local_life_hint": "本地生活美妆商家可借鉴TikTok Shop假日直播策略，提前规划抖音直播排期。"
     },
     {
-      "title": "抖音鸿蒙版被指屏蔽《人民日报》涉尊界报道 实测系适配问题 华为同步回应",
-      "explanation": "è¿æ¥ç½ä¸æµä¼ åºä¸åè¯´æ³ï¼ç§°ä½¿ç¨é¸¿èç³»ç»çææºçä¸å°ãäººæ°æ¥æ¥ãæé³è´¦å·åå¸çæ¶åå°çV800å¶å¨è¸æ¿æ­è£ç",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
+      "title": "TikTok Shop成功法则：小创作者+更多视频",
+      "explanation": "Digiday分析指出TikTok Shop的成功来自小创作者与更多视频的组合。这说明TikTok Shop的流量分发更倾向中小创作者，对品牌意味着应加大与中小达人的合作密度，而非只押注头部主播。",
+      "analysis_points": [
+        "TikTok Shop从「头部主播驱动」转向「小创作者+高频视频」驱动，说明平台算法更青睐长尾内容。",
+        "对品牌而言，应建立中小达人矩阵，用AI工具批量生产视频素材，提升内容供给密度。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
       "impact": "medium",
-      "source": "cnBeta",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1582086.htm",
-      "local_life_hint": ""
+      "source": "Digiday",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWHZyRXNLQUFsQ2dlZml5ZVdDRDV5cC04bTgyU1ppSkYzRndic0lrUnZRY1hpTmZnWE13OTUzTFZwUmRsVlZYMUdtVFFheElDOTFub2tRaUVMUFBEdkZzTUZubWdXTWc3OXRkSXlCMlJIZWdFQlM3NElVNmY3Zm9QdnNnZEtKMXFyVkwzek96dk02M0YtX09NcHdwcjFvYUVCaGtXSQ?oc=5",
+      "local_life_hint": "本地生活商家可借鉴中小达人矩阵策略，用AI工具批量生产探店视频。"
     },
     {
-      "title": "The Expanding AI Graveyard of Tencent, ByteDance and Alibaba: A Growingly Crowded Tech Phenomenon",
-      "explanation": "The Expanding AI Graveyard of Tencent, ByteDance and Alibaba: A Growingly Crowded Tech Phenomenon",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
+      "title": "字节AI短剧三国杀：腾讯快手加码，字节如何守擂",
+      "explanation": "AI短剧赛道形成腾讯、快手、字节三国杀格局，字节凭借Seedance等内容供给闭环占据先发优势。这说明AI短剧正成为内容平台的新战场，对广告主意味着短剧植入与定制化广告的新机会。",
+      "analysis_points": [
+        "AI短剧从「小众实验」变成「大厂必争赛道」，字节用Seedance降低制作成本，形成内容供给闭环。",
+        "对广告主而言，AI短剧提供低成本植入与定制广告机会，可尝试用AI生成品牌定制短剧。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
       "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUQTdjSVBSZ1l5dXo0bGphMS1iVFBaRkU4czI1WlFIX0NJOEpSUWh3OGNQVmUyTkJ0YWNJNlhkc1RWek5vUmRiRG9mdVl0cldLN0U0?oc=5",
-      "local_life_hint": ""
+      "source": "财联社电报",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9kVHFxcUlFUjRYYVBFRDNiQXdoSnFzeFV3WEtvN19jN0hVNEJrR1VEUEFiVURJUmU3bVhVdXFlUHVHY1h6WUE?oc=5",
+      "local_life_hint": "本地生活商家可尝试用AI短剧形式制作门店故事，在抖音进行内容种草。"
     },
     {
-      "title": "ByteDance Sets Up Dedicated AI Safety Unit to Manage Model Risks",
-      "explanation": "ByteDance Sets Up Dedicated AI Safety Unit to Manage Model Risks",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
+      "title": "字节AI办公入口之争：飞书分拆后聚焦入口是对是错",
+      "explanation": "飞书分拆后，国产AI办公聚焦入口的讨论升温。字节把飞书并入豆包，试图用豆包做AI办公的统一入口。这说明字节在AI办公赛道选择「入口优先」策略，对广告主意味着豆包可能成为企业营销素材管理的入口。",
+      "analysis_points": [
+        "字节从「飞书独立办公工具」转向「豆包统一AI入口」，把办公能力整合进豆包，降低用户使用门槛。",
+        "对广告主而言，若豆包成为企业办公入口，未来营销素材管理、投放协作可能都在豆包内完成。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
       "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMVVpZDA5RE90Nkx6eTg1SVVPeTV4SGlTREJ3M0hmM1JOemlyNE1aWnlVVVZXOWpTLXFldUUxcndKeHVyZEJNaGZGckl4czBMNllOWFg1eDMzOWptc2VHT3RpTjZqcGNwTmRFWExXSVlsM2U0c2NPejF1azNoQXNEMnRtSXJmRElnZ2E4WjQ4ZTVnNW5HOFhCTUxMd3htdHQxSEw3TDFjQkVQYldLcF9GcDlldzI0T1FIQk5F?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok CEO sees major scientific breakthroughs from AI within three years",
-      "explanation": "TikTok CEO sees major scientific breakthroughs from AI within three years",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTW12Y2w2X2Y4TjV2SVZENTdwXzhtVFctYkhvUU1WOWdjMzVnSUNsMnYzMDFQYkZEeG9PVVh6M3BwZjQwTkVLZXdIUDhMNnNhNlJWWG1uSGFvaHc4Nk5pa0RnMDVxMVd3MEtBSHNlNjZFT2lCdXpNMDlRTjJHVHZIVHJJNmlrd085VFZSUlZB0gGTAUFVX3lxTFBzSXAzMTA5TGVZdHNtMWsyZ3FfeE95UmRfaGYzTFFCQ1pRN3pZM1B1MUNDTlV1MXNpampFYUwzbG5KWkFyWk1heFlwU1FiQ3BlXzFobTZXS001ZDJUT05QVTBESWQza0ZlOGt3Ym42WWp4QzhqbVlwVGR6OFBlX1VTM1FpZ2tXMEVBVC1PdVI1N29JYw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "AI Portal Battle 2.0: Tencent, Alibaba, ByteDance, Who Is the Hidden Champion in the AI Office Track?",
-      "explanation": "AI Portal Battle 2.0: Tencent, Alibaba, ByteDance, Who Is the Hidden Champion in the AI Office Track?",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1odlhmemJiZW5fNkhaMHQyNkdnQkhLbG1HV3dZSVJQT0M0bzVpbWFmQXNKV1Rmbkp4VTB4UzEtbUpJT2IydjJRXzFCRWpqdW52Qm5J?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Seedance 2.5: What ByteDance's Video Model Actually Is",
-      "explanation": "Seedance 2.5: What ByteDance's Video Model Actually Is",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2aWNCYlFjdFdDR015WHp6dWZrcTdHdWt6VFU5bm9SdzAtY2tXTzl4RG5CTWVrTkFaam9sRzNfZ2hwdFMzcFRQeURULTVSR2NCQ3BnLWpB?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Huawei Goes Deep, Alibaba Broad, ByteDance Focused, Tencent Clever: The Fight to Own the AI Phone",
-      "explanation": "Huawei Goes Deep, Alibaba Broad, ByteDance Focused, Tencent Clever: The Fight to Own the AI Phone",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWGFOTWt4bXBfMG5CTGpZVzJENjNiOFhPazZXc0Z6clg0c3JSazByWFMwbGs1SlctQTEzUW1VOS1ULWFzZVpDYjh3MlFfRmtjSndCR0ptZVN2R3JESjR3bFRzS2tuYU5jNFIwOTJYcHpCck9ob3pqYnZPaTFidkRXVE1taVg1dC1SQ1lubEFWdS1DR3V6QzVrZ3JXTEVjV1U?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok CEO sees AI breakthroughs in 3 years",
-      "explanation": "TikTok CEO sees AI breakthroughs in 3 years",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYUNPSDVMaEpnMDY3cDNoQ2tLbDNkc1pnb1hSaEJQcy1aU2dZUzY0SEVSZlF3UTUwVGhGRVpmS3otckpGR1pOUnpJOXY2ay1TZEVQMWhQZEc2WDBCVWNWNUFWcHFqUkMtVFBZRjhyMFl5RlJpbG9nTmZmcHZFNDk1TlJ6Z1NDZnpTMXB0bWIyYUJ6QQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "CapCut, Tencent and Kuaishou Race to Build AI Tools for Interactive Film Games",
-      "explanation": "CapCut, Tencent and Kuaishou Race to Build AI Tools for Interactive Film Games",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc0RPOWtPLUJETnRYWTBBRGE5b3JFRGVybU9FY2o5dDdGSjBFOWg3T0owb1RGc28wbkM1MF9nbnlWbjRvdXZlakdVSlB5NVZ6cjNXRTk3UVdYbmt6RTZ5UWgwSTctOW8zdnFKZ3R2V3RyYjFEN2tGQ3BSeGl3bTMwbUs1dERmUHFWYjQ4UjdveTBFQ0ZtdVJpVlNlU3d0Q0ZiOEp3?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Meta bans TikTok ads on its platforms in US",
-      "explanation": "Meta bans TikTok ads on its platforms in US",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcFlfTjhMRWZPWEhDVF9mcGQ1VEY2aWVLMThVLUJaVmNWUzdwV09KTWlDN0E4Rm5IRHFyME1QN01fczZFSGdDbVBsYnh3dDJTdFlfTkczM1NreS11VjJ2QWVFbnV2eU1EMDNWZHl5X2h4WV9SN3FFRUJBaHpzUng2VlhKemtnUnJEblBpajF5U0FCWmdFLWR6azJ0aDB5bEhUdVJHc0g1dVNYY0NZYVdyaU9UOE12SUFDQmpB?oc=5",
-      "local_life_hint": ""
+      "source": "维科号",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DSHVqaGdNMXc4YW1wWENZdDluRFYyX3Q3UVQzZWN1MkdkMWpPVjZ4Rl8wZUxHT09jbFhiYmtndmtxOENfYldFc2w5dWNuNFE?oc=5",
+      "local_life_hint": "本地生活团队可关注豆包办公入口是否开放营销素材管理能力。"
     }
   ],
-  "mode": "rule"
+  "mode": "ai"
 }
