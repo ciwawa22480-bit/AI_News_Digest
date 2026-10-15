@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-14T12:18:15.593445+00:00",
-  "week_range": "10.12-10.14",
-  "date_display": "10.12 - 10.14",
-  "editorial_summary": "本周共汇总 34 条 AI 商业要闻，其中高影响 5 条。本周主线包括：飞书并入豆包，字节AI组织再调整；TikTok扩展AI搜索、创意与商家广告格式；字节PineDrama下载破亿，A股为AI内容定价；TikTok信息流上线AI购物助手与一键下单；野村报告：字节系占中国网民41.8%上网时长，Seeda。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-10-15T06:25:10.271187+00:00",
+  "week_range": "10.12-10.15",
+  "date_display": "10.12 - 10.15",
+  "editorial_summary": "本周共汇总 40 条 AI 商业要闻，其中高影响 8 条。本周主线包括：飞书并入豆包，字节AI组织再调整；TikTok扩展AI搜索、创意与商家广告格式；字节PineDrama下载破亿，A股为AI内容定价；TikTok信息流上线AI购物助手与一键下单；野村报告：字节系占中国网民41.8%上网时长，Seeda。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "TikTok信息流上线AI购物助手与一键下单",
-      "TikTok加拿大发布AI品牌解决方案",
-      "安克飞书AI会议耳机开售，集成豆包"
+      "Seedance 2.5接入纳米大片流水线，0.27元/秒主打30秒直出",
+      "TikTok加拿大发布AI品牌解决方案"
     ],
     "opinions": [
       "野村报告：字节系占中国网民41.8%上网时长，Seedance推动内容闭环",
-      "TikTok CEO：AI三年内推动科学突破",
-      "字节AI调整：两个关键人物与新方向"
+      "安克飞书AI会议耳机开售，集成豆包",
+      "TikTok CEO：AI三年内推动科学突破"
     ],
     "ecosystem": [
+      "字节接近与联发科达成数据中心ASIC芯片采购协议",
       "即梦AI影视厂牌出海，单集最高1万美元",
-      "Pico Space Pro头显外观曝光，Q4发布",
-      "字节Seed实验室新设模型安全与对齐部门"
+      "Pico Space Pro头显外观曝光，Q4发布"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（18 条），高影响条目占比约 15%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（23 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
+    "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。",
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角，对像美团商业化这类'拿商家预算做外投'的团队来说，今天字节把TikTok交易链路压进信息流、把豆包创作工具画布化、并在内蒙古压低算力成本，意味着未来外投的素材生产更快更便宜、投放链路更短、成本结构更可控。",
-  "total_items": 34,
-  "high_count": 5,
+  "total_items": 40,
+  "high_count": 8,
   "items": [
     {
       "title": "飞书并入豆包，字节AI组织再调整",
@@ -116,6 +116,48 @@
       "source": "虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xRUtJbHBZTXkwNDF1OW9LWU9qdkdNWXIxVk9UNkRrZTBHVVVEMUxSMFBKU0NYTGQ2bGtVUjVtNE5rWjlDZmxDV3JxR3VBR2FrT3JESQ?oc=5",
       "local_life_hint": "本地生活商家应加大在字节系的投放比重，同时用AI工具批量生产短视频素材以应对内容竞争。"
+    },
+    {
+      "title": "字节接近与联发科达成数据中心ASIC芯片采购协议",
+      "explanation": "彭博社报道，字节跳动正与联发科深入洽谈定制ASIC芯片供货，用于支撑其数据中心AI负载，若落地字节或成为联发科ASIC业务继谷歌之后的第二大客户。这是字节在英伟达高端芯片受限下寻找替代算力的关键动作，直接关系其大模型训练与推理成本。",
+      "analysis_points": [
+        "能力变化：字节从依赖外购通用GPU，转向与联发科定制ASIC专用芯片，算力供给路径从单一采购变为定制化+本土供应链组合。",
+        "商业价值：算力成本是豆包、Seedance等模型推理定价的底层变量，芯片自主化推进有望压低单位Token成本，为广告、内容生成等商业化场景留出更大降价空间。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/013/279.htm",
+      "local_life_hint": "算力降本会传导到AI素材生成价格，本地生活广告主可关注后续AI生图/生视频工具是否进一步降价。"
+    },
+    {
+      "title": "Seedance 2.5接入纳米大片流水线，0.27元/秒主打30秒直出",
+      "explanation": "纳米大片流水线首发上线Seedance 2.5，打出0.27元/秒特惠，主打30秒视频直出，把AI影视创作从分镜生成推进到成片级输出。低价+直出意味着AI视频生成正快速商品化，对短剧、广告素材生产链条形成直接冲击。",
+      "analysis_points": [
+        "能力变化：Seedance 2.5从模型能力升级为可直出30秒成片的流水线工具，价格压到0.27元/秒，生成门槛和成本同步大幅下降。",
+        "商业价值：广告主和内容团队可用极低成本批量生产短视频素材，本地生活商家做促销视频、门店宣传片的边际成本显著降低。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1wUk05R0dwWHhITWxZaUVfRmJPdmg0QmxYY3IxLVh3LTk5RExpbXJheTU2a3VISWZCeWp1OWJjSjVESVctMGZ4Qg?oc=5",
+      "local_life_hint": "0.27元/秒的成片级生成价格，让本地生活商家批量做短视频素材成为可能，可测试用AI直出替代部分外包拍摄。"
+    },
+    {
+      "title": "豆包打通对话缴费，巨头角力AI交易入口",
+      "explanation": "报道称豆包打通对话缴费功能，用户可通过对话完成水电费等缴纳，巨头围绕AI交易入口展开角力。这标志豆包从信息助手向能办事的交易入口升级，直接切入支付与生活服务场景。",
+      "analysis_points": [
+        "能力变化：豆包从回答问题升级为可完成缴费等实际交易操作，AI助手向办事入口演进。",
+        "商业价值：交易入口意味着新的流量分发与佣金机会，本地生活服务商可关注豆包内缴费、充值等场景的接入机会。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "中华网财经",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wR3BPUXRRc0gyTTFtdzdEMW41VzA0NzY3LWtQbHg0dWlhVEZ6aEF5U1l5UXZBeUF6d3lVU1JDdDBTcDQ1U25UaTJMZjRHUkFucWtEaTZMRExvTThKc3V4ZkxGa2pwcVFIRkJUcnBn?oc=5",
+      "local_life_hint": "豆包成为缴费交易入口后，本地生活缴费、充值类服务可争取接入豆包对话场景获取流量。"
     },
     {
       "title": "TikTok加拿大发布AI品牌解决方案",
@@ -511,6 +553,48 @@
       "source": "维科号",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DSHVqaGdNMXc4YW1wWENZdDluRFYyX3Q3UVQzZWN1MkdkMWpPVjZ4Rl8wZUxHT09jbFhiYmtndmtxOENfYldFc2w5dWNuNFE?oc=5",
       "local_life_hint": "本地生活团队可关注豆包办公入口是否开放营销素材管理能力。"
+    },
+    {
+      "title": "火山引擎汽车局：豆包大模型加速上车",
+      "explanation": "报道梳理火山引擎在汽车行业的布局，豆包大模型正加速进入多家车企座舱。汽车座舱是AI大模型落地的重要场景，字节通过火山引擎切入车企供应链，把豆包能力嵌入车载交互。",
+      "analysis_points": [
+        "能力变化：豆包大模型从手机、办公场景延伸到汽车座舱，成为车载语音与智能交互的底层能力。",
+        "商业价值：车企采购豆包大模型带来新的B端收入，同时车载场景积累的交互数据可反哺模型优化。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHeEFMM1JibVRJOGJKZVBwczZEamJFWmNSVnVualFXTkxNWmJuMjdtRUNOT2lsQXZHZUxEYzNFMVRnOVlkRXRaWnR5T3FZSHlJaDlubExwUHNpTlNRTUE?oc=5",
+      "local_life_hint": "车载豆包可成为本地生活服务（加油、充电、餐饮）的车内入口，值得关注其商业化开放节奏。"
+    },
+    {
+      "title": "字节单独设立大模型安全部门，把控智能体风险",
+      "explanation": "财新报道字节跳动单独设立大模型安全部门，专门把控智能体风险。随着豆包智能体能力扩展，安全与合规风险上升，独立设部门说明字节把AI安全提升到组织级优先级，为智能体大规模落地铺路。",
+      "analysis_points": [
+        "能力变化：字节从分散的安全管理，升级为独立大模型安全部门，对智能体行为进行专门风险把控。",
+        "商业价值：安全合规能力增强有助于豆包智能体进入更多商业场景，降低企业客户接入的合规顾虑。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "财新",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vZnN4QTJxSHpQYVppZmY1Y0FYSWhCQ0NfejVvUkFqWENjeDBvX1l0QXZqMXFyRF9RazhxUkFITXFfUjR1TmN3aGtuSmVQRWhxRjZMSlAzQWo3NWozSFhiZnh2eUw?oc=5",
+      "local_life_hint": "智能体安全合规完善后，商家接入豆包智能体做客服、营销的合规风险降低。"
+    },
+    {
+      "title": "腾讯从长到短、字节从短到长，免费短剧迎中途岛时刻",
+      "explanation": "报道分析腾讯从长视频向短剧延伸、字节从短剧向长内容拓展，免费短剧行业迎来格局变化的关键节点。字节凭借短剧流量优势向长内容渗透，与腾讯形成双向竞争，内容形态边界正在模糊。",
+      "analysis_points": [
+        "能力变化：字节从短剧分发优势向长内容制作延伸，内容供给从碎片化短剧扩展到更长的叙事形态。",
+        "商业价值：内容形态扩张带来新的广告与付费场景，品牌可关注字节长内容中的植入与贴片机会。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "ThePaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jeFotYURfdEN4SUZ2dXJ3RC1FU0V2UnUybzBDU2l5Y0cwNVoyZGYya1NBRDg1SEhUelRkbFVxejJFTmIwRWtMbWR3bDd3d0VXdnh5akpTSUVjUkhQUEE?oc=5",
+      "local_life_hint": "短剧与长内容融合后，本地生活品牌可探索在字节内容生态中做剧情化植入营销。"
     }
   ],
   "mode": "ai"
