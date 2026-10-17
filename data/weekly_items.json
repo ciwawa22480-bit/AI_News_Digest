@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T11:50:41.991144+00:00",
-  "week_range": "10.12-10.16",
-  "date_display": "10.12 - 10.16",
-  "editorial_summary": "本周共汇总 66 条 AI 商业要闻，其中高影响 10 条。本周主线包括：飞书并入豆包，字节AI组织再调整；TikTok扩展AI搜索、创意与商家广告格式；字节PineDrama下载破亿，A股为AI内容定价；TikTok信息流上线AI购物助手与一键下单；野村报告：字节系占中国网民41.8%上网时长，Seeda。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-10-17T06:09:03.566741+00:00",
+  "week_range": "10.12-10.17",
+  "date_display": "10.12 - 10.17",
+  "editorial_summary": "本周共汇总 75 条 AI 商业要闻，其中高影响 10 条。本周主线包括：飞书并入豆包，字节AI组织再调整；TikTok扩展AI搜索、创意与商家广告格式；字节PineDrama下载破亿，A股为AI内容定价；TikTok信息流上线AI购物助手与一键下单；野村报告：字节系占中国网民41.8%上网时长，Seeda。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "TikTok信息流上线AI购物助手与一键下单",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（43 条），高影响条目占比约 15%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（47 条），高影响条目占比约 13%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
   ],
   "local_life_insights": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "换个视角，对像美团商业化这类'拿商家预算做外投'的团队来说，今天字节把TikTok交易链路压进信息流、把豆包创作工具画布化、并在内蒙古压低算力成本，意味着未来外投的素材生产更快更便宜、投放链路更短、成本结构更可控。",
-  "total_items": 66,
+  "total_items": 75,
   "high_count": 10,
   "items": [
     {
@@ -894,6 +894,132 @@
       "source": "IT之家",
       "url": "https://www.ithome.com/1/014/065.htm",
       "local_life_hint": "本地生活服务可关注车机场景入口，探索加油、充电、餐饮等车载服务推荐机会。"
+    },
+    {
+      "title": "三大运营商集体拒绝豆包手机SAEP方案",
+      "explanation": "通信世界网报道三大运营商集体拒绝豆包手机SAEP方案，意味着豆包手机在通信底层接口上也未获支持。智能体要真正接管通话、短信等系统能力，需要运营商配合，这一环缺失使AI手机体验大打折扣。",
+      "analysis_points": [
+        "能力变化：SAEP涉及系统级代理执行权限，运营商拒绝后豆包手机无法调用通话、短信等底层能力，智能体从「全场景代理」收缩为「应用内助手」。",
+        "对广告主价值：依赖通话外呼、短信触达的本地生活商家，短期内不能指望AI手机自动完成预约与提醒，仍需保留传统电话与短信投放链路。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "通信世界网",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE93aVpmcmtoaFIzTmZ3b291ZUl4MlU0ZEpCbklBblB6ajRhcVl1QWZKa0dCclBhc21FUUZWQ0ZqNHdIMV9NRlFpOHFTcVFvcHp2?oc=5",
+      "local_life_hint": "电话预约、短信核销仍是本地生活到店链路的重要环节，运营商不开放底层权限意味着AI代操作短期内无法替代人工外呼。"
+    },
+    {
+      "title": "南凌科技确认成为火山引擎全线产品授权代理商",
+      "explanation": "证券之星报道南凌科技表示公司是火山引擎全线产品的授权代理商。这说明火山引擎正通过渠道代理体系扩大企业客户覆盖，把销售触角延伸到更多区域和行业。",
+      "analysis_points": [
+        "能力变化：火山引擎销售模式从直销为主扩展为直销加授权代理，代理商可销售全线产品，覆盖更多中小企业客户。",
+        "对商家价值：中小企业采购火山AI与云服务时可通过本地代理商获得打包方案与实施服务，采购门槛下降。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84UHFoVXMyWmQ0MFkyWmEzOC1wd290emtKbS1uNFFlc2VpMGVnWjAzbW1Nd2hEdWFvOERIOFREazRnQUJiX0J0VjZHLWdUZ0o0Uk1Bc01henJ5WEFwZEU5TQ?oc=5",
+      "local_life_hint": "本地生活SaaS服务商可关注成为火山引擎代理或集成商的机会，把AI能力打包进面向商家的营销工具。"
+    },
+    {
+      "title": "字节加码电影，单项目激励达百万级",
+      "explanation": "风闻深度观察报道字节又盯上电影，单项目激励达百万。这说明字节在短剧之后把AI内容生产野心延伸到电影级内容，用现金激励吸引制作方使用其AI工具链。",
+      "analysis_points": [
+        "能力变化：字节内容激励从短剧扩展到电影项目，单项目激励达百万级，意在把AI视频生成能力嵌入长内容制作流程。",
+        "对商家价值：电影级AI制作能力成熟后，品牌定制内容与广告大片的制作成本可能下降，商家可关注后续商用接口。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1icnpsaURfZHF3c251a1c3Vks3RG0tU0RMU1IzS2ZiX2FjMUdnQTB3U0NSd2JXbXIwSWNQNFgzb0kxbXVUbl9KSElLVnRfRDZXT1hxbGlrRHlIaXM?oc=5",
+      "local_life_hint": "品牌大片制作成本若因AI下降，本地生活连锁品牌可考虑用AI生成门店宣传片，降低内容制作预算。"
+    },
+    {
+      "title": "字节生态缝隙中的AI融资明星崛起",
+      "explanation": "36Kr报道字节生态缝隙中的AI融资明星，夹缝突围的新势力崛起。文章指出在字节业务覆盖不到的细分场景，仍有创业公司靠差异化定位获得融资，反映字节生态之外仍有创业空间。",
+      "analysis_points": [
+        "能力变化：创业公司选择字节未深度覆盖的细分场景切入，避开正面竞争，形成差异化产品定位。",
+        "对商家价值：商家在选择AI营销工具时，除字节官方产品外也可关注这些细分创业工具作为补充。"
+      ],
+      "category": "初创动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vRlMyaTg0MjJrb05jdVl0RkV1R3owOHBSaVpyX21QSXdGMmUyUmVNY0lsMmkyUHV5blVHNFFFaXhVSjFxb21zblozUDV6LUpfaXBB?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节短剧App成中国新宠，海外版图扩张",
+      "explanation": "Business Insider报道字节短剧App正成为中国最新全民痴迷，海外短剧应用同步扩张。短剧是字节AI视频能力的重要变现场景，也为其广告库存与内容电商提供新流量。",
+      "analysis_points": [
+        "能力变化：字节短剧从国内单一产品扩展为国内外多App矩阵，内容供给与分发能力同步放大。",
+        "对商家价值：短剧流量池扩大后，品牌可探索短剧植入与贴片广告等新投放形式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUDNyQUEyc3EwZG1FUmpfSkVBLTIyb1lTSGIyeWItMXAwVUttb25QUWR2OWZqSkNtczF3MTctOGJrTGFBbjh0T0owTDFzWVJDaW5vQlE4UFRVY3E3dmFfSnpncjZGX0N5TTE5Q1ZXRDV0djNSQUJvNmI1U2hyUERFcGRyUEFGcVNUZjVSRy04SDA1Z0dqTW45UmhqSXU?oc=5",
+      "local_life_hint": "短剧流量增长为本地生活品牌提供内容植入场景，可尝试与短剧制作方合作做门店曝光。"
+    },
+    {
+      "title": "TikTok Shop墨西哥站强调发现式电商增长",
+      "explanation": "Mexico Business News报道TikTok Shop在墨西哥强调发现式电商激增。这说明TikTok Shop在拉美市场以内容驱动的发现式购物模式快速起量，为跨境商家提供新增长市场。",
+      "analysis_points": [
+        "能力变化：TikTok Shop墨西哥站把内容推荐与站内购买打通，形成发现即购买的闭环，区别于传统货架电商。",
+        "对商家价值：有拉美市场的商家可提前布局TikTok Shop墨西哥站，用短视频与直播做发现式带货。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Mexico Business News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd1NJWDUweFF1UWFETE5xLVB3blNvSG9TYU53QkpKLWg0OVdQX0V0TzB4aS1aQjgxekVmTkdwTmttQzdRNmw3bjdDTnd0M2NueGlOTEpTTzJZbzdPelBrT3lIbVoxcXVSd1NlVDdaQ2pTRTRnc1Z4djZaX1ZFYlpXTjhtTDlxbERfVFdyNjNUaWRwVENVWnFMR3kxSExCbUJz?oc=5",
+      "local_life_hint": "发现式电商模式对本地生活团购有借鉴意义，商家可用短视频内容激发需求再引导站内下单。"
+    },
+    {
+      "title": "TikTok Shop假日季用直播与趋势活动拉动销售",
+      "explanation": "Small Business Trends报道TikTok Shop将用直播活动与趋势话题改造假日购物。平台在旺季集中运营直播与趋势榜单，帮助商家在假日季获取流量，这对跨境与本地商家都是重要销售窗口。",
+      "analysis_points": [
+        "能力变化：TikTok Shop假日运营从日常直播升级为平台级活动加趋势话题组合，流量集中度提升。",
+        "对商家动作：商家应提前备货并报名平台假日直播活动，借助趋势话题获取免费流量。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Small Business Trends",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0Z6RWRhazJYTnN0YVVCeUUwUjMwY1FaSjRjUWkzUmUxRjZQcVF1eVZGaGF2T1RPVnVLU2ZkeXlWZTNEaUFJLTZYQ0dzOFB3RGxNQm45bGNpNGlUOTd0bVZXQVRhc0tKTnhYV1FVeFhXem1XTElzdkgtTy1yYXBzVUdOZkRtZjcwX2VjalhwUDJFNkNVWTVVc0pFeUpteUlLcE5Z?oc=5",
+      "local_life_hint": "假日季直播活动是本地生活商家冲销量的关键窗口，可参考TikTok Shop的活动运营节奏提前排期。"
+    },
+    {
+      "title": "萤火虫紫菀2.1.0接入豆包大模型，19项更新",
+      "explanation": "新浪网报道萤火虫紫菀2.1.0推送，接入豆包大模型并带来19项更新。这是豆包大模型在车机场景的又一次落地，说明车企正把豆包作为智能座舱的底层对话能力。",
+      "analysis_points": [
+        "能力变化：车机系统接入豆包大模型后，语音交互从固定指令升级为自然语言对话，功能覆盖导航、娱乐等多场景。",
+        "对商家价值：车机场景的AI助手可成为本地生活服务的新入口，如语音点餐、导航到店等，商家可关注车机端曝光机会。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOclNMRGg3empaa3o0bVlqV3lWdC1ScnNhc29NQkdvcXZ0c0J0NGpwRHhCSVdHdGNDRGtYQ0xxaFhGZS1WekVSQ1pzRGlnX2hCeXpuNkdEZEV1eTdaZDFlOFMwZjFlNExNcC0wWjE0eVR4bDQ5a3F3UHk4SnNqcFRjdg?oc=5",
+      "local_life_hint": "车机语音助手若接入本地生活服务，商家可争取语音搜索与导航到店的曝光位。"
+    },
+    {
+      "title": "豆包大模型装进车机，钓鱼自驾场景实测",
+      "explanation": "车家号视频展示豆包大模型装进车机后在钓鱼自驾场景的应用。这类内容说明豆包在车载场景的落地正从参数宣传转向真实使用体验传播，有助于扩大车企合作。",
+      "analysis_points": [
+        "能力变化：豆包车机助手从基础语音控制扩展为场景化服务，如路线推荐、周边信息查询等。",
+        "对商家价值：自驾游场景中的周边餐饮、景点推荐可成为本地生活商家曝光机会。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "车家号",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzOXRGbF9TeWRQX1YydGtxXzVKbnEtZ2l4MDU4Y1RndnY2MWktLVpTRkNHMnY4aU9XbUxLQ0oybGhCSG1YYnRLRENsMUdPRU94U0MzMExiYWZKM2s?oc=5",
+      "local_life_hint": "自驾游路线中的餐饮与景点推荐是本地生活商家的潜在曝光位，可关注车机端内容合作。"
     }
   ],
   "mode": "ai"
