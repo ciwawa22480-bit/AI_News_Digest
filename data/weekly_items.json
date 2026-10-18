@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T11:06:19.704116+00:00",
-  "week_range": "10.12-10.17",
-  "date_display": "10.12 - 10.17",
-  "editorial_summary": "本周共汇总 73 条 AI 商业要闻，其中高影响 10 条。本周主线包括：飞书并入豆包，字节AI组织再调整；TikTok扩展AI搜索、创意与商家广告格式；字节PineDrama下载破亿，A股为AI内容定价；TikTok信息流上线AI购物助手与一键下单；野村报告：字节系占中国网民41.8%上网时长，Seeda。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-10-18T06:35:04.809979+00:00",
+  "week_range": "10.12-10.18",
+  "date_display": "10.12 - 10.18",
+  "editorial_summary": "本周共汇总 85 条 AI 商业要闻，其中高影响 12 条。本周主线包括：飞书并入豆包，字节AI组织再调整；TikTok扩展AI搜索、创意与商家广告格式；字节PineDrama下载破亿，A股为AI内容定价；TikTok信息流上线AI购物助手与一键下单；野村报告：字节系占中国网民41.8%上网时长，Seeda。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "TikTok信息流上线AI购物助手与一键下单",
@@ -11,8 +11,8 @@
     ],
     "opinions": [
       "野村报告：字节系占中国网民41.8%上网时长，Seedance推动内容闭环",
-      "TikTok CEO：AI三年内推动科学突破",
-      "字节AI调整：两个关键人物与新方向"
+      "豆包手机再碰壁：微信淘宝支付宝等155款App拒绝",
+      "TikTok CEO：AI三年内推动科学突破"
     ],
     "ecosystem": [
       "火山引擎2.3亿元中标横店影视AI服务平台",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（47 条），高影响条目占比约 14%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（52 条），高影响条目占比约 14%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角，对像美团商业化这类'拿商家预算做外投'的团队来说，今天字节把TikTok交易链路压进信息流、把豆包创作工具画布化、并在内蒙古压低算力成本，意味着未来外投的素材生产更快更便宜、投放链路更短、成本结构更可控。",
-  "total_items": 73,
-  "high_count": 10,
+  "total_items": 85,
+  "high_count": 12,
   "items": [
     {
       "title": "飞书并入豆包，字节AI组织再调整",
@@ -179,6 +179,34 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
       "local_life_hint": "本地生活企业客户可关注飞书与豆包整合后的AI办公入口，评估其对内部协作与营销流程的提效空间。"
+    },
+    {
+      "title": "巨量引擎升级人物授权核验拦截冒用名人广告",
+      "explanation": "巨量引擎升级人物授权核验机制，针对AI生成素材冒用名人形象做广告的问题，在投放环节前置核验人物授权真实性。这是广告平台在AI生图泛滥下主动收紧合规闸门，对商家素材真实性提出更高要求。",
+      "analysis_points": [
+        "能力变化：从人工抽查/事后投诉处理，变为投放前对广告中人物授权进行技术核验，直接拦截冒用名人形象的素材。",
+        "对广告主价值：使用AI生成人物素材的商家需提前准备授权证明，否则素材可能被拒审，影响大促投放节奏。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YMXNhYmhzTm42cXNqV0dlSkxBX2lya2ZIM21XZXBoVGpiZFBPck03MF9IRkh3V2JWc25TWkxDbWU3bzAxdHhJck9mSkZnRW9uem95QXZxQmJrNV9hQ1VDQXZkV2ptWXV4RXdMTmZNZkUtYjJCakVUdg?oc=5",
+      "local_life_hint": "本地生活商家用AI生成代言人/达人素材时，须确保人物授权可核验，避免大促期间素材被巨量引擎拒审。"
+    },
+    {
+      "title": "豆包手机再碰壁：微信淘宝支付宝等155款App拒绝",
+      "explanation": "豆包手机助手遭155款App拒绝智能体操作，包括微信、淘宝、支付宝。报道分析这些App担忧智能体绕过界面直接操作会冲击自身流量分发与商业闭环，生态墙短期难破。",
+      "analysis_points": [
+        "能力变化：豆包助手试图以智能体代操作跨App完成任务，但被超级App以安全与商业利益为由封堵。",
+        "对商家价值：跨App智能体营销路径受阻，本地生活商家在豆包侧的交易转化仍需回到抖音站内完成。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sMVRITW42YmZrU3I4eFRGa1NqNkZLUVRBaDd4c3RjUUZxbm9aenhRbk41bW5MX09XanR5cU5wRTU1N0F0S19mY1Fub2stZnZ5TWg5T082eFcxcmxkSzZPNGc3SDVrQQ?oc=5",
+      "local_life_hint": "本地生活商家不应过早押注豆包跨App智能体投放，预算仍以抖音站内闭环为主。"
     },
     {
       "title": "TikTok加拿大发布AI品牌解决方案",
@@ -992,6 +1020,146 @@
       "source": "风闻",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XYUFqZUItOFhtSkk2TVJia3k2VkliTzNnUEJTdHZlNGE1UTllT3dUWDNNUlkwaFZqRmRQaWE4aUs3OENHVUNKc1IwNFBjbHYxWThPbkZwaFYwTVU?oc=5",
       "local_life_hint": "使用Seedance做视频素材的商家应关注竞品能力变化，适时评估工具性价比。"
+    },
+    {
+      "title": "央视评豆包手机被拒：AI落地必经产业碰撞",
+      "explanation": "央视报道称豆包手机助手遭超百款App拒绝并非应用不可用，而是禁止助手代操作应用，认为这是AI真正落地必然经历的产业碰撞。官方定调缓和了舆论，但也暗示生态协同与标准缺失是核心障碍。",
+      "analysis_points": [
+        "事件定性：从'App封杀豆包'转为'AI落地必经的产业碰撞'，强调技术发展离不开标准与生态协同，为后续监管与行业标准出台埋下伏笔。",
+        "对广告主含义：智能体入口的合规框架尚未建立，品牌在豆包侧做自动化营销动作需等待权限与标准明确。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582736.htm",
+      "local_life_hint": "关注智能体操作权限标准落地节奏，提前评估豆包入口开放后本地生活商家自动化投放的合规边界。"
+    },
+    {
+      "title": "南凌科技确认成为火山引擎全线产品授权代理商",
+      "explanation": "南凌科技在互动平台表示公司是火山引擎全线产品的授权代理商。这说明火山引擎正通过上市公司代理体系扩大渠道覆盖，把云与AI产品推向更多企业客户。",
+      "analysis_points": [
+        "渠道变化：火山引擎从直销为主扩展为授权代理体系，借助南凌科技等代理商触达中小客户。",
+        "对商家价值：本地生活服务商可通过授权代理渠道采购火山引擎AI能力，降低直接对接门槛。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84UHFoVXMyWmQ0MFkyWmEzOC1wd290emtKbS1uNFFlc2VpMGVnWjAzbW1Nd2hEdWFvOERIOFREazRnQUJiX0J0VjZHLWdUZ0o0Uk1Bc01henJ5WEFwZEU5TQ?oc=5",
+      "local_life_hint": "本地生活SaaS服务商可评估通过授权代理接入火山引擎AI能力，打包进商家营销工具。"
+    },
+    {
+      "title": "三大运营商集体拒绝豆包手机SAEP引关注",
+      "explanation": "通信世界网报道三大运营商集体拒绝豆包手机SAEP，说明豆包智能体在通信入口层面也遭遇阻力。运营商担忧智能体代操作会绕过其服务入口与计费体系，进一步抬高豆包手机落地难度。",
+      "analysis_points": [
+        "阻力范围：从超级App扩展到三大运营商，豆包智能体在通信服务入口同样被设墙。",
+        "对商家价值：短信、话费充值等本地生活高频场景的智能体代操作短期难落地，相关营销玩法需观望。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "通信世界网",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE93aVpmcmtoaFIzTmZ3b291ZUl4MlU0ZEpCbklBblB6ajRhcVl1QWZKa0dCclBhc21FUUZWQ0ZqNHdIMV9NRlFpOHFTcVFvcHp2?oc=5",
+      "local_life_hint": "涉及话费充值、运营商套餐的本地生活营销，短期不宜依赖豆包智能体代操作。"
+    },
+    {
+      "title": "被半个互联网拒绝豆包手机有解吗",
+      "explanation": "投资界分析豆包手机被半个互联网拒绝后的破局路径，讨论智能体与超级App之间的权限、安全与利益分配问题。核心结论是豆包需要与生态方建立合作框架，而非单方面绕过。",
+      "analysis_points": [
+        "路径讨论：从'智能体直接代操作'转向'与App协商授权接口'，可能是豆包手机破局的关键。",
+        "对商家价值：若走向授权接口模式，本地生活商家未来可通过标准化接口接入豆包智能体，而非被完全封堵。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nTHgyOTl6c3Jodm9Db1VncUg4ck0xNEhWc1FOTE1acVM1bXlucjViZWN0NktxeE41NHNOMDFiU0Q3QjhoZFlqcWpRZHZTeGw2RS1waThR?oc=5",
+      "local_life_hint": "关注豆包与App授权接口合作进展，若开放标准化接口，本地生活商家可提前规划智能体下单场景。"
+    },
+    {
+      "title": "AI手机混战阶跃豆包分道生态墙如何破",
+      "explanation": "21财经分析AI手机混战中阶跃与豆包走向不同路径，指出生态墙是AI手机落地的共同难题。豆包选择深度整合系统级智能体，阶跃则更偏开放合作，两种路径面临不同阻力。",
+      "analysis_points": [
+        "路径对比：豆包走系统级智能体代操作，阶跃走开放合作，前者能力更强但生态阻力更大。",
+        "对商家价值：不同AI手机路径决定商家未来在手机端投放与交易闭环的接入方式，需分别评估。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWVZKVlFhdVVnOVRBYWVkX2dkd2EzSE1pRzQ2UHRsRUdXMXUzYjZsdVVwaVVuY01sdUIwVkV0YTR1bmllV2cwRGZ0OEJlV1lzSU5PNWVMZVkxa0oxR0tJZnZHZ0hycVJnTGM1NGI2bERIOE12V0c4QzlLSTJJcFZSbFlzZ1VEZw?oc=5",
+      "local_life_hint": "本地生活商家可关注不同AI手机路径下的入口开放程度，优先选择生态阻力小的合作方式。"
+    },
+    {
+      "title": "151款App拒绝豆包手机到底在怕啥",
+      "explanation": "雷科技拆解151款App拒绝豆包手机助手的原因，核心担忧包括用户数据安全、流量入口被绕过、商业闭环被破坏。文章认为这是超级App对智能体时代入口控制权的防御性反应。",
+      "analysis_points": [
+        "原因拆解：App担忧智能体代操作导致用户停留时长与广告曝光被截流，动摇其商业模式。",
+        "对商家价值：理解超级App的防御逻辑，有助于商家判断哪些场景的智能体营销短期不可行。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "雷科技",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QMUN0RHg5aEx6czc4OFpKU3p4SVlyN3ZzZTJEcVpwdUFfRVhTNkpDbDBqWFV2UnNxTTVyeFRNZVBNVWVydXR6WUg0MDV3UQ?oc=5",
+      "local_life_hint": "本地生活商家应避开依赖截流超级App流量的智能体玩法，优先做站内闭环投放。"
+    },
+    {
+      "title": "海外版红果爆火一图看懂字节商业帝国",
+      "explanation": "东方财富以海外版红果爆火为切入点梳理字节商业帝国版图，显示字节正把国内短剧/内容消费模式复制到海外，并通过广告与内购变现。这为字节系AI内容商业化提供新的流量池。",
+      "analysis_points": [
+        "模式复制：海外版红果复制国内免费短剧模式，靠广告变现，形成新的流量入口。",
+        "对商家价值：出海品牌可关注海外短剧流量池的广告位，作为本地生活服务出海的内容营销渠道。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43MHlSNEZSTG1La2FKU0N4RElWd3UxMDQzU28tX0w3aGFjT1ZlbmxoeXFDemRVVDNEQ09WT0NOYmZEd1F6VWhldjVMdlIyZGNpNXhoeVdRam1iT2lldUhQS3dEckd3UQ?oc=5",
+      "local_life_hint": "关注海外短剧流量池的广告形态，评估其作为本地生活出海内容营销渠道的可行性。"
+    },
+    {
+      "title": "腾讯从长到短字节从短到长免费短剧迎中途岛时刻",
+      "explanation": "澎湃分析腾讯从长视频向短剧延伸、字节从短剧向长内容拓展，免费短剧进入'中途岛时刻'。双方在内容形态上互相渗透，字节试图用短剧流量反哺更长内容与广告变现。",
+      "analysis_points": [
+        "竞争态势：字节从短剧向长内容延伸，试图提升用户时长与广告库存，与腾讯形成正面竞争。",
+        "对商家价值：短剧流量池扩大意味着更多广告位，本地生活品牌可评估短剧植入与贴片投放。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "ThePaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jeFotYURfdEN4SUZ2dXJ3RC1FU0V2UnUybzBDU2l5Y0cwNVoyZGYya1NBRDg1SEhUelRkbFVxejJFTmIwRWtMbWR3bDd3d0VXdnh5akpTSUVjUkhQUEE?oc=5",
+      "local_life_hint": "本地生活品牌可关注字节短剧流量池的广告位开放，评估植入与贴片投放性价比。"
+    },
+    {
+      "title": "史上AI浓度最高晚会字节这次不装了",
+      "explanation": "新浪报道字节一场晚会成为'史上AI浓度最高'，大量使用AI生成内容与虚拟人技术。这显示字节正把自家AI能力（即梦、豆包等）用于大型内容制作，向广告主展示AI内容生产的商业化能力。",
+      "analysis_points": [
+        "能力展示：晚会大量采用AI生成视觉与虚拟人，验证字节AI内容生产在大型活动中的可用性。",
+        "对商家价值：本地生活品牌可借鉴AI内容制作方式，降低活动物料与宣传片制作成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTDRrMUdtSzEwMWwzSlpQYmpoTUt6dld1VjkwM19VN3dXQjJOcV9sTTRzSUJEY2VOM0MzS3dEWV9kcjdpcFExQzFzVnduOXU1TFBxeUQxTGhYU2t6SF9Yd0pZb1VkOTBqRWpoRGlDdFBETHlPNUNhTzBiSTg0aWlmeWtPYnkweFpKencxWExR?oc=5",
+      "local_life_hint": "本地生活品牌可参考字节晚会AI内容制作方式，用即梦等工具降低活动宣传物料成本。"
+    },
+    {
+      "title": "火山引擎汽车局加速豆包大模型上车",
+      "explanation": "汽车之家报道火山引擎'汽车局'，梳理其与车企合作推进豆包大模型上车的布局。火山引擎正把车载语音与智能座舱作为AI商业化落地场景，扩大豆包在出行场景的触达。",
+      "analysis_points": [
+        "布局：火山引擎以汽车局形式系统推进豆包大模型上车，覆盖智能座舱语音交互等场景。",
+        "对商家价值：车载场景未来可能成为本地生活服务（加油、充电、餐饮）的新入口，商家可提前关注。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHeEFMM1JibVRJOGJKZVBwczZEamJFWmNSVnVualFXTkxNWmJuMjdtRUNOT2lsQXZHZUxEYzNFMVRnOVlkRXRaWnR5T3FZSHlJaDlubExwUHNpTlNRTUE?oc=5",
+      "local_life_hint": "关注车载豆包入口开放后，加油、充电、餐饮等到店服务的语音下单场景机会。"
     }
   ],
   "mode": "ai"
