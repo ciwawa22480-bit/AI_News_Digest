@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T13:51:48.189319+00:00",
-  "week_range": "10.19-10.19",
-  "date_display": "10.19 - 10.19",
-  "editorial_summary": "本周共汇总 12 条 AI 商业要闻，其中高影响 2 条。本周主线包括：豆包回应算力传闻：字节仅约10%算力用于视频生成；火山引擎发起Seedance精品AI剧激励计划，单部最高。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-10-20T06:34:52.506518+00:00",
+  "week_range": "10.19-10.20",
+  "date_display": "10.19 - 10.20",
+  "editorial_summary": "本周共汇总 21 条 AI 商业要闻，其中高影响 2 条。本周主线包括：豆包回应算力传闻：字节仅约10%算力用于视频生成；火山引擎发起Seedance精品AI剧激励计划，单部最高。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "火山引擎发起Seedance精品AI剧激励计划，单部最高奖20万",
@@ -12,15 +12,17 @@
       "字节估值争议：拆分表被指高估，合理中枢7000亿至9000亿美元"
     ],
     "ecosystem": [
-      "离开字节的36位创业者：带走方法也带走边界"
+      "离开字节的36位创业者：带走方法也带走边界",
+      "四川AI漫剧联合体详解运营蓝图，Seedance等模型已就位",
+      "即梦AI创作者成长计划持续输出人文题材作品"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（8 条），高影响条目占比约 17%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（9 条），高影响条目占比约 10%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。"
+    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。"
   ],
   "local_life_insights": [
     {
@@ -34,10 +36,14 @@
     {
       "base": "TikTok Shop在英美连续上线商家互动工具并用96%买家复购数据验证内容电商留存。",
       "borrow": "外投团队在设计商家投放方案时，可把「复购导向」写进内容电商投放模型，用互动工具数据反推素材与直播排期，提升商家预算的续投率。"
+    },
+    {
+      "base": "火山引擎以2.3亿元承建横店影视AI服务平台，把Seedance等视频模型从API调用升级为覆盖剧本、生成、后期的整条影视生产线。",
+      "borrow": "美团商业化可把商家素材生产从\"外包拍摄+人工剪辑\"改造成\"模型批量生成+人工精选\"的流水线，先在外卖与到店套餐的短视频素材上试点，用产能换测试量。"
     }
   ],
   "insights_intro": "换个视角看，今天字节把视频生成算力口径校准到约10%、并用现金激励扩大Seedance内容产能，同时即梦生图切入大促套图流水线——这意味着外投的素材生产正从「人力外包」转向「模型批量供给」，成本结构与测试节奏都将被改写。",
-  "total_items": 12,
+  "total_items": 21,
   "high_count": 2,
   "items": [
     {
@@ -207,6 +213,132 @@
       "source": "36Kr",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zVG9BNWpXa2RLbmhjcXNqcHVwbzJTTTBHay1XNW9Ua21mcDlfckV6RXl6T0ZJM3RkeV84RG1Na3NBaXN1TWdSNTAyQzNuUHkyNXZ3?oc=5",
       "local_life_hint": ""
+    },
+    {
+      "title": "猫箱登顶中国iOS收入榜，单用户变现效率超即梦约5倍",
+      "explanation": "字节旗下AI陪伴应用猫箱在中国iOS市场收入排名第一，单用户赚钱效率约为即梦AI的5倍。这说明情感陪伴类产品的付费意愿与复购显著强于创作工具类产品。",
+      "analysis_points": [
+        "猫箱以角色陪伴对话为核心，通过订阅与角色付费实现变现，单用户ARPU远高于以生图生视频为主的即梦。",
+        "对做AI内容变现的团队，这意味着\"关系型\"产品比\"工具型\"产品更容易形成持续付费，可借鉴其角色设定与付费点设计。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVMkh0dktXUklOUHBKMDY2QkpwcVlJRzJZMUhFeHNaaUowaGNmbVYtRXg3NHF5N0t0Mi1aM2VsMUZyTHY4dXZ4WXllTEQ1Z1R5U05kUQ?oc=5",
+      "local_life_hint": "本地生活品牌可借鉴陪伴型产品的角色化运营思路，把会员或私域客服做成有性格的AI角色提升复购。"
+    },
+    {
+      "title": "四川AI漫剧联合体详解运营蓝图，Seedance等模型已就位",
+      "explanation": "四川AI漫剧联合体成员披露产业运营蓝图，Seedance等多模态模型与普惠算力已就位，用于批量生产AI漫剧内容。这显示地方产业带正把字节视频模型作为内容工业化的基础设施。",
+      "analysis_points": [
+        "Seedance等模型从单点创作工具变成漫剧生产线的核心环节，配合普惠算力降低单集制作成本。",
+        "对内容营销团队，AI漫剧的批量产能可用于测试不同剧情钩子的投放效果，快速筛出高完播素材。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb2xyM0NZNFNlekhaQWUtR0UzYm9LdEZTQ0hzV0NORmV5bDRobFRfTEpOU3JCMUF0UGpZd0o1R2xBZFI5a29Qc1FReGhFMzI5WkZZeTlQNUt0UVFEUUphR1k0bGdtWGtPV1VVbmExSUQ4WTUtWHhIOW1hRzhOX3R6T19uWkx6MkZvSWJMR01B?oc=5",
+      "local_life_hint": "本地生活投放可尝试用AI漫剧形式包装探店剧情，以低成本批量测试不同钩子。"
+    },
+    {
+      "title": "TikTok Shop总经理：一代人的购物习惯正在平台上形成",
+      "explanation": "TikTok Shop总经理在采访中表示，零售商已意识到一代人的购物习惯正在该平台上形成，内容驱动的发现式购物成为长期趋势而非短期风口。",
+      "analysis_points": [
+        "平台方把TikTok Shop定位为习惯养成型渠道，强调用户从内容浏览到下单的路径已被重塑。",
+        "对品牌意味着应把TikTok Shop当作长期经营阵地而非大促清货渠道，需持续投入内容与达人关系。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Retail Brew",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdmk0N2RjZzQzLVJ2MWp1WHltbVBkR1FkYmxBQmZvU19kRUlmWEQ0THJyaGlwdm5VNGlLNTBpS3RWUmJ1U2N5MjVFWHFlRGdkbVI1QnpZX2Z2WjR2NzBYY19YUXRYRjZqWTkyNEZUaTdVTk5vN2RhbWtESGRoWnZldURYLV9GZGthNF96TTY5Y2F5UjdKXzJMVUdLRm5ZSTRlRlhHMWg2YUxzRDVNOTlycTZWb2NiUThtdXY5bXdLOXdnN2N0?oc=5",
+      "local_life_hint": "本地生活商家可把短视频内容当作长期种草资产，而非仅在促销期投放。"
+    },
+    {
+      "title": "AI漫剧概念股暴涨，真正赚钱的只有字节",
+      "explanation": "野马财经指出AI漫剧概念股集体暴涨，但产业链真正实现盈利的只有字节，因其同时掌握Seedance视频模型、短剧分发渠道与投流体系，利润向平台端集中。",
+      "analysis_points": [
+        "字节通过模型+分发+投流的一体化，把AI漫剧的内容生产与变现闭环握在手中，中小制作方议价能力弱。",
+        "对内容型广告主，这意味着AI短剧的投放资源将更依赖字节体系，需提前锁定优质制作方与流量位。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "野马财经",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ERnpVLW5sVzFyOUFJV2ZPUC1jR2lBUTJQdldCaVJLTG0tcUlmWFhmMktqRTNjTFBwOWVTSE40aGhlV3JRUE9JeUdoRHc3bGFKdC1ucTZsQ1pRUHBXRjdTRDF3?oc=5",
+      "local_life_hint": "本地生活品牌可关注AI短剧式内容在抖音的流量倾斜，尝试剧情化团购素材。"
+    },
+    {
+      "title": "字节系创业者押注视频Agent，极致上下文获超千万美元天使轮",
+      "explanation": "字节系创业者创办的「极致上下文」获超千万美元天使轮融资，方向为视频Agent。这显示字节视频生成与剪辑方法论外溢后，正形成一批围绕视频自动化的新公司。",
+      "analysis_points": [
+        "视频Agent从被动生成片段升级为可自主完成脚本、剪辑、成片的任务型工具，面向内容团队。",
+        "对广告主意味着未来素材生产可能由Agent端到端完成，可关注此类工具降低批量素材成本。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRzhHMndEMktJMGZJRXkzVzRrMmdBX0hKRWRpdktMNVVxVTVNbzZWX3ZqVFZFaUJIdzh0bF94Mk5rdmRvemJDZzhuLUdCNTRYRk5ZN09iRU9lODR6WEc3RXYxYVBqRTdtTFlZOVA4Ykw4TVpwOEQ1RV9vVDF1WDI4T25zSXY0N0RCX1VoSg?oc=5",
+      "local_life_hint": "本地生活素材团队可关注视频Agent工具，用于批量生成不同门店的探店视频。"
+    },
+    {
+      "title": "前剪映成员用vibe coding做视频，获千万美元融资",
+      "explanation": "离开字节剪映的创业者以vibe coding方式做视频创作工具，获得千万美元融资。产品让用户用自然语言描述即可完成视频制作，延续了剪映降低创作门槛的思路。",
+      "analysis_points": [
+        "产品把视频制作从时间线剪辑变成自然语言指令驱动，面向非专业创作者。",
+        "对中小商家意味着无需专业剪辑即可批量产出投放素材，可降低内容制作外包依赖。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQk0wa003SWZ4VnV4b0lNVkFlZ1ZiQkV0YWlzUXI2VzNTcVgyaS1VVkh4UlBBd24yMDdIRFhxWkJjR1NSZEdlQ2YxNGgzVncwa0NJOFRxX2VBU0NwcFRmYU9QX29MNnU1Qm5tRDBCOTYxV2FjUjBHS2U0OFlETERGck1pOTNDUDFDaUhFcg?oc=5",
+      "local_life_hint": "本地生活小商家可用此类工具自助生成门店短视频，减少对代运营的依赖。"
+    },
+    {
+      "title": "字节短剧应用出海爆火，AI漫剧牛股四连板",
+      "explanation": "字节短剧应用在海外市场快速走红，带动A股AI漫剧概念出现四连板牛股，市场关注内容出海与AI制作两条主线。字节的短剧分发能力正被资本市场视为核心变量。",
+      "analysis_points": [
+        "字节短剧出海把国内验证过的免费+广告模式复制到海外，带动上游AI制作需求。",
+        "对广告主意味着短剧信息流成为新的高时长流量池，可测试贴片与植入形式。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYmlMWXhlVXlfa3lyaks2eXNxcXQzRzAxcUtBMTdsQzNJcmN0SXhqNUlpMUtFTHNpTzFBN0pUUWxlZ1B1NGotTmUwWjlWdDE2Qmp2aDNTbDhtbVJKRENWVDc1bEZKVzlPTVMxa0ZhbTk0bS1Lb0hVZWU5eUszbUhBSElzak9HUDR6SmQ1TGpwcw?oc=5",
+      "local_life_hint": "本地生活品牌可关注短剧流量池中的本地化植入机会。"
+    },
+    {
+      "title": "澳大利亚将起诉TikTok等五大平台，指其违反未成年社媒禁令",
+      "explanation": "澳大利亚通信部长表示政府准备起诉TikTok等五大数字平台，指其未遵守针对16岁以下未成年人的全国性社交媒体禁令。这是字节海外业务面临的又一合规压力点。",
+      "analysis_points": [
+        "监管从立法进入执法阶段，平台需承担年龄验证与内容管控责任，违规面临诉讼与罚款。",
+        "对投放TikTok的广告主，需关注未成年保护政策对定向人群与内容审核的连带影响。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582994.htm",
+      "local_life_hint": ""
+    },
+    {
+      "title": "即梦AI创作者成长计划持续输出人文题材作品",
+      "explanation": "即梦AI创作者成长计划下出现以古装人文题材为代表的AI创作作品，创作者用即梦完成从分镜到成片的制作。这类计划正在为即梦积累内容生态与创作者黏性。",
+      "analysis_points": [
+        "即梦通过创作者计划把工具使用转化为内容产出，形成作品展示与教程的社区循环。",
+        "对广告主意味着即梦生态内已有一批可复用的AI视频创作者，可作为素材合作资源池。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0V05ROFRTZDFtQ1NqNTF5cEZLbklad1N0S1NmWWYyVjlzOXNsQXdnc2t3U3FBMm1CZTF4dFBGOGNuVlM1QThsdnFKZ3dmenB1TnFGZHE1NlN6Rm5TN0NxXzYzVFdza2doSzI4?oc=5",
+      "local_life_hint": "本地生活品牌可在即梦创作者社区寻找合作，定制人文风格的品牌短片。"
     }
   ],
   "mode": "ai"
