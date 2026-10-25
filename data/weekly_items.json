@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T11:29:28.352747+00:00",
-  "week_range": "10.19-10.24",
-  "date_display": "10.19 - 10.24",
-  "editorial_summary": "本周共汇总 65 条 AI 商业要闻，其中高影响 15 条。本周主线包括：豆包回应算力传闻：字节仅约10%算力用于视频生成；火山引擎发起Seedance精品AI剧激励计划，单部最高；豆包月活4.19亿断层领先，千问增速5076%；豆包手机助手遭超150款应用拒绝，生态墙难破；字节洽谈联发科定制AI芯片，算力转向自研。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-10-25T06:48:51.788803+00:00",
+  "week_range": "10.19-10.25",
+  "date_display": "10.19 - 10.25",
+  "editorial_summary": "本周共汇总 71 条 AI 商业要闻，其中高影响 15 条。本周主线包括：豆包回应算力传闻：字节仅约10%算力用于视频生成；火山引擎发起Seedance精品AI剧激励计划，单部最高；豆包月活4.19亿断层领先，千问增速5076%；豆包手机助手遭超150款应用拒绝，生态墙难破；字节洽谈联发科定制AI芯片，算力转向自研。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "火山引擎发起Seedance精品AI剧激励计划，单部最高奖20万",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（34 条），高影响条目占比约 23%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（37 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
     "算力与基础设施投入持续加码，芯片/云侧的博弈直接影响上层模型与应用的成本曲线。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节把视频生成算力口径校准到约10%、并用现金激励扩大Seedance内容产能，同时即梦生图切入大促套图流水线——这意味着外投的素材生产正从「人力外包」转向「模型批量供给」，成本结构与测试节奏都将被改写。",
-  "total_items": 65,
+  "total_items": 71,
   "high_count": 15,
   "items": [
     {
@@ -958,6 +958,90 @@
       "source": "虎嗅",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVVXRROVFZbnpzUWdvbURzQ0IyUDhaRjdtdU5wRVpHSFV4RjRIMnBVNTg1TjU5anNEZGxJNHlMaFJRV0UzemtaUFNpRWkxandqRC1pYw?oc=5",
       "local_life_hint": ""
+    },
+    {
+      "title": "豆包2.1 Pro模型更新，已接入豆包工作",
+      "explanation": "豆包 2.1 Pro 完成模型更新并接入豆包工作，意味着字节把旗舰模型能力从 C 端对话延伸到办公协作场景。对 B 端用户而言，这是豆包从「聊天助手」向「工作流工具」演进的关键一步。",
+      "analysis_points": [
+        "产品能力变化：豆包 2.1 Pro 从通用对话模型升级后接入豆包工作，面向企业员工提供文档处理、任务协作等工作流支持，交互从单轮问答变为嵌入工作场景。",
+        "对商家/广告主的动作：品牌与代理商可评估用豆包工作承接投放素材文案、脚本初稿等重复性内容生产，降低外包文案成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "华人头条",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0RwV2Fvdlc5SzhhYnV6VlUzc1QwSEJRXzY3eDBMcWFoSGVnZVhjNHVPWGRHdTE5YlBHZ3M3MlNheWdLMWZFdXphVVhRdHY4SFR5alBjLXFQSG9fd0h5anRKa3lNVDlHRzc1ZWQ1NnpGbHR1NVhNTXRfeFUwb2xFYVRNQXhwdGswS1E?oc=5",
+      "local_life_hint": "本地生活广告团队可尝试用豆包工作批量生成门店推广文案与短视频脚本，压缩素材准备周期。"
+    },
+    {
+      "title": "豆包大模型加速上车，多款新车搭载并覆盖20万级市场",
+      "explanation": "赛力斯 AIVA ME7 申报信息公布并搭载豆包大模型，覆盖 20-25 万市场；凯迪拉克 XT5 PHEV、MG 4X 等车型也搭载豆包大模型。豆包正通过车企渠道把座舱能力规模化落地到主流价格带。",
+      "analysis_points": [
+        "落地范围变化：豆包大模型从少数高端车型扩展到 20-25 万主流价格带的多品牌车型，座舱语音与场景服务能力覆盖人群显著扩大。",
+        "对广告主的价值：车机座舱成为新的品牌触达场景，汽车及本地出行相关广告主可关注座舱内语音推荐、场景服务的合作位。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5xOWNJYTJkQ25wR3Zib1c0aG1aaUZfTGlhbEo3WF9ZZ0VxQW5icFpzZndoNWwxVVFYQ3VxUmlYXzVMRGZIMl9YeDRaWi0?oc=5",
+      "local_life_hint": "本地生活可关注车机座舱场景的到店/加油/充电类服务推荐入口，提前布局语音场景合作。"
+    },
+    {
+      "title": "观点：Opus5.5真能拍电影，Seedance面临挑战",
+      "explanation": "有观点认为 Opus5.5 已具备拍电影级视频的能力，Seedance 面临竞争压力。这反映外界对 AI 视频生成格局的判断正从「字节一家独大」转向多模型能力对比。",
+      "analysis_points": [
+        "竞争判断：观点认为 Opus5.5 的视频生成能力已接近电影级，对 Seedance 构成直接挑战，AI 视频竞争从单点领先转向能力对标。",
+        "对内容方的含义：制作团队可保持多模型比价与效果测试，避免把生产管线锁定在单一模型上。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XYUFqZUItOFhtSkk2TVJia3k2VkliTzNnUEJTdHZlNGE1UTllT3dUWDNNUlkwaFZqRmRQaWE4aUs3OENHVUNKc1IwNFBjbHYxWThPbkZwaFYwTVU?oc=5",
+      "local_life_hint": "本地生活素材制作方可对 Seedance 与其他视频模型做 A/B 效果与成本对比，择优组合使用。"
+    },
+    {
+      "title": "互联网进入字节时间的背面，是AI正在改变未来的电商",
+      "explanation": "文章讨论互联网进入「字节时间」的背面，是 AI 正在改变未来电商。核心观点是字节以内容和 AI 能力重塑电商流量与转化路径，对理解抖音电商与 AI 结合的方向有参考价值。",
+      "analysis_points": [
+        "趋势判断：文章认为字节的内容分发与 AI 能力正在改变电商的流量获取与转化方式，从「人找货」进一步转向「内容+AI 推荐驱动」。",
+        "对商家的含义：商家应把 AI 生成内容纳入电商素材供给，用更高频的内容测试匹配推荐分发逻辑。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1dFZmWFhtdTNKVzRfUmVkSGJlM0ktbDhjRnFLZlVqMjZ3b3kwRjRFNWM5WlJTbko5enZmSG5nY3dQM1N0a0pJNXhjN29NNm1YejRvaFdSQ0JhekU?oc=5",
+      "local_life_hint": "本地生活商家可提高 AI 生成短视频/图文的产出频率，用内容密度换取推荐分发曝光。"
+    },
+    {
+      "title": "字节AI商业化部门7月流失两名高级负责人",
+      "explanation": "报道称字节跳动商业 AI 部门在 7 月流失两名高级负责人。人事变动可能影响字节 AI 商业化推进节奏，值得关注其对广告与商业化产品线的影响。",
+      "analysis_points": [
+        "组织变化：字节商业 AI 部门 7 月失去两名高级负责人，属于关键岗位人事变动，可能影响商业化产品推进节奏。",
+        "对合作方的含义：与字节 AI 商业化团队对接的品牌与代理商，需关注接口人与项目节奏的调整。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "tokenpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95MVk4WGhCN1c5anE2RzdxdWNKQ053TmtMeGRsbWEtVmsyNDMtVnV2ckpzd3A4X3hoUi03QnZtTW5lRzNPOS0wLVdkRTUwdUpXVEtTUU1Kd00?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节火山引擎砸钱养AI剧，AI日报聚焦内容生态",
+      "explanation": "AI 日报提到火山引擎砸钱养 AI 剧，与 Seedance 精品 AI 剧激励计划相呼应。这说明字节正用资金扶持 AI 剧内容生态，把模型能力转化为可持续的内容供给。",
+      "analysis_points": [
+        "生态投入：火山引擎以资金扶持 AI 剧创作，形成「模型工具+现金激励+内容产出」的闭环，吸引制作团队入驻。",
+        "对内容方的动作：AI 剧制作团队可关注火山引擎的扶持政策，把 Seedance 纳入正式生产管线。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "AIBase",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB2dS1pblhFbklpZ1EwODFkd0pMcGNYNWJOV0d1SnlabTNhalByMHRjXzJCdjVURHQ1YVJCUVNJcThYV281dU4zclI1cUlZVWs?oc=5",
+      "local_life_hint": "本地生活品牌可关注 AI 剧形式的区域化内容营销，用剧情化短片承载门店或产品信息。"
     }
   ],
   "mode": "ai"
