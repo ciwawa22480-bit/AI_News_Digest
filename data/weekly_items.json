@@ -1,16 +1,11 @@
 {
-  "generated_at": "2026-10-27T06:49:34.340647+00:00",
+  "generated_at": "2026-10-27T12:37:09.638124+00:00",
   "week_range": "10.26-10.27",
   "date_display": "10.26 - 10.27",
-  "editorial_summary": "本周共汇总 19 条 AI 商业要闻，其中高影响 6 条。本周主线包括：剪映CapCut官宣接入ChatGPT插件，11月多端公；巨量引擎以AI治AI，重构广告反黑灰产防线；豆包拿下行业断层第一，用户规模优势扩大；即梦上线短剧工作室，剧本图片分镜模型一体化；豆包引用抖音内容权重飙至31.8%，视频成主力信源。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 17 条 AI 商业要闻，其中高影响 4 条。本周主线包括：剪映CapCut官宣接入ChatGPT插件，11月多端公；巨量引擎以AI治AI，重构广告反黑灰产防线；豆包拿下行业断层第一，用户规模优势扩大；字节等中系CSP洽谈十年期内存长约，锁定AI算力成本。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
-    "new_products": [
-      "即梦上线短剧工作室，剧本图片分镜模型一体化"
-    ],
-    "opinions": [
-      "豆包引用抖音内容权重飙至31.8%，视频成主力信源",
-      "字节重构AI视频押注，竞争焦点转向交付效率"
-    ],
+    "new_products": [],
+    "opinions": [],
     "ecosystem": [
       "剪映CapCut官宣接入ChatGPT插件，11月多端公测",
       "巨量引擎以AI治AI，重构广告反黑灰产防线",
@@ -18,11 +13,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（7 条），高影响条目占比约 32%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「生态动向」（7 条），高影响条目占比约 24%，商业化叙事仍由头部驱动。",
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
   ],
   "local_life_insights": [
     {
@@ -36,15 +31,11 @@
     {
       "base": "剪映 CapCut 接入 ChatGPT 插件，视频编辑能力从独立 App 变为可被外部 AI 助手调用的插件。",
       "borrow": "美团商业化可探索把本地生活素材生成能力封装为插件或 API，嵌入商家常用的 AI 工具与内容平台，让商家在外部工作流中直接产出可投放的外投素材。"
-    },
-    {
-      "base": "即梦把剧本、图片、分镜三类自研模型整合成「短剧工作室」，火山引擎用 Seedance Managed Agent 把视频生成编排成可管控的多步骤流水线，剧情混乱问题下降 54%",
-      "borrow": "外投团队可把「系列化剧情素材」从外包定制改为平台内批量生产：用托管式流程一次生成多集、风格统一的短视频，把单条素材成本压下来，再把省下的预算投入到更多创意版本的 A/B 测试上，提升拿商家预算做投放时的素材周转效率。"
     }
   ],
   "insights_intro": "换个视角看，今天字节在 AI 视频素材生产（即梦短剧工作室）、广告反欺诈（巨量引擎 AI 治 AI）和工具插件化（剪映接入 ChatGPT）三个底座上的改造，正让外投的素材供给更便宜、投放环境更干净、生产链路更开放——这对拿商家预算做外投的团队意味着成本结构和素材策略都要跟着变。",
-  "total_items": 19,
-  "high_count": 6,
+  "total_items": 17,
+  "high_count": 4,
   "items": [
     {
       "title": "剪映CapCut官宣接入ChatGPT插件，11月多端公测",
@@ -89,46 +80,18 @@
       "local_life_hint": "本地生活品牌可关注豆包内智能推荐与品牌问答场景，探索在 AI 助手对话中植入门店与优惠信息。"
     },
     {
-      "title": "即梦上线短剧工作室，剧本图片分镜模型一体化",
-      "explanation": "即梦推出「短剧工作室」，整合自研剧本、图片、分镜三类模型，为 AI 短剧创作者提供从故事文本到分镜画面的完整生产链路。这意味着 AI 短剧从零散工具拼接走向平台化流水线，直接降低单集制作的人力与时间成本。",
+      "title": "字节等中系CSP洽谈十年期内存长约，锁定AI算力成本",
+      "explanation": "包括字节在内的中国主要云服务商正与三星、SK海力士洽谈服务器内存长期供应协议，部分客户要求十年期长约，远超传统一年期。反映 AI 算力扩张下内存成为战略资源。",
       "analysis_points": [
-        "能力变化：此前创作者需在多个工具间切换完成剧本、分镜、画面生成，现在即梦把三类自研模型收进同一工作台，形成端到端生产链路。",
-        "对广告主价值：品牌可用同一平台批量产出短剧形态的种草内容，把短剧从内容营销试验品变成可规模化投放的素材来源。"
+        "能力变化：从「按季度/年度采购DRAM」变成「锁定十年期供应」，把内存成本与供给确定性前置到基础设施层。",
+        "对广告主价值：算力成本结构稳定后，视频生成、智能体推理的单价有望下降，长期看利好高频素材生产的投放团队。"
       ],
-      "category": "大厂动向",
+      "category": "生态动向",
       "type": "fact",
-      "impact": "high",
-      "source": "雷峰网",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8yQ016czhwM0pJalpJc3pQMU5mdVk5R1Y5NWVqaHNlcDZ1Y1hwN1B3dmtMTHhSUHk5N2xXWXF6NEVpcDRMaWoySE9sWTlYUVkyQS1jU19GRGU1VWI3Zy04ZmtSWHJwTFcwNDVHMTJPM0tOMnM5bEpF?oc=5",
-      "local_life_hint": "本地生活商家可用短剧工作室低成本产出探店、剧情类短视频素材，替代部分真人拍摄预算。"
-    },
-    {
-      "title": "豆包引用抖音内容权重飙至31.8%，视频成主力信源",
-      "explanation": "新榜智汇报告显示，豆包对抖音的引用权重从 5 月的 10.79% 升至 8 月的 31.8%，每引用 3 条内容就有 1 条来自抖音。视频内容正从 AI 引用的边缘补充变成主力信源，抖音内容资产的搜索价值被重新定价。",
-      "analysis_points": [
-        "能力变化：AI 搜索的信源结构从图文为主转向视频为主，抖音内容在豆包回答中的曝光权重三个月翻近三倍。",
-        "对广告主价值：品牌在抖音发布的视频内容会同时获得信息流与 AI 问答两个入口的曝光，内容资产的长期价值需要重新评估。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
       "impact": "high",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/018/259.htm",
-      "local_life_hint": "本地商家应把探店、测评类视频当作可被 AI 引用的长效资产来运营，而非一次性投放素材。"
-    },
-    {
-      "title": "豆包前负责人齐俊元创业，天使轮超2亿美元",
-      "explanation": "豆包前负责人齐俊元的创业项目获得超 2 亿美元天使轮融资，成为字节系人才外溢催生的又一大额早期案例。这既说明资本对字节 AI 背景团队的认可，也反映大模型创业仍处高热度阶段。",
-      "analysis_points": [
-        "能力变化：字节 AI 产品负责人带着对话产品的实战经验独立创业，团队起点即具备产品化能力。",
-        "对广告主价值：字节系创业者增多意味着 AI 应用层供给加速，品牌可选择的营销工具与场景将持续扩容。"
-      ],
-      "category": "初创动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "i黑马",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRMFBjQlJ2ZFdXbGZGcHBtbldoVG1yUm5mWGh3TlE5Zmh0a3N1V1QwNDR2LXF5WFlaaWNvT1h2Y2g2d1V0Sk14OE5jMk5MMHRnZWZF?oc=5",
-      "local_life_hint": ""
+      "url": "https://www.ithome.com/1/018/547.htm",
+      "local_life_hint": "素材生成成本若随算力长约下降，本地生活团队可提高AI素材的日均产出量与测试频次。"
     },
     {
       "title": "巨量引擎等八家企业签署互联网营销宣传自律公约",
@@ -215,81 +178,67 @@
       "local_life_hint": ""
     },
     {
-      "title": "字节AI视频生态成型，工具链从单点走向闭环",
-      "explanation": "报道指出字节正在构建一套完整的 AI 视频工具生态，覆盖生成、剪辑、分镜与分发环节。配合即梦整合小云雀，字节的视频能力正从多个独立产品收拢为一条完整工具链。",
+      "title": "张一鸣因AI重回中国首富，字节估值逻辑生变",
+      "explanation": "多家外媒报道，字节创始人张一鸣因公司 AI 业务推进重回中国首富位置。资本市场对字节的估值逻辑正从短视频广告转向 AI 驱动的增长预期。",
       "analysis_points": [
-        "能力变化：从多个独立 AI 视频工具各自为战，转向以即梦为核心、覆盖创作到分发的统一生态。",
-        "对广告主价值：一站式工具链降低了品牌自建视频内容团队的门槛，中小商家也能批量产出视频素材。"
+        "能力变化：从「短视频广告单一引擎」变成「广告+AI云+AI应用多引擎」，估值锚点发生迁移。",
+        "对广告主价值：字节 AI 业务投入加大，意味着广告产品会持续叠加 AI 能力，投放工具迭代节奏加快。"
       ],
-      "category": "生态动向",
+      "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
-      "source": "光通信Pro",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12Z0c1Nkt3NUJpWWtRdEVONWlHVFUzTndPOXpxRmFNLTN6OG9ULW1McmUxaDRiTFVGTEdhX2NkV1BGYlFMZkEwSTNCWGIxRGhKNjNNN3ZJQQ?oc=5",
-      "local_life_hint": "本地商家可依托统一工具链，把门店素材快速转成多版本短视频用于投放测试。"
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb3JHNGNpeEJpbFFJTm5ralg5R2NrQlVCMnRoWmp5aUFkRnJlTHlZZmFpSEEyckF5VUI0Z0x0YVhpMUJVT2w3NmF2aV9rb05GUmJpRVF2Y1NTQlpVUGxNZVRNeFZESnl4YUJ4OUVpeXJRVG1LcDNrNEdPUXFDWlM0VTNKOGlJdXZNRUZtc25ZTjNtUFBoWUNzQmViQW5LajUtWi1TbzNETWtybGdZNVdJTEFPek1yLWVhMEJTdHRR0gG-AUFVX3lxTE9vM0NEb3NxMzRmcUlvdVpuUDB2ejRleHFpRmJaYzRkUnZCdGlSOWV3LV9XcFIyclZNZ0VNNTZpMFFobjVSWnA3UWw2VUZQWWt0X1VaTFlzUWJOS3VDbVltSlB4OXNheTM3ZlM5bnRlWGM3aXFiZUYwLU9jS2ZKWnQ0aWdsaHF4VHJjZWZIVEtaelE1Q1hWVDZFVUtRQUpNX21wM0Y4aEx4SFo2bndXR0ltUHg1NlM0c0RDeXRCTlE?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "字节重构AI视频押注，竞争焦点转向交付效率",
-      "explanation": "TechNode 分析字节正在重构其 AI 视频押注，从单一模型能力竞争转向工具生态与生产流程整合。这标志着 AI 视频赛道的比拼重点，已从生成质量转向能否稳定交付可用成片。",
+      "title": "字节AI视频押注重排，Seedance负责人离职传闻被否认",
+      "explanation": "TechNode 报道字节正在重排其 AI 视频押注，同时有传闻称 Seedance 核心研发负责人周畅离职，接近字节人士予以否认。反映 AI 视频团队与战略正处于调整期。",
       "analysis_points": [
-        "能力变化：评价标准从单条视频的画质，转向批量生产中的一致性、可控性与返工成本。",
-        "对广告主价值：素材交付效率提升意味着投放测试周期缩短，可在同样预算下跑更多创意版本。"
+        "能力变化：从「多线并行探索」变成「战略聚焦」，资源向 Seedance 与即梦等核心产品集中。",
+        "对广告主价值：核心团队稳定与否直接影响视频生成能力的迭代速度，需关注后续版本节奏。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
       "source": "TechNode",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53WUxyVlBHTEh2cDFhRUE2dFNZNW0wODZBNmxpMHZBTU85ekNWNW15YVZaR2VxV29tS2JoMi1ydUx6S1c5Umc0Y0FHN1JKbkowalcxSHZ4eW5NTGtFbzloQnVnT1MzX2x2UHFmYkZvbXRTRldJMlVHcld1QQ?oc=5",
-      "local_life_hint": "投放团队可把创意测试从人工拍摄转为 AI 批量生成，用更多版本换取更优的转化数据。"
-    },
-    {
-      "title": "字节最高6.5万月薪招AI部署岗，落地人才争夺升温",
-      "explanation": "字节跳动为 AI 部署类岗位开出最高 6.5 万元月薪，反映大模型竞争正从模型研发转向交付与落地实施环节。能把手里的模型能力真正装进客户业务里的人才，正在变得稀缺。",
-      "analysis_points": [
-        "能力变化：岗位需求从算法研究转向部署实施，说明字节把商业化落地的优先级提到了研发之后。",
-        "对广告主价值：客户侧可获得更专业的方案落地支持，复杂场景的 AI 接入周期有望缩短。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "FourWeekMBA",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMzNsVkkybE5nUk1SVTdlaW1vWjJZVHVmODR6TmZYSkZNbnF0MkdiUGJvWDRYTWdESEFXQzdxeDFMZXgtQzRRWFRjN21BV0hKTzY5TEdyeDA3eTdSZWxFOUFsOWtJaTZGRzRRNFNGaGV4MDRBRDZEdWlhbmxaVGk5YkRwT1F3ZWtGaDBaamowUQ?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "抖音通报批量AI“小海”卖惨带货，账号被处置",
-      "explanation": "抖音通报批量 AI 生成的“小海”卖惨带货内容，相关账号及内容已被依规处置。这显示平台在 AI 内容治理上开始动真格，AI 生成内容的合规边界正在被明确划线。",
+      "title": "前豆包PC端负责人创业，腾讯联手蚂蚁投资",
+      "explanation": "前豆包 PC 端负责人创业项目获腾讯与蚂蚁联合投资，显示字节系 AI 人才外溢仍在持续，且大厂资本愿意为字节背景团队买单。",
       "analysis_points": [
-        "能力变化：平台识别与处置 AI 批量造假内容的能力提升，从被动举报转向主动识别与批量清理。",
-        "对广告主价值：使用 AI 生成内容做营销时需规避虚构人设与卖惨套路，合规素材才能获得稳定流量。"
+        "能力变化：从「大厂内部产品负责人」变成「独立创业者」，把字节的 AI 产品方法论带到新项目。",
+        "对广告主价值：字节系创业者多聚焦 AI 应用层，未来可能形成新的流量与投放渠道。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "智东西",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5JQk1Ud1dZbDd5bEZwS1dYenY4STJKNk1VNjBYRXZWd2JpeE5wZ0hYZjN0bllhbkFoNF9Ec0dTZlNIcXpIRGRwVw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "抖音通报批量AI小海卖惨带货，相关账号被处置",
+      "explanation": "抖音通报批量 AI「小海」卖惨带货行为，相关账号及内容已被依规处置。这是平台对 AI 生成内容滥用的治理动作，直接影响 AI 素材的合规边界。",
+      "analysis_points": [
+        "能力变化：从「AI生成内容难识别」变成「平台主动识别并处置」，AI 内容治理从被动转向主动。",
+        "对广告主价值：使用 AI 数字人、AI 剧情带货需规避卖惨、虚假人设等红线，否则面临账号处置风险。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "medium",
       "source": "凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOaExmd2c0UVNhMFEzNkpsSVZhU1BlempxaTlOTi02cmV0dWowR1RqWEFRc2xrNExiRFZVeEhFTE94Y25DQnVPaVQxTXA?oc=5",
-      "local_life_hint": "本地商家用 AI 生成探店内容时应标注真实性，避免虚构剧情触发平台处置。"
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOaExmd2c0UVNhMFEzNkpsSVZhU1BlempxaTlOTi02cmV2dWowR1RqWEFRc2xrNExiRFZVeEhFTE94Y25DQnVPaVQxTXA?oc=5",
+      "local_life_hint": "本地生活商家用AI数字人做探店或带货时，应避免虚构悲情剧情，优先真实门店场景。"
     },
     {
-      "title": "张一鸣6700亿再成中国首富，财富增长2000亿",
-      "explanation": "2026 胡润百富榜显示，字节跳动创始人张一鸣以 6700 亿元第二次成为中国首富并刷新纪录，财富较去年增长 2000 亿元。字节整体估值与 AI 业务的想象空间，是这一财富增长的核心支撑。",
+      "title": "飞书与火山合并后高管变动，史志隽将卸任CSO",
+      "explanation": "飞书与火山引擎合并后，飞书首席战略官史志隽将卸任。这是字节 ToB 业务整合的延续，反映火山引擎与飞书在企业服务上的协同正在加深。",
       "analysis_points": [
-        "能力变化：字节从内容平台公司向 AI 基础设施与应用的转型，被资本市场计入估值并反映在创始人财富上。",
-        "对广告主价值：字节生态的资金与资源投入能力增强，意味着其 AI 广告产品与工具迭代会保持高强度。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/018/268.htm",
-      "local_life_hint": ""
-    },
-    {
-      "title": "飞书与火山合并后，首席战略官史志隽将卸任",
-      "explanation": "飞书与火山合并后，飞书首席战略官史志隽将卸任。这是字节 ToB 业务整合的后续人事落定，反映火山引擎与飞书在企业服务侧的协同正在加速推进。",
-      "analysis_points": [
-        "能力变化：ToB 侧从飞书、火山各自为战，转向统一的企业服务架构，战略岗位随之调整。",
-        "对广告主价值：企业客户未来可能通过统一入口获取模型能力与协作工具，采购与对接流程有望简化。"
+        "能力变化：从「飞书与火山各自独立」变成「组织合并、战略统一」，ToB 资源向火山引擎集中。",
+        "对广告主价值：企业服务整合后，火山引擎的客户侧解决方案能力增强，品牌可关注其营销云与数据能力输出。"
       ],
       "category": "大厂动向",
       "type": "fact",
@@ -299,18 +248,32 @@
       "local_life_hint": ""
     },
     {
-      "title": "Seedance登顶AI视频质量榜，生成质量获第三方认可",
-      "explanation": "第三方评测显示字节 Seedance 在 AI 视频质量排名中登顶，生成质量获得外部榜单认可。在视频生成竞争白热化的阶段，质量排名直接影响企业客户的选型决策。",
+      "title": "红果短剧否认年收入400亿，称大部分用于创作者分账",
+      "explanation": "红果短剧官方否认网传年收入逼近 400 亿元等说法，称大部分收入持续用于内容创作者分账、版权保底与内容扶持。短剧平台真实营收体量仍不透明。",
       "analysis_points": [
-        "能力变化：Seedance 在画质、运动一致性等维度取得领先，成为企业选型时的可引用依据。",
-        "对广告主价值：高质量生成能力意味着品牌可用 AI 产出接近实拍质感的素材，降低对传统拍摄的依赖。"
+        "能力变化：从「传闻中的碾压电影产业」回到「官方未披露单独营收」，短剧商业化的真实规模需谨慎看待。",
+        "对广告主价值：短剧仍是重要投放场景，但预算分配应基于实际转化数据而非行业传闻。"
       ],
       "category": "生态动向",
       "type": "fact",
-      "impact": "medium",
-      "source": "ForkLog",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaXVqY0FFSVh4SjNQVi1xNmhoemE3dEN2ZUJNQUhkR3NWdEFxdGpsLUM3X2VzaFYwUml0dVhNZkFjRV95eGd0Tlpfc0FxZjhNbGJUZzUwWlo4WkVZUFVsbGhua2pUTnFVU3VUNjU3NEtkY1lCMC1mLWdXcHFyRk0?oc=5",
-      "local_life_hint": "对画质要求高的餐饮、美业品牌，可用高质量 AI 视频替代部分实拍素材。"
+      "impact": "low",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/018/649.htm",
+      "local_life_hint": "本地生活品牌投短剧植入时应要求真实播放与转化数据，避免被夸大的平台体量误导。"
+    },
+    {
+      "title": "剪映SVIP年卡降至180元，AI功能积分成会员核心",
+      "explanation": "剪映 SVIP 超级会员年卡降至 180 元，折合每月 15 元，支持电脑端与三端草稿同步，AI 积分成为会员权益核心。降价意在扩大付费用户基数。",
+      "analysis_points": [
+        "能力变化：从「高价专业会员」变成「低价走量」，用 AI 积分绑定用户对生成功能的消耗。",
+        "对广告主价值：剪辑工具付费门槛下降，中小商家与个人创作者更易用 AI 功能批量做素材。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/018/533.htm",
+      "local_life_hint": "本地生活小商家可趁低价入手剪映SVIP，用AI积分批量产出探店与团购短视频。"
     }
   ],
   "mode": "ai"
