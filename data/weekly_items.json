@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-10-28T13:27:05.577839+00:00",
-  "week_range": "10.26-10.28",
-  "date_display": "10.26 - 10.28",
-  "editorial_summary": "本周共汇总 24 条 AI 商业要闻，其中高影响 5 条。本周主线包括：剪映CapCut官宣接入ChatGPT插件，11月多端公；巨量引擎以AI治AI，重构广告反黑灰产防线；豆包拿下行业断层第一，用户规模优势扩大；字节等中系CSP洽谈十年期内存长约，锁定AI算力成本；抖音近一月处置50.7万个AI恶意营销号。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-10-29T07:40:35.614436+00:00",
+  "week_range": "10.26-10.29",
+  "date_display": "10.26 - 10.29",
+  "editorial_summary": "本周共汇总 29 条 AI 商业要闻，其中高影响 6 条。本周主线包括：剪映CapCut官宣接入ChatGPT插件，11月多端公；巨量引擎以AI治AI，重构广告反黑灰产防线；豆包拿下行业断层第一，用户规模优势扩大；字节等中系CSP洽谈十年期内存长约，锁定AI算力成本；抖音近一月处置50.7万个AI恶意营销号。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [],
-    "opinions": [],
+    "opinions": [
+      "实测即梦短剧工作室：Seedance 2.5最具性价比的用法",
+      "IDC报告：MaaS市场分化，火山引擎处第一梯队",
+      "CapCut以插件形式进入ChatGPT，AI工具入口转向对话框"
+    ],
     "ecosystem": [
       "剪映CapCut官宣接入ChatGPT插件，11月多端公测",
       "巨量引擎以AI治AI，重构广告反黑灰产防线",
@@ -13,7 +17,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「生态动向」（10 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「生态动向」（12 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -38,8 +42,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在 AI 视频素材生产（即梦短剧工作室）、广告反欺诈（巨量引擎 AI 治 AI）和工具插件化（剪映接入 ChatGPT）三个底座上的改造，正让外投的素材供给更便宜、投放环境更干净、生产链路更开放——这对拿商家预算做外投的团队意味着成本结构和素材策略都要跟着变。",
-  "total_items": 24,
-  "high_count": 5,
+  "total_items": 29,
+  "high_count": 6,
   "items": [
     {
       "title": "剪映CapCut官宣接入ChatGPT插件，11月多端公测",
@@ -110,6 +114,20 @@
       "source": "IT之家",
       "url": "https://www.ithome.com/1/019/001.htm",
       "local_life_hint": "本地生活商家用AI批量生成探店/促销内容时，须避免同质化模板与诱导互动，否则面临限流与处置风险。"
+    },
+    {
+      "title": "火山引擎以45%份额登顶中国AI座舱市场",
+      "explanation": "IDC首次对中国AI座舱市场进行份额统计，火山引擎以45%份额位居第一，市场进入规模起量期。汽车正成为大模型落地的高价值硬件入口，字节在车载场景取得领先位置。",
+      "analysis_points": [
+        "市场地位：火山引擎拿下近半AI座舱份额，说明其车载大模型方案已被主流车企规模化采用。",
+        "商业含义：座舱是高时长、强交互场景，未来可承载语音广告、服务推荐等商业化形态，是新的流量入口。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lOFVDbXRUVTlnQ3pBWnRNYnA3NTk0Q2RydjQ4c2tZTlhRc2ozWFk1QWpGaENJQlNnc1hIQ0F0Y2paelkyalphQktQUUw1Z213VmdOX1NZYTc?oc=5",
+      "local_life_hint": "本地生活服务可关注车载场景的「沿途推荐」机会，未来座舱语音助手可能成为到店引流的新入口。"
     },
     {
       "title": "巨量引擎等八家企业签署互联网营销宣传自律公约",
@@ -376,6 +394,62 @@
       "source": "Modern Retail",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVXFPd1EzejJ3VzZyN25tbE42YThuX3c1emFhNWp1Vl9uc1lsR1lxZHhRamRUOHp1WVN3U3FxVVNYaXdYWGRnTWlUV1hVRW1IdTBSbjkzdVlabktZYmZaU2s1a2w1Tm1VbE9DYWtQbHlmMXp2U0lSeW1UMlVfeGlWMlJJMFd6OGs4Q1VUVzJWOE1wZERabjlRemRRcTJvdDBBcmRJa1pBZlpIZ2tS?oc=5",
       "local_life_hint": "本地商家做团购核销时同样需管理预期，减少到店不符导致的差评与退款。"
+    },
+    {
+      "title": "实测即梦短剧工作室：Seedance 2.5最具性价比的用法",
+      "explanation": "媒体实测即梦短剧工作室后认为，这是Seedance 2.5当前最具性价比的使用方式——先用低成本样片验证分镜与节奏，再对满意片段出高质量成片，大幅降低试错成本。",
+      "analysis_points": [
+        "成本结构变化：从「每条都出高质量成片」变成「先480P样片筛选、再4K精修」，单条可用素材的综合成本明显下降。",
+        "可落地动作：广告主可建立「样片—筛选—精修」的三段式素材生产流程，把预算集中在已验证有效的创意上。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "爱范儿",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5idUhNNVBPWUpvM3RCWDl3UWZacEE3MWR5RGhfRGhfVzdsa0I1Yk1LZWtxUWQwSWdfdy1zY3ZuZEY2aG8?oc=5",
+      "local_life_hint": "外投团队可用「样片先行」策略压低单条素材成本，把省下的预算用于更多创意方向的A/B测试。"
+    },
+    {
+      "title": "IDC报告：MaaS市场分化，火山引擎处第一梯队",
+      "explanation": "IDC报告显示中国MaaS市场开始分化，火山引擎与阿里、智谱、PPIO等同处第一梯队。这表明模型即服务已从概念验证进入规模采购阶段，火山引擎在B端模型服务市场站稳位置。",
+      "analysis_points": [
+        "市场格局：MaaS从混战走向分层，第一梯队厂商开始享受规模效应，中小厂商面临被挤压。",
+        "商业价值：企业客户采购模型服务时更看重平台稳定性与生态，火山引擎的排名有助于其获取大客户订单。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUW1QMElEU3lKRTRZYnN6THRQa1JOcDVYeFR0ZUI5c0JxUkxaTHdjZXU0N2lkSEZtVDZ0MTMzS25FUWRpSTZGazdSai1zNDhIdTVYbEdidTd4TXN2QUJOZUw3cmo0MnlzbkJoWndDTktkU0VCRGktUlFyZTlzcTFIY0hPa0dKclRS?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "CapCut以插件形式进入ChatGPT，AI工具入口转向对话框",
+      "explanation": "剪映海外版CapCut将作为插件进入ChatGPT，同时视频号内测文章转视频功能。报道认为AI工具入口正从独立App转向对话框，用户可在聊天中直接调用视频编辑能力。",
+      "analysis_points": [
+        "入口变化：从「打开App再编辑」变成「在对话中直接调用剪辑能力」，工具的使用门槛进一步降低。",
+        "行业含义：超级应用成为AI工具的分发渠道，独立工具的流量获取难度上升。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XcFljZlRBaGVua0RudDFma0thU2s0cE9aN2wyUVVmOVU0VVlrVE54ZEZCcG1xN2RJcW14NnJwVTJPOTdOZGVwN0dTcnVzS3hzOFljZA?oc=5",
+      "local_life_hint": "商家制作短视频素材的入口可能前移到对话场景，需关注插件形态下的素材调用与分发逻辑。"
+    },
+    {
+      "title": "大众ID. ERA 5X内饰配豆包大模型，合资品牌加速接入",
+      "explanation": "大众ID. ERA 5X内饰搭载豆包大模型，显示合资品牌也在加速接入字节的大模型方案。豆包在车载场景的合作范围从自主品牌扩展到合资品牌。",
+      "analysis_points": [
+        "合作扩展：豆包车载方案从新势力扩展到大众等合资品牌，覆盖面进一步扩大。",
+        "商业含义：车载大模型的规模化将带来更多语音交互场景，为服务分发提供基础。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVbkFScmxTN1g1NXVQR21hdWNvZnBfcWdHWVFidE9Hb1lhMXV4R2xPd2VzOGtGNzNBV0NsNDZfbTJQSFhJNHdmcHhZc2h3S2I0b0N3REMwQl8xVGgwYjhTZWRrTXpvdmZLTHlr?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
