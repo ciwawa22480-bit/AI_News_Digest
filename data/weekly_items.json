@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-10-30T07:44:57.548965+00:00",
+  "generated_at": "2026-10-30T13:25:55.098543+00:00",
   "week_range": "10.26-10.30",
   "date_display": "10.26 - 10.30",
-  "editorial_summary": "本周共汇总 40 条 AI 商业要闻，其中高影响 11 条。本周主线包括：剪映CapCut官宣接入ChatGPT插件，11月多端公；巨量引擎以AI治AI，重构广告反黑灰产防线；豆包拿下行业断层第一，用户规模优势扩大；字节等中系CSP洽谈十年期内存长约，锁定AI算力成本；抖音近一月处置50.7万个AI恶意营销号。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 43 条 AI 商业要闻，其中高影响 10 条。本周主线包括：剪映CapCut官宣接入ChatGPT插件，11月多端公；巨量引擎以AI治AI，重构广告反黑灰产防线；豆包拿下行业断层第一，用户规模优势扩大；字节等中系CSP洽谈十年期内存长约，锁定AI算力成本；抖音近一月处置50.7万个AI恶意营销号。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "即梦上线短剧工作室，剧本到成片一站式打通",
-      "火山引擎发布Seedance 2.5 4K版本",
-      "TikTok Shop携手迪士尼打造首个超级品牌日"
+      "港大测评：Seedance 2.0 Pro视频生成能力最佳"
     ],
     "opinions": [
       "火山引擎以45%份额登顶AI座舱市场",
       "中国MaaS市场暴增近9倍，火山引擎份额断层领先",
-      "港大测评：Seedance 2.0 Pro视频生成能力最佳"
+      "实测即梦短剧工作室：Seedance 2.5最具性价比的用法"
     ],
     "ecosystem": [
       "剪映CapCut官宣接入ChatGPT插件，11月多端公测",
@@ -21,7 +20,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（14 条），高影响条目占比约 28%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（15 条），高影响条目占比约 23%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,8 +45,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在 AI 视频素材生产（即梦短剧工作室）、广告反欺诈（巨量引擎 AI 治 AI）和工具插件化（剪映接入 ChatGPT）三个底座上的改造，正让外投的素材供给更便宜、投放环境更干净、生产链路更开放——这对拿商家预算做外投的团队意味着成本结构和素材策略都要跟着变。",
-  "total_items": 40,
-  "high_count": 11,
+  "total_items": 43,
+  "high_count": 10,
   "items": [
     {
       "title": "剪映CapCut官宣接入ChatGPT插件，11月多端公测",
@@ -176,32 +175,18 @@
       "local_life_hint": "MaaS价格与份额竞争会持续压低模型调用成本，本地生活团队自建AI素材与客服能力的单位成本将随之下降。"
     },
     {
-      "title": "火山引擎发布Seedance 2.5 4K版本",
-      "explanation": "火山引擎发布Seedance 2.5 4K，支持480P样片预览，客户反馈画面细节与光影表现亮眼。这是字节AI视频模型在商用画质上的关键升级，直接服务短剧、广告等高质量视频生产需求。",
+      "title": "Seedance 2.5可生成30秒带音频AI视频",
+      "explanation": "字节Seedance 2.5支持生成30秒带音频的AI视频，并在4K档位上形成可购买的分层。视频生成从几秒无声片段走向可直接用于广告和短剧的长镜头有声素材，是字节视频模型商业化的重要能力跃迁。",
       "analysis_points": [
-        "Seedance 2.5从常规分辨率升级到4K输出，并支持先出480P样片预览再定稿，降低试错成本。",
-        "对广告主意味着可用更低成本生成高画质商用视频素材，短剧和品牌片制作周期缩短。"
+        "能力变化：Seedance 2.5从短时长、无音频的视频生成升级为30秒带音频输出，并区分4K清晰度档位，生成结果更接近可直接投放的成片。",
+        "对广告主价值：30秒带音频正好匹配信息流与贴片广告的主流时长，广告主可减少后期配音配乐环节，缩短素材从生成到上线的周期。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nby1vc1cwM1A4YzlKSUpLZFE2U0FOUGoyai1DLVI2OVIwUk9FYmR5ODRCMDZZR3E0SnZTaWJrYlBuNVcyaEV2NEFaVjUtVkk2SlE?oc=5",
-      "local_life_hint": "本地生活广告素材可用Seedance 4K生成高质量短视频，降低实拍成本，提升投放素材产出效率。"
-    },
-    {
-      "title": "TikTok Shop携手迪士尼打造首个超级品牌日",
-      "explanation": "迪士尼在TikTok Shop推出首个超级品牌日，联合20多个品牌提供假日商品提前购。这显示TikTok Shop正从达人带货升级为品牌官方节日营销阵地，内容电商与品牌合作深度加强。",
-      "analysis_points": [
-        "TikTok Shop从日常直播带货升级为品牌超级品牌日，平台提供专属流量和提前购机制。",
-        "对品牌商家意味着可借节日节点做集中爆发式投放，内容电商成为品牌营销预算的新去处。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Marketing Dive",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR0JUemtJMXcyUjZFZVMzVG1ZZ09tX3VIMzdFSVBmalprNzhtSTVnVHhUMS1OU2VxQXhXT3M0aWZ1UElsVU50QkNEMGw4RGUtQkQxQjRnakpUZHdVTGxkWUR6QVI4VFdRQ1ZTVjI2Tk5FMkVvS05RbEp5LWlBcjBTSDlSUGlxdm9kWjZPYkFxT0xfbVU5VUxLUjR2dXRESFUwVnFiYUMxamxXQQ?oc=5",
-      "local_life_hint": "本地生活品牌可借鉴TikTok Shop超级品牌日的节日集中投放打法，在节点做流量爆发。"
+      "source": "The News International",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVk14akhWU2RyV21kN1VXcWgyUnQwYUZTSm83TTA5NzBPLVo5dnZzU3M1T3doOGtBQ3FGUEJNdUZ0clpOa3lJRlNQYlkzTl9zZl9za3hlaklKX3paNHFETnlWRzl0NU14anVkT1FRcFZXUlpIN3htQUE4ZnZ2bkNpMGcyREJzYTVNeWN6dXFxVTg5TERnd2R0dGRBZy13WEFhR04walN1cENzcmtyY3QxNXBBcDZYWU1BR1HSAbYBQVVfeXFMTXl2aE1OeDN5ZGpSSVdWRXpHTGU5cGJqbVF6bmpNbkY1OWJuVXZfa2x1d0stVExhbV9aZlNoVWN5aHU2dVlkTUlvbU8xMDEtVkdGYjloNExfNmtxR1ZEaTlnS1ZJQ1hha1ZFcE5oTWZYNHFtTFEzWE04OWFmV2Z6cVB6dFpWY2drMGxLaGdhOTh2VGJGVG1OOUp3MXhXRXVFSXNndXR1cDd5clpaSEkwcEhSRjcwU2c?oc=5",
+      "local_life_hint": "本地生活广告素材多为15-30秒短视频，Seedance 2.5带音频输出可直接用于门店推广片，减少拍摄与配音成本。"
     },
     {
       "title": "巨量引擎等八家企业签署互联网营销宣传自律公约",
@@ -568,45 +553,101 @@
       "local_life_hint": ""
     },
     {
-      "title": "豆包辟谣15万横店群演数据喂大模型",
-      "explanation": "针对「横店与字节合作将15万群演肖像声音喂给大模型」的传言，豆包回应称严重失实，数据不用于训练。这涉及AI训练数据合规与肖像权敏感问题，对字节AI数据来源的公众信任有影响。",
+      "title": "TikTok Shop美妆生意爆发，内容电商成品牌增量场",
+      "explanation": "WWD报道TikTok Shop上美妆生意蓬勃发展，内容电商正成为美妆品牌的重要增量渠道。这说明TikTok Shop的品类结构从低价白牌向品牌美妆升级，广告与交易一体化对品牌预算的吸引力增强。",
       "analysis_points": [
-        "传言称字节用15万群演肖像声音训练模型，豆包明确否认，强调不用于训练。",
-        "对AI商业化意味着训练数据合规是红线，商家和创作者使用AI生成内容时需关注肖像权授权。"
+        "能力变化：TikTok Shop美妆品类从零散达人带货走向品牌化运营，平台具备承接高客单、高复购品类的能力。",
+        "对广告主价值：美妆品牌可把TikTok Shop作为新品首发与种草转化一体阵地，广告主可测试短视频种草到店铺成交的归因链路。"
       ],
-      "category": "观点与深度",
-      "type": "opinion",
+      "category": "生态动向",
+      "type": "fact",
       "impact": "medium",
-      "source": "凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TkRPU3BPQUkyQndVSnJ5SktSU0stQ3Z5a2tMUHplY0tSdkVQR1hROU9UaHpRSFQzUUV2UEhRdVF6TW1iQm9NUnpDT0JMVFVsdHc?oc=5",
-      "local_life_hint": "本地生活商家用AI生成人物素材时需注意肖像授权，避免合规风险。"
+      "source": "WWD",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
+      "local_life_hint": "本地美业商家可参考美妆内容电商打法，用短视频种草加团购券承接，提升到店转化。"
     },
     {
-      "title": "张一鸣以6700亿登顶中国首富，AI成财富引擎",
-      "explanation": "胡润百富榜显示张一鸣以6700亿元登顶中国首富，多家外媒报道其财富增长与字节AI布局密切相关。这反映资本市场对字节AI商业化前景的高度认可，也强化了字节加码AI的叙事。",
+      "title": "TikTok Shop让购物更简单，零售商面临渠道重构",
+      "explanation": "DesignRush分析TikTok Shop正在让购物更简单，探讨这对零售商意味着什么。平台把发现、种草、下单压缩在同一界面，零售商需要重新分配内容与货架预算，否则会被内容电商分流。",
       "analysis_points": [
-        "张一鸣财富从过往水平跃升至6700亿元，核心驱动是字节在AI大模型、视频生成等领域的估值重估。",
-        "对行业意味着字节AI商业化被资本视为确定性增长，可能吸引更多商家和合作伙伴押注字节生态。"
+        "能力变化：TikTok Shop把购物链路缩短到视频内直接下单，从跳转外链变为站内闭环，转化路径更短。",
+        "对广告主价值：零售商需把部分货架电商预算转向内容电商，广告主可测试短视频挂车与直播带货的组合投放。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "DesignRush",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNHU3WGU5RjlhVTNZckVVRWViaGw1N2xnczdEaHk5blFINkxfVERpeEl1RVVSaWJ0cVVnTUlFQ3V3Y3hSc3BWdEQ5ZmJZWFBpbXVtWDhCRkUtMWFFVUxsSXU0M2dKamNXMkZrcnQ1aF9LV2lPOF9EZUdETDlVRnZ5S3lucw?oc=5",
+      "local_life_hint": "本地零售商家可评估在短视频内直接挂团购或商品链接，缩短从看到到下单的路径。"
+    },
+    {
+      "title": "TikTok Shop集市驱动发现但暗藏风险",
+      "explanation": "The Supply Chain Xchange指出集市型平台驱动商品发现，但TikTok Shop也带来供应链与履约风险。这提示内容电商在流量红利之外，退货、库存与履约体验正成为平台和商家的隐性成本。",
+      "analysis_points": [
+        "能力变化：TikTok Shop的发现机制依赖内容推荐而非搜索，订单波动更大，对商家备货与履约弹性提出更高要求。",
+        "对广告主价值：投放前需评估退货率与履约成本，避免只看GMV不看净利；广告主可把履约能力作为选品门槛。"
       ],
       "category": "观点与深度",
       "type": "opinion",
       "impact": "medium",
-      "source": "新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpWlhJeUFCZkJWaE55MG1sUjZWa0JoSVp2b1JNazg4d1l6ejg0UU1LTlA1NGc3RUFyZFBDQ2Vvank5ZXVKTVJMNTUzeVk0TFIyNzVYa2tYWmFvc1VqY1kyeVZUMA?oc=5",
+      "source": "The Supply Chain Xchange",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTjFnVWdMV0xIb3FaMFdyTG9iWld5NHRiWkd5c2N2QnpDQ0FUa0N6MjM1VldpMTVJX3lFOG10Y196UUp3b1FiSG9Xa2JfRVZmcmloLXhBYlIwam1KZG5wd3R2cDh1NnJZM2pjSHBQTHI2M29uVVRISVhGTy0xQzhINGE5eEt3MVZCQ1RqcXZ6SGpZY3FKY2c?oc=5",
+      "local_life_hint": "本地生活商家做内容电商时需同步评估履约与退款成本，避免流量带来亏损订单。"
+    },
+    {
+      "title": "火山引擎回应MaaS第一之争：统计口径不同",
+      "explanation": "阿里云与火山引擎均称MaaS市场份额第一，报道指出双方统计口径不同，MaaS市场竞争加剧。这说明大模型云服务已进入份额争夺战，口径之争背后是客户与生态的争夺。",
+      "analysis_points": [
+        "能力变化：MaaS市场从早期跑马圈地进入份额排位阶段，厂商开始用不同统计口径强化自身第一叙事。",
+        "对广告主价值：企业在选型时需看清口径差异，广告主可关注火山引擎在MaaS上的价格与生态政策变化。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE82eFZ5QUJHSFFFTl9jTnhvTWJ0XzRqOS1zZXJlbzNQbFF6c3pZbDBEdmxKc3E3Wi1OaGJKNHloUnBiSWtnYUt2dFM5WlM5SGt1eHVLQg?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "豆包加入多模型阵营，办公场景竞争加剧",
-      "explanation": "华尔街见闻报道豆包工作加入多模型阵营，千问办公成最后的坚守者。这说明豆包工作不再只依赖自家模型，而是支持多模型调度，提升办公场景的适配能力。",
+      "title": "豆包大模型2.0首搭车型座舱可写打油诗",
+      "explanation": "视频报道豆包大模型2.0首搭某车型，座舱聪明到能写打油诗。豆包大模型2.0进入车机座舱，说明字节AI在车载场景的落地从语音助手升级为可创作、可对话的智能座舱能力。",
       "analysis_points": [
-        "豆包工作从单一豆包模型扩展为多模型可选，用户可按任务选择不同模型。",
-        "对企业意味着办公AI工具更灵活，可根据成本和效果选择模型，降低使用门槛。"
+        "能力变化：车载座舱从固定语音指令升级为可调用豆包大模型2.0进行创作与多轮对话，交互更自然。",
+        "对广告主价值：车载场景成为新的品牌触达入口，车企与本地服务可探索座舱内推荐与导航联动。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "华尔街见闻",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VbGtMd3lKUmE5QlZOMFFkQ1U3YTNtSVM3SGZXNkhiTlBIb0FWNXBrTmEtSE00MFVhUEZueUhER2Frc2Z4bVZyaGZ3VkVrTVBBbmtR?oc=5",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5T3VNZU02T1NQT09wYjFzc3ROSnVUaWJSV2NLckdBblFIZkNDelJmMExJc0ZabFFHTGFvbTFJT1dFMjBudjEtWThzNWpobFd0NUI1TTZVOWJTdW8?oc=5",
+      "local_life_hint": "本地生活商家可关注车载座舱内的导航推荐与目的地服务入口，提前布局到店引流。"
+    },
+    {
+      "title": "荣威豆包汽车狂揽五万订单",
+      "explanation": "报道称荣威豆包汽车狂揽五万订单。豆包大模型上车带来实际销量转化，说明AI座舱已成为车企差异化卖点，也为字节AI在汽车场景的商业化提供了订单级验证。",
+      "analysis_points": [
+        "能力变化：豆包大模型从车机功能变成车型核心卖点，AI座舱能力直接影响消费者购车决策。",
+        "对广告主价值：车企可把AI座舱作为营销卖点，本地服务可探索车主场景的到店与出行消费联动。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORHNfZ0hPZ3d2Q05jT3BKRkdELTBNaGJIWTdvaDZ5T05neWhXVVVmWXV3ZDZWVEpwS2tvWVN5aGRZbFphMHJfSFREbVJIeGR1QzlUOGJQaDU1YnhGMEMzSEp0WnJ4MHFNMEhrWklhQW96ZUNDQ1NHQ1lqZkVhYnhobVRQeDRMUjRo?oc=5",
+      "local_life_hint": "本地生活可关注车主群体的到店消费场景，结合车机导航做目的地推荐。"
+    },
+    {
+      "title": "韩国投资公司400万美元押注字节跳动",
+      "explanation": "Korea Investment向字节跳动投资400万美元，延续其在SpaceX与Anthropic上的投资节奏。这说明一级市场资本仍在加注字节AI叙事，字节的估值逻辑从流量平台向AI基础设施与产品矩阵延伸。",
+      "analysis_points": [
+        "能力变化：字节在一级市场的资本吸引力从短视频平台扩展到AI全栈能力，投资机构将其视为AI核心资产。",
+        "对广告主价值：资本加注意味着字节AI产品迭代与商业化投入有持续资金支持，广告主可预期更多AI营销工具上线。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSVBjTnFtbHB6NHJRVTB4eWdHd2FUMHFnZDBQRlhaMkdrcFc2Vk9HU2xYNHR2X0VLMm5Fa1NuVFR1ZTFRc2pJb2NCSjJZU3VKWWItU25UNlM3SlNxSnlBRWJwUnk4dGhseHBlWEplYndiZGV5enllTkpDN1ViVlZXcUFDN0dWQTF1MTZwZm9DSC0zU0s4UF9HeHptZkNya1hVV0VuUkN4dlI4alQ0MGVTXzRLUHViWHJuZ0xDV0NoUQ?oc=5",
       "local_life_hint": ""
     }
   ],
