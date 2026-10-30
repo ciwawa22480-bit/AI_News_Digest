@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-10-29T13:35:43.526605+00:00",
-  "week_range": "10.26-10.29",
-  "date_display": "10.26 - 10.29",
-  "editorial_summary": "本周共汇总 35 条 AI 商业要闻，其中高影响 9 条。本周主线包括：剪映CapCut官宣接入ChatGPT插件，11月多端公；巨量引擎以AI治AI，重构广告反黑灰产防线；豆包拿下行业断层第一，用户规模优势扩大；字节等中系CSP洽谈十年期内存长约，锁定AI算力成本；抖音近一月处置50.7万个AI恶意营销号。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-10-30T07:44:57.548965+00:00",
+  "week_range": "10.26-10.30",
+  "date_display": "10.26 - 10.30",
+  "editorial_summary": "本周共汇总 40 条 AI 商业要闻，其中高影响 11 条。本周主线包括：剪映CapCut官宣接入ChatGPT插件，11月多端公；巨量引擎以AI治AI，重构广告反黑灰产防线；豆包拿下行业断层第一，用户规模优势扩大；字节等中系CSP洽谈十年期内存长约，锁定AI算力成本；抖音近一月处置50.7万个AI恶意营销号。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "即梦上线短剧工作室，剧本到成片一站式打通",
-      "港大测评：Seedance 2.0 Pro视频生成能力最佳"
+      "火山引擎发布Seedance 2.5 4K版本",
+      "TikTok Shop携手迪士尼打造首个超级品牌日"
     ],
     "opinions": [
       "火山引擎以45%份额登顶AI座舱市场",
       "中国MaaS市场暴增近9倍，火山引擎份额断层领先",
-      "实测即梦短剧工作室：Seedance 2.5最具性价比的用法"
+      "港大测评：Seedance 2.0 Pro视频生成能力最佳"
     ],
     "ecosystem": [
       "剪映CapCut官宣接入ChatGPT插件，11月多端公测",
@@ -20,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（12 条），高影响条目占比约 26%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（14 条），高影响条目占比约 28%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -45,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在 AI 视频素材生产（即梦短剧工作室）、广告反欺诈（巨量引擎 AI 治 AI）和工具插件化（剪映接入 ChatGPT）三个底座上的改造，正让外投的素材供给更便宜、投放环境更干净、生产链路更开放——这对拿商家预算做外投的团队意味着成本结构和素材策略都要跟着变。",
-  "total_items": 35,
-  "high_count": 9,
+  "total_items": 40,
+  "high_count": 11,
   "items": [
     {
       "title": "剪映CapCut官宣接入ChatGPT插件，11月多端公测",
@@ -173,6 +174,34 @@
       "source": "新浪财经",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50dmF0Y19JU25oWGloOUJ4TURsb0Zqdko2UXgxcnUwcEVnb0FvVmZhTjVxMU1vR3hnYTg2LXVXdW9DLXJMbmF6bDU4bUVPU0FwNGxFd0hjbTVxd3h3Q1dkczk0VWF6dG1PRE9IdThjNHJ1ZXZuMy1WTFUtSDR0dkk?oc=5",
       "local_life_hint": "MaaS价格与份额竞争会持续压低模型调用成本，本地生活团队自建AI素材与客服能力的单位成本将随之下降。"
+    },
+    {
+      "title": "火山引擎发布Seedance 2.5 4K版本",
+      "explanation": "火山引擎发布Seedance 2.5 4K，支持480P样片预览，客户反馈画面细节与光影表现亮眼。这是字节AI视频模型在商用画质上的关键升级，直接服务短剧、广告等高质量视频生产需求。",
+      "analysis_points": [
+        "Seedance 2.5从常规分辨率升级到4K输出，并支持先出480P样片预览再定稿，降低试错成本。",
+        "对广告主意味着可用更低成本生成高画质商用视频素材，短剧和品牌片制作周期缩短。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nby1vc1cwM1A4YzlKSUpLZFE2U0FOUGoyai1DLVI2OVIwUk9FYmR5ODRCMDZZR3E0SnZTaWJrYlBuNVcyaEV2NEFaVjUtVkk2SlE?oc=5",
+      "local_life_hint": "本地生活广告素材可用Seedance 4K生成高质量短视频，降低实拍成本，提升投放素材产出效率。"
+    },
+    {
+      "title": "TikTok Shop携手迪士尼打造首个超级品牌日",
+      "explanation": "迪士尼在TikTok Shop推出首个超级品牌日，联合20多个品牌提供假日商品提前购。这显示TikTok Shop正从达人带货升级为品牌官方节日营销阵地，内容电商与品牌合作深度加强。",
+      "analysis_points": [
+        "TikTok Shop从日常直播带货升级为品牌超级品牌日，平台提供专属流量和提前购机制。",
+        "对品牌商家意味着可借节日节点做集中爆发式投放，内容电商成为品牌营销预算的新去处。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Marketing Dive",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR0JUemtJMXcyUjZFZVMzVG1ZZ09tX3VIMzdFSVBmalprNzhtSTVnVHhUMS1OU2VxQXhXT3M0aWZ1UElsVU50QkNEMGw4RGUtQkQxQjRnakpUZHdVTGxkWUR6QVI4VFdRQ1ZTVjI2Tk5FMkVvS05RbEp5LWlBcjBTSDlSUGlxdm9kWjZPYkFxT0xfbVU5VUxLUjR2dXRESFUwVnFiYUMxamxXQQ?oc=5",
+      "local_life_hint": "本地生活品牌可借鉴TikTok Shop超级品牌日的节日集中投放打法，在节点做流量爆发。"
     },
     {
       "title": "巨量引擎等八家企业签署互联网营销宣传自律公约",
@@ -536,6 +565,48 @@
       "impact": "low",
       "source": "手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHhGdU53RG9jOEdXMjlnWG9hTHZSYmxFeFgwd2w1RUhhWk5kUFJJbmRJT1dzd3BMM1ZScmJwYk90Z1YzcDNZWU9qOHFOSUt1TmtMRUg4Z2pKcmVPV0tESGVnZVdGV1JIOEkxTWhkd0VyMk1kb01yU1NiM0hwVzNBdU5UWG9fZ3pESFNBQk1NOA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包辟谣15万横店群演数据喂大模型",
+      "explanation": "针对「横店与字节合作将15万群演肖像声音喂给大模型」的传言，豆包回应称严重失实，数据不用于训练。这涉及AI训练数据合规与肖像权敏感问题，对字节AI数据来源的公众信任有影响。",
+      "analysis_points": [
+        "传言称字节用15万群演肖像声音训练模型，豆包明确否认，强调不用于训练。",
+        "对AI商业化意味着训练数据合规是红线，商家和创作者使用AI生成内容时需关注肖像权授权。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TkRPU3BPQUkyQndVSnJ5SktSU0stQ3Z5a2tMUHplY0tSdkVQR1hROU9UaHpRSFQzUUV2UEhRdVF6TW1iQm9NUnpDT0JMVFVsdHc?oc=5",
+      "local_life_hint": "本地生活商家用AI生成人物素材时需注意肖像授权，避免合规风险。"
+    },
+    {
+      "title": "张一鸣以6700亿登顶中国首富，AI成财富引擎",
+      "explanation": "胡润百富榜显示张一鸣以6700亿元登顶中国首富，多家外媒报道其财富增长与字节AI布局密切相关。这反映资本市场对字节AI商业化前景的高度认可，也强化了字节加码AI的叙事。",
+      "analysis_points": [
+        "张一鸣财富从过往水平跃升至6700亿元，核心驱动是字节在AI大模型、视频生成等领域的估值重估。",
+        "对行业意味着字节AI商业化被资本视为确定性增长，可能吸引更多商家和合作伙伴押注字节生态。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpWlhJeUFCZkJWaE55MG1sUjZWa0JoSVp2b1JNazg4d1l6ejg0UU1LTlA1NGc3RUFyZFBDQ2Vvank5ZXVKTVJMNTUzeVk0TFIyNzVYa2tYWmFvc1VqY1kyeVZUMA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包加入多模型阵营，办公场景竞争加剧",
+      "explanation": "华尔街见闻报道豆包工作加入多模型阵营，千问办公成最后的坚守者。这说明豆包工作不再只依赖自家模型，而是支持多模型调度，提升办公场景的适配能力。",
+      "analysis_points": [
+        "豆包工作从单一豆包模型扩展为多模型可选，用户可按任务选择不同模型。",
+        "对企业意味着办公AI工具更灵活，可根据成本和效果选择模型，降低使用门槛。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VbGtMd3lKUmE5QlZOMFFkQ1U3YTNtSVM3SGZXNkhiTlBIb0FWNXBrTmEtSE00MFVhUEZueUhER2Frc2Z4bVZyaGZ3VkVrTVBBbmtR?oc=5",
       "local_life_hint": ""
     }
   ],
