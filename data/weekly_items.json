@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-11-03T08:33:37.377068+00:00",
+  "generated_at": "2026-11-03T14:35:50.902998+00:00",
   "week_range": "11.02-11.03",
   "date_display": "11.02 - 11.03",
-  "editorial_summary": "本周共汇总 14 条 AI 商业要闻，其中高影响 2 条。本周主线包括：火山引擎MaaS上半年营收48亿元；巨量引擎取消返点，广告代理商全部转为服务商。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 17 条 AI 商业要闻，其中高影响 4 条。本周主线包括：火山引擎MaaS上半年营收48亿元；Seedance海外收入占比达50%，半年增长近5倍；豆包月活4.19亿，日活基数为千问6倍；巨量引擎取消返点，代理商全员转服务商。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5登顶图生视频基准AA-Video-I2V",
       "扣子企业版分阶段下线，字节将推整合产品",
-      "即梦机构伙伴计划单部最高20万，扶持还是圈地"
+      "即梦机构伙伴计划：单部最高给20万"
     ],
     "opinions": [],
     "ecosystem": [
-      "赛力斯AIVA ME7搭载豆包大模型对标小米YU7"
+      "巨量引擎取消返点，代理商全员转服务商",
+      "赛力斯AIVA ME7搭载豆包大模型对标小米YU7",
+      "奔驰新E级接入豆包，42.38万元起售"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（11 条），高影响条目占比约 14%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（11 条），高影响条目占比约 24%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -35,13 +37,13 @@
       "borrow": "外投团队可参考其「能力即服务」的计价方式，把AI素材生成、智能出价、人群洞察等能力拆成可单独售卖或结算的模块，提升对商家预算的议价空间。"
     },
     {
-      "base": "巨量引擎取消代理返点、代理商全部转为服务商，外投渠道的计费方式从返点差价变成服务费。",
-      "borrow": "拿商家预算做外投的团队可参考这一结构，把服务商考核从\"渠道返点\"改为\"效果服务费+ROI对赌\"，用可量化的到店核销与转化指标绑定预算分配。"
+      "base": "巨量引擎取消代理商返点、全员转服务商，平台与代理的分成从返点差价转为服务能力付费。",
+      "borrow": "做外投的商业化团队在设计代理/服务商体系时，可参考这一转向：把激励从\"按消耗返点\"改为\"按效果提升与优化能力付费\"，避免代理靠返点套利而非真实优化拿钱，从而把商家预算更多转化为有效投放。"
     }
   ],
   "insights_intro": "换个视角看，今天字节把视频生成封装成创作流水线、把办公Agent做成多模型编排层、把模型能力做成可计价的MaaS，意味着未来外投的素材生产会更流水线化、投放决策会更模型化、成本结构会更模块化。",
-  "total_items": 14,
-  "high_count": 2,
+  "total_items": 17,
+  "high_count": 4,
   "items": [
     {
       "title": "火山引擎MaaS上半年营收48亿元",
@@ -58,18 +60,46 @@
       "local_life_hint": "火山引擎企业客户增长意味着B端预算池扩大，本地生活商业化团队可探索与云客户的联合营销与交叉销售。"
     },
     {
-      "title": "巨量引擎取消返点，广告代理商全部转为服务商",
-      "explanation": "巨量引擎宣布取消广告代理返点，要求所有代理商未来以服务商身份运营。这是对外投渠道利益结构的一次重排，代理商的盈利模式从吃返点差价转向收服务费，广告主的采购与议价逻辑也随之改变。",
+      "title": "Seedance海外收入占比达50%，半年增长近5倍",
+      "explanation": "字节视频生成模型Seedance的海外收入已占其总收入的一半，过去半年整体收入增长接近5倍，腾讯、B站成为国内主要采购方。这说明字节的大模型能力已从内部工具转为可对外售卖的独立收入来源。",
       "analysis_points": [
-        "代理模式从\"返点驱动\"变成\"服务能力驱动\"，代理商需以优化效果、创意制作、账户运营等能力收费。",
-        "广告主可借机重谈服务合同与考核指标，把预算更多绑定在可量化的投放效果而非渠道关系上。"
+        "能力变化：Seedance从服务字节内部内容生产的视频生成模型，变成对外商业化售卖的模型服务，海外与国内双市场同时放量。",
+        "对广告主的价值：视频素材生成成本进一步下探，代理商与品牌可把Seedance纳入批量短视频素材生产链路，替代部分实拍与外包剪辑预算。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
+      "source": "澎湃新闻",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IRmlGYVRBNzBrVFl0R2Zxb1ByQmgxMUptNVFvZ1RsV3c2c3lEcW5pM05XZHhNLWRXQzFfU1o1RmF6Q01FZUpiR2swN05qdWhjOWZGazFmYlV5Nk9OZGxfXw?oc=5",
+      "local_life_hint": "本地生活商家可用Seedance批量生成门店短视频素材，把单条素材成本压到实拍以下，适合连锁门店做规模化内容投放。"
+    },
+    {
+      "title": "豆包月活4.19亿，日活基数为千问6倍",
+      "explanation": "数据显示豆包月活用户已达4.19亿，日活基数为通义千问的6倍。字节在C端AI助手的用户规模上形成明显领先，但规模能否转化为付费与交易闭环仍是关键问题。",
+      "analysis_points": [
+        "规模变化：豆包从追赶者变成月活第一梯队，日活基数达到竞品6倍，意味着更高的日常调用频次与更强的入口属性。",
+        "对广告主的价值：豆包已成为触达海量用户的对话式入口，品牌可探索在AI助手场景中的问答式曝光与转化路径。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "FourWeekMBA",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdnF2M0trQnAwQTQzUTNYQV9pVl9PMkRWOWNMQTBEVzE0VkJrZ2dxeVJIbThHUWE1cVFEVEI3VjRQZ2pQYk03YnMwR1NVZ3JzdF9wV3JOcHdfaTRvS0tZRS12ZVVJcVdYWVpsel9YOURiM2E3d1NvRndOcGJIQWtpMlJtZXg1M3N3?oc=5",
+      "local_life_hint": "本地生活商家可关注豆包内的本地服务问答场景，提前布局品牌词与门店信息，抢占AI助手的推荐位。"
+    },
+    {
+      "title": "巨量引擎取消返点，代理商全员转服务商",
+      "explanation": "巨量引擎宣布取消广告代理商返点，未来所有代理商都转为服务商模式。这标志着平台与代理生态的分成逻辑从\"返点套利\"转向\"服务能力付费\"，中小代理的生存空间被压缩。",
+      "analysis_points": [
+        "机制变化：代理商收入从依赖平台返点差价，转为按服务能力向广告主收费，投放服务链条的利益分配被重构。",
+        "对广告主的动作：需重新评估代理合作模式与服务定价，把预算更多投向能提供实质优化能力的服务商。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
       "source": "新浪网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oRHpQOHZKZ1NVY0RBdHZyX0NfdGNzTUczdG1RSmljajVfckJoMEUyaFdqVzV2R21HUVltNU5YT0xCM3ZFOHV2X3NpcU1UOUtBSTV6UlVmbnVMdHBIaFJKbms4bFI1OXYtS0JROHBaRjZpdw?oc=5",
-      "local_life_hint": "本地生活商家在选择代运营服务商时，应把考核从返点比例转向ROI与到店核销率，避免为渠道关系付费。"
+      "local_life_hint": "本地生活广告主选择代理时应更看重实际投放优化能力而非返点比例，服务商模式下的考核要转向效果指标。"
     },
     {
       "title": "Seedance 2.5登顶图生视频基准AA-Video-I2V",
@@ -143,101 +173,115 @@
     },
     {
       "title": "扣子企业版分阶段下线，字节将推整合产品",
-      "explanation": "字节宣布扣子（Coze）企业版分阶段下线，后续推出整合产品，被视为内部赛马结束、ToB Agent工具开始收口。对企业客户而言，Agent搭建平台将从多产品并行走向统一入口，迁移与选型需要提前规划。",
+      "explanation": "字节宣布扣子Coze企业版分阶段下线，后续将推出整合型产品。扣子去年还是智能体开发平台公有云市场第一，此次调整意味着字节在智能体平台上的内部赛马结束，资源向统一入口收拢。",
       "analysis_points": [
-        "Coze企业版从独立产品变成将被整合的过渡形态，企业Agent能力将收拢到统一平台，接口与工作流可能面临迁移。",
-        "使用扣子搭建客服、营销自动化流程的商家需评估迁移成本，并关注整合后是否保留原有API与插件生态。"
+        "产品变化：扣子企业版从独立对外售卖的智能体开发平台，转为被整合进更大的产品体系，企业客户面临迁移与重新选型。",
+        "对广告主的动作：已用扣子搭建营销自动化流程的团队需提前评估迁移成本，避免智能体工作流在切换期断档。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "蓝点网",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50RVRtdDBVMEhwQ2ttUm1oVzNGU0xPRU5pS19YaFJTZEVzMjRmUDlmTW9DUldqejJCYnhhejE5V0xmZDZVVTFsY0lPaldaeXVFbDU5NTRRc3V1WENQd25JbnNyS3ktakkxVFJVZk9ZR3NOb2NRTWoyMQ?oc=5",
-      "local_life_hint": "用扣子做私域客服或营销自动化的本地商家，应提前备份工作流，并关注整合产品是否支持多门店、多角色的权限体系。"
+      "local_life_hint": "用扣子做客服或投放自动化的本地生活团队，应提前梳理现有智能体资产，为平台迁移预留时间。"
     },
     {
-      "title": "即梦机构伙伴计划单部最高20万，扶持还是圈地",
-      "explanation": "即梦推出机构伙伴计划，单部短剧最高给20万扶持，引发\"是扶持还是圈地\"的讨论。这说明字节在用补贴锁定短剧创作者与机构供给，与红果的保底补贴收紧形成一放一收的组合。",
+      "title": "即梦机构伙伴计划：单部最高给20万",
+      "explanation": "即梦推出机构伙伴计划，单部作品最高提供20万元扶持，同时配套积分激励。业内对此出现\"是扶持还是圈地\"的争论，核心在于字节用高额保底快速锁定优质AI短剧创作者供给。",
       "analysis_points": [
-        "即梦从纯工具变成带补贴的内容生产平台，用现金激励绑定机构创作者，争夺AI短剧供给。",
-        "对广告主而言，机构供给增加意味着可采购的AI短剧素材变多，定制化种草内容的报价可能下行。"
+        "机制变化：从纯工具免费开放，转为用现金保底加积分绑定机构创作者，形成内容供给侧的排他性合作。",
+        "对广告主的启示：AI短剧内容供给将快速膨胀，品牌可提前锁定优质创作者做定制化剧情植入，抢占内容红利期。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "流媒体网",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42MVUtWTNoWE5IOElXdnJXQlFmclJnbkZZS0lGeGNHTHJjODNrUm0tWXk3TXZ3bUdEN0NZeGNMaTBtb3VzSzVQcmQ2aUtZWWRvWS1xaTFOa1ItRTg4dHNobk9qQ3JULWMxc2xJ?oc=5",
-      "local_life_hint": "本地生活品牌可与即梦生态内的短剧机构合作，用补贴后的低成本产能做区域化剧情种草投放。"
+      "source": "今日流媒体",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42MVUtWTNoWE5IOElXdnJXQlFmclJnbkZZS0lGeGNHTHJjODNrUm0tWXk3TXd3bUdEN0NZeGNMaTBtb3VzSzVQcmQ2aUtZWWRvWS1xaTFOa1ItRTg4dHNobk9qQ3JULWMxc2xJ?oc=5",
+      "local_life_hint": "本地生活品牌可与入选机构合作定制剧情短剧，把门店或套餐植入AI短剧内容，获取低成本曝光。"
     },
     {
-      "title": "红果收紧中小短剧保底补贴，单部从20-35万下调",
-      "explanation": "红果近期收紧对中小短剧制作方的保底补贴，原每部20万至35万的保底被下调。这与红果用户量反超豆包、年收入400亿形成对照，说明字节在短剧供给端从\"撒钱换量\"转向\"控成本提效率\"。",
+      "title": "TikTok Shop新增14天LIVE指标，纳入站外成交",
+      "explanation": "TikTok Shop推出新的14天LIVE指标，把品牌独立站的销售纳入直播带货的统计口径。这让商家能更完整地衡量直播对站外成交的拉动，也强化了平台对品牌全链路价值的证明能力。",
       "analysis_points": [
-        "红果的补贴策略从\"广撒保底\"变成\"收紧中小制作方\"，资源向头部与高ROI内容集中。",
-        "对广告主而言，短剧供给结构变化会影响可投内容的质量与报价，需重新评估短剧投放的性价比。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "禁闻网",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TUFR6QnZCdlAzR3ZhcWdJaFpzN1lueU1LNG95cUpKT3NsVWJ3RWxndXdxVHd2WHBmX2ZzbnNYbURKMHhxLVFVVl8xSUVBci1QdXFLTHk3MGZtc21idTl1cGl6Sld5RjBFaF9CeDJ30gFzQVVfeXFMT3pjRUtVLTNtOC14TFNWdG9xZmpSSDVVMXhYVWEtTXI0QXpuTU82SU5jdE0wZzU5MVk1bFNTR3ctM0Izbi0wVGhSNzcxVHQ0cmtpdXBSU2NmYVliLVJuV3hWWFZZQTd0dGozR3hvamJuYnFhTQ?oc=5",
-      "local_life_hint": "依赖短剧做种草的本地商家，应关注补贴退坡后短剧报价变化，提前锁定性价比高的制作方。"
-    },
-    {
-      "title": "8家企业签署互联网营销宣传自律公约，巨量引擎在列",
-      "explanation": "百度、巨量引擎、腾讯、京东、美团等8家互联网企业签署《互联网营销宣传自律公约》，北京率先出手。这意味着广告营销宣传的合规要求从平台规则上升为行业公约，投放素材的真实性与宣传口径将受更严格约束。",
-      "analysis_points": [
-        "营销宣传从\"平台自查\"走向\"行业公约\"，广告主与代理商在素材表述、效果承诺上需更谨慎。",
-        "对本地生活商家而言，到店核销、折扣宣传等文案需避免夸大，合规审核可能趋严。"
+        "口径变化：直播成交统计从仅算站内下单，扩展到14天内品牌官网成交，衡量窗口与归因范围同时扩大。",
+        "对商家的价值：品牌可据此证明直播的溢出效应，把TikTok直播预算与独立站GMV打通考核。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "medium",
-      "source": "京报网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85amJpYW8ybHQ4SVhYREJqUVVILUFDVXdlby1nSXdFTHBEell1YWRSR3o5TFNHM2NLZHlYWUM5ck1hQWdmYmVJZDNQeXZDc3dEckxTQUxkOE5IczJTMWthQTZtd0ZhUl9SSUhSb3NGR1R4UQ?oc=5",
-      "local_life_hint": "本地商家投放素材应提前做合规自查，尤其折扣力度、销量排名等表述，避免因公约趋严被限流或下架。"
+      "source": "PPC Land",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdV9WRjl3RUpwNkducU96cnNQY1YzZUVvWkN5OExjOU92VnJDd3BfTTZuMGllN1FCVTdCc0dLeFRmOG1EYjZlWmNhdXFIMnZBbVphZWIxTjdzYU1jb0FNbVluZVljV3FjNVZoMFJqb1ZZcEw4eDdNN3Y5dlBLVUVfZEZyblU0d2o3V3Qzag?oc=5",
+      "local_life_hint": "做TikTok直播的本地商家可把独立站成交纳入ROI核算，用溢出效应数据争取更多直播预算。"
     },
     {
-      "title": "新款奔驰E级上市，搭载豆包大模型智能座舱",
-      "explanation": "新款奔驰E级上市，接入豆包大模型并全系配华为HiCar，售价42.38万起。豪华品牌采用豆包大模型，说明字节车载AI方案已进入高端车型，座舱场景的商业化背书进一步增强。",
+      "title": "字节禁止外部AI访问L4代码库与飞书文档",
+      "explanation": "据报道，字节已屏蔽Claude、Codex等外部AI工具访问其L4级代码仓库和飞书文档。这体现字节在内部数据安全与外部AI工具使用之间划出明确边界。",
       "analysis_points": [
-        "豆包大模型从自主品牌扩展到奔驰等豪华品牌座舱，车载AI方案的品牌溢价与行业认可度提升。",
-        "对本地生活而言，高端车型座舱语音入口的用户消费力更强，未来或成为高客单价到店服务的分发位。"
+        "管控变化：从允许员工自由使用外部AI编码工具，转为按代码与文档密级设置访问白名单，安全优先级提升。",
+        "对企业的启示：使用外部AI工具处理敏感商业数据时，需建立分级授权机制，避免核心资产外泄。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vU0lTSGg3VWhzN1MzaG5LQWZLS0F0STZRanhsVWk4dXJoeUtSdzlqb0RMY2JWUHVZa1BJNVZKV0pKaEdoNDFHWFVydVVMSndmc3FLQVE1bjJEQVltLVI5dEVtM1I2N04yV2pMQ1pMaVc0cmRtdEE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "奔驰新E级接入豆包，42.38万元起售",
+      "explanation": "奔驰新款长轴距E级上市，接入豆包大模型与华为HiCar，售价42.38万元起。豆包在高端合资品牌座舱中的落地进一步扩大，车企合作版图持续扩张。",
+      "analysis_points": [
+        "落地变化：豆包从自主品牌与新能源车型，扩展到奔驰等豪华合资品牌的智能座舱，语音交互能力进入高端车型。",
+        "对品牌的启示：车载语音场景成为新的品牌触达入口，本地生活服务可探索与车机语音的联动推荐。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "汽车之家",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYT0ZzbjI3R3ZESjlPVGwtSzkwd3VnTHBJb1d0UnJPRE1OMkxPQktVYVplU2tFcWlqRmlEbHl6b0JTMVBXTXNkUVJGbTVORDVFREt4Ukc0a2RnSDA?oc=5",
-      "local_life_hint": "面向高端客群的本地商家可关注车载语音推荐场景，提前优化门店在高德/车机地图中的信息完整度。"
+      "source": "动点科技",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSE9icjFvZmE5eVBmdTNSR3lTZ1hQUVIyWXVXYXhsSktDNUFOS0ZwNU00UmYtbWR3R0xadlVYUGdKOFY4cEFTV08zRVRwWWNuOENtRmVoYldJczJrMjU1YmlBQXFxQjdjM1V4WVc1ZUNST19yV2dxVklYaGFYLUVIVjJuY2hfa2pRU3NNOUFuYWFwclk?oc=5",
+      "local_life_hint": "本地生活服务可关注车机语音场景的推荐入口，提前布局门店POI在车载导航与语音助手中的呈现。"
     },
     {
-      "title": "字节招聘机器人团队，推动机器人从实验室走向工厂",
-      "explanation": "字节大举招聘机器人相关岗位，推动机器人从实验室走向工厂产线。这是字节在具身智能方向从研发走向落地的信号，与其GenAI人才流向具身智能形成呼应，显示字节在AI硬件与实体场景的延伸。",
+      "title": "豆包工作加入多模型阵营，办公赛道格局生变",
+      "explanation": "豆包工作已支持接入第三方模型，企业可按需调度不同模型完成任务，办公AI从单一模型绑定转向多模型编排。这使豆包工作从字节自有模型入口变成模型调度层。",
       "analysis_points": [
-        "字节从纯软件AI扩展到机器人落地，招聘端到端岗位说明其正补齐硬件与产线部署能力。",
-        "对本地生活而言，机器人落地尚不直接相关，但反映字节AI能力向实体场景外溢的长期趋势。"
+        "能力变化：从只调用豆包自家模型，变成可调度多家模型，企业可按任务成本与效果灵活选择。",
+        "对企业的价值：办公场景的模型采购从绑定单一厂商，转为按场景组合，成本与效果可分别优化。"
       ],
       "category": "大厂动向",
       "type": "fact",
-      "impact": "low",
-      "source": "South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVFlFS0RnbklPZUo4YVFQZE92SFN1OTFTVm1BT1l2QjktWWUxbGRvbS1LVExzRV9XNVJFSGVvMmxjVnFqd09XRjZHN3VhMmNrYXJmS2loWUg1eWoySEEybU1NaDRJUkdWNTZkVkpMcGNXWW9udlA1WHBRV3lfVHZSNjBiNS1zUmx2Q2hrbnR6UXRFa1pGVzY4ZUZmUU5zYU9Ld0NqbkJPNG5reHliSEJqOEFjTFQzOS1VM3h0UnB30gG-AUFVX3lxTE5ZSndKU1VrY21raUZaSTBpQmxsNVNwVmtjWDBIQkpLUU1KbHFydjlFRWJ3eWxidWdXbHlkZ1BiLUpmT19ZeGFUM2t0d2J6ZkpRc01BbWRBVmd3cnRuSWh5UjNLU1pxWjB5TzBlOWJITGRxbW1rUm9Bc2didEoyX2w5STAtZy1wbjc0SzVZRjl4ekRGMHMwVjRpOFJUcFRsZGh3aWJqcFF5ODVZbTdFaDhrenpTSlFBejBWXzZzQ0E?oc=5",
+      "impact": "medium",
+      "source": "华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VbGtMd3lKUmE5QlZOMFFkQ1U3YTNtSVM3SGZXNkhiTlBIb0FWNXBrTmEtSE00MFVhUEZueUhER2Frc2Z4bVZyaGZ3VkVrTVBBbmtR?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "豆包入局导航赛道？官方称仅覆盖短途轻出行",
-      "explanation": "针对豆包是否入局导航赛道，官方回应称仅覆盖短途轻出行场景。这说明豆包在本地出行场景的边界仍较克制，但其向导航延伸的尝试，意味着AI助手可能成为到店与出行决策的入口。",
+      "title": "豆包入局导航？官方称仅覆盖短途轻出行",
+      "explanation": "针对豆包是否入局导航赛道的猜测，官方回应称仅覆盖短途轻出行场景。这意味着豆包在出行服务上的探索仍处轻量试水阶段，尚未正面切入地图导航主战场。",
       "analysis_points": [
-        "豆包从\"问答助手\"试探\"短途轻出行导航\"，能力边界向本地出行场景延伸，但暂不正面挑战地图厂商。",
-        "对本地生活商家而言，短途出行入口若成熟，可能影响用户到店路径与门店曝光方式。"
+        "边界界定：豆包在出行场景的定位是短途轻出行辅助，而非完整导航产品，避免与地图厂商正面冲突。",
+        "对本地生活的信号：短途出行与到店消费天然衔接，豆包若深化该场景，可能成为本地服务的新入口。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "low",
       "source": "汽车之家",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KbXlJOEdkYV9RRE5PNFNyYlNNWjV1aGoyTzFKRVRZblhPTzNjdUw0VUY5SEF2Zjd3YzJFUVFveXNBWlhVaFJkVDBrTEJUZG9NUC1NV2laWmt6anVuRHc?oc=5",
-      "local_life_hint": "本地商家可关注豆包短途出行场景是否开放门店推荐，提前完善门店地址与营业信息。"
+      "local_life_hint": "本地生活平台可关注豆包短途出行场景与到店消费的衔接机会，提前测试门店在轻出行推荐中的曝光。"
+    },
+    {
+      "title": "巨量引擎等8家企业签署互联网营销宣传自律公约",
+      "explanation": "北京率先推动，百度、巨量引擎、腾讯、京东、美团等8家互联网企业联合签署《互联网营销宣传自律公约》。这标志着广告平台在营销宣传合规上开始形成行业性自律框架。",
+      "analysis_points": [
+        "监管变化：从平台各自审核，转向行业联合自律，营销宣传内容的合规标准趋于统一。",
+        "对广告主的动作：投放素材的合规审查将更严格，需提前排查夸大宣传、虚假承诺类表述。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "京报网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85amJpYW8ybHQ4SVhYREJqUVVILUFDVXdlby1nSXdFTHBEell1YWRSR3o5TFNHM2NLZHlYWUM5ck1hQWdmYmVJZDNQeXZDc3dEckxTQUxkOE5IczJTMWthQTZtd0ZhUl9SSUhSb3NGR1R4UQ?oc=5",
+      "local_life_hint": "本地生活广告素材需按自律公约排查宣传用语，避免绝对化表述与虚假优惠承诺导致下架。"
     }
   ],
   "mode": "ai"
