@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-11-03T14:35:50.902998+00:00",
-  "week_range": "11.02-11.03",
-  "date_display": "11.02 - 11.03",
-  "editorial_summary": "本周共汇总 17 条 AI 商业要闻，其中高影响 4 条。本周主线包括：火山引擎MaaS上半年营收48亿元；Seedance海外收入占比达50%，半年增长近5倍；豆包月活4.19亿，日活基数为千问6倍；巨量引擎取消返点，代理商全员转服务商。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-11-04T08:00:07.299680+00:00",
+  "week_range": "11.02-11.04",
+  "date_display": "11.02 - 11.04",
+  "editorial_summary": "本周共汇总 24 条 AI 商业要闻，其中高影响 5 条。本周主线包括：火山引擎MaaS上半年营收48亿元；Seedance海外收入占比达50%，半年增长近5倍；豆包月活4.19亿，日活基数为千问6倍；巨量引擎取消返点，代理商全员转服务商；红果短剧用户量4.3亿超越豆包。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5登顶图生视频基准AA-Video-I2V",
       "扣子企业版分阶段下线，字节将推整合产品",
       "即梦机构伙伴计划：单部最高给20万"
     ],
-    "opinions": [],
+    "opinions": [
+      "红果短剧用户量4.3亿超越豆包",
+      "即梦把剧本导演剪辑放进同一工作室",
+      "红果短剧火了，字节的腰包鼓了"
+    ],
     "ecosystem": [
       "巨量引擎取消返点，代理商全员转服务商",
       "赛力斯AIVA ME7搭载豆包大模型对标小米YU7",
@@ -17,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（11 条），高影响条目占比约 24%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（14 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
   ],
   "local_life_insights": [
     {
@@ -42,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节把视频生成封装成创作流水线、把办公Agent做成多模型编排层、把模型能力做成可计价的MaaS，意味着未来外投的素材生产会更流水线化、投放决策会更模型化、成本结构会更模块化。",
-  "total_items": 17,
-  "high_count": 4,
+  "total_items": 24,
+  "high_count": 5,
   "items": [
     {
       "title": "火山引擎MaaS上半年营收48亿元",
@@ -100,6 +104,20 @@
       "source": "新浪网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oRHpQOHZKZ1NVY0RBdHZyX0NfdGNzTUczdG1RSmljajVfckJoMEUyaFdqVzV2R21HUVltNU5YT0xCM3ZFOHV2X3NpcU1UOUtBSTV6UlVmbnVMdHBIaFJKbms4bFI1OXYtS0JROHBaRjZpdw?oc=5",
       "local_life_hint": "本地生活广告主选择代理时应更看重实际投放优化能力而非返点比例，服务商模式下的考核要转向效果指标。"
+    },
+    {
+      "title": "红果短剧用户量4.3亿超越豆包",
+      "explanation": "QuestMobile报告显示红果短剧用户量达4.3亿，超越豆包。这说明字节在AI内容消费侧的流量底盘仍在扩张，短剧已成为比AI助手更大的用户入口，对广告库存和投放场景有直接影响。",
+      "analysis_points": [
+        "红果短剧用户量从追赶豆包变为超越，达4.3亿，成为字节系新的流量高地。",
+        "对广告主意味着：短剧场景的广告库存和用户时长在扩大，可评估在红果短剧做贴片、植入或信息流投放。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财新",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpcXVEY0lLWXJxd1hzMzBPLUZiRUZobDRpanpST3AxZmhEQ0I5VFA1TVZXNV9XeFIyd21VWlAyUkRCNzRJd24tN01peVdTOEJLR3ZRdVV2TldzM3M3U3NOTTZ5Mk8?oc=5",
+      "local_life_hint": "本地生活商家可关注红果短剧的本地化植入机会，用短剧场景做门店种草，触达下沉市场用户。"
     },
     {
       "title": "Seedance 2.5登顶图生视频基准AA-Video-I2V",
@@ -282,6 +300,90 @@
       "source": "京报网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85amJpYW8ybHQ4SVhYREJqUVVILUFDVXdlby1nSXdFTHBEell1YWRSR3o5TFNHM2NLZHlYWUM5ck1hQWdmYmVJZDNQeXZDc3dEckxTQUxkOE5IczJTMWthQTZtd0ZhUl9SSUhSb3NGR1R4UQ?oc=5",
       "local_life_hint": "本地生活广告素材需按自律公约排查宣传用语，避免绝对化表述与虚假优惠承诺导致下架。"
+    },
+    {
+      "title": "即梦把剧本导演剪辑放进同一工作室",
+      "explanation": "极客公园分析即梦短剧工作室的产品逻辑：把剧本、导演和剪辑放进同一个工作室，认为这代表视频生成的下一步——不是生成更长的片段，而是把创作流程本身产品化。这对理解字节AI视频的商业化路径有参考价值。",
+      "analysis_points": [
+        "即梦的产品形态从'生成工具'变为'创作工作台'，把导演、剪辑等角色能力内嵌到流程中。",
+        "对内容团队意味着：非专业创作者也能完成从脚本到成片的闭环，人力结构可从'拍摄+后期'转向'脚本+审核'。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "极客公园",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE90STZGZk90VzVNeXU4MmxKUWJqX0NrWGNzOXJyRXkzR3VEdmZweDdtRWMtWHVCR1l3S181MExPazg3RWZDbXM3VEMweHc?oc=5",
+      "local_life_hint": "本地生活商家可把门店探店、套餐展示的拍摄外包转为内部脚本+AI成片，压缩内容制作周期。"
+    },
+    {
+      "title": "红果短剧火了，字节的腰包鼓了",
+      "explanation": "智东西分析红果短剧的商业化表现，认为短剧已成为字节新的收入增长点。结合4.3亿用户量，短剧的商业化闭环（广告+付费）正在成型，对字节整体广告收入结构有增量意义。",
+      "analysis_points": [
+        "红果短剧从免费短剧平台变成字节的收入增长点，广告与付费双轮驱动。",
+        "对广告主意味着：短剧场景的变现效率在提升，投放竞争可能加剧，需提前锁定优质库存。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "智东西",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5iYlRmdWpmMXRMQWFzemJLWTVJZENHZU1KUzJjMS1COHpqOTl2b0c5UmVsR2ZRMFhiT2FLZG9hN3ptVjhPd3YwQg?oc=5",
+      "local_life_hint": "本地生活品牌可评估短剧贴片与植入的ROI，作为信息流之外的补充投放场景。"
+    },
+    {
+      "title": "PATEO车载AI Box同时跑英伟达与豆包模型",
+      "explanation": "PATEO基于NVIDIA DRIVE AGX Thor打造AI Box，同时运行英伟达Nemotron和字节豆包大模型，推进车载AI。这显示豆包在车载场景采取多模型协同路线，而非单一大模型包打天下。",
+      "analysis_points": [
+        "豆包在车载场景从单一语音助手变为与英伟达模型协同的舱内智能体，部署在Thor平台。",
+        "对车企和商家意味着：座舱AI能力可组合采购，本地服务接入车载生态的技术路径更清晰。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Automotive World",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPekRuSUo2dU5hUEpTMjN4cG9uTzJTZ1kzSnBUN1J4MDE2WjlXeklYdV9jZUg4N3RhZkJMenB6WkdqUGt4cU56MDVxeEdkSXlCWmZ3X0s3ZW1NMjBJbkozZlFEZUlWLVBySEhWWXpMd1NTNmFPS3k3SElDcmdxMkJDOHdkUU1wbXFTVW9JRUpXMTNlY01tNzZ1MTln?oc=5",
+      "local_life_hint": "本地生活服务可关注多模型座舱的语音下单、导航到店场景，评估与车载AI Box厂商的合作可能。"
+    },
+    {
+      "title": "行云科技与火山引擎签署框架合作",
+      "explanation": "行云科技与火山引擎签署框架合作协议，从自购GPU转向借力火山引擎算力，共建AI算力生态。这反映中小算力玩家正从重资产自建转向云上轻资产，模型云与算力分销的分工格局在形成。",
+      "analysis_points": [
+        "行云科技的算力模式从自购GPU变为借力火山引擎，算力生意'轻重并行'。",
+        "对行业意味着：火山引擎的算力分销网络扩大，模型调用与算力供给的绑定加深，中小玩家接入门槛降低。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1OVDVMY3JRMjREaHF2MkxmaDJoeDJRZTBtQ0FKRVpTdVBDS2VuNkNNN3JlOGZ1bGRmT1UyVmlZU19ZTXdaVzhldg?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "行云科技Token出海绑定火山引擎",
+      "explanation": "行云科技绑定火山引擎衔接字节出海，Token出海布局浮出水面。这说明火山引擎的模型能力正通过合作伙伴向海外市场输出，字节AI商业化的出海路径从自营扩展到生态分销。",
+      "analysis_points": [
+        "火山引擎的Token出海从自营变为通过行云科技等伙伴分销，出海路径多元化。",
+        "对广告主意味着：面向海外市场的AI营销工具可能通过火山引擎生态获得，出海投放的AI能力供给更丰富。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdmZBZDJRUk9ENmRqblE2ci15SmJreEJpMVNZME9lVWxObUlORW9IVlp0TDUxRnktLWpDSjJtRVB5dkdOVUwwSmdrZFJQTkNJLXM0SDVuRzJGRFJZLWk3U1pEMmFYY2RNNms2NjY0ZExRRVRFMkxnMzBHSkpDMXJSU0YwV05QZ2ZZWWlRcg?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节AI战略收拢：扣子企业版下架",
+      "explanation": "潮起网报道字节AI战略收拢，扣子企业版下架。这是字节对AI to B产品线的整合动作，反映其在智能体开发平台上的资源重新配置，对使用扣子的企业客户有直接影响。",
+      "analysis_points": [
+        "扣子企业版从独立产品变为被整合下线，字节AI to B产品线在做减法。",
+        "对商家意味着：依赖扣子企业版搭建智能体的企业需迁移方案，可关注字节后续整合产品的替代路径。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "潮起网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hR2lYc09ILXpPR1pnR0RUX1l0RUluWDNBUXNDSmlwaDB3aVN6a05OTVF1U190V244cWliTmdvRWNCbWJlc285UkljREUtMHRkR25mZHU1WFBlWjJHYWlZMmVEQQ?oc=5",
+      "local_life_hint": "本地生活商家若用扣子搭建客服或营销智能体，需提前规划迁移，避免服务中断。"
     }
   ],
   "mode": "ai"
