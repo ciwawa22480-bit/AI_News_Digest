@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-10-29T13:35:43.517364+00:00",
+  "date_display": "2026年10月29日",
+  "date_short": "2026-10-29",
+  "weekday": "周四",
+  "editorial_summary": "今天字节系AI商业化最值得关注的是「入口+底座」两条线同时推进：豆包工作向企业客户开放Kimi、GLM、DeepSeek等第三方模型，把AI办公从单一自研模型变成多模型调度平台，直接降低企业采购门槛；即梦上线「短剧工作室」，把剧本、分镜、图片、视频串成一站式流水线，配合Seedance 2.5 4K与港大测评第一的口碑，AI短剧从单点工具走向可交付产能。基础设施侧，IDC数据显示火山引擎以45%份额登顶AI座舱、MaaS市场暴增近9倍且份额断层领先，说明字节的模型能力正通过车企与云服务规模化变现。与此同时，豆包爱学月活破2000万、豆包切入旅游预订，C端流量正被导向交易场景；而巨量引擎以AI治AI、配合警方打掉诈捐黑产，则显示广告平台的合规与反作弊能力本身也在成为竞争力。整体看，字节正把模型能力沉淀为可售卖的分发与生产基础设施。",
+  "overview": {
+    "new_products": [
+      "豆包工作向团队版/企业版客户开放第三方模型服务，首批接入Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash，企业无需另行采购，按用量扣减已有AI点数，并可按成员、部门、群组灵活划定可用范围。",
+      "即梦上线「短剧工作室」，提供自研剧本、图片、分镜模型，一站式打通从剧本到成片的全流程AI创作，配合Seedance 2.5 4K的480P样片预览能力，把单点生成工具整合为可交付的短剧生产线。"
+    ],
+    "opinions": [
+      "港大Gen AI视频生成能力测评报告显示Seedance 2.0 Pro生成力最佳，叠加Seedance 2.5 4K发布，外界观点认为字节在AI视频质量上已形成对同行的代际压力，视频能力成为其商业化最硬的筹码。",
+      "多家媒体指出豆包正与旅游预订网站抢生意，AI助手从信息问答转向直接承接交易决策，意味着C端流量入口的商业化路径正从广告曝光向「对话即成交」迁移。"
+    ],
+    "ecosystem": [
+      "IDC报告显示中国MaaS市场暴增近9倍，火山引擎份额断层领先，同时以45%份额登顶AI座舱市场，说明模型能力的竞争已从参数比拼转向云服务与车载等规模化交付渠道的争夺。",
+      "字节AI应用持续收拢资源：小云雀并入即梦、CapCut以插件形式进入ChatGPT，AI工具的入口正从独立App向对话框与超级应用内嵌迁移，生态位重新洗牌。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节今天在B端与C端同时加码：豆包工作开放第三方模型，把AI办公做成多模型调度平台；即梦上线短剧工作室，把Seedance的视频能力封装成可交付的创作流水线。叠加火山引擎在AI座舱与MaaS市场的份额领先，字节正把模型能力转化为可售卖的基础设施与产能。",
+    "初创动向": "本批次字节系候选资讯中缺乏AI初创融资或新品类的有效信息，暂无可纳入的初创动向内容。",
+    "生态动向": "生态层面呈现两条主线：一是AI工具入口向对话框与超级应用内嵌迁移，CapCut以插件进入ChatGPT、小云雀并入即梦都是这一逻辑的注脚；二是广告与内容平台的合规治理持续加码，巨量引擎以AI治AI并配合警方打击黑产，反作弊能力正成为平台基础设施的一部分。",
+    "观点与深度": "观点侧集中在两处：港大测评把Seedance 2.0 Pro列为视频生成能力最佳，为字节视频模型的商业化提供了第三方背书；多家分析则关注豆包切入旅游预订、豆包爱学月活破2000万，讨论AI助手从流量入口向交易与垂直场景延伸的边界。"
+  },
+  "local_life_insights": [
+    {
+      "base": "即梦把Seedance 2.5的视频生成能力封装成「短剧工作室」，剧本、分镜、图片、视频在同一工作流内完成，单条视频的综合制作成本明显下降。",
+      "borrow": "外投团队可把「批量生成多版本剧情化素材」纳入常规投放流程：按门店/品类建立素材模板库，用短剧工作室一次产出5-10个版本做A/B测试，把素材测试从按周迭代压缩到按天迭代，用素材供给量换投放效果的确定性。"
+    },
+    {
+      "base": "豆包工作向企业客户开放第三方模型并按用量扣减AI点数，企业可在同一平台内按任务类型切换不同模型。",
+      "borrow": "外投团队自建AI素材与文案工具时，可参考这种多模型调度思路：把标题生成、脚本撰写、图片生成分派给性价比最高的模型，用统一计费口径管理成本，避免被单一模型的价格与能力绑定。"
+    },
+    {
+      "base": "火山引擎以45%份额登顶AI座舱市场，豆包大模型随20万级车型与合资品牌量产铺开，车载成为高频交互入口。",
+      "borrow": "外投团队可提前评估车机端作为本地服务分发渠道的价值，与车企或车机应用合作测试加油、充电、餐饮等到店场景的推荐位，把座舱纳入未来的投放渠道矩阵。"
+    }
+  ],
+  "insights_intro": "换个视角看，今天字节把视频生成封装成短剧流水线、把办公入口改成多模型调度台、把模型塞进量产车座舱，这三件事都在改造外投的素材供给、工具成本与分发渠道底座。",
+  "total_items": 11,
+  "new_vs_yesterday": 11,
+  "compare_date": "2026-10-28",
+  "high_count": 4,
+  "category_counts": {
+    "大厂动向": 6,
+    "生态动向": 2,
+    "观点与深度": 3
+  },
+  "items": [
+    {
+      "title": "豆包工作开放第三方模型，企业可按需调度Kimi、GLM、DeepSeek",
+      "explanation": "豆包工作宣布向团队订阅版和企业订阅版客户开放第三方模型服务，首批接入Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash等系列模型，企业无需另行向模型厂商采购，按用量扣除已有AI点数。这意味着字节的AI办公产品从单一自研模型走向多模型调度平台，用开放换企业客户的留存与用量。",
+      "analysis_points": [
+        "能力变化：从只提供豆包自研模型，变成企业可在同一工作台内调用多家第三方模型，并可按成员、部门、群组或全员灵活划定可用范围，按模型厂商一键批量启用或单独配置。",
+        "商业价值：企业不必再分别向多家模型厂商采购和结算，采购与权限管理成本被压缩到一个平台内，字节则通过AI点数消耗锁定企业预算，把办公入口变成模型分发的收费通道。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/019/733.htm",
+      "local_life_hint": "本地生活商家若使用AI办公工具做投放素材与文案，多模型可切换意味着可按任务类型选性价比最高的模型，降低日常内容生产成本。"
+    },
+    {
+      "title": "即梦上线短剧工作室，剧本到成片一站式打通",
+      "explanation": "即梦AI上线「短剧工作室」，提供自研剧本、图片、分镜模型，把从剧本生成、分镜设计到画面产出的流程整合到一个平台内。这是字节把Seedance视频生成能力封装成可交付产能的关键一步，AI短剧从零散工具拼接走向流水线生产。",
+      "analysis_points": [
+        "能力变化：从用户分别在多个工具里写剧本、生图、做分镜、生成视频，变成在即梦内一站式完成全流程，模型与流程被产品化封装。",
+        "商业价值：短剧创作者与MCN的内容产能和试错成本被显著压低，可批量产出多版本素材用于投放测试，对需要大量短视频素材的广告主尤其直接。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "凤凰网科技",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SYXJscVFnckxiTWV6Wkp3ZlQzZmlKUmJuMlI3Q29CQjJ2djNkajJfcnJCc0E3MkJ6Y1ZYdXAwTFZIdF9LckR3VGxoWGE?oc=5",
+      "local_life_hint": "本地生活商家可用短剧工作室批量生成剧情化种草短视频，按门店/品类快速产出多版本素材做投放A/B测试。"
+    },
+    {
+      "title": "火山引擎以45%份额登顶AI座舱市场",
+      "explanation": "IDC中国AI座舱市场追踪报告显示，火山引擎以45%份额登顶，市场进入规模起量期。这是AI座舱市场份额首次被系统测算，意味着字节的大模型能力已通过车企渠道实现规模化落地，车载成为其重要的B端变现场景。",
+      "analysis_points": [
+        "能力变化：火山引擎从提供通用大模型API，延伸到为车企提供整套AI座舱解决方案，并已在市场份额上形成领先身位。",
+        "商业价值：座舱是高频交互场景，模型能力一旦随车量产即形成长期调用量，为字节带来稳定的B端收入与数据反馈闭环。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBrWTRZcTNWUDJWNm5BUkl0XzI5NFQxcXN5blVTM1BUdVZTOTRJSHJkWTZGOFktakhjc09ZaGdacDJuZUR0TmpEaQ?oc=5",
+      "local_life_hint": "车载场景的语音交互与本地服务推荐天然衔接，未来座舱内的加油、充电、餐饮推荐可能成为本地生活的新分发入口。"
+    },
+    {
+      "title": "中国MaaS市场暴增近9倍，火山引擎份额断层领先",
+      "explanation": "报告显示中国MaaS市场同比增长近9倍，火山引擎份额断层领先，与阿里、智谱、PPIO等同处第一梯队但拉开差距。这说明企业调用大模型的需求正在快速释放，而字节通过火山方舟承接了其中最大的一块增量。",
+      "analysis_points": [
+        "能力变化：MaaS从早期试点走向规模化采购，火山引擎凭借模型能力与价格策略在增量市场中拿到最大份额。",
+        "商业价值：模型调用量即收入，份额领先意味着字节在B端AI基础设施上已建立规模壁垒，后续可向应用层与行业解决方案延伸。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50dmF0Y19JU25oWGloOUJ4TURsb0Zqdko2UXgxcnUwcEVnb0FvVmZhTjVxMU1vR3hnYTg2LXVXdW9DLXJMbmF6bDU4bUVPU0FwNGxFd0hjbTVxd3h3Q1dkczk0VWF6dG1PRE9IdThjNHJ1ZXZuMy1WTFUtSDR0dkk?oc=5",
+      "local_life_hint": "MaaS价格与份额竞争会持续压低模型调用成本，本地生活团队自建AI素材与客服能力的单位成本将随之下降。"
+    },
+    {
+      "title": "豆包爱学月活破2000万，跻身AI原生App前十",
+      "explanation": "字节重回AI教育顶流，豆包爱学月活突破2000万，进入AI原生App前十。这是豆包系产品在垂直场景中跑出的最大单一成绩，说明字节的AI流量正从通用助手向教育等高粘性垂类分流。",
+      "analysis_points": [
+        "能力变化：豆包从通用对话助手延伸出教育垂类产品，并已形成独立于主App的用户规模。",
+        "商业价值：2000万月活意味着稳定的使用时长与家长付费潜力，为教育类内容与课程分发提供了新的流量池。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LdVF2Y2tnamk3ZlRpQV9nMkxQY3Z3MXQ2Tzh3NzNmaWRINFU2WFZLbHFSRFRuUTd6QkQxVlhwSV9YX1ZrT1MxMDVteFpHQQ?oc=5",
+      "local_life_hint": "教育垂类的家长人群与本地教培、亲子消费高度重合，可作为本地生活投放的人群包参考。"
+    },
+    {
+      "title": "港大测评：Seedance 2.0 Pro视频生成能力最佳",
+      "explanation": "香港大学发布Gen AI视频生成能力测评报告，Seedance 2.0 Pro在生成力上被评为最佳。第三方学术测评的背书，为字节视频模型的商业化提供了质量证明，也强化了其在广告素材生成场景的说服力。",
+      "analysis_points": [
+        "能力变化：Seedance从厂商自述的画质优势，变成在第三方统一测评框架下被验证的领先能力。",
+        "商业价值：广告主在选择AI视频供应商时有了可引用的评测依据，字节在素材生成采购中的议价能力增强。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdklNVzFCcVBrLW5oc0pyYnFQV1lKZW5TV1lCMGdWQ1NFNzdXQm1pcXMydTg3b3VHX3BHeVJTaU85MWk4TzY3TDlxTVVBaTZoZ1dWR2Q5bGEzYmRxcy16VVRuLTNiekdLTVhJRnJYNU12ZnI3V014S0s3VkpOX1ZDdndvcTk4dTU2SG5RWQ?oc=5",
+      "local_life_hint": "本地生活广告主在评估AI视频素材供应商时，可把此类第三方测评作为质量参考，优先选择生成力评分高的模型产出投放素材。"
+    },
+    {
+      "title": "实测即梦短剧工作室：Seedance 2.5最具性价比的用法",
+      "explanation": "爱范儿实测即梦短剧工作室，认为这是Seedance 2.5最有性价比的用法。实测类内容把产品能力转化为可感知的成本收益对比，对创作者与商家的采购决策影响直接。",
+      "analysis_points": [
+        "能力变化：Seedance 2.5的4K生成能力被封装进短剧工作流后，单条视频的综合制作成本明显下降。",
+        "商业价值：中小创作者与商家可用更低预算产出接近专业水准的短剧素材，投放素材的供给量将显著上升。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "爱范儿",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5idUhNNVBPWUpvM3RCWDl3UWZacEE3MWR5RGhfRGhfVzdsa0I1Yk1LZWtxUWQwSWdfdy1zY3ZuZEY2aG8?oc=5",
+      "local_life_hint": "本地商家可参考实测结论，用短剧工作室批量产出剧情化门店短视频，把单条素材成本压到可批量测试的水平。"
+    },
+    {
+      "title": "CapCut以插件形式进入ChatGPT，AI工具入口转向对话框",
+      "explanation": "剪映海外版CapCut将作为插件进入ChatGPT，11月面向手机、桌面和网页端公测。这标志着AI视频工具的分发逻辑从独立App转向嵌入超级对话入口，剪映选择借外部流量池扩大触达。",
+      "analysis_points": [
+        "能力变化：CapCut从需要用户主动打开的视频编辑App，变成可在对话中直接调用的插件能力。",
+        "商业价值：剪映可触达ChatGPT的用户池，降低获客成本，同时把视频编辑能力嵌入用户的对话工作流中。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XcFljZlRBaGVua0RudDFma0thU2s0cE9aN2wyUVVmOVU0VVlrVE54ZEZCcG1xN2RJcW14NnJwVTJPOTdOZGVwN0dTcnVzS3hzOFljZA?oc=5",
+      "local_life_hint": "素材工具嵌入对话入口后，商家在AI对话中直接生成并剪辑投放视频的路径变短，需提前准备适配竖屏与短时长的素材模板。"
+    },
+    {
+      "title": "火山引擎招聘端到端规控与智驾路测专家，加码具身智能",
+      "explanation": "字节跳动加码具身智能，火山引擎招聘端到端规控与智驾路测专家。这表明字节正把AI能力从云端模型向物理世界的自动驾驶与机器人场景延伸，寻找新的落地出口。",
+      "analysis_points": [
+        "能力变化：火山引擎的AI能力从软件服务扩展到端到端规控与路测等自动驾驶核心环节。",
+        "商业价值：智驾与具身智能是长周期高投入赛道，人才储备意味着字节在为下一阶段的B端技术输出做准备。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "凤凰网科技",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5adEVuQzktSGJyajhsVlV3eDdYVUhmdTVaVmdoTmRJdFZDeHF1Z3BlSExzN3M1VnRadkpadGZlbkpnbjV4dEgtbHFKal8?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "上汽大众ID. ERA 5X首发豆包大模型2.0",
+      "explanation": "上汽大众ID. ERA 5X首发搭载豆包大模型2.0，合资品牌也开始把豆包作为座舱智能化的核心卖点。这说明豆包在汽车行业的客户结构从新势力扩展到传统合资厂商。",
+      "analysis_points": [
+        "能力变化：豆包大模型2.0进入合资品牌车型，座舱交互能力成为新车发布的差异化卖点。",
+        "商业价值：合资品牌销量基数大，一旦规模化搭载，将显著提升豆包在车载场景的装机量与调用频次。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmYkJGemNROERZWnRBWHdnZFFQWEw5cW9hak5FeTNXc1hsWjFRSHJEOUdfMGZtd3dIdUtfQS1QRExEel8ySU5DUDVGRlZTZXl3WlFaU2JyQmNNVkE?oc=5",
+      "local_life_hint": "合资品牌车主群体消费能力稳定，车机端本地服务推荐可作为触达该人群的新渠道。"
+    },
+    {
+      "title": "AI办公排座次：字节与腾讯、阿里同台竞争",
+      "explanation": "报道梳理AI办公赛道格局，百度、腾讯、阿里、字节同台竞争，字节凭借豆包工作与飞书体系占据一席。这类格局分析有助于判断字节在B端办公市场的相对位置与打法差异。",
+      "analysis_points": [
+        "能力变化：AI办公从单点功能比拼，进入模型能力、办公套件与生态整合的综合竞争阶段。",
+        "商业价值：企业客户在选择AI办公平台时更看重模型可选项与权限管理能力，这正是豆包工作开放第三方模型的差异化点。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHhGdU53RG9jOEdXMjlnWG9hTHZSYmxFeFgwd2w1RUhhWk5kUFJJbmRJT1dzd3BMM1ZScmJwYk90Z1YzcDNZWU9qOHFOSUt1TmtMRUg4Z2pKcmVPV0tESGVnZVdGV1JIOEkxTWhkd0VyMk1kb01yU1NiM0hwVzNBdU5UWG9fZ3pESFNBQk1NOA?oc=5",
+      "local_life_hint": ""
+    }
+  ],
+  "mode": "ai"
+}
