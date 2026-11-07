@@ -1,0 +1,141 @@
+{
+  "generated_at": "2026-11-07T07:46:48.272772+00:00",
+  "date_display": "2026年11月07日",
+  "date_short": "2026-11-07",
+  "weekday": "周六",
+  "editorial_summary": "今天字节系AI商业化最值得关注的是「入口与底座」两条线同时推进：一边是飞书与豆包整合、豆包工作升级为商家「生意参谋」并登陆鸿蒙电脑，字节正把AI工作入口从工具型产品改造成面向商家经营的决策入口；另一边是火山引擎以「隐形底座」姿态承接AI手机助手与车企座舱，同时被曝考虑扩建380亿美元巴西数据中心，算力与模型供给的全球化在加速。商业化侧，巨量引擎取消代理商返点、改为直接激励广告主，是广告分发利益链条的一次重排，短期会挤压中小代理商收入，长期把预算与优化能力更直接地交到广告主手里。内容侧Seedance海外收入占比达50%、即梦用伙伴计划把AI短剧从「一集爆火」推向连续化生产，说明视频生成已从尝鲜进入可核算的成本项。整体看，字节正在把模型能力沉淀为可被商家、开发者、车企调用的经营基础设施。",
+  "overview": {
+    "new_products": [
+      "字节将飞书与豆包整合、豆包工作升级为面向商家的「生意参谋」，把办公协作入口改造为可调用经营数据与AI分析的商家决策入口，面向中小商家与广告主。",
+      "豆包工作正式上线鸿蒙电脑AppGallery，成为鸿蒙电脑原生应用，办公AI从移动端扩展到PC端多端协同场景。",
+      "即梦推出AI短剧伙伴计划与创作者成长计划，支持短剧工作室连续化生产，把单集爆款模式改为可持续的系列内容供给。"
+    ],
+    "opinions": [
+      "有分析认为红果用户量超越豆包并不代表AI失势，而是AI内容消费与工具型助手是两条不同赛道，前者靠内容供给驱动留存，后者靠任务完成度驱动使用频次。",
+      "围绕「字节时间」的讨论持续，观点认为字节以极高迭代节奏压缩产品试错周期，扣子企业版下线正是这种「快速试错、快速收敛」策略的体现。",
+      "有报道指出独立开发工具生存空间正被AI办公产品挤占，Coze企业版下线反映大厂把Agent能力收编进办公套件而非单独售卖的趋势。"
+    ],
+    "ecosystem": [
+      "字节被曝考虑扩建巴西380亿美元数据中心并招募开发商推进二期，反映AI算力基础设施正从国内向海外节点分散布局，以支撑TikTok与Seedance的全球推理需求。",
+      "火山引擎以「隐形底座」方式承接AI手机助手与车企座舱，模型能力通过被集成而非直接面向C端，成为字节ToB商业化的主要通道。",
+      "巨量引擎取消代理商返点改为激励制度，广告生态从「代理返点分成」转向「服务能力付费」，中小代理商收入结构面临重排。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节今日主线是ToB版图重构：飞书与豆包整合、豆包工作升级为商家生意参谋并登陆鸿蒙电脑，办公AI从工具走向经营入口。同时火山引擎继续以底座身份渗透手机助手与车企座舱，算力侧则传出巴西数据中心扩建计划，模型供给与基础设施同步外扩。",
+    "初创动向": "今日字节系初创相关动态较少，主要体现为即梦通过伙伴计划与创作者成长计划扶持AI短剧工作室，把内容生产从单集爆款推向系列化、可连续供给的生产模式。",
+    "生态动向": "巨量引擎取消代理商返点、改为直接激励广告主，是广告分发利益链条的一次重排；扣子企业版下线则显示大厂AI开发工具正被收编进办公套件，独立工具生存空间收窄。",
+    "观点与深度": "围绕红果超越豆包、「字节时间」与AI影视商业化临界点的讨论增多，核心分歧在于AI内容消费与AI工具助手是否同一赛道，以及字节高速试错策略的长期代价。"
+  },
+  "local_life_insights": [
+    {
+      "base": "巨量引擎把代理商返点机制改为直接激励广告主，广告预算分配权从代理侧向广告主侧转移",
+      "borrow": "外投团队可设计「预算直达广告主+服务能力付费」的双轨机制，把返点预算转为可量化的效果激励，同时用服务商分层替代代理返点，避免中小服务商因收入断档而流失。"
+    },
+    {
+      "base": "豆包工作升级为商家「生意参谋」，AI从问答助手变为可基于经营数据给出选品、投放、活动建议的决策入口",
+      "borrow": "外投团队可把AI经营诊断嵌入投放前链路，用商家经营数据自动生成投放方案与预算建议，把「投前诊断—投中优化—投后复盘」串成一条AI辅助链路，降低对人工优化的依赖。"
+    },
+    {
+      "base": "Seedance视频生成按秒计价下探至0.16元/秒，素材生产成本从按条试算变为可按秒核算",
+      "borrow": "外投团队可建立按秒核算的素材成本模型，在低价窗口期批量生成多版本素材做A/B测试，把素材生产成本纳入投放ROI统一核算，提升素材迭代频率。"
+    }
+  ],
+  "insights_intro": "换个视角看，今天字节在广告分成机制、商家AI决策入口和视频生成按秒计价三处改造了底座能力，意味着外投的预算分配权、投前诊断链路与素材成本结构都将被重写。",
+  "total_items": 6,
+  "new_vs_yesterday": 6,
+  "compare_date": "2026-11-06",
+  "high_count": 1,
+  "category_counts": {
+    "大厂动向": 2,
+    "生态动向": 2,
+    "观点与深度": 2
+  },
+  "items": [
+    {
+      "title": "豆包工作升级：AI给商家当生意参谋",
+      "explanation": "豆包工作升级后主打为商家提供经营分析能力，定位从通用办公助手转向商家「生意参谋」。这是字节把大模型能力直接嵌入中小商家经营决策链的关键一步。",
+      "analysis_points": [
+        "能力从「问答式办公助手」变为「经营数据分析与建议」，可基于商家数据给出选品、投放、活动建议。",
+        "商家可把日常经营问题交给AI做初步诊断，减少对人工运营的依赖，提升小团队经营效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01ZGdMX3lSYlhXdkhwelg4VVpWeFRvMDQ5SHE3eGlLdmhnclp6dVdSVEphZGt1WUFidmNWcXdiLUlyY0JJUVZYX25menI?oc=5",
+      "local_life_hint": "本地生活商家可用AI做门店经营诊断与活动策划，外投团队可把AI建议与投放方案打通。"
+    },
+    {
+      "title": "Seedance 2.5 API折扣与0.16元每秒定价",
+      "explanation": "报道显示Seedance 2.5 API在双11期间低至0.16元/秒，SkyProduction热门模型限时0积分。视频生成单价持续下探，进入可规模化使用的成本区间。",
+      "analysis_points": [
+        "视频生成成本从「按条试算」变为「按秒计价」，便于商家核算素材ROI。",
+        "低价窗口期适合商家批量测试素材方向，再择优放量投放。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "财中社",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1M051aUNJN3k3Q213QlI3SnBfa3p6dEtBbDZYR1NCTzl5SGlOOHY5SUZ1QngzSjhxbE9Sd1kyV1h6YzhRN29pTXNwejNPSU9YUkRsNng5WGpabHpvRjJIekhjY3Y?oc=5",
+      "local_life_hint": "本地生活商家可在低价期批量生成门店短视频素材，按秒核算投放成本。"
+    },
+    {
+      "title": "扣子企业版下线：独立开发工具空间被挤占",
+      "explanation": "界面报道Coze企业版将下线，独立开发工具生存空间被AI办公产品挤占。字节把Agent能力收编进办公套件，而非单独售卖开发平台。",
+      "analysis_points": [
+        "产品策略从「独立Agent开发平台」变为「能力内嵌办公套件」，降低企业采购复杂度。",
+        "对已使用扣子的企业意味着需迁移到豆包等整合产品，开发投入面临重置。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Jiemian.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9laW1jSmNnWG03MDNJNUxaWTYyRFFGZWpyRnFwRnR0RTk5Ry05emZRNUhwTGhRRGtiMzV1THlxQ285SzM1QWRBWC1tQkY3WTNSdl9EOHFrUlc?oc=5",
+      "local_life_hint": "使用扣子搭建商家工具的服务商需提前规划迁移到豆包生态。"
+    },
+    {
+      "title": "红果用户量超越豆包引发AI赛道之争",
+      "explanation": "报道称红果用户量超越豆包，引发AI影视是否跨过商业化临界点的讨论。观点认为AI内容消费与AI工具助手是两条不同赛道，用户量对比意义有限。",
+      "analysis_points": [
+        "用户增长逻辑从「工具使用频次」变为「内容供给驱动留存」，红果靠短剧内容拉高时长。",
+        "对广告主意味着短剧场景的贴片与植入库存增加，可作为本地生活内容投放新渠道。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Vocal",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nOVpaTnhkT1ZaZjhsZV9YbFk0ZWN5ejVRcnEtNUhUcklhU1VMd2N2d2FqU2YwQ1lUeWloQ2pFY2JXT3F2WG02YUI4N3VtZVRJTFlNZEF5QUhjeXBualVUeGVvYkdzcDBkYmloVFhsQXNTS0NWcnhrMHpR?oc=5",
+      "local_life_hint": "本地生活品牌可尝试短剧植入与贴片，触达高时长内容用户。"
+    },
+    {
+      "title": "字节AI战略：腾讯B站成Seedance国内采购主力",
+      "explanation": "报道指出Seedance国内采购主力为腾讯、B站等平台，说明视频生成模型正被内容平台规模化采购。字节模型对外输出成为新的收入来源。",
+      "analysis_points": [
+        "客户结构从零散开发者变为大型内容平台，采购规模与稳定性提升。",
+        "对广告主意味着视频生成能力将通过更多平台触达，素材供给更丰富。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSa2NWZ1pmVjA5WDdBWGQ3YkQ0UXFuWlFlRGRhMHVFZTh0UlQzWTNsZVpLYng4U2NPNTVCNVZabW5YNjBGUWNIekVkU0ltODB6TUtDWmZCbEVZVnlmckFNdHBiWHFHTVVqa29heUZvU2xtamo4VVEtbGZEOWZMdzQ?oc=5",
+      "local_life_hint": "本地生活素材供给可借助更多平台的视频生成能力，降低制作门槛。"
+    },
+    {
+      "title": "字节AI产品烧光10亿后下线引反思",
+      "explanation": "报道称字节某AI产品在投入约10亿元后下线，引发对大厂AI产品试错成本的讨论。这体现字节快速试错、快速收敛的产品策略。",
+      "analysis_points": [
+        "产品策略从「长期投入培育」变为「快速验证、不达标即下线」，资源向头部产品集中。",
+        "对合作方意味着需关注字节产品生命周期，避免过度绑定单一工具。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "凤凰网科技",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ZQTdmcGg0RC1tWURtN3MtNHZkWXNVUE5TaTBVM3NHcnZBZ0o2bTN3ZnNIeWxlaGd2NjVPTTIzTnhRZFhzVWVMeXh5dzk?oc=5",
+      "local_life_hint": "商家选择AI工具时应优先绑定用户规模大、迭代稳定的头部产品。"
+    }
+  ],
+  "mode": "ai"
+}
