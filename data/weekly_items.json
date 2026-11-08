@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T07:57:41.667905+00:00",
+  "generated_at": "2026-11-08T13:48:47.063554+00:00",
   "week_range": "11.02-11.08",
   "date_display": "11.02 - 11.08",
-  "editorial_summary": "本周共汇总 60 条 AI 商业要闻，其中高影响 13 条。本周主线包括：火山引擎MaaS上半年营收48亿元；Seedance海外收入占比达50%，半年增长近5倍；豆包月活4.19亿，日活基数为千问6倍；巨量引擎取消返点，代理商全员转服务商；扣子企业版暂停新售，字节推进企业级产品整合。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 59 条 AI 商业要闻，其中高影响 13 条。本周主线包括：火山引擎MaaS上半年营收48亿元；Seedance海外收入占比达50%，半年增长近5倍；豆包月活4.19亿，日活基数为千问6倍；巨量引擎取消返点，代理商全员转服务商；扣子企业版暂停新售，字节推进企业级产品整合。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "扣子企业版暂停新售，字节推进企业级产品整合",
@@ -46,7 +46,7 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节把视频生成封装成创作流水线、把办公Agent做成多模型编排层、把模型能力做成可计价的MaaS，意味着未来外投的素材生产会更流水线化、投放决策会更模型化、成本结构会更模块化。",
-  "total_items": 60,
+  "total_items": 59,
   "high_count": 13,
   "items": [
     {
@@ -806,88 +806,74 @@
       "local_life_hint": ""
     },
     {
-      "title": "火山引擎从「其他」逆袭为AI云第一梯队",
-      "explanation": "报道复盘火山引擎如何从云市场份额的「其他」类别逆袭至第一梯队，核心靠大模型 API 与智能体能力承接外部客户，是字节 AI 商业化对外输出的主通道。",
+      "title": "火山引擎如何成为AI手机助手的隐形底座",
+      "explanation": "报道分析火山引擎如何成为AI手机助手的“隐形底座”，即通过为大模型提供云端推理与能力接口，支撑手机厂商的AI助手功能。这体现火山引擎在端侧AI生态中的基础设施角色。",
       "analysis_points": [
-        "能力变化：火山引擎从单纯卖算力，转为以大模型调用、智能体平台为核心的产品结构，客户按 token 与调用量付费。",
-        "对广告主价值：模型调用成本与稳定性直接影响 AI 素材生成类工具的价格，火山引擎份额上升有助于压低第三方 AI 营销工具的使用成本。"
+        "能力变化：火山引擎从单纯云服务商，变为手机AI助手的底层模型与推理能力提供方，覆盖多家手机厂商。",
+        "商业价值：手机助手场景是高频流量入口，火山引擎借此触达终端用户，为后续广告与本地服务分发埋下入口。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lS1JkcmRIaFNmc1lwWE5IaFhWY3ZxVUhsY2hEMmJtU2ozTHVveTRPNzJFYTNqX0tTcGZsc19mdkM1N1dTQjVyc2NrV1NBSmdncUpfaEoxdUNpYlRXaXRxTUNwa0NQVGcwV2RNWHc1RzRtZkw5V1JnMg?oc=5",
+      "local_life_hint": "手机助手入口若接入本地服务推荐，未来本地生活广告可借助火山引擎底座触达终端用户。"
+    },
+    {
+      "title": "从“其他”到第一，火山引擎逆袭路径解析",
+      "explanation": "报道梳理火山引擎从市场份额“其他”类别跃升至第一的逆袭路径，反映其在字节AI战略下的快速增长。这为理解字节云与模型服务的商业化能力提供背景。",
+      "analysis_points": [
+        "能力变化：火山引擎从市场边缘玩家成长为份额领先者，依托豆包大模型与字节内部场景打磨。",
+        "商业价值：云与模型服务份额提升意味着更多企业客户接入，广告主可通过火山引擎生态获得AI营销工具。"
       ],
       "category": "大厂动向",
       "type": "opinion",
       "impact": "medium",
       "source": "长江网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nVUhXbnBkdmp2bWhmaDdFS3BPWURqZExvZDdZSGJpMGFybDlYXzRtcGh2ek9ZS2JMbXlQd05hdUVNTHdiSEp5b3BIYk5ZbmJNRDJUMEMwTXEwZnNoUTdrQkxB?oc=5",
-      "local_life_hint": "本地生活团队选择 AI 素材生成供应商时，可优先评估基于火山引擎底座的工具，成本与稳定性更可控。"
+      "local_life_hint": "火山引擎生态扩大后，本地生活服务商可优先接入其AI工具做营销自动化。"
     },
     {
-      "title": "荣威家越07上市首周交付破5000台，首搭豆包座舱",
-      "explanation": "荣威家越 07 上市首周交付突破 5000 台，行业首搭豆包座舱助手，支持拟人化表情、FaceID 账号识别与豆包 App 联动，说明豆包上车已进入真实交付量阶段。",
+      "title": "“字节时间”背后：市场期待责任与担当",
+      "explanation": "评论文章讨论“字节时间”背后是众所期待的责任与担当，反映外界对字节在AI时代角色与节奏的高度关注。这属于对字节企业形象与战略节奏的观点讨论。",
       "analysis_points": [
-        "能力变化：座舱助手从固定语音指令升级为可识别账号、记忆偏好、支持方言外语的对话式助手，并能一句话联动全车功能。",
-        "对商家价值：车内场景成为新的品牌触达位，汽车、快消、出行类广告主可关注豆包座舱内的服务推荐与语音入口合作。"
+        "能力变化：字节从高速扩张的互联网公司，被期待承担更多AI时代的基础设施与社会责任角色。",
+        "商业价值：企业形象与责任叙事影响广告主对平台的信任度，进而影响预算分配倾向。"
       ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/023/884.htm",
-      "local_life_hint": "本地生活到店业务可与车机导航场景结合，在用户驾车途中推送目的地周边餐饮、加油、停车服务。"
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeExuQ2NEb0s2LVFtME1Xb3N6MWh5YTAtRUJwTXV6b2JwblA4TTdBUFpMZURYcHpzbGh5cDNaZEJ0SVJBRlpWQl9PdU54cWpwZ0J0LUgxVkZXNGtYcHNHUkZwX1RadDZ3YlVfTVRGTVNjbUVLSU5rOUlvd2cwZFkwd0pOWGg2UlE?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "火山引擎成AI手机助手的隐形底座",
-      "explanation": "报道分析火山引擎如何成为 AI 手机助手的「隐形底座」，通过云端大模型接口为终端厂商提供语音助手能力，自身不直接面向消费者。",
+      "title": "一级市场没有“字节时间”",
+      "explanation": "投中网文章指出一级市场没有“字节时间”，讨论字节节奏与一级市场投资逻辑的差异。这反映资本对字节AI投入节奏与回报周期的审视。",
       "analysis_points": [
-        "能力变化：手机助手从端侧固定规则，转为云端大模型驱动的对话式助手，厂商按调用量采购火山引擎能力。",
-        "对广告主价值：手机助手成为新的语音入口，未来品牌可通过助手内服务推荐触达用户，值得提前关注合作形式。"
+        "能力变化：字节的快速迭代节奏在一级市场遭遇资本耐心与回报周期的错配。",
+        "商业价值：资本对字节AI商业化的审视，间接影响其生态伙伴与广告主的合作预期。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "投中网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aclRZY3Rid19lYzhHZkMtb01QZnplOHNucDZDWjRmWEYwVG1XaEVxNmtfb2VITXdGRWkzZlBMR1BvcHo3dURic25sbmF3MDVPclhTUXpLRHpRODFxNmFBZlo2LUxjWjlKUHB6Tw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Meta推出Mac版Edits，瞄准剪映桌面市场",
+      "explanation": "Meta将Edits带到Mac并加入AI Agent控制，直接瞄准剪映的桌面市场。这说明字节剪映在桌面视频编辑领域面临国际巨头竞争，AI Agent成为视频编辑新战场。",
+      "analysis_points": [
+        "能力变化：桌面视频编辑从传统剪辑工具，向AI Agent驱动的智能编辑演进，剪映面临功能对标竞争。",
+        "商业价值：剪映需强化AI能力以守住商家与创作者用户，广告主可关注剪映AI编辑功能对素材生产效率的提升。"
       ],
       "category": "生态动向",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lS1JkcmRIaFNmc1lwWE5IaFhWY3ZxVUhsY2hEMmJtU2ozTHVveTRPNzJFYTNqX0tTcGZsc19mdkM1N1dTQjVyc2NrV1NBSmdncUpfaEoxdUNpYlRXaXRxTUNwa0NQVGcwV2RNWHc1RzRtZkw5V1JnMg?oc=5",
-      "local_life_hint": "语音助手入口若开放本地服务推荐，餐饮、零售商家可争取在助手回答「附近有什么」时被优先推荐。"
-    },
-    {
-      "title": "谷歌视频新模型双榜第一力压Seedance并降价三成",
-      "explanation": "谷歌视频新模型在双榜排名第一，力压 Seedance 等模型，并将价格再砍三成，直接加剧视频生成模型的价格竞争。",
-      "analysis_points": [
-        "竞争变化：视频生成从能力比拼进入价格战，头部模型降价三成会压缩同类产品的定价空间。",
-        "对广告主价值：素材生成单价下降，广告主可用更低预算批量测试多版本视频素材。"
-      ],
-      "category": "观点与深度",
       "type": "fact",
       "impact": "medium",
-      "source": "36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE51M0lzNUFNTU1HcGpOSGxxTXdFcHhLS0hpNEJUM1VRaXUxeG05cWpacFdoYW1hWTl0cGtIS0x5elgzcXplSTJqLU1vY1ZkQQ?oc=5",
-      "local_life_hint": "视频素材采购成本有望下降，本地生活商家可提高素材 A/B 测试频次。"
-    },
-    {
-      "title": "Sand.ai融资2亿美元，以开源视频模型挑战Seedance",
-      "explanation": "Sand.ai 融资 2 亿美元，以开源路线挑战可灵与 Seedance，说明视频生成赛道资本仍在加注，字节面对的竞争从大厂扩展到开源初创。",
-      "analysis_points": [
-        "竞争变化：开源视频模型降低使用门槛，可能分流对闭源 API 的价格敏感客户。",
-        "对广告主价值：开源模型可私有化部署，对数据敏感的商家可自建素材生成能力，降低长期调用成本。"
-      ],
-      "category": "初创动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Ventureburn",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0lrQUdoR2xDY3I2elpyaEw3cTFYVVBRY2lYSkhhT19HS3VJa0lvOTk5SUZUdWdEVVpTWUl1T0hrNmlOdnluQUpPWDFWUUo0QWNnZ3BubHNMSGYwU0FMWjVVM253YV9pS1d3OF81MGdZczdnS214WjdrTTF5TDk0RUw4MTJ6V01D0gGIAUFVX3lxTE5DSWtBR2hHbENjcjZ6WnJoTDdxMVhVUFFjaFhKSGFPX0dLdUlrSW85OTlJRlR1Z0RVWlNZSXVPSGs2aU52eW5BSk9YMVZRSjRBY2dncG5sc0xIZjBTQUxaNVUzbndhX2lLV3c4XzUwZ1lzN2dLbXhaN2tNMXlMOTRFTDgxMnpXTUM?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "张一鸣升至中国首富，字节估值受关注",
-      "explanation": "福布斯榜单显示字节联合创始人张一鸣升至中国首富，反映字节整体估值与 AI 业务预期对资本市场的影响。",
-      "analysis_points": [
-        "资本信号：创始人财富排名上升，背后是字节在 AI 与内容业务上的估值重估。",
-        "对合作方：字节资金实力增强，意味着其在 AI 基础设施与商业化投入上更具持续性。"
-      ],
-      "category": "观点与深度",
-      "type": "fact",
-      "impact": "low",
-      "source": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOR25FUkxCNXlVV2VTdTRtbGRkWXFxdWF5al8yeURoOUhxVFRFa2VIU1JtRGlqaVd3aHB4aFhlTXZ2b1NxYTNCcDd6S3lPeTRRRjBxNUw3RlNMRV9TeENPQjNaLVFLZEk1TGExb0owT2U5OHdQUHVaUUtDM3U3N1NwYzQ3bTRUc3ZPb3pVbTRVSkJ1RmVkdHRBQ0NuX29wQk94MXdwN1h5aVlnUVVQX05TWm5VUUhycUxvRURvZmt0Zk1IWFQyRnYtUldkdmFYLTVzNHRteUp2MkpwdmxRTE5GS25mNlpvMTZFYUE?oc=5",
-      "local_life_hint": ""
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QZ2c5aHhER0FfaHNHbUM5WjRiallpVXRPbS1JWUxIbm5udUhXMXBCcEZib3puRV9wY29qaEh6YmNsVG5rRVREbTdZdXdCakNSeGtseVJ2YVFCc0FBV0hVVUdnX1g5U3VNZVN4N3BaMkhIZTlZaHc?oc=5",
+      "local_life_hint": "剪映若加速AI编辑能力，本地生活商家制作短视频素材的效率将提升。"
     }
   ],
   "mode": "ai"
