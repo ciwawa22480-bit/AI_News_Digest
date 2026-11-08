@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-11-08T07:57:41.653615+00:00",
+  "date_display": "2026年11月08日",
+  "date_short": "2026-11-08",
+  "weekday": "周日",
+  "editorial_summary": "今天字节系 AI 商业化最值得关注的是「入口与底座」两条线同时推进：一是飞书与豆包将整合，字节把 ToB 办公入口收拢到豆包这一超级 App 上，扣子企业版分阶段下线正是这一整合的代价与注脚；二是火山引擎从「其他」逆袭为 AI 手机助手与座舱的隐形底座，荣威家越 07 首周交付破 5000 台、奔驰 E 级搭豆包上市，说明大模型上车已从发布会走进交付量。与此同时，Seedance 海外收入占比达 50%、腾讯 B 站成国内采购主力，视频生成模型正成为字节对外输出的现金流业务；巨量引擎取消代理商返点改激励、直接让利广告主，则是广告侧最实的一次利益再分配。整体看，字节正在用「一个办公入口 + 一个模型底座 + 一个广告变现机器」重构 AI 商业化闭环。",
+  "overview": {
+    "new_products": [
+      "字节推进飞书与豆包整合，把文档、IM、日程等办公能力收进豆包这一 AI 工作入口，面向企业员工提供对话式办公，扣子企业版分阶段下线为整合让路。",
+      "荣威家越 07 行业首搭豆包座舱助手，支持拟人化表情、FaceID 账号识别记忆、豆包 App 联动与方言外语，实现一句话联动全车、多人交流不打断，上市首周交付破 5000 台。",
+      "火山引擎以模型与智能体能力成为 AI 手机助手的「隐形底座」，通过云端大模型接口为终端厂商提供语音助手与系统级调用能力，自身不直接面向消费者。"
+    ],
+    "opinions": [
+      "有分析认为扣子企业版下线并非 AI 工作流赛道遇冷，而是独立开发工具被 AI 办公入口挤占，字节选择把工作流能力内化进豆包而非单独售卖，反映大厂 AI 产品从「卖工具」转向「卖入口」。",
+      "围绕 Seedance 海外收入占比达 50%，市场观点认为字节视频生成模型已跑通全球化变现，腾讯、B 站成为国内采购主力，说明模型能力对外输出比自建应用更快形成收入。",
+      "有声音认为红果短剧 4.3 亿用户反超豆包，标志 AI 影视与短剧内容消费已跨过商业化临界点，字节的内容分发能力正被 AI 生产端放大。"
+    ],
+    "ecosystem": [
+      "字节系 AI 生态呈现「入口收拢、底座外供」态势：C 端与 B 端入口向豆包集中，模型与算力能力则通过火山引擎向手机、汽车、内容平台等外部客户输出。",
+      "视频生成赛道竞争加剧，谷歌新模型双榜第一并降价三成，Sand.ai 融资 2 亿美元以开源路线挑战可灵与 Seedance，字节需靠海外收入与客户结构守住份额。",
+      "字节被传接近与联发科达成 AI 数据中心芯片合作、并评估扩建巴西数据中心，算力与合规基础设施正成为其全球化商业化的前置投入。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节今日主线是 ToB 版图重构：飞书与豆包整合、扣子企业版分阶段下线，办公入口向豆包集中；同时豆包座舱在荣威、奔驰等车型上从发布走向交付，火山引擎则以隐形底座身份承接手机与汽车客户。",
+    "初创动向": "Sand.ai 融资 2 亿美元以开源视频模型挑战可灵与 Seedance，说明视频生成仍是资本最密集的赛道，字节面对的挑战者正从大厂扩展到开源初创。",
+    "生态动向": "巨量引擎取消代理商返点改激励、直接让利广告主，是广告生态利益结构的实质调整；火山引擎算力外供与芯片、数据中心布局则构成基础设施侧的长期变量。",
+    "观点与深度": "围绕扣子下线、Seedance 海外收入、红果反超豆包，市场讨论集中在「独立工具是否被入口吞并」「模型外供能否成为第二增长曲线」「AI 内容消费是否已过商业化临界点」三个判断上。"
+  },
+  "local_life_insights": [
+    {
+      "base": "巨量引擎把代理商返点改为对广告主的直接激励，代理从返点分成转向服务费模式",
+      "borrow": "美团商业化等外投团队可对照检查自身代理返点结构，评估是否把部分返点转为对商家的直接激励或效果补贴，提升预算到手透明度与续投率。"
+    },
+    {
+      "base": "Seedance 视频生成模型海外收入占比达 50%，模型能力对外售卖形成规模化现金流",
+      "borrow": "外投团队可评估将内部素材生成能力产品化、对外按调用收费的可行性，把素材生产成本中心转为可计价的服务收入。"
+    },
+    {
+      "base": "豆包座舱在荣威、奔驰等量产车型落地，车内语音成为可交互的服务入口",
+      "borrow": "本地生活外投可提前测试车机场景的到店服务推荐位，把导航目的地与周边商家优惠打通，抢占驾车途中的决策时点。"
+    }
+  ],
+  "insights_intro": "换个视角看，今天字节把广告返点结构改成对广告主直接激励、把视频生成模型卖到海外占收入一半、把豆包塞进量产车座舱，这三件事分别改写了外投的成本结构、素材供给和触达场景。",
+  "total_items": 6,
+  "new_vs_yesterday": 6,
+  "compare_date": "2026-11-07",
+  "high_count": 0,
+  "category_counts": {
+    "大厂动向": 2,
+    "生态动向": 1,
+    "观点与深度": 2,
+    "初创动向": 1
+  },
+  "items": [
+    {
+      "title": "火山引擎从「其他」逆袭为AI云第一梯队",
+      "explanation": "报道复盘火山引擎如何从云市场份额的「其他」类别逆袭至第一梯队，核心靠大模型 API 与智能体能力承接外部客户，是字节 AI 商业化对外输出的主通道。",
+      "analysis_points": [
+        "能力变化：火山引擎从单纯卖算力，转为以大模型调用、智能体平台为核心的产品结构，客户按 token 与调用量付费。",
+        "对广告主价值：模型调用成本与稳定性直接影响 AI 素材生成类工具的价格，火山引擎份额上升有助于压低第三方 AI 营销工具的使用成本。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "长江网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nVUhXbnBkdmp2bWhmaDdFS3BPWURqZExvZDdZSGJpMGFybDlYXzRtcGh2ek9ZS2JMbXlQd05hdUVNTHdiSEp5b3BIYk5ZbmJNRDJUMEMwTXEwZnNoUTdrQkxB?oc=5",
+      "local_life_hint": "本地生活团队选择 AI 素材生成供应商时，可优先评估基于火山引擎底座的工具，成本与稳定性更可控。"
+    },
+    {
+      "title": "荣威家越07上市首周交付破5000台，首搭豆包座舱",
+      "explanation": "荣威家越 07 上市首周交付突破 5000 台，行业首搭豆包座舱助手，支持拟人化表情、FaceID 账号识别与豆包 App 联动，说明豆包上车已进入真实交付量阶段。",
+      "analysis_points": [
+        "能力变化：座舱助手从固定语音指令升级为可识别账号、记忆偏好、支持方言外语的对话式助手，并能一句话联动全车功能。",
+        "对商家价值：车内场景成为新的品牌触达位，汽车、快消、出行类广告主可关注豆包座舱内的服务推荐与语音入口合作。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/023/884.htm",
+      "local_life_hint": "本地生活到店业务可与车机导航场景结合，在用户驾车途中推送目的地周边餐饮、加油、停车服务。"
+    },
+    {
+      "title": "火山引擎成AI手机助手的隐形底座",
+      "explanation": "报道分析火山引擎如何成为 AI 手机助手的「隐形底座」，通过云端大模型接口为终端厂商提供语音助手能力，自身不直接面向消费者。",
+      "analysis_points": [
+        "能力变化：手机助手从端侧固定规则，转为云端大模型驱动的对话式助手，厂商按调用量采购火山引擎能力。",
+        "对广告主价值：手机助手成为新的语音入口，未来品牌可通过助手内服务推荐触达用户，值得提前关注合作形式。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lS1JkcmRIaFNmc1lwWE5IaFhWY3ZxVUhsY2hEMmJtU2ozTHVveTRPNzJFYTNqX0tTcGZsc19mdkM1N1dTQjVyc2NrV1NBSmdncUpfaEoxdUNpYlRXaXRxTUNwa0NQVGcwV2RNWHc1RzRtZkw5V1JnMg?oc=5",
+      "local_life_hint": "语音助手入口若开放本地服务推荐，餐饮、零售商家可争取在助手回答「附近有什么」时被优先推荐。"
+    },
+    {
+      "title": "谷歌视频新模型双榜第一力压Seedance并降价三成",
+      "explanation": "谷歌视频新模型在双榜排名第一，力压 Seedance 等模型，并将价格再砍三成，直接加剧视频生成模型的价格竞争。",
+      "analysis_points": [
+        "竞争变化：视频生成从能力比拼进入价格战，头部模型降价三成会压缩同类产品的定价空间。",
+        "对广告主价值：素材生成单价下降，广告主可用更低预算批量测试多版本视频素材。"
+      ],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE51M0lzNUFNTU1HcGpOSGxxTXdFcHhLS0hpNEJUM1VRaXUxeG05cWpacFdoYW1hWTl0cGtIS0x5elgzcXplSTJqLU1vY1ZkQQ?oc=5",
+      "local_life_hint": "视频素材采购成本有望下降，本地生活商家可提高素材 A/B 测试频次。"
+    },
+    {
+      "title": "Sand.ai融资2亿美元，以开源视频模型挑战Seedance",
+      "explanation": "Sand.ai 融资 2 亿美元，以开源路线挑战可灵与 Seedance，说明视频生成赛道资本仍在加注，字节面对的竞争从大厂扩展到开源初创。",
+      "analysis_points": [
+        "竞争变化：开源视频模型降低使用门槛，可能分流对闭源 API 的价格敏感客户。",
+        "对广告主价值：开源模型可私有化部署，对数据敏感的商家可自建素材生成能力，降低长期调用成本。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Ventureburn",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0lrQUdoR2xDY3I2elpyaEw3cTFYVVBRY2lYSkhhT19HS3VJa0lvOTk5SUZUdWdEVVpTWUl1T0hrNmlOdnluQUpPWDFWUUo0QWNnZ3BubHNMSGYwU0FMWjVVM253YV9pS1d3OF81MGdZczdnS214WjdrTTF5TDk0RUw4MTJ6V01D0gGIAUFVX3lxTE5DSWtBR2hHbENjcjZ6WnJoTDdxMVhVUFFjaFhKSGFPX0dLdUlrSW85OTlJRlR1Z0RVWlNZSXVPSGs2aU52eW5BSk9YMVZRSjRBY2dncG5sc0xIZjBTQUxaNVUzbndhX2lLV3c4XzUwZ1lzN2dLbXhaN2tNMXlMOTRFTDgxMnpXTUM?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "张一鸣升至中国首富，字节估值受关注",
+      "explanation": "福布斯榜单显示字节联合创始人张一鸣升至中国首富，反映字节整体估值与 AI 业务预期对资本市场的影响。",
+      "analysis_points": [
+        "资本信号：创始人财富排名上升，背后是字节在 AI 与内容业务上的估值重估。",
+        "对合作方：字节资金实力增强，意味着其在 AI 基础设施与商业化投入上更具持续性。"
+      ],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "low",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOR25FUkxCNXlVV2VTdTRtbGRkWXFxdWF5al8yeURoOUhxVFRFa2VIU1JtRGlqaVd3aHB4aFhlTXZ2b1NxYTNCcDd6S3lPeTRRRjBxNUw3RlNMRV9TeENPQjNaLVFLZEk1TGExb0owT2U5OHdQUHVaUUtDM3U3N1NwYzQ3bTRUc3ZPb3pVbTRVSkJ1RmVkdHRBQ0NuX29wQk94MXdwN1h5aVlnUVVQX05TWm5VUUhycUxvRURvZmt0Zk1IWFQyRnYtUldkdmFYLTVzNHRteUp2MkpwdmxRTE5GS25mNlpvMTZFYUE?oc=5",
+      "local_life_hint": ""
+    }
+  ],
+  "mode": "ai"
+}
