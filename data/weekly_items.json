@@ -1,28 +1,25 @@
 {
-  "generated_at": "2026-11-10T08:51:43.757991+00:00",
+  "generated_at": "2026-11-10T15:12:26.302600+00:00",
   "week_range": "11.09-11.10",
   "date_display": "11.09 - 11.10",
-  "editorial_summary": "本周共汇总 18 条 AI 商业要闻，其中高影响 4 条。本周主线包括：字节ToB重构：飞书与豆包将整合；字节发布Seedream 5.5：百轮编辑不崩坏，支持透；Seedream 5.5同步接入豆包、豆包工作与即梦；Seedream 5.5成本减半，火山引擎本周上线API。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 28 条 AI 商业要闻，其中高影响 4 条。本周主线包括：字节ToB重构：飞书与豆包将整合；字节跳动发布 Seedream 5.5：支持 100 轮；北京、上海、浙江三地成立跨区域电商知识产权协同保护联盟；Exclusive: TikTok Shop launc。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
-      "字节发布Seedream 5.5：百轮编辑不崩坏，支持透明通道直出",
-      "Seedream 5.5同步接入豆包、豆包工作与即梦",
-      "Seedream 5.5成本减半，火山引擎本周上线API"
+      "字节跳动发布 Seedream 5.5：支持 100 轮连续编辑与原生透明素材生",
+      "Exclusive: TikTok Shop launches a paid p",
+      "字节跳动发布Seedream5.5图像创作模型 API单张成本约0.28元"
     ],
-    "opinions": [
-      "实测Seedream 5.5：豆包想把AI作图接进整条工作流",
-      "即梦新模型实测：AI生图卷到头又被推进一步"
-    ],
+    "opinions": [],
     "ecosystem": [
       "Sand.ai融资2亿美元，开源视频模型挑战Seedance"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（11 条），高影响条目占比约 22%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（25 条），高影响条目占比约 14%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
-    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
+    "资本与融资动向持续活跃，本周多起中大型融资/并购信号，AI 赛道估值分化加剧。"
   ],
   "local_life_insights": [
     {
@@ -36,10 +33,14 @@
     {
       "base": "即梦推出机构伙伴计划，单部AI内容最高补贴20万，把AI创作从个人工具使用转为机构化产能供给。",
       "borrow": "外投团队可对接入选机构名单，用补贴后的低成本产能批量生产短剧式种草素材，把内容营销单价打下来，同时锁定优质产能供给。"
+    },
+    {
+      "base": "生成式视频底座升级：视频从'套模板'转向'自然语言直接生成 + 数字分身出镜'。",
+      "borrow": "外投团队可把'AI 批量生成商家口播/带货素材'纳入投放链路，用素材数量与快速迭代摊薄单条获客成本，而非继续依赖人工拍摄。"
     }
   ],
   "insights_intro": "换个视角看，今天字节在视频生成底座、代理激励结构与AI内容产能补贴上的改造，正让外投的素材成本、代理分成与内容供给方式同时发生变化。",
-  "total_items": 18,
+  "total_items": 28,
   "high_count": 4,
   "items": [
     {
@@ -57,46 +58,39 @@
       "local_life_hint": "本地生活商家团队可关注飞书+豆包整合后的内容协作能力，用于门店素材审批与投放复盘流程。"
     },
     {
-      "title": "字节发布Seedream 5.5：百轮编辑不崩坏，支持透明通道直出",
-      "explanation": "字节Seed发布新一代图像创作模型Seedream 5.5，核心升级是非编辑区域像素级保持、同一作品最多100轮连续编辑、原生RGBA透明素材直出，并提升文字渲染与光照材质表现。这意味着AI生图从一次性出图转向可反复精修的生产工具。",
-      "analysis_points": [
-        "能力变化：从「生成一张图」变成「围绕同一作品连续改100轮且不跑偏」，非编辑区域像素级锁定，改文案不再带着背景和人物一起变。",
-        "商业价值：原生RGBA透明输出省去抠图环节，图层拆分适配设计工作流，电商主图、品牌海报、营销物料的返工成本大幅下降。"
-      ],
+      "title": "字节跳动发布 Seedream 5.5：支持 100 轮连续编辑与原生透明素材生成",
+      "explanation": "字节跳动发布 Seedream 5.5：支持 100 轮连续编辑与原生透明素材生成",
+      "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "AIHOT",
-      "url": "https://aihot.news/items/xsvt2hlwuovul9sdvazcw7cxk",
-      "local_life_hint": "本地生活商家做团购主图、门店海报时可反复微调文案与价格标签而不破坏画面，素材迭代周期从「重做」变成「改一版」。"
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvVXdQU2ZGeV9Xc05SUjZYMnVqVnpoZ0VDTGp5dEhiWWF1cHc3TGg3LWVlcDFldXVZY1kyUURZNEN0YWxzYjZ4MktaR1prazNLWDVkM0NKbk1vcXVTYlIxNVMySFYwQQ?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
     },
     {
-      "title": "Seedream 5.5同步接入豆包、豆包工作与即梦",
-      "explanation": "Seedream 5.5发布即上线豆包App、豆包工作与即梦三端，用户在豆包「AI创作-图片生成」中可直接选模型，豆包工作内可通过/seed调用Skill技能结合文档素材完成设计任务。模型能力被直接塞进现有产品入口。",
+      "title": "北京、上海、浙江三地成立跨区域电商知识产权协同保护联盟",
+      "explanation": "IT之家 11 月 10 日消息，据北京市知识产权保护中心，11 月 10 日，以“电商无界 · 知产有盟”为主题的跨区域电商知识产权协同保护联盟成立大会在北京举行。北京、上海、浙江三地知识产权保护中心与 京东、淘天、抖音、快手、小红书、拼多多 等联盟发起单位代表，以及海淀区、朝阳区有关部门和相关平",
       "analysis_points": [
-        "产品路径：模型不再单独做App，而是嵌入豆包与即梦的既有创作入口，用户零迁移成本即可用到新能力。",
-        "对广告主价值：在豆包工作里可把已有文档、素材与Seedream 5.5串成一条任务链，品牌海报、营销物料、网站配图在同一链路完成。"
+        "IT之家 11 月 10 日消息，据北京市知识产权保护中心，11 月 10 日，以“电商无界 · 知产有盟”为主题的跨区域电商知识产权协同保护联盟成立大会在北京举行。北京、上海、浙江三地知识产权保护中心与 京东、淘天、抖"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "新京报",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UaGxtRjZpSzFOTnp4R0RYdkpKTnQxdnltS3lhQjRGc1JJdzI3ZS1jaFd1TDJCREFHVmktUm54Q3pKT3pZZlkzcm91bks0WHBycjFoVlc3Z2VHenVLVmdjeWhEM3Y?oc=5",
-      "local_life_hint": "商家无需切换工具，在豆包内即可完成从文案到配图的一站式出图，适合门店日常促销素材的快速生产。"
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/025/142.htm",
+      "local_life_hint": ""
     },
     {
-      "title": "Seedream 5.5成本减半，火山引擎本周上线API",
-      "explanation": "报道称Seedream 5.5在能力升级的同时成本减半，火山引擎将于本周上线该模型的API服务。能力提升叠加价格下降，对需要批量生成素材的广告主和开发者是直接的降本信号。",
-      "analysis_points": [
-        "成本变化：同等图像生成任务的花费下降约一半，批量出图场景的单位素材成本被显著压低。",
-        "可做动作：广告主与代运营方可把大批量素材生产迁到API侧，用更低单价跑A/B测试和多版本素材。"
-      ],
+      "title": "Exclusive: TikTok Shop launches a paid premium tier for 1M of its top US shoppers",
+      "explanation": "Exclusive: TikTok Shop launches a paid premium tier for 1M of its top US shoppers",
+      "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
-      "source": "观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wVnBTMzJ6YnFVNGNJaUdKd3QzWWtYRTZlU09XLTI0XzFCMGxxbUNQaUI0Qmw1cEhhNlBsbVVyZ3RNUlZRZ3NUUFJwOGlHTEU4aG9YVmJwNkI1WWs0dVozUFh3?oc=5",
-      "local_life_hint": "外投团队可把多版素材的生成成本压到原来的五成，用更低预算铺更多素材变体做投放测试。"
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNHFFY2ZDV2JSUDJmQTVRTnlFU0tCRDV2cHlkQUwzS2x0eWlHd3pjakJENVlDa0lDellJdzRuLWlJbGxTN3BBb0EtT1RCaVlzT1hrWkQ2YkdzTGFOQUo3VjB2VlZNOGt2NXV4akZOU1pNRmUxUTZrdUtLQWloMmdTbjhCZGRzLWdsZWR6MWdBbzhOc3VvQ3A3T3A0bGljU1BTQjdWXzUzZENTTEhBNnl3dkhwenU0aUw4TXMwQQ?oc=5",
+      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
     },
     {
       "title": "Seedance国内采购主力曝光：腾讯、B站成主要买家",
@@ -155,145 +149,225 @@
       "local_life_hint": "本地生活商家采购AI工具时应核查其是否属于大厂核心入口体系，规避停服迁移风险。"
     },
     {
-      "title": "实测Seedream 5.5：豆包想把AI作图接进整条工作流",
-      "explanation": "爱范儿实测指出，Seedream 5.5针对「改衣服脸也变、改标题背景重生成、多轮后发灰发糊」等真实痛点做了升级，并支持原生RGBA透明背景与图层拆分。评测认为其目标是把分散在多个工具里的设计工作收进同一条任务链路。",
-      "analysis_points": [
-        "体验变化：多轮编辑后画面不再发灰发糊，局部修改不牵连整体，接近Photoshop式的精准改图。",
-        "对设计协作价值：图层拆分与透明背景让生成结果可直接进入后续排版与合成，减少人工二次处理。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1688447?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "local_life_hint": "本地生活素材常需在固定模板上换价格、换菜品图，像素级锁定让模板复用成为可能，减少重复设计。"
-    },
-    {
-      "title": "Seedream 5.5像素级爆改实测：精准到像素的改图能力",
-      "explanation": "爱范儿用iPhone Duo界面做实验，连续修改把它变成复古磁带播放器，检验Seedream 5.5的像素级精准编辑与多轮一致性。文章同时提到火山引擎本周上线API，AI生图正从「一句话生成」迈向「一句话精确修改」。",
-      "analysis_points": [
-        "能力边界：连续多轮改造同一画面仍保持主体一致，验证了百轮编辑在真实复杂任务中的可用性。",
-        "行业含义：AI生图竞争焦点从「画得像」转向「改得准」，专业图像编辑成为新战场。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1688514?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "local_life_hint": "商家可在同一张门店实拍图上反复替换活动信息与商品，保持门店环境不变，提升素材真实感。"
-    },
-    {
-      "title": "豆包将推付费版，第三方称上月月活首次下滑",
-      "explanation": "第一财经报道豆包将推出付费版本，同时第三方数据显示其上月月活首次出现下滑。这组信号说明豆包在用户规模见顶后，商业化重心正从免费拉新转向付费变现。",
-      "analysis_points": [
-        "阶段变化：月活首降叠加推付费版，标志豆包从规模优先转向收入优先，免费流量红利接近尾声。",
-        "对广告主含义：付费版可能带来更高价值的用户分层，投放触达的人群结构与付费意愿将发生变化。"
-      ],
+      "title": "China clears Saudi-owned Savvy Games' $6 billion purchase of ByteDance's Moonton without conditions",
+      "explanation": "China clears Saudi-owned Savvy Games' $6 billion purchase of ByteDance's Moonton without conditions",
+      "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15QnlsZFpfdnJLa3lSaU5xRFcycklKbTFadi1HX2R2WmJvVFFHdnBoblB1RmphekxTaWZUN1Z0N05VQ2ZKeWFMY2VxR1lWVERHYk1v?oc=5",
-      "local_life_hint": "若豆包付费用户分层清晰，本地生活品牌可针对高付费意愿人群做差异化投放与会员权益设计。"
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWkc4Z0xUd3RISUlHRGZDM1ExMTZmelJIWnR6WDcySHBCdThPbFpKcVBPd3JMZTF4Um5NZF9kY2xaaWtRZ195OWdvT3dTanpuYUNwUHBQYXdTVXIzWFR2c0xVQmR2d2lqR1B0U3djVi1lQ2Vzd0FMc2tzTDRrOWhtdGNvc1N1eHhtbkxBcXk3MExxb0RGMVdwY1k4X1dkQWQ3dGxqTmwxaFEzLTlVNDAtTVRWWTBoN3pX?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "豆包的馅儿是抖音商城：AI入口与电商闭环打通",
-      "explanation": "报道指出豆包背后的商业落点指向抖音商城，AI对话入口与电商交易链路正在打通。这意味着豆包不只是问答工具，而是承接商品推荐与交易转化的新入口。",
-      "analysis_points": [
-        "链路变化：从「AI回答问题」到「AI推荐商品并导向抖音商城成交」，对话即入口、入口即货架。",
-        "对商家价值：商品信息与内容有机会进入豆包的推荐链路，获得来自AI对话场景的新流量。"
-      ],
-      "category": "大厂动向",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "投资界",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wM3RrMDFxc2M3emJzYkZwSnZ0aFgxVjBmSUZjemhneHJERms3X3lZT2JMYUtuMmM0d1pjYWVULU5nZ3k2MkFzNGQ4ZGJmUFZZaHpIN3Bn?oc=5",
-      "local_life_hint": "本地生活商家可关注豆包对话场景的商品曝光机会，提前优化商品标题与卖点以适配AI推荐。"
-    },
-    {
-      "title": "火山引擎发布Seedream 5.5：像素级可控编辑",
-      "explanation": "火山引擎侧发布豆包大模型Seedream 5.5，强调像素级可控编辑与百轮修改不崩坏。模型能力通过火山引擎对外输出，面向企业与开发者提供API级服务。",
-      "analysis_points": [
-        "输出路径：模型能力经火山引擎API对外，企业与开发者可直接集成到自有系统。",
-        "对广告技术团队价值：可把可控编辑能力接入素材生产流水线，实现模板化批量改图。"
-      ],
+      "title": "PATEO Advances In-Vehicle AI with NVIDIA Nemotron and ByteDance Doubao on its AI Box built on NVIDIA DRIVE AGX Thor",
+      "explanation": "PATEO Advances In-Vehicle AI with NVIDIA Nemotron and ByteDance Doubao on its AI Box built on NVIDIA DRIVE AGX Thor",
+      "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yclRjX3Z5R29Db1pCMXhTOUV3R2l0SjVNNWF5OEI2WGVKLW4wak9aV09UVlpWR0swdEhIZTlJRktleTJ6X0t3QXZtb1BjQQ?oc=5",
-      "local_life_hint": "广告技术团队可通过火山引擎API把改图能力嵌入自有素材系统，实现门店素材的自动化批量生产。"
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mZ1hPWEFoZUhDU0QwYTFLNXVjYThSLWpfU2NTM29qNWZkSF94elJsbC1yS2htaks3Yl83Qk9EVDJ0V2N5bFVlMndXTUtSVU1oOHdYcmFhNXFOdw?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "上汽大众ID. ERA 5X首发豆包大模型2.0",
-      "explanation": "上汽大众ID. ERA 5X首发搭载豆包大模型2.0，豆包在车载场景的落地继续扩围。车企把豆包作为智能座舱的对话与交互底座，形成新的分发入口。",
-      "analysis_points": [
-        "落地场景：豆包大模型2.0进入量产车型座舱，车载语音与交互由豆包驱动。",
-        "对品牌价值：车载场景是高频、长时长的入口，未来可能承载本地服务推荐与车机端消费。"
-      ],
+      "title": "字节跳动发布Seedream5.5图像创作模型 API单张成本约0.28元",
+      "explanation": "字节跳动发布Seedream5.5图像创作模型 API单张成本约0.28元",
+      "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "汽车之家",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3Q1ZrbFVKMEYyMFVWSGFDMy1MU2QtcWl5NHRrcy1qQXZyWFRMTEZPSGlYajVVaFQtRk1abFM0YkJlaGtacnVpcTdybFFoQlAtYzBWV244Q0N4c2NXS2c?oc=5",
-      "local_life_hint": "车载场景若接入本地服务推荐，餐饮、加油、停车等商家可提前布局车机端信息呈现。"
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxNUHBuMmJZWWxMYVlvNlIteVU2OEpTbmZvTkszRUFhOU5BMzBKWmF1SFcxbXBxX1VDVlBCVzdaTjNxRDJlZ2drb1g5Z3JOUGg5ME9SamRjX0FsSndENlVZVkRiWmZJTVZ5cy10bzVjck1pQ3FEcVB2NGp2LTA5T1M4Rks0VmtBNzQwQ3RRVjgwX2lKNFZTRXhoUmJPMXZsbzNYOXJIOG9aUXR1c0ZrbXdJdmxKYXppazAyRmsxdUE1d01IVHBlMnB1Rk9yc3lMRnhwSjR6Z1BtSGVqRkV4Q1YzTEpYTTEtVi1fV3NISExQWkpNV2hRb2NnSk4tcEtJcDVEcnpFYV9VN2dVd0RrMFlfdHRCNjBQMERXZGl2bDNIVHRyZXZDTTV6NmtHM3dtTnMtVmRla1ZIbDZ1LUYzWmpwbGhudjBqbVBjY0tkc1h4UjBqdV9FanhVSXU5ZEZSbEg0ZTVCVExkazRpZw?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "特斯拉中国接入豆包，大模型选型引讨论",
-      "explanation": "报道称特斯拉中国接入豆包大模型，并讨论在众多大模型中选择豆包的原因。国际车企在华选用字节模型，说明豆包在中文交互与本地化能力上具备竞争力。",
-      "analysis_points": [
-        "选型信号：国际车企在华落地选择豆包，验证其在中文语音与本地服务理解上的优势。",
-        "生态含义：豆包通过车企合作扩大车载分发面，形成跨品牌的车载入口网络。"
-      ],
+      "title": "百轮改图不崩坏！豆包正式上线字节Seedream 5.5模型",
+      "explanation": "百轮改图不崩坏！豆包正式上线字节Seedream 5.5模型",
+      "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "汽车之家",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OTzdZakdQTUExS3Z0TGs2QU9hUGw1MURvVldHQWdRTGp1RGQ4Mk1vWElVam5lT2V6Yy03UE12SzN1OW9LSVRzUmkzekZMUkRxa1V4QS1ER1JiajQ?oc=5",
-      "local_life_hint": "车载语音入口的扩张，为本地生活服务在车机端的曝光与转化提供了新的想象空间。"
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5nbWFOTGltb3dFdTBMaXdNNTNGV1J6UVF6VzVXQTVncHpNZHFQbFhzUjhDUDVhSy1aaUs2bE5IOEVuT0VsUGU4cmFsMWZjMVl0RUMtelZ5a0s?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "即梦新模型实测：AI生图卷到头又被推进一步",
-      "explanation": "驱动之家实测即梦新模型，认为AI生图在经历一轮内卷后又被推进了一步。即梦作为字节图像创作的C端入口，承接Seedream 5.5能力后体验明显提升。",
-      "analysis_points": [
-        "体验变化：即梦接入新模型后，出图质量与可编辑性同步提升，创作门槛进一步降低。",
-        "对内容创作者价值：短视频与图文创作者可用即梦快速产出高质量配图，降低外包设计依赖。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "驱动之家",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QNGNEQXp5SFR4bm5YZURYSjFiN2NaSld0c3ZHbU9iN2tmMFBlcDloMEFhXzhha3pTSndJYWxOV18tSkgyUy11aDBOTWFMNFEyZkg1WERHZ00?oc=5",
-      "local_life_hint": "本地生活内容创作者可用即梦批量产出探店图文素材，降低日常内容运营的设计成本。"
-    },
-    {
-      "title": "Seedream 5.5提速，字节图像AI打通豆包、即梦与云服务",
-      "explanation": "华尔街见闻报道Seedream 5.5在提速的同时，把豆包、即梦与火山引擎云服务三端打通。模型能力在C端产品与B端云服务之间形成统一供给，避免重复建设。",
-      "analysis_points": [
-        "架构变化：同一模型同时服务C端豆包/即梦与B端火山引擎，能力供给统一、迭代同步。",
-        "商业含义：C端积累的使用反馈可反哺B端API质量，形成数据与能力的双向循环。"
-      ],
+      "title": "字节跳动发布Seedream 5.5，豆包、豆包工作、即梦已同步接入",
+      "explanation": "字节跳动发布Seedream 5.5，豆包、豆包工作、即梦已同步接入",
+      "analysis_points": [],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "华尔街见闻",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WX2xEbzVFc2NwVGtTdHNWRXZ5TVhydFdRX0FwU1BobWVOckdoTmhiV2lCMjZaQS1rVmwyTEI4WFphTE1CZDh1aEh2TV9mMGEwanUw?oc=5",
-      "local_life_hint": "统一底座意味着广告主在C端看到的效果与B端API能力一致，素材生产可放心规模化。"
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UaGxtRjZpSzFOTnp4R0RYdkpKTnQxdnltS3lhQjRGc1JJdzI3ZS1jaFd1TDJCREFHVmktUm54Q3pKT3pZZlkzcm91bks0WHBycjFoVlc3Z2VHenVLVmdjeWhEM3Y?oc=5",
+      "local_life_hint": ""
     },
     {
-      "title": "TikTok Shop向百万美国头部用户推付费会员",
-      "explanation": "TikTok Shop面向约100万美国头部购物者推出付费高级会员，把高价值用户分层运营。这是TikTok电商从流量扩张转向用户价值深挖的信号。",
-      "analysis_points": [
-        "模式变化：从全量免费购物转向对头部用户提供付费权益，用户分层运营开始落地。",
-        "对商家价值：付费会员的复购与客单更高，商家可针对该人群设计专属权益与投放策略。"
-      ],
-      "category": "生态动向",
+      "title": "字节跳动发布豆包图像创作模型Seedream 5.5 成本减半",
+      "explanation": "字节跳动发布豆包图像创作模型Seedream 5.5 成本减半",
+      "analysis_points": [],
+      "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Modern Retail",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNHFFY2ZDV2JSUDJmQTVRTnlFU0tCRDV2cHlkQUwzS2x0eWlHd3pjakJENVlDa0lDellJdzRuLWlJbGxTN3BBb0EtT1RCaVlzT1hrWkQ2YkdzTGFOQUo3VjB2VlZNOGt2NXV4akZOU1pNRmUxUTZrdUtLQWloMmdTbjhCZGRzLWdsZWR6MWdBbzhOc3VvQ3A3T3A0bGljU1BTQjdWXzUzZENTTEhBNnl3dkhwenU0aUw4TXMwQQ?oc=5",
-      "local_life_hint": "会员分层思路可借鉴到本地生活：对高频复购用户提供付费权益，提升单客长期价值。"
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wVnBTMzJ6YnFVNGNJaUdKd3QzWWtYRTZlU09XLTI0XzFCMGxxbUNQaUI0Qmw1cEhhNlBsbVVyZ3RNUlZRZ3NUUFJwOGlHTEU4aG9YVmJwNkI1WWs0dVozUFh3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包上车！字节造车实锤，首款AI汽车或定价10万",
+      "explanation": "豆包上车！字节造车实锤，首款AI汽车或定价10万",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yQzJPZS1oa1Q4cVo2cjlNbVBHN2dlRi1ZZHVxOGF1bEZCbFRQUWMwa3daZkliZnp5SWRIeDZoR0V5N2QtUktpZFR4TTNjRlduX1FxN1BPOE1vMDA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Alibaba QwenWork Rises as ByteDance & Tencent Axe AI Portals",
+      "explanation": "Alibaba QwenWork Rises as ByteDance & Tencent Axe AI Portals",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZUM4WmZUMldIMmw1bGdTeDNZZThRZzJwS0diMGhFWWRwV0xCRnQ0VGlfLU1PZ1FUcllLeUVUWmxwamdoMElRMW5CVm4xemVnMDBhVzNjckN3RFVBbWJ0NnJXVWZqSk5vSUliSGh5dHU4YWt3TXljR3FyeHltZXFxbVk0OXJYSFZtTlB1YmxhMA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Seed Introduces Seedream 5.5 for Multi-Round Image Editing",
+      "explanation": "ByteDance Seed Introduces Seedream 5.5 for Multi-Round Image Editing",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRzRyMExXU1dFX29FdjNIZXFkRmJLeW9iUmJqMWg4RkpwLWxJTnZqQ0ltT3A0eXJ4WnFyclRoTmZZYkxXMl95ODdiQzlPMFdhd3hubnpDWW9pelVxYkFjckJuTzNQR0dPMF81Z0dhcVNLWEc0bjhOM2s5OXh5X3lsQllqcy1CcllBMS1pcHZBNVlTdzBI?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Chen Lin Leaves ByteDance to Start Again, AI Education Venture \"Xiaolu Aixue\" Emerges",
+      "explanation": "Chen Lin Leaves ByteDance to Start Again, AI Education Venture \"Xiaolu Aixue\" Emerges",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xUUxnZ3ZVOXByNjZaLVp3cWVOSlNYZTNQMWk4OUN2VXZnR3FiM3lUblhkTFZyU08xLTlZTGJrdjVjWlR3VDJrOWwyVDU3cDdudTdCd3gweEVXVkNVSjBaNVRRam5NUTdYSURFc1R4Sy1zYi0zVkE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance's Seedream 5.5 Officially Launches on Doubao: Image Design Capabilities Receive a Comprehensive Upgrade",
+      "explanation": "ByteDance's Seedream 5.5 Officially Launches on Doubao: Image Design Capabilities Receive a Comprehensive Upgrade",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9UamhNZ21VSVROUW4yc1hieThBWVdjaWVTbkZJc0NURnRGazFDejZiMVNESlJpdGVJUDJTUGJhQ24tMHRqT1FKZlpn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Rolls Out Seedream 5.5 Image Model as AI Image Generation Competition Intensifies",
+      "explanation": "ByteDance Rolls Out Seedream 5.5 Image Model as AI Image Generation Competition Intensifies",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVmh1LThCM0hYa1c2a0huOFl1anlpY2tLamhXYUFTSzJOdWpqNktVSUhEbGxsS3J5Nlk0NTJhc2RNOFp1NHVFN3Jfb3JIbW9XckRaZElpbkprQ3V3VF94SllJTXVZTU5RRGpaZUtGOE1LT0VBM1Fid0VCQURCbzh2SXc0ZHhGQnZWUDVpNTlmdFUtZjZNekFJZzZNZXNoLXptQ05oZEluTm1lMmZwajY2cWRrQjRGdTQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Releases Seedream 5.5 With Up to 100 Edit Rounds",
+      "explanation": "ByteDance Releases Seedream 5.5 With Up to 100 Edit Rounds",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN0ZRYWdIb2tEdzBjb2FoZU1BLV96dnQxaXBfZVJhUjE3ZHhQN2E2SU5URkpoemo4MmtocWlUNERrZXpDbmZiYXVSd0hRQWtoc3ZRSm1BSzItaXNHb0pneU5HcVREM1dFbXJuVGY5cGh5czdCeVlWUUJBZDE4OW9jSm5DWXVmdEtUX3IxZV9qRQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance's Seedream 5.5 image model keeps edits stable over 100 rounds and outputs transparent images",
+      "explanation": "ByteDance's Seedream 5.5 image model keeps edits stable over 100 rounds and outputs transparent images",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNalFPTkRjdC1FeVRoZmE0TzRqWjZrYmJTakdNcW1wUzZwZnVWSHYwX1V0dDEtVnlKTzliVkR3cVpjZDNDVEJCelVHMVNRX1ZVc0ltczhFX2tDTzNNYWZfUGVoQmJDaFJUdVZFY2ZxcFRVaGtyRWRPMHY3WXB0VUNUbHZsX2UwejlOMFQyXy1mc0RIZi0yb1BmQWtYZGZMVUs0VU1KM0JUX2lGYXh4WkVfdUpPdVI3bGJYRHBMX3dsUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "ByteDance Said to Weigh Expanding $38B Brazil Data Center",
+      "explanation": "ByteDance Said to Weigh Expanding $38B Brazil Data Center",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdkFFQ05HeFFrQUpHMFozLXdvQndfSnRsck01UGxZaVZOSFBQc0h6UmhOXzc4ZlRaU0xRR083SDhlZmFGd2trQmE3Tk9BZUxwM19RYkJrZlNzTnNwYVRNMUE3eTRKUzQ3R2dQbUQ1aEN1ejVsOGtVMXl2Vkt4bXVtNkU1QTZuNWxDVFZReQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seed News",
+      "explanation": "Seed News ByteDance Seed",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMkhQTjU5WHVZSWc1UEd5eWQzOW1mWVJka2sxTmdIMnJJUTluSDR3RlBFSy1FTDFhUHZVUkxjeVkwcWFPb19UYU8zYzg3NktIb0loSzJ0NlhDOE52eVhOMWFzbWY5d0xjZzZ3aS01dTNHdnl5UjhGbVhCS2xBd0gxRXNpVGVXXzE2LUM5WEdTMTlDdFRDekdNM0plZENZSElsU0ZRVU9lY0VnNmVSZHhpeUFNTlphSkpTSnRN?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Owner ByteDance Weighs Data Center Expansion in Brazil",
+      "explanation": "TikTok Owner ByteDance Weighs Data Center Expansion in Brazil",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMlJJV3NKSnJtYXNxRWRUdFRJLWRQWXVPSENXWGFQYi0zV3ZzenZqdXNFNXA3SjFITTZhOG4yTjYyWVFfQWs2Uno2RmdWV1NVc3ZkYzkxWXh0SERLU0cyR3NtelJESnRMUlQxamg0Q1RVeGpXODFFWHJ4NGdqbVdVYlc2ZWFqNThjNjhCT0dpbDZoSm5IdUZ0NVpXLWU3Sk5icW9PQjR5OFFNdjJwVGN3Qkd3?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+      "explanation": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNjNPdm1PelM2cVZreUtWbG8tQUtHUGI2VkxyVDA1WnpzSTRmbWVQRnN6eXRpclZERW1OTnBtUFZLMHhFbWVzT3NBVjh6Rmpack9wbUgxeDJUSkxXdU9EY1pzaFlBc2JIZ1JDUXpaQXVaMl9TYUs3NXVOTVdJRFZtTk9ha2RCWGFibzk3OHg2UXI1bEtNTkl6Z2NNLVpqa0FMS1doUGRLVGhDREFfQzFxSmgzZmoxV2xiWUJjT0N6cw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "What Is TikTok Shop? How It Works for Sellers",
+      "explanation": "What Is TikTok Shop? How It Works for Sellers",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXMlU5NWN6UFJFZzcxdjJ3SVhMRC1TT2V6Um0weGs1V1RpajJhb0Y4M181QkR3b216aHBYMW96cDJGcUk0OHVHNWsyd3l2YlpRQVl0N0QtLUdyU0E?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok launched a dedicated TikTok Shop app",
+      "explanation": "TikTok launched a dedicated TikTok Shop app",
+      "analysis_points": [],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Google News中文",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81ZmpJZEdFcFJibDNPTGJBSDVpc2tHS3ZPeUJlNXVNYXhwVWxETTRHTlNfcy1PT2tmX1dnMXAtTkNfWHk3ZE8xVEt1Qm1nb2JFRDZtZXNjRjJSYXpwcTU2YnFLbw?oc=5",
+      "local_life_hint": ""
     }
   ],
-  "mode": "ai"
+  "mode": "rule"
 }
