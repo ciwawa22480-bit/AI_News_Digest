@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T14:41:55.587879+00:00",
-  "week_range": "11.09-11.11",
-  "date_display": "11.09 - 11.11",
-  "editorial_summary": "本周共汇总 42 条 AI 商业要闻，其中高影响 8 条。本周主线包括：字节ToB重构：飞书与豆包将整合；字节跳动发布 Seedream 5.5：支持 100 轮；北京、上海、浙江三地成立跨区域电商知识产权协同保护联盟；Exclusive: TikTok Shop launc；字节筹备对标 Meta Muse 的 AI 智能体，数周。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-11-12T08:49:48.555529+00:00",
+  "week_range": "11.09-11.12",
+  "date_display": "11.09 - 11.12",
+  "editorial_summary": "本周共汇总 55 条 AI 商业要闻，其中高影响 11 条。本周主线包括：字节ToB重构：飞书与豆包将整合；字节跳动发布 Seedream 5.5：支持 100 轮；北京、上海、浙江三地成立跨区域电商知识产权协同保护联盟；Exclusive: TikTok Shop launc；字节筹备对标 Meta Muse 的 AI 智能体，数周。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节跳动发布 Seedream 5.5：支持 100 轮连续编辑与原生透明素材生",
@@ -20,11 +20,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（32 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（38 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
-    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。"
   ],
   "local_life_insights": [
     {
@@ -45,8 +45,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在视频生成底座、代理激励结构与AI内容产能补贴上的改造，正让外投的素材成本、代理分成与内容供给方式同时发生变化。",
-  "total_items": 42,
-  "high_count": 8,
+  "total_items": 55,
+  "high_count": 11,
   "items": [
     {
       "title": "字节ToB重构：飞书与豆包将整合",
@@ -156,6 +156,48 @@
       "source": "凤凰网",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE44eUppeHc3QjdGNFBfUXByczZhcmtmRzNJbTdjMmNXZV83T21KU2o0dV9IQmtQdnJMZXFwenpoWTVtT3lxX2NGbUlRMzY?oc=5",
       "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5 flash 发布：速度翻倍、单秒约 0.99 元",
+      "explanation": "字节火山引擎推出 Seedance 2.5 flash 视频生成模型，生成速度较上一代翻倍，单秒视频成本降至约 0.99 元。对以视频素材为核心投放形式的广告与本地生活商家而言，这是把「批量出片」从奢侈变成常规操作的关键降价。",
+      "analysis_points": [
+        "能力变化：视频生成从「按条计费、速度受限」变为「速度翻倍、单秒约 0.99 元」，单位素材成本显著下探。",
+        "对广告主价值：短剧、电商种草、本地生活探店类短视频可批量生成多版本素材做 A/B 测试，试错成本大幅降低。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JbTAySWppWHJGVGtUZXl4UHVCNC0xeVEzbUtac0Q4WldsR3p1XzkwOEZKNGZfUGM5Ti03VnJZUWt5NTdsTXZKSUxsUnMySW5KdDFQNnBIZEQ?oc=5",
+      "local_life_hint": "本地生活商家可用低成本视频批量生成门店探店、菜品展示素材，按平台分别出竖版/横版多版本投放。"
+    },
+    {
+      "title": "即梦下场做 AI 短剧工作室，视频 AI 加速跑",
+      "explanation": "即梦一个月内连发两个工作室并推出 AI 短剧工作室，由张楠带队加速视频 AI 布局。这意味着字节把视频生成模型从单点工具升级为面向内容团队的创作流水线，短剧产能有望快速放大。",
+      "analysis_points": [
+        "产品形态：从单一视频生成工具变为「工作室」形态，覆盖剧本、分镜、生成、剪辑的连续创作流程。",
+        "商业价值：短剧与信息流内容团队可把产能瓶颈从人力转向算力，广告主可获得更丰富的视频素材供给。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOEVkVzZPY0ZSVXd0VTBMQk9FRXJNZF9raF9vZ1k1eXI4M1BCb0pRWHM2Y05RbHVKdERaOGgwaHo5b29KWU90azlqY2JEYjJvUWg2Xy1aVnZxVi1SRnJNbDlfVU9qTkhmZWZjT19uNnJFcnJ3Vm92M0ZkeWVxdVFDYnl5NkZ4Y1BPOWhtbg?oc=5",
+      "local_life_hint": "本地生活服务商可借鉴工作室模式，把商家素材生产拆成标准化环节，用 AI 批量产出短剧式种草内容。"
+    },
+    {
+      "title": "豆包工作接入 Kimi、GLM、DeepSeek 多模型",
+      "explanation": "豆包工作宣布接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等第三方模型，并在选择页标注额度消耗倍率。字节从「只卖自家模型」转向做模型聚合的办公入口，用模型自由换用户留存。",
+      "analysis_points": [
+        "能力变化：从单一豆包模型变为多厂商模型可选，用户可按编程、文档、数据分析等任务自主选型。",
+        "商业价值：额度倍率标注让企业客户能按成本选模型，降低办公 AI 的采购决策门槛，利于规模化铺开。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1689176?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": "商家运营团队可在同一办公平台内按任务选模型，降低多工具切换成本，把预算集中在高性价比模型上。"
     },
     {
       "title": "Seedance国内采购主力曝光：腾讯、B站成主要买家",
@@ -582,6 +624,146 @@
       "source": "cnBeta",
       "url": "https://www.cnbeta.com.tw/articles/tech/1585822.htm",
       "local_life_hint": ""
+    },
+    {
+      "title": "AI 短剧热潮为 Seedance 与火山引擎打开 token 收入",
+      "explanation": "报道指出中国 AI 短剧的爆发正为字节 Seedance 与火山引擎带来新的 token 收入机会。内容产能扩张直接转化为模型调用量，形成「内容生产—算力消耗」的正循环，是字节多模态商业化的重要增量。",
+      "analysis_points": [
+        "商业逻辑：短剧制作方每多产出一集内容，就多消耗一批视频生成 token，收入随内容产能线性增长。",
+        "对广告主启示：短剧式内容正成为高效种草形式，品牌可借 AI 短剧低成本测试剧情化广告。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "digitimes",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRVUxQkZMalBkUlRLR0pSNVlFTUVHc2wxV09nM0c2UnlSODNiZHpTZ3FyNkgwMW1IWmdVS3NxNURzUldBR2lOQ1hfNmZoellYSEtiVXVQWFNyc2RWVXFObXFucnY0czNKVzlTM0FadjUwRWxrdUxpSUJPamRqUnhaT25COTQ0a1NFX0MyQzZlZldPZ0JyVlpQRzVR?oc=5",
+      "local_life_hint": "本地生活品牌可尝试用 AI 短剧形式做门店故事化内容，按集测试投放效果，再放大高效剧情模板。"
+    },
+    {
+      "title": "Seedance 2.5 对比 2.0：版本更新但上限更低",
+      "explanation": "有开发者对比 Seedance 2.5 与 2.0 后指出，新版本虽在速度与成本上优化，但部分场景的能力上限反而低于旧版。这提示广告主在选型时不能只看版本号，需按具体场景权衡质量与成本。",
+      "analysis_points": [
+        "能力权衡：2.5 在速度与价格上占优，但复杂镜头、长时序一致性等上限场景可能不如 2.0。",
+        "选型动作：批量简单素材用 2.5 控成本，高质量品牌片仍用 2.0 或更高阶模型，形成分层生产策略。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "OrcaRouter",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xSFFKaHZZeGVkZVhDNTVaTXN1R013SmlpbHVCR1R0UEhmZDRVZl8zSk5ZZEo5UGJwNm4xU3EzaEM3aW9uQm1TQXAxc1VhWW9JYURwZ1RlcVZtV1FYZkgzc0llektQTTRjaUdrYW91Y2xLdlBMcnRCaURUbGNIUQ?oc=5",
+      "local_life_hint": "投放团队可按素材重要程度分层：信息流批量素材用低成本版本，品牌主视觉仍用高质量版本。"
+    },
+    {
+      "title": "火山引擎联手 AMD 第六代 EPYC 推云实例",
+      "explanation": "火山引擎与 AMD 合作推出基于第六代 EPYC 的云实例，为云上多元工作负载提供新能力。算力底座的补强直接支撑视频生成、大模型推理等高负载场景，是字节 AI 商业化的基础设施保障。",
+      "analysis_points": [
+        "底座变化：云实例从既有算力配置扩展到第六代 EPYC 平台，面向多元工作负载提升性价比。",
+        "商业价值：视频生成与推理成本有望进一步下探，为 Seedance 等产品的降价提速提供算力支撑。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "智源社区",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBycDNGZHBfc0pnbm1waVZmYTBLSUtGU2NOT29yTlJMMFNJVk12UFJqLTFYb0dqdjBEeG5jbmNEaTh3bm4yUlo2bg?oc=5",
+      "local_life_hint": "算力成本下探会传导到视频生成单价，商家可预期素材生产成本继续走低，提前规划规模化内容预算。"
+    },
+    {
+      "title": "巨量引擎联合发布 2026 保暖科技白皮书",
+      "explanation": "一财商学院联合巨量引擎与迪桑特发布《2026 保暖科技白皮书》，把平台数据能力与品牌行业洞察结合。这类白皮书是巨量引擎强化行业话语权、拉动品牌广告预算的典型打法。",
+      "analysis_points": [
+        "合作模式：平台数据+品牌案例+商学院研究三方联合，输出行业标准与消费趋势判断。",
+        "商业价值：白皮书可作为品牌投放的说服工具，帮助平台锁定服饰等季节性品类的广告预算。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "TOM消费",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuVk1NcGxZNUtFcUVmNDJMUXlPUXJDT1l3SWI2cmRKdmM4QW03QXRqd2JjS241aUcyaGp5c3AyZy1feVoxeng4RUljZGNOSmF3QjhiMlFweUktQQ?oc=5",
+      "local_life_hint": "本地生活平台可借鉴「平台数据+品牌+研究机构」联合白皮书模式，用行业洞察撬动品类广告预算。"
+    },
+    {
+      "title": "豆包大模型 Seedream 5.5 实现像素级可控编辑",
+      "explanation": "火山引擎发布豆包大模型 Seedream 5.5，主打像素级可控编辑能力。相比只能整体生成的图像模型，可控编辑让商家能精准修改素材局部，减少返工与重生成成本。",
+      "analysis_points": [
+        "能力变化：图像编辑从「整图重生成」变为「局部像素级可控修改」，保留原图风格与构图。",
+        "对广告主价值：商品图、海报可在原素材上精准替换文案与元素，大幅降低设计返工成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMmxUSkFHY0l2ZDBVNGFGa1ViQTR3TlNQRGl1bTIwaG81aEw3RjRhR1IyS19yRTdiRGtmV0RHT3dDa3FIN2lLaGRqTXBjaHQ5TkhxMUNWV0EyYVRkaDRhUW5pN2h1Vk5weDFpb2J6SlJidWtSWXkydHJwejJfMlF2alhBWjRrZDl4cEw1aA?oc=5",
+      "local_life_hint": "商家可在同一张门店海报上批量替换菜品、价格与活动文案，快速产出多门店多档期素材。"
+    },
+    {
+      "title": "Seedream 5.5 提速，打通豆包、即梦与云服务",
+      "explanation": "报道指出 Seedream 5.5 在提速的同时，打通了豆包、即梦与云服务三条通道。同一图像能力在 C 端助手、创作工具与 B 端 API 间复用，意味着字节图像 AI 的分发效率显著提升。",
+      "analysis_points": [
+        "分发变化：同一模型能力覆盖豆包（对话）、即梦（创作）、云服务（API）三类入口，触达不同用户群。",
+        "商业价值：广告主可在不同入口按需调用，C 端试效果、B 端批量生产，形成闭环。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WX2xEbzVFc2NwVGtTdHNWRXZ5TVhydFdRX0FwU1BobWVOckdoTmhiV2lCMjZaQS1rVmwyTEI4WFphTE1CZDh1aEh2TV9mMGEwanUw?oc=5",
+      "local_life_hint": "商家可先在豆包/即梦低成本试出素材风格，再通过云服务 API 批量生产投放素材。"
+    },
+    {
+      "title": "TikTok Shop Plus 会员测试：6 至 15 美元门槛",
+      "explanation": "TikTok Shop Plus 会员测试曝光，付费门槛在 6 至 15 美元区间。这是 TikTok 电商会员化的具体定价尝试，用低门槛付费筛选高价值用户并提供专属权益。",
+      "analysis_points": [
+        "定价策略：6 至 15 美元的低门槛会员，意在扩大付费用户基数而非追求高客单。",
+        "对商家价值：会员用户可享专属折扣与免运费，商家可借此提升复购与用户黏性。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "thekeyword.co",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93M3pxNmM0cnNqVmNNSmozbFRaNnk0dTZrWmNXdmdmUmh0Qmx4d2J0Mi0xTG80dnB2Z0ptUFZOZ19fLU12ZXpfeGpiX0xwN2xIZHZaYlVQX0dFdFNRb2lvdmViVzFFekxfS0E?oc=5",
+      "local_life_hint": "会员定价可参考低门槛策略，用小额付费筛选高复购用户并配套专属权益。"
+    },
+    {
+      "title": "TikTok Shop 美妆生意爆发，成品牌增长新渠道",
+      "explanation": "报道显示 TikTok Shop 上的美妆生意正快速增长，成为品牌新的增长渠道。内容驱动的种草转化在美妆品类验证成功，为其他品类提供可复制的打法参考。",
+      "analysis_points": [
+        "品类验证：美妆因视觉展示性强、决策链路短，成为 TikTok Shop 内容带货的高转化品类。",
+        "对商家价值：可复用美妆的「短视频种草+直播转化」组合，迁移到其他高展示性品类。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "WWD",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2R4a1JlUDYxUVIyRjBNUldoU0l4d1M5dTNJUUJiS1pPN1cyVDdMa0pQZUNkVV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
+      "local_life_hint": "本地生活美业商家可借鉴短视频种草+直播转化组合，用内容驱动到店转化。"
+    },
+    {
+      "title": "TikTok 美国电商组织架构曝光：中国高管权力上升",
+      "explanation": "泄露的 TikTok 组织架构图显示，来自中国的高管在 TikTok 美国电商业务中的权力上升。这反映字节对海外电商业务的管控在加强，运营策略更趋一体化。",
+      "analysis_points": [
+        "组织变化：美国电商业务的管理权向中国高管集中，决策链路更贴近字节总部。",
+        "对商家影响：运营规则与工具可能更快与国内抖音电商经验对齐，商家可关注规则同步节奏。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNlp3SE55N2t4QUxjSEpjeTN4T1RGTGlINC1vVzF4dlpNTlFrY2liTXZDWUhxanpMWVRxQ1YwTjRtbnFEWm9kWWQ2T0xheWx4eWtoNVYzQUxxaE5RZUxHajNTSDMxRmo4YVFpa1hjNi1DWkxITmxpR2dGRHVlYV9iUHY5YkxZRXpxM1RWVUNRSlhVN09KY1E?oc=5",
+      "local_life_hint": "跨境商家可关注 TikTok 电商规则与国内抖音经验的对齐，提前复用成熟投放打法。"
+    },
+    {
+      "title": "字节全球业务全景：TikTok、抖音、电商与 AI",
+      "explanation": "报道系统梳理字节全球业务版图，涵盖 TikTok、抖音、电商与 AI 四条主线。对广告主而言，这份全景图有助于理解字节各业务间的流量与商业化协同关系。",
+      "analysis_points": [
+        "业务结构：内容平台（TikTok/抖音）提供流量，电商承接转化，AI 提供生产工具与算力。",
+        "对广告主价值：可据此规划跨平台投放组合，把内容流量与电商转化打通。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "Digital in Asia",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43LXI5STdNOG01YThMei10c0xlazk3NXBTeVBZUDFFckdMQ1pUNENudy1LRmVsamFNdFRpNklzUEhBQnRkOEN0OE5fRTd4blIzeDBVZFNrY0NfZF94ckJuLW1B?oc=5",
+      "local_life_hint": "本地生活广告主可参考字节内容+电商+AI 的协同结构，设计从种草到到店转化的完整链路。"
     }
   ],
   "mode": "ai"
