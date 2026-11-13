@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T15:34:06.631775+00:00",
-  "week_range": "11.09-11.12",
-  "date_display": "11.09 - 11.12",
-  "editorial_summary": "本周共汇总 57 条 AI 商业要闻，其中高影响 10 条。本周主线包括：字节ToB重构：飞书与豆包将整合；字节跳动发布 Seedream 5.5：支持 100 轮；北京、上海、浙江三地成立跨区域电商知识产权协同保护联盟；Exclusive: TikTok Shop launc；字节筹备对标 Meta Muse 的 AI 智能体，数周。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-11-13T08:45:17.285892+00:00",
+  "week_range": "11.09-11.13",
+  "date_display": "11.09 - 11.13",
+  "editorial_summary": "本周共汇总 69 条 AI 商业要闻，其中高影响 11 条。本周主线包括：字节ToB重构：飞书与豆包将整合；字节跳动发布 Seedream 5.5：支持 100 轮；北京、上海、浙江三地成立跨区域电商知识产权协同保护联盟；Exclusive: TikTok Shop launc；字节筹备对标 Meta Muse 的 AI 智能体，数周。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节跳动发布 Seedream 5.5：支持 100 轮连续编辑与原生透明素材生",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（39 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（42 条），高影响条目占比约 16%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在视频生成底座、代理激励结构与AI内容产能补贴上的改造，正让外投的素材成本、代理分成与内容供给方式同时发生变化。",
-  "total_items": 57,
-  "high_count": 10,
+  "total_items": 69,
+  "high_count": 11,
   "items": [
     {
       "title": "字节ToB重构：飞书与豆包将整合",
@@ -185,6 +185,20 @@
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1689176?utm_source=rss&utm_medium=rss&utm_campaign=",
       "local_life_hint": "商家运营团队可借鉴「按任务选模型」思路，把文案、图片、视频生成分派给不同成本档位的模型，压低日常内容生产成本。"
+    },
+    {
+      "title": "字节3亿股AI挂钩股份绑定AI团队",
+      "explanation": "回购文件中披露，字节计划向AI部门员工提供总计3亿股与AI业务价值挂钩的股份，把人才激励直接绑定到AI业务估值上，是其在AI竞赛中留住核心团队的关键安排。",
+      "analysis_points": [
+        "激励标的从公司整体股权变为AI业务价值挂钩股份，等于给AI团队单独定价，强化核心人才留存。",
+        "对商业化侧意味着字节AI产品迭代节奏有组织保障，广告主可预期豆包、火山引擎等能力持续更新。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/026/803.htm",
+      "local_life_hint": ""
     },
     {
       "title": "Seedance国内采购主力曝光：腾讯、B站成主要买家",
@@ -793,6 +807,160 @@
       "source": "智源社区",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBycDNGZHBfc0pnbm1waVZmYTBLSUtGU2NOT29yTlJMMFNJVk12UFJqLTFYb0dqdjBEeG5jbmNEaTh3bm4yUlo2bg?oc=5",
       "local_life_hint": "批量生成素材前关注云侧推理稳定性，把高峰时段的生成任务错峰安排。"
+    },
+    {
+      "title": "Seedance 2.5 flash实测：15元做猫片",
+      "explanation": "智东西实测字节新视频模型，15元即可生成一条“猫片”，镜头衔接丝滑，但文字偶有乱码，说明平价档在连贯性上已可用，细节文字仍需人工校对。",
+      "analysis_points": [
+        "实测成本约15元/条，镜头衔接表现良好，说明平价模型已能支撑成片级内容而非仅做demo。",
+        "文字乱码意味着带字幕、带价格标签的营销素材仍需后期修正，投放前要留校对环节。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "智东西",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xbFVtemk5T045NWVvWmZUQ2syQkY3aDFueEJIV3drd0JTdXA4RGZ1Z0d3OVFiNTRNaDJiSWZGYU5RZmt2OG42RA?oc=5",
+      "local_life_hint": "做本地促销视频时，价格、地址等文字信息建议后期叠加而非交给模型生成，避免乱码影响转化。"
+    },
+    {
+      "title": "Seedance 2.5 flash与可灵4.0 flash低价档对比",
+      "explanation": "第三方对比Seedance 2.5 flash与可灵4.0 flash两个低价档，讨论哪一档实际更便宜，反映视频生成竞争已从能力比拼转向单位成本与可用性比拼。",
+      "analysis_points": [
+        "对比维度从画质转向每秒单价与可用率，说明低价档成为视频模型竞争主战场。",
+        "广告主选型时可把单位成本与失败重试率一起算，而非只看标价。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "OrcaRouter",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ad0NSWUZaRllwTXhsbHhLNzJmMndVSTE4QU5saWk4VjlMSEJ2OU1TWV91cTlnY0I2WllqXzBValdWLUFOMkNabWVVNUxKeUhJSnJZd0p1cVNqLVNiWktTZkdRNnk3R2NqVE1vbFVqenB6c0YyY2dn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance调用渠道实测：哪条路最稳",
+      "explanation": "开发者实测Seedance视频模型的多个调用渠道，总结哪几条路径最稳定、哪些容易踩坑，为批量调用视频模型的团队提供选型参考。",
+      "analysis_points": [
+        "调用渠道稳定性直接影响批量生成任务的失败率与重试成本，是规模化使用的前置条件。",
+        "对广告技术团队意味着接入前需做渠道压测，避免投放高峰期生成排队。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uWHpHRFRKS1dBclR3eVV4ekR2dVdCVlgyWFdVaGFzUjNWTEFya3NrMHBTQkFHeEdpSXZnRHdaVzZMNFVzRmFyaXE4STJPYU9mcnBnWG9vSWlQeFQ0VGc?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "火山引擎新模型发布，AI影视降本提速",
+      "explanation": "东方财富报道火山引擎新模型发布带动AI影视降本提速，并列出相关受益名单，反映视频生成正在被影视产业链当作生产工具而非玩具。",
+      "analysis_points": [
+        "AI视频从演示阶段进入影视生产流程，降本体现在分镜预演、素材补拍等环节。",
+        "对内容营销团队意味着短剧、品牌片的前期试拍成本可大幅压缩。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UWnM2U0U4Uk02QWJJb3hZay01X1U5WmVvVmlrd19HamNuclJBdGZYVEJFVGc2MENkWExoSVF4bFVqM01RQm15dmxMVmZRaVdYbmtVUklJRW5nNlI2V2YxZg?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "扣子下线后开源版WorkBuddy接棒",
+      "explanation": "扣子平台下线后，开源版WorkBuddy出现，承接希望自托管智能体的开发者需求，反映AI应用层从封闭平台向开源迁移的趋势。",
+      "analysis_points": [
+        "智能体编排能力从闭源SaaS变为可自托管开源方案，开发者数据与成本控制权回到自己手里。",
+        "对企业意味着可把客服、选品等智能体部署在自有环境，减少对单一平台停服风险的暴露。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFcWNpY09yakQyeHZuOGZSZzg4UU96enNtUkd5UmRkUzNHeXg4YzFwZ0M1TzBsUlNhbTF6Q3ozVDJ5dEVZaHJOQzZYWEtKcEFTLUdV?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "扣子接入DeepSeek后智能体能卷成啥样",
+      "explanation": "文章讨论扣子接入DeepSeek后智能体能力的变化，分析多模型接入如何提升智能体在推理与工具调用上的表现，是平台开放模型生态的样本。",
+      "analysis_points": [
+        "智能体从绑定单一模型变为可切换外部模型，推理与工具调用能力按任务择优。",
+        "对运营团队意味着同一套工作流可针对不同任务换模型，成本与效果可分别调优。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RWW5KcWczbC1jNVhrNGRSOEtOdVlvVWpzaDZ3Y3VlR2hZOENWYXBydEtqTXZEX1FKbDJfUG1WUXFwRlFCc20wRHB3M2JSNWFtWFRXUnRabjRhX3NZdEE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Shop向卖家开放销量下滑归因",
+      "explanation": "TikTok Shop向美国卖家提供最多10条商品销量下滑原因解释，覆盖流量、转化、履约等维度，帮助卖家快速定位问题，是平台从卖流量转向卖诊断的信号。",
+      "analysis_points": [
+        "卖家从只能看销量数字变为能看到下滑归因，诊断从人工猜测变为平台结构化输出。",
+        "对广告主意味着可据此调整投放与Listing，把预算从问题环节撤出或加码。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "PPC Land",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZllwekR4SHV5TC1femhkM0NHVExaOFZpWmJBTDhzclJfaklnVU9uM0ZKcVltc3hpLV9wTHFQTU9ZdUdaeGdOZVpYNk16SnNZd0xEemlsLXVLMV90QVpFZktva0pGemV6Q2NYMHRrQnVBMlY0TFpMMlBXZlRtOE5VZmR4NklPeGttSUpuV01n?oc=5",
+      "local_life_hint": "本地商家可借鉴归因思路，把销量下滑拆成曝光、点击、转化、履约四段分别排查。"
+    },
+    {
+      "title": "TikTok Shop成香料品牌前置种草阵地",
+      "explanation": "香料品牌Spiceology借助TikTok Shop在消费者走进超市货架前完成种草，说明内容电商正在向快消品类的前置决策环节渗透。",
+      "analysis_points": [
+        "品牌把TikTok Shop当作货架前的决策入口，而非单纯成交渠道，种草与转化在同一平台完成。",
+        "对本地商家意味着可在用户到店前用短视频完成品类教育，缩短到店决策链路。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Chief Marketer",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMnRPSjhfX2tIMkVFcnR1amRXdmFndHc5cDBfOXBqWjBGR25Id1gxcU5XbkZNRWdmS0Zpa2ZUVlE2WTRFdXJFbWd4aWhJR0NUcFpKdlpYQzhjRDdILTNkdGMwcTBrQzJTYmZ5U2M2a1FuZmQ4ZTY2elJka1JLNzFNUXRpRGpUQm1RX0JsYjIwWGtZbTU5dUpYX3pzVDZwVnBD?oc=5",
+      "local_life_hint": "本地生活可借鉴“到店前种草”逻辑，用短视频在用户出门前完成品类与门店心智预埋。"
+    },
+    {
+      "title": "抖音配合警方打击仿冒礼品卡诈骗",
+      "explanation": "抖音黑板报披露，针对冒用抖音名义寄送礼品卡、以扫码领现金引流境外诈骗的行为，抖音搭建涉诈小卡片线索挖掘模型并配合多地警方捣毁团伙。",
+      "analysis_points": [
+        "反诈从人工举报变为模型挖掘线索，可批量识别制卡、印刷、快递分发的黑灰产链条。",
+        "对平台商业化意味着信任治理能力成为交易与广告生态的基础设施，降低用户被引流风险。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/026/707.htm",
+      "local_life_hint": "本地商家做扫码领券活动时应明确官方标识，避免与仿冒诈骗混淆影响用户信任。"
+    },
+    {
+      "title": "前字节科学家称其药物发现AI领先全球",
+      "explanation": "南华早报报道一位前字节跳动科学家表示其药物发现AI已领先全球同行，反映字节系AI人才外溢正在生命科学等垂直领域形成新玩家。",
+      "analysis_points": [
+        "能力从内容生成迁移到药物发现，说明字节培养的AI工程能力具备跨领域复用性。",
+        "对行业意味着垂直AI创业正从通用模型团队分化，人才来源成为竞争要素。"
+      ],
+      "category": "初创动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQelE1cGRoNlVIbHlMbTRydmhQUk5XdjBZcEdaNFdhZUx0OFJEdEEwRnE1Sk9qTlp0NkRhTVB1TExGOFJjMGFsMmc2SHBBeU1MckVsT0ZUYjRRODVLRkJON0VoMjZ6MU94MnpUX3pITHBvSXVPWm81OXYxNGZLb0plQ0FIUWVpUDAwZWFCbk5xamRZWlFZaDE0RlhYRF9URDB2a2oyRXFfZGVTM0VQR0ZkRUh2XzVMWU10WUlNcDFUZDBhRWhYZ3hrdDQwbw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节AI芯片负责人被曝提交辞呈",
+      "explanation": "TechNode报道字节跳动AI芯片负责人已提交辞呈，涉及自研芯片团队的核心人事变动，反映其在算力自主路线上的组织波动。",
+      "analysis_points": [
+        "AI芯片负责人离职意味着自研算力团队面临交接，短期可能影响芯片路线推进节奏。",
+        "对依赖火山引擎算力价格的客户而言，自研芯片进度关系到长期推理成本下降空间。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "TechNode",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZjJjcGNqemFtRTdxczZnOEFmVmpQZUhrYWZkMXFPRFQxZi1FLURlVDlOMzhOQ3AzeU1QUzRsYWhlOUZBSWdkb0hFa055UUJjWnV4SzY4NWtvdWtjY2JoQzdqMFBYb01XbmxZMnBqZGQ3U0x2MUhwbWwtb2hCUXB0eEN6ajNyUms1V0NWdHVRa01aQXBYN043ak9WTjBtTmJW?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
