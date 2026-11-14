@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-11-09T08:40:24.139353+00:00",
+  "date_display": "2026年11月09日",
+  "date_short": "2026-11-09",
+  "weekday": "周一",
+  "editorial_summary": "今天字节系最值得广告销售关注的一条主线，是Seedance海外收入占比已达50%、过去半年增长近5倍，视频生成从国内工具变成真正的出海现金流业务，腾讯、B站成为国内采购主力，说明模型能力已进入被同行买单的阶段。第二条主线是巨量引擎取消代理商返点、改为激励广告主，代理生态从返点套利转向服务能力竞争，这直接改变本地生活商家的投放成本结构与服务商选择逻辑。第三条是即梦推出机构伙伴计划、单部最高给20万，配合红果4.3亿用户反超豆包，字节正用现金补贴把AI内容产能锁进自己的分发体系。此外飞书与豆包ToB整合、豆包大模型密集上车奔驰E级，显示字节在办公入口与车载入口同时抢占高频场景。整体看，字节AI商业化正从卖token转向卖产能、卖入口、卖生态位。",
+  "overview": {
+    "new_products": [
+      "即梦推出机构伙伴计划，对单部AI内容最高给予20万元扶持，面向MCN与内容机构而非个人创作者，用现金补贴换取产能与独家供给，把AI创作从工具使用变成机构化生产。",
+      "巨量引擎调整代理商政策，取消返点改为直接激励广告主，代理角色从返点分销转向服务商，广告主预算的分配逻辑与代理收入模型同步被改写。",
+      "豆包大模型进入新款奔驰E级智能座舱，售价42.38万起，车载场景从语音助手升级为模型驱动的座舱交互，字节在汽车入口再落一子。"
+    ],
+    "opinions": [
+      "有分析认为Seedance海外收入占比达50%、半年近5倍增长，说明中国视频生成模型已具备向海外客户收费的能力，且国内腾讯、B站成为采购主力，模型公司之间开始互相买单，行业从自研转向采购。",
+      "关于扣子企业版分阶段下线、最晚2027年底停服，多方观点认为独立AI开发工具正被AI办公入口挤压，大厂今年已清退超25款独立AI产品，工具型产品必须依附高频入口才能存活。"
+    ],
+    "ecosystem": [
+      "字节ToB版图重构，飞书与豆包将整合，办公入口成为大厂争夺AI工作场景的主战场，独立工具产品让位于入口级产品，生态向少数超级App收敛。",
+      "视频生成赛道竞争加剧，Sand.ai融资2亿美元以开源路线挑战可灵与Seedance，说明资本仍在押注视频模型，但头部已靠海外收入与机构补贴建立规模壁垒。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节今日动作集中在两条线：一是Seedance海外收入占比达50%、半年近5倍增长，视频生成成为出海现金流；二是飞书与豆包ToB整合、豆包大模型上车奔驰E级，办公与车载两个高频入口同时推进。整体看字节正把模型能力嵌入具体场景，而非停留在API售卖。",
+    "初创动向": "今日初创侧信息以外部挑战者为主，Sand.ai融资2亿美元以开源视频模型对标可灵与Seedance，说明视频生成仍是资本热点，但字节已用海外收入与机构补贴建立先发规模。",
+    "生态动向": "巨量引擎取消返点改激励广告主，代理生态从返点分销转向服务能力竞争；同时字节收紧外部AI工具访问、禁用L4级代码库与飞书文档，反映大厂在数据安全与生态边界上同步收紧。",
+    "观点与深度": "围绕扣子企业版下线，多方讨论独立AI开发工具是否被AI办公挤占，大厂今年清退超25款独立AI产品成为核心论据；另有观点认为Seedance海外收入结构证明中国视频模型已具备全球收费能力。"
+  },
+  "local_life_insights": [
+    {
+      "base": "Seedance视频生成模型海外收入占比达50%、半年增长近5倍，且腾讯、B站成为国内采购主力，说明视频生成能力已从内部工具变成可规模化对外售卖的底座。",
+      "borrow": "外投团队可把视频素材生产从外包拍摄转为模型批量生成，按投放渠道与人群快速出多版本素材，把素材迭代周期从周级压到小时级，同时用多版本做A/B测试提升转化。"
+    },
+    {
+      "base": "巨量引擎取消代理商返点、改为直接激励广告主，代理收入从返点差价转向服务费与效果分成。",
+      "borrow": "外投团队在设计服务商体系时，可把返点让利改为效果对赌与素材质量考核，把预算损耗压下来，用服务能力而非返点比例筛选合作方。"
+    },
+    {
+      "base": "即梦推出机构伙伴计划，单部AI内容最高补贴20万，把AI创作从个人工具使用转为机构化产能供给。",
+      "borrow": "外投团队可对接入选机构名单，用补贴后的低成本产能批量生产短剧式种草素材，把内容营销单价打下来，同时锁定优质产能供给。"
+    }
+  ],
+  "insights_intro": "换个视角看，今天字节在视频生成底座、代理激励结构与AI内容产能补贴上的改造，正让外投的素材成本、代理分成与内容供给方式同时发生变化。",
+  "total_items": 5,
+  "new_vs_yesterday": 5,
+  "compare_date": "2026-11-08",
+  "high_count": 1,
+  "category_counts": {
+    "大厂动向": 2,
+    "初创动向": 1,
+    "观点与深度": 1,
+    "生态动向": 1
+  },
+  "items": [
+    {
+      "title": "Seedance国内采购主力曝光：腾讯、B站成主要买家",
+      "explanation": "报道指出Seedance国内采购主力为腾讯与B站，意味着视频生成模型市场出现模型公司互相采购的现象。对字节而言，这既是收入来源，也说明其视频模型在同行中具备技术溢价。",
+      "analysis_points": [
+        "能力变化：Seedance从字节自用模型变成同行采购的基础能力，客户结构从内部业务转向外部平台，收入可预期性提升。",
+        "对行业的意义：模型公司之间开始互相买单，自研不再是唯一路径，采购成熟模型可缩短产品上线周期，视频能力供给走向分工。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSa2NWZ1pmVjA5WDdBWGQ3YkQ0UXFuWlFlRGRhMHVFZTh0UlQzWTNsZVpLYng4U2NPNTVCNVZabW5YNjBGUWNIekVkU0ltODB6TUtDWmZCbEVZVnlmckFNdHBiWHFHTVVqa29heUZvU2xtamo4VVEtbGZEOWZMdzQ?oc=5",
+      "local_life_hint": "广告主选择视频模型供应商时可关注其被同行采购的规模，作为能力稳定性的参考信号。"
+    },
+    {
+      "title": "字节ToB重构：飞书与豆包将整合",
+      "explanation": "字节重构ToB版图，飞书与豆包将整合，目标直指AI工作入口。这意味着字节把办公协同与AI助手合并为统一入口，独立工具产品让位于入口级产品。",
+      "analysis_points": [
+        "能力变化：豆包从独立AI助手变为嵌入飞书办公流的入口，用户在文档、会议、消息场景中直接调用模型能力，使用频次与数据闭环同步提升。",
+        "对商家价值：企业客户可用统一入口管理内容生产与投放协作，广告主团队内部的素材审批与投放复盘可在同一工作流完成。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
+      "local_life_hint": "本地生活商家团队可关注飞书+豆包整合后的内容协作能力，用于门店素材审批与投放复盘流程。"
+    },
+    {
+      "title": "Sand.ai融资2亿美元，开源视频模型挑战Seedance",
+      "explanation": "Sand.ai融资2亿美元，以开源路线挑战可灵与Seedance。这说明视频生成赛道资本热度不减，但字节已靠海外收入与机构补贴建立规模壁垒。",
+      "analysis_points": [
+        "能力变化：开源视频模型获得大额资本支持，视频生成供给从闭源API扩展到开源可自部署，客户选择空间变大。",
+        "对商家价值：开源模型可降低长期视频生成成本，但稳定性与合规风险需评估，商家可保留闭源与开源双供应商策略。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Ventureburn",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0lrQUdoR2xDY3I2elpyaEw3cTFYVVBRY2lYSkhhT19HS3VJa0lvOTk5SUZUdWdEVVpTWUl1T0hrNmlOdnluQUpPWDFWUUo0QWNnZ3BubHNMSGYwU0FMWjVVM253YV9pS1d3OF81MGdZczdnS214WjdrTTF5TDk0RUw4MTJ6V01D0gGIAUFVX3lxTE5DSWtBR2hHbENjcjZ6WnJoTDdxMVhVUFFjaVhKSGFPX0dLdUlrSW85OTlJRlR1Z0RVWlNZSXVPSGs2aU52eW5BSk9YMVZRSjRBY2dncG5sc0xIZjBTQUxaNVUzbndhX2lLV3c4XzUwZ1lzN2dLbXhaN2tNMXlMOTRFTDgxMnpXTUM?oc=5",
+      "local_life_hint": "本地生活商家可评估开源视频模型的长期成本，作为闭源API的备选方案。"
+    },
+    {
+      "title": "张一鸣首次登顶福布斯中国富豪榜",
+      "explanation": "福布斯2026中国富豪榜显示字节联合创始人张一鸣首次登顶，榜单合计财富1.3万亿美元。这从侧面反映字节在AI与内容业务的估值与盈利能力。",
+      "analysis_points": [
+        "能力变化：字节从内容平台扩展为AI与内容双轮驱动的公司，创始人身家登顶反映资本市场对其AI业务变现的认可。",
+        "对商家价值：字节系生态的资金与资源投入能力增强，广告主可预期其AI广告产品迭代速度加快。"
+      ],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "low",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOR25FUkxCNXlVV2VTdTRtbGRkWXFxdWF5al8yeURoOUhxVFRFa2VIU1JtRGlqaVd3aHB4aFhlTXZ2b1NxYTNCcDd6S3lPeTRRRjBxNUw3RlNMRV9TeENPQjNaLVFLZEk1TGExb0owT2U5OHdQUHVaUUtDM3U3N1NwYzQ3bTRUc3ZPb3pVbTRVSkJ1RmVkdHRBQ0NuX29wQk94MXdwN1h5aVlnUVVQX05TWm5VUUhycUxvRURvZmt0Zk1IWFQyRnYtUldkdmFYLTVzNHRteUp2MkpwdmxRTE5GS25mNlpvMTZFYUE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "大厂今年清退超25款独立AI产品",
+      "explanation": "报道统计中国大厂今年已下线超25款独立AI产品，扣子企业版是其中之一。这说明AI产品从铺量阶段进入整合清退阶段，资源向入口级产品集中。",
+      "analysis_points": [
+        "能力变化：AI产品策略从多产品并行转为少而精的入口整合，独立工具被合并或停服，研发资源向豆包等核心入口集中。",
+        "对商家价值：商家采购AI工具时应关注产品是否属于核心入口体系，避免选择边缘产品导致后续迁移成本。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MSnp5V1FhVXpmZFZaRGVVeDZuN2diX2tuRWRjNFIzZ2JvLVNUdmwtT1VBWDVPbkVaZm1pVzlRd0VkOFl1M0hMS1M0Ym5WN0N3ZjJLZ0lPeWlYZzJYT0dBdENTNDBqc3RsNTNNTW1faF92X2ZfNGc?oc=5",
+      "local_life_hint": "本地生活商家采购AI工具时应核查其是否属于大厂核心入口体系，规避停服迁移风险。"
+    }
+  ],
+  "mode": "ai"
+}
