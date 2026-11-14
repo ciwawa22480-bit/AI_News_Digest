@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T14:51:58.365119+00:00",
-  "week_range": "11.09-11.13",
-  "date_display": "11.09 - 11.13",
-  "editorial_summary": "本周共汇总 70 条 AI 商业要闻，其中高影响 14 条。本周主线包括：字节ToB重构：飞书与豆包将整合；字节跳动发布 Seedream 5.5：支持 100 轮；北京、上海、浙江三地成立跨区域电商知识产权协同保护联盟；Exclusive: TikTok Shop launc；字节筹备对标 Meta Muse 的 AI 智能体，数周。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-11-14T08:00:21.599902+00:00",
+  "week_range": "11.09-11.14",
+  "date_display": "11.09 - 11.14",
+  "editorial_summary": "本周共汇总 80 条 AI 商业要闻，其中高影响 17 条。本周主线包括：字节ToB重构：飞书与豆包将整合；字节跳动发布 Seedream 5.5：支持 100 轮；北京、上海、浙江三地成立跨区域电商知识产权协同保护联盟；Exclusive: TikTok Shop launc；字节筹备对标 Meta Muse 的 AI 智能体，数周。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节跳动发布 Seedream 5.5：支持 100 轮连续编辑与原生透明素材生",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（44 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（48 条），高影响条目占比约 21%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节在视频生成底座、代理激励结构与AI内容产能补贴上的改造，正让外投的素材成本、代理分成与内容供给方式同时发生变化。",
-  "total_items": 70,
-  "high_count": 14,
+  "total_items": 80,
+  "high_count": 17,
   "items": [
     {
       "title": "字节ToB重构：飞书与豆包将整合",
@@ -241,6 +241,48 @@
       "source": "爱范儿",
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE8tSWsyYUt1M2Z5dUk3NERWNC14dUFmSU9jdGtSbE0ySTJVTFhfeXFUTkVUUEJnV3RMQ3I3bTRIZHh1Y2c?oc=5",
       "local_life_hint": "若豆包智能体能执行订座、领券等任务，本地生活商家应提前准备可被智能体调用的服务接口。"
+    },
+    {
+      "title": "字节拟4000亿美元估值回购至多60亿美元股份",
+      "explanation": "据 The Information 与路透报道，字节跳动计划以约 4000 亿美元估值回购至多 60 亿美元股份。这是字节在 AI 高投入周期中稳定估值、为员工与早期投资人提供流动性的关键资本动作，也侧面反映其对自己 AI 资产价值的定价信心。",
+      "analysis_points": [
+        "资本动作：字节以约 4000 亿美元估值启动至多 60 亿美元股份回购，规模与估值均属头部未上市科技公司量级。",
+        "对业务的意义：回购稳定估值预期，为长期算力与模型投入提供资本缓冲，也影响广告与商业化团队的资源预期。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Reuters / The Information",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaE5LbzhoRE5rYjhZOXFIVmtYMEFiOElvbk1XSkQzYWYyeUJRcU1EMmtLMzZDUXJPWWk0TXZrZEZtQnBQczYzR2dMejAzMEIxNUR0czdQQnZvaUxrUkJKUE0zX1hFcEZndVo2Ti02WnljbUpwUTVxRnNNbVZYcklqZy1HX3l4VVd3UHgwZUVsZ2dJdW5fMFZoeHU3SlJxcjZjV09XQW56UHVOTGhPbzdPVDcxMGhEbkJSQjMyZ1BlYlNrRkktSWtDZ2NmSWRrOWM?oc=5",
+      "local_life_hint": "资本层面的高估值与回购，意味着字节对 AI 商业化的营收预期更高，本地生活商家在抖音侧的 AI 投放产品可能加速商业化收费。"
+    },
+    {
+      "title": "豆包开启三档付费订阅，68元起免费服务不变",
+      "explanation": "第一财经报道豆包正式开启付费订阅，设三档定价、68 元起，同时免费服务不受影响。这是豆包从纯免费流量产品转向分层付费变现的标志性一步，对 C 端大模型商业化路径具有示范意义。",
+      "analysis_points": [
+        "产品变化：豆包从全免费转向免费+三档付费并行，68 元起，付费层面向高频与专业用户提供更强能力与额度。",
+        "商业价值：为字节 AI 建立 C 端订阅收入模型，也为后续把付费权益与抖音、剪映等场景打通留下接口。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qd1AtLUF3bjBkTFB5d3I1UEh6OVpKdlNfZnV0dUQxdlNKb1VLajdhWWF1YWZnNkQzZkdHS0FrME5ZeXFFZkU2T182ak9wT3ZSOElPNA?oc=5",
+      "local_life_hint": "豆包付费化说明字节在培养用户为 AI 付费的习惯，本地生活商家可关注豆包内是否出现付费推广位或商家服务入口。"
+    },
+    {
+      "title": "扣子平台宣布全面下线，AI工作流赛道生变",
+      "explanation": "澎湃新闻报道字节宣布旗下知名 AI 平台扣子全面下线。扣子此前在 AI 工作流市场份额领先，此次下线被视为字节收缩分散工具、把能力收拢进豆包主入口的重要信号，也引发对 AI 工作流赛道前景的讨论。",
+      "analysis_points": [
+        "产品变化：扣子从独立 AI 工作流平台走向全面下线，能力大概率被整合进豆包等主入口。",
+        "行业含义：份额第一仍被下线，说明独立工作流工具在大模型原生能力面前价值被重估。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "澎湃新闻",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05WHNqeTlCeUZKd212UzAxZklHaW5BM0JjZGlsNjE1VHpKQ3Y5dWo1Qi1FY3FKUlZDS0NVMGs2V0xHRUZQME9CbFl5ZXdvMXBVektHaFdxOUNLaVJzcXlrQg?oc=5",
+      "local_life_hint": "若商家此前用扣子搭建营销自动化流程，需评估迁移到豆包或飞书侧替代方案，避免投放自动化断档。"
     },
     {
       "title": "Seedance国内采购主力曝光：腾讯、B站成主要买家",
@@ -975,6 +1017,104 @@
       "source": "AIHOT",
       "url": "https://aihot.news/items/rcjkjkhq7xxwbhh9wnv15fqy1",
       "local_life_hint": "用 AI 语音做门店客服或外呼时，应重点测试静默与打断场景，减少误接话带来的体验损失。"
+    },
+    {
+      "title": "TRAE账号将升级为豆包飞书账号",
+      "explanation": "三易生活报道，字节旗下 AI 编程工具 TRAE 的账号将升级为豆包飞书账号。这意味着 TRAE 的用户体系并入豆包与飞书主账号，字节正把分散的 AI 工具收拢到统一入口，降低跨产品使用门槛。",
+      "analysis_points": [
+        "账号体系变化：TRAE 从独立账号升级为豆包飞书账号，一次登录即可打通 AI 编程、办公与对话场景。",
+        "对开发者的价值：账号统一降低企业采购与团队协作的接入成本，便于把 AI 编程能力嵌入飞书工作流。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "三易生活",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XQUJJZzZCNmI2VGZZYmcxcThyOEZTMTdwQ2RYaVZlMFRVWkM5LVVnNDBDVEx4STJsVFpiaUVfbVBkb1RjYmVvUTEyUE92Rk1MdktGWTVoYldpS192T1BJYmttbjRpc3BV?oc=5",
+      "local_life_hint": "账号体系统一意味着字节 AI 能力更易打包成企业服务，本地生活服务商可关注飞书侧是否出现面向商家的 AI 工具包。"
+    },
+    {
+      "title": "抖音激励条款拆解：AI漫剧供给结构被筛选",
+      "explanation": "同花顺财经拆解抖音针对 AI 漫剧的激励条款，分析其如何筛选供给结构。这反映抖音正用激励政策引导 AI 生成内容的供给质量与方向，对内容型商家与创作者的分发机会有直接影响。",
+      "analysis_points": [
+        "政策变化：抖音通过激励条款对 AI 漫剧供给设定门槛与奖励，引导创作者提升内容质量与合规性。",
+        "对创作者的价值：理解激励规则可帮助 AI 内容团队优化选题与产能，争取更多流量与分成。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "同花顺财经",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jSVZHUjI3ck5CQ1U4Yng2TVFRZnZMNmptVm94cWgyUGcwUGVGel9YeTJkUlNxdWVqUDdtRDRZazA5S3NjbUdQcnBDSUdTa2dBWHhRZk9PSmhNc0w3bzlRRQ?oc=5",
+      "local_life_hint": "AI 漫剧激励规则可作为本地生活商家做 AI 短视频内容的参考，判断平台鼓励何种 AI 生成内容。"
+    },
+    {
+      "title": "火山引擎新模型发布，AI影视降本提速",
+      "explanation": "东方财富报道火山引擎新模型发布带动 AI 影视降本提速。视频生成模型在速度与价格上的优化，正让 AI 影视从概念走向可规模化生产，影视与广告制作方的成本结构随之改变。",
+      "analysis_points": [
+        "行业变化：视频生成模型速度翻倍、成本下降，AI 影视制作从单条试水走向批量生产。",
+        "对制作方的价值：制作方可把节省的成本投入到创意与后期，提升成片质量与交付速度。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UWnM2U0U4Uk02QWJJb3hZay01X1U5WmVvVmlrd19Ham5NclJBdGZYVEJFVGc2MENkWExoSVF4bFVqM01RQm15dmxMVmZRaVdYbmtVUklJRW5nNlI2V2YxZg?oc=5",
+      "local_life_hint": "AI 影视降本意味着本地生活品牌可用更低预算制作高质量短视频广告，投放素材供给将更充裕。"
+    },
+    {
+      "title": "百年驾控牵手豆包大模型，智电解锁新玩法",
+      "explanation": "汽车之家报道某百年驾控品牌牵手豆包大模型，在自主合资智电车型上解锁新玩法。豆包大模型持续进入车企合作名单，说明其在车载语音与智能座舱场景的落地正在加速铺开。",
+      "analysis_points": [
+        "合作内容：豆包大模型进入车企智电车型，提供车载语音交互与智能座舱能力。",
+        "行业含义：豆包在车载场景的合作密度提升，形成从模型授权到座舱体验的商业化路径。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BdTBndHpQVnIwQ05PbWY5SmlZY2RwbFltUTh5T2FfRDIwT3l4WEZUOFhhWVlCSkVvYmw2eEExaUNRendvNEVCYjQ1RXJSRmFwTXJyRDlqb1N2MVBCcjgzN1paZERIc1JCc0tZ?oc=5",
+      "local_life_hint": "豆包车载合作扩大，意味着车主场景的语音入口增多，本地生活服务可探索与车机语音的联动推荐。"
+    },
+    {
+      "title": "扣子接入DeepSeek，智能体能力边界被拉宽",
+      "explanation": "CSDN 讨论扣子接入 DeepSeek 后智能体能卷成什么样。虽然扣子后续宣布下线，但接入第三方模型这一动作本身说明字节 AI 平台在多模型聚合上做过探索，为理解其模型策略提供参考。",
+      "analysis_points": [
+        "能力变化：扣子接入 DeepSeek 后，用户可在平台上组合不同模型搭建智能体，扩展任务适配范围。",
+        "参考价值：多模型聚合思路后续可能延续到豆包等主入口，影响开发者选择平台的逻辑。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RWW5KcWczbC1jNVhrNGRSOEtOdVlvVWpzaDZ3Y3VlR2hZOENWYXBydEtqTXZEX1FKbDJfUG1WUXFwRlFCc20wRHB3M2JSNWFtWFRXUnRabjRhX3NZdEE?oc=5",
+      "local_life_hint": "多模型聚合思路若延续到豆包，商家搭建营销智能体时可灵活选模型，控制成本。"
+    },
+    {
+      "title": "字节时间在海外上演：TikTok超级App化",
+      "explanation": "Morketing 与 The Rundown 关注字节在海外的扩张节奏，TikTok 正朝超级 App 方向演进。报道把字节国内的产品矩阵打法与海外扩张对照，认为字节正把国内验证过的多业务协同模式复制到海外。",
+      "analysis_points": [
+        "趋势判断：TikTok 从短视频平台向超级 App 演进，承载电商、本地服务等更多业务形态。",
+        "对商家的意义：海外商家可期待 TikTok 内更多交易与营销工具整合，投放触点趋于集中。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Morketing / The Rundown",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SeHRKXzVYMHhWaV9NbV8xcm9fVlVhZHdwaUNVRldaZWI3OG5feF9pNVRxZWd1REFJMG5vcmNfRk1zOFJVZTJvZ1RDbE05NkE?oc=5",
+      "local_life_hint": "TikTok 超级 App 化意味着海外本地生活与电商投放触点集中，出海商家可提前布局一体化投放策略。"
+    },
+    {
+      "title": "前字节科学家称其药物发现AI领先全球",
+      "explanation": "南华早报报道一位前字节跳动科学家称其药物发现 AI 已领先全球同行。这体现字节 AI 人才外溢后在前沿科研领域的延续影响，也侧面反映字节在 AI 人才与技术积累上的厚度。",
+      "analysis_points": [
+        "人物与方向：前字节科学家转向药物发现 AI，声称其模型性能领先全球同行。",
+        "行业含义：字节 AI 人才外溢正在生物医药等垂直领域形成新的创业与技术输出。"
+      ],
+      "category": "初创动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQelE1cGRoNlVIbHlMbTRydmhQUk5XdjBZcEdaNFdhZUx0OFJEdEEwRnE1Sk9qTlp0NkRhTVB1TExGOFJjMGFsMmc2SHBBeU1MckVsT0ZUYjRRODVLRkJON0VoMjZ6MU94MnpUX3pITHBvSXVPWm81OXYxNGZLb0plQ0FIUWVpUDAwZWFCbk5xamRZWlFZaDE0RlhYRF9URDB2a2oyRXFfZGVTM0VQR0ZkRUh2XzVMWU10WUlNcDFUZDBhRWhYZ3hrdDQwbw?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
