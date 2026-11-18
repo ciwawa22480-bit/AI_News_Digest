@@ -1,287 +1,167 @@
 {
-  "generated_at": "2026-11-17T16:25:44.972151+00:00",
+  "generated_at": "2026-11-18T09:05:14.739862+00:00",
   "date_display": "2026年11月18日",
   "date_short": "2026-11-18",
   "weekday": "周三",
-  "editorial_summary": "今日共精选 24 条 AI 商业动态，其中高影响 6 条。核心看点集中在：ByteDance Plans to Take on Met；字节发布Seedream 5.5：称可连改100轮并直出透明；ByteDance Plans $6 Billion Buy；Surge 889% to Exceed 10 Billio。头部大厂在产品、营收与生态合作上持续加码，建议重点关注其能力更新对广告/营销与本地生活场景的可迁移性。",
+  "editorial_summary": "今天字节系AI商业化最值得关注的是三条主线：一是资本与算力层面，字节拟以约4000亿美元估值回购最高60亿美元股份，但一笔4.8亿美元英伟达芯片相关贷款因美国芯片管制被银行暂停，显示其AI扩张的融资与算力通道正受到外部约束；二是产品层面，Seedream 5.5上线并强调可连改100轮、直出透明素材，Seedance 2.5 Flash把视频生成压到每秒0.99元并接入即梦，视频与图像两条生产线的成本曲线继续下探；三是组织与生态层面，抖音生活服务换帅、即梦一个月连发两个工作室、巨量引擎连发搜索种收与保暖科技白皮书，说明字节正把AI能力往本地生活、品牌营销和内容生产的具体经营场景里塞。对广告销售而言，今天的信号不是新模型参数，而是'更便宜的素材产能+更细的经营方法论'正在同时到位。",
   "overview": {
     "new_products": [
-      "ByteDance Plans to Take on Meta's Muse, ",
-      "字节发布Seedream 5.5：称可连改100轮并直出透明素材",
-      "字节跳动发布视频生成模型Seedance 2.5 flash"
+      "字节发布Seedream 5.5图像模型，主打可连续修改约100轮并直出透明背景素材，把生图从'一次出图'推向'多轮精修+可直接商用交付'，对电商与广告素材生产更友好。",
+      "Seedance 2.5 Flash视频生成模型开放API并陆续接入即梦，单秒生成成本降至约0.99元、速度翻倍，同时Seedance 2.5 4K版本上线，覆盖从低成本批量到高画质商用的两档需求。",
+      "剪映团队版会员以5人席位+每人每月3200 AI积分的打包方式促销至71元/月，把AI创作额度做成团队级订阅商品，降低中小团队批量产素材的门槛。"
     ],
     "opinions": [
-      "ByteDance reportedly plans a Muse-like A",
-      "TikTok Shop org chart: See the 14 execut",
-      "Freshworks alums raise $53M to take on S"
+      "有分析认为扣子企业版退场、大厂清退超25款AI应用，说明低代码智能体平台正被大模型原生能力抹平，'人人都是开发者'的叙事让位于'模型直接干活'，平台型中间层价值被重估。",
+      "有报道指出字节生态版图扩张后只差一款聊天软件补齐，豆包虽月活领先但社交与IM入口仍缺位，这被视为字节AI商业化从工具走向高频入口的关键短板。"
     ],
     "ecosystem": [
-      "版图再扩张：字节只差一款聊天软件补齐生态",
-      "“共赢AI，智向未来”神龙科技与火山引擎达成全面战略合作",
-      "神龙科技与火山引擎签署全面战略合作协议 新能源车型将搭载AI座舱"
+      "字节AI扩张的资本与算力通道出现外部摩擦：约4000亿美元估值回购推进的同时，4.8亿美元英伟达芯片相关贷款因美国芯片管制被银行暂停，融资节奏与算力供给受地缘因素牵制。",
+      "TikTok Shop在海外持续被品牌当作新品首发与内容电商主阵地，Mattel、美妆与二手时尚品牌相继加码直播，内容平台正把'种草—成交'链路收进自营体系。"
     ]
   },
   "category_summaries": {
-    "观点与深度": "本期观点与深度共 1 条，涵盖：ByteDance Plans  等。",
-    "大厂动向": "本期大厂动向共 22 条，涵盖：字节发布Seedream 5.5、ByteDance Plans 、Surge 889% to Ex 等。",
-    "初创动向": "本期初创动向共 1 条，涵盖：Freshworks alums 等。"
+    "大厂动向": "字节今天在模型侧双线推进：Seedream 5.5强化多轮编辑与透明素材直出，Seedance 2.5 Flash把视频生成成本压到每秒0.99元并接入即梦，4K版本同步上线，形成'低价批量+高质商用'的组合。资本侧则以约4000亿美元估值推进最高60亿美元回购，但芯片相关贷款受阻，扩张节奏受外部约束。",
+    "初创动向": "当日字节系候选资讯中缺乏可独立成条的初创融资事件，相关动态主要集中在字节自身产品与生态合作上，故本分类以平台与合作伙伴动作为主。",
+    "生态动向": "火山引擎继续向汽车与云基础设施延伸，神龙科技、大众新车型相继搭载豆包大模型与AI座舱，AMD第六代EPYC云实例落地火山引擎；同时扣子企业版退场引发对低代码平台价值的讨论，生态从'搭平台'转向'卖能力'。",
+    "观点与深度": "围绕字节的讨论集中在两点：一是扣子退场被视为大模型抹平低代码中间层的标志性事件；二是字节生态'只差一款聊天软件'的判断，指向豆包从工具向高频入口跃迁的缺口。巨量引擎则用搜索种收与行业白皮书输出经营方法论。"
   },
   "local_life_insights": [
     {
-      "base": "生成式视频底座升级：视频从'套模板'转向'自然语言直接生成 + 数字分身出镜'。",
-      "borrow": "外投团队可把'AI 批量生成商家口播/带货素材'纳入投放链路，用素材数量与快速迭代摊薄单条获客成本，而非继续依赖人工拍摄。"
+      "base": "Seedance 2.5 Flash把视频生成从按条试做改为按秒计价（约0.99元/秒）且速度翻倍，并接入即梦；Seedance 2.5同时上线原生4K版本。",
+      "borrow": "外投团队可把短视频素材生产从'外包按条采购'改为'内部按秒批量生成'，用低成本批量产出多版本素材做A/B测试，把省下的制作预算转投跑量；同时对品牌客户的高清需求用4K版本承接，形成低价批量+高质交付的双档素材供给。"
     },
     {
-      "base": "模型底座更大更便宜：调用成本持续下探，'千商千面'的定制生成在成本上开始可行。",
-      "borrow": "外投可从'一套素材投所有人'转向按商家、按人群定制创意与文案，用精细化投放提升 ROI。"
+      "base": "Seedream 5.5支持约100轮连续编辑并直出透明背景素材，生图从单次抽卡变为可反复精修。",
+      "borrow": "外投团队可建立'商品图多轮改版'流水线：同一商品图反复迭代出多尺寸、多背景、透明底的投放素材，减少抠图与设计返工，加快本地生活商家套餐图、门店图在多投放位的适配速度。"
     },
     {
-      "base": "Agent/智能体底座成熟：从'单点问答'走向'能自己跑流程'的多步自动化。",
-      "borrow": "外投可试点用 Agent 串起'选品-生成素材-建计划-看数据-调预算'的投放闭环，减少人工重复操作。"
+      "base": "剪映团队版把AI积分做成团队席位订阅（5人席位+每人每月3200积分，促销价71元/月）。",
+      "borrow": "外投团队可用低成本团队订阅为一线销售与代运营配备批量素材产能，让贴近商家的一线人员自行产出投放素材，缩短从商家需求到素材上线的链路。"
     }
   ],
-  "insights_intro": "换个视角：对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队来说，今天真正值得关注的，是下面这些公司在'技术能力底座'上的改造对外投素材、投放与成本结构的影响。",
-  "total_items": 21,
-  "new_vs_yesterday": 21,
+  "insights_intro": "换个视角看，今天字节把视频生成压到每秒0.99元、把生图改成可百轮精修、把AI额度打包成团队订阅，这三件事共同改写了外投素材的产能与成本结构。",
+  "total_items": 8,
+  "new_vs_yesterday": 8,
   "compare_date": "2026-11-17",
-  "high_count": 6,
+  "high_count": 4,
   "category_counts": {
+    "大厂动向": 5,
     "观点与深度": 1,
-    "大厂动向": 19,
-    "初创动向": 1
+    "生态动向": 2
   },
   "items": [
     {
-      "title": "ByteDance Plans to Take on Meta's Muse, Eyes Rival AI Agent Launch In Coming Weeks: Report - Meta Platfor",
-      "explanation": "ByteDance Plans to Take on Meta's Muse, Eyes Rival AI Agent Launch In Coming Weeks: Report - Meta Platfor",
-      "analysis_points": [],
+      "title": "4.8亿美元芯片贷款被暂停，字节算力融资遇阻",
+      "explanation": "多家媒体报道，因美国AI芯片管制收紧，银行暂停了一笔与字节跳动相关、用于采购英伟达芯片的4.8亿美元贷款。这直接影响字节数据中心的算力扩张节奏，是AI商业化上游供给端的实质摩擦。",
+      "analysis_points": [
+        "事件性质：银行暂停约4.8亿美元与字节相关的芯片采购贷款，触发点是美国芯片出口管制规则收紧。",
+        "影响路径：算力采购融资受阻可能延后数据中心扩容，进而影响火山引擎对外供给模型推理与视频生成能力的成本与排期。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Bloomberg / 联合早报 / Quartz",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaUczSzdwaXdfYWhqSVcteGNJLUJoTk1CVUo4OHFOVU03MjVtM3Y1dC1CZF9MRlpwc2djYjV5ZDByWUExcnRVeUl6eDktaUszTTBoX25hSG44bzBZUzdUdHdKbVJUMkJWblJBX085V0dwR25UQS1sVks3WXdQSDBiSjliQnVOdnlwWU1pWms3WUN2dzlHek8wRnhwMF9MVEEyMDJHMWtvT2gxU08wZGFZ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedream 5.5发布：可连改100轮、直出透明素材",
+      "explanation": "字节发布Seedream 5.5图像模型，官方称支持连续修改约100轮并直接输出透明背景素材，今年已完成三次迭代。这意味着生图从'抽卡式出图'转向'可反复精修的交付级工具'，对电商主图与广告素材生产价值明确。",
+      "analysis_points": [
+        "能力变化：从单次生成图片，升级为可多轮连续编辑、并直出带透明通道的素材，减少后期抠图与返工环节。",
+        "对广告主的动作：可把商品图交给模型做多轮改版测试，快速产出多尺寸、多背景的投放素材，压缩外包设计周期。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Sohu / quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vb1V5cU5fUGhVYVpmcFljcWlma1hGNEt5aGVqd2N4Yk9BZndSTkhVcTRzN3JNdTVxWU44Tkw0M19TeGVoQVhsU2dOQm00YUhRVFRQZk1B?oc=5",
+      "local_life_hint": "本地生活商家可用多轮编辑快速产出菜品、门店、套餐的多版本素材，适配不同投放位与活动主题。"
+    },
+    {
+      "title": "即梦Seedance 2.5上线4K版本，AI视频进商用生产线",
+      "explanation": "即梦Seedance 2.5推出4K版本，把最长30秒单次生成、全模态参考、视频编辑与延长等能力拉到更高画质规格。原生4K意味着AI视频开始满足品牌方与商业制作的交付标准。",
+      "analysis_points": [
+        "能力变化：从常规分辨率生成升级为原生4K，并保留30秒单次生成、参考与延长编辑能力，接近商业制作流程。",
+        "对品牌方的价值：可在成本、周期与交付之间取得平衡，用于需要高清投放的品牌TVC与电商主图视频。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1690033?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "local_life_hint": "高画质视频能力可支撑本地生活品牌客户的大屏、电梯与信息流高清投放素材需求。"
+    },
+    {
+      "title": "抖音生活服务换帅：浦燕子转顾问，莫少君接任",
+      "explanation": "抖音生活服务负责人调整，浦燕子转任顾问，由红果短剧负责人莫少君接任。生活服务是字节本地商业化的核心战场，换帅往往伴随策略与资源分配的调整。",
+      "analysis_points": [
+        "组织变化：生活服务负责人由内容业务线（红果短剧）背景的莫少君接任，可能带来内容化运营思路。",
+        "对商家的含义：本地生活商家需关注后续流量扶持方向与达人内容策略是否随组织调整而变化。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tRkFJRENzZXg5VWtqQWRKVkRueGp3NFRkNDMxaVd5ZmVDZ0xNOWsxWWZNU3hERHFnLWZreF9lMXdKRnh1QWVtVFViUUYxWWVuU1E?oc=5",
+      "local_life_hint": "直接关系本地生活商家在抖音的经营策略，建议跟踪新任负责人的内容化打法与达人生态政策。"
+    },
+    {
+      "title": "字节生态只差一款聊天软件补齐版图",
+      "explanation": "有分析认为字节在内容、电商、办公、AI助手多线扩张后，生态版图中仍缺一款高频聊天软件，豆包虽用户规模领先但社交与IM入口缺位，被视为从工具走向高频入口的关键短板。",
+      "analysis_points": [
+        "观点核心：字节AI能力已覆盖多场景，但缺少IM级高频入口，用户触达仍依赖内容平台导流。",
+        "对商业化的含义：若补齐聊天入口，广告与商家触达可进入更高频的私域场景，投放链路可能重构。"
+      ],
       "category": "观点与深度",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdU1RV2V4N2ozME5ibUxLT1R5T19lUXlQVnlwQlpmN3FBaE10YmdacmpoOEJMcjctUVdybkNTRnMtMXc2YmJVZkY4c3FDMDNvOWFhbHFrZlk4TlIyUmRyLURNeXkySHFxQlNNQWhGRDB5d2NIQVlVZlZUa09fcDVyR201SWNyTmw4SFl6S1VyXzNMMWZqSFdlNWpoYTc3YlE1S0libVc2WEpJM3FteFF1WlhvQThFMjVOQlR2NGNEMXNwNkhIalk3OXZIcjR4RjV2ZGh1UG8tdw?oc=5",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT0dXVzhkX0gyNXdtZ3lvT013WHhqdENxQjBMck5oazRZVXVDU0ItYjJTUE8tTndHc1pHdS1ISWtFb1ZsR0laUm93MXJqdXBmclBaYVRWWUlxYnZoZmlNQTFUWGdTaWZ1aFRXYWVOUXlCOS1wZ3Btc1d5ZW5qcDBKelVMUnZXR2tH?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "字节发布Seedream 5.5：称可连改100轮并直出透明素材",
-      "explanation": "字节发布Seedream 5.5：称可连改100轮并直出透明素材",
-      "analysis_points": [],
+      "title": "剪映团队版促销：5人席位+AI积分71元/月",
+      "explanation": "剪映团队版会员以5人席位、每人每月3200 AI积分的打包形式促销至71元/月，折合每人约14.2元。把AI创作额度做成团队级订阅商品，降低了中小团队批量产素材的门槛。",
+      "analysis_points": [
+        "产品形态：会员从个人订阅扩展为团队席位+AI积分的组合包，AI额度成为定价核心。",
+        "对商家团队的价值：小团队可用低成本获得多人协作与批量AI素材产能，适合门店运营与代运营团队。"
+      ],
       "category": "大厂动向",
       "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa1hydHN0MWJEN3lZUUJVN09kOWJuRjVRcjhuLWpQUEhuN1d6RFQyWTdTay1mTkZsS3R4YmtoYXRlb2ozVUZoTVZ4M09qOUZsYU9wWFhhTTFhSFhoaF9hSUZZa2dLOUs3dU5CX1dINHY5R1pwdHlmSkNfTExnODU0R0NTNEMxU01IZ1JJUjV1OUo0b0FyeUZaeGhsSm1kOTFt?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
+      "impact": "low",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/028/835.htm",
+      "local_life_hint": "本地生活代运营与门店运营团队可用低成本团队版批量产出短视频与图文素材。"
     },
     {
-      "title": "ByteDance Plans $6 Billion Buyback at $400 Billion Valuation",
-      "explanation": "ByteDance Plans $6 Billion Buyback at $400 Billion Valuation",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0JmdmlZWmRzRXEtb1dEd1JpMm5paEE2N1hVNndld3lGR2RMa3huTW9pTER0anJSMGI5eVg0WWlpVTVhaVNoc2ZxUVVlTFlsSnkzaGl5ejRNakNNUm5ZMWRJa1loUzVNOTFRS0FnaE5qdUVsZk9VUG5yM2pnaV9IcTV2ZW5HaDBhTUVrOEl2YW9BY2M2eFpRbGZ1M2VYWFFjampWeWhkM1pZY2QzcjZTUjN3SQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Surge 889% to Exceed 10 Billion Yuan in Half a Year: ByteDance, Alibaba and Baidu’s Fierce Battle in the Emerging Tech Business Battlefield",
-      "explanation": "Surge 889% to Exceed 10 Billion Yuan in Half a Year: ByteDance, Alibaba and Baidu’s Fierce Battle in the Emerging Tech Business Battlefield",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYUm1mbzk4VW9ubGxpYVRVb3RZNFhkVDlENW40M2daRlh6Q2ZsajY1NFUwbTdQQmMxU1M5OXVRN3lxUVQzcUpzX0RTMFpxMldRMEpj?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Shop pilots paid membership",
-      "explanation": "TikTok Shop pilots paid membership Retail Dive",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5RzVUS2hDemllV1lEcUYzY0V0dHBrdnM4ZXAtRXNPQ3V0alE2dkdITnFUd0d2aC1EWk1YSERxSWNOejE5ZkJ4T1dpYWVJd3FYd094My1FODFKemcwbjFKem1hajNtU2NvRjZZTGVvbEZKUHFYcVV6UGhZdHE?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
-    },
-    {
-      "title": "Mattel brings Barbie, Hot Wheels to TikTok Shop",
-      "explanation": "Mattel brings Barbie, Hot Wheels to TikTok Shop",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSmNURnQxQkRKV2tzX1dGMm9KQkVHaGxoVmdCay1lQ21iR2hoZzhiMTdCdG1rekV0WDE0dXR2Ym1fNEtTaGxIVmZ2VGJRdzRyTkNmM0pEVW01cHJoZzM4d0dJdl80U3dESXJnMzc4emE2WWNiUnJEOG9NWEJqeHVxVDVkRVhvelNkaldUV3RTUQ?oc=5",
-      "local_life_hint": "与本地生活/广告营销相关，可评估在投放、素材或商家侧的落地机会。"
-    },
-    {
-      "title": "ByteDance to Turn Doubao Into Autonomous AI Agent, Chasing Meta's Muse as Consumer Market Heats Up",
-      "explanation": "ByteDance to Turn Doubao Into Autonomous AI Agent, Chasing Meta's Muse as Consumer Market Heats Up",
-      "analysis_points": [],
-      "category": "大厂动向",
+      "title": "TikTok Shop成品牌新品首发与内容电商主阵地",
+      "explanation": "多家媒体报道Mattel将芭比、风火轮带入TikTok Shop，美妆与二手时尚品牌加码直播，TikTok Shop正被品牌当作新品首发与内容电商的重要阵地，种草到成交链路持续收进平台内。",
+      "analysis_points": [
+        "生态变化：品牌从把TikTok当曝光渠道，转为把TikTok Shop当成交与首发渠道，直播与短视频直接承接转化。",
+        "对商家的启示：内容与货架的一体化运营成为标配，选品与内容节奏需围绕直播场次设计。"
+      ],
+      "category": "生态动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CRHM3RlpOa2YtM2VQemFuWEw5T0JDSXh4WWhfQlE5SzZyN0VwTFZiNVlVYWkyNzJsbXZtSDhYcm5zVXU5MHV3X0JVOTFqMlpnaVFqbWpKYUFKOEtoZTRrU2c3Z003QUJRMkUwVGM1Uk5DRm9UT1E?oc=5",
+      "source": "Digiday / WWD / Modern Retail",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYWg5VEw0dXhzOTFoZmU4RHVuVUFXelhSTE9PekhZaWh2ZWVqN2daYlE1QXVXZWpUUjFWdUZuVWtHVlBOZlZKMFVuRWpkNlVqZkhqYkZrV29fV2UxNXRtWHVZT09Rd0Q0UEhZQm1zZmlCMVpFUUh6SUtoTExuaFdWN0V5aw?oc=5",
       "local_life_hint": ""
     },
     {
-      "title": "ByteDance wants to plug an AI agent into TikTok to take on ChatGPT",
-      "explanation": "ByteDance wants to plug an AI agent into TikTok to take on ChatGPT",
-      "analysis_points": [],
-      "category": "大厂动向",
+      "title": "Seed STEM计划启动分子逆合成挑战赛",
+      "explanation": "字节Seed团队推出STEM计划并启动分子逆合成挑战赛，把AI能力延伸到科研场景。这是字节在基础科学领域做生态与人才布局的动作，短期商业化关联较弱但有助于品牌与技术声誉。",
+      "analysis_points": [
+        "事件内容：字节Seed发起面向分子逆合成的挑战赛，属于AI for Science方向的生态投入。",
+        "意义：通过赛事聚拢科研人才与方法论，为长期模型能力与行业影响力积累筹码。"
+      ],
+      "category": "生态动向",
       "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBS3d0ZWd2U0I3QzJhTFFVb1ZmRDNldFY0VFBTYVRIeFZNZVBWVzk4a0MzaTBweEJCSU1Dekx4WWswWFg3ZFFXcjhyN3k4aVVYOWx0bzF3aHV6d3VfMWU4ZEtmVkZ2SEtVa0JzZHF3?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok owner ByteDance is planning a buyback of up to $6 billion at about $400 billion",
-      "explanation": "TikTok owner ByteDance is planning a buyback of up to $6 billion at about $400 billion",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fc2w2UkJWNHZManN4S2J6SkZSMGZsV1JwaC1ueXZfWkpQdmVPb3daZmVKQ0JCNjU1anIyZnFUWVd1Qzg5NEdkem9QTkUxZjA2NVptdk5ybENNaUg1SlBpdjhsUmJmM09kQU9kdTdLU2h6RjBJUm5HQmtGRQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance Prepares Muse-Like Agent in Push to Close AI Gap",
-      "explanation": "ByteDance Prepares Muse-Like Agent in Push to Close AI Gap",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONm9oaHpHbGpJQnI5SHg2ckZyNzhOVTcwUC1kejJuQ09zMkd1Q0FXTkk2RUhhU2NrOXNIa3RVa0VCelk0NDBKeU9oS29YeVpleld0X0kyY21sQnp0RTR3bEN2NGFzT0xrTVdCZV9YU3llRzNaQ2RaUWMwa2Z1VXhZZHdxc0xBVGlodVU1NVl3S09CaURqeGpDcjZiSHJZcUg5cGJhOXdTLVg1ZHpYbUE?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance reportedly plans a Muse-like AI agent within weeks",
-      "explanation": "ByteDance reportedly plans a Muse-like AI agent within weeks",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oR2hlci1MV0RKRlNUTFpkYTdHSDdBNENKdjhVcnlMQTdxMGV2dzNQNUFZYmlOaE1FM1BZY0d0aDNtdUFqSXE1QWtqeFB6Y25mZXFtWjRzZXhza3BIVjZNVkxIb1owUUM5bTlQV3l3cUMzSWFtY2FmMw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Shop org chart: See the 14 executives running its US e-commerce operations and their direct reports",
-      "explanation": "TikTok Shop org chart: See the 14 executives running its US e-commerce operations and their direct reports",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVjlVWFRrOWp2bThoWlBrc0cxbFVON3E0NlAzQkdEb0xTY180STlIYUdmWXJCeGQzRWp4Qzl0VTRTV1Y0bDNCZ2JsRjVNTHM2bGlkTXlwT2VnWGdrRnZiS1Z0amxtejJ5T0RIV1pvOFZVWEhheG01Um53MHRSaVJsaWhwXzl3WXFSSDVISHBRTzFlVmJyZUotTVNFQzNQTnE5cG9z?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Shop Plus is a subscription tier that unlocks shopping perks for $9.99 per month",
-      "explanation": "TikTok Shop Plus is a subscription tier that unlocks shopping perks for $9.99 per month",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdUZ6TndFLVBBbXo1MGxrUXF0Z0k3STJjOVhBd3A1QnppekRwdFlLTnZpR2MydmNuQWowenlqLTUtbjFPcll5Slk2ZjF5dzFLOXJ4ZlE0Ull6ZVh1a2x6ck0xdFN0OU9IZmtzX2tyTjR0NkFwRjdwRnVMNHU4Q3RWVXVCZmlickV5NHJHWk9RMjVEUQ?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-      "explanation": "Dreamteam , a startup founded by former Freshworks executives, has raised $53 million to challenge Salesforce and HubSpot with its AI-native CRM, bett",
-      "analysis_points": [],
-      "category": "初创动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-      "local_life_hint": ""
-    },
-    {
-      "title": "CA Automotive Photography Company EVOX Sues ByteDance",
-      "explanation": "CA Automotive Photography Company EVOX Sues ByteDance",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHcxTlZPaXhIQm95eVNrWlhOYkVEMy1aSVhLeXQxMm1yNVZCMGlrYmdLYXhUV25MSFM3NkhYVXRXeXU4QUcyNmFJWDFOQS1yZGhsMEFyb2FrY0tCSGdNdnV1dFIwc21pakZsM20zem40NGRPTmV0QVQteXJXaTZyby1WcU5BZw?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "ByteDance opens its cheaper Seedance 2.5 Flash video model to API users",
-      "explanation": "ByteDance opens its cheaper Seedance 2.5 Flash video model to API users",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXFIVGRUeU1abHBFQWo0OFpTYVlUNWwyT3hsMkJ0UXROMi1OLUc3Q3BwMEZMSHJSMkxoaXRyR3hxZmN0ekwzMEx2VDNuVEdzNDFINzROSDdrOW1FSlVxMUxSMF9saTFCcEhSZXhPU0VuMzhaRWUyZlVFQVpjX0FDRXpnZDFfWng1Zl96OHRfTnRwWm9aNlBUdS1zdURCTXc?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Would You Buy Diamonds From TikTok?",
-      "explanation": "Would You Buy Diamonds From TikTok? The New York Times",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zZ2htUWdkVGh2aXg1X2dHSjdMekJNajU5cnJwVzlDdU05eVo0RnpnY0ZpZlROQllLcU9ZaE9uazJPdGU4SGFPOWJ3ZE5EVjQ4S1BjYWRIYXNFQ1BXY3N2LW4xU3E4R2hSM1ZBczRCZE9rNFhNUGd0WXduXzJqLXc?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "The Booming Business of Beauty on TikTok Shop",
-      "explanation": "The Booming Business of Beauty on TikTok Shop",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok tests shopping subscriptions",
-      "explanation": "TikTok tests shopping subscriptions Social Media Today",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT1QxRWt5ckd4Nk04eThlRWNJbTJsX09FbmFjVjFDdmxTOThRTkplajF5UlBpMFhlQnBMa0ttOEhuNlgzSVdlemZTM3lDNjdHQnBndFIwR2FaMFVHYkMxMWN4aUFIQjNmUTFmdnE2eXdXeWtlOFJBcFRZTkpoTUxDbi1Wbkc1OVgy?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "How beauty and wellness leaders are prioritizing GEO and TikTok Shop",
-      "explanation": "How beauty and wellness leaders are prioritizing GEO and TikTok Shop",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ09OQk5sRmlJNUdicnpZRjZqR2tqOXdvUFh4MWp5LU5SbXM4bjdYNHc4TE9jYl8ybUdFUnVWV1NlYlNucU1hV295RjYzQWlsd1NzNTZvQXZqYm8wT0dZQmhZYnY5YzNLRzZxelRLcVZMN09rR2RTN3MzeU15NUVXMzcybmJqLVFmXzNYRDZhS2pkcTZBX2RsYXlYNUFDWVU?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "Seed STEM 计划｜分子逆合成挑战赛启动",
-      "explanation": "Seed STEM 计划｜分子逆合成挑战赛启动 ByteDance Seed",
-      "analysis_points": [],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "Google News中文",
+      "impact": "low",
+      "source": "ByteDance Seed",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNTlYSlhaUkozRnJGSE1LUHVfeWRzeVlRWXhRcTFKWS0yYWxfa0czejBlMTRDbmswNFRYaUp3Y3dDOHpmR18tdTRKV2F6MmZhSk13aGhtWGt2dG16S3lxSGVtU0w5UUhpTGg2Q3ZDcUx3eVEzVU1UR0xYcUp4Rmx4dkRTeUxZdV91c0tPV0xTU1JHZlduSGMtSGIzd19XQlJRX3BnaUNpVk9UWC1ldDduS21aR0FZNk9GcUxNYjN5RE9UbENlUmNrOFpVcnlRWTdSYjFFUXhHVHlMOTl3WHFHMC1XUmZWNXhpTEE?oc=5",
       "local_life_hint": ""
     }
   ],
-  "mode": "rule"
+  "mode": "ai"
 }
