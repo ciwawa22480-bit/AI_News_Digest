@@ -1,151 +1,137 @@
 {
-  "generated_at": "2026-11-18T15:56:54.355128+00:00",
-  "date_display": "2026年11月18日",
-  "date_short": "2026-11-18",
-  "weekday": "周三",
-  "editorial_summary": "今天字节系AI商业化最值得关注的是「模型能力下探+入口上收」的双线推进：一边是Seedream 5.5支持百轮连续编辑、直出透明素材，Seedance 2.5 Flash把视频生成压到每秒0.99元、速度翻倍，创作成本继续坍塌；另一边是豆包工作上线三个月DAU破800万、企业ARR破20亿元，并全面开放多模型路由，把模型隐入后台、把入口推到前台。与此同时，扣子企业版正式退场，说明字节正在收缩低代码叙事、把资源集中到豆包与即梦两条主线。资本层面，字节拟以约4000亿美元估值回购最高60亿美元股份，同时与微软洽谈追加5亿美元云采购、AI芯片贷款因美方规则被冻结，反映其在算力与资金上的双线博弈。对广告与本地生活而言，创作成本下降与素材可控性提升，正在重塑投放素材的生产节奏。",
+  "generated_at": "2026-11-19T09:29:24.493615+00:00",
+  "date_display": "2026年11月19日",
+  "date_short": "2026-11-19",
+  "weekday": "周四",
+  "editorial_summary": "今天字节系AI商业化最有价值的变化集中在三处：一是SeedRealtime 1.0实时音视频通话模型API全量上线，把语音级联的ASR+VLM+TTS链路压成端到端一个模型，能边看边听边说并主动开口，这是交互底座的换代；二是Seedance 2.5 flash在速度翻倍、单价降三成的成本曲线下持续扩散，接入即梦、LibTV、美图RoboNeo，并传出Seedance 2.0单月为火山引擎创收超10亿元，说明视频生成已从技术demo变成可计价的产线；三是巨量引擎连发318自驾IP营销与2027品牌搜索种收白皮书，把AI能力往广告主的种收一体经营上收口。与此同时，豆包月活4.19亿、豆包工作DAU破800万、扣子企业版退场，反映字节在C端规模与B端取舍上同时做减法。",
   "overview": {
     "new_products": [
-      "字节发布Seedream 5.5图像模型，主打可连续修改约100轮并直接输出透明背景素材，把「一次生成」推向「多轮精修+可直接商用交付」的编辑工作流。",
-      "豆包工作上线三个月DAU破800万、企业ARR破20亿元，并全面开放多模型路由，用户可在自研与Kimi、GLM、DeepSeek等第三方模型间按任务切换。",
-      "即梦Seedance 2.5推出4K版本，支持最长30秒单次生成、全模态参考与视频编辑延长，把AI视频从「惊艳demo」推向可交付的商业制作产线。"
+      "火山引擎上线豆包实时音视频通话模型SeedRealtime 1.0 API：把声音、画面、时序统一进一个端到端模型，替代ASR+VLM+TTS级联，支持边看边听边说并主动开口，面向实时交互场景开发者。",
+      "Seedance 2.5 flash持续铺渠道：速度翻倍、单价下调约三成，陆续接入即梦、LibTV全球首发、美图RoboNeo，视频生成从单次试玩走向批量产线调用。"
     ],
     "opinions": [
-      "多方分析认为办公Agent竞争已从「模型比拼」转向「入口与路由比拼」：模型隐入后台，谁的入口离用户任务更近谁占优，豆包工作与腾讯WorkBuddy、千问办公同题竞争。",
-      "有报道指出扣子企业版退场并非孤例，大厂已清退超25款AI应用，低代码「人人都是开发者」的叙事正被大模型原生能力抹平，工具层价值被向上收编。"
+      "有分析认为Seedance 2.0单月为火山引擎创收超10亿元，视频生成已成为字节AI最明确的现金流之一，模型能力正被直接折算成API调用收入。",
+      "对豆包接入第三方模型，36Kr等观点提醒先别急着夸：多模型自由提升体验，但也带来成本、一致性与自研模型护城河的权衡。"
     ],
     "ecosystem": [
-      "字节一边洽谈向微软追加约5亿美元云采购，一边其4.8亿美元AI芯片贷款因美方规则被银行冻结，算力供给呈现「海外买云、国内受阻」的分裂态势。",
-      "视频生成价格战持续：Seedance 2.5 Flash把成本压到每秒0.99元、速度翻倍，AI影视与广告素材制作的边际成本进一步下探，中小创作团队受益最明显。"
+      "字节AI商业化呈现“C端规模+B端取舍”并行：豆包月活4.19亿、豆包工作DAU破800万，同时扣子企业版退场，资源向高确定性产品集中。",
+      "视频生成生态加速分层：模型厂提供API底座，即梦、LibTV、美图等做应用层分发，成本下降推动AI影视与营销素材进入规模化生产。"
     ]
   },
   "category_summaries": {
-    "大厂动向": "字节今天在模型与产品两端同时出手：Seedream 5.5强化多轮编辑与透明素材直出，Seedance 2.5 Flash以每秒0.99元的价格和翻倍速度继续压成本；豆包工作则以三个月800万DAU、20亿元ARR证明办公Agent的商业化跑通。同时扣子企业版退场，显示字节在AI应用层做减法、把资源向豆包与即梦集中。",
-    "初创动向": "本批候选资讯中缺少字节系初创融资类内容，暂无可归入本分类的有效条目。",
-    "生态动向": "资本与算力层面消息密集：字节拟以约4000亿美元估值回购最高60亿美元股份，同时与微软洽谈追加5亿美元云采购，但其4.8亿美元AI芯片贷款因美方规则被冻结，反映算力获取路径正被外部监管重塑。",
-    "观点与深度": "围绕办公Agent的讨论集中在「模型隐入后台、入口走向前台」，认为竞争焦点已从模型能力转向任务入口；另一条主线是低代码工具被大模型原生能力抹平，扣子退场被解读为工具层价值被向上收编的信号。"
+    "大厂动向": "字节今日主线是模型底座与商业化的双线推进：SeedRealtime 1.0把实时多模态交互做成API，Seedance 2.5 flash以更低单价扩散到多个应用渠道，豆包则以4.19亿月活和800万办公日活证明规模。同时扣子企业版退场，显示字节在B端AI应用上开始做减法，把资源压向确定性更高的产品。",
+    "初创动向": "本批候选以字节系为主，初创侧信息有限，主要看点是美图RoboNeo等应用层玩家搭载Seedance 2.5 flash，借字节视频模型实现生成提速一倍、单价下调三成，说明模型厂与应用层的分工正在固化。",
+    "生态动向": "生态层面，Seedance系列通过即梦、LibTV、美图等渠道多点分发，视频生成能力正从单一平台走向基础设施化；巨量引擎则用318自驾IP和白皮书把AI能力接到品牌种收经营上，广告生态与模型能力加速咬合。",
+    "观点与深度": "观点侧聚焦两条线：一是Seedance 2.0单月创收超10亿元，视频生成被视作字节AI最清晰的变现路径；二是对豆包接入第三方模型的冷静讨论，提醒多模型自由背后存在成本与自研护城河的权衡。"
   },
   "local_life_insights": [
     {
-      "base": "Seedream 5.5把图像生成从单次出图改成可连改约100轮并直出透明素材，素材精修从「重生成」变成「会话内迭代」。",
-      "borrow": "外投团队可把素材生产流程改为「一次生成+多轮微调」的会话式作业，把改稿成本压在设计环节之前，尤其适合SKU多、改稿频繁的本地生活商家批量出主图与贴纸素材。"
+      "base": "火山引擎把实时多模态交互从ASR+VLM+TTS级联改成SeedRealtime 1.0端到端单模型，延迟与信息损耗下降，并支持主动开口。",
+      "borrow": "外投团队可把实时音视频能力接入到店咨询与直播场景，用主动开口做即时答疑与套餐推荐，把投放落地页从静态表单升级为可对话的实时接待，提升线索转化。"
     },
     {
-      "base": "Seedance 2.5 Flash把视频生成成本压到每秒0.99元、速度翻倍，单条短视频进入元级成本区间。",
-      "borrow": "外投投放可把「一条素材打天下」改为「同卖点多版本批量生成+赛马」，用极低试错成本提升素材迭代频率，把预算更多留给跑赢的素材而非制作。"
+      "base": "Seedance 2.5 flash把视频生成速度翻倍、单价降约三成，并扩散到即梦、LibTV、美图RoboNeo等渠道，单条视频成本降到十几元量级。",
+      "borrow": "外投素材生产可改为“批量生成+多版本A/B测试”模式：用flash版低成本产出多套探店/菜品/门店短视频，按渠道分别投放，用数据筛出高转化素材再放量。"
     },
     {
-      "base": "豆包工作开放多模型路由并按实际消耗计价，任务可按难度分配到不同成本档位的模型。",
-      "borrow": "外投团队可借鉴路由思路，把素材生成、审核、复盘拆到不同成本模型上，用低成本模型跑批量初筛、高成本模型只做终稿，优化整体投放生产成本结构。"
+      "base": "巨量引擎把搜索从流量位升级为种收一体经营阵地，并发布2027品牌搜索种收白皮书。",
+      "borrow": "本地生活外投可加强品牌词与品类词的搜索承接，把种草内容与搜索落地页打通，形成从内容曝光到搜索转化的闭环预算分配。"
     }
   ],
-  "insights_intro": "换个视角看，今天字节把图像编辑从「重生成」改成「会话内多轮精修」、把视频生成压到每秒0.99元、把模型调用改成按任务路由计价——这三处底座改造，直接决定未来外投素材的生产节奏、试错成本与预算分配结构。",
-  "total_items": 7,
-  "new_vs_yesterday": 7,
-  "compare_date": "2026-11-17",
-  "high_count": 3,
+  "insights_intro": "换个视角看，今天字节把实时多模态交互压成端到端API、把视频生成成本再压三成，意味着外投的素材生产与接待转化成本结构正在被重写。",
+  "total_items": 6,
+  "new_vs_yesterday": 6,
+  "compare_date": "2026-11-18",
+  "high_count": 1,
   "category_counts": {
     "大厂动向": 3,
-    "生态动向": 4
+    "生态动向": 1,
+    "观点与深度": 2
   },
   "items": [
     {
-      "title": "豆包工作三个月DAU破800万，企业ARR破20亿",
-      "explanation": "豆包工作上线三个月日活突破800万、企业客户年度经常性收入突破20亿元，是字节AI ToB商业化迄今最硬的成绩单，说明办公Agent已跨过尝鲜期进入规模化付费阶段。",
+      "title": "火山引擎上线SeedRealtime 1.0实时音视频API",
+      "explanation": "火山引擎正式上线豆包实时音视频通话模型SeedRealtime 1.0 API，把声音、画面、时序统一进一个端到端模型，实现边看边听边说并主动开口，替代传统ASR+VLM+TTS级联链路。",
       "analysis_points": [
-        "产品形态：用户用自然语言描述任务并附资料，豆包工作自主拆解任务、调用工具完成调研分析、内容创作、数据处理与应用搭建，执行中可追加要求调整。",
-        "商业价值：20亿元ARR意味着企业侧已形成可复用的付费模型，广告主与商家可把重复性的素材整理、竞品调研、投放复盘交给Agent，压缩人力成本。"
+        "能力变化：从多模块串联的语音助手，变成单模型端到端实时多模态交互，降低延迟叠加与信息损耗，并能结合画面消解同音词歧义。",
+        "商业价值：实时交互可落地到智能座舱、客服、直播陪伴等场景，开发者可直接调用API缩短产品化周期。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "IT之家",
-      "url": "https://www.ithome.com/1/029/064.htm",
-      "local_life_hint": "本地生活商家可用办公Agent批量生成门店素材简报与竞品价格监测，降低投放前的调研人力投入。"
+      "url": "https://www.ithome.com/1/029/406.htm",
+      "local_life_hint": "本地生活可探索实时音视频客服与到店导购场景，用主动开口能力提升咨询转化。"
     },
     {
-      "title": "Seedream 5.5发布：可连改100轮并直出透明素材",
-      "explanation": "字节发布Seedream 5.5图像模型，主打约100轮连续编辑与透明背景素材直出，把图像生成从「一次出图」推进到「可反复精修的编辑工作流」，对电商与广告素材生产影响直接。",
+      "title": "美图RoboNeo搭载Seedance 2.5 Flash提速降价",
+      "explanation": "美图RoboNeo搭载Seedance 2.5 Flash，视频生成提速一倍、单价下调三成，显示字节视频模型正被应用层产品规模化集成。",
       "analysis_points": [
-        "能力变化：从单次文生图，变成支持多轮连续修改且保持画面一致性，并能直接输出透明底素材，省去抠图环节。",
-        "对商家的价值：商品图、主图、贴纸类素材可在同一会话内反复微调，减少返工与外包设计成本，适合SKU多、改稿频繁的本地生活商家。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "Google News中文",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa1hydHN0MWJEN3lZUUJVN09kOWJuRjVRcjhuLWpQUEhuN1d6RFQyWTdTay1mTkZsS3R4YmtoYXRlb2ozVUZoTVZ4M09qOUZsYU9wWFhhTTFhSFhoaF9hSUZZa2dLOUs3dU5CX1dINHY5R1pwdHlmSkNfTExnODU0R0NTNEMxU01IZ1JJUjV1OUo0b0FyeUZaeGhsSm1kOTFt?oc=5",
-      "local_life_hint": "商家可用透明素材直出能力快速产出菜品、门店、套餐贴纸，用于短视频与信息流素材的快速换装。"
-    },
-    {
-      "title": "即梦Seedance 2.5上4K，AI视频有了商业产线",
-      "explanation": "即梦Seedance 2.5推出4K版本，支持最长30秒单次生成、全模态参考与视频编辑延长，把AI视频从短片段演示推向可交付的商业制作规格。",
-      "analysis_points": [
-        "能力变化：从低分辨率短片段，升级为原生4K、30秒单次生成，并支持参考素材与后期延长编辑，接近商业交付标准。",
-        "对品牌方的价值：香水标签、商品图等细节要求高的镜头可一次成型，减少实拍与后期合成环节，缩短素材交付周期。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1690033?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "local_life_hint": "品牌与本地商家可用4K生成能力制作门店形象片与菜品特写，替代部分实拍预算。"
-    },
-    {
-      "title": "字节洽谈追加5亿美元微软云采购",
-      "explanation": "字节与微软洽谈追加约5亿美元云服务采购，在自建算力受限背景下通过海外云补足训练与推理需求，反映其算力供给的全球化布局。",
-      "analysis_points": [
-        "交易实质：在既有合作基础上追加约5亿美元云用量，用于支撑模型训练与海外业务推理需求。",
-        "行业含义：头部AI公司算力采购正从单一自建转向「自建+多云外采」组合，以对冲单一供应链风险。"
+        "能力变化：应用层产品接入flash版后，生成速度翻倍、单价降三成，直接改善终端用户的创作体验与成本。",
+        "对营销：工具型产品降价提速会带动中小商家视频素材供给增加，投放侧素材竞争加剧。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "medium",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQndBZUJ6d1NJWVpoeEk1b1VfVERQNVdaN1c2bGlaSTlydFJIcWhiZ2ZLWDBiN0ZCWmI5U0lhNGc2aWRaRDdETThMRDBpRHJSMGtocW5VTlMzOVFZcVdzczJibzFwblNDTWg0aGZPOHNZaGlLNVlwUFdRdTJQb1BrT25IYWU1OURpVEM2cHZ5Y2wzR1M5ekhNQXlvcW5HQTZ2WmduSTNQTS15WVZ4bmRabDdtWQ?oc=5",
-      "local_life_hint": ""
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51RGF2UFZ6VUhEUFM1TGlUTWQ0T01PcXA3aS1Jem41VmlfMXQzdU1kOWFVbVRUYUc4Y012WmxRYXFaS0FtRHZqQ2hBN3dobUwyNU94dE1ndnotTnBxM0wwcQ?oc=5",
+      "local_life_hint": "中小本地商家可借此类工具低成本产出视频素材，外投团队可考虑配套素材模板。"
     },
     {
-      "title": "TikTok Shop成美妆与玩具品牌新增量渠道",
-      "explanation": "WWD与Digiday报道美妆与美泰等玩具品牌加码TikTok Shop，直播与短视频带货正成为品牌新品首发与清库存的重要渠道。",
+      "title": "扣子企业版正式退场，字节清退AI应用",
+      "explanation": "报道称字节跳动扣子企业版正式退场，大厂已清退超25款AI应用，反映B端AI工具进入淘汰与聚焦阶段。",
       "analysis_points": [
-        "渠道变化：从传统货架电商，转向内容驱动的直播与短视频成交，品牌把新品首发与IP联名放在TikTok Shop测试。",
-        "对商家的启示：内容能力成为上架前置条件，需配置直播与短视频素材产能，而非仅做商品页优化。"
+        "产品变化：扣子企业版从主推的“人人都是开发者”平台转为关停，说明低门槛开发平台的企业付费模式未跑通。",
+        "行业信号：大厂开始收缩长尾AI应用，把资源集中到豆包、火山引擎等确定性更高的产品线。"
       ],
-      "category": "生态动向",
+      "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
-      "source": "WWD",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
-      "local_life_hint": "本地品牌可借鉴内容驱动上架思路，把门店新品首发做成短视频与直播事件而非静态商品页。"
-    },
-    {
-      "title": "TikTok英国发布直播购物报告",
-      "explanation": "TikTok UK发布直播购物报告，系统梳理直播电商在英国市场的用户行为与转化表现，为品牌评估直播投入提供区域数据参考。",
-      "analysis_points": [
-        "报告价值：给出直播购物的用户参与与转化侧数据，帮助品牌判断直播在成熟市场的实际带货效率。",
-        "对商家的启示：可据此校准直播时长、频次与达人配比，避免把国内直播节奏直接照搬到海外市场。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "Social Media Today",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQmtXeWp6QVRYOEJUUFlaX2FJLWtHM2x2X3hXM0hLNkFnZFkxWHZXWGVUbWE1YmZaQWFub1VoQl9TQVVrdHpvV3RuV3R3eWw1ZGhabTM0X1laaThWZFZ1OEJtaUtrWnVVSHBHdXgxSktEUW9Jc0pURTFMeUxoRFZnMXlIaHVlaFBKeDY4Tzhabw?oc=5",
-      "local_life_hint": "有出海计划的本地品牌可参考英国直播数据校准直播频次与达人投放节奏。"
-    },
-    {
-      "title": "Seed STEM计划启动分子逆合成挑战赛",
-      "explanation": "字节Seed团队启动分子逆合成挑战赛，以赛事形式汇聚外部科研力量，是其在AI for Science方向构建生态与人才池的动作。",
-      "analysis_points": [
-        "形式与目的：以公开挑战赛形式设定逆合成任务，吸引高校与研究团队参与，沉淀可复用的模型与数据。",
-        "商业化关联有限：短期不直接产生广告或商家侧价值，更多是字节AI品牌与科研生态的长期布局。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "ByteDance Seed",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNTlYSlhaUkozRnJGSE1LUHVfeWRzeVlRWXhRcTFKWS0yYWxfa0czejBlMTRDbmswNFRYaUp3Y3dDOHpmR18tdTRKV2F6MmZhSk13aGhtWGt2dG16S3lxSGVtU0w5UUhpTGg2Q3ZDcUx3eVEzVU1UR0xYcUp4Rmx4dkRTeUxZdV91c0tPV0xTU1JHZlduSGMtSGIzd19XQlJRX3BnaUNpVk9UWC1ldDduS21aR0FZNk9GcUxNYjN5RE9UbENlUmNrOFpVcnlRWTdSYjFFUXhHVHlMOTl3WHFHMC1XUmZWNXhpTEE?oc=5",
+      "source": "腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ENnVaUHNqUktwdVRMRm1WUmVoX1Zxdmk1b0NkRGR6SFVFQWp4TTd0OXVzakFVbkVpRW5SaEI1MEpSaVNqQ3BPVGg4S3FIRXFmRzFnZHVn?oc=5",
       "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5后劲：视频生成进入产线化讨论",
+      "explanation": "虎嗅讨论Seedance 2.5的“后劲”，认为视频生成正从尝鲜走向产线化，行业关注点转向稳定性与成本。",
+      "analysis_points": [
+        "趋势判断：讨论焦点从模型能不能生成，转向能否稳定批量产出，产线化成为竞争关键。",
+        "对行业：稳定性与成本曲线决定视频模型能否被影视、广告等专业场景长期采用。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNUU0xUUl3akYzb0xYa3lzVUR2cXVoV3NiYVMzbC1ybm9nWEJWTEVOdmFQMUpCMTBlaERKQy1PRVljaGlnRmdKcDlJSWdjbklSYUVKRg?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包接入第三方模型引发冷静讨论",
+      "explanation": "36Kr对豆包接入第三方模型提出冷静看法，认为多模型自由提升体验的同时，也带来成本与自研护城河的权衡。",
+      "analysis_points": [
+        "产品变化：豆包从单一自研模型变成可调用第三方模型，用户可按任务选择更合适的模型。",
+        "权衡点：多模型提升效果上限，但调用成本、输出一致性与自研模型的差异化价值需要平衡。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41bWFtRVhsOG1mQ3ZvM1FZc2c4eU44eHFNaC1BaGJMWG1vZU16LW10UDRFTEFfZDFZYkFpYkpzV0liWWdkbXM4dUNBSVVGdw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包实时音视频模型上线：能看会听还能主动开口",
+      "explanation": "驱动之家报道豆包实时音视频模型上线，强调其能看、会听、还能主动开口，突出主动交互这一差异化能力。",
+      "analysis_points": [
+        "体验变化：模型不再被动等提问，而是持续理解场景并在合适时机主动开口。",
+        "应用想象：适合导购、陪伴、车载等需要主动服务的场景，交互从问答转向陪伴式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TdGktMzVxcExUNmQyLTU0TFhTeFBZVXFucjIwRW5PVXNiM1MwcV94cU1iVXlORE1NWEZTV1lqMHNRVlNKSnhQaWV6WVlJUC0yMTZ5T2V4NnI?oc=5",
+      "local_life_hint": "本地服务可探索主动式AI导购，在用户浏览时主动推荐到店套餐。"
     }
   ],
   "mode": "ai"

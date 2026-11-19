@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-11-19T09:29:24.493615+00:00",
+  "date_display": "2026年11月19日",
+  "date_short": "2026-11-19",
+  "weekday": "周四",
+  "editorial_summary": "今天字节系AI商业化最有价值的变化集中在三处：一是SeedRealtime 1.0实时音视频通话模型API全量上线，把语音级联的ASR+VLM+TTS链路压成端到端一个模型，能边看边听边说并主动开口，这是交互底座的换代；二是Seedance 2.5 flash在速度翻倍、单价降三成的成本曲线下持续扩散，接入即梦、LibTV、美图RoboNeo，并传出Seedance 2.0单月为火山引擎创收超10亿元，说明视频生成已从技术demo变成可计价的产线；三是巨量引擎连发318自驾IP营销与2027品牌搜索种收白皮书，把AI能力往广告主的种收一体经营上收口。与此同时，豆包月活4.19亿、豆包工作DAU破800万、扣子企业版退场，反映字节在C端规模与B端取舍上同时做减法。",
+  "overview": {
+    "new_products": [
+      "火山引擎上线豆包实时音视频通话模型SeedRealtime 1.0 API：把声音、画面、时序统一进一个端到端模型，替代ASR+VLM+TTS级联，支持边看边听边说并主动开口，面向实时交互场景开发者。",
+      "Seedance 2.5 flash持续铺渠道：速度翻倍、单价下调约三成，陆续接入即梦、LibTV全球首发、美图RoboNeo，视频生成从单次试玩走向批量产线调用。"
+    ],
+    "opinions": [
+      "有分析认为Seedance 2.0单月为火山引擎创收超10亿元，视频生成已成为字节AI最明确的现金流之一，模型能力正被直接折算成API调用收入。",
+      "对豆包接入第三方模型，36Kr等观点提醒先别急着夸：多模型自由提升体验，但也带来成本、一致性与自研模型护城河的权衡。"
+    ],
+    "ecosystem": [
+      "字节AI商业化呈现“C端规模+B端取舍”并行：豆包月活4.19亿、豆包工作DAU破800万，同时扣子企业版退场，资源向高确定性产品集中。",
+      "视频生成生态加速分层：模型厂提供API底座，即梦、LibTV、美图等做应用层分发，成本下降推动AI影视与营销素材进入规模化生产。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节今日主线是模型底座与商业化的双线推进：SeedRealtime 1.0把实时多模态交互做成API，Seedance 2.5 flash以更低单价扩散到多个应用渠道，豆包则以4.19亿月活和800万办公日活证明规模。同时扣子企业版退场，显示字节在B端AI应用上开始做减法，把资源压向确定性更高的产品。",
+    "初创动向": "本批候选以字节系为主，初创侧信息有限，主要看点是美图RoboNeo等应用层玩家搭载Seedance 2.5 flash，借字节视频模型实现生成提速一倍、单价下调三成，说明模型厂与应用层的分工正在固化。",
+    "生态动向": "生态层面，Seedance系列通过即梦、LibTV、美图等渠道多点分发，视频生成能力正从单一平台走向基础设施化；巨量引擎则用318自驾IP和白皮书把AI能力接到品牌种收经营上，广告生态与模型能力加速咬合。",
+    "观点与深度": "观点侧聚焦两条线：一是Seedance 2.0单月创收超10亿元，视频生成被视作字节AI最清晰的变现路径；二是对豆包接入第三方模型的冷静讨论，提醒多模型自由背后存在成本与自研护城河的权衡。"
+  },
+  "local_life_insights": [
+    {
+      "base": "火山引擎把实时多模态交互从ASR+VLM+TTS级联改成SeedRealtime 1.0端到端单模型，延迟与信息损耗下降，并支持主动开口。",
+      "borrow": "外投团队可把实时音视频能力接入到店咨询与直播场景，用主动开口做即时答疑与套餐推荐，把投放落地页从静态表单升级为可对话的实时接待，提升线索转化。"
+    },
+    {
+      "base": "Seedance 2.5 flash把视频生成速度翻倍、单价降约三成，并扩散到即梦、LibTV、美图RoboNeo等渠道，单条视频成本降到十几元量级。",
+      "borrow": "外投素材生产可改为“批量生成+多版本A/B测试”模式：用flash版低成本产出多套探店/菜品/门店短视频，按渠道分别投放，用数据筛出高转化素材再放量。"
+    },
+    {
+      "base": "巨量引擎把搜索从流量位升级为种收一体经营阵地，并发布2027品牌搜索种收白皮书。",
+      "borrow": "本地生活外投可加强品牌词与品类词的搜索承接，把种草内容与搜索落地页打通，形成从内容曝光到搜索转化的闭环预算分配。"
+    }
+  ],
+  "insights_intro": "换个视角看，今天字节把实时多模态交互压成端到端API、把视频生成成本再压三成，意味着外投的素材生产与接待转化成本结构正在被重写。",
+  "total_items": 6,
+  "new_vs_yesterday": 6,
+  "compare_date": "2026-11-18",
+  "high_count": 1,
+  "category_counts": {
+    "大厂动向": 3,
+    "生态动向": 1,
+    "观点与深度": 2
+  },
+  "items": [
+    {
+      "title": "火山引擎上线SeedRealtime 1.0实时音视频API",
+      "explanation": "火山引擎正式上线豆包实时音视频通话模型SeedRealtime 1.0 API，把声音、画面、时序统一进一个端到端模型，实现边看边听边说并主动开口，替代传统ASR+VLM+TTS级联链路。",
+      "analysis_points": [
+        "能力变化：从多模块串联的语音助手，变成单模型端到端实时多模态交互，降低延迟叠加与信息损耗，并能结合画面消解同音词歧义。",
+        "商业价值：实时交互可落地到智能座舱、客服、直播陪伴等场景，开发者可直接调用API缩短产品化周期。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/029/406.htm",
+      "local_life_hint": "本地生活可探索实时音视频客服与到店导购场景，用主动开口能力提升咨询转化。"
+    },
+    {
+      "title": "美图RoboNeo搭载Seedance 2.5 Flash提速降价",
+      "explanation": "美图RoboNeo搭载Seedance 2.5 Flash，视频生成提速一倍、单价下调三成，显示字节视频模型正被应用层产品规模化集成。",
+      "analysis_points": [
+        "能力变化：应用层产品接入flash版后，生成速度翻倍、单价降三成，直接改善终端用户的创作体验与成本。",
+        "对营销：工具型产品降价提速会带动中小商家视频素材供给增加，投放侧素材竞争加剧。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51RGF2UFZ6VUhEUFM1TGlUTWQ0T01PcXA3aS1Jem41VmlfMXQzdU1kOWFVbVRUYUc4Y012WmxRYXFaS0FtRHZqQ2hBN3dobUwyNU94dE1ndnotTnBxM0wwcQ?oc=5",
+      "local_life_hint": "中小本地商家可借此类工具低成本产出视频素材，外投团队可考虑配套素材模板。"
+    },
+    {
+      "title": "扣子企业版正式退场，字节清退AI应用",
+      "explanation": "报道称字节跳动扣子企业版正式退场，大厂已清退超25款AI应用，反映B端AI工具进入淘汰与聚焦阶段。",
+      "analysis_points": [
+        "产品变化：扣子企业版从主推的“人人都是开发者”平台转为关停，说明低门槛开发平台的企业付费模式未跑通。",
+        "行业信号：大厂开始收缩长尾AI应用，把资源集中到豆包、火山引擎等确定性更高的产品线。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ENnVaUHNqUktwdVRMRm1WUmVoX1Zxdmk1b0NkRGR6SFVFQWp4TTd0OXVzakFVbkVpRW5SaEI1MEpSaVNqQ3BPVGg4S3FIRXFmRzFnZHVn?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5后劲：视频生成进入产线化讨论",
+      "explanation": "虎嗅讨论Seedance 2.5的“后劲”，认为视频生成正从尝鲜走向产线化，行业关注点转向稳定性与成本。",
+      "analysis_points": [
+        "趋势判断：讨论焦点从模型能不能生成，转向能否稳定批量产出，产线化成为竞争关键。",
+        "对行业：稳定性与成本曲线决定视频模型能否被影视、广告等专业场景长期采用。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNUU0xUUl3akYzb0xYa3lzVUR2cXVoV3NiYVMzbC1ybm9nWEJWTEVOdmFQMUpCMTBlaERKQy1PRVljaGlnRmdKcDlJSWdjbklSYUVKRg?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包接入第三方模型引发冷静讨论",
+      "explanation": "36Kr对豆包接入第三方模型提出冷静看法，认为多模型自由提升体验的同时，也带来成本与自研护城河的权衡。",
+      "analysis_points": [
+        "产品变化：豆包从单一自研模型变成可调用第三方模型，用户可按任务选择更合适的模型。",
+        "权衡点：多模型提升效果上限，但调用成本、输出一致性与自研模型的差异化价值需要平衡。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41bWFtRVhsOG1mQ3ZvM1FZc2c4eU44eHFNaC1BaGJMWG1vZU16LW10UDRFTEFfZDFZYkFpYkpzV0liWWdkbXM4dUNBSVVGdw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包实时音视频模型上线：能看会听还能主动开口",
+      "explanation": "驱动之家报道豆包实时音视频模型上线，强调其能看、会听、还能主动开口，突出主动交互这一差异化能力。",
+      "analysis_points": [
+        "体验变化：模型不再被动等提问，而是持续理解场景并在合适时机主动开口。",
+        "应用想象：适合导购、陪伴、车载等需要主动服务的场景，交互从问答转向陪伴式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TdGktMzVxcExUNmQyLTU0TFhTeFBZVXFucjIwRW5PVXNiM1MwcV94cU1iVXlORE1NWEZTV1lqMHNRVlNKSnhQaWV6WVlJUC0yMTZ5T2V4NnI?oc=5",
+      "local_life_hint": "本地服务可探索主动式AI导购，在用户浏览时主动推荐到店套餐。"
+    }
+  ],
+  "mode": "ai"
+}
