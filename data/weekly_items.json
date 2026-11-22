@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T14:55:14.341100+00:00",
-  "week_range": "11.16-11.21",
-  "date_display": "11.16 - 11.21",
-  "editorial_summary": "本周共汇总 48 条 AI 商业要闻，其中高影响 9 条。本周主线包括：Seedance 2.5 4K 视频生成 API 全面开；豆包工作上线21个专业工作台，办公Agent开打；飞书与豆包将整合，字节重构ToB版图；豆包工作三个月DAU破800万，企业ARR破20亿；Seedream 5.5发布：可连改100轮并直出透明素。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-11-22T08:48:06.826457+00:00",
+  "week_range": "11.16-11.22",
+  "date_display": "11.16 - 11.22",
+  "editorial_summary": "本周共汇总 56 条 AI 商业要闻，其中高影响 11 条。本周主线包括：Seedance 2.5 4K 视频生成 API 全面开；豆包工作上线21个专业工作台，办公Agent开打；飞书与豆包将整合，字节重构ToB版图；豆包工作三个月DAU破800万，企业ARR破20亿；Seedream 5.5发布：可连改100轮并直出透明素。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "Seedance 2.5 4K 视频生成 API 全面开放",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（20 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（23 条），高影响条目占比约 20%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "换个视角看，今天字节把视频生成拆成样片与正片两段计价、把图像编辑做成可反复修改的稳定能力，意味着外投的素材生产正从按条外包转向按测试结果分配预算，成本结构会被重写。",
-  "total_items": 48,
-  "high_count": 9,
+  "total_items": 56,
+  "high_count": 11,
   "items": [
     {
       "title": "Seedance 2.5 4K 视频生成 API 全面开放",
@@ -175,6 +175,34 @@
       "source": "观点网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KOGxxZEFqYk5wWnhZSTZVaWM1R1dYZVVORTFzUXBUSmNiLXpCT0I3ZmVpWjA2MlpvSHBUbnR3c2dqVlB2VGstY2hVMXVTdjlvOTY2andoWHl0dHJya2E3VTZ3?oc=5",
       "local_life_hint": "选择AI营销工具供应商时，可优先考虑基于火山引擎MaaS的生态产品，享受规模效应带来的价格与稳定性优势。"
+    },
+    {
+      "title": "字节Seed新设MaaS Infra部，火山方舟更名Seed MaaS",
+      "explanation": "字节将火山方舟正式更名为Seed MaaS，并新设MaaS Infra部门，由吴迪统一负责。这意味着模型即服务从一条产品线升格为独立组织单元，企业级推理与托管业务的资源投入和考核口径都将更聚焦。",
+      "analysis_points": [
+        "组织变化：火山方舟从火山引擎旗下产品品牌变为Seed体系下的MaaS平台，MaaS Infra独立成部，说明字节把「卖模型调用」当作独立生意来经营。",
+        "对广告主与商家：企业接入大模型的门槛和商务路径更清晰，未来API定价、配额与行业方案可能更贴近垂直场景，便于本地生活服务商打包AI能力做商户工具。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "itsdw.cn",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE43R1hlVUk3bnl3SldneUZFdGNjaHBtREkzbEozS1VRaENDcFlOYnQyMkRpaThSYXhxTUcwVFNnM0pJakwtRUphb0htMjQ?oc=5",
+      "local_life_hint": "本地生活服务商可关注Seed MaaS后续是否推出面向商户的轻量推理套餐，提前评估把智能客服、评价分析等能力接入的成本。"
+    },
+    {
+      "title": "TikTok上线AI深度伪造检测与创作者肖像检测",
+      "explanation": "TikTok推出AI内容透明度工具，任何人无需账号即可上传图片或视频核验是否由TikTok AI生成或编辑，并检测隐形水印VeraDura；同时全球逐步推出创作者「肖像检测」。迄今已为超50亿条AI生成视频加标。",
+      "analysis_points": [
+        "能力变化：从平台单侧打标升级为「任何人可核验+创作者可维权」，检测依据包括内容凭证与难以去除的隐形水印。",
+        "对广告主：AI素材合规有了可自检工具，投放前可核验素材来源，降低因深度伪造引发的品牌与监管风险。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/030/581.htm",
+      "local_life_hint": "使用AI数字人做本地生活直播的商家，应提前用该类工具自检素材，避免肖像侵权与平台处罚。"
     },
     {
       "title": "豆包工作接入多款第三方模型实现模型自由",
@@ -729,6 +757,90 @@
       "source": "Retail Dive",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNblpkYVV6MWxsbUEwNVdDM2thYkpaXzFIVF9iSEM5UEpqVWtXV210UGNaLUFfUUZHOUhkZWh1ZzRsZ1BhMzVuQjFVbF81UUp0QUlQcXlfaURvb2VsU2FGRnVVWnNaSXJLRV9HMVljMTF3V2c1ek5ha3k0S0JNVnF0T2ZRUi1Ydw?oc=5",
       "local_life_hint": "本地生活商家可借鉴直播讲解非标服务的模式，用TikTok Shop或抖音直播承接团购套餐的即时转化。"
+    },
+    {
+      "title": "风语筑携手火山引擎推进三维空间数据集建设",
+      "explanation": "风语筑与火山引擎合作推进三维空间数据集建设，为空间智能相关模型提供数据基础。这反映字节在模型训练数据侧正通过外部合作补足三维空间数据。",
+      "analysis_points": [
+        "合作内容：围绕三维空间数据采集与数据集建设，服务空间理解类模型训练，属于基础设施层补强。",
+        "对行业：三维空间数据是空间智能与数字孪生的稀缺资源，此类合作可能催生面向线下空间的建模服务。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NRC1JZ1k4LWl0MlNzVktmMTJKMTQtRFgtRWhVeTFPMjctRG9WaDJRU19MYi0zOW5uZjNFVFBYc1RELXdtOGlHb2x5bEp4MlFXZFFEaVdoUjBXWF94ZDZWVg?oc=5",
+      "local_life_hint": "线下商场与门店的三维建模未来可能成为本地生活展示的新素材形态，可提前关注。"
+    },
+    {
+      "title": "分析称资本不再只盯财报，字节「时间闭环」重塑估值",
+      "explanation": "有分析文章提出，资本对字节的评估正从财报转向「时间闭环」——用AI产品拉长用户时长，再通过广告与电商变现。这一视角把AI投入视为时长资产而非成本。",
+      "analysis_points": [
+        "观点核心：AI产品（豆包、即梦等）的价值在于延长用户停留并沉淀数据，从而反哺商业化效率。",
+        "对广告主：用户时长结构变化会影响流量分配，投放策略需跟随AI入口的时长迁移而调整。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "新浪新闻",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50dTNxUklfcGQ3SmlQQ3VIeVRFSjZJUm1qNW1fV2Q3bkVsNHFSbDh1NHZkRm9TZHJzempveHlyZ1MwLW94NmtydDFSd0JaQW03dVBhNUJyc1dQWnRoOFJDVVhPOA?oc=5",
+      "local_life_hint": "关注豆包等AI入口的时长增长，评估是否值得在这些入口做本地生活内容种草。"
+    },
+    {
+      "title": "AI办公同题竞争：模型隐入后台，入口走向前台",
+      "explanation": "36氪对比豆包工作、WorkBuddy与千问办公，指出三者同题竞争，模型能力退居后台，入口与场景分发成为胜负手。这解释了为何各家都在抢工作台与办公入口。",
+      "analysis_points": [
+        "竞争逻辑：模型差距缩小后，谁掌握用户入口与场景工作流，谁就掌握付费转化。",
+        "对商家：办公入口可能成为B端服务分发的货架，商户SaaS与代运营服务可争取上架。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PdkNzYnV0TzVxUnJnRmFMTFJDTzRsX0syX1U1akotdmswMmx3eTJxNTU4eTlJNldRZ3RPcXhoMUUwNGZaR0VCQVZqY3FRZw?oc=5",
+      "local_life_hint": "本地生活SaaS服务商可评估入驻办公Agent生态，把商户管理工具做成工作台插件。"
+    },
+    {
+      "title": "即梦AI创作者生态活跃，个人可完成完整人文短片",
+      "explanation": "创作者用即梦AI完成《神仙传之罗公远》等古装人文短片，参与即梦创作者成长计划。这显示即梦正从单点生成工具走向「个人可完成完整作品」的创作平台。",
+      "analysis_points": [
+        "能力变化：从生成单镜头到支撑完整叙事短片，创作者可独立完成分镜、生成与剪辑流程。",
+        "对商家：品牌故事片、门店宣传片的制作门槛下降，小团队也能产出有叙事感的视频。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbGhmc29mRzhESVpLYUt0SEdpWjFtVnV4ZFRDWHVHR0pLY3ZVaWREazBuY3pNaU42c0pXcTNyQ0N1b3RoV25wSWluOFRUdk9maGVMeDF6aHNaVHJvcE0zVDZYNmV1NmpXOGZZeXJBQjQwdWcza2tvc010ZkdXdFZEV0ktREtWR3FXSzdpTw?oc=5",
+      "local_life_hint": "本地生活品牌可尝试用即梦制作有故事线的门店短片，替代传统硬广。"
+    },
+    {
+      "title": "字节AI组织架构整合初见成效，豆包工作数据验证",
+      "explanation": "有报道称豆包工作日活破800万，是字节AI组织架构整合初见成效的体现。组织调整把分散的AI应用能力收拢，提升了产品迭代与数据打通效率。",
+      "analysis_points": [
+        "组织意义：整合减少了重复建设，使豆包工作能快速复用集团模型与工具能力。",
+        "对商家：组织效率提升通常伴随产品迭代加快，商户侧功能更新与问题响应可能更及时。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ETWMxRk1ia2RFWnhCQVpxa3JmUmpaZjBuUDctbjhRVUtwOE9EQWtHTlFtUGlqNFFrZnNNWFFtbkM0OXJkaXlKZjdtMWNvT3FYakdKNnI3aXpLcFZYR0dwYmE3NHBiVXBselE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "火山引擎重塑全栈开发体验，代码生成能力受关注",
+      "explanation": "有文章讨论代码生成模型选型，称火山引擎在全栈开发体验上做重塑。这反映字节正把代码生成能力打包进开发者工具链，争夺企业研发场景。",
+      "analysis_points": [
+        "能力变化：从单点代码补全扩展到覆盖前后端与部署的全栈开发辅助，降低企业接入门槛。",
+        "对商家：中小商户的技术服务商可用此类工具降低开发成本，加快本地生活小程序与工具上线。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEVVBvQ0VKVzQyS2Zac3RpTEY0NTI2ZWZlUE1PbUtDNVF0VFR6VmVvTXlWOU1PZzhfT2dtaFJ6SVpXTVNTTFRlR0F3RWVSUkh2V29oMGQ0WTJLampaNjU0blAzWVhqZjhvM0dEQ1N6eDFYS1NRV3VGRlJkYmdfZw?oc=5",
+      "local_life_hint": "本地生活服务商可用AI编码工具降低商户端小程序开发成本。"
     }
   ],
   "mode": "ai"
