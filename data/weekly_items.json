@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-11-23T09:45:27.088734+00:00",
-  "week_range": "11.23-11.23",
-  "date_display": "11.23 - 11.23",
-  "editorial_summary": "本周共汇总 10 条 AI 商业要闻，其中高影响 1 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-11-23T18:41:45.482704+00:00",
+  "week_range": "11.23-11.24",
+  "date_display": "11.23 - 11.24",
+  "editorial_summary": "本周共汇总 16 条 AI 商业要闻，其中高影响 2 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；TikTok全球上线深度伪造识别工具。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节一口气端出21种“小豆包”，行业专属版本落地",
+      "TikTok全球上线深度伪造识别工具",
       "TikTok Shop新战略对标亚马逊与沃尔玛"
     ],
     "opinions": [
@@ -13,15 +14,16 @@
     ],
     "ecosystem": [
       "神龙科技与火山引擎合作，新车搭载AI座舱",
-      "豆包与千问同步下线智能体功能，网友不满"
+      "豆包与千问同步下线智能体功能，网友不满",
+      "Nscale字节算力交易受出口管制审查"
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（7 条），高影响条目占比约 10%，商业化叙事仍由头部驱动。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。",
+    "本周内容重心在「大厂动向」（8 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
-    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。"
+    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
+    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
   ],
   "local_life_insights": [
     {
@@ -35,11 +37,15 @@
     {
       "base": "豆包推出21种行业专属“小豆包”，大模型能力从通用走向行业组件化。",
       "borrow": "美团商业化可借鉴行业组件化思路，把本地生活营销能力拆成餐饮、零售等场景组件，降低商家使用门槛，提升外投投放效率。"
+    },
+    {
+      "base": "火山引擎把豆包实时音视频通话模型做成 SeedRealtime 1.0 API，实时多模态交互从封闭产品能力变成开发者可调用的底座接口。",
+      "borrow": "外投团队可把实时音视频交互接入落地页或私信场景，做「能看会听」的 AI 导购/客服，把投放后的咨询环节自动化，降低人工客服成本并提升到店转化。"
     }
   ],
   "insights_intro": "今天字节在视频生成4K API、行业组件化大模型、广告代理渠道规则上的底座改造，意味着外投的素材生产将更依赖AI批量生成、投放链路更扁平、行业化能力更易复用。",
-  "total_items": 10,
-  "high_count": 1,
+  "total_items": 16,
+  "high_count": 2,
   "items": [
     {
       "title": "字节一口气端出21种“小豆包”，行业专属版本落地",
@@ -54,6 +60,20 @@
       "source": "智东西",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9CZkdKMnJOMHpHQUtfS3RqTUN4SXRtek9xOVVNdjhwa2x3aDZGYl9hM3NFSjg1ajY2cjg0QlZIREI2MDJ5QWZyYw?oc=5",
       "local_life_hint": "本地生活商家可关注餐饮、零售类“小豆包”的开放节奏，提前测试AI客服与营销文案生成，降低人力成本。"
+    },
+    {
+      "title": "TikTok全球上线深度伪造识别工具",
+      "explanation": "TikTok 在全球上线 Likeness Detection 深度伪造识别工具，并推出公开 AI 内容检测入口。这把 AI 内容治理从平台内部规则变成用户与品牌方可直接使用的产品能力。",
+      "analysis_points": [
+        "产品能力：从被动审核走向主动识别与公开检测，用户可核查内容是否为 AI 生成或伪造人脸。",
+        "对广告主价值：品牌方可借此降低虚假代言与深度伪造素材风险，投放前可做素材合规预检。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "Music Business Worldwide",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNUN2aGNLTlVrb2RGOHJvcXByUmdtREpkTnBZcVh3dU85d0lOX0c0YkdBY0VVRHRwYW1SX1g5RkVFcTRLS3A5UDJZX2RiMUdmRkZZYXhVMWhscmxILWNXU216WmgwVHNNVHBjS3RqbV9vRERnYndwbW1VMnVXa05wTldxaFVkTWdKWkNpVm9RWUdndTN0MVJGUVRPT2p0WEhaZmRoc1RFU1c5Q1RLa2dvZHE5ZGpDbm55UW55VFl1b1VyZjVaRkxkQ1RXSnNpdw?oc=5",
+      "local_life_hint": "本地生活商家在 TikTok 投放时，可提前用检测工具排查 AI 生成素材，避免因深度伪造被限流或下架。"
     },
     {
       "title": "神龙科技与火山引擎合作，新车搭载AI座舱",
@@ -180,6 +200,76 @@
       "source": "Hootsuite Blog",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oVHdHZ2pZRExkWkFmM01Dc3YyNDF3VDNFVElQY1pOa2lXSVFaeVFwRFBlUUkxOEZ1RWJaRXlmZm9xeXBCR2tzRXlzeDNsV0wtZTVXYTZkQQ?oc=5",
       "local_life_hint": "本地生活商家可参考算法机制，优化抖音/TikTok短视频素材的前3秒钩子。"
+    },
+    {
+      "title": "Nscale字节算力交易受出口管制审查",
+      "explanation": "Nscale 与字节的 AI 算力交易在美芯片出口管制下受到更严格审查。这延续了字节算力供给受地缘约束的主题，影响其训练与推理成本结构。",
+      "analysis_points": [
+        "审查性质：交易涉及受管制芯片与算力部署，需评估出口许可与最终用途。",
+        "对成本影响：若许可延迟，字节可能转向其他供给来源，短期推理成本与部署节奏受扰动。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Silicon UK",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42dGIxVnJGRjVBd2d3T3hwR0xpWE90cE4yUnNuMXV5ZFVxWnRDRE0xbXdLQ1NXWmVIM1hZSDJfVjVDVk5qcDFTc3F5UVRFSGlNNWQxZm4zem5aWFR3NUJiUmhtSjlDTWhXRHgyZU1Zbw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Seedance 2.5 Flash接入即梦，API定档11月15日",
+      "explanation": "Seedance 2.5 Flash 陆续接入即梦，API 定于 11 月 15 日开放。这意味着视频生成能力从产品内测走向开发者可调用，创作与营销素材生产门槛进一步降低。",
+      "analysis_points": [
+        "能力变化：视频生成模型接入即梦并开放 API，从封闭产品能力变为可批量调用的生产工具。",
+        "对广告主价值：素材生产可规模化，短视频与信息流广告的创意测试成本下降。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaDVrTHNGM1JXdVV6ejdoM2x2UkVWWWJPQjVtcEgtMW55cDVjTEh1OEhLOFNaNGh4RW1LMTVNWldrUjVIV2N6bi1NT2dqM1Bac3lKZ0hoUVBtTExLWi02MHJYNWVrNkZ6QUd3Y2ptTlRJV0xPbWV1dTZQeHBKdjZpVmVoWWZ4OGl5enFMaTV3VGt6UzJx?oc=5",
+      "local_life_hint": "本地生活商家可用 API 批量生成门店短视频素材，降低探店内容制作成本。"
+    },
+    {
+      "title": "TikTok Shop美妆生意持续升温",
+      "explanation": "TikTok Shop 美妆品类生意持续升温，成为品牌社交电商增长重点。美妆的高毛利与强内容属性，使其成为 TikTok Shop 直播带货的标杆品类。",
+      "analysis_points": [
+        "品类表现：美妆在 TikTok Shop 形成规模化生意，直播与短视频内容驱动转化。",
+        "对商家价值：美妆打法可复用到本地生活到店美业，如美容、美甲等高频内容品类。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "WWD",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmZlWWZMWlZwSEw5V1picjFWYm5ndG13OW1QT0UzS1ZIczYzc1FjX1lqcUtINldtX29SR3BpNXMzd05WeEhta2FkeGtSZVA2MVFSMkYwTVJXaFNJeHdTOXUzSVFCYktaTzdXMlQ3TGtKUGVDdV9NRTRjZ1ZQZlNlbDUtSE1ETmd3bzBNREdiR2FHcTVQQVBCQmdnU3hzSFd4NGxDNHdmS1hHYWY1?oc=5",
+      "local_life_hint": "本地生活美业商家可借鉴美妆直播的内容节奏与选品逻辑，做团购套餐直播。"
+    },
+    {
+      "title": "TikTok视频背后的诈骗套路被曝光",
+      "explanation": "Forbes 报道 TikTok 病毒视频与优惠背后隐藏的诈骗套路。这提示平台在高速电商化的同时，内容与交易安全风险同步上升，治理压力加大。",
+      "analysis_points": [
+        "风险类型：虚假优惠、诱导交易等诈骗借病毒视频扩散，损害用户信任。",
+        "对广告主价值：品牌投放需避开高风险内容环境，平台治理力度将影响广告位质量。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wbVdtMkYzNkxzeGUyM1ZCZVgwMVRrYm5rdzNRT0x4VGlyNGxJZVJNLXphVmlNT0VyY1JqNDB2U1prN1FGOHpyZEFaeE1RTDc1TFdEc2tpTWNKVUdES2pBMlhweEV2c0VGZ2tkdmx3?oc=5",
+      "local_life_hint": "本地生活投放应规避夸大优惠素材，防止被判定为诱导性内容。"
+    },
+    {
+      "title": "Seedance 2.5与开源视频模型生成时长对比",
+      "explanation": "有对比测试显示 Seedance 2.5 与开源视频模型在生成时长上差距明显，30 秒对 13 分钟。这从侧面印证字节视频生成在效率上的优势，对素材量产有直接意义。",
+      "analysis_points": [
+        "效率对比：Seedance 2.5 生成速度显著快于开源方案，缩短从创意到成片的周期。",
+        "对广告主价值：素材迭代速度提升，可在同等预算下做更多创意 A/B 测试。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "OrcaRouter",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fWU5SejRIZEJrcUYxOHowTjZmS3JhQVpFRFNlRUtZWE1OWmY5a1lFZE55VXpoRVNFTTJScGlMOU9lVVhzd0FCTzhZUzYyZ3p4MWkyTUVvVmxMMy03YTVGWlN6NDkyaUdzNlIxMFlZRmkxR01YNVdpaWtyRQ?oc=5",
+      "local_life_hint": "本地生活可用 Seedance 快速产出多版本门店视频，做投放素材快速迭代。"
     }
   ],
   "mode": "ai"
