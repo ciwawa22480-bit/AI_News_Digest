@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-11-23T09:45:27.084065+00:00",
+  "date_display": "2026年11月23日",
+  "date_short": "2026-11-23",
+  "weekday": "周一",
+  "editorial_summary": "今天字节系AI商业化最值得关注的是三件事：一是豆包在B端与C端同时扩张，飞书与豆包将整合、豆包工作DAU破800万，AI办公入口之争进入实战期；二是豆包大模型加速上车，神龙科技、深蓝L07、奔驰E级接连接入，AI座舱成为大模型落地最确定的场景之一；三是巨量引擎取消代理商返点，广告投放链路与代理生态面临重构。此外，豆包一口气推出21个行业专属版本、小荷健康为豆包提供医疗支持，说明字节正把大模型能力拆成可复用的行业组件。对广告销售而言，豆包生态的入口扩张与巨量引擎的渠道规则变化，是本周最需要跟进的商业信号。",
+  "overview": {
+    "new_products": [
+      "字节一口气推出21种行业专属“小豆包”，把通用豆包大模型按行业场景拆成可复用组件，面向医疗、教育、金融等垂直领域提供定制化能力，降低行业客户接入门槛。",
+      "火山引擎正式开放Seedance 2.5 4K模型API，视频生成从1080P升级到4K商业产线级输出，面向广告、影视、电商素材制作团队，可直接用于高分辨率商业内容生产。",
+      "荣耀YOYO·豆包手机助手功能页曝光，支持语音唤醒、连续对话、全局记忆，若落地将把豆包能力嵌入手机系统级入口，覆盖更广泛的日常交互场景。"
+    ],
+    "opinions": [
+      "有分析认为字节将飞书与豆包整合，是在重构ToB版图、抢占“AI工作入口”，豆包工作DAU破800万说明组织架构整合初见成效，办公智能体竞争进入实战期。",
+      "针对豆包与千问同步下线智能体功能，有网友批评平台“一刀切”，反映大模型平台在合规与开放之间的取舍正影响开发者与用户的迁移意愿。"
+    ],
+    "ecosystem": [
+      "豆包大模型加速向汽车座舱渗透，神龙科技、深蓝L07、奔驰E级接连宣布接入，AI座舱成为大模型落地最密集的场景之一，车企借豆包补齐智能化短板。",
+      "巨量引擎取消代理商返点，广告投放代理生态面临重构，中小代理的利润模型受冲击，广告主可能转向更直接的投放链路，渠道格局生变。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节今日动作集中在组织与入口：飞书与豆包将整合、豆包工作DAU破800万，AI办公入口之争进入实战期；同时豆包推出21个行业专属版本，把大模型能力拆成可复用组件，B端扩张意图明显。",
+    "初创动向": "今日字节系初创相关动态较少，主要集中在生态合作层面，如神龙科技与火山引擎合作AI座舱，属于传统车企借字节大模型能力补智能化的典型案例。",
+    "生态动向": "豆包大模型密集上车，神龙科技、深蓝L07、奔驰E级接连接入，AI座舱成为大模型落地最确定场景；火山引擎开放Seedance 2.5 4K API，视频生成进入商业产线级。",
+    "观点与深度": "围绕豆包与千问同步下线智能体功能，网友批评平台“一刀切”，反映大模型平台在合规与开放间的取舍；豆包工作DAU数据被解读为字节AI组织整合初见成效。"
+  },
+  "local_life_insights": [
+    {
+      "base": "火山引擎把Seedance 2.5视频生成能力从1080P升级到4K并开放API，视频素材生产从实拍为主转向AI批量生成。",
+      "borrow": "美团商业化团队可测试用Seedance 2.5 4K API批量生成本地生活商家短视频素材，降低外投素材制作成本，提升素材迭代速度。"
+    },
+    {
+      "base": "巨量引擎取消代理商返点，广告投放链路从代理返点驱动转向更扁平的直投模式。",
+      "borrow": "美团商业化可关注代理渠道利润模型变化，评估自身代理体系的返点策略，避免代理流失，同时优化直投链路效率。"
+    },
+    {
+      "base": "豆包推出21种行业专属“小豆包”，大模型能力从通用走向行业组件化。",
+      "borrow": "美团商业化可借鉴行业组件化思路，把本地生活营销能力拆成餐饮、零售等场景组件，降低商家使用门槛，提升外投投放效率。"
+    }
+  ],
+  "insights_intro": "今天字节在视频生成4K API、行业组件化大模型、广告代理渠道规则上的底座改造，意味着外投的素材生产将更依赖AI批量生成、投放链路更扁平、行业化能力更易复用。",
+  "total_items": 10,
+  "new_vs_yesterday": 10,
+  "compare_date": "2026-11-22",
+  "high_count": 1,
+  "category_counts": {
+    "大厂动向": 7,
+    "观点与深度": 2,
+    "生态动向": 1
+  },
+  "items": [
+    {
+      "title": "字节一口气端出21种“小豆包”，行业专属版本落地",
+      "explanation": "字节推出21种行业专属“小豆包”，把通用豆包大模型按行业场景拆成可复用组件，覆盖医疗、教育、金融等垂直领域。这是字节把大模型能力产品化、组件化的重要一步，降低行业客户接入门槛。",
+      "analysis_points": [
+        "豆包从单一通用助手，变成按行业定制的“小豆包”矩阵，技术路径是把通用模型能力封装成行业组件，面向垂直行业客户。",
+        "对本地生活商家而言，行业专属版本意味着可调用更贴合餐饮、零售等场景的AI能力，用于客服、营销文案生成等。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "智东西",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9CZkdKMnJOMHpHQUtfS3RqTUN4SXRtek9xOVVNdjhwa2x3aDZGYl9hM3NFSjg1ajY2cjg0QlZIREI2MDJ5QWZyYw?oc=5",
+      "local_life_hint": "本地生活商家可关注餐饮、零售类“小豆包”的开放节奏，提前测试AI客服与营销文案生成，降低人力成本。"
+    },
+    {
+      "title": "神龙科技与火山引擎合作，新车搭载AI座舱",
+      "explanation": "神龙科技与火山引擎达成合作，全新车型将搭载新一代AI座舱，用上豆包大模型并主打“长记忆”。这是传统合资车企借字节大模型能力补智能化短板的典型案例，AI座舱落地加速。",
+      "analysis_points": [
+        "神龙科技新车座舱从传统车机，升级为搭载豆包大模型的AI座舱，具备长记忆能力，可记住用户偏好并持续交互。",
+        "对汽车品牌营销而言，AI座舱可作为差异化卖点，广告主可在座舱场景内探索品牌内容与服务的植入。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdFhGSmMyQVo4WnkyclUtOFFNU1FNYUVkbzFia0hza21ReUZCcE5Sb0kxeVVjRndNX2lETjRES3NMM3V5VEM0YUExME51XzBCaFpjUm04MXFFbGVtZ01lU0RSb0p1RFlfMG1UV1MyOXA0a1Y0V0l0M2dWVUdXQWQ2MVl4SG4wYnM5eU0walBNWQ?oc=5",
+      "local_life_hint": "本地生活商家可关注AI座舱内的服务推荐场景，未来或成为到店餐饮、充电等服务的入口。"
+    },
+    {
+      "title": "深蓝L07将亮相广州车展，搭载豆包大模型",
+      "explanation": "新款深蓝L07将于11月27日广州车展亮相，采用800V高压平台并搭载豆包大模型。豆包大模型在汽车座舱的渗透进一步扩大，覆盖更多主流新能源车型。",
+      "analysis_points": [
+        "深蓝L07座舱从常规车机，升级为搭载豆包大模型的智能座舱，结合800V高压平台，智能化与补能效率同步提升。",
+        "对汽车品牌而言，豆包大模型成为座舱智能化标配，广告主可在车展期间围绕AI座舱做内容营销。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONTVDWEQwTmk0NGNlTE5Na19hTXRSUENoaG5rTThUTXpmWEJvUVQ5XzA1anU0MHdnb21HSTBpNk83Q29mV08wdWxEdHRpdzdVNHhiODcxNWx5R2pGTUo5NmtrYUFnQUN0NW1vRmdnSUhaT0RabnZyTnJHR1lFcjJGWnFRWXY5Y2tU?oc=5",
+      "local_life_hint": "本地生活商家可借车展热点，围绕AI座舱做联合营销，触达购车人群。"
+    },
+    {
+      "title": "奔驰E级车机接入豆包大模型，专为国人优化",
+      "explanation": "奔驰E级AI座舱接入豆包大模型，车机优化专为国人而来。豪华品牌也开始采用字节大模型，说明豆包在汽车座舱的竞争力已获国际品牌认可，对字节AI商业化是重要背书。",
+      "analysis_points": [
+        "奔驰E级车机从传统语音助手，升级为接入豆包大模型的AI座舱，针对中国用户做本地化优化。",
+        "对豪华车广告主而言，AI座舱可作为品牌科技感卖点，可在座舱内探索高端服务推荐。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBZTzVFWlhrejFHNElfVlBNWFMtaFlQTmdiUnNZUGJLQnVBNFVlQm52dDRQQWEyN0thUTBYcnp0MzdsaUxSeW1ob0FraUxKbG1uWDY0SHJFbUxuaGxFSzJ5S25CcWNyZw?oc=5",
+      "local_life_hint": "本地生活商家可关注豪华车主的到店消费场景，AI座舱或成为高端餐饮、酒店的服务入口。"
+    },
+    {
+      "title": "即梦新模型实测：AI生图能力再进化",
+      "explanation": "有用户实测即梦新模型，认为AI生图能力再进化。即梦在图像生成上的持续迭代，对广告素材制作、电商商品图等场景有直接价值，是字节AI商业化的重要工具。",
+      "analysis_points": [
+        "即梦生图模型从常规生成，升级到更高质量输出，技术路径是模型迭代，面向创作者与商家。",
+        "广告主可用即梦生成商品图、海报素材，降低设计成本，提升素材产出速度。"
+      ],
+      "category": "大厂动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "风闻",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsZkNjTkhPRzNmdkVfQmx1WVZvaHFVRlVSOUVtZ0lhR21CVjNGdmk3UjZQZ2lIOHc3NlpCUGRaQnp2dll6Sk4wX3k1X1BlUUtOSjI5UVJxMFk1TXViOFVIVnA4eVAwQWFhMGc?oc=5",
+      "local_life_hint": "本地生活商家可用即梦生成菜品图、门店海报，降低设计外包成本。"
+    },
+    {
+      "title": "豆包与千问同步下线智能体功能，网友不满",
+      "explanation": "豆包与千问同步下线智能体功能，网友批评平台“一刀切”。这反映大模型平台在合规与开放之间的取舍，对开发者生态和用户迁移意愿有影响，也提示平台功能调整需更平滑。",
+      "analysis_points": [
+        "豆包智能体功能从开放可用，变为下线，技术路径是平台策略调整，面向开发者与普通用户。",
+        "对依赖智能体做营销自动化的商家而言，需寻找替代方案，避免投放流程中断。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1a3JpSmlhUXZXSVYxMm9CaFd6d3dVUlVyOG0xQ25VVlkwWldEVFNSUDFkSXBrNkdEOHhPTnJfTlJYSWJyOTRXaVhsNzFBU1dXNGdr?oc=5",
+      "local_life_hint": "本地生活商家若用豆包智能体做客服自动化，需提前准备替代工具，避免服务中断。"
+    },
+    {
+      "title": "小荷健康为豆包等内部业务提供医疗支持",
+      "explanation": "字节小荷健康未重新扩编，仍保持百余人规模，并开始为豆包等内部业务提供医疗支持。这说明字节在医疗AI上的策略是内部能力复用，而非独立扩张，豆包的医疗问答能力有望增强。",
+      "analysis_points": [
+        "小荷健康从独立医疗业务，转向为豆包提供医疗知识支持，技术路径是内部能力复用，面向豆包医疗问答场景。",
+        "对医疗健康类广告主而言，豆包医疗问答能力增强，可承载更专业的健康内容与线索获取。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54ck9wSVk0X2p6bUJ0OEI4V1doSDN6bkZZMFdrYmNjMTZSZXJpOHVQQjBsdHludkFIbDBIZnlMRWE2REU5WVJIZ0w2a3A2VjllSlhxVg?oc=5",
+      "local_life_hint": "本地生活商家中的健康、医美类客户，可关注豆包医疗问答场景的广告机会。"
+    },
+    {
+      "title": "荣耀YOYO·豆包手机助手曝光，系统级入口可期",
+      "explanation": "荣耀YOYO·豆包手机助手功能页曝光，支持语音唤醒、连续对话、全局记忆。若落地，豆包能力将嵌入手机系统级入口，覆盖更广泛的日常交互场景，对字节AI入口战略意义重大。",
+      "analysis_points": [
+        "荣耀手机助手从自有语音助手，升级为接入豆包的手机助手，具备全局记忆与连续对话能力，面向手机用户。",
+        "对广告主而言，系统级AI入口可承载更精准的场景化推荐，是新的品牌触达渠道。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/030/942.htm",
+      "local_life_hint": "本地生活商家可关注手机系统级AI入口的场景推荐，未来或成为到店服务的触达点。"
+    },
+    {
+      "title": "TikTok Shop新战略对标亚马逊与沃尔玛",
+      "explanation": "TikTok Shop推出新战略，对标亚马逊与沃尔玛。这意味着TikTok电商从内容驱动向货架+内容双轮驱动演进，对品牌商家而言，TikTok Shop的渠道价值进一步提升。",
+      "analysis_points": [
+        "TikTok Shop从纯直播带货，升级为对标亚马逊的综合性电商平台，技术路径是货架电商与内容电商融合，面向品牌商家。",
+        "对广告主而言，TikTok Shop可承载从种草到转化的全链路，适合做品效合一的投放。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMUl5YUlnZFpQVUQzYTNaVy1RWWNoaVFZMFVFTjVCTmtaeGNDcFJWLXJYbEtkRFFMd2poSXRjWHFVLVZmeTV3OXhtXzdvaWlrcm4yclNWc1FvTXBiSmlnRTlzblk5bnY2ZThSOG9fblRNd3hkZE4ya1lqMXlnOVhSZ3RJakZmQkR2aGQ3cjhpMnpsWV9ma3FhYkIweWpDeGZwVGc?oc=5",
+      "local_life_hint": "本地生活商家若有跨境业务，可关注TikTok Shop货架电商的入驻机会。"
+    },
+    {
+      "title": "TikTok算法2026年运作机制解析",
+      "explanation": "Hootsuite博客解析2026年TikTok算法运作机制。对广告主而言，理解算法变化有助于优化内容与投放策略，提升自然流量与付费流量的协同效率。",
+      "analysis_points": [
+        "TikTok算法从单纯兴趣推荐，演进为更复杂的多目标排序，技术路径是模型迭代，面向内容创作者与广告主。",
+        "广告主可根据算法机制优化素材钩子与互动设计，提升投放ROI。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "Hootsuite Blog",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oVHdHZ2pZRExkWkFmM01Dc3YyNDF3VDNFVElQY1pOa2lXSVFaeVFwRFBlUUkxOEZ1RWJaRXlmZm9xeXBCR2tzRXlzeDNsV0wtZTVXYTZkQQ?oc=5",
+      "local_life_hint": "本地生活商家可参考算法机制，优化抖音/TikTok短视频素材的前3秒钩子。"
+    }
+  ],
+  "mode": "ai"
+}
