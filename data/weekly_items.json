@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T11:36:33.011622+00:00",
-  "week_range": "11.23-11.24",
-  "date_display": "11.23 - 11.24",
-  "editorial_summary": "本周共汇总 19 条 AI 商业要闻，其中高影响 2 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-11-24T18:10:44.050968+00:00",
+  "week_range": "11.23-11.25",
+  "date_display": "11.23 - 11.25",
+  "editorial_summary": "本周共汇总 26 条 AI 商业要闻，其中高影响 3 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城；字节重构ToB版图：飞书与豆包将整合。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节一口气端出21种“小豆包”，行业专属版本落地",
@@ -20,9 +20,9 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（10 条），高影响条目占比约 11%，商业化叙事仍由头部驱动。",
-    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
+    "本周内容重心在「大厂动向」（13 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+    "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
   ],
@@ -45,8 +45,8 @@
     }
   ],
   "insights_intro": "今天字节在视频生成4K API、行业组件化大模型、广告代理渠道规则上的底座改造，意味着外投的素材生产将更依赖AI批量生成、投放链路更扁平、行业化能力更易复用。",
-  "total_items": 19,
-  "high_count": 2,
+  "total_items": 26,
+  "high_count": 3,
   "items": [
     {
       "title": "字节一口气端出21种“小豆包”，行业专属版本落地",
@@ -75,6 +75,20 @@
       "source": "界面新闻",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56Um5IOWhSMWJSQkJTUVc2dlhFalZnVWpTSHNIWGhubndMdEtZdnRJR0NNeFZWTnBEVWg1TjlpdWVPa2MybW9lZnVzWXU3OUU4N2gta0tsdno?oc=5",
       "local_life_hint": "本地生活商家可关注豆包购物入口是否开放本地团购/到店商品，提前准备适配AI对话场景的商品标题与卖点素材。"
+    },
+    {
+      "title": "字节重构ToB版图：飞书与豆包将整合",
+      "explanation": "报道称字节正重构ToB版图，计划将飞书与豆包整合，围绕「AI工作入口」展开布局。这是字节把办公协同与AI助手合并成统一入口的组织级动作，直接影响企业客户的采购选择。",
+      "analysis_points": [
+        "产品变化：飞书的协同办公能力与豆包的AI能力走向整合，企业侧可能获得统一的AI工作入口。",
+        "商业价值：企业客户可在一套体系内完成文档、沟通与AI任务，广告主对B端投放的触点也可能随之集中。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
+      "local_life_hint": "本地生活服务商若使用飞书做门店管理，可关注整合后的AI能力是否能直接生成营销素材与投放建议。"
     },
     {
       "title": "神龙科技与火山引擎合作，新车搭载AI座舱",
@@ -312,6 +326,90 @@
       "impact": "medium",
       "source": "Vocal",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOFdDVGFMRmNHcTZRc1R6T1lJaDFVdFpxMlViVFEyZGJGb09PSUc2NU5LUGZEd085b1B5YnhQcm5iWTRBUGJDa2hZMjhqbGVVdXY4SjNEOUxSc1c1VGV2Wnp5NWlDR3FPMXl4NzVsSngyU2pUM3lnWGRBLXlxaDJqeFNzZ19MTDFOT3pMNm05d1UtcEJ5aU1GRVFOTDZwZw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包回应入局导航：仅覆盖短途轻出行场景",
+      "explanation": "针对豆包是否入局导航赛道的猜测，官方回应称仅覆盖短途轻出行场景。这划清了豆包与地图导航的边界，也透露字节在出行场景的AI布局仍偏轻量。",
+      "analysis_points": [
+        "产品定位：豆包的出行能力限定在短途轻出行，而非全量导航。",
+        "商业价值：短途出行与本地生活到店场景天然接近，可能成为商家触达用户的辅助入口。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KbXlJOEdkYV9RRE5PNFNyYlNNWjV1aGoyTzFKRVRZblhPTzNjdUw0VUY5SEF2Zjd3YzJFUVFveXNBWlhVaFJkVDBrTEJUZG9NUC1NV2laWmt6anVuRHc?oc=5",
+      "local_life_hint": "短途出行场景可与到店团购、停车、充电等本地服务结合，商家可关注相关入口的合作机会。"
+    },
+    {
+      "title": "豆包C端产品负责人陆游将离职",
+      "explanation": "报道称字节豆包C端产品负责人陆游将离职，去向倾向内部转岗，Flow早期产品骨干相继退场。核心产品负责人变动可能影响豆包C端产品节奏与商业化优先级。",
+      "analysis_points": [
+        "人事变化：豆包C端产品负责人离职，Flow早期骨干陆续退出。",
+        "影响：产品路线与迭代节奏可能调整，广告主需关注豆包商业化功能的上线时间表是否变化。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6ME1kSjBjWUdFZHlZN2poQ0RNaWhfMmxZRmxiNDYtVHhuRTZwQU1MV0FzVzlZLXJNeVRsOVl5cFNtSC13a2wxcS0wSlNER1RGWi1sUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Shop 2026数据：营收与销售规模",
+      "explanation": "DemandSage发布TikTok Shop 2026统计数据，涵盖营收与销售数据。这类第三方数据为评估TikTok电商体量与广告变现空间提供参照，是内容电商投放的重要背景。",
+      "analysis_points": [
+        "数据内容：汇总TikTok Shop的营收与销售规模，反映内容电商的持续扩张。",
+        "商业价值：广告主可据此判断TikTok Shop的投放优先级与预算分配。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "DemandSage",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91VWZuM0R1dExPcHpFRF9pYVNNVmNkb2JKdE92eENLUkJOSnJzWkI0dUY2LWhwYmN1RUdpWWpfWFM5YjlnNTNXekFBb1d5aFF1MGJkNXEyQ2thc2xHWkxv?oc=5",
+      "local_life_hint": "本地生活商家可参考TikTok Shop的品类增长数据，判断哪些品类适合做短视频与直播投放。"
+    },
+    {
+      "title": "TikTok Shop黑五面临Whatnot与Meta夹击",
+      "explanation": "报道称Whatnot与Meta正瞄准TikTok Shop的黑五领先地位。直播电商的竞争加剧，意味着TikTok Shop需要持续投入流量与工具，也影响商家在多平台间的预算分配。",
+      "analysis_points": [
+        "竞争态势：Whatnot与Meta在直播购物上加大投入，挑战TikTok Shop的黑五优势。",
+        "商业价值：商家可借多平台竞争争取更优的流量与佣金条件，广告主需评估跨平台投放组合。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Tubefilter",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeC1BT3BnTk96RWtVV0t4eUh5blk5YjZGQkNkTk5tQ19RUXhodWdOX1RxaGQweHhyZkFFYzFyUnI5NWdRcmlsbWxPTlNDcTB2OXZaT3ZlNEtDVmFrSm85bDRPc1lTd1ZUVUJqX1JZQ1MwMTh0eEhyaWVVajhXSGxEVmlGSTA1aGlpRk1KTkowUFZ4MndhX2RYSmowanJBY1FxeGVSX0tuWHo?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "TikTok Shop广告出现种族歧视钩子引争议",
+      "explanation": "Medicube就TikTok Shop广告中出现的种族歧视性钩子作出回应。这暴露了AI与批量素材生产下广告创意审核的风险，品牌与平台都面临合规压力。",
+      "analysis_points": [
+        "事件：TikTok Shop广告出现不当钩子，品牌被迫回应。",
+        "启示：批量素材与AI生成放大创意风险，广告主需加强投放前的审核与合规流程。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Hypebae",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcjFlR3JUZ0NWMW82MFpBbjlQMlZPRDNyY2lhMzIybk1RWU1EeUVEelNvSEFHZlF1eXdxZkdoaV8wRmwwS2FVZkdHLW5kc3FWSEVhbzJtY1ZFX2c5QzRXRllvVTZRNkxKdzRRVUszNXVzSUo3MDNYUkRGejk5ck83OGlwT2tKNkh6WkQ4R1pJSV9RQ0ZvOWJoX0Vn?oc=5",
+      "local_life_hint": "本地生活商家用AI批量生成素材时，应设置敏感词与歧视性表达审核，避免投放事故。"
+    },
+    {
+      "title": "扣子接入中转站报endpoint格式错，开发者踩坑",
+      "explanation": "开发者分享扣子接入第三方API中转站时遇到endpoint格式错误的排查过程。这类问题反映扣子生态在扩张，但第三方模型接入的工具链仍不成熟，影响开发者效率。",
+      "analysis_points": [
+        "问题：扣子接入中转站时endpoint格式不匹配导致报错。",
+        "启示：开发者需注意模型别名与endpoint配置规范，平台侧可优化接入文档与校验。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xcDJWRl8yckYtWlB3ZjJQQm5zZ0xhWTJhNGFIRUhTbXhOT0ZRZWMwYUdhOHJXdERlX0RuSEhJeGJuWE1DVUowVl9Ibko2ZUdpY29LY3paZXpiTWdkOUE?oc=5",
       "local_life_hint": ""
     }
   ],
