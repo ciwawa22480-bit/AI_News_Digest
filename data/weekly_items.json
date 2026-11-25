@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-11-24T18:10:44.050968+00:00",
+  "generated_at": "2026-11-25T10:26:28.980116+00:00",
   "week_range": "11.23-11.25",
   "date_display": "11.23 - 11.25",
-  "editorial_summary": "本周共汇总 26 条 AI 商业要闻，其中高影响 3 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城；字节重构ToB版图：飞书与豆包将整合。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 30 条 AI 商业要闻，其中高影响 5 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城；火山引擎开放豆包实时音视频通话模型API；字节重构ToB版图：飞书与豆包将整合；Sand.ai开源MAGI-2，价格仅Seedance 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节一口气端出21种“小豆包”，行业专属版本落地",
-      "TikTok Shop新战略对标亚马逊与沃尔玛",
-      "TikTok全球推出肖像检测，可举报AI冒用内容"
+      "火山引擎开放豆包实时音视频通话模型API",
+      "TikTok Shop新战略对标亚马逊与沃尔玛"
     ],
     "opinions": [
+      "Sand.ai开源MAGI-2，价格仅Seedance 2.5十分之一",
       "即梦新模型实测：AI生图能力再进化",
       "分析：字节不依赖华尔街，资本结构令英伟达羡慕"
     ],
@@ -20,9 +21,9 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（13 条），高影响条目占比约 12%，商业化叙事仍由头部驱动。",
-    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
+    "本周内容重心在「大厂动向」（14 条），高影响条目占比约 17%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
+    "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
     "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
   ],
@@ -45,8 +46,8 @@
     }
   ],
   "insights_intro": "今天字节在视频生成4K API、行业组件化大模型、广告代理渠道规则上的底座改造，意味着外投的素材生产将更依赖AI批量生成、投放链路更扁平、行业化能力更易复用。",
-  "total_items": 26,
-  "high_count": 3,
+  "total_items": 30,
+  "high_count": 5,
   "items": [
     {
       "title": "字节一口气端出21种“小豆包”，行业专属版本落地",
@@ -77,18 +78,46 @@
       "local_life_hint": "本地生活商家可关注豆包购物入口是否开放本地团购/到店商品，提前准备适配AI对话场景的商品标题与卖点素材。"
     },
     {
-      "title": "字节重构ToB版图：飞书与豆包将整合",
-      "explanation": "报道称字节正重构ToB版图，计划将飞书与豆包整合，围绕「AI工作入口」展开布局。这是字节把办公协同与AI助手合并成统一入口的组织级动作，直接影响企业客户的采购选择。",
+      "title": "火山引擎开放豆包实时音视频通话模型API",
+      "explanation": "火山引擎上线豆包实时音视频通话模型 SeedRealtime 1.0 API，模型可同时理解画面与声音并主动开口回应，把豆包从文本问答升级为实时双向多模态交互，是今天最具底座意义的产品开放。",
       "analysis_points": [
-        "产品变化：飞书的协同办公能力与豆包的AI能力走向整合，企业侧可能获得统一的AI工作入口。",
-        "商业价值：企业客户可在一套体系内完成文档、沟通与AI任务，广告主对B端投放的触点也可能随之集中。"
+        "能力变化：从「用户打字、模型回文字」变成「模型能看画面、听声音、主动开口说话」，交互从单轮请求转为实时双向流式对话。",
+        "对广告主/商家的价值：可用于智能客服、到店咨询、直播互动与硬件语音助手，把原本需要人工值守的实时沟通环节交给模型，降低人力与响应时延成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2ejBFRV9lSlFiekhvYjhzT2lBejFBWDNFNDRucTZmbmE3VWZhWTROVzlPT3pNR2o4MEFxenh5Q3RuYmdUV1M4OEEyMndiWGdCaHNxRkhJS0NONVlpRGlhNnRmRXREUQ?oc=5",
+      "local_life_hint": "本地生活可试点把实时音视频模型接入商家客服与到店预约咨询，用「能看会听」的对话替代部分人工接线，压缩商家服务成本。"
+    },
+    {
+      "title": "字节重构ToB版图：飞书与豆包将整合",
+      "explanation": "财联社报道字节重构 ToB 版图，飞书与豆包将整合，大厂围绕「AI 工作入口」激战。这意味着字节把办公协同与模型助手合并为统一入口，ToB 商业化从卖工具转向卖入口。",
+      "analysis_points": [
+        "产品变化：飞书的协同办公能力与豆包的模型能力合并，从「两个独立产品」走向「一个 AI 工作入口」，用户不必在工具与助手之间切换。",
+        "对广告主的价值：企业侧入口集中后，B 端营销与投放的触达点更集中，面向企业客户的品牌可通过统一入口做场景化曝光。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "high",
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
-      "local_life_hint": "本地生活服务商若使用飞书做门店管理，可关注整合后的AI能力是否能直接生成营销素材与投放建议。"
+      "local_life_hint": "本地生活商家若使用飞书做门店管理，未来可在同一入口内直接调用豆包生成营销文案与活动方案，缩短从管理到投放的链路。"
+    },
+    {
+      "title": "Sand.ai开源MAGI-2，价格仅Seedance 2.5十分之一",
+      "explanation": "爱范儿实测 Sand.ai 计划开源的 480B 视频模型 MAGI-2，认为其质量接近 Seedance 2.3 水准，1080P 下每秒约 0.5 元、价格约为 Seedance 2.5 的十分之一。这是对字节视频生成定价的直接冲击。",
+      "analysis_points": [
+        "能力对比：MAGI-2 以开源方式提供接近 Seedance 2.3 的生成质量，价格却只有 Seedance 2.5 的约十分之一，性价比差距显著。",
+        "对广告主的动作：视频素材生成可做「双轨」测试，高要求镜头用 Seedance，大批量低成本素材用开源模型，压低整体素材成本。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XYmo2RFdwbWJmemZHZUZ3UWxEaEFndUJXZ3JDQWdNTi1UMEdxUTFmeGtfNEQ3M3I0YS01V0NxZ3RnYUk?oc=5",
+      "local_life_hint": "本地生活商家做短视频投放时，可用低价开源视频模型批量生成门店素材，把预算集中到少数高质量主片上。"
     },
     {
       "title": "神龙科技与火山引擎合作，新车搭载AI座舱",
@@ -330,24 +359,24 @@
     },
     {
       "title": "豆包回应入局导航：仅覆盖短途轻出行场景",
-      "explanation": "针对豆包是否入局导航赛道的猜测，官方回应称仅覆盖短途轻出行场景。这划清了豆包与地图导航的边界，也透露字节在出行场景的AI布局仍偏轻量。",
+      "explanation": "汽车之家报道字节豆包被传入局导航赛道，官方回应仅覆盖短途轻出行场景。这显示豆包在出行场景的边界仍克制，但已开始向位置服务延伸。",
       "analysis_points": [
-        "产品定位：豆包的出行能力限定在短途轻出行，而非全量导航。",
-        "商业价值：短途出行与本地生活到店场景天然接近，可能成为商家触达用户的辅助入口。"
+        "能力边界：豆包不做全量导航，只覆盖短途轻出行，说明其定位仍是助手而非地图工具，避免与专业导航正面冲突。",
+        "对本地生活的价值：短途轻出行与到店消费高度重合，位置能力若与商家信息打通，可成为到店引流的新触点。"
       ],
       "category": "大厂动向",
       "type": "fact",
-      "impact": "low",
+      "impact": "medium",
       "source": "汽车之家",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KbXlJOEdkYV9RRE5PNFNyYlNNWjV1aGoyTzFKRVRZblhPTzNjdUw0VUY5SEF2Zjd3YzJFUVFveXNBWlhVaFJkVDBrTEJUZG9NUC1NV2laWmt6anVuRHc?oc=5",
-      "local_life_hint": "短途出行场景可与到店团购、停车、充电等本地服务结合，商家可关注相关入口的合作机会。"
+      "local_life_hint": "短途轻出行场景天然连接「去哪吃、去哪玩」，本地生活可关注豆包位置能力开放后与商家 POI 的结合机会。"
     },
     {
       "title": "豆包C端产品负责人陆游将离职",
-      "explanation": "报道称字节豆包C端产品负责人陆游将离职，去向倾向内部转岗，Flow早期产品骨干相继退场。核心产品负责人变动可能影响豆包C端产品节奏与商业化优先级。",
+      "explanation": "虎嗅报道字节豆包 C 端产品负责人陆游将离职，去向倾向内部转岗，Flow 早期产品骨干相继退场。核心产品负责人变动，可能影响豆包 C 端产品节奏。",
       "analysis_points": [
-        "人事变化：豆包C端产品负责人离职，Flow早期骨干陆续退出。",
-        "影响：产品路线与迭代节奏可能调整，广告主需关注豆包商业化功能的上线时间表是否变化。"
+        "人事变化：豆包 C 端产品负责人离场，Flow 早期骨干陆续退出，反映字节 AI 产品线在组织整合期的人员流动。",
+        "对合作方的提示：产品负责人变动期，C 端功能迭代节奏可能波动，商家侧接入计划宜留出缓冲。"
       ],
       "category": "大厂动向",
       "type": "fact",
@@ -357,60 +386,88 @@
       "local_life_hint": ""
     },
     {
-      "title": "TikTok Shop 2026数据：营收与销售规模",
-      "explanation": "DemandSage发布TikTok Shop 2026统计数据，涵盖营收与销售数据。这类第三方数据为评估TikTok电商体量与广告变现空间提供参照，是内容电商投放的重要背景。",
+      "title": "分析：中国AI仅落后美国12小时，字节Azure交易成焦点",
+      "explanation": "TIKR 报道称中国 AI 实验室与美国差距已缩至「12 小时」，并以字节与微软 Azure 的交易作为观察窗口。观点把字节的算力采购与中美模型差距直接挂钩。",
       "analysis_points": [
-        "数据内容：汇总TikTok Shop的营收与销售规模，反映内容电商的持续扩张。",
-        "商业价值：广告主可据此判断TikTok Shop的投放优先级与预算分配。"
+        "观点核心：以字节 Azure 交易为案例，认为中国模型迭代速度已接近美国，差距以小时而非年计。",
+        "论据局限：该判断主要基于个别交易与模型发布节奏，缺乏系统性基准测试支撑，宜作为参考而非定论。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "TIKR.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeVFoSGFwaExibkZuYWFobnZtTW52ZHZSczNhaUh5QXlRdV9VY0pzZVlGZXUtdDk5VnNHX2VldW9ELXVDZ1pnQWhsZWNLZkJReDFjdGxBaGJDeFExNkdxOGJZaHJqREliSWZ1WnhaOUlpZWJpYl9xUjBVMlJFZ3VJeHpsbUJfUmdfZ1pLeEc4LXJ3YXJZS3NHUWdBWmlibXF3RzFoaVhRamlMY0RsNjEwZ3ozTW43LVp1X1R0NzJLaGhXR2g5?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节开源异步强化学习后训练框架Laminar",
+      "explanation": "MarkTechPost 报道字节研究者开源异步强化学习后训练框架 Laminar。该框架面向 RL 后训练的效率问题，是字节在模型训练基础设施上的开源输出。",
+      "analysis_points": [
+        "技术路径：以异步方式组织强化学习后训练，降低训练过程中的等待与资源空转，提升后训练吞吐。",
+        "商业意义：后训练效率提升有助于缩短模型迭代周期，间接影响字节模型能力的更新频率与成本。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "MarkTechPost",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOREtoZmNWcnFoV0VTT2trNlBya2JEZllsaUFSYVgwcm9sMk5iZUJtR1FIVjJtRXhCaUh5ZjdFbE1SZFBzbC1yalZ2Y2dpMjY3X3ZOTTJhcG5fanJmTWZaQmptc3dEV3JtcGl5NExCeFh2QXVEVHZhSDczM0lBbERUeVliQzc3a0Utekx4ME0zUlJNckloYWtjTzZxUHjSAZwBQVVfeXFMTkRLaGZjVnJxaFdFU09razZQcmtiRGZZbGlBUmFYMHJvbDJOYmVCbUdRSFYybUV4QmlIeWY3RWxNUmRQc2wtcmpWdmNnaTI2N192Tk0yYXBuX2pyZk1mWkJqbXN3RFdybXBpeTRMQnhYdkF1RFR2YUg3MzNJQWxEVHlZYkM3N2tFLXpMeDBNM1JSTXJJaGFrY082cVB4?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "实测对比：MAGI-2与Seedance 2.5的性价比之争",
+      "explanation": "AI 热点汇总作者实测 MAGI-2 与 Seedance 2.5 的对比细节，给出每秒 0.5 元的价格信息。这类第三方实测为广告主选择视频生成模型提供了可参照的性价比坐标。",
+      "analysis_points": [
+        "对比维度：从生成质量、时长与单价三个维度对比，MAGI-2 在价格上优势明显，Seedance 在稳定性与生态上仍有优势。",
+        "对投放的意义：模型选择从「只看效果」转向「效果/成本比」，素材生产预算的分配方式随之改变。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "AI热点",
+      "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
+      "local_life_hint": "投放团队可建立视频模型性价比对照表，按素材类型分配不同模型，避免统一使用高价模型推高成本。"
+    },
+    {
+      "title": "WeMM-Video对比Seedance 2.5：30秒对13分钟",
+      "explanation": "OrcaRouter 发布 WeMM-Video-35B-A3B 与 Seedance 2.5 的对比，突出生成时长 30 秒对 13 分钟的差距。时长能力成为视频模型差异化竞争的新维度。",
+      "analysis_points": [
+        "能力差异：Seedance 2.5 可生成约 13 分钟长视频，对比模型仅 30 秒，长视频生成仍是字节的差异化优势。",
+        "对商家的价值：长视频能力适合品牌故事片与门店长介绍，短视频批量素材则可交给更便宜的模型。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "OrcaRouter",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fWU5SejRIZEJrcUYxOHowTjZmS3JhQVpFRFNlRUtZWE1OWmY5a1lFZE55VXpoRVNFTTJScGlMOU9lVVhzd0FCTzhZUzYyZ3p4MWkyTUVvVmxMMy03YTVGWlN6NDkyaUdzNlIxMFlZRmkxR01YNVdpaWtyRQ?oc=5",
+      "local_life_hint": "需要长视频讲品牌故事的商家可优先用 Seedance 长时长能力，短平快的促销素材则用低价模型。"
+    },
+    {
+      "title": "TikTok Shop 2026数据：营收与销售规模",
+      "explanation": "DemandSage 汇总 TikTok Shop 2026 年营收与销售数据，为评估内容电商的规模与增速提供量化参照。数据类内容对判断 TikTok 电商商业化阶段有直接价值。",
+      "analysis_points": [
+        "数据价值：汇总营收与销售规模，可用于横向对比内容电商与货架电商的增长速度。",
+        "对商家的意义：规模数据支撑「是否加码 TikTok Shop」的预算决策，尤其适合跨境与美妆类商家。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "medium",
       "source": "DemandSage",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91VWZuM0R1dExPcHpFRF9pYVNNVmNkb2JKdE92eENLUkJOSnJzWkI0dUY2LWhwYmN1RUdpWWpfWFM5YjlnNTNXekFBb1d5aFF1MGJkNXEyQ2thc2xHWkxv?oc=5",
-      "local_life_hint": "本地生活商家可参考TikTok Shop的品类增长数据，判断哪些品类适合做短视频与直播投放。"
+      "local_life_hint": "本地生活商家可参考 TikTok Shop 的增速判断内容电商投入节奏，评估短视频带货与到店核销的组合比例。"
     },
     {
-      "title": "TikTok Shop黑五面临Whatnot与Meta夹击",
-      "explanation": "报道称Whatnot与Meta正瞄准TikTok Shop的黑五领先地位。直播电商的竞争加剧，意味着TikTok Shop需要持续投入流量与工具，也影响商家在多平台间的预算分配。",
+      "title": "Whatnot与Meta瞄准TikTok Shop黑五王座",
+      "explanation": "Tubefilter 报道 Whatnot 与 Meta 在黑色星期五正面挑战 TikTok Shop 的直播电商地位。竞争加剧意味着 TikTok Shop 需要以更强的商家政策与流量扶持守住份额。",
       "analysis_points": [
-        "竞争态势：Whatnot与Meta在直播购物上加大投入，挑战TikTok Shop的黑五优势。",
-        "商业价值：商家可借多平台竞争争取更优的流量与佣金条件，广告主需评估跨平台投放组合。"
+        "竞争格局：直播电商从 TikTok Shop 一家独大转向多方争夺，黑五成为关键战场。",
+        "对商家的机会：平台竞争期通常伴随补贴与流量倾斜，商家可争取更优的佣金与曝光条件。"
       ],
       "category": "生态动向",
       "type": "opinion",
       "impact": "medium",
       "source": "Tubefilter",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeC1BT3BnTk96RWtVV0t4eUh5blk5YjZGQkNkTk5tQ19RUXhodWdOX1RxaGQweHhyZkFFYzFyUnI5NWdRcmlsbWxPTlNDcTB2OXZaT3ZlNEtDVmFrSm85bDRPc1lTd1ZUVUJqX1JZQ1MwMTh0eEhyaWVVajhXSGxEVmlGSTA1aGlpRk1KTkowUFZ4MndhX2RYSmowanJBY1FxeGVSX0tuWHo?oc=5",
-      "local_life_hint": ""
-    },
-    {
-      "title": "TikTok Shop广告出现种族歧视钩子引争议",
-      "explanation": "Medicube就TikTok Shop广告中出现的种族歧视性钩子作出回应。这暴露了AI与批量素材生产下广告创意审核的风险，品牌与平台都面临合规压力。",
-      "analysis_points": [
-        "事件：TikTok Shop广告出现不当钩子，品牌被迫回应。",
-        "启示：批量素材与AI生成放大创意风险，广告主需加强投放前的审核与合规流程。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "Hypebae",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcjFlR3JUZ0NWMW82MFpBbjlQMlZPRDNyY2lhMzIybk1RWU1EeUVEelNvSEFHZlF1eXdxZkdoaV8wRmwwS2FVZkdHLW5kc3FWSEVhbzJtY1ZFX2c5QzRXRllvVTZRNkxKdzRRVUszNXVzSUo3MDNYUkRGejk5ck83OGlwT2tKNkh6WkQ4R1pJSV9RQ0ZvOWJoX0Vn?oc=5",
-      "local_life_hint": "本地生活商家用AI批量生成素材时，应设置敏感词与歧视性表达审核，避免投放事故。"
-    },
-    {
-      "title": "扣子接入中转站报endpoint格式错，开发者踩坑",
-      "explanation": "开发者分享扣子接入第三方API中转站时遇到endpoint格式错误的排查过程。这类问题反映扣子生态在扩张，但第三方模型接入的工具链仍不成熟，影响开发者效率。",
-      "analysis_points": [
-        "问题：扣子接入中转站时endpoint格式不匹配导致报错。",
-        "启示：开发者需注意模型别名与endpoint配置规范，平台侧可优化接入文档与校验。"
-      ],
-      "category": "初创动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "CSDN",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xcDJWRl8yckYtWlB3ZjJQQm5zZ0xhWTJhNGFIRUhTbXhOT0ZRZWMwYUdhOHJXdERlX0RuSEhJeGJuWE1DVUowVl9Ibko2ZUdpY29LY3paZXpiTWdkOUE?oc=5",
-      "local_life_hint": ""
+      "local_life_hint": "大促期间可对比多平台直播电商的流量与佣金政策，把预算投向补贴力度更大的平台。"
     }
   ],
   "mode": "ai"
