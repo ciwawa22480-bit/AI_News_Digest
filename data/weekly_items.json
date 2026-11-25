@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T10:26:28.980116+00:00",
-  "week_range": "11.23-11.25",
-  "date_display": "11.23 - 11.25",
-  "editorial_summary": "本周共汇总 30 条 AI 商业要闻，其中高影响 5 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城；火山引擎开放豆包实时音视频通话模型API；字节重构ToB版图：飞书与豆包将整合；Sand.ai开源MAGI-2，价格仅Seedance 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-11-25T17:33:21.987824+00:00",
+  "week_range": "11.23-11.26",
+  "date_display": "11.23 - 11.26",
+  "editorial_summary": "本周共汇总 39 条 AI 商业要闻，其中高影响 7 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城；火山引擎开放豆包实时音视频通话模型API；字节重构ToB版图：飞书与豆包将整合；Sand.ai开源MAGI-2，价格仅Seedance 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节一口气端出21种“小豆包”，行业专属版本落地",
@@ -21,11 +21,11 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（14 条），高影响条目占比约 17%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（20 条），高影响条目占比约 18%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
-    "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
-    "大厂 To B / 生态合作案例增多（尤其火山引擎侧），表明 AI 商业化从单点产品转向绑定客户预算。"
+    "Agent / 智能体成为跨条目高频关键词，'能自己跑流程'的多步自动化正在取代单点问答式产品。",
+    "模型调用成本持续下探、开源与闭源同步内卷，'千商千面'的定制生成在成本上开始可行。"
   ],
   "local_life_insights": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "今天字节在视频生成4K API、行业组件化大模型、广告代理渠道规则上的底座改造，意味着外投的素材生产将更依赖AI批量生成、投放链路更扁平、行业化能力更易复用。",
-  "total_items": 30,
-  "high_count": 5,
+  "total_items": 39,
+  "high_count": 7,
   "items": [
     {
       "title": "字节一口气端出21种“小豆包”，行业专属版本落地",
@@ -118,6 +118,34 @@
       "source": "爱范儿",
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XYmo2RFdwbWJmemZHZUZ3UWxEaEFndUJXZ3JDQWdNTi1UMEdxUTFmeGtfNEQ3M3I0YS01V0NxZ3RnYUk?oc=5",
       "local_life_hint": "本地生活商家做短视频投放时，可用低价开源视频模型批量生成门店素材，把预算集中到少数高质量主片上。"
+    },
+    {
+      "title": "打开豆包就进抖音：AI消费闭环先打通账号",
+      "explanation": "报道指出豆包把购物入口放进侧边栏，字节的AI消费闭环选择先打通账号体系，而非急于做独立电商。账号打通意味着用户在豆包的浏览、收藏、下单行为可与抖音电商数据联动，为后续精准推荐打底。",
+      "analysis_points": [
+        "能力变化：从「AI推荐商品」升级为「AI账号+抖音商城交易」一体化，用户身份与消费数据在豆包和抖音之间贯通。",
+        "对广告主价值：账号打通后，豆包侧的购物意图数据有望反哺投放定向，广告主可期待跨端人群标签的复用。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "同花顺",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VTkZPeDM0VUwyaG5pVUE0NUtoNkxfQm80c0N0QmthWHhDa2ZHMUp4VzBmOU9ZZ0lFU3Z0WDU0UjZuLXNTeEpCaW1LR25WQ0F1cmhNTmFGMmZrc1hJa2c?oc=5",
+      "local_life_hint": "账号打通是外投定向的基础设施，本地生活团队可关注豆包与抖音人群标签何时对广告主开放。"
+    },
+    {
+      "title": "豆包点餐试水本地生活AI商业化",
+      "explanation": "报道显示豆包点餐开始试水本地生活AI商业化，把点餐这一高频本地场景接入AI助手。相比购物，点餐更贴近到店消费决策，是AI进入本地生活交易链路的直接试探。",
+      "analysis_points": [
+        "场景能力：豆包从信息问答延伸到点餐下单，用户在对话中完成选店、选品、下单动作。",
+        "对本地商家价值：多了一个由AI对话触发的到店引流入口，适合餐饮等高频品类优先试水。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Ccm5UcTNtSG5OZUR3NUN4R0J1OXpSN2Y3TzVmOHBpaTNmcUpqcXJjeXoycjVkOHN3QlhxdW1VeUdYMi1CS0VWOU9seDBwNmd1ZEZHbw?oc=5",
+      "local_life_hint": "餐饮商家可关注豆包点餐的接入方式与佣金结构，评估其作为到店新渠道的性价比。"
     },
     {
       "title": "神龙科技与火山引擎合作，新车搭载AI座舱",
@@ -468,6 +496,104 @@
       "source": "Tubefilter",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeC1BT3BnTk96RWtVV0t4eUh5blk5YjZGQkNkTk5tQ19RUXhodWdOX1RxaGQweHhyZkFFYzFyUnI5NWdRcmlsbWxPTlNDcTB2OXZaT3ZlNEtDVmFrSm85bDRPc1lTd1ZUVUJqX1JZQ1MwMTh0eEhyaWVVajhXSGxEVmlGSTA1aGlpRk1KTkowUFZ4MndhX2RYSmowanJBY1FxeGVSX0tuWHo?oc=5",
       "local_life_hint": "大促期间可对比多平台直播电商的流量与佣金政策，把预算投向补贴力度更大的平台。"
+    },
+    {
+      "title": "豆包工作日活破800万，AI组织整合初见成效",
+      "explanation": "豆包工作披露日活突破800万，被解读为此前字节AI组织架构整合的成效验证。办公场景是B端付费意愿较强的领域，日活数据说明豆包在企业协作场景已形成一定用户惯性。",
+      "analysis_points": [
+        "数据意义：800万日活为豆包工作在AI办公赛道提供了规模背书，验证组织整合后的产品协同效果。",
+        "对B端客户价值：日活规模意味着生态与插件开发者更有动力接入，企业采购时可关注其应用生态成熟度。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OSmdRbmptMkNNQXBEemp0ekFZYlhaTjRQUWhXOGoyVDBVSlBZY0Rsdmx4b1pwOHlXSGdVZlVHNnp4SjBjMGhCVkNfS1dQUzEyU29fRGZSanVfRVp4X1lvUlN3SzlBUEx5TGVidHYxRXV5VU12bHo4MnJDeHA?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "即梦Seedance 2.5 4K实测：细节惊艳",
+      "explanation": "智东西对即梦Seedance 2.5进行4K上手实测，评价细节表现惊艳。4K成片能力意味着AI视频开始接近可商用投放的清晰度门槛，对广告素材生产有直接影响。",
+      "analysis_points": [
+        "能力变化：Seedance 2.5从常规分辨率提升到4K输出，画面细节与质感接近实拍可用水平。",
+        "对广告主价值：高质量AI成片可替代部分实拍素材，降低外投素材的制作周期与成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "智东西",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9rOGd2TnBUSTc4elBFV0FZLUlNeUVsb1BwaEo1N2tjQjJSbFJ6THFtUzIwZTlMcVBHbkZ4alFFTENudGF2cmxWdg?oc=5",
+      "local_life_hint": "本地生活广告素材可用4K AI视频做门店/菜品展示，缩短从创意到投放的周期。"
+    },
+    {
+      "title": "Seedance 2.0 mini低价档：480P仅0.04元/秒",
+      "explanation": "报道称Seedance 2.0 mini以480P约0.04元/秒的价格切入，被视为即梦、可灵等AI视频工具的平替选择。秒级低价计价把AI视频从「尝鲜」推向「可批量投放」。",
+      "analysis_points": [
+        "定价变化：按秒计价低至0.04元，AI视频生成成本被压到可批量试错的水平。",
+        "对投放团队价值：低成本档位适合做大批量素材A/B测试，用数量换爆款概率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "TOM",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pTmlIM3R2dnpjUkhtYm9fRUV5Z3lYYkF5cmkwLV83NU9vLS1GeU5pVUZoNXJnZDRUWTdWSmJxczZIWGdoN2RncDhLbHZOUDBpS250Qmxn?oc=5",
+      "local_life_hint": "外投团队可用低价档批量生成多版本素材做投放测试，把素材成本压到可忽略量级。"
+    },
+    {
+      "title": "豆包个人智能体「小豆」公测，能替我打电话",
+      "explanation": "36氪报道字节首款个人智能体「小豆」开启公测，具备替用户打电话等能力。这是豆包从问答助手向可执行任务的Agent演进，交互从「回答」变成「代办」。",
+      "analysis_points": [
+        "能力变化：小豆从被动问答升级为可代打电话、执行任务的个人智能体，具备跨应用操作能力。",
+        "对商家价值：Agent代打电话意味着商家客服、预约等环节可能被AI直接触达，需准备应对AI来电的服务流程。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zTUZSNHBSNDlOMlhuU0hjaC1CaVFxaFRwZDhHeVhjeEtJOXI5OWN0QmpETERFTmtwcE93SG10OGczZms0d21pOThNV3JVbm8?oc=5",
+      "local_life_hint": "本地商家可提前准备AI来电的预约、点餐接待流程，避免AI代打电话时服务断档。"
+    },
+    {
+      "title": "豆包个人智能体来了，但可能与你想的不一样",
+      "explanation": "报道对豆包个人智能体做出冷静解读，指出其能力边界与外界预期存在差异。这类分析有助于判断Agent类产品的真实商业化节奏，避免高估短期能力。",
+      "analysis_points": [
+        "观点核心：个人智能体的实际能力集中在特定任务代办，而非全能助理，落地场景有限。",
+        "对从业者价值：评估Agent接入商业场景时应以实测能力为准，不宜按宣传口径规划投放。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaQ1BYazkzblJSWnZ2TjRCN2dJWkpYRE1hZWhyVWxjQjVaNko3NExLdG9WcDNfaFJxN00yZWF0UjVOdlJwRDlkc3pJUi1abE52VXVQSFdGaHJ4Z1BqeWxWeTRUeWlmaHAyUTU1eG11Zkh4Zw?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "扣子接入中转站踩坑：endpoint格式与model id对齐",
+      "explanation": "技术文章总结扣子接入API中转站时endpoint格式报错、模型别名与中转站model id需一致等实操坑点。这类经验对开发者快速接入扣子生态有直接参考价值。",
+      "analysis_points": [
+        "问题定位：扣子接入中转站时endpoint格式与model id映射不一致会导致调用失败。",
+        "对开发者价值：按规范对齐模型别名与model id可减少调试时间，加快Agent上线。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xcDJWRl8yckYtWlB3ZjJQQm5zZ0xhWTJhNGFIRUhTbXhOT0ZRZWMwYUdhOHJXdERlX0RuSEhJeGJuWE1DVUowVl9Ibko2ZUdpY29LY3paZXpiTWdkOUE?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "29岁字节女将爆红，AI业务一线人物受关注",
+      "explanation": "报道聚焦一位29岁字节女将走红，反映字节AI业务一线操盘手受到行业关注。人才话题背后是字节AI组织年轻化与业务扩张的信号。",
+      "analysis_points": [
+        "现象观察：字节AI业务一线年轻负责人获得曝光，说明组织在快速扩张中提拔新人。",
+        "对行业意义：人才流动与曝光往往预示业务重心，可侧面观察字节AI资源投向。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "ThePaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlTURUOG1RWkdKdG1HQ3JIM2RiSlRDY1lGRW4xT3Nqd3djeGg1cGRrcnBuVFVCbFJMTnNqaVBycU0wR0lvS0JrbkR4VFBuTjIzZzNCVUNncDg4N2dGMU5aMQ?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
