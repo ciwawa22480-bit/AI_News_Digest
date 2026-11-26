@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-26T10:02:12.825049+00:00",
-  "week_range": "11.23-11.26",
-  "date_display": "11.23 - 11.26",
-  "editorial_summary": "本周共汇总 37 条 AI 商业要闻，其中高影响 8 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城；火山引擎开放豆包实时音视频通话模型API；字节重构ToB版图：飞书与豆包将整合；Sand.ai开源MAGI-2，价格仅Seedance 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "generated_at": "2026-11-26T17:15:50.893857+00:00",
+  "week_range": "11.23-11.27",
+  "date_display": "11.23 - 11.27",
+  "editorial_summary": "本周共汇总 46 条 AI 商业要闻，其中高影响 11 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城；火山引擎开放豆包实时音视频通话模型API；字节重构ToB版图：飞书与豆包将整合；Sand.ai开源MAGI-2，价格仅Seedance 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节一口气端出21种“小豆包”，行业专属版本落地",
       "火山引擎开放豆包实时音视频通话模型API",
-      "TikTok Shop新战略对标亚马逊与沃尔玛"
+      "剪映专业版开放第三方插件，剪辑工具变平台"
     ],
     "opinions": [
       "Sand.ai开源MAGI-2，价格仅Seedance 2.5十分之一",
-      "即梦新模型实测：AI生图能力再进化",
-      "分析：字节不依赖华尔街，资本结构令英伟达羡慕"
+      "豆包购物灰度测试，AI助手变身电商流量漏斗",
+      "即梦新模型实测：AI生图能力再进化"
     ],
     "ecosystem": [
       "贷款方暂停涉字节与阿里的数十亿美元AI融资",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（18 条），高影响条目占比约 22%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（22 条），高影响条目占比约 24%，商业化叙事仍由头部驱动。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "今天字节在视频生成4K API、行业组件化大模型、广告代理渠道规则上的底座改造，意味着外投的素材生产将更依赖AI批量生成、投放链路更扁平、行业化能力更易复用。",
-  "total_items": 37,
-  "high_count": 8,
+  "total_items": 46,
+  "high_count": 11,
   "items": [
     {
       "title": "字节一口气端出21种“小豆包”，行业专属版本落地",
@@ -160,6 +160,51 @@
       "source": "36Kr",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zTUZSNHBSNDlOMlhuU0hjaC1CaVFxaFRwZDhHeVhjeEtJOXI5OWN0QmpETERFTmtwcE93SG10OGczZms0d21pOThNV3JVbm8?oc=5",
       "local_life_hint": "本地商家可提前评估AI来电场景，确保预约电话能被智能体顺畅对接。"
+    },
+    {
+      "title": "剪映专业版开放第三方插件，剪辑工具变平台",
+      "explanation": "剪映专业版宣布插件能力上线，支持导入第三方插件，可实现音视频降噪、风格调色、人像美化、运动跟踪等功能，并同步招募插件创作者。这意味着剪映从封闭剪辑软件转向可扩展创作平台，对广告素材生产链条影响直接。",
+      "analysis_points": [
+        "能力变化：剪映专业版从内置固定功能变成可导入第三方插件，用户无需为单一效果切换软件，降噪、调色、人像美化、运动跟踪等能力可按需加载。",
+        "对广告主价值：素材制作团队可把重复性后期效果插件化，缩短短视频广告从拍摄到成片的周期，降低外包后期成本。",
+        "生态信号：招募插件创作者意味着剪映在构建创作者经济，未来可能出现面向电商和本地生活广告的专用插件。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/033/065.htm",
+      "local_life_hint": "本地生活商家短视频素材后期可借助插件批量完成调色、人像美化，降低单条素材制作成本，适合门店探店、团购套餐类内容规模化生产。"
+    },
+    {
+      "title": "抖音生活服务换帅，业务转向AI提效与利润健康",
+      "explanation": "抖音生活服务负责人调整，浦燕子转任顾问，莫少君接棒，业务方向明确转向AI提效与利润健康。这是本地生活赛道的重要人事与战略信号，直接影响商家侧工具和投放策略。",
+      "analysis_points": [
+        "战略变化：抖音生活服务从规模扩张转向AI提效与利润健康，意味着平台会更看重单位商家的产出效率而非单纯GMV增长。",
+        "对商家影响：AI提效导向下，商家侧可能迎来更多自动化投放、智能选品和内容生成工具，降低中小商家运营门槛。",
+        "竞争含义：本地生活竞争进入效率战阶段，广告投放的ROI考核会更严格，粗放买量空间收窄。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Nal9GZlRpbS0xTVdWZV9BVGlUdEpSaGRYNjdLRjRNTDJ1V2hDNWczbFFSREYyWTZDaGowc1F5YWNlRXRuenJoWENfT3diSi01M2hBRw?oc=5",
+      "local_life_hint": "本地生活商家应关注平台AI提效工具的上线节奏，提前把投放预算向可量化ROI的智能投放产品倾斜，减少粗放买量。"
+    },
+    {
+      "title": "豆包购物灰度测试，AI助手变身电商流量漏斗",
+      "explanation": "豆包APP灰度测试豆包购物，部分用户可见，交易接入抖音商城。多家媒体将其定性为AI应用大幕开启，认为豆包正把AI助手变成抖音电商的新流量入口。",
+      "analysis_points": [
+        "产品变化：豆包从纯对话助手增加购物入口，交易链路接入抖音商城，AI助手开始承担导购和流量分发角色。",
+        "对商家价值：抖音电商商家未来可能通过豆包获得新的商品曝光场景，需关注AI导购场景下的商品信息优化。",
+        "行业信号：AI助手商业化从广告位转向交易闭环，流量漏斗逻辑正在被重写。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社电报",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE40WDdTVWllVWJyakIwTWxNdnc2OFJCQktPSmxUYVdQMHZxT3F0SmRoN2tDMFdldWVBdHlybmF2dTdfUjRHTXc?oc=5",
+      "local_life_hint": "本地生活商家可提前优化抖音商城商品标题、卖点和评价，为AI导购场景下的曝光做准备。"
     },
     {
       "title": "神龙科技与火山引擎合作，新车搭载AI座舱",
@@ -566,6 +611,96 @@
       "source": "智东西",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9rOGd2TnBUSTc4elBFV0FZLUlNeUVsb1BwaEo1N2tjQjJSbFJ6THFtUzIwZTlMcVBHbkZ4alFFTENudGF2cmxWdg?oc=5",
       "local_life_hint": "本地商家可用Seedance快速生成门店短视频素材，降低拍摄成本，适合批量测试投放。"
+    },
+    {
+      "title": "三人行成为字节官方生态伙伴，打通全产业链",
+      "explanation": "三人行宣布率先成为字节跳动官方生态伙伴，All-in-AI打通算力—模型—应用全产业链条。这反映字节生态外溢效应增强，合作伙伴正围绕字节AI能力构建商业化服务。",
+      "analysis_points": [
+        "生态变化：三人行从营销服务商升级为字节官方生态伙伴，业务覆盖算力、模型到应用，说明字节AI生态在向外部服务商开放。",
+        "对广告主价值：广告主可通过生态伙伴获得打包式AI营销服务，降低自建AI能力的门槛。",
+        "行业信号：字节AI商业化正从直营走向生态分销，服务商角色变得更重要。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZZjNKaTZZc1FxZlphNXVHQUhhR2RFN0NyWHQ5eTBwRUpGYURHdlBaSUdXVDFHX0VoRXpNUUNBazBUSWRWak84Y3RtRDRWX2JIV1k5cnFuX0I0bWg0R2gxZ0diTml3SjdsM0dMMUJFUGkwd2QycHJpNg?oc=5",
+      "local_life_hint": "本地生活广告主可关注字节生态伙伴提供的打包AI营销服务，作为自建团队之外的补充选项。"
+    },
+    {
+      "title": "万兴剧厂接入Seedance 2.5 Flash助力影视制作",
+      "explanation": "万兴科技旗下万兴剧厂接入Seedance 2.5 Flash和GPT Image 2.6，助力AI影视制作提速降本。这是Seedance模型在影视制作工具链中的商业化落地案例。",
+      "analysis_points": [
+        "产品变化：万兴剧厂接入Seedance 2.5 Flash，把字节视频生成模型嵌入影视制作工作流，实现提速降本。",
+        "对创作者价值：影视制作团队可借助Seedance快速生成素材，缩短前期概念片和分镜制作周期。",
+        "生态信号：Seedance模型正通过第三方工具接入扩大商业化覆盖面。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtb3BCeUlodVNsMGV6UFNsM056T1BiWS12MUNlbFlUaG1CNTZWVXV3NHBlcFRWWUtnUk14cnl0V0RVVTk4enpBMmExWjV1bXdqa3JvNHdDWEtaTGtHV0VSZkdWY3c?oc=5",
+      "local_life_hint": "本地生活商家可借助接入Seedance的第三方工具快速生成短视频素材，降低影视级内容制作成本。"
+    },
+    {
+      "title": "沐曦与火山引擎合作推动芯片研发上云",
+      "explanation": "芯片研发上云后，沐曦和火山引擎一起走进更多AI应用现场。这显示火山引擎在算力基础设施侧与芯片厂商合作，拓展AI应用落地场景。",
+      "analysis_points": [
+        "合作内容：沐曦芯片研发上云并与火山引擎合作，把算力能力对接到更多AI应用场景。",
+        "对开发者价值：火山引擎算力生态扩容，开发者在模型训练和推理上多了一种国产算力选择。",
+        "行业信号：国产芯片与云平台合作加速，AI基础设施国产化链条在完善。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "www.icloudnews.net",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QbENoZ2NoOTctUDdneHA5dmdqR3FDS2tZQVZLaFR4QVRkc3FpYnV6STNrbThPMk1QMzRGQ2lUTTNya1BSeHVndDJHNUNkZWZMU3c?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节否认造车，与赛豆无股权合作",
+      "explanation": "字节跳动否认造车，称与赛豆无股权合作。这澄清了市场对字节进军整车制造的猜测，显示其汽车领域策略仍聚焦AI能力输出而非亲自造车。",
+      "analysis_points": [
+        "事件性质：字节否认造车及与赛豆的股权合作，明确汽车战略边界。",
+        "战略含义：字节在汽车领域走的是豆包大模型上车的能力输出路线，而非重资产造车。",
+        "对合作方价值：车企与字节合作仍以AI座舱和模型能力为主，合作模式清晰。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "AAStock",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00RjB3OFA4R0dvQVpNUWVFRjBmVm4wTV9EZGM4SVh2dmFmOXJtNWdUbkM4eUhIYzk1NzFZR0JBeUZCTDBfdHlMd0ZKeXo4MzdySHhlczlxbmVUTWhzQm1lR29ObEpaUjlmeXVuVFFoTEI?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包也要上餐桌，AI助手切入餐饮场景",
+      "explanation": "36Kr报道豆包也要上餐桌，讨论豆包在餐饮等生活场景的渗透。这反映豆包正从通用助手向具体生活服务场景延伸，对本地生活商家有潜在影响。",
+      "analysis_points": [
+        "趋势判断：豆包从通用对话向餐饮等生活服务场景延伸，AI助手开始介入消费决策环节。",
+        "对商家价值：餐饮商家未来可能通过豆包获得推荐曝光，需关注AI推荐场景下的门店信息优化。",
+        "行业信号：AI助手与本地生活服务的结合正在加速。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "low",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12M0diTXhTYUNqTUJTbjJqYzl6aDR2SWJMMjMtTE8yTkZCbVAzZF9NdlZJY3J4QTZNWFdYcjg2ZmpMX1k4OWNXS0NiZFpZQQ?oc=5",
+      "local_life_hint": "本地生活餐饮商家可提前完善门店在抖音和豆包生态中的信息，为AI推荐场景做准备。"
+    },
+    {
+      "title": "北航MBA师生走进火山引擎探讨AI产业落地",
+      "explanation": "北航MBA师生走进火山引擎，共探AI产业落地新路径。这是火山引擎面向企业端的生态教育活动，体现其在AI产业落地方法论上的输出。",
+      "analysis_points": [
+        "活动内容：北航MBA师生参访火山引擎，围绕AI产业落地路径交流，属于企业生态教育类活动。",
+        "对平台价值：火山引擎通过高校合作扩大企业端影响力，培育潜在客户认知。",
+        "行业信号：AI产业落地方法论输出成为云厂商争夺企业客户的软性手段。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "北航新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WTlJkazlhUlhRUHllbzkzR1pyUy1Rd1NFcnMtTUx2Y0gwaEdRQTRUaGFLWk9DS0dWQjRpbW9TYUUxWnY2VklaRGtyMGZsak5zYUd5cFptbw?oc=5",
+      "local_life_hint": ""
     }
   ],
   "mode": "ai"
