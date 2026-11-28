@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T16:57:05.803986+00:00",
+  "generated_at": "2026-11-28T09:26:32.556196+00:00",
   "week_range": "11.23-11.28",
   "date_display": "11.23 - 11.28",
-  "editorial_summary": "本周共汇总 57 条 AI 商业要闻，其中高影响 11 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城；火山引擎开放豆包实时音视频通话模型API；字节重构ToB版图：飞书与豆包将整合；Sand.ai开源MAGI-2，价格仅Seedance 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
+  "editorial_summary": "本周共汇总 54 条 AI 商业要闻，其中高影响 10 条。本周主线包括：字节一口气端出21种“小豆包”，行业专属版本落地；豆包App灰度「豆包购物」，一级入口直连抖音商城；火山引擎开放豆包实时音视频通话模型API；字节重构ToB版图：飞书与豆包将整合；Sand.ai开源MAGI-2，价格仅Seedance 。整体看，头部大厂在产品能力与商业化上继续领跑，生态侧的合作、融资与基础设施投入同步升温。对像美团商业化这类'拿商家预算做外部广告投放(外投)'的团队而言，本周值得沉淀的不是单条新闻，而是这些公司在'技术能力底座'上的改造——它决定了未来外投的素材生产、定向投放与成本结构会怎么变，具体借鉴见文末'外投团队的借鉴'。",
   "overview": {
     "new_products": [
       "字节一口气端出21种“小豆包”，行业专属版本落地",
@@ -21,7 +21,7 @@
     ]
   },
   "commonality": [
-    "本周内容重心在「大厂动向」（26 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
+    "本周内容重心在「大厂动向」（25 条），高影响条目占比约 19%，商业化叙事仍由头部驱动。",
     "火山引擎 / 豆包 / 扣子 / 即梦等字节系产品线密集发声，To B 商业化路径进一步清晰。",
     "视频生成模型密集迭代，本周多条资讯聚焦文生视频/数字分身能力升级，行业进入'素材工业化'阶段。",
     "AI 广告与营销侧渗透加深，从素材生成到人群定向，广告链路的 AI 化贯穿本周多条动态。",
@@ -46,8 +46,8 @@
     }
   ],
   "insights_intro": "今天字节在视频生成4K API、行业组件化大模型、广告代理渠道规则上的底座改造，意味着外投的素材生产将更依赖AI批量生成、投放链路更扁平、行业化能力更易复用。",
-  "total_items": 57,
-  "high_count": 11,
+  "total_items": 54,
+  "high_count": 10,
   "items": [
     {
       "title": "字节一口气端出21种“小豆包”，行业专属版本落地",
@@ -188,20 +188,6 @@
       "source": "虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Nal9GZlRpbS0xTVdWZV9BVGlUdEpSaGRYNjdLRjRNTDJ1V2hDNWczbFFSREYyWTZDaGowc1F5YWNlRXRuenJoWENfT3diSi01M2hBRw?oc=5",
       "local_life_hint": "本地生活商家应关注平台 AI 提效工具与利润导向的流量分配规则，提前调整投放 ROI 目标。"
-    },
-    {
-      "title": "Seedance 2.0 mini 480P仅0.04元/秒，主打低价平替",
-      "explanation": "报道称 Seedance 2.0 mini 以 480P 仅 0.04 元/秒的定价切入视频生成，成为即梦、可灵等产品的低价平替，把 AI 视频生成成本压到按秒计价的极低水位。",
-      "analysis_points": [
-        "能力变化：Seedance 从高单价专业生成扩展到超低价 mini 版本，按秒计价让批量生成变得经济可行。",
-        "商业价值：广告主可大规模批量测试视频素材，用极低成本做多版本 A/B 投放，显著降低素材试错成本。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "high",
-      "source": "TOM",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pTmlIM3R2dnpjUkhtYm9fRUV5Z3lYYkF5cmkwLV83NU9vLS1GeU5pVUZoNXJnZDRUWTdWSmJxczZIWGdoN2RncDhLbHZOUDBpS250Qmxn?oc=5",
-      "local_life_hint": "外投团队可用超低价视频生成批量产出本地生活素材，按门店、品类快速铺量测试。"
     },
     {
       "title": "神龙科技与火山引擎合作，新车搭载AI座舱",
@@ -736,116 +722,88 @@
       "local_life_hint": ""
     },
     {
-      "title": "上汽大众ID. ERA 5X首发豆包大模型2.0",
-      "explanation": "上汽大众 ID. ERA 5X 首发搭载豆包大模型 2.0，把大模型能力嵌入车机语音与座舱交互，是豆包在合资车企量产车型上的重要落地。",
+      "title": "上汽荣威家越07大定破3.5万台，全系搭载豆包座舱助手",
+      "explanation": "上汽荣威宣布家越07大定锁单突破3.5万台，该车行业首搭豆包座舱助手，并搭载Momenta R7世界模型。豆包在车机端从选配走向全系标配，且伴随实打实的订单量，验证了座舱AI对购车决策的拉动作用。",
       "analysis_points": [
-        "能力变化：豆包大模型 2.0 从通用对话升级为车机座舱的语音助手底座，支持车内多场景指令理解。",
-        "商业价值：车企量产落地扩大豆包在出行场景的入口，为车内服务推荐与本地生活到店导流提供想象空间。"
+        "能力变化：豆包座舱助手成为家越07全系标配，从单车型试点升级为全系覆盖，语音交互深度嵌入车机系统。",
+        "商业价值：3.5万台大定意味着豆包在车内场景获得稳定用户基数，为后续车机端服务推荐、本地生活到店导航等场景预留入口。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/033/913.htm",
+      "local_life_hint": "车机语音是到店导航与本地服务推荐的天然入口，豆包座舱规模化后可探索「语音找店—导航到店」的投放链路。"
+    },
+    {
+      "title": "上汽大众ID. ERA 5X首发豆包大模型2.0",
+      "explanation": "上汽大众ID. ERA 5X首发搭载豆包大模型2.0，标志豆包大模型版本迭代进入合资品牌主力车型。合资车企对供应商选型审慎，此次首发说明豆包在车规级适配与稳定性上获得认可。",
+      "analysis_points": [
+        "能力变化：豆包大模型从1.x升级到2.0版本并首次在上汽大众车型首发，模型能力与车机适配同步迭代。",
+        "商业价值：合资品牌车型保有量大、用户结构偏家庭，为豆包在家庭出行场景的语音服务与后续商业化提供高质量入口。"
       ],
       "category": "大厂动向",
       "type": "fact",
       "impact": "medium",
       "source": "汽车之家",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3Q1ZrbFVKMEYyMFVWSGFDMy1MU2QtcWl5NHRrcy1qQXZyWFRMTEZPSGlYajVVaFQtRk1abFM0YkJlaGtacnVpcTdybFFoQlAtYzBWV244Q0N4c2NXS2c?oc=5",
-      "local_life_hint": "车内语音助手可成为到店餐饮、加油充电等本地服务的推荐入口，值得提前布局车机场景投放。"
+      "local_life_hint": "合资品牌车主家庭出行频次高，可结合车机语音做亲子、自驾类本地服务场景投放。"
     },
     {
-      "title": "AI虚拟人发布医疗广告被罚6.8万，巨量引擎审核受关注",
-      "explanation": "AI 虚拟人发布医疗广告被罚 6.8 万元，报道质疑巨量引擎审核仍需强化，反映生成式素材在广告合规上的风险正在显性化。",
+      "title": "一张照片生成覆面系舞蹈视频，即梦玩法成爆款复刻工具",
+      "explanation": "即梦AI的出镜模式支持用户上传一张照片即可生成覆面系舞蹈等爆款视频，成为短视频平台爆款内容复刻的常用工具。这类低门槛玩法直接服务于内容营销的「跟热点」需求。",
       "analysis_points": [
-        "能力变化：AI 虚拟人可低成本批量生成广告内容，但医疗等敏感行业的合规审核未能同步跟上。",
-        "商业价值：广告主投放 AI 生成素材需前置合规审查，尤其医疗、金融等强监管行业，避免罚款与账户风险。"
+        "能力变化：从需要真人出镜拍摄变为单张照片驱动生成舞蹈视频，人物一致性与动作生成能力提升。",
+        "商业价值：品牌与达人可快速复刻平台热点玩法，缩短从热点出现到素材上线的窗口期。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aSVY3ZC1vdC1mWmlXY0pfdWluZWtBWkhuSGdaazcxa2VROGFFTXVaR1VGYmFTNVVFOU54NGNON0NOSGRnUDVGM0twNUU?oc=5",
+      "local_life_hint": "本地商家可借照片生成舞蹈/口播素材，低成本跟进平台热点做门店曝光。"
+    },
+    {
+      "title": "剪映Hub把一句话变成音乐现场大屏视觉",
+      "explanation": "首届AI音乐视觉黑客松上，剪映Hub展示了从一句话描述到音乐现场大屏视觉的生成能力。这标志剪映从个人剪辑工具向「视觉内容生产基础设施」延伸，可服务演出、活动等线下场景。",
+      "analysis_points": [
+        "能力变化：剪映Hub从视频剪辑扩展到实时大屏视觉生成，输入从素材变为一句自然语言描述。",
+        "商业价值：线下活动、门店大屏、演出场景的视觉内容可低成本定制，为本地商家提供新的场景化曝光形式。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "雷峰网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03U3JCb09weFBHN3ZwMXFpRHByMUg3MDBBRTRIRXFJTG1HamtzTTJENzhnekRQMDdjM2VEYzNWWnFKVjRzbV9OMEJiR2w0R3o0SVFtdGlYei1zMXR4U0Vpcjl1UlJma1gzZmpVWEkzVEg1eXRRbl9v?oc=5",
+      "local_life_hint": "门店大屏、快闪活动可用剪映Hub生成定制视觉，形成线下场景的品牌曝光位。"
+    },
+    {
+      "title": "AI虚拟人发布医疗广告被罚6.8万，巨量引擎审核承压",
+      "explanation": "AI虚拟人发布医疗广告被罚6.8万元，报道质疑巨量引擎审核环节仍需强化。这是AI生成素材进入广告投放后暴露的合规风险，说明AI降低素材生产成本的同时也放大了违规内容规模化投放的风险。",
+      "analysis_points": [
+        "能力变化：AI虚拟人可批量生成广告口播素材，但医疗等强监管行业的资质与内容审核未能同步跟上。",
+        "商业价值：广告主与代理商需在AI素材生产流程中前置合规校验，否则罚款与下架成本会抵消AI带来的降本收益。"
       ],
       "category": "生态动向",
       "type": "fact",
       "impact": "medium",
       "source": "Sohu",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUTA0ajRXQlNUbmFFNVpoZmFOdi1fcjFkRDZYZjBfRmd6QmE3SXVxZkRZOGU1QXhIYl8wcVNiV0lIeEg3VlEzV0ljWkY4THB6Q0NhdWVBM0hYM25SYjNHSE9MN2xldmJNTlp0SnBNYjRmTEJBS0xnVnpxd0xMY0xCRm9SeUpSQWJUdVItOA?oc=5",
-      "local_life_hint": "本地生活商家用 AI 虚拟人做医疗、医美类广告时需格外谨慎，合规审核要前置。"
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CSVNkaEJobHVYZGlna1p4XzF6a1o2RkIzN2lfc3NtT3FhWlo3bkVsVDRubHNRREpWQmZSRG5jYU5aWGNxbUU2d0xkSTlOeU4yNmpHQ1ln?oc=5",
+      "local_life_hint": "本地医疗、医美类商家用AI素材投放时须先过资质与内容审核，避免罚款与账户风险。"
     },
     {
-      "title": "巨量引擎品牌广告羊年CNY创新玩法上线",
-      "explanation": "巨量引擎上线羊年 CNY 品牌广告创新玩法，围绕春节节点提供新的品牌营销形式，帮助广告主在节日流量高峰抢占用户注意力。",
+      "title": "广电总局通报AI魔改等典型案例，抖音红果在处置名单",
+      "explanation": "广电总局通报网络视听治理典型案例，侵权盗版、低俗微短剧、AI魔改三类问题被点名，抖音、红果短剧等平台出现在处置名单中。监管对AI生成内容的边界进一步明确，平台需承担审核主体责任。",
       "analysis_points": [
-        "能力变化：巨量引擎在节点营销上推出新的品牌广告玩法，从常规投放升级为节日定制化互动形式。",
-        "商业价值：本地生活商家可借春节节点用品牌广告玩法做到店引流与会员拉新，抓住节日消费高峰。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "medium",
-      "source": "电商派",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDVG9icWRnTjJGLS1GdXU2SHJpRnhzS1Y3VDU1c3BiRWxhUFM4dDZGRDBkRFJVdjJILW0yLTFza1lPSnR5TzdqdVNvY213UUxveG9UdXFVc0ZCeTU2TVBjUg?oc=5",
-      "local_life_hint": "春节是本地生活消费高峰，商家可提前规划 CNY 品牌广告预算与到店活动联动。"
-    },
-    {
-      "title": "巨量引擎星动奇遇盛典长沙启幕，百位达人齐聚",
-      "explanation": "2026 巨量引擎 ECO NEXUS 星动奇遇盛典在长沙启幕，百位抖音达人齐聚，显示巨量引擎在达人营销与内容生态上的持续投入。",
-      "analysis_points": [
-        "能力变化：巨量引擎把达人资源与平台营销活动结合，形成内容创作者与品牌对接的线下场景。",
-        "商业价值：本地生活商家可通过达人合作做探店与种草，借平台活动获得流量扶持。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "华声在线",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9EdWhxbDZwX2ZWUnZ2TUV4ZHFIUU9CeVRITUd6R3hXdlk0MHZBVk5lRWs1TUZNLW9Rb09Ud2JKUFlCZ09Yc1lOd1hvdjNwQ0ZMV3dvOWZ2eDI3SlVYbVY3OUZRZw?oc=5",
-      "local_life_hint": "本地商家可关注巨量引擎达人活动，借探店达人做门店曝光与团购转化。"
-    },
-    {
-      "title": "扣子接入中转站报endpoint格式错，开发者踩坑记录",
-      "explanation": "开发者分享扣子接入中转站时遇到 endpoint 格式错误的排查过程，反映扣子在第三方模型接入上的配置细节与开发者生态活跃度。",
-      "analysis_points": [
-        "能力变化：扣子支持接入第三方中转站模型，但配置格式要求严格，开发者需按规范填写 endpoint。",
-        "商业价值：商家或服务商在用扣子搭建客服、营销机器人时，需注意接入配置，避免上线延误。"
+        "能力变化：AI魔改内容被列为专项治理对象，平台需建立对AI生成视频的识别与处置能力。",
+        "商业价值：内容平台与广告主在AI素材使用上需明确授权与改编边界，避免素材下架与投放中断。"
       ],
       "category": "生态动向",
       "type": "fact",
-      "impact": "low",
-      "source": "CSDN",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xcDJWRl8yckYtWlB3ZjJQQm5zZ0xhWTJhNGFIRUhTbXhOT0ZRZWMwYUdhOHJXdERlX0RuSEhJeGJuWE1DVUowVl9Ibko2ZUdpY29LY3paZXpiTWdkOUE?oc=5",
-      "local_life_hint": "本地生活服务商用扣子搭客服机器人时，接入配置要规范，避免影响营销活动上线。"
-    },
-    {
-      "title": "即梦AI制作原创短片霍去病，创作者计划落地",
-      "explanation": "原创短片《霍去病》全片由即梦 AI 制作，并挂载即梦 AI 创作者成长计划，展示即梦在长内容创作上的实际产出能力。",
-      "analysis_points": [
-        "能力变化：即梦从短视频素材生成扩展到完整短片制作，覆盖分镜、生成与成片流程。",
-        "商业价值：创作者与商家可借即梦制作品牌短片与内容营销素材，降低影视级内容制作门槛。"
-      ],
-      "category": "生态动向",
-      "type": "fact",
-      "impact": "low",
-      "source": "Sohu",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcUk4Z1JYVF9pTkNSLUJPZ29kMUZWY2RON0FhbVh4MkttNFZYaTROVFRoQXdDLUhDRU1sTmhjNHlrV25feXJfV1Bsa3pWVy1nNF9lbkJHNF9XWmU4ZmRSR2o4SktUbDFtRGdKX3dqTm0xYy0xNEdFczVLYzloalZSbnpzZUFzNy1aZElMQQ?oc=5",
-      "local_life_hint": "本地生活品牌可尝试用即梦制作品牌故事短片，用于内容平台种草与门店大屏播放。"
-    },
-    {
-      "title": "豆包亲妹妹被全网求码，字节AI新品引发关注",
-      "explanation": "报道称豆包「亲妹妹」产品被全网求码，反映字节 AI 新品在用户端引发高度关注，邀请制带来稀缺感与传播效应。",
-      "analysis_points": [
-        "能力变化：字节推出与豆包关联的新 AI 产品，采用邀请码机制控制放量节奏。",
-        "商业价值：新品热度可为商家提供早期合作与内容营销机会，抢先体验可形成话题素材。"
-      ],
-      "category": "大厂动向",
-      "type": "fact",
       "impact": "medium",
-      "source": "投资界",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pbzcxMGJEcFhUQTd4RWw0OG9tcHRPYUpLX05MQlA5aHJtMFRwczBCVnZINUZNUVMwTm5KT1FlV25VZ01WeEs4UHB2dEhlc2pHa3FqdElB?oc=5",
-      "local_life_hint": "新品热度期是内容营销窗口，本地商家可借话题做互动活动吸引年轻客群。"
-    },
-    {
-      "title": "视频模型黑马杀到全球第一，价格打到Seedance的1/10",
-      "explanation": "报道称某视频模型以 30 秒长镜头一次生成、价格打到 Seedance 的 1/10 杀到全球第一，反映视频生成赛道价格竞争加剧，对 Seedance 形成压力。",
-      "analysis_points": [
-        "能力变化：竞品以长镜头一次生成与超低价格切入，视频生成能力与成本门槛同时被拉低。",
-        "商业价值：广告主在视频素材生成上有更多低价选择，需关注 Seedance 的应对定价与能力迭代。"
-      ],
-      "category": "观点与深度",
-      "type": "opinion",
-      "impact": "medium",
-      "source": "36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE95UnhBcUdwcWlNOV9uWnM5YXNwTHB0Sl9lcVdBX0hGUUVyZEVGd2R5VXdlTnFSa3NEdTVORDVPekluai1FSWFNeExkeWVSdw?oc=5",
-      "local_life_hint": "视频生成价格战利好本地生活商家，素材制作成本下降，可加大短视频投放测试量。"
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/033/840.htm",
+      "local_life_hint": "商家用AI改编影视素材做营销存在侵权风险，建议改用原创或授权素材。"
     }
   ],
   "mode": "ai"
