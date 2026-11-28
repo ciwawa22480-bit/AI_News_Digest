@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-11-25T10:26:28.970976+00:00",
+  "date_display": "2026年11月25日",
+  "date_short": "2026-11-25",
+  "weekday": "周三",
+  "editorial_summary": "今天的字节系 AI 商业化主线，是「把模型能力变成可计费的入口与底座」。一方面，火山引擎把豆包实时音视频通话模型 SeedRealtime 1.0 做成 API 开放，让 AI 从「打字问答」升级为「能看会听、可主动开口」的实时多模态交互，这是外呼、直播、客服、到店咨询等场景的底层能力改造；另一方面，字节重构 ToB 版图，飞书与豆包走向整合，豆包工作日活突破 800 万，说明 AI 办公入口的争夺已从概念进入实战。同时，微软拟以 5 亿美元向字节出售 AI 服务引发 OpenAI 不满与美国议员关切，反映字节在算力与模型供给上仍在多线下注。值得警惕的是，Sand.ai 开源 MAGI-2 以约 Seedance 2.5 十分之一的价格逼近其质量，视频生成的价格战正在压缩生成式素材的溢价空间。对广告与本地生活而言，实时多模态与视频成本下探，正在同时改写素材生产与投放交互的成本结构。",
+  "overview": {
+    "new_products": [
+      "火山引擎上线豆包实时音视频通话模型 SeedRealtime 1.0 API，支持同时理解画面与声音并主动开口回应，把豆包从文本对话升级为可实时双向交互的多模态助手，面向客服、陪伴、硬件与直播等场景开放调用。",
+      "字节重构 ToB 版图，飞书与豆包将整合，豆包工作日活已突破 800 万，办公智能体从单点工具走向「入口+模型」一体化，直接对标腾讯 WorkBuddy 等办公 AI 入口。"
+    ],
+    "opinions": [
+      "有分析指出中国 AI 实验室与美国差距已缩至「12 小时」，并以字节与微软的 Azure 合作作为佐证，认为字节在算力受限下仍通过外部云与自研模型双线维持模型迭代速度。",
+      "围绕微软拟以 5 亿美元向字节出售 AI 服务，美国议员提出多项关切，观点认为字节的模型采购已不只是商业问题，而牵动 OpenAI 合作关系的排他性与出口管制边界。"
+    ],
+    "ecosystem": [
+      "视频生成进入价格战阶段：Sand.ai 开源 MAGI-2，实测质量接近 Seedance 2.3/2.5 水准而 1080P 每秒约 0.5 元、价格约为 Seedance 2.5 的十分之一，开源模型正在压低闭源视频 API 的定价空间。",
+      "字节在算力侧持续多线下注，Nscale 挪威算力部署受美国芯片出口管制审查、微软 Azure 交易受议员关注，说明模型能力竞争已前移到「算力获取合规性」这一基础设施层面。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节今天两条主线并行：ToB 侧把飞书与豆包整合、豆包工作日活破 800 万，办公 AI 从工具走向入口；模型侧火山引擎开放 SeedRealtime 1.0 实时音视频 API，把多模态交互做成可计费底座。同时微软拟 5 亿美元向字节出售 AI 服务引发 OpenAI 不满与议员关切，字节的模型供给策略成为外部焦点。",
+    "初创动向": "Sand.ai 开源 480B 视频模型 MAGI-2，实测质量接近 Seedance 2.3/2.5 而价格约为 Seedance 2.5 的十分之一，直接以「同质低价」切入字节视频生成的地盘，是今天对字节 Seedance 商业定价最具冲击力的一条。",
+    "生态动向": "算力与合规成为生态关键词：Nscale 挪威字节算力部署受美国芯片出口管制审查，微软 Azure 交易被议员点名，字节的模型扩张越来越受制于跨境算力与出口许可，而非单纯模型能力。",
+    "观点与深度": "围绕字节的讨论集中在两点：一是「中国 AI 仅落后美国 12 小时」的判断借字节 Azure 交易被反复引用；二是视频模型性价比之争，MAGI-2 与 Seedance 2.5 的对比实测成为衡量字节视频模型定价合理性的参照系。"
+  },
+  "local_life_insights": [
+    {
+      "base": "火山引擎把豆包实时音视频通话模型 SeedRealtime 1.0 做成 API 开放，模型从「文本问答」变成「能看画面、听声音并主动开口」的实时双向交互底座。",
+      "borrow": "外投团队可把实时音视频模型接入商家侧的咨询与预约链路，用 AI 主动开口承接用户到店前的问询，把「点击—咨询—到店」中的咨询环节自动化，降低商家接线成本并提升转化可追踪性。"
+    },
+    {
+      "base": "Sand.ai 开源 MAGI-2，实测质量接近 Seedance 2.3/2.5 而 1080P 每秒约 0.5 元、价格约为 Seedance 2.5 的十分之一，视频生成从高价闭源走向同质低价。",
+      "borrow": "外投素材生产可改为分层策略：大批量门店短视频与信息流素材用低价开源模型生成，少数品牌主片保留高质量模型，从而在同等预算下把素材产能放大数倍，直接改善外投的素材成本结构。"
+    },
+    {
+      "base": "字节把飞书与豆包整合、豆包工作日活破 800 万，办公入口从分散工具变成统一的 AI 工作入口。",
+      "borrow": "外投团队可关注中小商家在办公入口内的营销需求，把「生成活动文案—生成投放素材—一键投放」打包成入口内的轻量工具，让商家在办公场景里直接完成外投素材准备，缩短从预算决策到投放执行的链路。"
+    }
+  ],
+  "insights_intro": "换个视角看，今天字节把实时音视频做成 API、视频生成被开源模型打到十分之一价格、办公入口合并成统一底座，这三件事分别改写了外投的交互方式、素材成本与商家触达链路。",
+  "total_items": 11,
+  "new_vs_yesterday": 11,
+  "compare_date": "2026-11-24",
+  "high_count": 3,
+  "category_counts": {
+    "大厂动向": 4,
+    "观点与深度": 3,
+    "生态动向": 4
+  },
+  "items": [
+    {
+      "title": "火山引擎开放豆包实时音视频通话模型API",
+      "explanation": "火山引擎上线豆包实时音视频通话模型 SeedRealtime 1.0 API，模型可同时理解画面与声音并主动开口回应，把豆包从文本问答升级为实时双向多模态交互，是今天最具底座意义的产品开放。",
+      "analysis_points": [
+        "能力变化：从「用户打字、模型回文字」变成「模型能看画面、听声音、主动开口说话」，交互从单轮请求转为实时双向流式对话。",
+        "对广告主/商家的价值：可用于智能客服、到店咨询、直播互动与硬件语音助手，把原本需要人工值守的实时沟通环节交给模型，降低人力与响应时延成本。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2ejBFRV9lSlFiekhvYjhzT2lBejFBWDNFNDRucTZmbmE3VWZhWTROVzlPT3pNR2o4MEFxenh5Q3RuYmdUV1M4OEEyMndiWGdCaHNxRkhJS0NONVlpRGlhNnRmRXREUQ?oc=5",
+      "local_life_hint": "本地生活可试点把实时音视频模型接入商家客服与到店预约咨询，用「能看会听」的对话替代部分人工接线，压缩商家服务成本。"
+    },
+    {
+      "title": "字节重构ToB版图：飞书与豆包将整合",
+      "explanation": "财联社报道字节重构 ToB 版图，飞书与豆包将整合，大厂围绕「AI 工作入口」激战。这意味着字节把办公协同与模型助手合并为统一入口，ToB 商业化从卖工具转向卖入口。",
+      "analysis_points": [
+        "产品变化：飞书的协同办公能力与豆包的模型能力合并，从「两个独立产品」走向「一个 AI 工作入口」，用户不必在工具与助手之间切换。",
+        "对广告主的价值：企业侧入口集中后，B 端营销与投放的触达点更集中，面向企业客户的品牌可通过统一入口做场景化曝光。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1obDJWZWFFTFFHazhCcU5feE1wdUs5YjdFWWdNVzEzNDZHZDd3MHYwWHBwLXhlcDEyQ0pvR2xXZVJTSWFGc3ZneA?oc=5",
+      "local_life_hint": "本地生活商家若使用飞书做门店管理，未来可在同一入口内直接调用豆包生成营销文案与活动方案，缩短从管理到投放的链路。"
+    },
+    {
+      "title": "豆包回应入局导航：仅覆盖短途轻出行场景",
+      "explanation": "汽车之家报道字节豆包被传入局导航赛道，官方回应仅覆盖短途轻出行场景。这显示豆包在出行场景的边界仍克制，但已开始向位置服务延伸。",
+      "analysis_points": [
+        "能力边界：豆包不做全量导航，只覆盖短途轻出行，说明其定位仍是助手而非地图工具，避免与专业导航正面冲突。",
+        "对本地生活的价值：短途轻出行与到店消费高度重合，位置能力若与商家信息打通，可成为到店引流的新触点。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KbXlJOEdkYV9RRE5PNFNyYlNNWjV1aGoyTzFKRVRZblhPTzNjdUw0VUY5SEF2Zjd3YzJFUVFveXNBWlhVaFJkVDBrTEJUZG9NUC1NV2laWmt6anVuRHc?oc=5",
+      "local_life_hint": "短途轻出行场景天然连接「去哪吃、去哪玩」，本地生活可关注豆包位置能力开放后与商家 POI 的结合机会。"
+    },
+    {
+      "title": "豆包C端产品负责人陆游将离职",
+      "explanation": "虎嗅报道字节豆包 C 端产品负责人陆游将离职，去向倾向内部转岗，Flow 早期产品骨干相继退场。核心产品负责人变动，可能影响豆包 C 端产品节奏。",
+      "analysis_points": [
+        "人事变化：豆包 C 端产品负责人离场，Flow 早期骨干陆续退出，反映字节 AI 产品线在组织整合期的人员流动。",
+        "对合作方的提示：产品负责人变动期，C 端功能迭代节奏可能波动，商家侧接入计划宜留出缓冲。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6ME1kSjBjWUdFZHlZN2poQ0RNaWhfMmxZRmxiNDYtVHhuRTZwQU1MV0FzVzlZLXJNeVRsOVl5cFNtSC13a2wxcS0wSlNER1RGWi1sUQ?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "分析：中国AI仅落后美国12小时，字节Azure交易成焦点",
+      "explanation": "TIKR 报道称中国 AI 实验室与美国差距已缩至「12 小时」，并以字节与微软 Azure 的交易作为观察窗口。观点把字节的算力采购与中美模型差距直接挂钩。",
+      "analysis_points": [
+        "观点核心：以字节 Azure 交易为案例，认为中国模型迭代速度已接近美国，差距以小时而非年计。",
+        "论据局限：该判断主要基于个别交易与模型发布节奏，缺乏系统性基准测试支撑，宜作为参考而非定论。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "TIKR.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeVFoSGFwaExibkZuYWFobnZtTW52ZHZSczNhaUh5QXlRdV9VY0pzZVlGZXUtdDk5VnNHX2VldW9ELXVDZ1pnQWhsZWNLZkJReDFjdGxBaGJDeFExNkdxOGJZaHJqREliSWZ1WnhaOUlpZWJpYl9xUjBVMlJFZ3VJeHpsbUJfUmdfZ1pLeEc4LXJ3YXJZS3NHUWdBWmlibXF3RzFoaVhRamlMY0RsNjEwZ3ozTW43LVp1X1R0NzJLaGhXR2g5?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "字节开源异步强化学习后训练框架Laminar",
+      "explanation": "MarkTechPost 报道字节研究者开源异步强化学习后训练框架 Laminar。该框架面向 RL 后训练的效率问题，是字节在模型训练基础设施上的开源输出。",
+      "analysis_points": [
+        "技术路径：以异步方式组织强化学习后训练，降低训练过程中的等待与资源空转，提升后训练吞吐。",
+        "商业意义：后训练效率提升有助于缩短模型迭代周期，间接影响字节模型能力的更新频率与成本。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "MarkTechPost",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOREtoZmNWcnFoV0VTT2trNlBya2JEZllsaUFSYVgwcm9sMk5iZUJtR1FIVjJtRXhCaUh5ZjdFbE1SZFBzbC1yalZ2Y2dpMjY3X3ZOTTJhcG5fanJmTWZaQmptc3dEV3JtcGl5NExCeFh2QXVEVHZhSDczM0lBbERUeVliQzc3a0Utekx4ME0zUlJNckloYWtjTzZxUHjSAZwBQVVfeXFMTkRLaGZjVnJxaFdFU09razZQcmtiRGZZbGlBUmFYMHJvbDJOYmVCbUdRSFYybUV4QmlIeWY3RWxNUmRQc2wtcmpWdmNnaTI2N192Tk0yYXBuX2pyZk1mWkJqbXN3RFdybXBpeTRMQnhYdkF1RFR2YUg3MzNJQWxEVHlZYkM3N2tFLXpMeDBNM1JSTXJJaGFrY082cVB4?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "Sand.ai开源MAGI-2，价格仅Seedance 2.5十分之一",
+      "explanation": "爱范儿实测 Sand.ai 计划开源的 480B 视频模型 MAGI-2，认为其质量接近 Seedance 2.3 水准，1080P 下每秒约 0.5 元、价格约为 Seedance 2.5 的十分之一。这是对字节视频生成定价的直接冲击。",
+      "analysis_points": [
+        "能力对比：MAGI-2 以开源方式提供接近 Seedance 2.3 的生成质量，价格却只有 Seedance 2.5 的约十分之一，性价比差距显著。",
+        "对广告主的动作：视频素材生成可做「双轨」测试，高要求镜头用 Seedance，大批量低成本素材用开源模型，压低整体素材成本。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "爱范儿",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XYmo2RFdwbWJmemZHZUZ3UWxEaEFndUJXZ3JDQWdNTi1UMEdxUTFmeGtfNEQ3M3I0YS01V0NxZ3RnYUk?oc=5",
+      "local_life_hint": "本地生活商家做短视频投放时，可用低价开源视频模型批量生成门店素材，把预算集中到少数高质量主片上。"
+    },
+    {
+      "title": "实测对比：MAGI-2与Seedance 2.5的性价比之争",
+      "explanation": "AI 热点汇总作者实测 MAGI-2 与 Seedance 2.5 的对比细节，给出每秒 0.5 元的价格信息。这类第三方实测为广告主选择视频生成模型提供了可参照的性价比坐标。",
+      "analysis_points": [
+        "对比维度：从生成质量、时长与单价三个维度对比，MAGI-2 在价格上优势明显，Seedance 在稳定性与生态上仍有优势。",
+        "对投放的意义：模型选择从「只看效果」转向「效果/成本比」，素材生产预算的分配方式随之改变。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "AI热点",
+      "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
+      "local_life_hint": "投放团队可建立视频模型性价比对照表，按素材类型分配不同模型，避免统一使用高价模型推高成本。"
+    },
+    {
+      "title": "WeMM-Video对比Seedance 2.5：30秒对13分钟",
+      "explanation": "OrcaRouter 发布 WeMM-Video-35B-A3B 与 Seedance 2.5 的对比，突出生成时长 30 秒对 13 分钟的差距。时长能力成为视频模型差异化竞争的新维度。",
+      "analysis_points": [
+        "能力差异：Seedance 2.5 可生成约 13 分钟长视频，对比模型仅 30 秒，长视频生成仍是字节的差异化优势。",
+        "对商家的价值：长视频能力适合品牌故事片与门店长介绍，短视频批量素材则可交给更便宜的模型。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "OrcaRouter",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fWU5SejRIZEJrcUYxOHowTjZmS3JhQVpFRFNlRUtZWE1OWmY5a1lFZE55VXpoRVNFTTJScGlMOU9lVVhzd0FCTzhZUzYyZ3p4MWkyTUVvVmxMMy03YTVGWlN6NDkyaUdzNlIxMFlZRmkxR01YNVdpaWtyRQ?oc=5",
+      "local_life_hint": "需要长视频讲品牌故事的商家可优先用 Seedance 长时长能力，短平快的促销素材则用低价模型。"
+    },
+    {
+      "title": "TikTok Shop 2026数据：营收与销售规模",
+      "explanation": "DemandSage 汇总 TikTok Shop 2026 年营收与销售数据，为评估内容电商的规模与增速提供量化参照。数据类内容对判断 TikTok 电商商业化阶段有直接价值。",
+      "analysis_points": [
+        "数据价值：汇总营收与销售规模，可用于横向对比内容电商与货架电商的增长速度。",
+        "对商家的意义：规模数据支撑「是否加码 TikTok Shop」的预算决策，尤其适合跨境与美妆类商家。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "DemandSage",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91VWZuM0R1dExPcHpFRF9pYVNNVmNkb2JKdE92eENLUkJOSnJzWkI0dUY2LWhwYmN1RUdpWWpfWFM5YjlnNTNXekFBb1d5aFF1MGJkNXEyQ2thc2xHWkxv?oc=5",
+      "local_life_hint": "本地生活商家可参考 TikTok Shop 的增速判断内容电商投入节奏，评估短视频带货与到店核销的组合比例。"
+    },
+    {
+      "title": "Whatnot与Meta瞄准TikTok Shop黑五王座",
+      "explanation": "Tubefilter 报道 Whatnot 与 Meta 在黑色星期五正面挑战 TikTok Shop 的直播电商地位。竞争加剧意味着 TikTok Shop 需要以更强的商家政策与流量扶持守住份额。",
+      "analysis_points": [
+        "竞争格局：直播电商从 TikTok Shop 一家独大转向多方争夺，黑五成为关键战场。",
+        "对商家的机会：平台竞争期通常伴随补贴与流量倾斜，商家可争取更优的佣金与曝光条件。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "Tubefilter",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeC1BT3BnTk96RWtVV0t4eUh5blk5YjZGQkNkTk5tQ19RUXhodWdOX1RxaGQweHhyZkFFYzFyUnI5NWdRcmlsbWxPTlNDcTB2OXZaT3ZlNEtDVmFrSm85bDRPc1lTd1ZUVUJqX1JZQ1MwMTh0eEhyaWVVajhXSGxEVmlGSTA1aGlpRk1KTkowUFZ4MndhX2RYSmowanJBY1FxeGVSX0tuWHo?oc=5",
+      "local_life_hint": "大促期间可对比多平台直播电商的流量与佣金政策，把预算投向补贴力度更大的平台。"
+    }
+  ],
+  "mode": "ai"
+}

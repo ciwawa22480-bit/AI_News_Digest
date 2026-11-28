@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-11-22T14:50:53.925101+00:00",
+  "date_display": "2026年11月22日",
+  "date_short": "2026-11-22",
+  "weekday": "周日",
+  "editorial_summary": "今天字节系AI商业化最值得关注的是组织与基础设施层面的重构：Seed新设MaaS Infra部、火山方舟更名为Seed MaaS，意味着字节把模型服务从\"产品线\"升级为\"基础设施层\"，这对下游所有Agent、视频、办公场景的调用成本与稳定性都是底层利好。产品侧，豆包工作21个工作台与800万DAU的组合说明办公Agent已从尝鲜进入实战期，入口价值开始压过模型本身；视频侧Seedance 2.5 Flash以\"速度翻倍、价格降34%\"接入即梦与API，把AI视频从创作玩具推向产线化。生态上，神龙科技、风语筑等传统企业接连接入火山引擎，豆包大模型正沿智能座舱与三维空间数据两条线做行业渗透。整体看，字节在用\"更便宜的多模态+更低的接入门槛\"换取B端调用规模。",
+  "overview": {
+    "new_products": [
+      "字节将火山方舟更名为Seed MaaS并新设MaaS Infra部，由吴迪统一负责，把模型即服务从产品线提升为独立基础设施部门，面向企业与开发者统一提供模型调用与推理底座。",
+      "豆包工作上线21个专业场景工作台，把技能与工具配置预置化，用户无需自行搭建Agent即可直接进入行业任务流，降低办公Agent的使用门槛。",
+      "Seedance 2.5 Flash陆续接入即梦并开放API，生成速度翻倍、价格下降34%，同时4K版本API正式开放，视频生成向低成本、高分辨率产线靠拢。"
+    ],
+    "opinions": [
+      "有分析指出豆包工作与腾讯WorkBuddy、千问办公进入同题竞争，模型逐渐隐入后台、入口走向前台，谁掌握用户工作入口谁就掌握Agent分发权，模型能力不再是唯一差异点。",
+      "多家媒体将豆包工作三个月DAU破800万解读为字节AI组织架构整合初见成效，认为流量入口+组织协同的组合比单点模型能力更能拉动日活。"
+    ],
+    "ecosystem": [
+      "传统企业加速接入字节AI：神龙科技与火山引擎达成全面战略合作，AI座舱采用豆包大模型主打长记忆；风语筑携手火山引擎推进三维空间数据集建设，字节模型能力正沿汽车与空间数据两条垂直赛道落地。",
+      "视频生成赛道进入价格与产能竞争阶段，Seedance 2.5 Flash以降价34%、速度翻倍的策略开放API，行业竞争焦点从\"能不能生成\"转向\"单位成本与稳定产出\"。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节今日主线是组织与产品双线推进：一边把火山方舟升级为Seed MaaS并新设MaaS Infra部，强化模型服务的基建属性；一边用豆包工作21个工作台和800万DAU证明办公Agent已进入实战期。视频侧Seedance 2.5 Flash以降价提速接入即梦与API，继续压低多模态创作成本。",
+    "初创动向": "本批候选资讯中缺乏字节系AI初创融资或新品类的有效信息，故本分类无内容可报。",
+    "生态动向": "字节的行业渗透在加速：神龙科技把豆包大模型装进AI座舱主打长记忆，风语筑则与火山引擎共建三维空间数据集，说明火山引擎正从通用模型供应商转向垂直行业的数据与场景共建方。",
+    "观点与深度": "围绕豆包工作的讨论集中在\"入口与模型谁更重要\"，多家分析认为办公Agent的竞争已从模型能力转向工作流入口与场景预置；同时Seedance 2.5 Flash的降价被解读为视频生成进入产线化与成本战的信号。"
+  },
+  "local_life_insights": [
+    {
+      "base": "Seedance 2.5 Flash把视频生成速度提升一倍、价格下调34%，并同步开放4K版本API，视频生成底座从\"能出片\"变成\"低成本高频出片\"。",
+      "borrow": "外投团队可把视频素材生产从\"一条精修\"改为\"批量生成+数据筛选\"：用低价模型一次生成多版本钩子与场景，再按投放数据淘汰，把素材测试成本压到可承受范围，提升素材迭代频率。"
+    },
+    {
+      "base": "火山方舟更名为Seed MaaS并新设MaaS Infra部，模型服务被当作基础设施统一运营，接口、计费与推理资源归口管理。",
+      "borrow": "外投团队在采购或对接字节模型能力时，可期待更清晰的计费口径与更稳定的SLA，便于把AI生成成本按素材条数、按场景折算进投放预算模型，做单位获客成本核算。"
+    },
+    {
+      "base": "豆包工作上线21个专业场景工作台，把技能与工具配置预置化，办公Agent从自行搭建变为开箱即用。",
+      "borrow": "外投团队可把落地页文案、投放日报解读、评价情感分析等重复任务套用预置工作台，让优化师从手工整理中解放出来，把时间放在出价与人群策略上。"
+    }
+  ],
+  "insights_intro": "换个视角看，今天字节把视频生成成本打下来、把模型服务做成基建、把办公Agent做成开箱即用的工作台——这三件事叠加，意味着外投的素材生产会更便宜更快、AI工具调用会更标准化，投放成本结构里的\"内容制作\"一项将被显著压缩。",
+  "total_items": 10,
+  "new_vs_yesterday": 10,
+  "compare_date": "2026-11-21",
+  "high_count": 1,
+  "category_counts": {
+    "大厂动向": 5,
+    "生态动向": 3,
+    "观点与深度": 2
+  },
+  "items": [
+    {
+      "title": "火山方舟更名Seed MaaS，字节新设MaaS Infra部",
+      "explanation": "字节将火山方舟更名为Seed MaaS，并新设MaaS Infra部门，均由吴迪负责。这意味着模型即服务被提升为独立基础设施条线，对开发者与企业客户的调用稳定性、定价与迭代节奏都有直接影响。",
+      "analysis_points": [
+        "组织变化：火山方舟从原有产品线更名为Seed MaaS，并单设MaaS Infra部，模型服务被当作基础设施而非单一产品来运营。",
+        "对客户价值：企业接入字节模型的接口、计费与推理资源将由统一部门负责，长期看有利于降低调用门槛与运维复杂度。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "itsdw.cn",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE43R1hlVUk3bnl3SldneUZFdGNjaHBtREkzbEozS1VRaENDcFlOYnQyMkRpaThSYXhxTUcwVFNnM0pJakwtRUphb0htMjQ?oc=5",
+      "local_life_hint": "模型服务基建化后，本地生活类客户的AI能力采购可期待更稳定的SLA与更清晰的计费口径，便于把AI成本纳入投放预算模型。"
+    },
+    {
+      "title": "风语筑携手火山引擎，共建三维空间数据集",
+      "explanation": "风语筑与火山引擎合作推进三维空间数据集建设。这意味着火山引擎在通用模型之外，开始与行业方共建垂直数据资产，强化空间智能方向的底座能力。",
+      "analysis_points": [
+        "能力变化：从提供通用模型API，扩展到与行业方联合建设三维空间数据集，补足空间理解的数据来源。",
+        "对行业价值：三维数据资产可复用于展陈、文旅等场景的AI生成与交互，形成数据与模型的正循环。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NRC1JZ1k4LWl0MlNzVktmMTJKMTQtRFgtRWhVeTFPMjctRG9WaDJRU19MYi0zOW5uZjNFVFBYc1RELXdtOGlHb2x5bEp4MlFXZFFEaVdoUjBXWF94ZDZWVg?oc=5",
+      "local_life_hint": "文旅、展馆类本地生活场景可关注三维空间AI能力，用于沉浸式门店与体验空间搭建。"
+    },
+    {
+      "title": "豆包工作与WorkBuddy同题竞争：入口走向前台",
+      "explanation": "分析指出豆包工作与同类办公Agent进入同题竞争，模型隐入后台、入口走向前台。竞争焦点从模型能力转向谁掌握用户的工作入口与场景预置。",
+      "analysis_points": [
+        "观点核心：办公Agent的差异化不再靠模型参数，而靠入口位置与预置场景数量。",
+        "论据支撑：豆包工作以21个工作台和800万DAU证明入口+场景组合的有效性。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PdkNzYnV0TzVxUnJnRmFMTFJDTzRsX0syX1U1akotdmswMmx3eTJxNTU4eTlJNldRZ3RPcXhoMUUwNGZaR0VCQVZqY3FRZw?oc=5",
+      "local_life_hint": "对营销团队而言，抢占用户高频入口比自建模型更实际，可优先布局入口型AI工具的内容分发。"
+    },
+    {
+      "title": "豆包工作与WorkBuddy同日披露日活数据",
+      "explanation": "豆包工作与同类产品同日披露日活数据，办公Agent进入数据对垒阶段。公开日活意味着该赛道已从概念验证转入规模竞争，数据成为对外证明价值的主要方式。",
+      "analysis_points": [
+        "事件性质：两家同日披露日活，说明办公Agent进入以用户规模论高下的阶段。",
+        "对行业含义：日活公开化会加速资源向头部集中，后进入者获客成本上升。"
+      ],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "medium",
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQWVBOMkk4eFU3aXUzbVJrOVRjaGFTLThIWUxXeExNSjFIUmpwQ0xLX2VaaUlPejQ2VDZKR3RVZ2xzMW1ZUUczNmVZRkI?oc=5",
+      "local_life_hint": "广告主选择AI办公工具时可参考日活与场景覆盖，优先选用户基数大、场景贴合营销的入口。"
+    },
+    {
+      "title": "豆包大模型上车10万级纯电SUV",
+      "explanation": "10万级大众纯电SUV标配豆包大模型，顶配还带激光雷达。豆包正从高端车型下探到主流价位，规模化装车意味着车载语音入口的用户基数快速扩大。",
+      "analysis_points": [
+        "能力变化：豆包大模型从选配变为10万级车型标配，覆盖人群从高端扩展到主流消费层。",
+        "对行业价值：车载语音入口规模扩大，为后续车机端服务分发与广告触达提供基础。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNME5kMzJ4TUNvRXlfbmdXb0NWQXo5RFhINmFHQUpPeUR1cmFQcW5ucTBCN09QMlpBZzFrajdERXBFcm5YalE3blV5V0Jsd0RWS0J0bFIwMmNkMWRza0ZyQ3FIV0JMWUxMdFRFZGVYWmoxVUNaT3BlWHh4NDlvdlZuN1Zjc2VsajAx?oc=5",
+      "local_life_hint": "车载入口规模化后，本地生活服务可探索车机端的目的地推荐与到店引导。"
+    },
+    {
+      "title": "特斯拉中国接入豆包，大模型选型引讨论",
+      "explanation": "特斯拉中国接入豆包大模型，引发\"大模型这么多为什么选它\"的讨论。头部外资车企选择字节模型，对豆包在车载场景的口碑与示范效应有直接帮助。",
+      "analysis_points": [
+        "事件意义：外资头部车企在中国市场选用豆包，说明其在中文交互与本地化服务上具备竞争力。",
+        "对生态价值：标杆客户案例有助于火山引擎向更多车企复制座舱AI方案。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OTzdZakdQTUExS3Z0TGs2QU9hUGw1MURvVldHQWdRTGp1RGQ4Mk1vWElVam5lT2V6Yy03UE12SzN1OW9LSVRzUmkzekZMUkRxa1V4QS1ER1JiajQ?oc=5",
+      "local_life_hint": "车载语音入口的本地服务推荐具备想象空间，可关注车机端与到店场景的联动。"
+    },
+    {
+      "title": "风云T7灵犀智舱2.0搭载豆包大模型",
+      "explanation": "成都车展上风云T7展示灵犀智舱2.0与豆包大模型的组合。豆包在车展密集曝光，说明其车载方案正成为自主品牌智能座舱的常见选项。",
+      "analysis_points": [
+        "能力变化：智舱2.0结合豆包大模型，语音交互从命令执行升级为多轮对话与场景理解。",
+        "对行业价值：车展曝光加速豆包在自主品牌中的渗透，形成规模化装车趋势。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "汽车之家",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01alc3NndwSVZnU0RyeWU2bGxXdHMtc3VjaXk2ZzFtV0dtT2tuX19kRVVQMTdxd09mR3FRNEpfeDNueUxLMXFmYUs4dDc1cVdyN19iaFVWODNNV0ZIUktsbm1vVW1ydw?oc=5",
+      "local_life_hint": "自主品牌座舱普及豆包后，车机端语音入口的本地服务分发值得提前布局。"
+    },
+    {
+      "title": "扣子接入API中转站，自定义模型配置踩坑",
+      "explanation": "开发者分享扣子接入API中转站时自定义模型配置与endpoint格式报错的处理经验。这类实践帖反映扣子作为Agent平台的开放度提升，但接入细节仍有门槛。",
+      "analysis_points": [
+        "能力变化：扣子支持通过中转站接入自定义模型，扩展了可用模型范围，但配置格式要求较严格。",
+        "对开发者价值：掌握endpoint与model id的正确配置可避免接入失败，缩短Agent上线时间。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wa1gtdDI4Q0NtOFlDRzF0b29XX2Z5MTc1Q29DMm5tTkMwaWxrcTV3M1E0eWVMNWQ0MXJuYjRuSUk1Vm04clM0TDBpZlYxWmtkMS1jQm9PUHRnVWNJamc?oc=5",
+      "local_life_hint": "营销技术团队用扣子搭建投放自动化Agent时，需注意自定义模型的接口格式规范。"
+    },
+    {
+      "title": "即梦AI创作者计划产出古装AI短片",
+      "explanation": "创作者借助即梦AI完成古装短片《神仙传之罗公远》，并参与即梦AI创作者成长计划。这类案例显示即梦正通过创作者激励积累内容生态与使用黏性。",
+      "analysis_points": [
+        "能力变化：即梦从单次生成工具扩展为支持完整短片创作的流程平台，配合创作者计划形成内容沉淀。",
+        "对创作者价值：参与成长计划可获得曝光与激励，降低个人创作者的内容试错成本。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KNHZfbzgxZEc2UV9GN2xBY1l5aDAwNjBpX1Y1WThYcGJtT1dkQXBkZ2Z1SllhTExILTY0aWtKVENrNFhFZDZLZzBNd1c3eVl5U1J4bS1YSlRjaEJVR0xDUDFaZUtHTmUtUlZ3?oc=5",
+      "local_life_hint": "本地生活品牌可借即梦创作者生态做UGC内容共创，降低短视频素材生产门槛。"
+    },
+    {
+      "title": "火山引擎重塑全栈开发体验，代码生成受关注",
+      "explanation": "火山引擎以全栈开发体验为卖点推广代码生成能力，面向开发者提供从模型到工具链的一体化方案。这反映字节在开发者市场的争夺从模型API延伸到开发工具链。",
+      "analysis_points": [
+        "能力变化：从单纯提供代码生成模型，扩展为覆盖开发全流程的工具链体验。",
+        "对开发者价值：一体化工具链可减少在多个平台间切换的成本，提升开发效率。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "low",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEVVBvQ0VKVzQyS2Zac3RpTEY0NTI2ZWZlUE1PbUtDNVF0VFR6VmVvTXlWOU1PZzhfT2dtaFJ6SVpXTVNTTFRlR0F3RWVSUkh2V29oMGQ0WTJLampaNjU0blAzWVhqZjhvM0dEQ1N6eDFYS1NRV3VGRlJkYmdfZw?oc=5",
+      "local_life_hint": "营销技术团队可评估用其代码生成能力搭建投放工具，降低自研成本。"
+    }
+  ],
+  "mode": "ai"
+}

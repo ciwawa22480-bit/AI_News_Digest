@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-11-27T10:07:20.765690+00:00",
+  "date_display": "2026年11月27日",
+  "date_short": "2026-11-27",
+  "weekday": "周五",
+  "editorial_summary": "今天字节系 AI 商业化最值得关注的是「入口与场景」的双线推进：一边是豆包把购物入口灰度到一级标签、豆包工作独家接入剪映插件，把 AI 助手从聊天推向「办事+成交」；另一边是抖音生活服务换帅，明确把业务重心转向 AI 提效与利润健康，说明本地生活这条商业化主线正在用 AI 重构人效与投放效率。同时，豆包大模型在车机与电视端密集落地，上汽大众首发豆包 2.0、深蓝开放端到端豆包，豆包电视双11销售额破亿，验证了「模型即卖点」的带货能力。生态侧，三人行成为字节官方生态伙伴、沐曦与火山引擎合作，显示火山引擎正通过伙伴体系把算力—模型—应用串成可交付的商业闭环。整体看，字节的 AI 商业化正从「能力发布」转向「入口变现与行业渗透」，广告与本地生活团队应重点关注豆包购物入口与剪映插件带来的素材生产与转化链路变化。",
+  "overview": {
+    "new_products": [
+      "豆包灰度测试一级购物入口，交易直接接入抖音商城，把 AI 助手变成抖音电商的新流量漏斗，用户可在对话场景内完成从种草到下单的闭环。",
+      "豆包工作独家接入剪映官方插件，支持一句话智能剪辑、多轨精修与 AI 协同创作，把视频素材生产从专业工具操作变成自然语言指令驱动。",
+      "即梦上线三大工作室形态，实测显示不会拍片的用户也能按导演流程完成分镜与成片，AI 视频创作门槛进一步下探到普通商家可用的水平。"
+    ],
+    "opinions": [
+      "有分析指出豆包从聊天转向办事，个人智能体竞速的真正卡点是授权与信任，而非模型能力，这决定了 AI 助理能否承接交易类任务。",
+      "有观点认为字节「拿走全天、腾讯攥住一生」，字节系凭借高频内容与电商场景占据用户全天时长，AI 入口是其巩固时长的关键抓手。",
+      "针对字节 AI 训练方法，有报道称其主张多数训练阶段并非必要，并以开源模型佐证，暗示模型迭代成本结构可能被重写。"
+    ],
+    "ecosystem": [
+      "火山引擎生态伙伴体系加速扩张，三人行率先成为字节官方生态伙伴并打通算力—模型—应用链条，显示火山引擎正以伙伴制推进企业级交付。",
+      "沐曦与火山引擎合作把芯片研发上云并走向更多 AI 应用现场，国产算力与云平台的绑定正在加深，基础设施层合作成为落地前提。",
+      "豆包大模型在车机、电视等硬件端密集落地，模型厂商与终端厂商的合作模式从「授权接入」走向「联合首发」，硬件成为模型分发新渠道。"
+    ]
+  },
+  "category_summaries": {
+    "大厂动向": "字节今日动作集中在入口与场景两端：豆包灰度一级购物入口直连抖音商城，把 AI 助手变成电商成交漏斗；豆包工作接入剪映插件，补齐视频素材生产能力。同时抖音生活服务换帅，明确转向 AI 提效与利润健康，显示本地生活商业化正用 AI 重构人效与投放效率。",
+    "初创动向": "今日字节系相关初创侧信息以生态伙伴为主：三人行成为字节官方生态伙伴并打通算力—模型—应用链条，沐曦与火山引擎合作把芯片研发上云。整体看，围绕火山引擎的伙伴型初创正从单点工具转向全链条交付。",
+    "生态动向": "豆包大模型在车机与电视端密集落地，上汽大众首发豆包 2.0、深蓝开放端到端豆包、豆包电视双11销售额破亿，硬件成为模型分发与带货的新渠道。火山引擎则通过伙伴体系与国产算力合作，强化基础设施层的落地能力。",
+    "观点与深度": "今日观点集中在两处：一是豆包从聊天转向办事，个人智能体的卡点在授权与信任而非模型能力；二是字节「拿走全天」的时长逻辑，说明 AI 入口是巩固高频场景的关键。另有报道讨论字节对 AI 训练阶段的精简主张，指向成本结构变化。"
+  },
+  "local_life_insights": [
+    {
+      "base": "豆包工作独家接入剪映官方插件，把视频剪辑从手动时间线操作改成一句话指令驱动，并支持多轨精修。",
+      "borrow": "外投团队可把素材生产流程改为「自然语言脚本→批量生成多版本→人工精修」的流水线，用更低成本产出大量本地生活投放素材做 A/B 测试。"
+    },
+    {
+      "base": "豆包灰度一级购物入口并直连抖音商城，AI 对话场景内可直接完成从种草到下单的闭环。",
+      "borrow": "外投团队应研究 AI 推荐场景下的商品与套餐表达方式，提前优化商家信息结构，争取在 AI 入口获得曝光与转化。"
+    },
+    {
+      "base": "即梦上线三大工作室形态，覆盖分镜、生成、成片全流程，普通商家也能产出成片级视频。",
+      "borrow": "外投团队可用即梦工作室低成本制作门店宣传片与本地推广视频，替代部分外包拍摄预算，把省下的成本投入投放测试。"
+    }
+  ],
+  "insights_intro": "换个视角看，今天字节把视频素材生产（剪映插件、即梦工作室）和 AI 消费入口（豆包购物）同时往前推，意味着外投的素材成本会下降、但入口竞争会更集中在 AI 推荐场景，投放团队需要重做素材流水线与商品表达。",
+  "total_items": 11,
+  "new_vs_yesterday": 11,
+  "compare_date": "2026-11-26",
+  "high_count": 2,
+  "category_counts": {
+    "大厂动向": 3,
+    "生态动向": 3,
+    "初创动向": 1,
+    "观点与深度": 4
+  },
+  "items": [
+    {
+      "title": "豆包工作独家接入剪映插件，一句话完成智能剪辑",
+      "explanation": "豆包工作独家接入剪映官方插件，支持一句话智能剪辑视频、多轨精修与 AI 协同创作。这把视频素材生产从专业剪辑操作变成自然语言指令，直接降低商家与投放团队的内容生产成本。",
+      "analysis_points": [
+        "能力变化：视频剪辑从手动时间线操作变成一句话指令驱动，且支持多轨精修，兼顾效率与可控性。",
+        "对广告主价值：投放素材的批量生产门槛下降，团队可用自然语言快速产出多版本素材做 A/B 测试。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "SmartHey",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84aWQxdmNuY2xoeXJoUk1mMzg5d05CQW9aY05JQTdGX19pNWZGdzBsMnRfLUNDdE16RTVDeVdQZC1YR2dlN2hMV0EwVjY0dXBQTV9mLWpydWJ0RHlSbWc?oc=5",
+      "local_life_hint": "本地生活投放团队可用该插件批量生成门店短视频素材，降低外投素材制作成本与周期。"
+    },
+    {
+      "title": "抖音生活服务换帅，业务转向AI提效与利润健康",
+      "explanation": "抖音生活服务换帅，浦燕子转任顾问、莫少君接棒，业务重心明确转向 AI 提效与利润健康。这释放出本地生活从规模扩张转向效率与盈利的信号，AI 成为提效核心抓手。",
+      "analysis_points": [
+        "战略变化：本地生活从追求 GMV 规模转向利润健康，AI 提效被列为业务重心，意味着人效与投放效率考核会加强。",
+        "对商家价值：平台更看重 ROI 与利润，商家应优化投放结构、提升核销率，配合平台的 AI 提效工具争取流量倾斜。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "high",
+      "source": "虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Nal9GZlRpbS0xTVdWZV9BVGlUdEpSaGRYNjdLRjRNTDJ1V2hDNWczbFFSREYyWTZDaGowc1F5YWNlRXRuenJoWENfT3diSi01M2hBRw?oc=5",
+      "local_life_hint": "本地生活商家应关注平台 AI 提效工具与利润导向的流量分配规则，提前调整投放 ROI 目标。"
+    },
+    {
+      "title": "深蓝S07/L07首批开放域端到端豆包大模型",
+      "explanation": "深蓝汽车宣布全新 S07/L07 AI 激光版将首批开放域端到端豆包大模型，模型能力从语音助手深入到整车域控制。这显示豆包在车端的角色从交互层向控制层延伸。",
+      "analysis_points": [
+        "能力变化：豆包从车机语音交互升级为端到端域控制，覆盖更多车辆功能场景。",
+        "商业价值：端到端接入提升用户黏性，为后续车机端服务与内容分发创造入口。"
+      ],
+      "category": "大厂动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1OUENVWHVZOTQ1OFozNzEyeHVhN1NEbGRwQzQwZGYzUTdtTnRDSHhPOEY5Z3VEYks3Tk5UQ2xmM3ZFc0NaWXd3RWNHODI?oc=5",
+      "local_life_hint": "汽车本地经销商可关注端到端模型带来的座舱体验卖点，用于到店转化话术。"
+    },
+    {
+      "title": "豆包大模型电视双11销售额破亿",
+      "explanation": "豆包大模型电视双11销售额破亿，说明「大模型」已成为电视品类的核心卖点并直接带动成交。这对字节是模型商业化与硬件带货能力的双重验证。",
+      "analysis_points": [
+        "数据价值：双11期间豆包大模型电视销售额破亿，证明模型标签能转化为实际购买决策。",
+        "对商家价值：硬件厂商可把大模型能力作为差异化卖点，配合电商大促做联合营销。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "电商派",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zYUpyZkxjZkk5WGdZbjRHVTNHMUhDcFpSUEJTazNKdnp6T01keGFSU2gwY0Z5RE8yb3NWakM1SzBLeE0yN0JDTG9iSThhazNxaXU2MjJ5SkhFeHdwMXN0bw?oc=5",
+      "local_life_hint": "家电与 3C 商家可借鉴「模型能力即卖点」的表达方式，用于本地门店促销素材。"
+    },
+    {
+      "title": "三人行成为字节官方生态伙伴，打通全产业链条",
+      "explanation": "三人行率先成为字节跳动官方生态伙伴，All-in-AI 打通算力—模型—应用全产业链条。这显示火山引擎正通过伙伴体系把能力打包成可交付方案。",
+      "analysis_points": [
+        "生态变化：字节官方生态伙伴体系落地，伙伴可整合算力、模型与应用做一体化交付。",
+        "对广告主价值：营销服务商可借助伙伴资质承接企业 AI 落地项目，拓展服务边界。"
+      ],
+      "category": "初创动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZZjNKaTZZc1FxZlphNXVHQUhhR2RFN0NyWHQ5eTBwRUpGYURHdlBaSUdXVDFHX0VoRXpNUUNBazBUSWRWak84Y3RtRDRWX2JIV1k5cnFuX0I0bWg0R2gxZ0diTml3SjdsM0dMMUJFUGkwd2QycHJpNg?oc=5",
+      "local_life_hint": "本地生活服务商可关注字节生态伙伴资质，争取承接商家 AI 营销落地项目。"
+    },
+    {
+      "title": "沐曦与火山引擎合作，芯片研发上云走向AI应用现场",
+      "explanation": "沐曦芯片研发上云后与火山引擎一起走进更多 AI 应用现场，显示国产算力与云平台绑定加深。基础设施层合作正成为模型落地的关键前提。",
+      "analysis_points": [
+        "合作变化：国产芯片研发上云并与火山引擎联合进入应用现场，算力与云平台协同加深。",
+        "行业意义：国产算力生态与字节云平台绑定，有助于降低企业 AI 落地的算力门槛。"
+      ],
+      "category": "生态动向",
+      "type": "fact",
+      "impact": "medium",
+      "source": "AI云资讯",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QbENoZ2NoOTctUDdneHA5dmdqR3FDS2tZQVZLaFR4QVRkc3FpYnV6STNrbThPMk1QMzRGQ2lUTTNya1BSeHVndDJHNUNkZWZMU3c?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包从聊天转向办事，个人智能体卡在授权与信任",
+      "explanation": "分析指出豆包 AI 助理正从聊天转向办事，但个人智能体竞速的真正卡点是授权与信任而非模型能力。这决定了 AI 助理能否承接交易类任务。",
+      "analysis_points": [
+        "观点核心：个人智能体的瓶颈在授权机制与用户信任，而非模型能力本身。",
+        "对商业化意义：信任与授权问题解决前，AI 助理承接支付与交易类任务仍受限。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "同花顺",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1SUNNTktza0xPYU91NU9haS1VTk9NMVlRZEMyVUdIN2dYOXhURTBENDl3LXdNYjhTYlFIYXF6cjFSM0JLVk9ldFc3clRTbEl1elhsNlYzRm9vTU0tS1E?oc=5",
+      "local_life_hint": "本地生活交易若接入 AI 助理，需优先解决授权与信任设计，商家可关注相关入口开放节奏。"
+    },
+    {
+      "title": "字节拿走全天腾讯攥住一生，AI入口巩固高频时长",
+      "explanation": "分析认为字节系凭借高频内容与电商场景占据用户全天时长，腾讯则占据长期关系场景。AI 入口是字节巩固高频时长的关键抓手。",
+      "analysis_points": [
+        "观点核心：字节以高频内容与电商占据用户全天时长，AI 入口强化这一优势。",
+        "对广告意义：高频时长意味着更多广告库存与触达机会，AI 入口可能带来新的广告位。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "潮起网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PQkVLTnZRbUEzX0FwYmkxM3h5ZG1xaVJiQ2lVRFI5NE1jQ3l4OFRlMlo1U2dFbGxSNndzaEdTUjI0MktSTXFyY19QYjNQYkx1ZVJ3YkxVbU5UVkxldFdpZjNRWQ?oc=5",
+      "local_life_hint": "广告主可关注豆包等 AI 入口是否新增广告位，提前布局高频场景触达。"
+    },
+    {
+      "title": "火山引擎成企业级代码模型交付首选",
+      "explanation": "报道讨论 2026 企业级代码模型选型，认为火山引擎成为交付首选。这反映火山引擎在企业级 AI 开发场景的交付能力获得认可。",
+      "analysis_points": [
+        "产品定位：火山引擎在企业代码模型交付上形成差异化，覆盖开发与部署环节。",
+        "商业意义：企业级开发场景是模型商业化的重要付费市场，交付能力决定复购。"
+      ],
+      "category": "生态动向",
+      "type": "opinion",
+      "impact": "low",
+      "source": "CSDN",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ST3VqeEEwZUNONEx5T0RFZjZVdnMyaVBiYjBBMVZRZ3p0VlhEN1J4cW9pX25ka0hpOVNzS3E5Um5jOU44dU8zbnhraFVKM3JWZ0QyMjVySEVGX0xuMkVv?oc=5",
+      "local_life_hint": ""
+    },
+    {
+      "title": "豆包也要上餐桌，AI助手切入餐饮场景",
+      "explanation": "报道讨论豆包切入餐饮场景的可能性，AI 助手开始向本地生活的高频餐饮需求延伸。若落地，将为本地生活商家带来新的 AI 入口流量。",
+      "analysis_points": [
+        "场景变化：豆包从通用助手向餐饮等本地生活场景延伸，可能承接点餐与推荐需求。",
+        "对商家价值：餐饮商家可关注豆包是否开放本地推荐位，提前优化门店信息与套餐。"
+      ],
+      "category": "观点与深度",
+      "type": "opinion",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12M0diTXhTYUNqTUJTbjJqYzl6aDR2SWJMMjMtTE8yTkZCbVAzZF9NdlZJY3J4QTZNWFdYcjg2ZmpMX1k4OWNXS0NiZFpZQQ?oc=5",
+      "local_life_hint": "本地餐饮商家可提前完善门店在抖音与豆包生态的信息，争取 AI 推荐曝光。"
+    },
+    {
+      "title": "AI人才流动：字节腾讯阿里超百起核心岗变动",
+      "explanation": "报道称字节、腾讯、阿里之间发生超百起核心岗变动，顶级年薪达 2000 万元。AI 人才争夺加剧，反映大模型竞争已进入人才与组织层面。",
+      "analysis_points": [
+        "数据价值：超百起核心岗变动与 2000 万年薪，显示 AI 人才争夺的激烈程度。",
+        "行业意义：人才流动加速技术扩散，也推高头部公司的组织成本。"
+      ],
+      "category": "观点与深度",
+      "type": "fact",
+      "impact": "medium",
+      "source": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kd0xXU3hMUTRNOVlDc1p4NV9nN01xQXk1LTVxTEhUMlZkY05ieGhiTjMzR1I0YUpFcU1IVkJXOERLVXhpM0E2M1hKUUdsQzlVenFj?oc=5",
+      "local_life_hint": ""
+    }
+  ],
+  "mode": "ai"
+}
